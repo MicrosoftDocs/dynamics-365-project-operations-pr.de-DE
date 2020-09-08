@@ -1,0 +1,1 @@
+<span data-ttu-id="6f78b-101">Gilt für die Project Service-App mit den Versionen 2.x und 1.x</span><span class="sxs-lookup"><span data-stu-id="6f78b-101">Applies to Project Service app versions 2.x and 1.x</span></span>
