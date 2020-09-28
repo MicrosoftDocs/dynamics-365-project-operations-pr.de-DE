@@ -57,7 +57,7 @@
 ### [Analysieren von Projektangeboten](basic-analyzing-quotes.md)
 ### [Zuvor genehmigte Zeit- oder Ausgabeneinträge zurückrufen](recall-approved.md)
 ### [Genehmigung zuvor genehmigter Zeit- oder Ausgabeneinträge stornieren](cancel-approval.md)
-### [Ist-Werte](actuals.md)
+### [Tatsächliche Transaktionen](actuals.md)
 ### [Projektabrechnungsrückstand überprüfen](review-invoicing-backlog.md)
 ### [Rechnungsstellung](invoicing.md)
 ### [Mehrfachwährungsszenarien](advanced-currency.md)
@@ -95,7 +95,7 @@
 ## [Warum ist der Standardpreis bei tatsächlichen Werten für vertriebliche Ausgaben null?](FAQ-zero-price-expense-sales-actuals.md)
 ## [Warum ist der Standardpreis bei tatsächlichen Werten für Zeitkosten null?](FAQ-zero-price-time-cost-actuals.md)
 ## [Warum ist der Standardpreis bei tatsächlichen Werten für vertriebliche Ausgaben null?](FAQ-zero-price-time-sales-actuals.md)
-## [Warum kann ich keine Datensätze aus der Ist-Werte-Entität löschen?](FAQ-deleting-actuals.md)
+## [Warum kann ich keine Datensätze aus der Entität „Tatsächliche Transaktionen“ löschen?](FAQ-deleting-actuals.md)
 
 # Anleitung für frühere Versionen (App-Version 2.x und 1.x)
 ## FAQ und Problembehandlung 
