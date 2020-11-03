@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06c6f06754714af3260ddb1c86aacc2f937ba77d
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076368"
 ---
 # <a name="close-an-opportunity"></a>Schließen einer Verkaufschance
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Projektverkaufschancen können als gewonnen oder verloren geschlossen werden. Im **Verkaufschance schließen**-Dialogfeld können Sie Statusgrund, Datum und andere Details zum Gewinn oder Verlust der Verkaufschance eingeben.
+Projektverkaufschancen können als gewonnen oder verloren geschlossen werden. Im **Verkaufschance schließen** -Dialogfeld können Sie Statusgrund, Datum und andere Details zum Gewinn oder Verlust der Verkaufschance eingeben.
 
 Sie dürfen die Verkaufschance nicht schließen, wenn damit aktive Angebote verknüpft sind. Sie können alle aktiven Angebote und Angebotsentwürfe, die einer Verkaufschance zugeordnet sind, gleichzeitig schließen. Dann dürfen Sie die Verkaufschance schließen.
 

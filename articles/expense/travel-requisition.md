@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076393"
 ---
 # <a name="travel-requisitions"></a>Reiseanforderungen
 
@@ -31,7 +31,7 @@ Reiseanforderungen können als „obligatorisch“ konfiguriert werden, indem de
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Eine Reiseanforderung erstellen und einreichen
 
-1. Navigieren Sie zu **Meine Ausgaben: Reiseanforderung**, und wählen Sie **Neue Reiseanforderung** aus.
+1. Navigieren Sie zu **Meine Ausgaben: Reiseanforderung** , und wählen Sie **Neue Reiseanforderung** aus.
 2. Geben Sie einen Zweck und ein Ziel für die Anforderung ein.
 3. Geben Sie im Feld **Reisebeschreibung** zusätzliche Informationen ein. 
 4. Erstellen Sie für jede der erwarteten Ausgaben, z. B. Flug, Mahlzeiten oder Mietwagen, eine Ausgabenposition. Geben Sie für jede Ausgabe das geschätzte Datum, den geschätzten Betrag und die Währung an. 

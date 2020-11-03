@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896730"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076409"
 ---
 # <a name="security-model"></a>Sicherheitsmodell
 
@@ -36,10 +36,11 @@ Die Front-End-Funktionen von Project Operations umfassen die folgenden Rollen:
 
 
 Microsoft Project for the Web enthält die folgenden Rollen:
-| Rolle                          | Beschreibung des Dataflows                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Projektbenutzer | Kollaborativer Benutzer von Project, der in der Lage ist, eigene Projekte zu erstellen und alle für ihn freigegebenen Projekte anzuzeigen| User|
-| Projektsystem | Rolle, die für den Anwendungskontext verwendet wird Kunden sollten diese Systemrolle nicht verwenden. | Global|
+
+| Rolle           | Beschreibung des Dataflows                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Projektbenutzer   | Kollaborativer Benutzer von Project   , der in der Lage ist, eigene Projekte zu erstellen und alle für ihn freigegebenen Projekte anzuzeigen | User   |
+| Projektsystem | Rolle, die für den Kontext der Anwendung   verwendet wird Kunden sollten diese Systemrolle nicht verwenden.                                    | Global |
 
 ## <a name="security-enforcement"></a>Sicherheitsdurchsetzung
 Aktionen, die auf Projektebene ausgeführt werden, werden im Kontext des angemeldeten Benutzers ausgeführt. Dies bedeutet, dass der Benutzer zum Erstellen, Öffnen oder Löschen eines Projekts Zugriff auf CDS haben muss. Der Zugriff auf CDS kann über einen der in der Plattform enthaltenen möglichen Mechanismen gewährt werden. Beispielsweise kann ein Benutzer mit einem größeren Bereich auf das Projekt zugreifen oder wenn eine explizite Projektfreigabeaktion ausgeführt wurde, die dem Benutzer Zugriff gewährt.
@@ -56,6 +57,8 @@ Mithilfe von Gruppen können die Berechtigungen des Projekts und unterstützende
 Project Operations erstellt keine Gruppe durch implizite Aktion und nur durch die explizite Aktion dringlicher Gruppen.
 
 Die Suche nach Gruppenmitgliedern im Dialogfeld **Gruppenverwaltung** ist auf diejenigen beschränkt, die als Teil der Sicherheitsgruppe der Umgebung festgelegt sind. Weitere Informationen unter [Benutzerzugriff auf Umgebungen steuern: Sicherheitsgruppen und Lizenzen](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Gruppenmodus](./media/groupsmode.png)
 
 1. Das Projekt wird erstellt und gehört dem erstellenden Benutzer.
 2. Der Projektbesitzer wird für das Team aktualisiert.

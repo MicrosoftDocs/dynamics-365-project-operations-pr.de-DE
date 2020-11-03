@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076750"
 ---
 # <a name="project-price-lists"></a>Projektpreislisten
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations erweitert die Preislistenentität in Dynamics 36
 
 Eine Preisliste enthält Informationen, die von vier verschiedenen Entitäten bereitgestellt werden:
 
-- **Preisliste**: Diese Entität speichert Informationen zum Kontext, zur Währung, zur Datumsgültigkeit und zur Preisgestaltungszeit. Kontext zeigt, ob die Preisliste Kosten- oder Vertriebsraten enthält. 
-- **Währung**: Diese Entität speichert die Währung von Preisen auf der Preisliste. 
-- **Datum**: Diese Entität wird verwendet, wenn das System versucht, einen Preis standardmäßig für eine Transaktion einzugeben. Es wird eine Preisliste ausgewählt, bei der eine Datumsgültigkeit vorliegt, die das Datum der Transaktion enthält. Wenn mehr als eine Preisliste gefunden wird, die für das Transaktionsdatum gültig ist und dem entsprechenden Angebot, Vertrag oder der Organisationseinheit angefügt ist, wird kein Preis standardmäßig festgelegt. 
-- **Zeit**: Diese Entität speichert die Zeiteinheit, für die Preise ausgedrückt werden, beispielsweise Tages- oder Stundenraten. 
+- **Preisliste** : Diese Entität speichert Informationen zum Kontext, zur Währung, zur Datumsgültigkeit und zur Preisgestaltungszeit. Kontext zeigt, ob die Preisliste Kosten- oder Vertriebsraten enthält. 
+- **Währung** : Diese Entität speichert die Währung von Preisen auf der Preisliste. 
+- **Datum** : Diese Entität wird verwendet, wenn das System versucht, einen Preis standardmäßig für eine Transaktion einzugeben. Es wird eine Preisliste ausgewählt, bei der eine Datumsgültigkeit vorliegt, die das Datum der Transaktion enthält. Wenn mehr als eine Preisliste gefunden wird, die für das Transaktionsdatum gültig ist und dem entsprechenden Angebot, Vertrag oder der Organisationseinheit angefügt ist, wird kein Preis standardmäßig festgelegt. 
+- **Zeit** : Diese Entität speichert die Zeiteinheit, für die Preise ausgedrückt werden, beispielsweise Tages- oder Stundenraten. 
 
 Mit der Preislistenentität sind drei Tabellen verbunden, bei denen Preise gespeichert werden:
 
-  - **Rollenpreis**: Diese Tabelle enthält eine Rate für eine Kombination aus Rollen- und Organisationseinheitswerten und wird verwendet, um rollenbasierte Preise für Mitarbeiter festzulegen.
-  - **Transaktionskategoriepreis**: Diese Tabelle enthält Preise nach Transaktionskategorie und wird verwendet, um Ausgabenkategoriepreise einzurichten.
-  - **Preislistenelemente**: Diese Tabelle enthält Preise für Katalogprodukte.
+  - **Rollenpreis** : Diese Tabelle enthält eine Rate für eine Kombination aus Rollen- und Organisationseinheitswerten und wird verwendet, um rollenbasierte Preise für Mitarbeiter festzulegen.
+  - **Transaktionskategoriepreis** : Diese Tabelle enthält Preise nach Transaktionskategorie und wird verwendet, um Ausgabenkategoriepreise einzurichten.
+  - **Preislistenelemente** : Diese Tabelle enthält Preise für Katalogprodukte.
  
 Die Preisliste ist eine Gebührenkarte. Eine Gebührenkarte ist eine Kombination aus der Preislistenentität und verknüpften Zeilen bei den Tabellen Rollenpreis, Transaktionskategoriepreis und Preislistenelemente.
 
@@ -60,9 +59,9 @@ Die Einheitengruppe **Zeit** wird bei der Installation von Project Operations er
 
 Reise- und andere Ausgaben, die Projektberater verursachen, werden in der Regel dem Kunden in Rechnung gestellt. Preisgestaltung von Ausgabenkategorien werden durch die Verwendung von Preislisten abgeschlossen. Flugpreise, Hotel und Automiete sind Beispiele für Ausgabenkategorien. Jede Preislistenzeile für Ausgaben gibt die Preisgestaltung für eine bestimmte Ausgabenkategorie an. Die folgenden drei Methoden werden verwendet, um Ausgabenkategorien zu bewerten:
 
-- **Einstandswert**: Die Ausgabenkosten werden dem Kunden in Rechnung gestellt und es wird kein Aufschlag angewendet.
-- **Aufschlagsprozentsatz**: Den Prozentsatz für die tatsächlichen Kosten wird dem Kunden in Rechnung gestellt. 
-- **Einzelpreis**: Ein Abrechnungspreis wird für jede Einheit der Ausgabenkategorie festgelegt. Der Betrag, der dem Kunden berechnet wird, wird basierend auf der Anzahl der Ausgabeneinheiten berechnet, die der Berater meldet. Bei der Kilometerangabe wird die Preis-pro-Einheit-Preisberechnungsmethode verwendet. Beispielsweise kann die Kilometerangaben-Ausgabenkategorie mit 30 US-Dollar (USD) pro Tag oder 2 USD pro Meile konfiguriert werden. Wenn ein Berater die Kilometerangabe bei einem Projekt meldet, wird der Abrechnungsbetrag basierend auf der Anzahl der Meilen berechnet, die der Berater gemeldet hat.
+- **Einstandswert** : Die Ausgabenkosten werden dem Kunden in Rechnung gestellt und es wird kein Aufschlag angewendet.
+- **Aufschlagsprozentsatz** : Den Prozentsatz für die tatsächlichen Kosten wird dem Kunden in Rechnung gestellt. 
+- **Einzelpreis** : Ein Abrechnungspreis wird für jede Einheit der Ausgabenkategorie festgelegt. Der Betrag, der dem Kunden berechnet wird, wird basierend auf der Anzahl der Ausgabeneinheiten berechnet, die der Berater meldet. Bei der Kilometerangabe wird die Preis-pro-Einheit-Preisberechnungsmethode verwendet. Beispielsweise kann die Kilometerangaben-Ausgabenkategorie mit 30 US-Dollar (USD) pro Tag oder 2 USD pro Meile konfiguriert werden. Wenn ein Berater die Kilometerangabe bei einem Projekt meldet, wird der Abrechnungsbetrag basierend auf der Anzahl der Meilen berechnet, die der Berater gemeldet hat.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projektvertriebspreisberechnung und -Außerkraftsetzungen
 

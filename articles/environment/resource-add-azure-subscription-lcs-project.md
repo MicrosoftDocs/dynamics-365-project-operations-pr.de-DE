@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948871"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076395"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 
@@ -50,7 +50,7 @@ Die Autorisierung ist jetzt abgeschlossen.
 ![Azure-Abonnementdetails](./media/6AzureSubscription.png)
 
 2. Wählen Sie **Access Control (IAM)** im Navigationsbereich und dann **Rollenzuweisung hinzufügen** aus.
-3. Wählen Sie im Schieberegler auf der rechten Seite **Rolle als Beitragender** aus. Suchen Sie **Dynamics Deployment Services**, und wählen Sie es aus. 
+3. Wählen Sie im Schieberegler auf der rechten Seite **Rolle als Beitragender** aus. Suchen Sie **Dynamics Deployment Services** , und wählen Sie es aus. 
 4. Wählen Sie **Speichern** aus.
 
 ![Abonnementzugriff](./media/7SubscriptionAccess.png)

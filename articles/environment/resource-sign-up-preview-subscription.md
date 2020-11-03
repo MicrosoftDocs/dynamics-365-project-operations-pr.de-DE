@@ -3,17 +3,17 @@ title: Sich für Szenarien bei Project Operations-Vorschauabonnements für vorr�
 description: Dieses Thema enthält Informationen zum Abonnieren und Bereitstellen von Project Operations für Szenarien mit vorrätigen/nicht vorrätigen Ressourcen.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948872"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076410"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Sich für Szenarien bei Project Operations-Vorschauabonnements für vorrätige/nicht vorrätige Ressourcen anmelden
 
@@ -29,48 +29,53 @@ In diesem Thema wird erläutert, wie Sie das Vorschau-/Partnerangebot abonnieren
 
 ## <a name="subscribe"></a>Abonnieren
 
-Wenn Ihre [Vorschauanforderung](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) genehmigt wird, erhalten Sie zwei Angebote von Microsoft per E-Mail. Mit diesen Angeboten können Sie die Project Operations-Vorschau bereitstellen:
+Wenn Ihre [Vorschauanforderung](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) genehmigt wird, erhalten Sie drei Angebote von Microsoft per E-Mail. Mit diesen Angeboten können Sie die Project Operations-Vorschau bereitstellen:
 
-- Dynamics 365 Project Operations – Vorschau-Testversion
-- Dynamics 365 for Finance and Operations-Vorschautestversion
+- Dynamics 365 Project Operations (CRM) – Vorschau-Testversion
+- Office 365 Project Operations – Vorschau-Testversion
+- Dynamics 365 Finance – Vorschautestversion
 
 > [!IMPORTANT]
 > Nur eine Person in der Organisation, der Mandanten-Administrator, muss diese Aufgabe ausführen. Wenn Sie nicht Abonnent dieser Version sind, warten Sie, bis Ihre Organisation angemeldet wurde und Sie Ihre Benutzeranmeldeinformationen erhalten haben.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Vorschau-Testversion
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Vorschau-Testversion 
 
-1. Lösen Sie das erste Angebot, **Dynamics 365 Project Operations-Testversion**, mit der in Ihrer Begrüßungs-E-Mail angegebenen URL ein.
+Bevor Sie beginnen, stellen Sie sicher, dass Sie bei einem Browser mit dem Benutzerarbeitskonto im Mandanten angemeldet sind, in dem Sie die Vorschau des Projektvorgangs anzeigen möchten.
 
-![Erstes Angebot](./media/1FirstOffer.png)
+1. Lösen Sie den ersten Angebotscode **Dynamics 365 Project Operations (CRM) – Vorschau-Testversion** ein, indem Sie ihn in die Browser-URL einfügen.
 
-2. Stellen Sie sicher, dass Sie als der Benutzer angemeldet sind, der zu der Organisation gehört, die den Dienst abonniert.
-3. Fahren Sie mit dem Einlösen des Angebots fort. 
-4. Wählen Sie **Ja, zu meinem Konto hinzufügen** aus.
+![Angebot einlösen](./media/16RedeemFirstOfferNew.png)
 
-![Angebot einlösen](./media/2RedeemFirstOffer.png)
+2. Bestätigen Sie Ihre Bestellung.
 
-![Angebot bestätigen](./media/3ConfirmFirstOffer.png)
+![Bestellung bestätigen](./media/17ConfirmOrderNew.png)
 
-![Angebot eingelöst](./media/4OfferSuccessfulyRedeemed.png)
+Sie sehen, dass das Bestätigungsangebot erfolgreich eingelöst wurde.
+
+![Bestätigung](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Vorschau-Testversion
+
+Wiederholen Sie die gleichen Schritte wie beim ersten Angebotscode. Stellen Sie sicher, dass Sie den zweiten Angebotscode mit demselben Benutzerkonto hinzufügen, das mit dem ersten Angebotscode verwendet wurde.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance-Vorschautestversion
 
-Wiederholen Sie dieselben Schritte mit dem zweiten Angebot aus der Begrüßungs-E-Mail.
+Wiederholen Sie dieselben Schritte mit dem letzten Angebot aus der Begrüßungs-E-Mail.
 
 ## <a name="assign-licenses"></a>Lizenzen zuweisen
 
 > [!IMPORTANT]
-> Sie benötigen Administratorzugriff auf das Office 365-Portal Ihrer Organisation, um die folgenden Schritte auszuführen.
+> Sie benötigen Administratorzugriff auf das Microsoft 365-Portal Ihrer Organisation, um die folgenden Schritte auszuführen.
 
-1. Navigieren Sie zu [Microsoft 365 Admin Center](https://portal.office.com/), um Ihren Benutzern Lizenzen zuzuweisen.
+1. Navigieren Sie zu [Microsoft 365 Admin Center](https://portal.office.com/), um Ihren Benutzern die Lizenzen zuzuweisen.
 
-![Office-Verwaltungsportal](./media/5OfficeAdminPortal.png)
+![Startseite des Admin Center](./media/14AdminPortal.png)
 
 2. Wählen Sie auf der Seite **Aktive Benutzer** die Benutzer aus, denen Sie eine Lizenz zuweisen möchten.
 
-![Lizenzen zuweisen](./media/6AssignLicenses.png)
+![Lizenzen zuweisen](./media/15AssignLicenses.png)
 
-3. Stellen Sie sicher, dass die Project Operations-Lizenz ausgewählt wurde, und wählen Sie **Änderungen speichern** aus. 
+3. Stellen Sie sicher, dass die Lizenzen **Dynamics 365 Project Operations (CRM) Vorschau** und **Office 365 Project Operations - Vorschau** ausgewählt sind, und wählen Sie **Änderungen speichern** aus.
 
 > [!NOTE]
 > Das Finance-Testangebot muss keinem Benutzer zugewiesen werden.
@@ -85,9 +90,9 @@ Befolgen Sie zum Ausführen dieser Aufgabe die Schritte im Thema [Einem LCS-Proj
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Stellen Sie die Finance-Demoumgebung mit Project Operations für Szenarien mit vorrätigen/nicht vorrätigen Ressourcen bereit
 
-Befolgen Sie die Anweisungen im Thema [Eine neue Umgebung bereitstellen](resource-provision-new-environment.md), um die Bereitstellung abzuschließen. Verwenden Sie den Bereitstellungstyp [Demo-Umgebung](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) für die Vorschau.
+Befolgen Sie die Anweisungen im Thema [Eine neue Umgebung bereitstellen](resource-provision-new-environment.md), um die Bereitstellung abzuschließen. Verwenden Sie den Bereitstellungstyp [Demo-Umgebung](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) für die Vorschau. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS-Einrichtungs- und Konfigurationsdaten installieren
 
 Installieren Sie CDS-Einrichtungs- und Konfigurationsdaten wie im Thema [Konfigurationsdaten in Common Data Service einrichten und anwenden](resource-apply-pro-setup-config-data.md) beschrieben.
-
+Führen Sie diesen Schritt erst aus, nachdem die Finance-Demo-Umgebung bereitgestellt und die Demo-Daten in FO bereit sind.

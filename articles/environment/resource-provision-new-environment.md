@@ -3,17 +3,17 @@ title: Eine neue Umgebung bereitstellen
 description: Dieses Thema enthält Informationen zum Bereitstellen einer neuen Project Operations-Umgebung.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949361"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076411"
 ---
 # <a name="provision-a-new-environment"></a>Eine neue Umgebung bereitstellen
 
@@ -26,21 +26,21 @@ Dieses Thema enthält Informationen zum Bereitstellen einer neuen Dynamics 365 P
 Führen Sie die folgenden Schritte aus, um den automatisierten Project Operations-Bereitstellungs-Flow für Ihr LCS-Projekt zu aktivieren.
 
 1. Navigieren Sie zu [LCS](https://lcs.dynamics.com/v2), und wählen Sie die Kachel **Verwaltung von Vorschaufunktionen** aus.
-2. Wählen Sie in der Liste **Vorschaufunktion** die Option **Project Operations** und dann **Vorschaufunktion aktiviert** aus, um Project Operations zu aktivieren.
+2. Wählen Sie in der Liste **Vorschaufunktion** die Option **Project Operations-Funktion** und dann **Vorschaufunktion aktiviert** aus, um Project Operations zu aktivieren.
 
 > [!NOTE]
 > Dieser Schritt wird nur einmal pro LCS-Projekt ausgeführt.
 
 ## <a name="provision-a-project-operations-environment"></a>Eine Project Operations-Umgebung bereitstellen
 
-1. Öffnen Sie eine neue Dynamics 365 Finance [Demo-Umgebungs-](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oder [Sandbox/Produktionsumgebungs-](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure)Bereitstellung. 
+1. Öffnen Sie eine neue Dynamics 365 Finance [Demo-Umgebungs-](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oder [Sandbox/Produktionsumgebungs-](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure)Bereitstellung. 
 2. Durchlaufen Sie den Assistenten zur **Umgebungsbereitstellung**. 
 
 > [!IMPORTANT]
 > Stellen Sie sicher, dass die ausgewählte Anwendungsversion 10.0.13 oder höher ist.
 
 3. Um Project Operations bereitzustellen, wählen Sie unter **Erweiterte Einstellungen** **Common Data Service** aus. 
-4. Aktivieren Sie die **Common Data Service-Einstellung**, indem Sie **Ja** auswählen und dann Informationen in die entsprechenden Felder eingeben:
+4. Aktivieren Sie die **Common Data Service-Einstellung** , indem Sie **Ja** auswählen und dann Informationen in die entsprechenden Felder eingeben:
 
   - Name des Dataflows
   - Region
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um den automatisierten Project Operation
 ![Bereitstellungseinstellungen](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Wählen Sie **Zustimmen** aus, um die Vertragsbedingungen zu bestätigen, und dann **Fertig**, um zu den Bereitstellungseinstellungen zurückzukehren.
+> Wählen Sie **Zustimmen** aus, um die Vertragsbedingungen zu bestätigen, und dann **Fertig** , um zu den Bereitstellungseinstellungen zurückzukehren.
 
 ![Bereitstellungseinwilligung](./media/2DeploymentConsent.png)
 
@@ -84,7 +84,7 @@ Möglicherweise müssen Sie Qualitätsupdates auf Ihre Finance-Umgebung anwenden
 
 ![Paket speichern](./media/6SavePackage.png)
 
-3. Klicken Sie auf **Alle auswählen**, und wählen Sie dann **Paket speichern** aus.
+3. Klicken Sie auf **Alle auswählen** , und wählen Sie dann **Paket speichern** aus.
 
 ![Aktualisierungen überprüfen und speichern](./media/7ReviewAndSaveUpdates.png)
 
@@ -165,16 +165,17 @@ Die Aktualisierung dauert ungefähr 20 Minuten. Sie erhalten eine Benachrichtigu
 | **Integrationsentität für die Projekttransaktionsbeziehungen (msdyn\_transactionconnections)** | Nr. | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |
 | **Vertragszeilenmeilensteine der Project Operations-Integration (msdyn\_contractlinesscheduleofvalues)** | Nr. | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |
 | **Project Operations-Integrationsentität für Ausgabenschätzungen (msdyn\_estimateslines)** | Nr. | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |
-| **Project Operations-Integrationsentität für Stundenschätzungen (msdyn\_resourceassignments)** | Nr. | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |
+| **Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn\_expensecategories)** | Nr. | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |
 | **Exportentität für Projektkosten der Project Operations-Integration (msdyn\_expenses)** | Ja | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |
 | **Project Operations-Integrationsentität für Stundenschätzungen (msdyn\_resourceassignments)** | Ja | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |
 
+
 4. Um die Entität zu aktualisieren, wählen Sie den Zuordnungsnamen und dann **Entitäten aktualisieren** aus. 
-5. Fahren Sie mit dem Ausführen der Zuordnung fort, nachdem die Aktualisierung abgeschlossen ist.
+
 
 ![Zuordnung aktualisieren](./media/20RefreshMapping.png)
 
-Bevor Sie die nächste Zuordnung aktivieren, stellen Sie sicher, dass sich die Zuordnung in der Tabelle im Status **Wird ausgeführt** befindet. Das Ausführen von Zuordnungen mit einer größeren Anzahl von Voraussetzungen kann einige Zeit dauern.
+5. Führen Sie nach dem Abschluss der Aktualisierung die Zuordnung aus. Bevor Sie die nächste Zuordnung aktivieren, stellen Sie sicher, dass sich die Zuordnung in der Tabelle im Status **Wird ausgeführt** befindet. Das Ausführen von Zuordnungen mit einer größeren Anzahl von Voraussetzungen kann einige Zeit dauern.
 
 Um eine Zuordnung mit Voraussetzungen auszuführen, aktivieren Sie die Umschalttaste **Zugehörige Entitätszuordnungen anzeigen**. Wenn die Tabelle angibt, dass **Voraussetzungen für die Erstsynchronisierung** auf **Nein** festgelegt ist, stellen Sie sicher, dass die Kennzeichnung **Erstsynchronisation** in allen erforderlichen Voraussetzungszuordnungen auf **Aus** festgelegt ist, bevor Sie sie ausführen.
 

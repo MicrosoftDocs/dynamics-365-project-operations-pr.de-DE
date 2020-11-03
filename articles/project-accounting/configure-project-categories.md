@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895965"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076420"
 ---
 # <a name="configure-project-categories"></a>Projektkategorien konfigurieren
 
@@ -32,7 +32,7 @@ Transaktionskategorien sind die grundlegende Gruppierung für Projekttransaktion
 Transaktionskategorien stellen die grundlegende Gruppierung für Projekttransaktionen dar und sind nicht unternehmens- oder transaktionsartspezifisch. Beispielsweise verwendet Contoso Robotics die Kategorien Design, Travel, Installation und Service Transaction, um Projekttransaktionen zu gruppieren.
 
 Transaktionskategorien werden im Project Operations-Modul definiert. 
-1. Wechseln Sie zu **Einstellungen** \> **Transaktionskategorien**, um das Formular zu öffnen. 
+1. Wechseln Sie zu **Einstellungen** \> **Transaktionskategorien** , um das Formular zu öffnen. 
 2. Erstellen Sie eine neue Transaktionskategorie, indem Sie entweder **Neu** oder **Aus Excel importieren** auswählen.
 
 ## <a name="shared-categories"></a>Gemeinsame Kategorien

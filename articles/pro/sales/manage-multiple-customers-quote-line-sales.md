@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076425"
 ---
 # <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Verwalten mehrerer Kunden in projektbasierten Angebotspositionen
 
@@ -23,20 +23,20 @@ Projektbasierte Angebotspositionen unterstützen Szenarien, in denen jede Angebo
 
 Wenn Sie den letztendlichen Projektvertrag in Rechnung stellen, hat die Kundenliste in der projektbasierten Vertragszeile Vorrang vor der Liste im Projektvertrag. Die Kundenliste im Projektvertrag wird nur verwendet, um neue Projektvertragszeileen als Standard festzulegen.
 
-Alle Angebotskunden auf der **Kunden**-Registerkarte des Projektangebots werden auf beliebigen neuen projektbasierten Angebotspositionen, die für das Projektangebot erstellt wurden, standardmäßig als Angebotspositionskunden angegeben. Vorhandene projektbasierte Angebotspositionen erben keine neuen Angebotskundendatensätze, die nach ihnen erstellt wurden.
+Alle Angebotskunden auf der **Kunden** -Registerkarte des Projektangebots werden auf beliebigen neuen projektbasierten Angebotspositionen, die für das Projektangebot erstellt wurden, standardmäßig als Angebotspositionskunden angegeben. Vorhandene projektbasierte Angebotspositionen erben keine neuen Angebotskundendatensätze, die nach ihnen erstellt wurden.
 
 ## <a name="create-update-or-delete-a-quote-line-customer-record"></a>Erstellen, Aktualisieren oder Löschen eines Angebotspositionskundendatensatzes
 
-Sie können einen Angebotspositionskunden auf der **Angebotspositionskunden**-Registerkarte auf der **Projektbasierte Angebotsposition**-Seite erstellen, aktualisieren oder löschen. Wenn Sie der projektbasierten Angebotsposition einen neuen Kunden hinzufügen, wird der Kunde auch als Angebotskunde zum Gesamtangebot hinzugefügt, wobei der Standardprozentsatz für die Aufteilung der Abrechnung auf das Gesamtangebot 0 % beträgt. Der Prozentsatz der Abrechnungsaufteilung auf das Gesamtangebot wird in neue Angebotspositionen und in den eventuellen Projektvertrag kopiert. Wenn Sie jedoch aus dem Vertrag abrechnen, wird der Abrechnungssplit-Prozentsatz auf Angebotspositionsebene verwendet, nicht der Abrechnungssplit-Prozentsatz auf Gesamtvertragsebene. 
+Sie können einen Angebotspositionskunden auf der **Angebotspositionskunden** -Registerkarte auf der **Projektbasierte Angebotsposition** -Seite erstellen, aktualisieren oder löschen. Wenn Sie der projektbasierten Angebotsposition einen neuen Kunden hinzufügen, wird der Kunde auch als Angebotskunde zum Gesamtangebot hinzugefügt, wobei der Standardprozentsatz für die Aufteilung der Abrechnung auf das Gesamtangebot 0 % beträgt. Der Prozentsatz der Abrechnungsaufteilung auf das Gesamtangebot wird in neue Angebotspositionen und in den eventuellen Projektvertrag kopiert. Wenn Sie jedoch aus dem Vertrag abrechnen, wird der Abrechnungssplit-Prozentsatz auf Angebotspositionsebene verwendet, nicht der Abrechnungssplit-Prozentsatz auf Gesamtvertragsebene. 
 
 Die folgenden Tabelle zeigt die Felder im Angebotspositionskundendatensatz einer projektbasierten Angebotsposition.
 
 | Feld | Position | Beschreibung und Anleitung | Nachgelagerte Auswirkungen |
 | --- | --- | --- | --- |
-| **Firma** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Führt alle aktiven Konten auf. Dieses Feld wird gesperrt, nachdem der Datensatz erstellt wurde. Wenn Sie das Feld aktualisieren müssen, löschen Sie den Datensatz und erstellen Sie ihn neu. Wenn Sie Aktualisierungen aufgezeichnet haben, können Sie die Aufzeichnung nicht löschen. | Wenn Sie ein Konto aus der Hauptliste der hinzuzufügenden Konten auswählen, wird der Angebotspositionskunde beim Speichern auch als Angebotskunde hinzugefügt. Wenn ein Angebot gewonnen wird, werden Angebotspositionskunden zu den Kunden der Projektvertragszeile kopiert. |
-| **Prozentsatz der Abrechnungsteilung** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Stellt den Prozentsatz jeder nicht in Rechnung gestellten Verkaufstransaktion dar, die diesem Angebotspositionskunden zugeordnet wird. | Zu Projektvertragszeilenkunden kopiert. |
-| **Nicht zu überschreitender Grenzwert** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Gibt an, ob es ein ausgehandeltes Limit oder eine Obergrenze für den Gesamtbetrag gibt, der diesem Kunden für diese angebotene Position in Rechnung gestellt wird. | Wird an die Projektvertragszeilenkunden kopiert, wenn ein Angebot gewonnen wird. |
-| **Wird gerundet** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Gibt an, ob dieser Kunde ein Standardrundungskunde für diese projektbasierte Angebotsposition ist. | Wird an die Projektvertragskunden kopiert, wenn ein Angebot gewonnen wird. |
+| **Firma** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden** -Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Führt alle aktiven Konten auf. Dieses Feld wird gesperrt, nachdem der Datensatz erstellt wurde. Wenn Sie das Feld aktualisieren müssen, löschen Sie den Datensatz und erstellen Sie ihn neu. Wenn Sie Aktualisierungen aufgezeichnet haben, können Sie die Aufzeichnung nicht löschen. | Wenn Sie ein Konto aus der Hauptliste der hinzuzufügenden Konten auswählen, wird der Angebotspositionskunde beim Speichern auch als Angebotskunde hinzugefügt. Wenn ein Angebot gewonnen wird, werden Angebotspositionskunden zu den Kunden der Projektvertragszeile kopiert. |
+| **Prozentsatz der Abrechnungsteilung** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden** -Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Stellt den Prozentsatz jeder nicht in Rechnung gestellten Verkaufstransaktion dar, die diesem Angebotspositionskunden zugeordnet wird. | Zu Projektvertragszeilenkunden kopiert. |
+| **Nicht zu überschreitender Grenzwert** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden** -Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Gibt an, ob es ein ausgehandeltes Limit oder eine Obergrenze für den Gesamtbetrag gibt, der diesem Kunden für diese angebotene Position in Rechnung gestellt wird. | Wird an die Projektvertragszeilenkunden kopiert, wenn ein Angebot gewonnen wird. |
+| **Wird gerundet** | Ein bearbeitbares Raster auf der **Angebotspositionnkunden** -Registerkarte, das Hauptformular und die Schnellerstellungsformulare für einen Angebotspositionnkunden. | Gibt an, ob dieser Kunde ein Standardrundungskunde für diese projektbasierte Angebotsposition ist. | Wird an die Projektvertragskunden kopiert, wenn ein Angebot gewonnen wird. |
 
 ## <a name="edit-billing-split-percentages"></a>Aufteilungsprozentsätze bearbeiten
 

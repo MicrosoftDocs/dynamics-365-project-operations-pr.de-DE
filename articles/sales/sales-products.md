@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898710"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076621"
 ---
 # <a name="products"></a>Produkte
 
@@ -39,22 +38,22 @@ Produkte sind das Rückgrat Ihres Unternehmens. Der Produktkatalog in Dynamics 3
 
     -  **Name**
     -  **Produkt-ID**
-    -  **Übergeordnetes Element**: Wählen Sie eine übergeordnete Produktfamilie für das Produktpaket aus. Wenn Sie ein untergeordnetes Produkt in einer Produktfamilie erstellen, wird der Name der übergeordneten Produktfamilie hier aufgefüllt. Dieser kann nicht geändert werden, nachdem der Datensatz gespeichert ist.
-    -  **Gültig ab**/**Gültig bis**: Definieren Sie die Periode, während der das Produktpaket gültig ist, indem sie ein Datum **Gültig ab** und **Gültig bis** auswählen.
-    -  **Einheitengruppe**: Wählen Sie eine Einheitengruppe aus. Eine Einheitengruppe ist eine Sammlung verschiedener Einheiten, in der ein Produkt vertrieben wird, und es definiert, wie individuelle Elemente in größere Mengen gruppiert werden. Wenn Sie z. B. Saaten als Produkt hinzufügen, haben Sie möglicherweise eine Einheitengruppe „Saaten” erstellt, und deren primäre Einheit wird als „Paket” definiert.
-    -  **Standardseinheit**: Wählen Sie die häufigste Einheit aus, in der das Produkt berechnet wird. Einheiten sind die Mengen oder die Maße, in denen Sie Ihre Produkte verkaufen. Wenn Sie zum Beispiel Saat als Produkt hinzufügen, können Sie sie in Paketen, Kästen oder in Paletten verkaufen. Jedes davon wird eine Einheit des Produkts. Wenn Saaten meist in Paketen verkauft werden, wählen Sie dies als Einheit aus.
-    -  **Standardpreisliste**Bei einem neuen Produkt ist dieses Feld schreibgeschützt. Bevor Sie eine Standardpreisliste auswählen können, müssen Sie alle Pflichtfelder ausfüllen und den Datensatz speichern. Die Standardpreisliste ist zwar nicht erforderlich, es kann sich jedoch als nützlich erweisen, nach dem Speichern des Produktdatensatzes für jedes Produkt eine Standardpreisliste festzulegen. Falls dann ein Kundendatensatz keine Preisliste enthält, kann der Vertrieb die Standardpreisliste zum Erstellen von Angeboten, Aufträgen oder Rechnungen verwenden.
-    -  **Dezimalzahlen unterstützt**: Geben Sie eine ganze Zahl zwischen 0 und 5 ein. Wenn das Produkt nicht in Teilmengen unterteilt werden kann, geben Sie 0 ein. Die Anzahl der Stellen des Felds **Menge** im Angebots-, Auftrags- oder Rechnungsproduktdatensatz wird mit dem Wert in diesem Feld verglichen, wenn dem Produkt keine Preisliste zugeordnet ist.
-    -  **Thema**: Sie können dieses Produkt einem Betreff zuordnen. Mithilfe von Betreffen können Sie die Produkte in Kategorien unterteilen und Berichte filtern.
+    -  **Übergeordnetes Element** : Wählen Sie eine übergeordnete Produktfamilie für das Produktpaket aus. Wenn Sie ein untergeordnetes Produkt in einer Produktfamilie erstellen, wird der Name der übergeordneten Produktfamilie hier aufgefüllt. Dieser kann nicht geändert werden, nachdem der Datensatz gespeichert ist.
+    -  **Gültig ab**/**Gültig bis** : Definieren Sie die Periode, während der das Produktpaket gültig ist, indem sie ein Datum **Gültig ab** und **Gültig bis** auswählen.
+    -  **Einheitengruppe** : Wählen Sie eine Einheitengruppe aus. Eine Einheitengruppe ist eine Sammlung verschiedener Einheiten, in der ein Produkt vertrieben wird, und es definiert, wie individuelle Elemente in größere Mengen gruppiert werden. Wenn Sie z. B. Saaten als Produkt hinzufügen, haben Sie möglicherweise eine Einheitengruppe „Saaten” erstellt, und deren primäre Einheit wird als „Paket” definiert.
+    -  **Standardseinheit** : Wählen Sie die häufigste Einheit aus, in der das Produkt berechnet wird. Einheiten sind die Mengen oder die Maße, in denen Sie Ihre Produkte verkaufen. Wenn Sie zum Beispiel Saat als Produkt hinzufügen, können Sie sie in Paketen, Kästen oder in Paletten verkaufen. Jedes davon wird eine Einheit des Produkts. Wenn Saaten meist in Paketen verkauft werden, wählen Sie dies als Einheit aus.
+    -  **Standardpreisliste** Bei einem neuen Produkt ist dieses Feld schreibgeschützt. Bevor Sie eine Standardpreisliste auswählen können, müssen Sie alle Pflichtfelder ausfüllen und den Datensatz speichern. Die Standardpreisliste ist zwar nicht erforderlich, es kann sich jedoch als nützlich erweisen, nach dem Speichern des Produktdatensatzes für jedes Produkt eine Standardpreisliste festzulegen. Falls dann ein Kundendatensatz keine Preisliste enthält, kann der Vertrieb die Standardpreisliste zum Erstellen von Angeboten, Aufträgen oder Rechnungen verwenden.
+    -  **Dezimalzahlen unterstützt** : Geben Sie eine ganze Zahl zwischen 0 und 5 ein. Wenn das Produkt nicht in Teilmengen unterteilt werden kann, geben Sie 0 ein. Die Anzahl der Stellen des Felds **Menge** im Angebots-, Auftrags- oder Rechnungsproduktdatensatz wird mit dem Wert in diesem Feld verglichen, wenn dem Produkt keine Preisliste zugeordnet ist.
+    -  **Thema** : Sie können dieses Produkt einem Betreff zuordnen. Mithilfe von Betreffen können Sie die Produkte in Kategorien unterteilen und Berichte filtern.
 
 4.  Wählen Sie **Speichern** aus.
 5.  Auf der Registerkarte **Weitere Details** wählen Sie im Abschnitt **Preislistenelemente** das Symbol **Weitere Befehle** und dann **Neues Preislistenelement hinzufügen** aus.
 7.  Auf der Registerkarte **Weitere Details** im Abschnitt **Produktbeziehung** wählen Sie das Symbol **Weitere Befehle** und dann **Neue Produktbeziehung hinzufügen** aus.
 8.  Geben Sie im Formular **Neue Produktbeziehung** die folgenden Details ein, und wählen Sie in der Befehlsleiste die Option **Speichern und schließen** aus:
 
-    -   **Verwandte Produkte**: Wählen Sie ein Produkt aus, das Sie als verknüpftes Produkt dem bestehenden Produktdatensatz, an dem Sie arbeiten, hinzufügen möchten.
-    -   **Vertriebsbezugstyp**: Wählen Sie aus, ob Sie das Produkt als Upsell, Cross-Sell, Zubehör oder Ersatzprodukt hinzufügen möchten.
-    -   **Richtung**: Wählen Sie aus, ob die Beziehung zwischen den Produkten unidirektional oder bidirektional ist. Wenn Sie unidirektional auswählen, wird das Produkt, das Sie in **Zugehöriges Produkt** auswählen, als Empfehlung für das bestehende Produkt ausgewählt, nicht aber umgekehrt.
+    -   **Verwandte Produkte** : Wählen Sie ein Produkt aus, das Sie als verknüpftes Produkt dem bestehenden Produktdatensatz, an dem Sie arbeiten, hinzufügen möchten.
+    -   **Vertriebsbezugstyp** : Wählen Sie aus, ob Sie das Produkt als Upsell, Cross-Sell, Zubehör oder Ersatzprodukt hinzufügen möchten.
+    -   **Richtung** : Wählen Sie aus, ob die Beziehung zwischen den Produkten unidirektional oder bidirektional ist. Wenn Sie unidirektional auswählen, wird das Produkt, das Sie in **Zugehöriges Produkt** auswählen, als Empfehlung für das bestehende Produkt ausgewählt, nicht aber umgekehrt.
 
 9.  Wählen Sie im Produktformular **Speichern** aus.
 
@@ -120,8 +119,8 @@ Das System stellt sicher, dass nur numerische Eigenschaften oder Produkteigensch
 
 Zum Beispiel, wenn es die folgenden Eigenschaften gibt: 
 
-- **Anzahl der Benutzer**: Die Anzahl der Benutzer 
-- **Anzahl der Monate**: Die Anzahl der Abonnementmonate
+- **Anzahl der Benutzer** : Die Anzahl der Benutzer 
+- **Anzahl der Monate** : Die Anzahl der Abonnementmonate
 - **Produkt-SKU** 
 
 Die Eigenschaften **Anzahl der Benutzer** und **Anzahl der Monate** können durch Bearbeitung der Produktposition als Mengenfaktoren gekennzeichnet werden. 

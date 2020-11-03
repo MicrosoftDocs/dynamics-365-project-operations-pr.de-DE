@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898260"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076562"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Benutzerdefinierte Felder und Entitäten als Preisdimensionen erstellen
 
@@ -36,8 +35,8 @@ Führen Sie die folgenden Schritte aus, wenn Sie einen benutzerdefinierten Optio
 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Erstellen einer benutzerdefinierten Lösung für Preisdimensionen
-1. Gehen Sie zu **Einstellungen** > **Lösungen** und wählen **Neu**, um eine neue Lösung zu erstellen. 
-2. Geben Sie der Lösung einen Namen, **\<your organization name> Preisdimensionen**, geben die verbleibenden erforderlichen Informationen ein und wählen dann **Speichern**.
+1. Gehen Sie zu **Einstellungen** > **Lösungen** und wählen **Neu** , um eine neue Lösung zu erstellen. 
+2. Geben Sie der Lösung einen Namen, **\<your organization name> Preisdimensionen** , geben die verbleibenden erforderlichen Informationen ein und wählen dann **Speichern**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Erstellen benutzerdefinierter Felder und Optionssätze in der Preisdimensionslösung
 
@@ -47,17 +46,17 @@ Eine Preisdimension kann ein Optionssatz oder eine Entität sein. Beide müssen 
 
 1. Gehen Sie zu **Einstellungen** > **Lösungen** und doppelklicken Sie dann auf **\<your organization name> Preisdimensionen**.
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten** aus.
-3. Wählen Sie **Neu**, um eine neue Entität namens **Standardtitel** zu erstellen. 
+3. Wählen Sie **Neu** , um eine neue Entität namens **Standardtitel** zu erstellen. 
 4. Geben Sie die verbleibenden erforderlichen Informationen ein und wählen Sie **Speichern**.
 
 
 ### <a name="option-set-based-dimensions"></a>Optionssatzbasierte Dimensionen 
-Sie können zwei optionssatzbasierte Dimensionen erstellen. Verwenden Sie **Arbeitsstandort der Ressource**, um den Preis für die Arbeit am **Wohnort** und  **Vor Ort** nachzuverfolgen. Verwenden Sie für **Arbeitszeiten der Ressource** die Werte **Regulär** bzw. **Überstunden**, um einen Aufschlag anzuwenden, wenn die Arbeit abgeschlossen ist.
+Sie können zwei optionssatzbasierte Dimensionen erstellen. Verwenden Sie **Arbeitsstandort der Ressource** , um den Preis für die Arbeit am **Wohnort** und  **Vor Ort** nachzuverfolgen. Verwenden Sie für **Arbeitszeiten der Ressource** die Werte **Regulär** bzw. **Überstunden** , um einen Aufschlag anzuwenden, wenn die Arbeit abgeschlossen ist.
 
 
 1. Gehen Sie zu **Einstellungen** > **Lösungen** und doppelklicken Sie auf  **\<your organization name> Preisdimensionen**. 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Optionssätze** aus. 
-3. Wählen Sie **Neu**, um einen neuen Optionssatz zu erstellen, geben Sie die verbleibenden erforderlichen Informationen ein, und wählen Sie **Speichern**.
+3. Wählen Sie **Neu** , um einen neuen Optionssatz zu erstellen, geben Sie die verbleibenden erforderlichen Informationen ein, und wählen Sie **Speichern**.
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Erstellen von Daten für entitätsbasierte Dimensionen
 

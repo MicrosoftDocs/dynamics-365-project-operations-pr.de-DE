@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076590"
 ---
 # <a name="expense-reports-reimagined"></a>Neu gestaltete Spesenabrechnungen
 
@@ -35,7 +34,7 @@ Der Eintrag in der Ausgabenabrechnung wurde neu gestaltet, um den Prozess zu ver
 - Eine neue Seite zum Angeben der erforderlichen Felder, optionalen Felder und der Felder, die nicht enthalten sein sollten. Diese Seite hilft, die Anzahl der Felder zu reduzieren, die festgelegt werden müssen.
 - Ein neues Erscheinungsbild für Ausgabenabrechnungen, sodass die Berichte nicht mehr so aussehen, als wären sie für Buchhaltungsmitarbeiter konzipiert.
 
-Wenn Sie die neue Erfahrung aktivieren möchten, verwenden Sie den **Funktionsverwaltung**-Arbeitsbereich zum Aktivieren der **Neu gestaltete Ausgabenabrechnungen**-Funktion. Wenn Sie diese Funktion aktivieren, werden die folgenden Aktionen ausgeführt:
+Wenn Sie die neue Erfahrung aktivieren möchten, verwenden Sie den **Funktionsverwaltung** -Arbeitsbereich zum Aktivieren der **Neu gestaltete Ausgabenabrechnungen** -Funktion. Wenn Sie diese Funktion aktivieren, werden die folgenden Aktionen ausgeführt:
 
 - Der bestehende Ausgabenarbeitsbereich wird durch den neuen Arbeitsbereich ersetzt.
 - Ein neuer Menüpunkt für die Sichtbarkeit der Kostenfelder wurde hinzugefügt.

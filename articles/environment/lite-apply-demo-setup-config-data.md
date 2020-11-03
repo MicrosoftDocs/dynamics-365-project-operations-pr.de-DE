@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948867"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076389"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Anwenden der Demo-Einrichtungs- und Konfigurationsdaten für die Bereitstellung des Project Operations Lite - Abschluss zur Proforma-Rechnungsstellung
 
@@ -25,7 +25,7 @@ _**Lite-Bereitstellung – Abschluss zur Pro-forma-Rechnungsstellung_
 
 ![Konfigurationsmigration](./media/1ConfigurationMigration.png)
 
-4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Office 365** als den **Bereitstellungstyp** aus.
+4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Microsoft 365** als **Bereitstellungstyp** aus.
 5. Aktivieren Sie die Kontrollkästchen **Eine Liste der verfügbaren Organisationen anzeigen** und **Erweitert anzeigen**.
 6. Wählen Sie die Region Ihres Mandanten aus, geben Sie Ihre Anmeldeinformationen ein und wählen Sie dann **Einloggen**.
 

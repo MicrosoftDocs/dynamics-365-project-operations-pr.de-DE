@@ -1,0 +1,99 @@
+---
+title: Ausgabenbelegverarbeitung
+description: Dieses Thema enthält Informationen zur optischen Zeichenerkennung (OCR) für Quittungen. Diese Funktionalität soll die Benutzererfahrung beim Erstellen von Spesenabrechnungen verbessern, die in Microsoft Dynamics 365 Finance erstellt wurden.
+author: stsporen
+manager: AnnBe
+ms.date: 05/14/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Operations, Core
+ms.search.region: Global
+ms.author: stsporen
+ms.search.validFrom: 2019-11-20
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076682"
+---
+# <a name="expense-receipt-processing"></a>Ausgabenbelegverarbeitung
+
+[!include [banner](../includes/banner.md)]
+
+Die Ausgabenerfassung wurde durch die Einführung der optischen Zeichenerkennungsverarbeitung (OCR) für Belege verbessert. Diese Funktionalität soll die Benutzererfahrung beim Erstellen von Spesenabrechnungen verbessern.
+
+## <a name="key-features"></a>Schlüsselfunktionen
+
+- Der Händlername, das Datum und der Gesamtbetrag werden aus den Belegen extrahiert.
+- Die Funktion versucht, nicht angehängte Belege mit nicht angehängten Kostentransaktionen abzugleichen.
+- Benutzer können manuell eingegebene Ausgabentransaktionen aus Belegen erstellen.
+
+## <a name="usage-examples"></a>Verwendungsbeispiele
+
+Führen Sie die folgenden Schritte aus, um beim Erstellen einer Spesenabrechnung automatisch Belege mit Kreditkartentransaktionen anzuhängen.
+
+  1. Öffnen des Arbeitsplatzes **Ausgabenmanagement**.
+  2. Auf der Registerkarte **Quittungen** überprüfen Sie auf der Registerkarte, ob nicht angehängte Belege vorhanden sind. Sie können auch Belege auf die Registerkarte **Quittungen** hochladen.
+  3. Auf der Registerkarte **Ausgaben** überprüfen Sie, dass  nicht angehängte Ausgaben vorhanden sind. In der Regel importiert der Ausgabenadministrator diese Ausgaben vom Kreditkartenanbieter.
+  4. **Neuer Ausgabenbericht** auswählen. Beachten Sie, dass Sie jetzt auch Ausgaben und Belege einbeziehen können, wenn Sie eine Ausgabenabrechnung erstellen. Wenn Sie sowohl Ausgaben als auch Belege hinzufügen, wird ein automatischer Abgleich der Belege mit den Ausgaben ausgelöst.
+
+Führen Sie die folgenden Schritte aus, um eine Ausgabe zu erstellen oder eine Ausgabe aus einer Quittung abzugleichen.
+
+  1. Auf einem Ausgabenbericht auf der Registerkarte **Quittungen** fügen Sie eine Quittung hinzu, indem Sie **Quittungen hinzufügen** auswählen.
+  2. Beachten Sie unter dem hochgeladenen Bild der Quittung die Optionen **Erstellen** und **Abstimmen**.
+
+      - Wählen Sie **Erstellen** , um eine manuell eingegebene Aufwandsbuchung zu erstellen und die Werte einzugeben, die aus dem Beleg extrahiert werden.
+      - Wenn Sie **Abstimmen** auswählen, versucht das System, eine vorhandene Ausgabe mit der Quittung abzugleichen.
+
+## <a name="installation"></a>Installation
+
+Diese Funktion funktioniert in Kombination mit der Funktion **Neu gestaltete Spesenabrechnungen** zur Vereinfachung der Kostenerfahrung. Diese Funktion ist nur für Umgebungen mit Tier 2+ verfügbar, bei denen es sich um Sandbox und Produktion handelt.
+
+Um diese erweiteren Ausgabenfunktionen zu nutzen, installieren Sie Ausgabenverwaltungs-Service-Add-In für Microsoft Dynamics 365 Finance und aktivieren Sie die Funktionen in Ihrer Instanz. Sie können von Ihrem Projekt aus auf das Add-In Microsoft Dynamics Lifecycle Services (LCS) zugreifen.
+
+1. Melden Sie sich bei LCS an, und öffnen Sie die gewünschte Umgebung.
+2. Gehen Sie zu **Alle Einzelheiten**.
+3. Wählen Sie **Verwalten** oder blättern Sie nach unten zur Registerkarte **Umgebungs-Add-Ins**.
+4. Wählen Sie **Installieren Sie ein neues Add-In**.
+5. Wählen Sie **Ausgabenberwaltungsdienst** aus.
+6. Befolgen Sie die Installationsanleitung und stimmen Sie den Nutzungsbedingungen zu.
+7. Wählen Sie **Installieren** aus.
+
+In dem Arbeitsbereich **Funktionsverwaltung** aktivieren Sie die folgenden Funktionen:
+
+- Neu gestaltete Ausgabenabrechnungen
+- Automatische Zuordnung und Erstellung von Kosten ab Quittung
+
+Wenn Sie diese Funktionen aktivieren, werden die folgenden Aktionen ausgeführt:
+
+- Der bestehende Arbeitsbereich **Ausgabenmanagement** wird durch den neuen Arbeitsbereich ersetzt.
+- Ein neuer Menüpunkt für die Sichtbarkeit der Kostenfelder wurde hinzugefügt.
+- Sie können die Seite **Ausgabenbericht** immer noch öffnen. Gehen Sie dazu zu **Ausgabenmanagement > Meine Ausgaben> Ausgabenabrechnungen**.
+- Workflows und Genehmigungen führen Sie weiterhin zur vorhandenen Seite mit den Ausgabenabrechnungen.
+- Quittungen werden durch Microsoft Azure Cognitive Services verarbeitet und Metadaten werden extrahiert und hinzugefügt.
+- Es wurde eine Option hinzugefügt, mit der Sie eine Ausgabenabrechnung erstellen können, die übereinstimmende, nicht angehängte Belege enthält.
+- Mit einer Option, die Ausgabenabrechnungen hinzugefügt wird, können Sie eine Ausgabenzeile aus einer Quittung erstellen oder versuchen, eine vorhandene Quittung einer vorhandenen Ausgabenzeile zuzuordnen.
+
+Weitere Informationen zu der überarbeiteten Funktion „Spesenabrechnungen“ finden Sie unter [Neu gestaltete Spesenabrechnungen](ExpenseWorkspaceNew.md).
+
+## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+
+**Verwendet Microsoft meine Daten für seine Modelle?**
+
+Nein, Microsoft hat ein allgemeines Maschinelles Lernen-Modell für seinen Belegverarbeitungsdienst erstellt. Dieses Modell basiert nicht auf den von Ihnen hochgeladenen Belegen.
+
+**Wo ist diese Funktion verfügbar und wird sie verarbeitet?**
+
+Derzeit werden die USA unterstützt.
+
+**Wohin gehen meine Quittungen?**
+
+Finance wird sich an Cognitive Services wenden, um die Felddaten zu extrahieren. Cognitive Services bewahrt eine Kopie Ihrer Quittung bis zu 24 Stunden lang auf, während die Verarbeitung erfolgt. Nach Abschluss der Verarbeitung entfernt Cognitive Services die Quittung. Belege werden weiterhin in Finanzen gespeichert.
+
+Weitere Informationen finden Sie unter [Aktivieren Sie das Belegverständnis mit der neuen Funktion der Formularerkennung](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948870"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076397"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurationsdaten in Common Data Service für Project Operations einrichten und anwenden
 
@@ -27,7 +27,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 ![Konfigurationsmigration](./media/1ConfigurationMigration.png)
 
-4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Office 365** als den **Bereitstellungstyp** aus.
+4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Microsoft 365** als **Bereitstellungstyp** aus.
 5. Aktivieren Sie die Kontrollkästchen **Eine Liste der verfügbaren Organisationen anzeigen** und **Erweitert anzeigen**.
 6. Wählen Sie die Region Ihres Mandanten aus, geben Sie Ihre Anmeldeinformationen ein, und wählen Sie **Anmelden** aus.
 
@@ -75,7 +75,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 ![Umgebung öffnen](./media/7OpenEnvironment.png)
 
-2. Navigieren Sie zu **Projekte** > **Ressourcen**, und wählen Sie dann **Neu** aus, um eine buchbare Ressource für Ihren Benutzer zu erstellen.
+2. Navigieren Sie zu **Projekte** > **Ressourcen** , und wählen Sie dann **Neu** aus, um eine buchbare Ressource für Ihren Benutzer zu erstellen.
 
 ![Buchbare Ressourcen](./media/8BookableResources.png)
 
@@ -100,7 +100,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 ![Kalender aktualisieren](./media/13UpdateCalendar.png)
 
-9. Navigieren Sie zu **Einstellungen** > **Kalendervorlagen**, und wählen Sie **Neu** aus.
+9. Navigieren Sie zu **Einstellungen** > **Kalendervorlagen** , und wählen Sie **Neu** aus.
  
  ![Kalendervorlagen](./media/14CalendarTemplates.png)
  
@@ -108,16 +108,16 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
  
  ![Kalendervorlage speichern](./media/15SaveCalendarTemplate.png)
  
- 11. Navigieren Sie zu **Parameter**, und doppelklicken Sie auf den Datensatz. 
+ 11. Navigieren Sie zu **Parameter** , und doppelklicken Sie auf den Datensatz. 
  
  ![Projektparameter](./media/16ProjectParameters.png)
  
 12. Aktualisieren Sie die folgenden Felder:
 
- - **Standardunternehmen**: USPM
- - **Standard-Organisationseinheit**: Contoso Robotics Global
- - **Rechnungshäufigkeit**: Siebter und letzter Tag
- - **Arbeitszeitvorlage**: Wechseln Sie zu der von Ihnen erstellten Vorlage.
+ - **Standardunternehmen** : USPM
+ - **Standard-Organisationseinheit** : Contoso Robotics Global
+ - **Rechnungshäufigkeit** : Siebter und letzter Tag
+ - **Arbeitszeitvorlage** : Wechseln Sie zu der von Ihnen erstellten Vorlage.
 
 13. Wählen Sie **Speichern** aus. 
 

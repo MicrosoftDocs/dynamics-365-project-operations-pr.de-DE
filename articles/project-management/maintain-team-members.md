@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961865"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076390"
 ---
 # <a name="maintain-team-members"></a>Teammitglieder verwalten
 
@@ -21,7 +21,7 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 Sie können Ihrem Projektteam eine benannte Ressource hinzufügen, indem Sie diese direkt für das Team buchen.
 
-1. Wechseln Sie in Dynamics 365 Project Operations zu **Projekte**, wählen Sie das Projekt aus, für das Sie buchen möchten und öffnen Sie es.
+1. Wechseln Sie in Dynamics 365 Project Operations zu **Projekte** , wählen Sie das Projekt aus, für das Sie buchen möchten und öffnen Sie es.
 2. Wählen Sie auf der Seite **Projekt** auf der Registerkarte **Team** **Neu** aus. 
 3. Wählen Sie im Dialogfeld **Schnellerfassung: Projektteammitglied** die buchbare Ressource aus. Das Feld **Rolle** wird mit der Standardrolle der Ressource vorausgefüllt, sofern eine zugewiesen wurde. Sie können die Rolle ändern. 
 4. Wählen Sie das Start- und Enddatum aus, an denen die Ressource benötigt wird, und wählen Sie die Zuweisungsmethode für die Ressourcenkapazität aus. 
@@ -35,7 +35,7 @@ Im Project Operations sind Ressourcenbuchungen und Aufgabenzuweisungen nicht eng
 
 Die Unterschiede zwischen Buchungen und Zuweisungen von Teammitgliedern werden auf den Registerkarten **Team** und **Ressourcenabstimmung** gezeigt. Sie können die Unterschiede zwischen Buchungen und Zuweisungen für Ressourcen auch detaillierter abgleichen.
 
-Verwenden Sie die Ressourcenauswahl auf der Registerkarte **Zeitplan**, um nach buchbaren Ressourcen zu suchen und sie auszuwählen, die nicht bereits Teil des Projektteams sind. Diese Ressourcen werden in der Ressourcenauswahl als **Weitere Ressourcen** angezeigt.
+Verwenden Sie die Ressourcenauswahl auf der Registerkarte **Zeitplan** , um nach buchbaren Ressourcen zu suchen und sie auszuwählen, die nicht bereits Teil des Projektteams sind. Diese Ressourcen werden in der Ressourcenauswahl als **Weitere Ressourcen** angezeigt.
 
 Wenn Sie eine Auswahl treffen, wird die Ressource dem Projektteam hinzugefügt und der Aufgabe zugewiesen, es werden jedoch keine Buchungen generiert.
 

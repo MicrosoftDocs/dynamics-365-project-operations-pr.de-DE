@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961707"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076459"
 ---
 # <a name="time-entry-ui-behavior"></a>Verhalten der Zeiteintrags-Benutzeroberfläche
 
@@ -40,7 +40,7 @@ Im Abschnitt „Dauer” werden die Wochentage als Spaltenüberschriften angezei
 
 1. Wählen Sie im Zeiteintragsraster die Option **Neu** aus. 
 2. Wählen Sie im Dialogfeld **Schnellerfassung für Zeiteintrag** das Datum der Zeiteingabe aus.
-3. Geben Sie Daten für die Dimensionen **Projekt**, **Projektaufgabe**, **Rolle** und **Dauer** ein. Diese Informationen sollten in Minuten, Stunden oder Tagen hinzugefügt werden, indem Sie **h**, **m** oder **d** zusammen mit der Zahl eingeben. 
+3. Geben Sie Daten für die Dimensionen **Projekt** , **Projektaufgabe** , **Rolle** und **Dauer** ein. Diese Informationen sollten in Minuten, Stunden oder Tagen hinzugefügt werden, indem Sie **h** , **m** oder **d** zusammen mit der Zahl eingeben. 
 4. Geben Sie eine Beschreibung für den Eintrag und Kommentare ein, die extern für den Zeiteintrag freigegeben werden können. 
 
 Wenn Sie den Eintrag speichern, werden die eingegebenen Werte im Abschnitt **Dimensionen** angezeigt. Die im Feld **Dauer** eingegebenen Informationen werden im Datum angezeigt, für das der Zeiteintrag erstellt wurde.
@@ -48,7 +48,7 @@ Wenn Sie den Eintrag speichern, werden die eingegebenen Werte im Abschnitt **Dim
 Suchfelder werden von Systemansichten unterstützt. Wenn ein Benutzer beispielsweise ein Projekt eingibt, wird das Feld **Projektaufgabe** standardmäßig auf die Ansicht **Kopieren** eingestellt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die keinem Benutzer zugewiesen sind, wählen Sie im Dialogfeld für die Suche die Option **Ansicht ändern** und dann die Ansicht **Alle aktiven Projektaufgaben** aus.
 
 ## <a name="edit-a-time-entry"></a>Bearbeiten eines Zeiteintrags 
-Informationen aus einigen Feldern auf der Seite für den Zeiteintrag, wie **Beschreibung** und **Externe Kommentare**, werden nicht im Raster für den wöchentlichen Zeiteintrag angezeigt. Stattdessen erscheint eine kleine dreieckige Anzeige in den Zellen für die **Dauer**, die über zusätzliche Details verfügen. 
+Informationen aus einigen Feldern auf der Seite für den Zeiteintrag, wie **Beschreibung** und **Externe Kommentare** , werden nicht im Raster für den wöchentlichen Zeiteintrag angezeigt. Stattdessen erscheint eine kleine dreieckige Anzeige in den Zellen für die **Dauer** , die über zusätzliche Details verfügen. 
 
 1. Um einen Zeiteintrag zu bearbeiten, wählen Sie die Zelle aus, die Sie im Zeiteintrag aktualisieren möchten.
 2. Wählen Sie **Details bearbeiten** aus, um die Daten im Bereich **Zeiterfassungs-Hauptformular** zu aktualisieren. 
@@ -67,10 +67,10 @@ Sie können eingereichte Zeiteinträge zurückrufen. Sie können einen einzelnen
 
 ## <a name="time-entry-status"></a>Zeiteintragsstatus
 
-- **Entwurf**: Neuen Zeiteinträgen wird automatisch der Status **Entwurf** zugewiesen. Nur Zeiteinträge mit dem Status **Entwurf** können gelöscht werden.
-- **Übermittelt**: Wenn ein Zeiteintrag übermittelt wurde, wird der Status in **Übermittelt** aktualisiert. 
-- **Genehmigt**: Wenn ein übermittelter Zeiteintrag genehmigt wurde, wird der Status auf **Genehmigt** aktualisiert. 
-- **Zurückgegeben**: Wenn ein Zeiteintrag abgelehnt wurde, wird der Status in **Zurückgegeben** aktualisiert, und der Eintrag kann korrigiert und erneut übermittelt werden. 
+- **Entwurf** : Neuen Zeiteinträgen wird automatisch der Status **Entwurf** zugewiesen. Nur Zeiteinträge mit dem Status **Entwurf** können gelöscht werden.
+- **Übermittelt** : Wenn ein Zeiteintrag übermittelt wurde, wird der Status in **Übermittelt** aktualisiert. 
+- **Genehmigt** : Wenn ein übermittelter Zeiteintrag genehmigt wurde, wird der Status auf **Genehmigt** aktualisiert. 
+- **Zurückgegeben** : Wenn ein Zeiteintrag abgelehnt wurde, wird der Status in **Zurückgegeben** aktualisiert, und der Eintrag kann korrigiert und erneut übermittelt werden. 
 
 ## <a name="view-rejection-comments"></a>Anzeigen von Kommentaren zur Ablehnung
 Wenn ein Zeiteintrag von einer genehmigenden Person abgelehnt wird, kann diese Person Kommentare zur Ablehnung angeben, um der Ressource den Grund für die Ablehnung zu erklären. Um sich die Kommentare für die Ablehnung zu einem Zeiteintrag anzusehen, wählen Sie **Eintrag öffnen** aus. Die Kommentare zur Ablehnung werden in einer Zeitskala angezeigt. Der Benutzer kann auf die Ablehnungskommentare antworten, bevor er den Eintrag erneut einreicht.
@@ -79,7 +79,7 @@ Wenn ein Zeiteintrag von einer genehmigenden Person abgelehnt wird, kann diese P
 Nachdem einige Zeiteinträge erstellt wurden, können Benutzer mehrere Zeiteinträge gleichzeitig erstellen.
 
 1. Wählen Sie im Formular **Zeiteinträge** die Option **Woche kopieren** aus, um zusätzliche Zeiteinträge in großen Mengen zu erstellen. 
-2. Verwenden Sie im Dialogfeld **Kopieren** im Abschnitt **Zeitraum von** die Felder **Startdatum** und **Enddatum**, um den Datumsbereich festzulegen, von dem Zeiteinträge kopiert werden sollen. 
+2. Verwenden Sie im Dialogfeld **Kopieren** im Abschnitt **Zeitraum von** die Felder **Startdatum** und **Enddatum** , um den Datumsbereich festzulegen, von dem Zeiteinträge kopiert werden sollen. 
 3. Geben Sie im Abschnitt **Zeitraum bis** im Feld **Startdatum** das Datum ein, für das Zeiteinträge erstellt werden sollen. 
 4. Klicken Sie auf **Kopieren**. Für das festgelegte Datum im **Zeitraum bis** wird eine Kopie der Zeiteinträge für den entsprechenden Wochentag im **Zeitraum von** erstellt. Beispielsweise wird der Zeiteintrag für Montag von letzter Woche in Montag dieser Woche kopiert, der als **Zeitraum bis** angegeben ist.
 

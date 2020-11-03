@@ -3,23 +3,23 @@ title: Ein Projekt kopieren
 description: Dieses Thema enthält Informationen zum Kopieren von Projekten in Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908143"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076465"
 ---
 # <a name="copy-a-project"></a>Ein Projekt kopieren
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Mit Dynamics 365 Project Operations können Sie mithilfe der **Projekt kopieren**-Aktion auf dem **Projekte**-Formular schnell neue Projekte erstellen. Um ein Projekt zu kopieren, wählen Sie ein Projekt aus und wählen Sie dann **Kopieren**. Die Aktion kopiert:
+Mit Dynamics 365 Project Operations können Sie schnell neue Projekte erstellen, indem Sie **Projekt kopieren** im Formular **Projekte** auswählen. Um ein Projekt zu kopieren, öffnen Sie das zu kopierende Projekt, und wählen Sie dann **Projekt kopieren** aus. Die Aktion kopiert:
 
 - Projekteigenschaften
 - Die Projektstrukturplan
@@ -58,4 +58,6 @@ Wenn ein Projektteam aus dem Quellprojekt kopiert wird, werden die generischen R
 
 ## <a name="estimates"></a>Schätzungen
 
-Wenn das Projekt kopiert wird, werden sowohl Ressourcen- als auch Ausgabenschätzungszeilen aus dem Quellprojekt kopiert.
+Wenn das Projekt kopiert wird, werden sowohl Ressourcen- als auch Ausgabenschätzungszeilen aus dem Quellprojekt kopiert. 
+
+Informationen zum programmgesteuerten Zugriff auf „Projekt kopieren“ finden Sie unter [Projektvorlagen mit „Projekt kopieren“ entwickeln](dev-copy-project.md).
