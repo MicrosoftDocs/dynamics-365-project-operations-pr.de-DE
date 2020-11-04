@@ -34,7 +34,7 @@ Eine Teilmenge der eingeschlossenen Komponenten kann mit dem Feld **Fakturierung
 
 Fakturierbare Komponenten können für die Kategorien Aufgaben, Rollen und Transaktionen definiert werden.
 
-Die Fakturierbarkeit wird für Aufgaben für eine Projektvertragszeile definiert und gilt für alle in der Zeile enthaltenen Transaktionsklassen. Wenn das Feld **Aufgaben einschließen** in einer Vertragszeile leer ist oder auf * *Gesamtes Projekt* festgelegt wurde, ist die Registerkarte **Fakturierbare Aufgaben** nicht verfügbar.
+Die Fakturierbarkeit wird für Aufgaben für eine Projektvertragszeile definiert und gilt für alle in der Zeile enthaltenen Transaktionsklassen. Wenn das Feld **Aufgaben einschließen** in einer Vertragszeile leer ist oder auf * *Gesamtes Projekt* * festgelegt wurde, ist die Registerkarte **Fakturierbare Aufgaben** nicht verfügbar.
 
 Die für Rollen für eine Projektvertragszeile festgelegte Fakturierbarkeit gilt nur für die Transaktionsklasse **Zeit**. Wenn das Feld **Zeit einschließen** in einer Vertragszeile leer ist oder auf **Nein** festgelegt wurde, ist die Registerkarte **Fakturierbare Rollen** nicht verfügbar.
 
