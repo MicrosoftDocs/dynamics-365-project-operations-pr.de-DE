@@ -1,26 +1,26 @@
 ---
-title: Nachkalkulation produktbasierter Vertragszeilen
+title: Nachkalkulation produktbasierter Vertragszeilen – Lite
 description: Dieses Thema enthält Informationen zum Erstellen.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4076755"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177240"
 ---
-# <a name="costing-product-based-contract-lines"></a>Nachkalkulation produktbasierter Vertragszeilen
+# <a name="cost-product-based-contract-lines---lite"></a>Nachkalkulation produktbasierter Vertragszeilen – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 
-Produktbasierte Vertragszeilen in Dynamics 365 Project Operations umfassen das Feld **Einstandspreis** , in dem der Einstandspreis des Produkts für nachgelagerte Rentabilitätsberechnungen gespeichert wird.
+Produktbasierte Vertragszeilen in Dynamics 365 Project Operations umfassen das Feld **Einstandspreis**, in dem der Einstandspreis des Produkts für nachgelagerte Rentabilitätsberechnungen gespeichert wird.
 
 Wenn eine produktbasierte Vertragszeile für ein Katalogprodukt erstellt wird, werden die Kosten für die produktbasierte Vertragszeile standardmäßig aus dem Feld **Standardkosten** im Produktkatalog berechnet. Das Feld **Standardkosten** im Produktkatalog wird in der Basiswährung der Organisation eingerichtet. Wenn die Stückkosten in der Vertragszeile standardmäßig sind, werden sie im Vertrag in die Verkaufswährung umgerechnet.
 

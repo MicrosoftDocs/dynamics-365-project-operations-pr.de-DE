@@ -3,7 +3,7 @@ title: Erstellen Sie eine neue Arbeitszeitvorlage.
 description: Erstellen Sie eine Arbeitszeitvorlage (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076534"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133052"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Erstellen Sie eine Arbeitszeitvorlage (Project Service)
 
@@ -45,7 +45,7 @@ Bevor Sie Projektzeitpläne erstellen können, müssen Sie einen Projektkalender
   
 2.  Wählen Sie die Ressource aus, auf der Sie Ihre Arbeitsstunden basieren möchten.  
   
-3.  Klicken Sie auf **Kalender speichern unter** , geben Sie einen Namen für die Arbeitsstundenvorlage ein, und klicken Sie dann auf **Speichern**.  
+3.  Klicken Sie auf **Kalender speichern unter**, geben Sie einen Namen für die Arbeitsstundenvorlage ein, und klicken Sie dann auf **Speichern**.  
   
 4.  Wenn Sie die Optionen geändert haben, klicken Sie auf **Speichern und schließen**.  
   

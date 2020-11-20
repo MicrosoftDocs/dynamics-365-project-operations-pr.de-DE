@@ -3,7 +3,7 @@ title: Zeiteintragskalender
 description: Dieses Thema bietet Informationen zur Verwendung des Zeiteintragskalenders.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afc31609c51f48db61ce359c18707b5a92211082
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 413aba735a5011a9b40c1d5b0bf43c6771db0f7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131179"
 ---
 # <a name="time-entry-calendar"></a>Zeiteintragskalender
 
@@ -39,4 +39,4 @@ Der Kalender unterstützt keine Aktionen für einzelne Kalenderelemente, und Sie
 
 ## <a name="extensibility"></a>-Erweiterbarkeit
 
-Auf der Seite **Zeiteinträge** , die das Zeiteintragraster enthält, können Sie benutzerdefinierte Felder hinzufügen, Suchfelder einrichten und benutzerdefinierte Ansichten erstellen. Sie können auch eine benutzerdefinierte Geschäftslogik einrichten, die auf Werten basiert, die ausgewählt sind oder in benutzerdefinierten Feldern eingegeben werden.
+Auf der Seite **Zeiteinträge**, die das Zeiteintragraster enthält, können Sie benutzerdefinierte Felder hinzufügen, Suchfelder einrichten und benutzerdefinierte Ansichten erstellen. Sie können auch eine benutzerdefinierte Geschäftslogik einrichten, die auf Werten basiert, die ausgewählt sind oder in benutzerdefinierten Feldern eingegeben werden.

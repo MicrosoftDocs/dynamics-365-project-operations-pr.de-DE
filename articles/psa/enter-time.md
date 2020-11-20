@@ -3,7 +3,7 @@ title: Zeit eingeben
 description: Eingeben der Zeit (Project Service)
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076727"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132872"
 ---
 # <a name="enter-time-project-service"></a>Eingeben der Zeit (Project Service)
 
@@ -35,7 +35,7 @@ Tragen Sie Ihre Stunden mindestens wöchentlich ein (oder mit der Häufigkeit, d
   
 1. Wechseln Sie zu **Project Service > Zeiteinträge**. Dieses öffnet den Kalender.  
   
-2. Um Ihren Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute** , um zurück zur laufenden Woche zu gelangen.  
+2. Um Ihren Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute**, um zurück zur laufenden Woche zu gelangen.  
   
 3. Zum Eingeben der Zeit klicken Sie entweder auf **Neu** oder doppelklicken im Kalender unter den Tag, für den Sie Zeit eingeben möchten.  
   
@@ -51,7 +51,7 @@ Tragen Sie Ihre Stunden mindestens wöchentlich ein (oder mit der Häufigkeit, d
   
    Wenn Sie die mobile Web-App verwenden:  
   
-9. Wechseln Sie im Menü zu **Zeiteinträge**.     Sie können zur Ansicht **Tag** , **Woche** oder **Monat** umschalten oder zum vorhergehenden oder folgenden Zeitraum navigieren.  
+9. Wechseln Sie im Menü zu **Zeiteinträge**.     Sie können zur Ansicht **Tag**, **Woche** oder **Monat** umschalten oder zum vorhergehenden oder folgenden Zeitraum navigieren.  
   
 10. Tippen Sie **...** und tippen auf **Neu**.  
   

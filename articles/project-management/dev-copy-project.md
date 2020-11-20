@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cb49109e8c199bc4569702ae844a19985534294d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076464"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131612"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projektvorlagen mit Projekt kopieren erstellen
 
@@ -21,7 +21,7 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 Dynamics 365 Project Operations unterstützt die Möglichkeit, ein Projekt zu kopieren und alle Zuweisungen auf die allgemeinen Ressourcen zurückzusetzen, die die Rolle darstellen. Kunden können diese Funktionalität verwenden, um grundlegende Projektvorlagen zu erstellen.
 
-Wenn Sie **Projekt kopieren** auswählen, wird der Status des Zielprojekts aktualisiert. Verwenden Sie **Statusgrund** , um festzustellen, wann die Kopieraktion abgeschlossen ist. Durch Auswahl von **Projekt kopieren** wird auch das Startdatum des Projekts auf das aktuelle Startdatum aktualisiert, wenn in der Zielprojektentität kein Zieldatum erkannt wird.
+Wenn Sie **Projekt kopieren** auswählen, wird der Status des Zielprojekts aktualisiert. Verwenden Sie **Statusgrund**, um festzustellen, wann die Kopieraktion abgeschlossen ist. Durch Auswahl von **Projekt kopieren** wird auch das Startdatum des Projekts auf das aktuelle Startdatum aktualisiert, wenn in der Zielprojektentität kein Zieldatum erkannt wird.
 
 ## <a name="copy-project-custom-action"></a>Benutzerdefinierte Aktion „Projekt kopieren“ 
 
@@ -39,7 +39,7 @@ Es gibt drei Eingabeparameter:
 | Zielsprache             | Entitätsreferenz | Zielprojekt |
 
 
-- **{"clearTeamsAndAssignments":true}** : Das Standardverhalten für Project für das Web. Dadurch werden alle Arbeitsaufträge und Teammitglieder entfernt.
+- **{"clearTeamsAndAssignments":true}**: Das Standardverhalten für Project für das Web. Dadurch werden alle Arbeitsaufträge und Teammitglieder entfernt.
 - **{"removeNamedResources":true}** Das Standardverhalten für Project Operations, bei dem Zuweisungen zu generischen Ressourcen zurückgesetzt werden.
 
 Weitere Standardinformationen über Aktionen finden Sie unter [Nutzen von Web-API-Aktionen](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions).

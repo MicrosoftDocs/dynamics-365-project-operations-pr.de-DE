@@ -3,7 +3,7 @@ title: Ordnen Sie Fähigkeiten Ressourcen zu
 description: Fähigkeiten bestimmten Ressourcen zuordnen (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9b025f9856b60e97facf15b6f2edcc8a1e59874b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e322f331b37132fa0478d190c10f3bf67c22fda3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076642"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130443"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>Zuordnen von Qualifikationen zu Ressourcen (Project Service)
 
@@ -35,7 +35,7 @@ Im vorhergehenden Schritt haben Sie bereits einige Qualifikationen einer neuen R
   
 2.  Doppelklicken Sie auf die Ressource, der Sie Qualifikationen hinzufügen möchten.  
   
-3.  Klicken Sie im Bereich **Qualifikatione** n auf **+** , um eine Qualifikation hinzuzufügen.  
+3.  Klicken Sie im Bereich **Qualifikatione** n auf **+**, um eine Qualifikation hinzuzufügen.  
   
 4.  Auf dem sich öffnenden Bildschirm füllen Sie die Felder wie erforderlich aus und klicken dann auf **Speichern** in der unteren rechten Ecke des Bildschirms.  
   

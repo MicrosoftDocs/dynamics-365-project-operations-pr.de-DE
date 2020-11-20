@@ -3,7 +3,7 @@ title: Erstellen eines Projekts
 description: Erstellen eines Projekt (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076536"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133097"
 ---
 # <a name="create-a-project-project-service"></a>Erstellen eines Projekts (Project Service)
 
@@ -37,7 +37,7 @@ Erstellen Sie ein Projekt unter Verwendung der [!INCLUDE[pn_project_service_auto
   
 3.  Im Bereich **Zusammenfassung** tragen Sie einen Namen für Ihr Projekt ein und füllen dann so viele Details aus, wie Sie können. Erforderliche Elemente sind durch ein rotes Sternchen (*) gekennzeichnet.  
   
-4.  Klicken Sie auf **Speichern** , um Ihr Projekt zu erstellen, sodass Sie mit der Bearbeitung fortfahren können.  
+4.  Klicken Sie auf **Speichern**, um Ihr Projekt zu erstellen, sodass Sie mit der Bearbeitung fortfahren können.  
   
 Als Nächstes erstellen Sie einen Projektstrukturplan für Ihr Projekt, um die Aufgaben, das Timing und die Ressourcenrollen zu definieren, die für das Projekt benötigt werden.  
 

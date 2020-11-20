@@ -1,22 +1,22 @@
 ---
-title: Eine automatisierte Proforma-Rechnungserstellung konfigurieren
+title: Automatische Rechnungserstellung konfigurieren – Lite
 description: Diese Thema enthält Informationen zum Konfigurieren der automatischen Erstellung von Proforma-Rechnungen.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076433"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176565"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Eine automatisierte Proforma-Rechnungserstellung konfigurieren
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Automatische Rechnungserstellung konfigurieren – Lite
+ 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 Sie können die automatische Rechnungserstellung in Dynamics 365 Project Operations konfigurieren. Das System erstellt einen Entwurf einer Proforma-Rechnung basierend auf dem Rechnungszeitplan für jeden Projektvertrag und jede Vertragszeile. Rechnungszeitpläne werden auf Vertragszeilenebene konfiguriert. Jede Zeile in einem Vertrag kann einen eigenen Rechnungszeitplan haben, oder in jeder Zeile des Vertrags kann derselbe Rechnungszeitplan enthalten sein.
@@ -48,21 +48,21 @@ Die für jede dieser beiden Positionen definierten Rechnungszeitpläne sehen wie
 
 Bei Ausführung der automatischen Rechnungsstellung in diesem Beispiel am folgenden Datum:
 
-- **4. Oktober oder ein Datum davor** : Für diesen Vertrag wird keine Rechnung erstellt, da die Tabelle **Rechnungszeitplan** für jede dieser Vertragszeilen Sonntag, den 4. Oktober nicht als Datum des Rechnungslaufs angibt.
-- **Montag, 5. Oktober** : Eine Rechnung wird erstellt für:
+- **4. Oktober oder ein Datum davor**: Für diesen Vertrag wird keine Rechnung erstellt, da die Tabelle **Rechnungszeitplan** für jede dieser Vertragszeilen Sonntag, den 4. Oktober nicht als Datum des Rechnungslaufs angibt.
+- **Montag, 5. Oktober**: Eine Rechnung wird erstellt für:
 
     - Prototyparbeit, die den Meilenstein enthält, wenn er als **Bereit für die Rechnungsstellung** markiert ist
     - Implementierungsarbeiten, die alle Zeittransaktionen umfassen, die vor dem Transaktionsstichtag Sonntag, 4. Oktober erstellt und als **Bereit für die Rechnungsstellung** markiert wurden.
     - Angefallene Kosten, die alle Ausgabentransaktionen umfassen, die vor dem Transaktionsstichtag Sonntag, 4. Oktober erstellt und als **Bereit für die Rechnungsstellung** markiert wurden.
   
-- **Am 6. Oktober oder an einem Datum vor dem 19. Oktober** : Für diesen Vertrag wird keine Rechnung erstellt, da die Tabelle **Rechnungszeitplan** für jede dieser Vertragszeilen den 06. Oktober oder ein Datum vor dem 19. Oktober nicht als Datum des Rechnungslaufs angibt.
-- **Montag, 19. Oktober** : Eine Rechnung wird für Implementierungsarbeiten generiert, die alle Zeittransaktionen enthält, die vor dem Transaktionsstichtag Sonntag, 18. Oktober erstellt und als **Bereit für die Rechnungsstellung** markiert wurden.
-- **Montag, 2. November** : Eine Rechnung wird erstellt für:
+- **Am 6. Oktober oder an einem Datum vor dem 19. Oktober**: Für diesen Vertrag wird keine Rechnung erstellt, da die Tabelle **Rechnungszeitplan** für jede dieser Vertragszeilen den 06. Oktober oder ein Datum vor dem 19. Oktober nicht als Datum des Rechnungslaufs angibt.
+- **Montag, 19. Oktober**: Eine Rechnung wird für Implementierungsarbeiten generiert, die alle Zeittransaktionen enthält, die vor dem Transaktionsstichtag Sonntag, 18. Oktober erstellt und als **Bereit für die Rechnungsstellung** markiert wurden.
+- **Montag, 2. November**: Eine Rechnung wird erstellt für:
 
     - Implementierungsarbeiten, die alle Zeittransaktionen umfassen, die vor dem Transaktionsstichtag Sonntag, 1. November erstellt und als **Bereit für die Rechnungsstellung** markiert wurden.
     - Angefallene Kosten, die alle Ausgabentransaktionen umfassen, die vor dem Transaktionsstichtag Sonntag, 1. November erstellt und als **Bereit für die Rechnungsstellung** markiert wurden.
 
-- **Dienstag, 3. November** : Eine Rechnung wird für Prototyparbeit erstellt, die den Meilenstein für 12.000 USD enthält, sofern dieser als **Bereit für die Rechnungsstellung** markiert ist.
+- **Dienstag, 3. November**: Eine Rechnung wird für Prototyparbeit erstellt, die den Meilenstein für 12.000 USD enthält, sofern dieser als **Bereit für die Rechnungsstellung** markiert ist.
 
 ## <a name="configure-automatic-invoicing"></a>Automatische Rechnungsstellung konfigurieren
 
@@ -78,10 +78,10 @@ Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf z
 - UpdateRoleUtilization
 
 5. Wählen Sie **ProcessRunCaller** und dann **Hinzufügen** aus.
-6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep** -Workflow folgt ein **Process** -Workflow. 
+6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep**-Workflow folgt ein **Process** -Workflow. 
 
 > [!NOTE]
-> In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process** -Workflow ein **Sleep** -Workflow.
+> In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
 
 Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen tatsächlich erstellt. Der Workflow durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt Rechnungen für diese Zeilen. Zur Bestimmung der Vertragszeilen, für die Rechnungen erstellt werden sollen, überprüft der Job die Rechnungsdurchlaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungsdurchlaufdatum aufweisen, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, überspringt der Auftrag das Erstellen einer Rechnung.
 
@@ -90,4 +90,4 @@ Nachdem **ProcessRunner** ausgeführt wurde, ruft es **ProcessRunCaller** auf, g
 Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um einen wiederkehrenden Job. Wenn diese Batchverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Auftrags erstellt, und es werden Fehler verursacht. Deshalb sollten Sie die Batchverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
 
 > [!NOTE]
-> Die Batchabrechnung wird nur für Projektvertragszeilen in Project Operations ausgeführt, die durch Rechnungszeitpläne konfiguriert sind. Für eine Vertragsposition mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden.
+> Die Batchabrechnung wird nur für Projektvertragszeilen in Project Operations ausgeführt, die durch Rechnungszeitpläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden.

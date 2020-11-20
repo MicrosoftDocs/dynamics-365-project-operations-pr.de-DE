@@ -3,7 +3,7 @@ title: Ordnen Sie Fähigkeiten Ressourcenrollen zu
 description: Fähigkeiten Ressourcenrollen zuordnen (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076641"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130262"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Fähigkeiten Ressourcenrollen zuordnen (Project Service)
 
@@ -35,9 +35,9 @@ Während Sie Ressourcenrollen hinzugefügt haben, haben Sie ihnen wahrscheinlich
   
 2.  Klicken Sie auf die Ressourcenrolle, der Sie Fähigkeiten hinzufügen wollen.  
   
-3.  Klicken Sie im Bereich **Qualifikatione** n auf **+** , um eine Qualifikation hinzuzufügen.  
+3.  Klicken Sie im Bereich **Qualifikatione** n auf **+**, um eine Qualifikation hinzuzufügen.  
   
-4.  Im Bereich Rollenkompetenzanforderung klicken Sie in das Feld **Fertigkeit** , klicken Sie auf die Schaltfläche **Suchen** , und wählen Sie dann eine Fertigkeit aus.  
+4.  Im Bereich Rollenkompetenzanforderung klicken Sie in das Feld **Fertigkeit**, klicken Sie auf die Schaltfläche **Suchen**, und wählen Sie dann eine Fertigkeit aus.  
   
 5.  Wählen Sie eine Kompetenz für die Qualifikation, und klicken Sie auf **Speichern**.  
   

@@ -3,7 +3,7 @@ title: Planen Sie Ressourcen für ein Projekt.
 description: Ressourcen für ein Projekt planen (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076730"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132135"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Ressourcen für ein Projekt planen (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4076730"
 
 Sie können die Verfügbarkeit von Ressourcen überprüfen, um einen Gesamtüberblick darüber zu erhalten, wie stark Ihre Ressourcen gebucht sind. Sie können die Ansicht auch nach Qualifikationen, Team, Standort und anderen Optionen filtern.  
   
-Die Zeitplanübersicht zeigt eine Ressourcenliste und deren Verfügbarkeit an. Wählen Sie einen Anzeigemodus aus, um die Verfügbarkeiten nach **Stunden** , **Tag** , **Woche** und **Monat** anzuzeigen.  
+Die Zeitplanübersicht zeigt eine Ressourcenliste und deren Verfügbarkeit an. Wählen Sie einen Anzeigemodus aus, um die Verfügbarkeiten nach **Stunden**, **Tag**, **Woche** und **Monat** anzuzeigen.  
   
 Bevor Sie die Zeitplanübersicht verwenden, müssen Sie diese einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Zeitplanübersicht (Field Service oder Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -51,8 +51,8 @@ Wenn Sie eine ältere Version verwenden, lesen Sie für die Ressourcenverfügbar
 
 1.  Rechtsklicken Sie in der Liste **Buchungsanforderung** auf eine ungeplante Buchung, und wählen Sie eine der folgenden Optionen aus:  
   
-- Wählen Sie **Verfügbarkeit suchen – Aktuelle Ressourcen** , um verfügbaren Ressourcen in der Zeitplanübersicht zu suchen.  
-- Wählen Sie **Verfügbarkeit suchen – Alle Ressourcen** , um verfügbare Ressourcen im System zu suchen.  
+- Wählen Sie **Verfügbarkeit suchen – Aktuelle Ressourcen**, um verfügbaren Ressourcen in der Zeitplanübersicht zu suchen.  
+- Wählen Sie **Verfügbarkeit suchen – Alle Ressourcen**, um verfügbare Ressourcen im System zu suchen.  
    > [!NOTE]
    >  Dabei werden die Filter die Optionen für die ausgewählte Buchungsanforderung anzeigen.  
   
@@ -61,7 +61,7 @@ Wenn Sie eine ältere Version verwenden, lesen Sie für die Ressourcenverfügbar
 
 ## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a>Buchen einer Ressource mithilfe der täglichen Ansicht und nicht ausgebuchte Personen suchen
   
-1.  Auf der Zeitplanübersicht klicken Sie auf **Ansichtsmodus** , und wählen Sie **Tage** aus.  
+1.  Auf der Zeitplanübersicht klicken Sie auf **Ansichtsmodus**, und wählen Sie **Tage** aus.  
   
     Dies zeigt eine Tabellenansicht der Anzahl der gebuchten Stunden einer Ressource pro Tag und die freien Tage an.  
   

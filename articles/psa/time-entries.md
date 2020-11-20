@@ -3,7 +3,7 @@ title: Zeiteinträge erstellen
 description: Dieses Thema bietet Informationen zur Vorgehensweise beim Erstellen von Zeiteinträgen.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076615"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131270"
 ---
 # <a name="create-time-entries"></a>Zeiteinträge erstellen
 
@@ -63,7 +63,7 @@ Nachdem einige Zeiteinträge erstellt wurden, können Sie diese kopieren, um ein
 
 ## <a name="import-data-for-time-entries"></a>Daten für Zeiteinträge importieren
 
-Sie können Daten aus Projektbuchungen und Arbeitsaufträgen importieren. Wenn Sie Daten importieren, können Sie den Datumsbereich der Buchungen angeben, die importiert werden sollen und dann explizit die Buchungen auswählen, die als **Entwurf** -Zeiteinträge erstellt werden sollen.
+Sie können Daten aus Projektbuchungen und Arbeitsaufträgen importieren. Wenn Sie Daten importieren, können Sie den Datumsbereich der Buchungen angeben, die importiert werden sollen und dann explizit die Buchungen auswählen, die als **Entwurf**-Zeiteinträge erstellt werden sollen.
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funktionen zum Gruppieren nach, Sortieren, Suchen und Filtern
 

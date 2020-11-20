@@ -3,7 +3,7 @@ title: Installation der Beispieldaten
 description: In diesem Thema finden Sie Informationen zum Installieren von Beispieldaten in Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076589"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132422"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation von Beispieldaten für die Project Service-Anwendung
 
@@ -49,7 +49,7 @@ Wenn Sie Beispieldatenpakete installieren, werden im Rahmen des Installationspro
 
 - Es werden Standardparameter für die Verwendung von Project Service, Field Service oder beide Anwendungen erstellt oder festgelegt (sofern zutreffend).
 
-- Es werden Beispieldaten für die Anwendungen importiert, wie buchbare Ressourcen, anwendungsspezifische Rollen, Vertriebs- und Einstandspreislisten, Organisationseinheiten, Vertriebsprozessdatensätze und andere Entitäten, um die Schlüsselfunktionen zu veranschaulichen.  
+- Es werden Beispieldaten für die Anwendungen importiert, wie buchbare Ressourcen, anwendungsspezifische Rollen, Vertriebs- und Einstandspreislisten, Organisationseinheiten, Vertriebsprozessdatensätze und andere Entitäten, um die Schlüsselfunktionen zu veranschaulichen.  
 
 Mit dem **Demodaten** - Paket erhalten Sie die obigen und zusätzlichen transaktionalen Daten wie Arbeitsaufträge und Projekte.
 
@@ -80,7 +80,7 @@ Das Installationsprotokoll geht für Ihre Zielinstanz (Organisation) von Folgend
 
 Sie müssen das Installationsprogramm auf einem Computer mit einer aktuellen Version von Windows (Windows 10 bevorzugt) ausführen.
 
-Sie sollten einplanen, dass der Computer mit einem Netzwerk verknüpft bleibt, und dass die Installation bis zu **1 Stunde** lang ausgeführt wird für **Daten einrichten/referenzieren**. (Die erstmalige Installation dauert 30 Minuten für **FPSMasterData** , und enthält Beispieldaten für beide Anwendungen). Für **FPSDemoData** dauert die Installation rund **3 Stunden**.
+Sie sollten einplanen, dass der Computer mit einem Netzwerk verknüpft bleibt, und dass die Installation bis zu **1 Stunde** lang ausgeführt wird für **Daten einrichten/referenzieren**. (Die erstmalige Installation dauert 30 Minuten für **FPSMasterData**, und enthält Beispieldaten für beide Anwendungen). Für **FPSDemoData** dauert die Installation rund **3 Stunden**.
 
 Bei dem Computer muss die Bildschirmschonerfunktion deaktiviert sein. Andernfalls gehen die Sitzungsanmeldeinformationen für die Installation möglicherweise verloren, wenn der Bildschirmschoner aktiviert wird (es sei denn, Sie sorgen währenddessen dafür, dass die Sitzung aktiv bleibt).
 
@@ -114,13 +114,13 @@ Das Paket **FPSMasterData** ist so konzipiert, dass es mit einem Benutzer names 
 
 Um Benutzer zu erstellen oder zu konfigurieren, wechseln Sie zu **Einstellungen** > **Sicherheit** > **Benutzer** und gehen Sie dann folgendermaßen vor:
 
-1. Legen Sie UserFullname=„Bernhard Anhalter” mit dem Benutzernamen „bernharda” ( **Kleinschreibung** ) für die Projektmanager- und Practice Manager-Rollen fest.
+1. Legen Sie UserFullname=„Bernhard Anhalter” mit dem Benutzernamen „bernharda” (**Kleinschreibung**) für die Projektmanager- und Practice Manager-Rollen fest.
 
 2. Wählen Sie den Benutzer **Bernhard Anhalter** und anschließend **Rollen verwalten** aus. Suchen Sie nach der Rolle **Systemadministrator** und wählen Sie aus. Wählen Sie anschließend **OK** aus, Bernhard Anhalter die vollständigen Administratorrechte zu erteilen. Dieser Schritt ist erforderlich, um sicherzustellen, dass Beispieldatensätze mit den korrekten Benutzerbesitzrechten erstellt werden, und somit Ansichten korrekt ausgefüllt werden.
 
 3. Im heruntergeladenen Paket müssen Sie eine Datenzuordnungsdatei mit E-Mail-Adressen des Standardbenutzerkontexts aktualisieren. Dazu öffnen Sie **PkgFolder** und suchen nach der Datei **ImportUserMapFile.xml** in Notepad (oder Visual Studio oder einem anderen XML-Editor) und öffnen sie dort. Legen Sie das Feld **DefaultUserToMapTo=** für die E-Mail-Adresse des Benutzers Bernhard Anhalter fest.
 
-4. Wenn Sie Bernhard Anhalter nicht mit dem Benutzernamen **bernharda** verwenden, müssen Sie eine weitere Datei aktualisieren. Öffnen Sie die Datei **DemoDataPreImportConfig.xml** und suchen Sie dann nach dem Tag **userstocreateandconfigure**. Aktualisieren Sie das **\<login\>** -Tag mit dem Benutzernamen des Benutzers Bernhard Anhalter. Weitere Details finden Sie unten in den [Technischen Hinweisen](#technical-notes).
+4. Wenn Sie Bernhard Anhalter nicht mit dem Benutzernamen **bernharda** verwenden, müssen Sie eine weitere Datei aktualisieren. Öffnen Sie die Datei **DemoDataPreImportConfig.xml** und suchen Sie dann nach dem Tag **userstocreateandconfigure**. Aktualisieren Sie das **\<login\>**-Tag mit dem Benutzernamen des Benutzers Bernhard Anhalter. Weitere Details finden Sie unten in den [Technischen Hinweisen](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Erstellen oder Konfigurieren Sie Benutzer - Demodatenenpaket
 
@@ -143,9 +143,9 @@ Das Demodatenenpaket erfordert sechs Benutzer. Damit das Paket richtig eingerich
    > [!div class="mx-imgBorder"]
    > ![Screenshot von UserMapFile](media/sample-data-7.png)
 
-4. Wenn „Karl Gäller” Benutzer vollständiger Name eine andere Benutzer-ID hat als  **„karlg"** , müssen Sie eine weitere Datei aktualisieren. Öffnen Sie die Datei **DemoDataPreImportConfig.xml** und suchen Sie dann nach dem Tag **userstocreateandconfigure**. Aktualisieren Sie das **\<login\>** -Tag mit dem loginId (Groß-/Kleinschreibung beachtet). 
+4. Wenn „Karl Gäller” Benutzer vollständiger Name eine andere Benutzer-ID hat als  **„karlg"**, müssen Sie eine weitere Datei aktualisieren. Öffnen Sie die Datei **DemoDataPreImportConfig.xml** und suchen Sie dann nach dem Tag **userstocreateandconfigure**. Aktualisieren Sie das **\<login\>**-Tag mit dem loginId (Groß-/Kleinschreibung beachtet). 
 
-5. Der erste Kalender des Benutzers (im **userstocreateandconfigure** -Tag) wird verwendet, um die Arbeitszeiten für alle buchbaren Rssourcen für den Import von Demodaten aufzufüllen. Navigieren Sie zu **Einstellungen**  > **Sicherheit**  > **Benutzer** und succhen Sie Benutzer „Karl Gäller” und öffnen Sie die Option „Arbeitszeit”. Bearbeiten Sie die vorhandenen Arbeitszeiten und die Option **Gesamter wöchentlicher Serienzeitplan vom Beginn bis zum Ende**. Stellen Sie unter **Arbeitszeiten werden auf 8 - 5 Uhr morgens (9 Stunden), Montag bis Freitag und Stunden mit der Zeitzone festgelegt auf Pacific Time (USA und Kanada)** sicher. Dies ist erforderlich, um sicherzustellen, dass die Projekt- und Zeitplanübersicht wie erwartet dargestellt wird.
+5. Der erste Kalender des Benutzers (im **userstocreateandconfigure**-Tag) wird verwendet, um die Arbeitszeiten für alle buchbaren Rssourcen für den Import von Demodaten aufzufüllen. Navigieren Sie zu **Einstellungen**  > **Sicherheit**  > **Benutzer** und succhen Sie Benutzer „Karl Gäller” und öffnen Sie die Option „Arbeitszeit”. Bearbeiten Sie die vorhandenen Arbeitszeiten und die Option **Gesamter wöchentlicher Serienzeitplan vom Beginn bis zum Ende**. Stellen Sie unter **Arbeitszeiten werden auf 8 - 5 Uhr morgens (9 Stunden), Montag bis Freitag und Stunden mit der Zeitzone festgelegt auf Pacific Time (USA und Kanada)** sicher. Dies ist erforderlich, um sicherzustellen, dass die Projekt- und Zeitplanübersicht wie erwartet dargestellt wird.
 
 **Empfehlung:** Sie sollten jetzt eine Sicherung für Ihre Organisation vornehmen, falls Sie während der Installation der Beispieldaten wieder alles zurücksetzen müssen, wenn etwas schiefgehen sollte. Weitere Informationen finden Sie unter [Sicherung und Wiederherstellung von Instanzen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -175,7 +175,7 @@ Das Demodatenenpaket erfordert sechs Benutzer. Damit das Paket richtig eingerich
 
 6. Beachten Sie, bevor Sie fortfahren, dass das Installieren der Beispieldaten bis zu eine Stunde (in der Regel ~10 Minuten) dauern kann. Sie müssen sicherstellen, dass der Computer während des Installationsprozesses eingeschaltet und mit einem Netzwerk verbunden bleibt, und dass Ihre Sitzung aktiv bleibt.   
 
-7. Wenn Sie bereit sind, klicken Sie auf **Weiter** , um den Installationsvorgang für die Beispieldaten zu starten. Nachdem die Beispieldaten geladen sind, klicken Sie auf **Fertig stellen**.
+7. Wenn Sie bereit sind, klicken Sie auf **Weiter**, um den Installationsvorgang für die Beispieldaten zu starten. Nachdem die Beispieldaten geladen sind, klicken Sie auf **Fertig stellen**.
 
 ## <a name="verify-the-sample-data-installation"></a>Überprüfen der Installation der Beispieldaten
 
@@ -203,7 +203,7 @@ Unten finden Sie weitere technische Informationen zu der Installation dieser Dat
 
 Wenn Sie die Beispieldaten zusätzlich zu einer vorhandenen Field Service- oder Project Service-Testversion oder -Demoumgebung installieren möchten, die bereits über Daten verfügt, müssen Sie die durch das Installationsprogramm durchgeführten Sicherheitsvorkontrollen ausschalten.
 
-Gehen Sie dazu zum Ordner **PkgFolder** , um die Datei **DemoDataPreImportConfig.xml** in Notepad (oder einem anderen XML-Editor) zu finden und zu öffnen.
+Gehen Sie dazu zum Ordner **PkgFolder**, um die Datei **DemoDataPreImportConfig.xml** in Notepad (oder einem anderen XML-Editor) zu finden und zu öffnen.
 
 Suchen Sie den folgenden Wert und ändern Sie dann die Einstellung von „true” in „false”:
 
@@ -213,11 +213,11 @@ Suchen Sie den folgenden Wert und ändern Sie dann die Einstellung von „true�
 
 Diese Änderung sorgt dafür, dass das einige wichtige Sicherheitsprüfungen umgangen werden, darunter:
 
-- Die Bestätigung, dass es nicht mehr als einen aktiven **Organisationseinheit** -Datensatz gibt, und die anschließende Umbenennung in **Fabrikam US**
+- Die Bestätigung, dass es nicht mehr als einen aktiven **Organisationseinheit**-Datensatz gibt, und die anschließende Umbenennung in **Fabrikam US**
 
-- Die Bestätigung, dass es nicht mehr als einen aktiven **Arbeitsvorlage** -Datensatz gibt
+- Die Bestätigung, dass es nicht mehr als einen aktiven **Arbeitsvorlage**-Datensatz gibt
 
-- Die Bestätigung, dass es nicht mehr als einen aktiven **Projektparameter** -Datensatz gibt, und die anschließende Umbenennung dieses Eintrags in **Parameter**
+- Die Bestätigung, dass es nicht mehr als einen aktiven **Projektparameter**-Datensatz gibt, und die anschließende Umbenennung dieses Eintrags in **Parameter**
 
 ### <a name="configuration-components"></a>Konfigurationskomponenten
 

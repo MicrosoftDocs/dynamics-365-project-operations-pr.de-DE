@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076564"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130982"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Hinzufügen von benutzerdefinierten Feldern zu Preisgestaltung und zu Transaktionsentitäten
 
@@ -41,7 +41,7 @@ Wenn eine benutzerdefinierte Preisdimension optionssatzbasiert ist, fügen Sie s
 1. Wählen Sie im Projektvorgang **Einstellungen** > **Lösungen** und doppelklicken Sie auf **\<your organization name> Preisdimensionen**. 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Rollenpreis** aus.
 3. Erweitern Sie die Entität **Rollenpreis** und wählen Sie **Felder** aus.
-4. Wählen Sie **Neu** , um ein neues Feld namens **Arbeitsstandort der Ressource** zu erstellen und wählen Sie als Feldtyp **Optionssatz** aus. 
+4. Wählen Sie **Neu**, um ein neues Feld namens **Arbeitsstandort der Ressource** zu erstellen und wählen Sie als Feldtyp **Optionssatz** aus. 
 5. Wählen Sie **Einen vorhandenen Optionssatz verwenden** aus, wählen Sie den Optionssatz **Arbeitsstandort der Ressource** aus, und wählen Sie **Speichern**.
 6. Wiederholen Sie die Schritte 1 - 5, um dieses Feld der Entität **Rollenpreisaufschlag** hinzuzufügen. 
 7. Wiederholen Sie die Schritte 1 - 5 für den Optionssatz **Arbeitszeiten der Ressource**.
@@ -49,24 +49,24 @@ Wenn eine benutzerdefinierte Preisdimension optionssatzbasiert ist, fügen Sie s
 > [!IMPORTANT]
 > Wenn Sie ein Feld mehr als einer Entität hinzufügen, verwenden Sie denselben Feldnamen für alle Entitäten. 
 
-In der Vertriebs- und Schätzungsphase eines Projekts werden Schätzungen des Arbeitsaufwands verwendet, der erforderlich ist, um die Arbeiten **lokal** und **vor Ort** während der **regulären Arbeitszeit** und **Überstunden** durchzuführen, um den Wert des Angebots bzw. Projekts zu ermitteln. Die Felder **Arbeitsstandort der Ressource** und **Arbeitszeiten der Ressource** werden den Schätzungsentitäten **Detailinformationen zur Angebotsposition** , **Projektvertragsposition** , **Projektteammitglied** und **Vorkalkulationsposition** hinzugefügt.
+In der Vertriebs- und Schätzungsphase eines Projekts werden Schätzungen des Arbeitsaufwands verwendet, der erforderlich ist, um die Arbeiten **lokal** und **vor Ort** während der **regulären Arbeitszeit** und **Überstunden** durchzuführen, um den Wert des Angebots bzw. Projekts zu ermitteln. Die Felder **Arbeitsstandort der Ressource** und **Arbeitszeiten der Ressource** werden den Schätzungsentitäten **Detailinformationen zur Angebotsposition**, **Projektvertragsposition**, **Projektteammitglied** und **Vorkalkulationsposition** hinzugefügt.
 
 1. Wählen Sie im Projektvorgang **Einstellungen** > **Lösungen** und doppelklicken Sie dann auf **\<your organization name> Preisdimensionen**. 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Detailinformationen zur Angebotsposition** aus.
 3. Erweitern Sie die Entität **Detailinformationen zur Angebotsposition** und wählen Sie **Felder** aus.
-4. Wählen Sie **Neu** , um ein neues Feld namens **Arbeitsstandort der Ressource** zu erstellen und wählen Sie den Feldtyp **Optionssatz**. 
+4. Wählen Sie **Neu**, um ein neues Feld namens **Arbeitsstandort der Ressource** zu erstellen und wählen Sie den Feldtyp **Optionssatz**. 
 5. Wählen Sie **Einen vorhandenen Optionssatz verwenden** und **Arbeitsstandort der Ressource** aus und wählen Sie dann **Speichern**.
-6. Wiederholen Sie die Schritte 1 - 5, um dieses Feld den Entitäten **Positionsdetail von Projektvertrag** , **Projektteammitglied** und **Vorkalkulationsposition** hinzuzufügen.
+6. Wiederholen Sie die Schritte 1 - 5, um dieses Feld den Entitäten **Positionsdetail von Projektvertrag**, **Projektteammitglied** und **Vorkalkulationsposition** hinzuzufügen.
 7. Wiederholen Sie die Schritte 1 - 6 für den Optionssatz **Arbeitszeiten der Ressource**. 
 
-Für die Lieferung und Rechnungsstellung muss in den Projekt-Ist-Werten der Preis für die abgeschlossenen Arbeiten genau ausgewiesen sein, um auszuwählen, ob sie **lokal** oder **vor Ort** und während der **regulären Arbeitszeit** oder während **Überstunden** ausgeführt wurden. Die Felder **Arbeitsstandort der Ressource** und **Arbeitszeiten der Ressource** sollten den Entitäten **Zeiteintrag** , **Tatsächlich** , **Rechnungsposition** und **Erfassungsposition** hinzugefügt werden.
+Für die Lieferung und Rechnungsstellung muss in den Projekt-Ist-Werten der Preis für die abgeschlossenen Arbeiten genau ausgewiesen sein, um auszuwählen, ob sie **lokal** oder **vor Ort** und während der **regulären Arbeitszeit** oder während **Überstunden** ausgeführt wurden. Die Felder **Arbeitsstandort der Ressource** und **Arbeitszeiten der Ressource** sollten den Entitäten **Zeiteintrag**, **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** hinzugefügt werden.
 
 1. Wählen Sie **Einstellungen** > **Lösungen** und doppelklicken Sie dann auf **\<your organization name> Preisdimensionen**.
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Zeiteintrag** aus.
 3. Erweitern Sie die Entität **Detailinformationen zur Angebotsposition** und wählen Sie dann **Felder** aus.
-4. Wählen Sie **Neu** , um ein neues Feld namens **Arbeitsstandort der Ressource** zu erstellen und wählen Sie als Feldtyp **Optionssatz** aus. 
+4. Wählen Sie **Neu**, um ein neues Feld namens **Arbeitsstandort der Ressource** zu erstellen und wählen Sie als Feldtyp **Optionssatz** aus. 
 5. Wählen Sie **Einen vorhandenen Optionssatz verwenden** aus, wählen Sie den Optionssatz **Arbeitsstandort der Ressource** aus, und wählen Sie **Speichern**.
-6. Wiederholen Sie die Schritte 1 - 5, um dieses Feld den Entitäten **Tatsächlich** , **Rechnungsposition** und **Erfassungsposition** hinzuzufügen.
+6. Wiederholen Sie die Schritte 1 - 5, um dieses Feld den Entitäten **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** hinzuzufügen.
 7. Wiederholen Sie die Schritte 1 - 6 für den Optionssatz **Arbeitszeiten der Ressource**. 
 
 Damit sind die Schemaänderungen abgeschlossen, die für die optionssatzbasierten, benutzerdefinierten Dimensionen erforderlich sind.
@@ -78,13 +78,13 @@ Wenn es sich bei der benutzerdefinierten Preisdimension um eine Entität handelt
 1. Wählen Sie im Projektvorgang **Einstellungen** > **Lösungen** und doppelklicken Sie dann auf **\<your organization name> Preisdimensionen**. 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Standardtitel** aus.
 3. Erweitern Sie die Entität **Standardtitel** und wählen Sie **1:n-Beziehungen** aus.
-4. Wählen Sie **Neu** , um eine neue 1:n-Beziehung namens **Standardtitel zu Buchbare Ressource** zu erstellen. Geben Sie die gewünschten Informationen ein und wählen Sie anschließend **Speichern**.
+4. Wählen Sie **Neu**, um eine neue 1:n-Beziehung namens **Standardtitel zu Buchbare Ressource** zu erstellen. Geben Sie die gewünschten Informationen ein und wählen Sie anschließend **Speichern**.
 
 Der Standardtitel muss dann auch den Project Service-Preisentitäten **Rollenpreis** und **Rollenpreisaufschlag** hinzugefügt werden. Dies erfolgt mithilfe von 1:n-Beziehungen zwischen den Entitäten **Standardtitel** und **Rollenpreis** sowie den Entitäten **Standardtitel** und **Rollenpreisaufschlag**.
 
 1. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Standardtitel** aus.
 2. Erweitern Sie die Entität **Standardtitel** und wählen Sie **1:n-Beziehungen** aus.
-3. Wählen Sie **Neu** , um eine neue 1:n-Beziehung namens **Standardtitel zu Rollenpreis** zu erstellen. Geben Sie die gewünschten Informationen ein und wählen Sie anschließend **Speichern**.
+3. Wählen Sie **Neu**, um eine neue 1:n-Beziehung namens **Standardtitel zu Rollenpreis** zu erstellen. Geben Sie die gewünschten Informationen ein und wählen Sie anschließend **Speichern**.
 4. Wiederholen Sie die Schritte 1 - 4, um 1:n-Beziehungen zwischen den Entitäten **Standardtitel** und **Rollenpreisaufschlags** zu erstellen.
 
 In der Vertriebs- und Schätzungsphase des Projekts sind für jeden Standardtitel Schätzungen des Arbeitsaufwands erforderlich, um das Angebot bzw. Projekt zu bewerten. Das bedeutet, dass in Project Service 1:n-Beziehungen von Standardtitel zu jeder dieser Schätzungsentitäten erforderlich sind: 
@@ -94,11 +94,11 @@ In der Vertriebs- und Schätzungsphase des Projekts sind für jeden Standardtite
 - **Projektteammitglied**
 - **Vorkalkulationsposition**
 
-5. Wiederholen Sie die Schritte 1 - 5, um 1:n-Beziehungen von **Standardtitel** zu **Detailinformationen zur Angebotsposition** , **Projektvertragsposition** , **Projektteammitglied** und **Vorkalkulationsposition** zu erstellen.
+5. Wiederholen Sie die Schritte 1 - 5, um 1:n-Beziehungen von **Standardtitel** zu **Detailinformationen zur Angebotsposition**, **Projektvertragsposition**, **Projektteammitglied** und **Vorkalkulationsposition** zu erstellen.
 
-  In der Lieferungs- und Rechnungsstellungsphase muss der Preis der von jedem Standardtitel durchgeführten Arbeit in den Projekt-Ist-Werten genau ausgewiesen sein. Dies bedeutet, dass 1:n-Beziehungen von **Standardtitel** zu den Entitäten **Zeiteintrag** , **Tatsächlich** , **Rechnungsposition** und **Erfassungsposition** vorhanden sein müssen.
+  In der Lieferungs- und Rechnungsstellungsphase muss der Preis der von jedem Standardtitel durchgeführten Arbeit in den Projekt-Ist-Werten genau ausgewiesen sein. Dies bedeutet, dass 1:n-Beziehungen von **Standardtitel** zu den Entitäten **Zeiteintrag**, **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** vorhanden sein müssen.
 
-6. Wiederholen Sie die Schritte 1 - 6, um 1:n-Beziehungen von **Standardtitel** zu den Entitäten **Zeiteintrag** , **Tatsächlich** , **Rechnungsposition** und **Erfassungsposition** zu erstellen.
+6. Wiederholen Sie die Schritte 1 - 6, um 1:n-Beziehungen von **Standardtitel** zu den Entitäten **Zeiteintrag**, **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** zu erstellen.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Einrichten von Standard-Dimensionswerten mithilfe der Zuordnungsfunktionen der Plattform
 Für „Zeiteintrag” wäre es hilfreich, wenn das System standardmäßig den Standardtitel für den Zeiteintrag aus „Buchbare Ressource” verwendet, die den Zeiteintrag aufzeichnet. Führen Sie die folgenden Schritte aus, um Feldzuordnungen zur 1:n-Beziehung von **Buchbare Ressource** zu **Zeiteintrag** hinzuzufügen.
@@ -106,7 +106,7 @@ Für „Zeiteintrag” wäre es hilfreich, wenn das System standardmäßig den S
 1. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Standardtitel** aus.
 2. Erweitern Sie die Entität **Standardtitel** und wählen Sie **1:n-Beziehungen** aus.
 3. Doppelklicken Sie auf **Buchbare Ressource zu Zeiteintrag**. Klicken Sie auf der Seite **Beziehung** und wählen **Feldzuordnungen verwenden**. 
-4. Wählen Sie **Neu** , um eine neue Feldzuordnung zwischen dem Feld **Standardtitel** auf der Entität **Buchbare Ressource** und dem Referenzfeld **Standardtitel** auf der Entität **Zeiteintrag** zu erstellen. 
+4. Wählen Sie **Neu**, um eine neue Feldzuordnung zwischen dem Feld **Standardtitel** auf der Entität **Buchbare Ressource** und dem Referenzfeld **Standardtitel** auf der Entität **Zeiteintrag** zu erstellen. 
 
 Damit sind die Schemaänderungen abgeschlossen, die für die entitätsbasierten, benutzerdefinierten Dimensionen erforderlich sind.
 
@@ -124,7 +124,7 @@ Die folgende Tabelle enthält eine umfassende Liste vorkonfigurierter Formulare 
 |  Rollenpreis|• Informationen |• Preise der aktiven Ressourcenkategorie<br> • Zugeordnete Ansicht: Preis der Ressourcenkategorie|
 |  Rollenpreisaufschlag|• Informationen|• Aktiver Rollenpreisaufschlag<br>• Zugeordnete Ansicht: Rollenpreisaufschlag|
 |  Detailinformationen zur Angebotsposition|• Projektinformationen<br>• Projektschnellerfassung|• Details zu aktiver Angebotsposition<br>• Kombinierte Angebotspositionsdetails<br>• Zugeordnete Ansicht: Angebotspositionsdetail|
-|  Positionsdetail von Projektvertrag|• Projektinformationen<br>• Projektschnellerfassung|• Kombinierte Vertragspositionsdetails<br>• Aktive Vertragspositionsdetails<br>• Zugeordnete Ansicht: Vertragszeilendetails|
+|  Positionsdetail von Projektvertrag|• Projektinformationen<br>• Projektschnellerfassung|• Kombinierte Vertragszeilendetails<br>• Aktive Vertragszeilendetails<br>• Zugeordnete Ansicht: Vertragszeilendetails|
 |  Projektteammitglied|• Informationen<br>• Neues Formular|• Aktive Projektteammitglieder<br>• Projektteammitglieder<br>• Zugeordnete Ansicht: Projektteammitglieder|
 |  Zeiteintrag|• Informationen<br>• Zeiteintrag erstellen|• Meine Zeiteinträge nach Datum<br>• Meine Zeiteinträge für diese Woche<br>• Zeiteinträge zur Genehmigung|
 |  Erfassungsposition|• Informationen<br>• Schnellerfassung|• Aktive Erfassungspositionen<br>• Zugeordnete Ansicht: Erfassungsposition|

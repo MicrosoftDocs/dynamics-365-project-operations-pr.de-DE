@@ -3,7 +3,7 @@ title: Einheitengruppen und Einheiten
 description: Dieses Thema enthält Informationen zu Einheitengruppen und Einheiten.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076540"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130577"
 ---
 # <a name="unit-groups-and-units"></a>Einheitengruppen und Einheiten
 
@@ -33,16 +33,16 @@ Einheitengruppen und Einheiten sind Basisentitäten in Microsoft Dynamics 365. E
 
 Hier finden Sie einige Beispiele für Einheiten und Einheitengruppen:
  
-- **Einheitengruppe** : Entfernung 
-    - **Einheiten** : Meile, Kilometer, usw.
-- **Einheitengruppe** : Zeit
-    - **Einheiten** : Stunde, Tag, Woche, usw. 
+- **Einheitengruppe**: Entfernung 
+    - **Einheiten**: Meile, Kilometer, usw.
+- **Einheitengruppe**: Zeit
+    - **Einheiten**: Stunde, Tag, Woche, usw. 
 
 Wenn Sie mehrere Einheiten in einer Einheitengruppe einrichten, müssen Sie auch einen Umrechnungsfaktor zwischen ihnen einrichten, indem Sie die erste Einheit bestimmen, die Sie als Standard- oder primäre Einheit für die Einheitengruppe eingerichtet haben. 
 
 Wenn Sie beispielsweise in einer Einheitengruppe **Zeit** **Stunde** als die erste Einheit einrichten, legt das System **Stunde** als die Standardeinheit fest. Wenn die nächste Einheiten, die Sie einrichten, **Tag** ist, müssen Sie einen Umrechnungsfaktor für **Tag** in **Stunde** einrichten. Wenn Sie dann **Woche** als dritte Einheit hinzufügen, müssen Sie einen Umrechnungsfaktor für **Woche** in **Tag** oder **Stunde** angeben. 
 
-Das folgende Bild zeigt eine Beispielkonfiguration der Einheit **Tag** , bei der das Feld **Menge** die Anzahl Stunden pro Tag und **Woche** , wobei das Feld **Menge** die Anzahl Tage in einer Woche enthält.
+Das folgende Bild zeigt eine Beispielkonfiguration der Einheit **Tag**, bei der das Feld **Menge** die Anzahl Stunden pro Tag und **Woche**, wobei das Feld **Menge** die Anzahl Tage in einer Woche enthält.
 
 > ![Einheitengruppe: Informationsseite](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation verwendet Einheiten und Einheitengruppen
 
 Bei Ausgaben verfügt jede Ausgabenkategorie über eine Standardeinheitengruppe und eine Standardeinheit. Diese Werte werden bei Preislisteneinträgen als Standardwerte für Ausgabenkategorien eingegeben. 
 
-Sie verfügen beispielsweise über eine Ausgabenkategorie namens **Kilometerstand**. Diese hat eine Einheitengruppe mit dem Namen **Entfernung** und eine Standardeinheit namens **Meile**. Wenn Sie die Einheitengruppe **Entfernung** so einrichten, dass diese zwei Einheiten (etwa **Meile** und **Kilometer** ) aufweist, können Sie für die Kategorie **Kilometerstand** bei einer Preisliste zwei Preise festlegen: Preis pro Meile und Preis pro Kilometer.
+Sie verfügen beispielsweise über eine Ausgabenkategorie namens **Kilometerstand**. Diese hat eine Einheitengruppe mit dem Namen **Entfernung** und eine Standardeinheit namens **Meile**. Wenn Sie die Einheitengruppe **Entfernung** so einrichten, dass diese zwei Einheiten (etwa **Meile** und **Kilometer**) aufweist, können Sie für die Kategorie **Kilometerstand** bei einer Preisliste zwei Preise festlegen: Preis pro Meile und Preis pro Kilometer.
 
 | Ausgabenkategorie  | Einheitengruppe  | Einheit      | Preisberechnungsmethode  | Einzelpreis  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Vorkalkulationspositionen für das Feld **Zeit im Angebot** können in einer bel
 Im folgenden Beispiel wird veranschaulicht, wie PSA die Einheitengruppe, die Einheiten und Umrechnungsfaktoren verwendet.
 - Einheiten
 
-   - **Einheitengruppe** : Zeit 
-   - **Einheiten** : Stunde 
+   - **Einheitengruppe**: Zeit 
+   - **Einheiten**: Stunde 
     
     - **Tag** – Umrechnungsfaktor: 8 Stunden       
     - **Woche** – Umrechnungsfaktor: 40 Stunden  
         
 - Preislistenkonfiguration bei Projekt A:
 
-    - **Name** : UK Verkaufspreise 2016 
-    - **Standardzeiteinheit** : Tag 
-    - **Währung** : GBP
+    - **Name**: UK Verkaufspreise 2016 
+    - **Standardzeiteinheit**: Tag 
+    - **Währung**: GBP
 
 | Rolle      | Einheitengruppe | Einheit | Organisationseinheit: | Preis   |
 |-----------|------------|------|---------------------|---------|

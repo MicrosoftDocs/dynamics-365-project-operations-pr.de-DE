@@ -3,7 +3,7 @@ title: Schätzungen bezüglich Arbeit, Kosten und Umsatz für ein Projekt bestim
 description: Bestimmen von Projektkosten- und Umsatzschätzungen (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076532"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133007"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Schätzungen bezüglich Arbeit, Kosten und Umsatz für ein Projekt bestimmen 
 
@@ -74,7 +74,7 @@ Diese Ansicht hilft Ihnen, die Verteilung des Aufwands, der Kosten und der Vertr
 Die Kosten- und Vertriebspreisstandard ist das Datum der Wirksamkeit – Wenn sich die Sätze für die Rollen ändern, sind sie in der Zeitphasenansicht transparenter, wenn Schätzungsdaten, die auf „Ressource” gefiltert und mit wöchentlicher Zeitphase angezeigt werden.  
   
 ## <a name="expense-estimates"></a>Ausgabenschätzungen  
-Jede Ausgabe im Projekt, die nicht direkt mit der verbrauchten Arbeit zusammenhängt, kann in den Projektschätzungen in der Gitteransicht notiert werden. Unter Verwendung der **Neue Ausgabenvorkalkulation hinzufügen** -Option in der Gitteransicht, können Sie dies erreichen. Die Ausgabenschätzungen können für eine spezifische Aufgabe oder für das gesamte Projekt notiert werden; Sie können Ausgabenkategorien auf diesen Positionen auswählen und ein vorläufiges Datum auswählen, wann die Ausgabe erwartet wird. Wenn die verbundenen Kosten und die Vertriebspreisliste Standardpreise oder die Aufschlagprozentsätze, die für Ausgabenkategorien definiert werden, haben, sind sie standardmäßig auf der Vorkalkulationsposition der Zuweisung.  
+Jede Ausgabe im Projekt, die nicht direkt mit der verbrauchten Arbeit zusammenhängt, kann in den Projektschätzungen in der Gitteransicht notiert werden. Unter Verwendung der **Neue Ausgabenvorkalkulation hinzufügen**-Option in der Gitteransicht, können Sie dies erreichen. Die Ausgabenschätzungen können für eine spezifische Aufgabe oder für das gesamte Projekt notiert werden; Sie können Ausgabenkategorien auf diesen Positionen auswählen und ein vorläufiges Datum auswählen, wann die Ausgabe erwartet wird. Wenn die verbundenen Kosten und die Vertriebspreisliste Standardpreise oder die Aufschlagprozentsätze, die für Ausgabenkategorien definiert werden, haben, sind sie standardmäßig auf der Vorkalkulationsposition der Zuweisung.  
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)

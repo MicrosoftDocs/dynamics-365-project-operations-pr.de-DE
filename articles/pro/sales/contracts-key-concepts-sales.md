@@ -1,21 +1,21 @@
 ---
-title: Wichtige Konzepte von Projektverträgen
+title: Projektverträge – Wichtige Konzepte – Lite
 description: Dieses Thema enthält Informationen zu den wichtigen Konzepten von Projektverträgen.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076430"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177060"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Wichtige Konzepte von Projektverträgen
+# <a name="project-contracts---key-concepts---lite"></a>Projektverträge – Wichtige Konzepte – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 

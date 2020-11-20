@@ -1,21 +1,21 @@
 ---
-title: Verwalten komplexer Einheiten für produktbasierte Angebotspositionen, z. B. pro Benutzer und Monat
+title: Verwalten komplexer Einheiten für produktbasierte Angebotspositionen, wie z. B. pro Benutzer und Monat – Lite
 description: Dieses Thema enthält Informationen zur Verwaltung komplexer Einheiten für produktbasierte Angebotspositionen.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076456"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175575"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Verwalten komplexer Einheiten für produktbasierte Angebotspositionen, z. B. pro Benutzer und Monat
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Verwalten komplexer Einheiten für produktbasierte Angebotspositionen, wie z. B. pro Benutzer und Monat – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -29,8 +29,8 @@ Project Operations stellt sicher, dass nur numerische Eigenschaften oder Produkt
 
 Beispielsweise kann Dynamics 365 Sales die folgenden Eigenschaften aufweisen:
 
-- **Anzahl der Benutzer** : Die Anzahl der Benutzer
-- **Anzahl der Monate** : Die Anzahl der Abonnementmonate
+- **Anzahl der Benutzer**: Die Anzahl der Benutzer
+- **Anzahl der Monate**: Die Anzahl der Abonnementmonate
 - **Produkt-SKU**
 
 Sie können die Eigenschaften **Anzahl der Benutzer** und **Anzahl der Monate** durch Bearbeitung der Produktposition als Mengenfaktoren kennzeichnen.

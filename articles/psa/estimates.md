@@ -3,7 +3,7 @@ title: Schätzungen
 description: Dieses Thema enthält Informationen zu Vorkalkulationen in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076726"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132723"
 ---
 # <a name="estimates"></a>Schätzungen
 
@@ -39,9 +39,9 @@ Zusätzlich zu den Transaktionsklassen enthalten Angebotspositionsdetails einen 
 
 Wenn Sie beim Erstellen eines projektbasierten Vertrags ein PSA-Angebot verwendet haben, wird die Schätzung, die Sie im Angebot für jede Angebotsposition vorgenommen haben, in den Projektvertrag kopiert. Die Struktur eines Projektvertrags ähnelt der Struktur eines Projektangebots mit Positionen, Positionsdetails und Rechnungszeitplänen.
 
-Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragspositionen und Vertragspositionsdetails vorgenommen. Vertragspositionsdetails können auch aus einem Projektplan erstellt wurden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
+Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragszeilen und Vertragszeilendetails vorgenommen. Vertragszeilendetails können auch aus einem Projektplan erstellt wurden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
 
-Vertragspositionsdetails können zur Schätzung von Zeit, Ausgaben oder Gebühren verwendet werden. Geschätzte Steuerbeträge können ebenfalls bei den Vertragszeilendetails eingegeben werden.
+Vertragszeilendetails können zur Schätzung von Zeit, Ausgaben oder Gebühren verwendet werden. Geschätzte Steuerbeträge können ebenfalls bei den Vertragszeilendetails eingegeben werden.
 
 PSA lässt keine Materialschätzungen für Vertragszeilendetails zu.
 
@@ -78,7 +78,7 @@ Verwenden Sie die folgende Tabelle als Leitfaden zum Verständnis der Geschäfts
 
 ## <a name="customizing-the-quote-line-detail-and-contract-line-detail-entities"></a>Anpassen der Entitäten „Detail zur Angebotsposition” und „Detail zur Vertragszeile”
 
-Verwenden Sie die Plug-In-Registrierungswerkzeuge PreOperationContractLineDetailUpdate und PreOperationQuoteLineDetailUpdate, wenn Sie den Angebotspositionsdetails ein benutzerdefiniertes Feld hinzugefügt haben und möchten, dass das System den Wert des Felds als Standardwert für die von ihm erstellte zugehörige Kostenposition eingibt. Diese Plug-Ins müssen erneut registriert werden, nachdem das Angebotspositionsdetail oder das Vertragspositionsdetail geändert wurde. Befolgen Sie diese Schritte, um den Vorgang abzuschließen.
+Verwenden Sie die Plug-In-Registrierungswerkzeuge PreOperationContractLineDetailUpdate und PreOperationQuoteLineDetailUpdate, wenn Sie den Angebotspositionsdetails ein benutzerdefiniertes Feld hinzugefügt haben und möchten, dass das System den Wert des Felds als Standardwert für die von ihm erstellte zugehörige Kostenposition eingibt. Diese Plug-Ins müssen erneut registriert werden, nachdem das Angebotspositionsdetail oder das Vertragszeilendetail geändert wurde. Befolgen Sie diese Schritte, um den Vorgang abzuschließen.
 
 1. Öffnen Sie PluginRegistrationTool, und stellen Sie eine Verbindung mit Ihrer Online-Instanz her.
 2. Wählen Sie **Suchen** aus und suchen Sie nach dem zu aktualisierenden Plug-In.
@@ -90,7 +90,7 @@ Verwenden Sie die Plug-In-Registrierungswerkzeuge PreOperationContractLineDetail
 
     ![Auswählen eines Schritts im Plug-In](media/basic-guide-20.png)
 
-5. Wählen Sie im Dialogfeld **Vorhandenen Schritt aktualisieren** im Feld **Filterattribute** die Schaltfläche mit den Auslassungspunkten ( **...** ) aus:
+5. Wählen Sie im Dialogfeld **Vorhandenen Schritt aktualisieren** im Feld **Filterattribute** die Schaltfläche mit den Auslassungspunkten (**...**) aus:
  
     ![Dialogfeld „Vorhandenen Schritt aktualisieren”](media/basic-guide-21.png)
 

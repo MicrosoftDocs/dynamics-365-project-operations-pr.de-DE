@@ -3,7 +3,7 @@ title: Rechnungshäufigkeiten einrichten
 description: Einrichten von Rechnungshäufigkeiten (Project Service)
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076740"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132028"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Einrichten von Rechnungshäufigkeiten (Project Service)
 
@@ -37,13 +37,13 @@ ms.locfileid: "4076740"
   
 3.  Geben Sie im Bereich **Allgemeinen** einen Namen für die Rechnungshäufigkeit in **Name** ein.  
   
-4.  Wählen Sie in **Zeitraum** die Option **Monatlich** , **Vierzehntägig** oder **Wöchentlich** aus.  
+4.  Wählen Sie in **Zeitraum** die Option **Monatlich**, **Vierzehntägig** oder **Wöchentlich** aus.  
   
 5.  Wenn Sie in **Tage der Ausführung** einen Zeitraum von monatlich oder vierzehntägig angegeben haben, wählen Sie **Tag des Zeitraums** aus, um am angegebenen Tag des Zeitraums zu fakturieren (ob Wochentag oder Wochenende), oder wählen Sie **Wochentag des Zeitraums** aus, um am angegebenen Wochentag des Zeitraums zu fakturieren.  
   
 6.  Wenn Sie in **Ausführungen pro Monat** einen monatlichen Zeitraum angegeben haben, wählen Sie die Anzahl der Ausführungen pro Monat aus, an denen eine Rechnung gestellt werden soll.  
   
-7.  Ändern Sie im **Details zur Rechnungshäufigkeit** -Bereich die Tages-, oder Wochentagesdetails nach Bedarf, um sich zu vergewissern, dass die Rechnung am korrekten Tag oder Wochentag des angegebenen Zeitraums ausgeführt wird.  
+7.  Ändern Sie im **Details zur Rechnungshäufigkeit**-Bereich die Tages-, oder Wochentagesdetails nach Bedarf, um sich zu vergewissern, dass die Rechnung am korrekten Tag oder Wochentag des angegebenen Zeitraums ausgeführt wird.  
   
 8.  Klicken Sie auf **Speichern** in der unteren rechten Ecke des Bildschirms, wenn Sie fertig sind.  
   

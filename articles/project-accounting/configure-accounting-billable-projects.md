@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076438"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131972"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Buchhaltung für fakturierbare Projekte konfigurieren
 
@@ -21,8 +21,8 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 Dynamics 365 Project Operations unterstützt verschiedene Buchhaltungsoptionen für abrechnungsfähige Projekte, einschließlich Zeit- und Materialtransaktionen sowie Festpreistransaktionen.
 
-- **Zeit- und Materialtransaktionen** : Diese Transaktionen werden im Verlauf der Arbeiten basierend auf dem Verbrauch von Stunden, Ausgaben, Artikeln oder Gebühren für das Projekt in Rechnung gestellt. Diese Transaktionskosten können mit den Einnahmen aus jeder Transaktion abgeglichen werden, und das Projekt wird im Verlauf der Arbeiten in Rechnung gestellt. Projekteinnahmen können auch zum Zeitpunkt der Transaktion abgegrenzt werden. Während der Rechnungsstellung werden Umsatzerlöse erfasst und gegebenenfalls aufgelaufene Umsatzerlöse aufgelöst.
-- **Festpreistransaktionen** : Diese Transaktionen werden nach einem Abrechnungsplan in Rechnung gestellt, der auf dem Projektvertrag basiert. Umsatz aus Festpreistransaktionen können bei Rechnungsstellung entsprechend der **Vertrag abgeschlossen** - oder **Abgeschlossener Anteil** -Methoden erfasst oder entsprechend berechnet und periodisch gebucht werden.
+- **Zeit- und Materialtransaktionen**: Diese Transaktionen werden im Verlauf der Arbeiten basierend auf dem Verbrauch von Stunden, Ausgaben, Artikeln oder Gebühren für das Projekt in Rechnung gestellt. Diese Transaktionskosten können mit den Einnahmen aus jeder Transaktion abgeglichen werden, und das Projekt wird im Verlauf der Arbeiten in Rechnung gestellt. Projekteinnahmen können auch zum Zeitpunkt der Transaktion abgegrenzt werden. Während der Rechnungsstellung werden Umsatzerlöse erfasst und gegebenenfalls aufgelaufene Umsatzerlöse aufgelöst.
+- **Festpreistransaktionen**: Diese Transaktionen werden nach einem Abrechnungsplan in Rechnung gestellt, der auf dem Projektvertrag basiert. Umsatz aus Festpreistransaktionen können bei Rechnungsstellung entsprechend der **Vertrag abgeschlossen**- oder **Abgeschlossener Anteil**-Methoden erfasst oder entsprechend berechnet und periodisch gebucht werden.
 
 Ein Projekt gilt als abrechnungsfähig, wenn es einer oder mehreren Vertragszeilen zugeordnet sind. Eine Projektvertragszeilen definiert für sich selbst, welche Abrechnungsmethode und Transaktionstypen zulässig sind.
 
@@ -41,30 +41,30 @@ Projektkosten und Umsatzprofile bestimmen die Buchhaltungsregeln für Projekttra
 Führen Sie die folgenden Schritte aus, um ein neues Projektkosten- und Umsatzprofil zu erstellen. 
 
 1. Wechseln Sie zu **Projektmanagement und Buchhaltung** > **Einrichtung** > **Buchung** > **Projektkosten- und Umsatzprofile**. 
-2. Wählen Sie **Neu** , um ein neues Projektkosten- und Umsatzprofil zu erstellen.
-3. In dem **Name** -Feld geben Sie den Namen und eine kurze Beschreibung des Profils ein.
-4. In dem **Abrechnungsmethode** -Feld wählen Sie **Zeit und Material** oder **Festpreis** aus.
+2. Wählen Sie **Neu**, um ein neues Projektkosten- und Umsatzprofil zu erstellen.
+3. In dem **Name**-Feld geben Sie den Namen und eine kurze Beschreibung des Profils ein.
+4. In dem **Abrechnungsmethode**-Feld wählen Sie **Zeit und Material** oder **Festpreis** aus.
 5. Erweitern Sie das Inforegister **Ledger**. Die Felder auf dieser Registerkarte definieren die Rechnungslegungsgrundsätze, die verwendet werden, wenn Projekttransaktionen mithilfe des Project Operations-Integrationsjournals protokolliert und dann über den Projektrechnungsvorschlag in Rechnung gestellt werden.
 6. Wählen Sie die entsprechenden Informationen in die folgenden Feldern im Inforegister **Ledger** aus.
 
-    - **Kosten buchen – Stunde** :
+    - **Kosten buchen – Stunde**:
 
-       - *Kein Ledger* : Die Kosten für Zeittransaktionen werden nicht in das Ledger gebucht, wenn die Project Operations-Integration-Erfassung gebucht wird. Der Buchhalter kann jedoch zu einem späteren Zeitpunkt Kosten über die Funktion „Kosten buchen“ buchen.
-       - **Saldo** : Die Kosten für Zeittransaktionen werden dem Ledger-Kontotyp *WIP – Kostenwert* belastet dem *Lohn- und Gehaltsabrechnungskonto* in der Ledger-Buchungs-Einrichtung gutgeschrieben. Der Buchhalter verwendet die Funktion „Kosten buchen“, um diese Kosten regelmäßig von einem Saldokonto auf ein Gewinn- und Verlustkonto zu verschieben.
-       - **Gewinn- und Verlust** : Beim Buchen des Project Operations-Integrationsjournals werden die Zeittransaktionskosten dem Ledger-Kontotyp *Kosten* belastet und dem *Lohn- und Gehaltsabrechnungskonto* das, auf der **Kosten** -Registerkarte auf der **Einrichtung der Hauptbuchbuchung** -Seite ( **Projektmanagement und Buchhaltung** \> **Einrichtung** \> **Buchung** \> **Einrichtung der Hauptbuchbuchung** ) definiert ist, gutgeschrieben. Dies ist die häufigste Einrichtung für Zeit- und Materialtransaktionen.
+       - *Kein Ledger*: Die Kosten für Zeittransaktionen werden nicht in das Ledger gebucht, wenn die Project Operations-Integration-Erfassung gebucht wird. Der Buchhalter kann jedoch zu einem späteren Zeitpunkt Kosten über die Funktion „Kosten buchen“ buchen.
+       - **Saldo**: Die Kosten für Zeittransaktionen werden dem Ledger-Kontotyp *WIP – Kostenwert* belastet dem *Lohn- und Gehaltsabrechnungskonto* in der Ledger-Buchungs-Einrichtung gutgeschrieben. Der Buchhalter verwendet die Funktion „Kosten buchen“, um diese Kosten regelmäßig von einem Saldokonto auf ein Gewinn- und Verlustkonto zu verschieben.
+       - **Gewinn- und Verlust**: Beim Buchen des Project Operations-Integrationsjournals werden die Zeittransaktionskosten dem Ledger-Kontotyp *Kosten* belastet und dem *Lohn- und Gehaltsabrechnungskonto* das, auf der **Kosten**-Registerkarte auf der **Einrichtung der Hauptbuchbuchung**-Seite (**Projektmanagement und Buchhaltung** \> **Einrichtung** \> **Buchung** \> **Einrichtung der Hauptbuchbuchung**) definiert ist, gutgeschrieben. Dies ist die häufigste Einrichtung für Zeit- und Materialtransaktionen.
         - *Niemals Ledger* : Die Kosten für Zeittransaktionen werden niemals in das Ledger gebucht.
 
-    - **Kosten buchen – Ausgaben** :
+    - **Kosten buchen – Ausgaben**:
 
-         - **Saldo** : Beim Buchen des Project Operations-Integrationsjournals werden die Ausgabentransaktionskosten dem Ledger-Kontotyp *WIP – Kostenwert* belastet, wie auf der **Kosten** -Registerkarte auf der **Einrichtung der Ledger-Buchung** -Seite definiert, und dem Offset-Konto in der Journalzeile gutgeschrieben. Standard-Offset-Konten für Ausgaben sind in **Projektmanagement und Buchhaltung** > **Einrichtung** \> **Buchung** \> **Standard-Offset-Konto für Ausgaben** definiert. Der Buchhalter verwendet die Funktion **Kosten buchen** , um diese Kosten regelmäßig aus dem Saldokonto auf ein Gewinn- und Verlustkonto zu verschieben.
-        - **Gewinn und Verlust** : Beim Buchen des Project Operations-Integrationsjournals werden die Ausgabentransaktionskosten dem Ledger-Kontotyp *Kosten* belastet, wie auf der **Kosten** -Registerkarte auf der **Einrichtung der Ledger-Buchung** -Seite definiert, und dem Offset-Konto in der Journalzeile gutgeschrieben. Standard-Offset-Konten für Ausgaben sind in **Projektmanagement und Buchhaltung** \> **Einrichtung** \> **Buchung** \> **Standard-Offset-Konto für Ausgaben** definiert.
+         - **Saldo** : Beim Buchen des Project Operations-Integrationsjournals werden die Ausgabentransaktionskosten dem Ledger-Kontotyp *WIP – Kostenwert* belastet, wie auf der **Kosten**-Registerkarte auf der **Einrichtung der Ledger-Buchung**-Seite definiert, und dem Offset-Konto in der Journalzeile gutgeschrieben. Standard-Offset-Konten für Ausgaben sind in **Projektmanagement und Buchhaltung** > **Einrichtung** \> **Buchung** \> **Standard-Offset-Konto für Ausgaben** definiert. Der Buchhalter verwendet die Funktion **Kosten buchen**, um diese Kosten regelmäßig aus dem Saldokonto auf ein Gewinn- und Verlustkonto zu verschieben.
+        - **Gewinn und Verlust** : Beim Buchen des Project Operations-Integrationsjournals werden die Ausgabentransaktionskosten dem Ledger-Kontotyp *Kosten* belastet, wie auf der **Kosten**-Registerkarte auf der **Einrichtung der Ledger-Buchung**-Seite definiert, und dem Offset-Konto in der Journalzeile gutgeschrieben. Standard-Offset-Konten für Ausgaben sind in **Projektmanagement und Buchhaltung** \> **Einrichtung** \> **Buchung** \> **Standard-Offset-Konto für Ausgaben** definiert.
        
-    - **Auf-Konto-Rechnungsstellung** :
+    - **Auf-Konto-Rechnungsstellung**:
 
-        - **Saldo** : Beim Buchen des Projektrechnungsvorschlags wird dem Ledger-Kontotyp *WIP abgerechnet – auf Rechnung* eine Kontotransaktion (ein Abrechnungsmeilenstein) gutgeschrieben, wie auf der **Umsatz** -Registerkarte auf der **Einrichtung der Ledger-Buchbuchung** -Seite definiert, und dem Kundensaldokonto belastet.
-         - **Gewinn und Verlust** : Beim Buchen des Projektrechnungsvorschlags wird dem Ledger-Kontotyp *Abgerechneter Umsatz – auf Rechnung* eine Kontotransaktion (ein Abrechnungsmeilenstein) gutgeschrieben, wie auf der **Umsatz** -Registerkarte auf der **Einrichtung der Ledger-Buchbuchung** -Seite definiert, und dem Kundensaldokonto belastet. Debitorenausgleichskonten werden in **Debitorenkonten** \> **Einrichtung** \> **Debitorenbuchungsprofile** definiert.
+        - **Saldo**: Beim Buchen des Projektrechnungsvorschlags wird dem Ledger-Kontotyp *WIP abgerechnet – auf Rechnung* eine Kontotransaktion (ein Abrechnungsmeilenstein) gutgeschrieben, wie auf der **Umsatz**-Registerkarte auf der **Einrichtung der Ledger-Buchbuchung**-Seite definiert, und dem Kundensaldokonto belastet.
+         - **Gewinn und Verlust**: Beim Buchen des Projektrechnungsvorschlags wird dem Ledger-Kontotyp *Abgerechneter Umsatz – auf Rechnung* eine Kontotransaktion (ein Abrechnungsmeilenstein) gutgeschrieben, wie auf der **Umsatz**-Registerkarte auf der **Einrichtung der Ledger-Buchbuchung**-Seite definiert, und dem Kundensaldokonto belastet. Debitorenausgleichskonten werden in **Debitorenkonten** \> **Einrichtung** \> **Debitorenbuchungsprofile** definiert.
 
-   Wenn Sie die Buchungsprofile für Zeit- und Materialabrechnungsmethoden definieren, haben Sie die Möglichkeit, Einnahmen pro Transaktionstyp (Stunde, Aufwand und Gebühr) zu erzielen. Wenn die **Einnahmen erzielen** -Option auf **Ja** festgelegt ist, werden nicht abgerechnete Verkaufstransaktionen in der Project Operations Integration-Erfassung im Ledger erfasst. Der Verkaufswert wird dem **WIP – Verkaufswertkonto** belastet und dem **Aufgelaufene Einnahmen – Verkaufswert** -Konto gutgeschrieben, das auf dem **Einrichtung der Ledger-Buchbuchung** -Seite auf der **Umsatz** -Registerkarte eingerichtet wurde. 
+   Wenn Sie die Buchungsprofile für Zeit- und Materialabrechnungsmethoden definieren, haben Sie die Möglichkeit, Einnahmen pro Transaktionstyp (Stunde, Aufwand und Gebühr) zu erzielen. Wenn die **Einnahmen erzielen**-Option auf **Ja** festgelegt ist, werden nicht abgerechnete Verkaufstransaktionen in der Project Operations Integration-Erfassung im Ledger erfasst. Der Verkaufswert wird dem **WIP – Verkaufswertkonto** belastet und dem **Aufgelaufene Einnahmen – Verkaufswert**-Konto gutgeschrieben, das auf dem **Einrichtung der Ledger-Buchbuchung**-Seite auf der **Umsatz**-Registerkarte eingerichtet wurde. 
   
   > [!NOTE]
   > Die Option **Einnahmen erzielen** ist nur verfügbar, wenn der jeweilige Transaktionstyp **Kosten** auf die Gewinn- und Verlustrechnung gebucht wird.
@@ -72,20 +72,20 @@ Führen Sie die folgenden Schritte aus, um ein neues Projektkosten- und Umsatzpr
 7. Erweitern Sie das Inforegister **Schätzung**. Die Felder auf dieser Registerkarte definieren die Berechnungseinstellungen für Schätzungen der Festpreisumsätze. Die Felder auf dieser Registerkarte gelten nur für Projektkosten- und Ertragsprofile mit einer Abrechnungsmethode von **Festpreis**.
 8. Wählen Sie die entsprechenden Informationen in die folgenden Feldern im Inforegister **Schätzung** aus.
 
-    - **Prinzip für Projektabschlusskalkulationen** :
+    - **Prinzip für Projektabschlusskalkulationen**:
 
-        - **Abgeschlossener Vertrag** : Kostenabgleich und Umsatzrealisierung erfolgen erst am Ende des Projekts. Die Kosten werden bis zum Abschluss des Projekts als WIP in der Bilanz ausgewiesen.
-        - **Abgeschlossener Anteil** : Der aufgelaufene Umsatz wird berechnet und in jedem Zeitraum auf der Grundlage des Projektabschlussprozentsatzes im Hauptbuch gebucht. Es stehen mehrere Methoden zur Berechnung der prozentualen Fertigstellung zur Verfügung. Diese Methoden können je nach Konfiguration automatisch oder manuell erfolgen.
-        - **Kein WIP** : Dieses Einrichtung wird für Festpreisprojekte mit kurzer Zeitspanne verwendet, bei denen die Rechnung und die Kosten im selben Zeitraum anfallen. In diesem Fall wird der **Rechnungsstellung auf Rechnung** -Feldwert im Inforegister **Ledger** automatisch auf **Gewinn- und Verlust** festgelegt, um sicherzustellen, dass der Umsatz bei der Rechnungsstellung erfasst wird. Der Umsatzschätzungsprozess wird für dieses Projektkosten- und Umsatzprofil nicht verwendet.
+        - **Abgeschlossener Vertrag**: Kostenabgleich und Umsatzrealisierung erfolgen erst am Ende des Projekts. Die Kosten werden bis zum Abschluss des Projekts als WIP in der Bilanz ausgewiesen.
+        - **Abgeschlossener Anteil**: Der aufgelaufene Umsatz wird berechnet und in jedem Zeitraum auf der Grundlage des Projektabschlussprozentsatzes im Hauptbuch gebucht. Es stehen mehrere Methoden zur Berechnung der prozentualen Fertigstellung zur Verfügung. Diese Methoden können je nach Konfiguration automatisch oder manuell erfolgen.
+        - **Kein WIP** : Dieses Einrichtung wird für Festpreisprojekte mit kurzer Zeitspanne verwendet, bei denen die Rechnung und die Kosten im selben Zeitraum anfallen. In diesem Fall wird der **Rechnungsstellung auf Rechnung**-Feldwert im Inforegister **Ledger** automatisch auf **Gewinn- und Verlust** festgelegt, um sicherzustellen, dass der Umsatz bei der Rechnungsstellung erfasst wird. Der Umsatzschätzungsprozess wird für dieses Projektkosten- und Umsatzprofil nicht verwendet.
 
-    - **Abgleichungsprinzip** : In diesem Feld wird festgelegt, wie der berechnete Verkaufswert (aufgelaufene Einnahmen) in das Ledger gebucht wird.
+    - **Abgleichungsprinzip**: In diesem Feld wird festgelegt, wie der berechnete Verkaufswert (aufgelaufene Einnahmen) in das Ledger gebucht wird.
 
-        - Mit dem **Verkaufswert** -Prinzip berechnet das System den Verkaufswert, indem Kosten und Einnahmen abgeglichen und dann als Einzelbetrag gebucht werden.
-        - Mit dem **Produktion und Gewinn** -Prinzip teilt das System den Verkaufswert in realisierte Kosten und berechneten Gewinn auf. Diese werden separat gebucht.
+        - Mit dem **Verkaufswert**-Prinzip berechnet das System den Verkaufswert, indem Kosten und Einnahmen abgeglichen und dann als Einzelbetrag gebucht werden.
+        - Mit dem **Produktion und Gewinn**-Prinzip teilt das System den Verkaufswert in realisierte Kosten und berechneten Gewinn auf. Diese werden separat gebucht.
 
-    - **Kostenvorlagen** : Ermöglichen die Gruppierung von Projekttransaktionen basierend auf Transaktionstyp und Projektkategorie und definieren Berechnungsregeln für die prozentuale Fertigstellung für diese Gruppen.
-    - **Periodencodes** : Definieren Sie die Häufigkeit, mit der Umsatzschätzungen für ein bestimmtes Projektkosten- und Umsatzprofil berechnet werden.
-    - **Kategorien für die Schätzung** : Wird für die Buchung des Verkaufswerts (aufgelaufener Umsatz) in Projekttransaktionen verwendet. Konfigurieren Sie zunächst die dedizierte Projektkategorie für einen **Gebühr** -Transaktionstyp und legen Sie dann das Flag **Schätzen** für diese Projektkategorie fest. Wählen Sie als Nächstes abhängig vom ausgewählten Abgleichungsprinzip diese Projektkategorie im **Vertrieb** -Wert oder dem **Profit** -Feld im Projektkosten- und Ertragsprofil fest.
+    - **Kostenvorlagen**: Ermöglichen die Gruppierung von Projekttransaktionen basierend auf Transaktionstyp und Projektkategorie und definieren Berechnungsregeln für die prozentuale Fertigstellung für diese Gruppen.
+    - **Periodencodes**: Definieren Sie die Häufigkeit, mit der Umsatzschätzungen für ein bestimmtes Projektkosten- und Umsatzprofil berechnet werden.
+    - **Kategorien für die Schätzung** : Wird für die Buchung des Verkaufswerts (aufgelaufener Umsatz) in Projekttransaktionen verwendet. Konfigurieren Sie zunächst die dedizierte Projektkategorie für einen **Gebühr**-Transaktionstyp und legen Sie dann das Flag **Schätzen** für diese Projektkategorie fest. Wählen Sie als Nächstes abhängig vom ausgewählten Abgleichungsprinzip diese Projektkategorie im **Vertrieb**-Wert oder dem **Profit**-Feld im Projektkosten- und Ertragsprofil fest.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Beispielkonfigurationen für Projektkosten- und Umsatzprofile
 

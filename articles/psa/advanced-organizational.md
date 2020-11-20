@@ -3,7 +3,7 @@ title: Organisationseinheiten
 description: Dieses Thema enthält Informationen zu Organisationseinheiten in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076636"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130622"
 ---
 # <a name="organizational-units"></a>Organisationseinheiten 
 
@@ -50,7 +50,7 @@ Darüber hinaus gibt es ein Attribut für die Organisationseinheit in der Ressou
 
 Die Organisationseinheit hat in PSA zwei Rollen:
 
-- **Vertragseinheit** – Die Organisationseinheit, die die Unternehmensgruppe oder den Geschäftsbereich darstellt, die bzw. der hauptsächlich für den Verkaufsabschluss und die Verwaltung der Lieferung von Arbeit und Services an den Kunden verantwortlich ist. Die Vertragseinheit wird anhand des Felds **Vertragseinheit** im Kopfzeilenabschnitt der Seiten **Verkaufschance** , **Angebot** , **Projektvertrag** und **Projekt** ermittelt.
+- **Vertragseinheit** – Die Organisationseinheit, die die Unternehmensgruppe oder den Geschäftsbereich darstellt, die bzw. der hauptsächlich für den Verkaufsabschluss und die Verwaltung der Lieferung von Arbeit und Services an den Kunden verantwortlich ist. Die Vertragseinheit wird anhand des Felds **Vertragseinheit** im Kopfzeilenabschnitt der Seiten **Verkaufschance**, **Angebot**, **Projektvertrag** und **Projekt** ermittelt.
 - **Ressourceneinheit** – Die Organisationseinheit, zu der eine Ressource gehört oder der sie zugewiesen ist. Die Organisationseinheit kann ihre Ressourcen für bestimmte Rollen bei Leistungsbeschreibungen und Projekten bereitstellen, die der Vertragseinheit gehören.
 
 > ![Vertrags- und Ressourceneinheiten](media/advanced-1.png)

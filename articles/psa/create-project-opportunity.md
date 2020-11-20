@@ -3,7 +3,7 @@ title: Eine Projektverkaufschance erstellen
 description: Erstellen einer Projektverkaufschance (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076716"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133232"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Erstellen einer Projektverkaufschance (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Verkaufschancen sind frische Leads von Kunden, die interessiert sind, einen Vertrag über Ihre Dienstleistungen abzuschließen. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Funktionen im [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]-Handbuch führen Sie durch die Schritte zum Eröffnen einer Verkaufschance für eines Ihrer Konten, Vorbereiten eines Projektangebots und Ausarbeiten eines Projektvertrags mit Ihrem Kunden. Beginnen Sie, indem Sie eine Verkaufschance hinzufügen. Sie können auch Schätzungen für Dienstleistungen und Produkte der Verkaufschance hinzufügen. Wenn Sie eine Verkaufschance hinzufügen, sind Sie in der **Qualifizierungs** -Phase Ihres Projektes.  
+Verkaufschancen sind frische Leads von Kunden, die interessiert sind, einen Vertrag über Ihre Dienstleistungen abzuschließen. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Funktionen im [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]-Handbuch führen Sie durch die Schritte zum Eröffnen einer Verkaufschance für eines Ihrer Konten, Vorbereiten eines Projektangebots und Ausarbeiten eines Projektvertrags mit Ihrem Kunden. Beginnen Sie, indem Sie eine Verkaufschance hinzufügen. Sie können auch Schätzungen für Dienstleistungen und Produkte der Verkaufschance hinzufügen. Wenn Sie eine Verkaufschance hinzufügen, sind Sie in der **Qualifizierungs**-Phase Ihres Projektes.  
   
 1.  Wechseln Sie zu **Project Service > Verkaufschancen**.  
   
@@ -45,7 +45,7 @@ Verkaufschancen sind frische Leads von Kunden, die interessiert sind, einen Vert
   
 7.  Um Mitbewerber hinzuzufügen, klicken Sie im Bereich Mitbewerber auf auf **Mitbewerrber** und dann **+**.  
   
-8.  Um ein Produkt der Verkaufschance hinzuzufügen, klicken Sie auf **Neu** unter **Produktbasierte Zeilen** im Bereich **Verkaufschancenzeilen**. Wählen Sie ein Element unter **Produktname** , und spezifizieren Sie dann die Menge, den Verkaufspreis und das Kundenbudget.  
+8.  Um ein Produkt der Verkaufschance hinzuzufügen, klicken Sie auf **Neu** unter **Produktbasierte Zeilen** im Bereich **Verkaufschancenzeilen**. Wählen Sie ein Element unter **Produktname**, und spezifizieren Sie dann die Menge, den Verkaufspreis und das Kundenbudget.  
   
 9. Um eine Projektschätzung zur Verkaufschance hinzuzufügen, klicken Sie auf **+** unter **Projektbasierte Zeilen** im Bereich **Verkaufschancenzeilen**. Geben Sie, wenn verfügbar, einen Namen, einen Budgetbetrag und ein Projekt ein. Wenn Sie ein Projekt mit einem Projektstrukturplan erstellen möchten, um eine Schätzung zu erhalten, lesen Sie [ein Projekt ersttelen](../psa/create-project.md).  
   

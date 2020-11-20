@@ -3,7 +3,7 @@ title: Arbeitsfreie Zeit planen
 description: Arbeitsfreie Zeit planen (Project Service)
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076749"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132197"
 ---
 # <a name="schedule-time-off-project-service"></a>Arbeitsfreie Zeit planen (Project Service)
 
@@ -35,11 +35,11 @@ Planen Sie Ihre Urlaubszeiten und Abwesenheit so, wie Sie auch Zeiten für ein P
   
 1.  Wechseln Sie zu **Project Service > Zeiteinträge**. Dieses öffnet den Kalender.  
   
-2.  Um Ihren Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute** , um zurück zur laufenden Woche zu gelangen.  
+2.  Um Ihren Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute**, um zurück zur laufenden Woche zu gelangen.  
   
 3.  Zum Eingeben der Zeit klicken Sie entweder auf **Neu** oder doppelklicken im Kalender unter den Tag, für den Sie Zeit eingeben möchten.  
   
-4.  Füllen Sie die Felder im **Zeiteintrag** -Formular aus.  
+4.  Füllen Sie die Felder im **Zeiteintrag**-Formular aus.  
   
 5.  Wählen Sie unter **Typ** **Urlaub** oder **Abwesenheit**.  
   

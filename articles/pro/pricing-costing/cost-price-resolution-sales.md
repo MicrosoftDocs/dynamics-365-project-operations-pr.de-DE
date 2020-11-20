@@ -1,25 +1,25 @@
 ---
-title: Auflösen von Einstandspreisen in Vorkalkulationen und Istwerten
+title: Einstandspreise in Schätzungen und tatsächlichen Transaktionen auflösen – Lite
 description: Diese Thema enthält Informationen darüber, wie Einstandspreise in Vorkalkulationen und Istwerten aufgelöst werden.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bad8f4b95ac5803d3f334e1b306d2a9d27a6645d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076434"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176790"
 ---
-# <a name="resolving-cost-prices-on-estimates-and-actuals"></a>Auflösen von Einstandspreisen in Vorkalkulationen und Istwerten
+# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Einstandspreise in Schätzungen und tatsächlichen Transaktionen auflösen – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Um die Einstandspreise und die Einstandspreisliste für Vorkalkulationen und Istwerte zu beschließen, verwendet das System die Informationen in den Feldern **Datum** , **Währung** und **Vertragseinheit** des zugehörigen Projekts. Nachdem die Einstandspreisliste beschlossen wurden, schließt die Anwendung den Kostensatz ab.
+Um die Einstandspreise und die Einstandspreisliste für Vorkalkulationen und Istwerte zu beschließen, verwendet das System die Informationen in den Feldern **Datum**, **Währung** und **Vertragseinheit** des zugehörigen Projekts. Nachdem die Einstandspreisliste beschlossen wurden, schließt die Anwendung den Kostensatz ab.
 
 ## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Beschließen von Kostensätzen in Istwert- und Vorkalkulationszeilen für Zeit
 

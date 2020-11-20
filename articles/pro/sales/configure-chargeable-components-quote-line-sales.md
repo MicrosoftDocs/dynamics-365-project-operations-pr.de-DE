@@ -1,21 +1,21 @@
 ---
-title: Die fakturierbaren Komponenten einer Angebotszeile konfigurieren
+title: Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren – Lite
 description: Dieses Thema enthält Informationen zum Einrichten fakturierbarer und nicht fakturierbarer Komponenten in einer projektbasierten Angebotszeile.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076645"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177105"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Die fakturierbaren Komponenten einer Angebotszeile konfigurieren
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -44,21 +44,21 @@ Die für Transaktionskategorien für eine Angebotszeile festgelegte Fakturierbar
 
 Eine Projektaufgabe kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein, wodurch das folgende Setup möglich wird:
 
-Wenn eine projektbasierte Angebotszeile **Zeit** und die Aufgabe **T1** enthält, wird die Aufgabe der Angebotszeile als fakturierbar zugeordnet. Wenn es eine zweite Angebotszeile gibt, die **Ausgaben** enthält, können Sie die **T1** -Aufgabe in der Angebotszeile als nicht fakturierbar zuordnen. Das Ergebnis ist, dass die gesamte für die Aufgabe aufgezeichnete Zeit fakturierbar ist und alle für die Aufgabe aufgezeichneten Ausgaben nicht fakturierbar sind.
+Wenn eine projektbasierte Angebotszeile **Zeit** und die Aufgabe **T1** enthält, wird die Aufgabe der Angebotszeile als fakturierbar zugeordnet. Wenn es eine zweite Angebotszeile gibt, die **Ausgaben** enthält, können Sie die **T1**-Aufgabe in der Angebotszeile als nicht fakturierbar zuordnen. Das Ergebnis ist, dass die gesamte für die Aufgabe aufgezeichnete Zeit fakturierbar ist und alle für die Aufgabe aufgezeichneten Ausgaben nicht fakturierbar sind.
 
-Der Fakturierungstyp einer Aufgabe kann auf der Registerkarte **Fakturierbare Aufgaben** einer projektbasierten Angebotszeile durch Aktualisieren des Felds **Fakturierungstyp** im Unterraster **Angebotszeilenaufgaben** konfiguriert werden. Alternativ können Sie den Fakturierungstyp für eine Projektaufgabe im Feld **Fakturierungstyp** im Unterraster der Einrichtung der Aufgabenfakturierung eines Projekts aktualisieren, in dem die einer Aufgabe zugeordneten Angebotszeilen angezeigt werden.
+Der Fakturierungstyp einer Aufgabe kann auf der Registerkarte **Fakturierbare Aufgaben** einer projektbasierten Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Angebotszeilenaufgaben** aktualisiert wird. Alternativ können Sie den Fakturierungstyp für eine Projektaufgabe im Feld **Fakturierungstyp** im Unterraster der Aufgabenabrechnungseinrichtung eines Projekts aktualisieren, in dem die einer Aufgabe zugeordneten Angebotszeilen angezeigt werden.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Eine Rolle als fakturierbar oder nicht fakturierbar aktualisieren
 
 Eine Rolle kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein.
 
-Der Fakturierungstyp einer Aufgabe kann auf der Registerkarte **Fakturierbare Rollen** einer Angebotszeile durch Aktualisieren des Felds **Fakturierungstyp** im Unterraster **Fakturierbare Rollen** konfiguriert werden.
+Der Fakturierungstyp einer Rolle kann auf der Registerkarte **Fakturierbare Rollen** einer Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Fakturierbare Rollen** aktualisiert wird.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Eine Transaktionskategorie als fakturierbar oder nicht fakturierbar aktualisieren
 
 Eine Transaktionskategorie kann für eine bestimmte Angebotszeile fakturierbar oder nicht fakturierbar sein.
 
-Der Fakturierungstyp einer Transaktion kann auf der Registerkarte **Fakturierbare Kategorien** einer Angebotszeile durch Aktualisieren des Felds **Fakturierungstyp** im Unterraster **Fakturierbare Kategorien** konfiguriert werden.
+Der Fakturierungstyp einer Transaktion kann auf der Registerkarte **Fakturierbare Kategorien** einer Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Fakturierbare Kategorien** aktualisiert wird.
 
 ### <a name="resolve-chargeability"></a>Fakturierbarkeit abschließen
 Eine für die Zeit erstellte Schätzung oder tatsächliche Schätzung wird nur dann als fakturierbar angesehen, wenn **Zeit** in der Angebotszeile enthalten ist und **Aufgabe** und **Rolle** in der Angebotszeile als fakturierbar konfiguriert sind.

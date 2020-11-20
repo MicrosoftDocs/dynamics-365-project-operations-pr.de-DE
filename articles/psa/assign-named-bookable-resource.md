@@ -3,7 +3,7 @@ title: Genannte buchbare Ressourcen für ein Projektteam buchen und Aufgaben zuw
 description: Dieses Thema enthält Informationen zum Buchen benannter Ressourcen für Projektteams und zum Zuweisen dieser Ressourcen zu Aufgaben.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076643"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130172"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Genannte buchbare Ressourcen für ein Projektteam buchen und Aufgaben zuweisen 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4076643"
 
 Sie können Ihrem Projektteam eine benannte Ressource hinzufügen, indem Sie diese direkt für das Team buchen. Führen Sie dazu folgende Schritte aus.
 
-1. Wechseln Sie in Project Service Automation zu **Projekte** , wählen Sie das Projekt aus, für das Sie buchen möchten und öffnen Sie es.
+1. Wechseln Sie in Project Service Automation zu **Projekte**, wählen Sie das Projekt aus, für das Sie buchen möchten und öffnen Sie es.
 2. Klicken Sie auf der Seite **Projekt** auf der Registerkarte **Team** auf **Neu**. 
 
 ![Hinzufügen eines Teammitglieds über die Registerkarte „Team”](media/RM-how-to-1.png)
@@ -44,7 +44,7 @@ Sie können Ihrem Projektteam eine benannte Ressource hinzufügen, indem Sie die
 ![Hinzufügen eines Teammitglieds über das Formular „Schnellerfassung”](media/RM-how-to-2.png)
 
 
-Sie können die gebuchte Ressource nun Aufgaben im Projekt zuweisen. Klicken Sie auf der Seite **Projekt** auf die Registerkarte **Zeitplan** , um der neuen Ressource Aufgaben zuzuweisen. Die Ressourcenauswahl, die über das Feld **Ressourcen** im Aufgabenraster gestartet wird, zeigt die Teammitglieder an, die Sie auswählen können.
+Sie können die gebuchte Ressource nun Aufgaben im Projekt zuweisen. Klicken Sie auf der Seite **Projekt** auf die Registerkarte **Zeitplan**, um der neuen Ressource Aufgaben zuzuweisen. Die Ressourcenauswahl, die über das Feld **Ressourcen** im Aufgabenraster gestartet wird, zeigt die Teammitglieder an, die Sie auswählen können.
 
 ![Zuweisen eines Teammitglieds einer Aufgabe über die Registerkarte „Zeitplan”](media/RM-how-to-3.png)
 

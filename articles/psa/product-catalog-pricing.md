@@ -3,7 +3,7 @@ title: Produktkatalogpreise
 description: In diesem Thema finden Sie Informationen dazu, wie Produktkatalogpreisberechnung in PSA ( Dynamics 365 Project Service Automation ) funktionieren.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076555"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132287"
 ---
 # <a name="product-catalog-pricing"></a>Produktkatalogpreise 
 
@@ -50,7 +50,7 @@ Wenn Sie eine neue benutzerdefinierte Preisliste für ein Angebot erstellen, ind
 
  
 ## <a name="default-product-price-list"></a>Standardproduktpreisliste
-Jeder Kundendatensatz hat ein Feld **Standardpreisliste** , in dem Sie eine Preisliste angeben können, die der Währung des Kunden entspricht. In PSA wird kein Standardwert automatisch in dieses Feld eingefügt. Wenn ein benutzerdefiniertes Preisabkommen mit einem bestimmten Kunden besteht, können Sie das Feld verwenden, um diesem Kunden eine Preisliste zuzuordnen.
+Jeder Kundendatensatz hat ein Feld **Standardpreisliste**, in dem Sie eine Preisliste angeben können, die der Währung des Kunden entspricht. In PSA wird kein Standardwert automatisch in dieses Feld eingefügt. Wenn ein benutzerdefiniertes Preisabkommen mit einem bestimmten Kunden besteht, können Sie das Feld verwenden, um diesem Kunden eine Preisliste zuzuordnen.
 
 Die Verkaufschance, das Angebot und die Entitäten des Projektvertrags verwenden die folgende Reihenfolge zur Eingabe von Standardproduktpreislisten. Die gleiche Reihenfolge wird für Projektpreislisten wird verwendet.
 

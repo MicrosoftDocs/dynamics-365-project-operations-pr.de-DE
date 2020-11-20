@@ -1,21 +1,21 @@
 ---
-title: Konfigurieren fakturierbarer Komponenten einer projektbasierten Vertragszeile
+title: Kostenpflichtige Komponenten einer projektbasierten Vertragszeile konfigurieren – Lite
 description: Dieses Thema enthält Informationen zum Hinzufügen fakturierbarer Komponenten zu Vertragszeilen in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076431"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177150"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Konfigurieren fakturierbarer Komponenten einer projektbasierten Vertragszeile
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Kostenpflichtige Komponenten einer projektbasierten Vertragszeile konfigurieren – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -34,7 +34,7 @@ Eine Teilmenge der eingeschlossenen Komponenten kann mit dem Feld **Fakturierung
 
 Fakturierbare Komponenten können für die Kategorien Aufgaben, Rollen und Transaktionen definiert werden.
 
-Die Fakturierbarkeit wird für Aufgaben für eine Projektvertragszeile definiert und gilt für alle in der Zeile enthaltenen Transaktionsklassen. Wenn das Feld **Aufgaben einschließen** in einer Vertragszeile leer ist oder auf * *Gesamtes Projekt* * festgelegt wurde, ist die Registerkarte **Fakturierbare Aufgaben** nicht verfügbar.
+Die Fakturierbarkeit wird für Aufgaben für eine Projektvertragszeile definiert und gilt für alle in der Zeile enthaltenen Transaktionsklassen. Wenn das Feld **Aufgaben einschließen** in einer Vertragszeile leer ist oder auf **Gesamtes Projekt** festgelegt wurde, ist die Registerkarte **Fakturierbare Aufgaben** nicht verfügbar.
 
 Die für Rollen für eine Projektvertragszeile festgelegte Fakturierbarkeit gilt nur für die Transaktionsklasse **Zeit**. Wenn das Feld **Zeit einschließen** in einer Vertragszeile leer ist oder auf **Nein** festgelegt wurde, ist die Registerkarte **Fakturierbare Rollen** nicht verfügbar.
 
@@ -44,21 +44,21 @@ Die für Transaktionskategorien für eine Projektvertragszeile festgelegte Faktu
 
 Eine Projektaufgabe kann für eine bestimmte Vertragszeile fakturierbar oder nicht fakturierbar sein, wodurch das folgende Setup möglich wird:
 
-Wenn eine projektbasierte Vertragszeile **Zeit** enthält und eine bestimmte Aufgabe, **T1** , dieser Zeile als fakturierbar zugeordnet ist Wenn es eine zweite Vertragszeile gibt, die **Ausgaben** enthält, können Sie die T1-Aufgabe in der Vertragszeile als nicht fakturierbar zuordnen. Das Ergebnis ist, dass die gesamte für die Aufgabe aufgezeichnete Zeit fakturierbar ist und alle Ausgaben nicht fakturierbar sind.
+Wenn eine projektbasierte Vertragszeile **Zeit** enthält und eine bestimmte Aufgabe, **T1**, dieser Zeile als fakturierbar zugeordnet ist Wenn es eine zweite Vertragszeile gibt, die **Ausgaben** enthält, können Sie die T1-Aufgabe in der Vertragszeile als nicht fakturierbar zuordnen. Das Ergebnis ist, dass die gesamte für die Aufgabe aufgezeichnete Zeit fakturierbar ist und alle Ausgaben nicht fakturierbar sind.
 
-Der Fakturierungstyp einer Aufgabe kann auf der Registerkarte **Fakturierbare Aufgaben** der Vertragszeile durch Aktualisieren des Felds **Fakturierungstyp** im Unterraster für Vertragszeilenaufgaben konfiguriert werden. Alternativ können Sie das Feld **Fakturierungstyp** im Unterraster der Einrichtung der Aufgabenfakturierung eines Projekts aktualisieren, in dem die einer Aufgabe zugeordneten Vertragszeilen angezeigt werden.
+Der Fakturierungstyp einer Aufgabe kann auf der Registerkarte **Fakturierbare Aufgaben** der Vertragszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster für Vertragszeilenaufgaben aktualisiert wird. Alternativ können Sie das **Fakturierungstyp**-Feld im Unterraster der Aufgabenabrechnungseinrichtung eines Projekts aktualisieren, in dem die einer Aufgabe zugeordneten Vertragszeilen angezeigt werden.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Eine Rolle als fakturierbar oder nicht fakturierbar aktualisieren
 
 Eine Rolle kann für eine bestimmte Vertragszeile fakturierbar oder nicht fakturierbar sein.
 
-Der Fakturierungstyp einer Rolle kann auf der Registerkarte **Fakturierbare Rollen** einer Vertragszeile konfiguriert werden. Aktualisieren Sie hierzu das Feld **Fakturierungstyp** im Unterraster **Fakturierbare Rollen**.
+Der Fakturierungstyp einer Rolle kann auf der Registerkarte **Fakturierbare Rollen** einer Vertragszeile konfiguriert werden. Aktualisieren Sie dazu das **Fakturierungstyp**-Feld auf dem Unterraster **Fakturierbare Rollen**.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Eine Transaktionskategorie als fakturierbar oder nicht fakturierbar aktualisieren
 
 Eine Transaktionskategorie kann für eine bestimmte Vertragszeile fakturierbar oder nicht fakturierbar sein.
 
-Der Fakturierungstyp einer Transaktion kann auf der Registerkarte **Fakturierbare Kategorien** einer projektbasierten Vertragszeile konfiguriert werden. Aktualisieren Sie hierzu das Feld **Fakturierungstyp** im Unterraster **Fakturierbare Kategorien**.
+Der Fakturierungstyp einer Transaktion kann auf der Registerkarte **Fakturierbare Kategorien** einer projektbasierten Vertragszeile konfiguriert werden. Aktualisieren Sie dazu das **Fakturierungstyp**-Feld auf dem Unterraster **Fakturierbare Kategorien**.
 
 ### <a name="resolve-chargeability"></a>Fakturierbarkeit abschließen
 

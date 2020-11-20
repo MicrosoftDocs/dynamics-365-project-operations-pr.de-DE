@@ -3,7 +3,7 @@ title: Zulassen, dass eine andere Person Ihre Ausgaben eingeben oder Zeiteintrag
 description: Zulassen, dass eine andere Person Ihre Zeiteintragung oder Ausgaben eingibt (Project Service)
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076497"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130366"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Zulassen, dass eine andere Person Ihre Zeiteintragung oder Ausgaben eingibt (Project Service)
 
@@ -37,15 +37,15 @@ Einrichten eines Stellvertreters, um einem anderen Benutzer das Erstellen von Ze
   
 2.  Klicken Sie auf der Befehlsleiste auf **Neu**.  
   
-3. **Name** : Geben Sie einen Namen für den Datensatz ein.  
+3. **Name**: Geben Sie einen Namen für den Datensatz ein.  
   
-4. **Typ** : Wählen Sie aus, ob der Stellvertreter Ausgabeneinträge oder Zeiteinträge für Sie eingeben kann.  
+4. **Typ**: Wählen Sie aus, ob der Stellvertreter Ausgabeneinträge oder Zeiteinträge für Sie eingeben kann.  
   
-5. **Stellvertreter** : Wählen Sie den Namen der Person aus, die Stellvertreter werden sollen.  
+5. **Stellvertreter**: Wählen Sie den Namen der Person aus, die Stellvertreter werden sollen.  
   
-6. **Start- und Enddatum** : Wählen Sie als Datumsangaben für die Delegierung aus.  
+6. **Start- und Enddatum**: Wählen Sie als Datumsangaben für die Delegierung aus.  
   
-7.  Klicken Sie auf **Speichern und Schließen** , wenn Sie fertig sind.  
+7.  Klicken Sie auf **Speichern und Schließen**, wenn Sie fertig sind.  
   
 ## <a name="turn-off-delegation"></a>Delegierung deaktivieren  
   
@@ -65,7 +65,7 @@ Einrichten eines Stellvertreters, um einem anderen Benutzer das Erstellen von Ze
   
 3.  Klicken Sie auf **OK**.  
   
-4.  Dieses öffnet den Kalender. Um den Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute** , um zurück zur laufenden Woche zu gelangen.  
+4.  Dieses öffnet den Kalender. Um den Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute**, um zurück zur laufenden Woche zu gelangen.  
   
 5.  Zum Eingeben der Zeit klicken Sie entweder auf **Neu** oder doppelklicken im Kalender unter den Tag, für den Sie Zeit eingeben möchten.  
   
@@ -81,13 +81,13 @@ Einrichten eines Stellvertreters, um einem anderen Benutzer das Erstellen von Ze
   
 3.  Klicken Sie auf **OK**.  
   
-4.  Um den Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute** , um zurück zur laufenden Woche zu gelangen.  
+4.  Um den Kalender für die vorhergehende oder nächste Woche anzuzeigen, klicken Sie auf **Vorherige** oder **Nächste**. Klicken Sie auf **Heute**, um zurück zur laufenden Woche zu gelangen.  
   
 5.  Um eine Ausgaben einzugeben, klicken Sie auf **Neu**  
   
-6.  Füllen Sie die Felder im **Neue Ausgabe** -Formular aus. Sie können auch Belege hinzufügen.  
+6.  Füllen Sie die Felder im **Neue Ausgabe**-Formular aus. Sie können auch Belege hinzufügen.  
   
-7.  Klicken Sie auf **Speichern** , wenn Sie fertig sind.  
+7.  Klicken Sie auf **Speichern**, wenn Sie fertig sind.  
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)

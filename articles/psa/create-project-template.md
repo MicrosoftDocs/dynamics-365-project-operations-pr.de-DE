@@ -3,7 +3,7 @@ title: Eine Projektvorlage erstellen
 description: Erstellen einer Projektvorlage (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 700d1bb1fd7299b49b6c6f8e4d84d14bc1d52c1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 78d25183aad8d86593d3f2582295db59eb84cf14
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076537"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133187"
 ---
 # <a name="create-a-project-template-project-service"></a>Erstellen einer Projektvorlage (Project Service)
 
@@ -34,11 +34,11 @@ Projektvorlagen sparen Zeit, wenn Ihr Unternehmen regelmäßig Gebote für ähnl
 ## <a name="components-of-project-template"></a>Komponenten der Projektvorlage
  Eine Projektvorlage besteht aus drei Komponenten:  
   
-- **Projektstrukturplan** : Ein Projektstrukturplan hat in einer Projektvorlage denselben Satz von Elementen wie im Projekt. Sie können eine Aufgabenhierarchie erstellen, Rollen zu Aufgaben zuordnen, Zeitplanattribute definieren, Abhängigkeiten festlegen und alle Daten im Gantt-Diagramm anzeigen. Der Projektstrukturplan in den Projektvorlagen unterstützt auch Aufgabenmodi für die Aufgaben. Es gibt keinen Unterschied zwischen einer Projektvorlage und einem Projekt beim Erstellen eines Arbeitszeitplans.  
+- **Projektstrukturplan**: Ein Projektstrukturplan hat in einer Projektvorlage denselben Satz von Elementen wie im Projekt. Sie können eine Aufgabenhierarchie erstellen, Rollen zu Aufgaben zuordnen, Zeitplanattribute definieren, Abhängigkeiten festlegen und alle Daten im Gantt-Diagramm anzeigen. Der Projektstrukturplan in den Projektvorlagen unterstützt auch Aufgabenmodi für die Aufgaben. Es gibt keinen Unterschied zwischen einer Projektvorlage und einem Projekt beim Erstellen eines Arbeitszeitplans.  
   
-- **Projektschätzungen** : Projektschätzungen in Vorlagen funktionieren wie in Projekten, abgesehen davon, dass Preislisten für die Standardkosten und die Verkaufspreise immer die Standardkosten und Verkaufspreislisten sind, die in den [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Parametern definiert werden. Die restlichen Funktionalitäten sind identisch mit einem Projekt.  
+- **Projektschätzungen**: Projektschätzungen in Vorlagen funktionieren wie in Projekten, abgesehen davon, dass Preislisten für die Standardkosten und die Verkaufspreise immer die Standardkosten und Verkaufspreislisten sind, die in den [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Parametern definiert werden. Die restlichen Funktionalitäten sind identisch mit einem Projekt.  
   
-- **Projektteambildung** : Wenn Sie ein Projektteam für eine Projektvorlage zusammenstellen, können Sie keine benannte Ressource in einer Vorlage buchen. Sie können im Projektstrukturplan **Projektteam generieren** verwenden, um einen Satz allgemeiner Ressourcen zu generieren. Sie könne auch erforderliche Kompetenzen und Fähigkeiten für allgemeine Ressourcen angeben. Sie können keine allgemeine Ressource durch eine buchbare Ressource in den Projektvorlagen ersetzen.  
+- **Projektteambildung**: Wenn Sie ein Projektteam für eine Projektvorlage zusammenstellen, können Sie keine benannte Ressource in einer Vorlage buchen. Sie können im Projektstrukturplan **Projektteam generieren** verwenden, um einen Satz allgemeiner Ressourcen zu generieren. Sie könne auch erforderliche Kompetenzen und Fähigkeiten für allgemeine Ressourcen angeben. Sie können keine allgemeine Ressource durch eine buchbare Ressource in den Projektvorlagen ersetzen.  
   
 ## <a name="create-a-project-from-a-template"></a>Erstellen eines Projekts aus einer Vorlage  
  Sie können ein Projekt aus einer Vorlage auf die folgenden Arten erstellen:  
@@ -47,16 +47,16 @@ Projektvorlagen sparen Zeit, wenn Ihr Unternehmen regelmäßig Gebote für ähnl
   
 -   Wenn Sie ein Projekt durch Klicken auf **Neues Projekt** erstellen, wird das Projektformular angezeigt, bevor Sie den Datensatz speichern. Von hier können Sie auf das Feld **Eine Vorlage auswählen** klicken, um aus der Liste der vordefinierten Projektvorlagen in der Organisation auszuwählen.  
   
--   Klicken Sie auf **Projekt aus Vorlage erstellen** auf der Seite **Projektvorlage** , um ein Projekt aus der Vorlage zu erstellen.  
+-   Klicken Sie auf **Projekt aus Vorlage erstellen** auf der Seite **Projektvorlage**, um ein Projekt aus der Vorlage zu erstellen.  
   
 ## <a name="copying-components-of-a-template-to-a-project"></a>Kopieren von Komponenten einer Vorlage in ein Projekt:  
  Wenn Sie Komponenten einer Vorlage in ein Projekt kopieren, gibt es einige Dinge, die Sie wissen sollten.  
   
- **Kopieren eines Projektstrukturplans** : Wenn Sie den Projektstrukturplan aus einer Projektvorlage kopieren, wenn das Projekt einen anderen Projektkalender als die Vorlage hat, werden die Arbeitsstunden aus dem Kalender des Projekts auf den Aufgabenplan angewendet. Dadurch wird der Zeitplan an den zugrundeliegenden Projektkalender angepasst. Entsprechend nimmt die erste Aufgabe im Projektstrukturplan das Startdatum des Projekts, sodass der restliche Aufgabenhierarchienzeitplan anhand der Dauer und den Abhängigkeiten aktualisiert wird, die im Projektstrukturplan der Vorlage angegeben wurden.  
+ **Kopieren eines Projektstrukturplans**: Wenn Sie den Projektstrukturplan aus einer Projektvorlage kopieren, wenn das Projekt einen anderen Projektkalender als die Vorlage hat, werden die Arbeitsstunden aus dem Kalender des Projekts auf den Aufgabenplan angewendet. Dadurch wird der Zeitplan an den zugrundeliegenden Projektkalender angepasst. Entsprechend nimmt die erste Aufgabe im Projektstrukturplan das Startdatum des Projekts, sodass der restliche Aufgabenhierarchienzeitplan anhand der Dauer und den Abhängigkeiten aktualisiert wird, die im Projektstrukturplan der Vorlage angegeben wurden.  
   
- **Kopieren von Projektschätzungen** : Wenn Sie Projektschätzungspositionen kopieren, werden Preislisten anhand der besitzenden Einheit des Projekts für die Kostenpreisliste und Kunden für die Verkaufspreisliste aktualisiert. Die Einstandspreise die Verkaufspreise der Einheit werden anhand dieser Preisliste für die Projekte bestimmt, die einer Vertriebsentität zugeordnet sind.  
+ **Kopieren von Projektschätzungen**: Wenn Sie Projektschätzungspositionen kopieren, werden Preislisten anhand der besitzenden Einheit des Projekts für die Kostenpreisliste und Kunden für die Verkaufspreisliste aktualisiert. Die Einstandspreise die Verkaufspreise der Einheit werden anhand dieser Preisliste für die Projekte bestimmt, die einer Vertriebsentität zugeordnet sind.  
   
- **Kopieren eines Projektteams** : Wenn Sie das Projektteam aus der Vorlage in ein Projekt kopieren, werden die generischen Ressourcen einschließlich der Kompetenzen und Fähigkeiten kopiert, die in der Datenbanktabelle definiert wurden. Generische Ressourcenzuweisungen werden wie in der Projektvorlage verwaltet.  
+ **Kopieren eines Projektteams**: Wenn Sie das Projektteam aus der Vorlage in ein Projekt kopieren, werden die generischen Ressourcen einschließlich der Kompetenzen und Fähigkeiten kopiert, die in der Datenbanktabelle definiert wurden. Generische Ressourcenzuweisungen werden wie in der Projektvorlage verwaltet.  
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)

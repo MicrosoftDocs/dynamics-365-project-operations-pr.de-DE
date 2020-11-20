@@ -1,21 +1,21 @@
 ---
-title: Gutschriften und korrigierte Rechnungen
+title: Korrigierte Rechnungen – Lite
 description: Dieses Thema bietet Informationen zu korrigierten Rechnungen in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076635"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176430"
 ---
-# <a name="credits-and-corrected-invoices"></a>Gutschriften und korrigierte Rechnungen
+# <a name="corrected-invoices---lite"></a>Korrigierte Rechnungen – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -35,7 +35,7 @@ Aus der bestätigten Rechnung wird ein neuer Rechnungsentwurf erstellt. Alle Rec
 - Abstimmungen von Vorauszahlungen und Vorschüssen können korrigiert werden, wenn ein falscher Betrag verwendet wurde, um die Gebühren auf einer zuvor bestätigten Rechnung abzugleichen.
 
 > [!IMPORTANT]
-> Bei Rechnungszeilendetails, die Korrekturen zu anderen bereits in Rechnung gestellten Gebühren darstellen, ist das Feld **Korrektur** auf **Ja** eingestellt. Rechnungen mit korrigierten Rechnungszeilendetails haben ein Feld mit dem Namen **Hat Korrekturen** , das auch auf **Ja** eingestellt ist.
+> Bei Rechnungszeilendetails, die Korrekturen zu anderen bereits in Rechnung gestellten Gebühren darstellen, ist das Feld **Korrektur** auf **Ja** eingestellt. Rechnungen mit korrigierten Rechnungszeilendetails haben ein Feld mit dem Namen **Hat Korrekturen**, das auch auf **Ja** eingestellt ist.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Istwerten, die bei Bestätigung einer Korrekturrechnung erstellt wurden:
 
