@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076399"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181226"
 ---
-# <a name="opportunity-headersummary"></a>Header/Zusammenfassung der Verkaufschance
+# <a name="opportunity-settings"></a>Verkaufschancen-Einstellungen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
@@ -26,7 +26,7 @@ Projektbasierte Verkaufschancen in Dynamics 365 Project Operations sind Erweiter
 
 Die folgende Tabelle enthält die Felder in einer projektbasierten Verkaufschance, die entweder nur für Project Operations gelten oder einige wichtige Verhaltensänderungen gegenüber den Verkaufschancen in Sales aufweisen.
 
-| **Feld** | **Ort** | **Relevanz, Zweck und Anleitung** | **Downstream-Auswirkungen** |
+| **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
 | Art | Registerkarte „Allgemein“ (ausgeblendet) | Dieses Optionssatzfeld enthält die folgenden Optionen:</br>- Arbeitsbasiert (nur bei Project Operations verfügbar)</br>- Positionsbasiert (nur verfügbar, wenn Project Operations und Sales installiert sind)</br>- Servicewartungsbasiert (verfügbar, wenn Field Service installiert ist) | Wenn Sie Project Operations verwenden, wird dieser Feldwert automatisch auf **Arbeitsbasiert** festgelegt. Dadurch wird die Verkaufschance als projektbasiert klassifiziert. Eine Verkaufschance sollte projektbasiert sein, um alle projektspezifischen Erweiterungen und Funktionen im nachgelagerten Verkaufsprozess für dieses Geschäft zu aktivieren. |
 | Zuständiges Unternehmen | Registerkarte „Allgemein“ | Dies ist das Unternehmen oder die juristische Person, die das Projekt für den Kunden bereitstellt. | Diese Feldinformationen werden in das entsprechende Feld im Projektangebot kopiert, das aus dieser Verkaufschance erstellt wird. |

@@ -1,21 +1,21 @@
 ---
-title: Eine Vorauszahlung oder einen Vorschuss abrechnen
+title: Eine Vorauszahlung oder einen Vorschuss abrechnen – Lite
 description: Dieses Thema enthält Informationen zum Fakturieren einer Vorauszahlung oder eines Vorschusses in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087919"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180551"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Eine Vorauszahlung oder einen Vorschuss abrechnen
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Eine Vorauszahlung oder einen Vorschuss abrechnen – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -43,7 +43,7 @@ Auf jeder Rechnung, die für einen Projektvertrag generiert wurde, und die Vorau
 
 Dies ist im Raster **Angewendete Vorauszahlungen und Vorschüsse** auf der Seite **Rechnung**. Die folgende Tabelle enthält Informationen zu den Feldern im Raster **Angewendete Vorauszahlungen und Vorschüsse** der Seite **Projektrechnung**.
 
-| Feld | Position | Relevanz, Zweck und Anleitung | Nachgelagerte Auswirkungen |
+| Feld | Position | Beschreibung des Dataflows | Nachgelagerte Auswirkungen |
 | --- | --- | --- | --- |
 | Beschreibung des Dataflows | Das Raster **Angewendete Vorauszahlungen und Vorschüsse** auf der Seite **Projektrechnung** |Dieses schreibgeschützte Feld enthält eine Beschreibung der auf dieser Rechnung verwendeten Vorauszahlung oder des Vorschusses. Dieser Wert kann auf der Rechnung nicht geändert werden. Dieser Wert kann im Unterraster auf der Seite **Projektvertrag** aktualisiert werden. | Dieses Feld kann dem Kunden auf der gedruckten Rechnung angezeigt werden, um anzugeben, welche Vorauszahlung bzw. welcher Vorschuss auf der Rechnung angewendet wird. |
 | Geliefert am | Das Raster **Angewendete Vorauszahlungen und Vorschüsse** auf der Seite **Projektrechnung**  | Dieses schreibgeschützte Feld enthält das Rechnungsdatum der auf dieser Rechnung verwendeten Vorauszahlung oder des Vorschusses. Dieser Wert kann auf der Rechnung nicht geändert werden. Dieser Wert kann im Unterraster auf der Seite **Projektvertrag** aktualisiert werden. | Dieses Feld kann dem Kunden auf der gedruckten Rechnung angezeigt werden, um das Datum anzugeben, an dem die Vorauszahlung oder der Vorschuss dem Kunden zuerst in Rechnung gestellt wurde. |

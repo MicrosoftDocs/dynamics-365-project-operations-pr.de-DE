@@ -1,21 +1,21 @@
 ---
-title: Vorschüsse und vorauszahlungsbasierte Verträge
+title: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge – Lite
 description: Dieses Thema enthält Informationen über vorauszahlungsbasierte Vertragsmodell und Vorschüsse in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087916"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180866"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Vorschüsse und vorauszahlungsbasierte Verträge 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Vorauszahlungen oder auf dem Vorbehalt basierende Verträge – Lite
 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
@@ -33,7 +33,7 @@ Zusätzlich zu einem regelmäßigen, auf Vorauszahlungen basierenden Zeitplan ka
 
 Die Vorauszahlung in Project Operations kann erst verwendet werden, wenn sie dem Kunden in Rechnung gestellt wird. Dies wird durch die folgenden Felder im Unterraster für Vorschüsse und Vorauszahlungen angezeigt.
 
-| Feld | Relevanz, Zweck und Anleitung | Nachgelagerte Auswirkungen |
+| Feld | Beschreibung des Dataflows | Nachgelagerte Auswirkungen |
 | --- | --- | --- |
 | Verfügbarer Betrag | Der Betrag, der zur Verwendung im Vorauszahlungs- oder Vorschussdatensatz verfügbar ist. | Bis der Vorschuss oder die Vorauszahlung in Rechnung gestellt wird, kann sie nicht verwendet werden, was bedeutet, dass der verfügbare Betrag null ist. |
 | Verwendeter Betrag | Der Betrag, der zur Verwendung im Vorauszahlungs- oder Vorschussdatensatz bereits verwendet wird. | Ein Vorschuss oder eine Vorauszahlung kann teilweise auf einer Rechnung mit den tatsächlichen Kosten abgeglichen werden, wobei ein Teil als bereits verwendet oder verbraucht gekennzeichnet ist. Der Rest des Vorschuss- oder Vorauszahlungsbetrags steht zur Verfügung, um eine zukünftige Rechnung mit den tatsächlichen Kosten abzustimmen. |

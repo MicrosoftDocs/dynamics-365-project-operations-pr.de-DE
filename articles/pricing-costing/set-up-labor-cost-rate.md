@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076421"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180596"
 ---
 # <a name="set-up-labor-cost-rates"></a>Arbeitskostensätze einrichten
 
@@ -22,21 +22,21 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Jede Preisliste enthält eine Reihe von Arbeitssätzen (Rollenpreisen), die mit dem Inhalt und der Datumseffektivität der Preisliste übereinstimmen.
 
-1. Erstellen Sie eine Preisliste, und wählen Sie auf der Registerkarte **Rollenpreis** im Unterraster **Neue Rolle** aus.
+1. Erstellen Sie eine Preisliste und auf der **Rollenpreis**-Registerkarte wählen Sie im Unterraster die Registerkarte **Neue Rolle**.
 2. Wählen Sie auf der Seite **Schnellerfassung** die Rolle und die Organisationseinheit aus.
 3. Geben Sie alle erforderlichen Feldinformationen ein.
 
 Die folgende Tabelle enthält einige der Felder, die beim Erstellen von Arbeitssätzen auf einer Einstandspreisliste wichtig sind.
 
-| Feld | Position | Relevanz, Zweck und Anleitung | Nachgelagerte Auswirkungen |
+| Feld | Position | Beschreibung des Dataflows | Nachgelagerte Auswirkungen |
 | --- | --- | --- | --- |
-| Rolle | Die Registerkarte **Allgemein** und die **Schnellerfassungs** -Seiten | Wählen Sie die Rolle aus, für die der Kostensatz gilt. | Die Rolle in der eingehenden Vorkalkulation oder der Istwerte wird mit dieser Zeile abgeglichen, um die Kosten der Rolle als Standard festzulegen. |
-| Ressourcenzuordnungsunternehmen | Die Registerkarte **Allgemein** und die **Schnellerfassungs** -Seiten | Wählen Sie die juristische Person aus, der die Rolle zugewiesen ist. Zum Beispiel ein Entwickler von Fabrikam India oder ein Entwickler von Fabrikam USA. | Das Ressourcenzuordnungsunternehmen in der eingehenden Vorkalkulation oder den Istwerten wird mit dieser Zeile abgeglichen, um den Kostensatz der Rolle als Standard festzulegen. |
-| Ressourcenzuordnungseinheit | Die Registerkarte **Allgemein** und die **Schnellerfassungs** -Seiten | Wählen Sie die Organisationseinheit oder die Abteilung des Unternehmens aus, von der aus diese Rolle verwendet werden soll. Zum Beispiel ein Entwickler aus der Robotics-Abteilung von Fabrikam India oder ein Entwickler aus der Software-Abteilung von Fabrikam USA. | Die Ressourcenzuordnungseinheit in der eingehenden Vorkalkulation oder den Istwerten wird mit dieser Zeile abgeglichen, um den Kostensatz der Rolle als Standard festzulegen. |
-| Preis | Die Registerkarte **Allgemein** und die **Schnellerfassungs** -Seiten | Richten Sie den Kostensatz für die Kombination aus Rolle, Ressourcenzuordnungsunternehmen und Ressourcenzuordnungseinheit ein. Beispielsweise wird für einen Entwickler von Fabrikam India 1.000 INR oder für einen Entwickler aus Fabrikam Kosten von 150 USD berechnet. | Der Preis ist der Kostensatz, der standardmäßig auf den Einzelpreis der eingehenden Vorkalkulations- oder Istwertzeile für die Transaktionsklasse **Zeit** basiert. |
-| Währung | Die Registerkarte **Allgemein** und die **Schnellerfassungs** -Seiten | Standardmäßig stammt der Währungswert aus der Währung in der Kopfzeile der Einstandspreisliste, kann jedoch überschrieben werden. Zum Beispiel wird für einen Entwickler von Fabrikam India 1000 INR berechnet. Ein Entwickler aus Fabrikam USA kostet 150 USD. | Diese Währung basiert standardmäßig auf dem Einzelpreis der eingehenden Istwert-Zeile der Transaktionsklasse **Zeit**. Bei einer Projektvorkalkulation wird der Währungswert in die Projektwährung umgerechnet und in der zeitgesteuerten Ansicht der Vorkalkulation angezeigt. |
-| Einheitenzeitplan | Die Registerkarte **Allgemein** und die **Schnellerfassungs** -Seiten | Der Einheitenzeitplan ist standardmäßig auf Zeit eingestellt und kann für die Rollenpreisentität nicht geändert werden, da er verwendet wird, um Sätze nach Zeiteinheiten darzustellen. | Dabei gibt es keine nachgelagerten Auswirkungen. |
-| Einheit | Die Registerkarte **Allgemein** und die **Schnellerfassungs** -Seiten | Standardmäßig stammt dieser Wert aus dem Feld **Zeiteinheit** im Header der Einstandspreisliste. Der Wert kann überschrieben werden. Zum Beispiel wird für einen Entwickler von Fabrikam India 1.000 INR pro **Tag in Indien** berechnet. Ein Entwickler aus Fabrikam USA kostet 150 USD pro **Tag in den USA**. | Das System verwendet das Einheitensystem und die Umrechnung in Basiseinheiten, um den Einzelpreis zu berechnen und den Standardpreis pro Einheit für eine eingehende Vorkalkulations- oder Istwertzeile zu berechnen. Zum Beispiel entspricht eine Vorkalkulation für die Arbeit eines Entwicklers aus Indien 10 **Tage in Indien** , und die Einheit **Tag in Indien** ist als 10 Stunden definiert. Bei der Kalkulation dieser Vorkalkulationszeile berechnet die Anwendung die Stückkosten für die Vorkalkulation wie folgt: 1000 INR/10 Stunden = 100 INR pro Stunde, die in USD umgerechnet und als Stückkosten auf der Seite **Projektvorkalkulationen** angezeigt wird. |
+| Rolle | Die Registerkarte **Allgemein** und die **Schnellerfassungs**-Seiten | Wählen Sie die Rolle aus, für die der Kostensatz gilt. | Die Rolle in der eingehenden Vorkalkulation oder der Istwerte wird mit dieser Zeile abgeglichen, um die Kosten der Rolle als Standard festzulegen. |
+| Ressourcenzuordnungsunternehmen | Die Registerkarte **Allgemein** und die **Schnellerfassungs**-Seiten | Wählen Sie die juristische Person aus, der die Rolle zugewiesen ist. Zum Beispiel ein Entwickler von Fabrikam India oder ein Entwickler von Fabrikam USA. | Das Ressourcenzuordnungsunternehmen in der eingehenden Vorkalkulation oder den Istwerten wird mit dieser Zeile abgeglichen, um den Kostensatz der Rolle als Standard festzulegen. |
+| Ressourcenzuordnungseinheit | Die Registerkarte **Allgemein** und die **Schnellerfassungs**-Seiten | Wählen Sie die Organisationseinheit oder die Abteilung des Unternehmens aus, von der aus diese Rolle verwendet werden soll. Zum Beispiel ein Entwickler aus der Robotics-Abteilung von Fabrikam India oder ein Entwickler aus der Software-Abteilung von Fabrikam USA. | Die Ressourcenzuordnungseinheit in der eingehenden Vorkalkulation oder den Istwerten wird mit dieser Zeile abgeglichen, um den Kostensatz der Rolle als Standard festzulegen. |
+| Preis | Die Registerkarte **Allgemein** und die **Schnellerfassungs**-Seiten | Richten Sie den Kostensatz für die Kombination aus Rolle, Ressourcenzuordnungsunternehmen und Ressourcenzuordnungseinheit ein. Beispielsweise wird für einen Entwickler von Fabrikam India 1.000 INR oder für einen Entwickler aus Fabrikam Kosten von 150 USD berechnet. | Der Preis ist der Kostensatz, der standardmäßig auf den Einzelpreis der eingehenden Vorkalkulations- oder Istwertzeile für die Transaktionsklasse **Zeit** basiert. |
+| Währung | Die Registerkarte **Allgemein** und die **Schnellerfassungs**-Seiten | Standardmäßig stammt der Währungswert aus der Währung in der Kopfzeile der Einstandspreisliste, kann jedoch überschrieben werden. Zum Beispiel wird für einen Entwickler von Fabrikam India 1000 INR berechnet. Ein Entwickler aus Fabrikam USA kostet 150 USD. | Diese Währung basiert standardmäßig auf dem Einzelpreis der eingehenden Istwert-Zeile der Transaktionsklasse **Zeit**. Bei einer Projektvorkalkulation wird der Währungswert in die Projektwährung umgerechnet und in der zeitgesteuerten Ansicht der Vorkalkulation angezeigt. |
+| Einheitenzeitplan | Die Registerkarte **Allgemein** und die **Schnellerfassungs**-Seiten | Der Einheitenzeitplan ist standardmäßig auf Zeit eingestellt und kann für die Rollenpreisentität nicht geändert werden, da er verwendet wird, um Sätze nach Zeiteinheiten darzustellen. | Dabei gibt es keine nachgelagerten Auswirkungen. |
+| Einheit | Die Registerkarte **Allgemein** und die **Schnellerfassungs**-Seiten | Standardmäßig stammt dieser Wert aus dem Feld **Zeiteinheit** im Header der Einstandspreisliste. Der Wert kann überschrieben werden. Zum Beispiel wird für einen Entwickler von Fabrikam India 1.000 INR pro **Tag in Indien** berechnet. Ein Entwickler aus Fabrikam USA kostet 150 USD pro **Tag in den USA**. | Das System verwendet das Einheitensystem und die Umrechnung in Basiseinheiten, um den Einzelpreis zu berechnen und den Standardpreis pro Einheit für eine eingehende Vorkalkulations- oder Istwertzeile zu berechnen. Zum Beispiel entspricht eine Vorkalkulation für die Arbeit eines Entwicklers aus Indien 10 **Tage in Indien**, und die Einheit **Tag in Indien** ist als 10 Stunden definiert. Bei der Kalkulation dieser Vorkalkulationszeile berechnet die Anwendung die Stückkosten für die Vorkalkulation wie folgt: 1000 INR/10 Stunden = 100 INR pro Stunde, die in USD umgerechnet und als Stückkosten auf der Seite **Projektvorkalkulationen** angezeigt wird. |
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Verrechnungspreise und Kosten für Ressourcen außerhalb Ihres Geschäftsbereichs oder Ihrer juristischen Person
 
@@ -48,7 +48,7 @@ Ein Entwickler von Fabrikam India-Robotic berechnet 100 USD bei einer Überlassu
 
 ### <a name="set-up-costs-for-outside-resources"></a>Kosten für externe Ressourcen einrichten
 
-1. Erstellen Sie eine Einstandspreisliste mit der Bezeichnung *Fabrikam US-Robotics-Kostensätze* , und legen Sie einen effektiven Datumsbereich fest.
+1. Erstellen Sie eine Einstandspreisliste mit der Bezeichnung *Fabrikam US-Robotics-Kostensätze*, und legen Sie einen effektiven Datumsbereich fest.
 2. Richten Sie in der Einstandspreisliste die Raten anhand der Informationen aus der folgenden Tabelle ein. 
 
 | Rolle | Ressourcenzuordnungsunternehmen | Ressourcenzuordnungseinheit | Kostenrate |

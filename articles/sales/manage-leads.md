@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076382"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181766"
 ---
 # <a name="manage-leads"></a>Leads verwalten
 
@@ -23,9 +23,9 @@ Projektbasierte Leads können in Project Operations verwaltet und qualifiziert w
 
 ## <a name="project-sales-leads"></a>Projektvertriebsleads
 
-Im **Vertrieb** -Abschnitt öffnen Sie im linken Navigationsbereich die **Leads** -Listenseite, um eine Liste aller Lead-Datensätze im System anzuzeigen. Die Liste zeigt Leads die arbeitsbasiert sind und andere Arten von Leads, die erstellt werden können, wenn Sie auch über Dynamics 365 Sales oder Dynamics 365 Field Service-Anwendungen verfügen.
+Im **Vertrieb**-Abschnitt öffnen Sie im linken Navigationsbereich die **Leads**-Listenseite, um eine Liste aller Lead-Datensätze im System anzuzeigen. Die Liste zeigt Leads die arbeitsbasiert sind und andere Arten von Leads, die erstellt werden können, wenn Sie auch über Dynamics 365 Sales oder Dynamics 365 Field Service-Anwendungen verfügen.
 
-Sie können eine gefilterte Ansicht erstellen, um nur projektbasierte Leads anzuzeigen, indem Sie einen Filter für den **Typ** -Wert erstellen. Sie können beispielsweise festlegen, dass nur arbeitsbezogene Leads angezeigt werden.
+Sie können eine gefilterte Ansicht erstellen, um nur projektbasierte Leads anzuzeigen, indem Sie einen Filter für den **Typ**-Wert erstellen. Sie können beispielsweise festlegen, dass nur arbeitsbezogene Leads angezeigt werden.
 
 ## <a name="create-a-new-lead-for-a-project-based-deal"></a>Erstellen eines neuen Leads für einen projektbasierten Deal
 
@@ -38,7 +38,7 @@ Damit ein qualifizierter Lead automatisch eine Verkaufschance erstellt, legen Si
 
 Die folgende Tabelle enthält wichtige Feldinformationen für einen Lead und die nachgelagerten Auswirkungen dieser Felder.
  
-| **Feld** | **Ort** | **Relevanz, Zweck und Anleitung** | **Nachgelagerte Auswirkungen** |
+| **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
 | Thema | Registerkarte „Allgemein“ | Dieses Textfeld sollte eine kurze Beschreibung des Geschäfts enthalten. | Das Thema des Leads wird standardmäßig als Thema der Verkaufschance und als Name des Angebots- und Projektvertrags verwendet. |
 | Art | Registerkarte „Allgemein“ | Dieses Optionssatzfeld enthält die folgenden Optionen:</br>- Arbeitsbasiert (nur bei Installation von Project Operations verfügbar)</br>- Positionsbasiert (nur verfügbar, wenn Project Operations und Sales installiert sind)</br>- Servicewartungsbasiert (verfügbar, wenn Field Service installiert ist) | Wenn der Wert dieses Feldes beim Lead auf **Arbeitsbasiert** festgelegt ist, ist der Lead qualifiziert, eine projektbasierte Verkaufschance zu erstellen. Eine projektbasierte Verkaufschance ist erforderlich, um alle projektspezifischen Erweiterungen und Funktionen im nachgelagerten Verkaufsprozess für dieses Geschäft zu aktivieren. |
@@ -49,17 +49,17 @@ Die folgende Tabelle enthält wichtige Feldinformationen für einen Lead und die
 
 ## <a name="qualify-a-new-project-based-lead"></a>Qualifizieren eines neuen projektbasierten Leads
 
-Leads, die den **Typ** -Wert auf **Arbeitsbasiert** festgelegt haben, werden projektbasierte Leads genannt. Wenn ein projektbasierter Lead qualifiziert ist, wird Folgendes erstellt:
+Leads, die den **Typ**-Wert auf **Arbeitsbasiert** festgelegt haben, werden projektbasierte Leads genannt. Wenn ein projektbasierter Lead qualifiziert ist, wird Folgendes erstellt:
 
-- Ein Konto, das das **Unternehmen** -Feld vom Lead verwendet.
-- Ein dem Konto zugeordneter Kontaktdatensatz basierend auf den Werten in den **Vorname** - und **Nachname** -Feldern zum Lead.
-- Eine projektbasierte Verkaufschance, bei der das Feld **Typ** auf &quot;**Arbeitsbezogen** festgelegt ist.
+- Ein Konto, das das **Unternehmen**-Feld vom Lead verwendet.
+- Ein dem Konto zugeordneter Kontaktdatensatz basierend auf den Werten in den **Vorname**- und **Nachname**-Feldern zum Lead.
+- Eine projektbasierte Verkaufschance, bei der das Feld **Typ** auf **Arbeitsbezogen** festgelegt ist.
 
 Weitere Informationen zum Qualifizieren von Leads finden Sie unter [Leads qualifizieren oder konvertieren](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Informationen zu Leadqualifikation und juristischen Personen 
 
-Wenn Sie Project Operations im Bereitstellungsmodus, Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen ausführen, muss bei jedem Kunden und jeder Verkaufschance das **Zuständiges Unternehmen** -Feld festgelegt sein. Da zuständige Unternehmen ist eine juristische Person in Ihrer Organisation, die die Lieferung des Projekts besitzt. Jeder Kunde oder jedes Konto mit dem Beziehungstyp des Kunden muss den **Zuständiges Unternehmen** -Feldwert auf die juristische Person festgelegt haben, die mit diesem Kunden Verträge abschließt und verhandelt. Ein Kunde kann nur in einer juristische Person gleichzeitig sein.
+Wenn Sie Project Operations im Bereitstellungsmodus, Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen ausführen, muss bei jedem Kunden und jeder Verkaufschance das **Zuständiges Unternehmen**-Feld festgelegt sein. Da zuständige Unternehmen ist eine juristische Person in Ihrer Organisation, die die Lieferung des Projekts besitzt. Jeder Kunde oder jedes Konto mit dem Beziehungstyp des Kunden muss den **Zuständiges Unternehmen**-Feldwert auf die juristische Person festgelegt haben, die mit diesem Kunden Verträge abschließt und verhandelt. Ein Kunde kann nur in einer juristische Person gleichzeitig sein.
 
 Wenn ein Lead qualifiziert ist, haben die erstellten Kunden- und Verkaufschancen-Datensätze das Feld **Zuständiges Unternehmen** auf das Unternehmen des buchbaren Ressourceneintrags des aktuellen Benutzers festgelegt.
 

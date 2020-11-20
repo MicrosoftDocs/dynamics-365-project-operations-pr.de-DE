@@ -1,21 +1,21 @@
 ---
-title: Kopieren von Projektverträgen
+title: Projektverträge kopieren – Lite
 description: Dieses Thema enthält Informationen zum Kopieren von Projektverträgen in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076429"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181406"
 ---
-# <a name="copying-project-contracts"></a>Kopieren von Projektverträgen
+# <a name="copy-project-contracts---lite"></a>Projektverträge kopieren – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -26,7 +26,7 @@ Sie können ganz einfach neue Projektverträge erstellen, indem Sie Kopien beste
 
 Eine Dialogseite wird geöffnet, auf der Sie die Parameter des kopierten Vertrags auswählen können. Die folgenden Felder sind im Dialog enthalten. Abhängig von den ausgewählten Werten in diesem Dialog kann sich der Kopiervorgang ändern.
 
-| **Feld** | **Relevanz, Zweck und Anleitung** | **Downstream-Auswirkungen** |
+| **Feld** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- |
 | Thema | Geben Sie das Thema des Zielvertrags ein. Wenn die Dialogseite geöffnet wird, legt das System dieses Feld auf den Namen des Quellvertrags fest und hängt **copy** an. | Es gibt keine nachgelagerten Auswirkungen für dieses Feld. |
 | Kunde | Verweis auf die Firma oder den Kontodatensatz des Kunden. Wenn der Dialog geöffnet wird, legt das System dieses Feld auf das Konto im Quellvertrag fest. | Dieses Feld ist der Hauptkunde im Vertrag. |

@@ -1,21 +1,21 @@
 ---
-title: Wichtige Konzepte für Projektangebote
+title: Angebote – Wichtige Konzepte – Lite
 description: Dieses Thema bietet Informationen zur Verwendung von Projektangeboten in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076448"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178005"
 ---
-# <a name="project-quote-key-concepts"></a>Wichtige Konzepte für Projektangebote
+# <a name="quotes---key-concepts---lite"></a>Angebote – Wichtige Konzepte – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -66,7 +66,7 @@ Kosten- und Verkaufswerte können für die Transaktionsklassen Zeit, Kosten und 
 
 ## <a name="work-entities-and-billing-entities"></a>Arbeits- und Fakturierungsentitäten
 
-Entitäten, die Arbeit darstellen, sind Projekte und Aufgaben. Entitäten, die die Fakturierung darstellen, sind Angebots- und Vertragspositionen. Sie können verschiedene Arbeitsentitäten mit Abrechnungsoptionen verknüpfen, indem Sie sie Angebots- oder Vertragszeilen zuordnen.
+Entitäten, die Arbeit darstellen, sind Projekte und Aufgaben. Entitäten, die die Fakturierung darstellen, sind Angebots- und Vertragszeilen. Sie können verschiedene Arbeitsentitäten mit Abrechnungsoptionen verknüpfen, indem Sie sie Angebots- oder Vertragszeilen zuordnen.
 
 ## <a name="multi-customer-deals"></a>Geschäfte mit mehreren Kunden
 

@@ -1,21 +1,21 @@
 ---
-title: Projektbasierte Verkaufschancenpositionen (Pro)
+title: Projektbasierte Verkaufschancenpositionen – Lite
 description: Dieses Thema bietet Informationen zur Arbeit mit projektbasierten Verkaufschancenpositionen. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076449"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181001"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Projektbasierte Verkaufschancenpositionen (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Projektbasierte Verkaufschancenpositionen – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -25,7 +25,7 @@ Projektbasierte Verkaufschancenpositionen sind die Positionen, die dem Kunden ü
 
 Nachfolgend sind die Felder in einer projektbasierten Verkaufschancenposition aufgeführt:
 
-| **Feld** | **Ort** | **Relevanz, Zweck und Anleitung** | **Downstream-Auswirkungen** |
+| **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
 | Produkttyp | Registerkarte „Allgemein“ (ausgeblendet) | Sie können eine der folgenden Optionen auswählen:</br>- Projektbasierter Service (nur verfügbar, wenn Dynamics 365 Project Operations installiert ist)</br>- Produkt (nur verfügbar, wenn Dynamics 365 Project Operations und Dynamics 365 Sales installiert sind) | Der Wert dieses Feldes wird auf **Projektbasierter Service** festgelegt, wenn Sie eine projektbasierte Verkaufschancenposition aus dem projektbasierten Positionsraster in der Verkaufschance erstellen. <br> Wenn Sie diesen Wert ändern oder überschreiben, wird die Projektfunktionalität für Ihre projektbasierten Positionen nicht aktiviert. |
 | Verkaufschance | Registerkarte „Allgemein“ | Dieses Feld ist schreibgeschützt und verweist auf den übergeordneten Verkaufschancendatensatz, zu dem diese Position gehört. | Es gibt keine nachgelagerten Auswirkungen über dieses Feld. |

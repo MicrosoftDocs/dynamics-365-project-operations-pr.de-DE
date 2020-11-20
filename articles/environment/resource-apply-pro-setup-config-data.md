@@ -1,23 +1,33 @@
 ---
-title: Konfigurationsdaten in Common Data Service für Project Operations einrichten und anwenden
+title: Konfigurationsdaten in Common Data Service einrichten und anwenden
 description: Dieses Thema enthält Informationen zum Einrichten und Anwenden von Konfigurationsdaten in Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076397"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401127"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Konfigurationsdaten in Common Data Service für Project Operations einrichten und anwenden
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurationsdaten in Common Data Service einrichten und anwenden 
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
+
+## <a name="prerequisites"></a>Anforderungen
+
+Bevor Sie beginnen, Daten in Common Data Service (CDS) zu konfigurieren, müssen folgende Voraussetzungen erfüllt sein:
+
+1.  Bereitstellung einer CDS-Umgebung und einer Dynamics 365 Finance-Umgebung für Project Operations.
+2.  Informationen zu juristischen Personen von Dynamics 365 Finance werden für die CDS-Umgebung freigegeben. Dies bedeutet, dass die **Firma**-Entität in CDS die folgenden Firmendatensätze hat:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Einrichtungs- und Konfigurationsdaten installieren
 
@@ -75,7 +85,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 ![Umgebung öffnen](./media/7OpenEnvironment.png)
 
-2. Navigieren Sie zu **Projekte** > **Ressourcen** , und wählen Sie dann **Neu** aus, um eine buchbare Ressource für Ihren Benutzer zu erstellen.
+2. Navigieren Sie zu **Projekte** > **Ressourcen**, und wählen Sie dann **Neu** aus, um eine buchbare Ressource für Ihren Benutzer zu erstellen.
 
 ![Buchbare Ressourcen](./media/8BookableResources.png)
 
@@ -100,7 +110,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 ![Kalender aktualisieren](./media/13UpdateCalendar.png)
 
-9. Navigieren Sie zu **Einstellungen** > **Kalendervorlagen** , und wählen Sie **Neu** aus.
+9. Navigieren Sie zu **Einstellungen** > **Kalendervorlagen**, und wählen Sie **Neu** aus.
  
  ![Kalendervorlagen](./media/14CalendarTemplates.png)
  
@@ -108,16 +118,16 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
  
  ![Kalendervorlage speichern](./media/15SaveCalendarTemplate.png)
  
- 11. Navigieren Sie zu **Parameter** , und doppelklicken Sie auf den Datensatz. 
+ 11. Navigieren Sie zu **Parameter**, und doppelklicken Sie auf den Datensatz. 
  
  ![Projektparameter](./media/16ProjectParameters.png)
  
 12. Aktualisieren Sie die folgenden Felder:
 
- - **Standardunternehmen** : USPM
- - **Standard-Organisationseinheit** : Contoso Robotics Global
- - **Rechnungshäufigkeit** : Siebter und letzter Tag
- - **Arbeitszeitvorlage** : Wechseln Sie zu der von Ihnen erstellten Vorlage.
+ - **Standardunternehmen**: USPM
+ - **Standard-Organisationseinheit**: Contoso Robotics Global
+ - **Rechnungshäufigkeit**: Siebter und letzter Tag
+ - **Arbeitszeitvorlage**: Wechseln Sie zu der von Ihnen erstellten Vorlage.
 
 13. Wählen Sie **Speichern** aus. 
 

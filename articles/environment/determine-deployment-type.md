@@ -3,17 +3,17 @@ title: Bereitstellungstyp festlegen
 description: Dieses Thema enthält Informationen, die Ihnen helfen, den korrekten Bereitstellungstyp von Projekt Operations für Ihr Unternehmen zu bestimmen.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076528"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401217"
 ---
 # <a name="determine-your-deployment-type"></a>Bereitstellungstyp festlegen
 
@@ -25,11 +25,11 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Vorhandene Kunden von Dynamics, die Dynamics 365 Project Service Automation nutzen
-Project Operations umfasst die Funktionen, die mit Project Service Automation geliefert werden. Für diese Kunden wird in Zukunft ein Upgrade-Pfad freigegeben.
+Project Operations umfasst die Funktionen, die mit Project Service Automation geliefert werden. Für diese Kunden wird in der Veröffentlichungswelle 1 2021 ein Upgrade-Pfad freigegeben.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Vorhandene Kunden von Dynamics 365 Finance, die Projektmanagement und -buchhaltung verwenden 
 
-Vorhandene Finanzkunden, die die Projektmanagement- und -buchhaltungsfunktion verwenden, können diese weiterhin nutzen. Weitere Informationen finden Sie unter [Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigungsaufträgen](#pma).
+Bestehende Finance-Kunden, die die Projektmanagement- und Buchhaltungsfunktion verwenden, können sie weiterhin unverändert verwenden. Weitere Informationen finden Sie unter [Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigungsaufträgen](#pma).
 
 
 ## <a name="deployment-types"></a>Bereitstellungstypen
@@ -47,12 +47,13 @@ Project Operations unterstützt Lager-/Produktionsauftragsszenarien und nicht la
 
 Die Lite-Bereitstellung umfasst die folgenden Funktionen:
 
+- Verkaufsprozess für Projekte, der die Anwendungserfahrung von Dynamics 365 Sales erweitert
 - Projektplanung mit Microsoft Project für das Web
 - Mehrdimensionale Preisberechnung
 - Vereinheitlichte Ressourcenverwaltung
 - Zeitnachverfolgung
 - Grundkosten
-- Rechnungsvorschlag
+- Proforma und kundenorientierte Rechnungsstellung 
 
 #### <a name="deployment-steps"></a>Bereitstellungsschritte
 Bestimmen Sie das beste Bereitstellungsmodell für Project Operations mithilfe des [Bereitstellungsfragebogens](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Informationen zu dieser Bereitstellung finden Sie unter [Registrieren für Vorsc
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen
 Der Projektbetrieb für Ressourcen-/nicht vorrätige Szenarien umfasst die folgenden Funktionen:
-  
+ 
+- Verkaufsprozess für Projekte, der die Anwendung von Dynamics 365 Sales erweitert
 - Projektplanung mit Microsoft Project für das Web
 - Mehrdimensionale Preisberechnung
 - Vereinheitlichte Ressourcenverwaltung
@@ -70,8 +72,8 @@ Der Projektbetrieb für Ressourcen-/nicht vorrätige Szenarien umfasst die folge
 - Grundkosten
 - Volle Ausgaben
 - Zugangs-OCR
-- Volle Rechnungsstellung
-- Umsatzrealisierung
+- Proforma und kundenorientierte Rechnungsstellung 
+- Umsatzerkennung für Projekte
 
 #### <a name="deployment-steps"></a>Bereitstellungsschritte
 Bestimmen Sie das beste Bereitstellungsmodell für Project Operations mithilfe des [Bereitstellungsfragebogens](https://aka.ms/provisionprojectoperations).

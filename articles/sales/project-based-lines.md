@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076385"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181946"
 ---
 # <a name="project-based-opportunity-lines"></a>Projektbasierte Verkaufschancenpositionen
 
@@ -26,7 +26,7 @@ Projektbasierte Verkaufschancenpositionen sind die Positionen, die dem Kunden ü
 
 Nachfolgend sind die Felder in einer projektbasierten Verkaufschancenposition aufgeführt:
 
-| **Feld** | **Ort** | **Relevanz, Zweck und Anleitung** | **Downstream-Auswirkungen** |
+| **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
 | Produkttyp | Registerkarte „Allgemein“ (ausgeblendet) | Dies ist ein Optionssatzfeld. Wenn Sie Dynamics 365 Operations installiert haben, steht Ihnen als eine der verfügbaren Optionen **Projektbasierter Service** zur Verfügung.  | Der Wert dieses Feldes wird auf **Projektbasierter Service** festgelegt, wenn Sie die projektbasierte Verkaufschancenposition aus dem projektbasierten Positionsraster in der Verkaufschance erstellen. <br> Wenn Sie diesen Wert ändern oder überschreiben, wird die Projektfunktionalität für Ihre projektbasierten Positionen nicht aktiviert. |
 | Verkaufschance | Registerkarte „Allgemein“ | Dieses Feld ist schreibgeschützt und verweist auf den übergeordneten Verkaufschancendatensatz, zu dem diese Position gehört. | Es gibt keine nachgelagerten Auswirkungen von diesem Feld. |

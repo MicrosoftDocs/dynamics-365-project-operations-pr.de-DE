@@ -1,23 +1,30 @@
 ---
-title: Anwenden von Demo-Einrichtungs- und Konfigurationsdaten
+title: Demoeinrichtungs- und -konfigurationsdaten anwenden – Lite
 description: Dieses Thema enthält Informationen zum Anwenden von Demo-Einrichtungs- und Konfigurationsdaten für Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076389"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401262"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Anwenden der Demo-Einrichtungs- und Konfigurationsdaten für die Bereitstellung des Project Operations Lite - Abschluss zur Proforma-Rechnungsstellung
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demoeinrichtungs- und -konfigurationsdaten für Project Operations anwenden – Lite 
 
 _**Lite-Bereitstellung – Abschluss zur Pro-forma-Rechnungsstellung_
+
+## <a name="prerequisites"></a>Anforderungen
+
+Bevor Sie mit der Konfiguration beginnen, müssen Sie eine Common Data Service (CDS)-Umgebung für Dynamics 365 Project Operations haben.
+
+
+## <a name="instructions"></a>Anweisungen
 
 1. Laden Sie das [Masterdatenpaket](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip) herunter. 
 2. Navigieren Sie zum Ordner *ProjOpsDemoDataSetupAndMaster – integriertes CMT* und führen Sie die ausführbare Datei *DataMigrationUtility* aus.
@@ -45,25 +52,25 @@ _**Lite-Bereitstellung – Abschluss zur Pro-forma-Rechnungsstellung_
 10. Der Import wird je nach Netzwerkgeschwindigkeit ungefähr zwei bis zehn Minuten lang ausgeführt. Beenden Sie nach Abschluss den CMT-Assistenten. 
 11. Überprüfen Sie Ihre Organisation auf Daten in den folgenden 20 Entitäten:
 
-- Währung
-- Organisationseinheit
-- Kontakt
-- Steuergruppe
-- Kundengruppe
-- Einheit
-- Einheitengruppe
-- Preisliste
-- Projektparameter-Preisliste
-- Rechnungshäufigkeit
-- Detail zur Rechnungshäufigkeit
-- Buchbare Ressourcenkategorie
-- Transaktionskategorie
-- Ausgabenkategorie
-- Rollenpreis
-- Transaktionskategoriepreis
-- Merkmal
-- Buchbare Ressource
-- Zuordnung der buchbaren Ressourcenkategorie
-- Merkmal der buchbaren Ressource
+-   Währung
+-   Konto
+-   Organisationseinheit
+-   Kontakt
+-   Steuergruppe
+-   Kundengruppe
+-   Einheit
+-   Einheitengruppe
+-   Preisliste
+-   Projektparameter-Preisliste 
+-   Rechnungshäufigkeit
+-   Buchbare Ressourcenkategorie
+-   Transaktionskategorie
+-   Ausgabenkategorie
+-   Rollenpreis
+-   Transaktionskategoriepreis
+-   Merkmal
+-   Buchbare Ressource
+-   Zuordnung der buchbaren Ressourcenkategorie
+-   Merkmal der buchbaren Ressource
 
 ![Import abschließen](./media/6CompleteImport.png)

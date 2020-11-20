@@ -1,28 +1,28 @@
 ---
-title: Importieren von Vorkalkulationen für ein Projekt in eine projektbasierte Angebotsposition
+title: Vorkalkulationen für ein Projekt in eine projektbasierte Angebotsposition importieren – Lite
 description: Dieses Thema enthält Informationen zum Importieren von Vorkalkulationen aus einem Projekt in eine Angebotsposition.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076426"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177735"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Importieren von Vorkalkulationen für ein Projekt in eine projektbasierte Angebotsposition
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Vorkalkulationen für ein Projekt in eine projektbasierte Angebotsposition importieren – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 Wenn ein Projekt in der Vorverkaufsphase erstellt wird, können Sie den Finanzvoranschlag aus dem Projekt in die projektbasierte Angebotsposition importieren.
 
-1. Stellen Sie sicher, dass die projektbasierte Angebotsposition die Projektinformationen im **Projekt** -Feld enthält.
-2. Wählen Sie auf der **Detailinformationen zur Angebotsposition** -Registerkarte **Import aus Projektschätzung**.
+1. Stellen Sie sicher, dass die projektbasierte Angebotsposition die Projektinformationen im **Projekt**-Feld enthält.
+2. Wählen Sie auf der **Detailinformationen zur Angebotsposition**-Registerkarte **Import aus Projektschätzung**.
 3. Die Dialogseite wird geöffnet, wählen Sie eine der folgenden Aggregationsoptionen aus.
 
   - **Transaktionsklasse**
@@ -30,7 +30,7 @@ Wenn ein Projekt in der Vorverkaufsphase erstellt wird, können Sie den Finanzvo
   - **Rolle** 
   - **Projektaufgabe**
 
-Basierend auf Ihrer Auswahl wird die Schätzung aus dem Projekt für alle in dieser Angebotsposition enthaltenen Transaktionsklassen kopiert. Um zu überprüfen, welche Transaktionsklassen enthalten sind, wählen Sie die Registerkarte **Allgemeines** in der projektbasierten Angebotsposition aus und überprüfen Sie die Werte für **Zeit einschließen** , **Ausgaben einschließen** und **Gebühren einschließen**.  Um zu prüfen, welche Aufgaben enthalten sind, wählen Sie die Registerkarte **Fakturierbare Aufgaben** in der Angebotsposition aus.
+Basierend auf Ihrer Auswahl wird die Schätzung aus dem Projekt für alle in dieser Angebotsposition enthaltenen Transaktionsklassen kopiert. Um zu überprüfen, welche Transaktionsklassen enthalten sind, wählen Sie die Registerkarte **Allgemeines** in der projektbasierten Angebotsposition aus und überprüfen Sie die Werte für **Zeit einschließen**, **Ausgaben einschließen** und **Gebühren einschließen**.  Um zu prüfen, welche Aufgaben enthalten sind, wählen Sie die Registerkarte **Fakturierbare Aufgaben** in der Angebotsposition aus.
 
 Basierend auf den zugehörigen Aufgaben und enthaltenen Transaktionsklassen, werden die Vorkalkulationen für diese Kombinationen aus Aufgabe und Transaktionsklasse in die Angebotsposition importiert.
 

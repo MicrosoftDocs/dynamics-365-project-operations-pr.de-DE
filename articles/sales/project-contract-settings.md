@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087923"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181136"
 ---
 # <a name="project-contract-settings"></a>Projektvertragseinstellungen
 
@@ -23,7 +23,7 @@ Dieses Thema enthält Informationen zu Feldern, die für den gesamten Projektver
 
 In der folgenden Tabelle sind die Felder in einem Projektvertrag aufgeführt, die für Dynamics 365 Project Operations einzigartig sind, oder einige wichtige Verhaltensänderungen gegenüber Vertriebsaufträge in Dynamics 365 Sales aufweisen.
 
-| Feld | Position | Relevanz, Zweck und Anleitung | Nachgelagerte Auswirkungen |
+| Feld | Position | Beschreibung des Dataflows | Nachgelagerte Auswirkungen |
 | --- | --- | --- | --- |
 | Art | Registerkarte **Zusammenfassung** (ausgeblendet) | Dies ist ein Optionssatzfeld mit den folgenden Optionen:</br>- **Arbeitsbasiert** (nur bei Installation von Project Operations verfügbar)</br>- **Positionsbasiert** (nur verfügbar, wenn Project Operations und Sales installiert sind)</br>- **Servicewartungsbasiert** (verfügbar, wenn Dynamics 365 Field Service installiert ist) | In Project Operations lautet der Wert dieses Felds standardmäßig **Arbeitsbezogen** und klassifiziert den Vertrag als projektbasierten Vertrag. Ein Vertrag sollte projektbasiert sein, um alle projektspezifischen Erweiterungen und Funktionen zu aktivieren. |
 | Zuständiges Unternehmen | Registerkarte **Zusammenfassung** | Die juristische Person, die die Kosten und Einnahmen aus dem Projekt, die mit diesem Projektvertrag verbunden sind, berücksichtigt. Bei einem aus einem Angebot erstellten Vertrag wird dieses Feld aus dem entsprechenden Feld in dem Angebotsdatensatz kopiert. | Das zuständige Unternehmen entspricht dem Konzept der juristischen Person im Modul **Projektmanagement und -buchhaltung** von Project Operations. Alle Kosten und Umsätze aus diesem Projekt werden in der Finanzbuchhaltung des zuständigen Unternehmens ausgewiesen. |
@@ -37,7 +37,7 @@ In der folgenden Tabelle sind die Felder in einem Projektvertrag aufgeführt, di
 
 Die folgenden KPIs sind auf der Registerkarte **Vertragsleistung** eines Projektvertrags verfügbar.
 
-| Feld | Position | Relevanz, Zweck und Anleitung |
+| Feld | Position | Beschreibung des Dataflows |
 | --- | --- | --- |
 | Vertragswert | Gesamtvertrag | Der Gesamtwert des Projektvertrags |
 | Fakturierter Betrag | Gesamtvertrag | Die Summe der Beträge auf allen Rechnungen für diesen Vertrag. |

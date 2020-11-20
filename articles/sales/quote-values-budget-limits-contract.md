@@ -1,21 +1,21 @@
 ---
-title: Zusammenfassungsinformationen für ein Projektangebot
+title: Projektangebotseinstellungen
 description: Dieses Thema enthält Informationen zu den Informationen und Einstellungen, die für Projektangebote gelten und sich auf diese auswirken.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076370"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180236"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Zusammenfassungsinformationen für ein Projektangebot
+# <a name="project-quote-settings"></a>Projektangebotseinstellungen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
@@ -24,7 +24,7 @@ In diesem Artikel werden die Informationen erläutert, die für ein Projektangeb
 
 In der folgenden Tabelle sind die zusammenfassenden Informationsfelder in einem Projektangebot aufgeführt, die nur für Dynamics 365 Project Operations gelten oder einige wichtige Verhaltensänderungen gegenüber Dynamics 365 Sales-Angeboten aufweisen.
 
-| **Feld** | **Ort** | **Relevanz, Zweck und Anleitung** | **Downstream-Auswirkungen** |
+| **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
 | Art | Registerkarte „Zusammenfassung“ (ausgeblendet) | Dieses Optionssatzfeld enthält die folgenden Optionen:</br>- Arbeitsbasiert (nur bei Installation von Project Operations verfügbar)</br>- Positionsbasiert (nur verfügbar, wenn Project Operations und Sales installiert sind)</br>- Servicewartungsbasiert (verfügbar, wenn Dynamics 365 Field Service installiert ist) | Wenn Sie die Project Operations-Anwendung verwenden, wird der Wert dieses Felds automatisch auf **Arbeitsbasiert** festgelegt. Dadurch wird das Angebot als projektbasiertes Angebot klassifiziert. Ein Angebot sollte projektbasiert sein, um alle projektspezifischen Erweiterungen und Funktionen zu aktivieren. |
 | Zuständiges Unternehmen | Übersicht | Die juristische Person, die die Kosten und Einnahmen aus diesem Projekt oder den mit diesem Angebot verbundenen Projekten berücksichtigt. Bei einem aus einer Verkaufschance erstellten Angebot wird dieses Feld aus dem entsprechenden Feld in der Verkaufschance kopiert. | Das zuständige Unternehmen entspricht dem Konzept der juristischen Person im Modul **Projektmanagement und -buchhaltung** von Project Operations. Alle Kosten und Umsätze aus diesem Projekt werden in der Finanzbuchhaltung des zuständigen Unternehmens ausgewiesen. |
@@ -38,7 +38,7 @@ In der folgenden Tabelle sind die zusammenfassenden Informationsfelder in einem 
 
 Im Folgenden finden Sie die Registerkarten und KPIs, die in einem Projektangebot verfügbar sind, die nur für Project Operations gelten oder einige wichtige Verhaltensänderungen gegenüber Verkaufsangeboten aufweisen:
 
-| **Feld** | **Ort** | **Relevanz, Zweck und Anleitung** |
+| **Feld** | **Ort** | **Beschreibung** |
 | --- | --- | --- |
 | Rentabilitätsanalyse | Registerkarte im Angebot | Die Registerkarte zeigt die folgenden Metriken an:</br>- Fakturierbare Gesamtkosten</br></br>- Nicht fakturierbare Gesamtkosten</br>- Gesamtumsatz</br>- Gesamtumsatz (Basis)</br>- Bruttogewinn</br>- Angepasster Bruttogewinn|
 | Vergleich mit Kundenerwartungen | Registerkarte im Angebot | Diese Registerkarte zeigt die folgenden Metriken an:</br>- Geschätzter Abschluss</br>- Angeforderter Abschluss</br>- Kundenbudget</br>- Angebotswert |

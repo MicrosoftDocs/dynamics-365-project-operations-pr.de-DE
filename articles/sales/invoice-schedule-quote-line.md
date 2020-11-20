@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076457"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180821"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rechnungszeitpläne für projektbasierte Angebotspositionen
 
@@ -28,11 +28,11 @@ Insgesamt besteht der Zweck von Rechnungszeitplänen darin, die automatische Ers
 Wenn die Abrechnungsmethode für eine projektbasierte Angebotsposition Zeit und Material ist, generiert das System einen datumsbasierten Rechnungszeitplan. Führen Sie die folgenden Schritte aus, um automatisch einen datumsbasierten Rechnungszeitplan zu erstellen.
 
 1. Wechseln Sie zu **Einstellungen** > **Rechnungsintervalle** und richten Sie einen Rechnungsintervall ein.
-2. Auf der **Angebote** -Seite öffnen Sie das Projektangebot und auf der **Zusammenfassung** -Registerkarte legen Sie einen gewünschten Liefertermin fest.
+2. Auf der **Angebote**-Seite öffnen Sie das Projektangebot und auf der **Zusammenfassung**-Registerkarte legen Sie einen gewünschten Liefertermin fest.
 3. Öffnen Sie die Angebotsposition für Zeit und Material, für die Sie einen datumsbasierten Rechnungszeitplan erstellen möchten. 
-4. Auf der **Rechnungszeitplan** -Registerkarte wählen Sie Werte in der **Abrechnungsstart** und **Rechnungsintervall** -Felder. 
-5. Wählen Sie im Unterraster **Rechnungszeitplan erstellen**.
-6. Die Anwendung generiert den Rechnungszeitplan, bei dem die Felder **Rechnungsdurchlaufdatum** , **Transaktionsabschnittsdatum** und **Ausführungsstatus** wie folgt eingestellt sind:
+4. Auf der **Rechnungszeitplan**-Registerkarte wählen Sie Werte in der **Abrechnungsstart** und **Rechnungsintervall**-Felder. 
+5. Wählen Sie im Unterraster **Rechnungszeitplan erstellen** aus.
+6. Die Anwendung generiert den Rechnungszeitplan, bei dem die Felder **Rechnungsdurchlaufdatum**, **Transaktionsabschnittsdatum** und **Ausführungsstatus** wie folgt eingestellt sind:
 
     - **Rechnungsdurchlaufdatum** wird auf das Datum eingestellt, das basierend auf dem Rechnungsintervall diktiert wird.
     - **Transaktionsabschnittsdatum** wird auf den Tag vor dem **Rechnungsdurchlaufdatum** eingestellt.
@@ -43,10 +43,10 @@ Wenn die Abrechnungsmethode für eine projektbasierte Angebotsposition Zeit und 
 Wenn die projektbasierte Angebotsposition eine **Feste** Abrechnungsmethode hat, erstellt das System einen auf Meilensteinen basierenden Rechnungszeitplan. Führen Sie die folgenden Schritte aus, um diesen Zeitplan automatisch für einen festen Satz von Meilensteinen zu generieren, die für den Kalenderzeitraum gleichmäßig verteilt sind.
 
 1. Wechseln Sie zu **Einstellungen** > **Rechnungsintervalle** und richten Sie einen Rechnungsintervall ein.
-2. Auf der **Angebote** -Seite öffnen Sie das Projektangebot und auf der **Zusammenfassung** -Registerkarte legen Sie einen gewünschten Liefertermin fest.
+2. Auf der **Angebote**-Seite öffnen Sie das Projektangebot und auf der **Zusammenfassung**-Registerkarte legen Sie einen gewünschten Liefertermin fest.
 3. Öffnen Sie die Angebotsposition zum Festpreis, für die Sie einen Meilensteinplan erstellen müssen. 
-4. Auf der **Rechnungszeitplan** -Registerkarte wählen Sie Werte in der **Abrechnungsstart** und **Rechnungsintervall** -Felder. 
-5. Wählen Sie im Unterraster **Periodische Meilensteine generieren**.
+4. Auf der **Rechnungszeitplan**-Registerkarte wählen Sie Werte in der **Abrechnungsstart** und **Rechnungsintervall**-Felder. 
+5. Wählen Sie im Unterraster **Periodische Meilensteine generieren** aus.
 6. Die Anwendung generiert den Rechnungszeitplan mit einem Meilensteinnamen, einem Datum und einem Betrag.
 
     - Der Meilensteinname wird auf das Datum eingestellt, das basierend auf dem Rechnungsintervall diktiert wird.
@@ -58,9 +58,9 @@ Wenn die projektbasierte Angebotsposition eine **Feste** Abrechnungsmethode hat,
 
 Festpreismeilensteine können auch manuell generiert werden, wenn sie nicht regelmäßig aufgeteilt werden. So erstellen Sie Meilensteine manuell:
 
-Öffnen Sie die Festpreisangebotsposition, für die Sie einen Meilenstein erstellen müssen. Auf der **Rechnungszeitplan** -Registerkarte wählen Sie im Unterraster **+ Neuen Meilenstein für die Angebotsposition erstellen** und geben Sie die erforderlichen Informationen anhand der folgenden Tabelle ein.
+Öffnen Sie die Festpreisangebotsposition, für die Sie einen Meilenstein erstellen müssen. Wählen Sie auf der **Rechnungszeitplan**-Registerkarte im Unterraster **+ Neuen Meilenstein für die Angebotszeile erstellen** und geben Sie die erforderlichen Informationen anhand der folgenden Tabelle ein.
 
-| **Feld** | **Ort** | **Relevanz, Zweck und Anleitung** | **Nachgelagerte Auswirkungen** |
+| **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
 | Meilensteinname | Schnellerfassung | Der Namen des Meilensteins. | Dies wird auf den Meilenstein der Projektvertragszeile und auf die Rechnung übertragen |
 | Projektaufgabe | Schnellerfassung | Wenn der Meilenstein an die Projektaufgabe gebunden ist, können Sie diese Referenz verwenden, um eine benutzerdefinierte Logik hinzuzufügen, die den Meilensteinstatus basierend auf dem Aufgabenstatus festlegt. | Die Anwendung hat keine nachgelagerten Auswirkungen dieser Referenz auf eine Aufgabe. |

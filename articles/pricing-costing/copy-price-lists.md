@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076563"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181496"
 ---
 # <a name="copy-price-lists"></a>Preislisten kopieren
 
@@ -26,7 +26,7 @@ Führen Sie die folgenden Schritte aus, um eine Kopie der Preisliste zu erstelle
 1. Öffnen Sie die Preisliste, von der Sie eine Kopie erstellen möchten, und wählen Sie **Kopieren** aus.
 2. Geben Sie alle erforderlichen Informationen ein, um die Preisliste zu kopieren. Die folgende Tabelle enthält Überlegungen, die bei der Eingabe von Informationen zu berücksichtigen sind.
 
-| Feld | Relevanz, Zweck und Anleitung | Nachgelagerte Auswirkungen |
+| Feld | Beschreibung des Dataflows | Nachgelagerte Auswirkungen |
 | --- | --- | --- |
 | Name des Dataflows | Der Name der Quellpreisliste mit angehängtem **-copy**. | Die Preisliste enthält diesen Wert auf allen Listenseiten und Dropdownoptionen. |
 | Kontext | Geben Sie den gewünschten Kontext für die Zielpreisliste ein. | Eine Preisliste, für die der Kontext auf **Kosten** festgelegt ist, wird verwendet, um den Preis für Kostenvoranschläge und tatsächliche Kosten zu suchen. Eine Preisliste, für die der Kontext auf **Umsatz** festgelegt ist, wird verwendet, um den Preis für Umsatzschätzungen und Umsatz-Istwerte zu suchen. Nur Preislisten, für die der Kontext auf **Umsatz** festgelegt ist, können an eine Projektpreisliste für einen Kunden, Angebote oder Verträge angehängt werden. |
@@ -40,6 +40,6 @@ Führen Sie die folgenden Schritte aus, um eine Kopie der Preisliste zu erstelle
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Eine Preisliste aktualisieren, indem Sie auf alle Preise einen Aufschlag anwenden
 
-1. Auf der Registerkarte **Rolle** , **Kategorie** und **Preislistenelement** einer Preisliste, können Sie **Preise aktualisieren** auswählen, um einen Aufschlag auf alle Preise im Unterraster anzuwenden. 
+1. Auf den Registerkarten **Rolle**, **Kategorie** und **Preislistenartikel** einer Preisliste können Sie **Preise aktualisieren** auswählen, um einen Aufschlag für alle Preise im Unterraster anzuwenden. 
 2. Geben Sie auf der sich öffnenden Dialogseite einen Aufschlag ein. Sie können auch einen negativen Aufschlag in Prozent eingeben, um die Preise um einen bestimmten Prozentsatz zu senken. 
-3. Wählen Sie **OK** auf der Dialogseite aus, und prüfen Sie dann, ob die Preise im Unterraster die von Ihnen durchgeführten Änderungen widerspiegeln.
+3. Wählen Sie auf der Dialogseite **OK** aus und stellen Sie sicher, dass die Preise im Unterraster die von Ihnen vorgenommenen Änderungen widerspiegeln.
