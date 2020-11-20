@@ -3,7 +3,7 @@ title: Allgemeine buchbare Ressourcen einer Aufgabe und einem Projektteam zuweis
 description: Dieses Thema enthält Informationen über die Buchung von generischen Ressourcen für Aufgaben und Projektteams.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076539"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127067"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Zuweisen von allgemeinen buchbaren Ressourcen zu einer Aufgaben und Erstellen von Ressourcenanforderungen 
 
@@ -51,7 +51,7 @@ Dadurch wird der Bereich **Schnellerfassung: Projektteammitglied** geöffnet.
 
 Im Teammitgliedsraster können Sie nicht nur die Ressourcenauswahl wie oben erwähnt verwenden, sondern auch generische Ressourcen direkt hinzufügen. Die Ressourcen werden mit einer Ressourcenanforderung hinzugefügt, die auf dem Start- bzw. Enddatum und der Zuordnungsmethode basiert, die im Bereich **Schnellerfassung: Projektteammitglied** angegeben sind.
 
-Sie können einen Unterschied feststellen, wenn Sie das generische Teammitglied direkt hinzufügen und der generischen Ressource dann mehr Aufgaben zuweisen, als Stunden angefordert wurden, um diese durchzuführen. Klicken Sie auf **Anforderung generieren** , um die Anforderung zum Abgleichen der erforderlichen Stunden mit den Zuweisungen neu zu generieren.
+Sie können einen Unterschied feststellen, wenn Sie das generische Teammitglied direkt hinzufügen und der generischen Ressource dann mehr Aufgaben zuweisen, als Stunden angefordert wurden, um diese durchzuführen. Klicken Sie auf **Anforderung generieren**, um die Anforderung zum Abgleichen der erforderlichen Stunden mit den Zuweisungen neu zu generieren.
 
 Sie können auch auf den Link **Ressourcenanforderung** im Teamraster klicken, um die Anforderung zu öffnen und Fähigkeiten, bevorzugte Ressourcen usw. hinzuzufügen.
 

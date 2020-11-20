@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076375"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127347"
 ---
 # <a name="project-tracking-overview"></a>Projektverfolgung – Übersicht
 
@@ -25,10 +25,10 @@ Die Anforderungen zur Nachverfolgung des Fortschritts anhand eines Zeitplans var
 
 Die Ansicht **Aufwandsnachverfolgung** verfolgt den Fortschritt von Aufgaben im Zeitplan, indem die für eine Aufgabe aufgewendeten tatsächlichen Arbeitsstunden mit den geplanten Arbeitsstunden der Aufgabe verglichen werden. Dynamics 365 Project Operations verwendet die folgenden Formeln, um die Metrik zur Nachverfolgung zu berechnen:
 
-- **Fortschritt in Prozent** : Tatsächlicher bisheriger Aufwand ÷ Schätzung bei Fertigstellung (EAC) 
-- **Schätzung bis Abschluss (ETC)** : Geplanter Aufwand – tatsächlicher bisheriger Aufwand 
-- **EAC** : Verbleibender Aufwand + Tatsächlicher bisheriger Aufwand 
-- **Hochgerechnete Aufwandsabweichung** : Geplanter Aufwand – EAC
+- **Fortschritt in Prozent**: Tatsächlicher bisheriger Aufwand ÷ Schätzung bei Fertigstellung (EAC) 
+- **Schätzung bis Abschluss (ETC)**: Geplanter Aufwand – tatsächlicher bisheriger Aufwand 
+- **EAC**: Verbleibender Aufwand + Tatsächlicher bisheriger Aufwand 
+- **Hochgerechnete Aufwandsabweichung**: Geplanter Aufwand – EAC
 
 Project Operations zeigt eine Hochrechnung der Aufwandsabweichung für die Aufgabe an. Wenn die EAC größer als der geplante Aufwand ist, wird prognostiziert, dass die Aufgabe länger als ursprünglich geplant dauern wird und hinter dem Zeitplan zurückliegt. Wenn die EAC kleiner ist als der geplante Aufwand, wird prognostiziert, dass die Aufgabe kürzer als ursprünglich geplant dauern wird und vor dem Zeitplan liegt.
 
@@ -60,10 +60,10 @@ Die Ansicht **Kostennachverfolgung** vergleicht die tatsächlichen Kosten für e
 > [!NOTE]
 > Diese Ansicht enthält ausschließlich Arbeitskosten und keine Kosten aus den Ausgabenschätzungen. Project Operations verwendet die folgenden Formeln, um die Metrik zur Nachverfolgung zu berechnen:
 
-- **Verbrauchte Kosten in Prozent** : Tatsächliche bisherige Kosten ÷ Geschätzte Kosten bei Abschluss
-- **Kosten bis Abschluss (CTC)** : Geplante Kosten – Tatsächliche bisherige Kosten
-- **EAC** : Verbleibende Kosten + Istkosten, die bis heute bezahlt wurden
-- **Hochgerechnete Kostenabweichung** : Geplante Kosten – EAC
+- **Verbrauchte Kosten in Prozent**: Tatsächliche bisherige Kosten ÷ Geschätzte Kosten bei Abschluss
+- **Kosten bis Abschluss (CTC)**: Geplante Kosten – Tatsächliche bisherige Kosten
+- **EAC**: Verbleibende Kosten + Istkosten, die bis heute bezahlt wurden
+- **Hochgerechnete Kostenabweichung**: Geplante Kosten – EAC
 
 Eine Hochrechnung der Kostenabweichung für die Aufgabe wird angezeigt. Wenn die EAC größer als die geplanten Kosten ist, wird prognostiziert, dass die Aufgabe mehr als ursprünglich geplant kosten wird. Daher tendiert sie zu einer Überschreitung des Budgets. Wenn die EAC niedriger als die geplanten Kosten ist, wird prognostiziert, dass die Aufgabe weniger als ursprünglich geplant kosten wird. Daher tendiert sie zu einer Unterschreitung des Budgets.
 

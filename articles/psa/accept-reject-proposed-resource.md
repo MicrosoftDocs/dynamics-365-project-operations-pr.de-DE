@@ -2,7 +2,7 @@
 title: Eine vorgeschlagene Projektressource annehmen oder ablehnen
 description: Dieses Thema enthält Informationen zum Genehmigen oder Ablehnen einer vorgeschlagenen Projektressource.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c10c55961c74c2dc53fabd1d041a935ca9a4870
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6e244ad48b4d6b50aea528d4ea378c28b8e42f2b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076688"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129857"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Eine vorgeschlagene Projektressource annehmen oder ablehnen
 
@@ -37,8 +37,8 @@ Wenn ein Ressourcen-Manager eine benannte Ressource vorschlägt, um die allgemei
 
 Im Raster auf der Registerkarte **Vorgeschlagene Ressourcen** auf der Seite **Projektteammitglied** werden die aktuellen Buchungen der vorgeschlagenen Ressource angezeigt. Nachdem der Vorschlag angenommen wurde, wird das Raster aktualisiert, um diese Buchung widerzuspiegeln. 
 
-Klicken Sie auf **Vorschläge annehmen** , um die vorgeschlagene Ressource zu akzeptieren und diese Ressource für Ihr Team zu buchen.  
-Klicken Sie auf **Ressource ablehnen** , um den Vorschlag abzulehnen.
+Klicken Sie auf **Vorschläge annehmen**, um die vorgeschlagene Ressource zu akzeptieren und diese Ressource für Ihr Team zu buchen.  
+Klicken Sie auf **Ressource ablehnen**, um den Vorschlag abzulehnen.
 
 ![Annehmen eines Ressourcenvorschlags](media/RM-how-to-20.png) 
 

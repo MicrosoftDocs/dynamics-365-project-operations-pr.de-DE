@@ -2,7 +2,7 @@
 title: Wie passe ich den Projektphasegeschäftsprozessfluss an?
 description: Eine Übersicht darüber, wie Sie den Projektphasen-Geschäftsprozessfluss anpassen.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076710"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125037"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Wie passe ich den Projektphasegeschäftsprozessfluss an?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Es gibt eine bekannte Beschränkung bei älteren Versionen der Project Service Anwendung, dass die Namen der Phasen im Projektphasegeschäftsprozessfluss den erwarteten englischen Namen ( **Quote** , **Plan** , **Close** ) übereinstimmen müssen. Andernfalls kann die Geschäftslogik, die von englischen Phasennamen abhängig ist, nicht wie erwartet arbeiten. Daher sehen Sie keine bekannten Aktionen wie **Prozess wechseln** oder **Prozess bearbeiten** , die auf dem Projektformular verfügbar sind und das Anpassen vom Geschäftsprozessfluss wird nicht empfohlen. 
+Es gibt eine bekannte Beschränkung bei älteren Versionen der Project Service Anwendung, dass die Namen der Phasen im Projektphasegeschäftsprozessfluss den erwarteten englischen Namen (**Quote**, **Plan**, **Close**) übereinstimmen müssen. Andernfalls kann die Geschäftslogik, die von englischen Phasennamen abhängig ist, nicht wie erwartet arbeiten. Daher sehen Sie keine bekannten Aktionen wie **Prozess wechseln** oder **Prozess bearbeiten**, die auf dem Projektformular verfügbar sind und das Anpassen vom Geschäftsprozessfluss wird nicht empfohlen. 
 
 Diese Beschränkung ist in Version 2.4.5.48 und später behoben worden. Dieser Artikel enthält nützliche vorgeschlagene Problemumgehungen von älteren Versionen, wenn Sie den Standardgeschäftsprozessfluss von früheren Versionen anpassen müssen.  
 
@@ -48,7 +48,7 @@ In der Project Service-App-Version 1.x in der Plattform 8,2, wenn die Phasenname
 
 In der Project Service-App-Version 2.4.4.30 oder älter in der Plattform 9,0 gibt es eine bedeutende Architekturänderung in den Geschäftsprozessflüssen, die eine Neufassung der Geschäftsprozessflussgeschäftslogik erforderlich machen. Daher wenn die Prozessbühnennamen nicht mit den erwarteten englischen Namen übereinstimmen, wird eine Fehlermeldung angezeigt. 
 
-Wenn Sie den Projektphasegeschäftsprozessfluss für die Projektentität anpassen möchten, können Sie neue Phasen für den Standardgeschäftsprozessfluss für die nur Projektentität hinzufügen, und **Quote** , **Plan** und **Close** beibehalten. Diese Einschränkung stellt sicher, dass Sie keine Fehler in der Geschäftslogik haben, die nicht Ihren Vorstellungen entspricht und dass die englischen Phasennamen im Geschäftsprozessfluss erwartet werden.
+Wenn Sie den Projektphasegeschäftsprozessfluss für die Projektentität anpassen möchten, können Sie neue Phasen für den Standardgeschäftsprozessfluss für die nur Projektentität hinzufügen, und **Quote**, **Plan** und **Close** beibehalten. Diese Einschränkung stellt sicher, dass Sie keine Fehler in der Geschäftslogik haben, die nicht Ihren Vorstellungen entspricht und dass die englischen Phasennamen im Geschäftsprozessfluss erwartet werden.
 
 In Version 2.4.5.48 oder später wurde die Geschäftslogik, die in diesem Artikel beschriebenen ist, vom vom Standardgeschäftsprozessfluss für die Projektentität entfernt. Upgraden auf dieser Version oder auf eine höhere macht es möglich, dass Sie den Standardgeschäftsprozessfluss durch gültige Werte aus Ihren Benutzern anzupassen oder ersetzen können. 
 
@@ -61,7 +61,7 @@ Wenn Aktualisieren keine Option ist, können Sie den Projektphasegeschäftsproze
 
 ![Screenshot des Hinzufügens von Phasen der Standard konfiguration](media/FAQ-Customize-BPF-1.png)
  
-2. Erstellen Sie einen eigenen Geschäftsprozessfluss und erstellen Sie den primären Geschäftsprozessfluss für die Projektentität, mit der Sie alle Phasennamen haben, die Sie verwenden möchten. Wenn Sie dieselben Standardprojektphasen **Quote** , **Plan** und **Close** verwenden möchten, müssen Sie einige Schritte anpassen, die die benutzerdefinierten Phasennamen treiben werden. Je komplexer die Logik im Schließen des Projektumfangs ist, den Sie immer noch auslösen können durch Deaktivieren des Projektdatensatzes.
+2. Erstellen Sie einen eigenen Geschäftsprozessfluss und erstellen Sie den primären Geschäftsprozessfluss für die Projektentität, mit der Sie alle Phasennamen haben, die Sie verwenden möchten. Wenn Sie dieselben Standardprojektphasen **Quote**, **Plan** und **Close** verwenden möchten, müssen Sie einige Schritte anpassen, die die benutzerdefinierten Phasennamen treiben werden. Je komplexer die Logik im Schließen des Projektumfangs ist, den Sie immer noch auslösen können durch Deaktivieren des Projektdatensatzes.
 
 ![BPF-Anpassung](media/FAQ-Customize-BPF-2.png)
 
@@ -81,11 +81,11 @@ Um den eigenen Geschäftsprozessflusses für die Projektentität zu erstellen, g
 
   ![Prozess erstellen](media/FAQ-Customize-BPF-3.png)
 
-2. Verwenden Sie den Prozessdesigner, um die Bühnennamen zu erstellen, die angezeigt werden sollen. Wenn Sie die gleichen Funktionen wie die Standardphasen für **Quote** , **Plan** und **Close** wünschen, müssen Sie das anhand der Phasennamen des benutzerdefinierten Geschäftsprozessflusses erstellen.
+2. Verwenden Sie den Prozessdesigner, um die Bühnennamen zu erstellen, die angezeigt werden sollen. Wenn Sie die gleichen Funktionen wie die Standardphasen für **Quote**, **Plan** und **Close** wünschen, müssen Sie das anhand der Phasennamen des benutzerdefinierten Geschäftsprozessflusses erstellen.
 
    ![Screenshot des Prozessdesigners wird verwendet, um BPF anzupassen](media/FAQ-Customize-BPF-4.png) 
 
-3. Im Prozessdesigner klicken sie auf **Auftragsprozessfluss** , um die benutzerdefinierten Geschäftsprozessflusse des primären Geschäftsprozessflusses für die Projektentität zu machen, indem Sie den Projektphasegeschäftsprozessfluss an den Anfang der Liste verschieben.
+3. Im Prozessdesigner klicken sie auf **Auftragsprozessfluss**, um die benutzerdefinierten Geschäftsprozessflusse des primären Geschäftsprozessflusses für die Projektentität zu machen, indem Sie den Projektphasegeschäftsprozessfluss an den Anfang der Liste verschieben.
 
 
    [Screenshot der Verwendung des Bestellvorgang-Prozessflusses](media/FAQ-Customize-BPF-5-720.png)

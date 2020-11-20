@@ -3,7 +3,7 @@ title: Neuigkeiten und Änderungen in Project Service Automation, Update Release
 description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 22, V3 aufgeführt.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076472"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126617"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation Update Release 22, V3
 
@@ -47,7 +47,7 @@ Die folgenden Probleme wurden behoben:
 
 Die folgenden Probleme wurden behoben:
 
-- Im manuellen Modus werden Änderungen an den **Ressourcenzuweisung** -Konturen nicht erkannt, wenn **Ressourcenanforderungen** generiert werden.
+- Im manuellen Modus werden Änderungen an den **Ressourcenzuweisung**-Konturen nicht erkannt, wenn **Ressourcenanforderungen** generiert werden.
 - **Ressourcenanforderungen** unterstützen keine benutzerdefinierte Anforderungsstatus.
 
 **Projektmanagement**
@@ -69,4 +69,4 @@ Die folgenden Probleme wurden behoben:
 - Eine Prüfungsfehlermeldung wird nicht angezeigt, wenn eine Einstandspreisliste in der Preislisten-Suche für Formular/Entität „Neue Angebotsprojekt-Preisliste“ ausgewählt ist.
 - Wenn Sie das Angebot als gewonnen schließen, navigieren Sie nicht zum erstellten Vertrag, wenn sich ein dem Angebot beigefügter BPF in der Endphase befindet.
 - Das Stornieren **Nicht in Rechnung gestellter Verkäufe** wird mit den ursprünglichen Kosten verknüpft, wenn ein Zeiteintrag zurückgerufen wird.
-- Nach Auswahl der Schaltfläche **Bestätigen** ändert sich der Rechnungsstatus nicht in **Bestätigt** , es sei denn, die Rechnung wird aktualisiert.
+- Nach Auswahl der Schaltfläche **Bestätigen** ändert sich der Rechnungsstatus nicht in **Bestätigt**, es sei denn, die Rechnung wird aktualisiert.

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4076759"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126392"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Eine Vorkalkulation in eine projektbasierte Vertragszeile importieren
 
@@ -22,8 +22,8 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 In Dynamics 365 Project Operations können Sie Vorkalkulationen aus einem Projekt in eine projektbasierte Vertragszeile importieren.
 
 1. Stellen Sie sicher, dass das Feld **Projekt** in der projektbasierten Vertragszeile ausgefüllt ist.
-2. Wählen Sie auf der Registerkarte **Vertragszeilendetails** im Unterraster **Aus Projektvorkalkulation importieren** aus. Eine Dialogseite mit Zusammenfassungsoptionen wird geöffnet. Die verfügbaren Zusammenfassungsoptionen lauten **Transaktionsklasse** , **Kategorie** , **Rolle** und **Projektaufgabe**. Basierend auf der Auswahl für die Zusammenfassung wird die Schätzung aus dem Projekt für alle in dieser Vertragszeile enthaltenen Transaktionsklassen kopiert. 
-3. Um zu überprüfen, welche Transaktionsklassen enthalten sind, prüfen Sie auf der Registerkarte **Allgemein** der Vertragszeile die Werte in den Feldern **Zeit einschließen** , **Ausgaben einschließen** und **Gebühren einschließen**.
+2. Wählen Sie auf der Registerkarte **Vertragszeilendetails** im Unterraster **Aus Projektvorkalkulation importieren** aus. Eine Dialogseite mit Zusammenfassungsoptionen wird geöffnet. Die verfügbaren Zusammenfassungsoptionen lauten **Transaktionsklasse**, **Kategorie**, **Rolle** und **Projektaufgabe**. Basierend auf der Auswahl für die Zusammenfassung wird die Schätzung aus dem Projekt für alle in dieser Vertragszeile enthaltenen Transaktionsklassen kopiert. 
+3. Um zu überprüfen, welche Transaktionsklassen enthalten sind, prüfen Sie auf der Registerkarte **Allgemein** der Vertragszeile die Werte in den Feldern **Zeit einschließen**, **Ausgaben einschließen** und **Gebühren einschließen**.
 
 Wenn Sie Vorkalkulationen importieren, verwendet die Anwendung standardmäßig die Preisgestaltung in den Projektpreislisten, die dem Vertrag und der Einrichtung des Fakturierungstyps in der Vertragszeile zugeordnet ist. Wenn eine Rolle oder Kategorie in der Vertragszeile als nicht fakturierbar eingerichtet ist, wird die importierte Vorkalkulationsposition für diese Rolle oder Kategorie als nicht fakturierbar festgelegt und wird nicht zum Vertragswert der Vertragszeile addiert.
 
@@ -52,7 +52,7 @@ Wenn der Benutzer die Zusammenfassung nach **Transaktionsklasse** und **Kategori
 | Aufgabe A | Flugpreis | 1.10.2020 | 4 | 400 | 1600 |
 | &nbsp;  | Hotel | 1.10.2020 | 6 | 200 | 1200 |
 
-Wenn sich der Benutzer dazu entscheidet, eine Zusammenfassung nach **Transaktionsklasse** , **Kategorie** und **Blattknotenaufgabe** durchzuführen, wird Folgendes importiert. Beachten Sie, dass dieses Ergebnis mit dem Ergebnis des Projekts übereinstimmt:
+Wenn sich der Benutzer dazu entscheidet, eine Zusammenfassung nach **Transaktionsklasse**, **Kategorie** und **Blattknotenaufgabe** durchzuführen, wird Folgendes importiert. Beachten Sie, dass dieses Ergebnis mit dem Ergebnis des Projekts übereinstimmt:
 
 | Task | Kateg. | Datum | Menge | Einheitenpreis | Betrag |
 | --- | --- | --- | --- | --- | --- |

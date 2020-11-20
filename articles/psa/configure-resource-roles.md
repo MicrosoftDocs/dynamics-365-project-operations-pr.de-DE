@@ -3,7 +3,7 @@ title: Ressourcenrollen konfigurieren
 description: Ressourcenrollen konfigurieren (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076522"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129137"
 ---
 # <a name="configure-resource-roles-project-service"></a>Konfigurieren Sie Ressourcenrollen (Project Service)
 
@@ -43,11 +43,11 @@ Rollen spielen eine wichtige Rolle bei der Projektplanung, wenn Sie Ressourcenan
   
 3.  Tragen Sie im Bereich **Allgemein** einen Namen für die Rolle im Feld **Name** ein, und füllen Sie dann die anderen Felder wie erforderlich aus.  
   
-4.  Klicken Sie auf **Speichern** , um den Datensatz zu erstellen, sodass Sie ihn weiter bearbeiten können.  
+4.  Klicken Sie auf **Speichern**, um den Datensatz zu erstellen, sodass Sie ihn weiter bearbeiten können.  
   
-5.  Klicken Sie im Bereich **Qualifikatione** n auf **+** , um eine Qualifikation hinzuzufügen.  
+5.  Klicken Sie im Bereich **Qualifikatione** n auf **+**, um eine Qualifikation hinzuzufügen.  
   
-6.  Im **Rollenkompetenzanforderung** -Fensterbereich klicken Sie in das Feld **Qualifikationen** , klicken auf die Schaltfläche **Suchen** und wählen eine Qualifikation aus.  
+6.  Im **Rollenkompetenzanforderung**-Fensterbereich klicken Sie in das Feld **Qualifikationen**, klicken auf die Schaltfläche **Suchen** und wählen eine Qualifikation aus.  
   
 7.  Wählen Sie eine Kompetenz für die Qualifikation, und klicken Sie auf **Speichern**.  
   

@@ -3,7 +3,7 @@ title: Verwenden Sie das Project Service-Add-In, um Ihre Arbeit in Microsoft Pro
 description: Dieses Thema enthält Informationen zum Hinzufügen, Konfigurieren und Verwenden des Microsoft Project-Add-Ins für Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076654"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129677"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Verwenden Sie das Project Service Automation-Add-In, um Ihre Arbeit in Microsoft Project planen
 
@@ -44,7 +44,7 @@ ms.locfileid: "4076654"
 
 2.  Klicken Sie auf den Downloadlink.  
 
-3.  Wenn das Herunterladen abgeschlossen ist, klicken Sie auf **Ja** , um das Add-In zu installieren.  
+3.  Wenn das Herunterladen abgeschlossen ist, klicken Sie auf **Ja**, um das Add-In zu installieren.  
 
 ## <a name="configure-the-add-in"></a>Konfigurieren Sie das Add-In.  
 
@@ -80,7 +80,7 @@ ms.locfileid: "4076654"
 
 2.  Wählen Sie in der Ansicht **Ressource buchen** die Ressource aus, die Sie für das Projekt verwenden möchten.  
 
-3.  Klicken Sie auf **Buchen** , und dann auf **OK**.  
+3.  Klicken Sie auf **Buchen**, und dann auf **OK**.  
 
 ## <a name="publish-your-project"></a>Veröffentlichen Sie Ihr Projekt  
 Wenn Ihre Projektplanung abgeschlossen ist, wird im nächsten Schritt das Projekt in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] importiert und veröffentlicht.  
@@ -99,7 +99,7 @@ Das Projekt wird in [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
 
 2. Geben Sie im Dialogfeld **In einem neuen Projekt in Project Service veröffentlichen** den **Projektnamen** ein und wählen Sie **Kunde** aus.  
 
-3. Überprüfen Sie optional **Projektplan mit Project Service Automation verknüpfen** , um die geplante Projektdatei mit Project Service Automation zu verknüpfen.  
+3. Überprüfen Sie optional **Projektplan mit Project Service Automation verknüpfen**, um die geplante Projektdatei mit Project Service Automation zu verknüpfen.  
 
 4. Klicken Sie auf **Veröffentlichen**.  
 
@@ -168,7 +168,7 @@ Das Projekt wird in [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
 
 2. Geben Sie im Dialogfeld **In einem neuen Projekt in Project Service-Vorlage veröffentlichen** den **Projektvorlagennamen** ein.  
 
-3. Überprüfen Sie optional **Projektplan mit Project Service Automation verknüpfen** , um dann die geplante Projektdatei mit [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zu verknüpfen.  
+3. Überprüfen Sie optional **Projektplan mit Project Service Automation verknüpfen**, um dann die geplante Projektdatei mit [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zu verknüpfen.  
 
 4. Klicken Sie auf **Veröffentlichen**.  
 

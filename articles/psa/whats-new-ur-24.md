@@ -3,7 +3,7 @@ title: Neuigkeiten und Änderungen in Project Service Automation, Update Release
 description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 24, V3 aufgeführt.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076476"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126572"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation Update Release 24, V3
 
@@ -49,7 +49,7 @@ Die folgenden Probleme wurden behoben:
 
 Die folgenden Probleme wurden behoben:
 
-- Das **Zeiterfassungsraster** unterstützt kein **Nur Datum** -Zeitverhalten.
+- Das **Zeiterfassungsraster** unterstützt kein **Nur Datum**-Zeitverhalten.
 - **Zeiteintrag** wird nicht automatisch aktualisiert. Eine manuelle Aktualisierung ist erforderlich.
 - Die Zeiteinträge können nicht aus einer Zuweisung importiert werden, wenn die Zuweisungen einer Ressource unterbrochen sind (0 Stunden).
 - Stellen Sie beim Erstellen eines Zeiteintrags den Start auf den gleichen Wert ein wie **msdyn_date**.
@@ -69,11 +69,11 @@ Die folgenden Probleme wurden behoben:
 
 - Die automatische Speicherung wird im **Projektplan** beim Wechsel von **Manuell** zu **Automatisch** nicht abgeschlossen.
 - Aufwandskosten sollten nicht zur Abweichung auf dem **Projektverfolgungsraster** berechnet werden.
-- Inkonsistentes Verhalten für **Schätzungs-Tag** -Spalten während des Ladens versus Änderungen vom Typ **Zeitphase**.
+- Inkonsistentes Verhalten für **Schätzungs-Tag**-Spalten während des Ladens versus Änderungen vom Typ **Zeitphase**.
 - Die tatsächlichen Kosten eines Projekts spiegeln möglicherweise nicht die Gesamtsummen von **Tatsächliche Transaktionen** wider.
 - Das **geschätzte Enddatum** auf der Registerkarte **Zusammenfassung** stimmt nicht mit dem **PSP-Zeitplan** überein.
 - **Aktuelle Stunden aktualisieren** beim Ausrücken funktioniert nicht richtig.
-- Ein Projektmanager außerhalb des **Unternehmenseinheit** -Stamms kann kein Projekt erstellen.
+- Ein Projektmanager außerhalb des **Unternehmenseinheit**-Stamms kann kein Projekt erstellen.
 - Änderungen an der Aufgabe oder Kategorie unter **Ausgabenschätzungen** werden nicht beibehalten.
 - **Kopie des Vertrags** kopiert die Rechnungspläne und den Ausführungsstatus.
 - Die Schaltfläche **Tatsächliche Transaktionen aktualisieren** berechnet Zusammenfassungsaufgaben falsch.

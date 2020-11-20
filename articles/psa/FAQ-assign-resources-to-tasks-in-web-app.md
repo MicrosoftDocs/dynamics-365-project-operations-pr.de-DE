@@ -3,7 +3,7 @@ title: Wie weise ich einer Aufgabe in der Web-App eine buchbare Ressource zu?
 description: Eine Übersicht über die Möglichkeiten, buchbare Ressourcen zuzuweisen.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076712"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125177"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Wie weise ich eine Projektressourcenrolle einer Aufgabe in der Internet-App zu (Project Service-App v2.x)?
 
@@ -40,7 +40,7 @@ Beachten Sie, dass Sie, wenn Sie eine buchbare Ressource einer Aufgabe zuweisen 
 Mit dieser Methode fügen Sie eine Ressource dem Projektteam hinzu. Anschließend weisen Sie Aufgaben der Ressource im Projektzeitplan zu. So führen Sie diese Aufgabe aus:
 1.  Klicken Sie im Teammitgliedsraster und fügen Sie ein neues Teammitglied hinzu, indem Sie **Neu** aktivieren.
 2.  Auf dem Teammitglied, das der Bildschirm erstellen, aktivieren Sie den buchbaren Ressourcennamen und legen die Rolle fest.
-3.  Wählen Sie die **Von** - und **An** -Daten aus.
+3.  Wählen Sie die **Von**- und **An**-Daten aus.
 
     > [!div class="mx-imgBorder"] 
     > ![Screenshot des Hinzufügens eines Teammitglieds](media/FAQ-Resources-to-Tasks2-1.png "Screenshot des Hinzufügens eines Teammitglieds")
@@ -51,7 +51,7 @@ Mit dieser Methode fügen Sie eine Ressource dem Projektteam hinzu. Anschließen
     - **Nach Stunden gleichmäßig verteilen** Bucht die Ressource für eine festgelegte Anzahl und Stunden gleichmäßig sie verteilt um die zum angegebenen Datumsangaben aus und nach.
     - **Nach Stunden von vorn nach hinten verteilen** Bucht die Ressource für eine festgelegte Anzahl und Stunden von vorn nach hinten und verteilt sie zu angegebenen Daten aus und nach.
 
-    Wählen Sie andernfalls **Keine** , da die Ressource dem Team hinzugefügt wird, aber erstellt keine Anmeldungen erstellt, um die Kapazität der Ressource zu absorbieren.
+    Wählen Sie andernfalls **Keine**, da die Ressource dem Team hinzugefügt wird, aber erstellt keine Anmeldungen erstellt, um die Kapazität der Ressource zu absorbieren.
 5.  Wählen Sie **Speichern** aus.
 
     Beachten Sie, dass die Stunden der Anmeldung ausreichend sein, um die Aufwandsstunden und die Datumsbereiche der Aufgaben auch wirklich abzudecken, die Sie diesen Ressource zuweisen. Wenn sie nicht ausgerichtet sind, können Sie die Ressource nicht mehr der Aufgabe zuweisen.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076594"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128417"
 ---
 # <a name="define-expense-policies"></a>Kostenrichtlinien definieren
 
@@ -36,19 +36,19 @@ definieren der Richtlinie.
         
 Sie können drei Arten von Richtlinien definieren:         
         
-- **Warnung** : Ermöglicht dem Mitarbeiter, eine Ausgabenabrechnung oder Reiseanforderung einzureichen, die Ausgaben werden jedoch für alle Genehmigenden markiert und         
+- **Warnung**: Ermöglicht dem Mitarbeiter, eine Ausgabenabrechnung oder Reiseanforderung einzureichen, die Ausgaben werden jedoch für alle Genehmigenden markiert und         
   für die spätere Berichterstattung.        
 
-- **Fehler** : Fordert den Arbeitnehmer auf, die Ausgaben zu überarbeiten, um die Richtlinien einzuhalten, bevor er die Spesenabrechnung oder die Reiseanforderung einreicht.        
+- **Fehler**: Fordert den Arbeitnehmer auf, die Ausgaben zu überarbeiten, um die Richtlinien einzuhalten, bevor er die Spesenabrechnung oder die Reiseanforderung einreicht.        
  
- - **Rechtfertigung** : Fordert den Arbeitnehmer oder einen Manager auf, vor dem Einreichen der Ausgabenabrechnung oder der Reiseanforderung eine Begründung für die Überschreitung des Richtlinienbetrags einzugeben.        
+ - **Rechtfertigung**: Fordert den Arbeitnehmer oder einen Manager auf, vor dem Einreichen der Ausgabenabrechnung oder der Reiseanforderung eine Begründung für die Überschreitung des Richtlinienbetrags einzugeben.        
 
 ## <a name="policy-tips"></a>Richtlinienhinweise
 Im Folgenden finden Sie einige Vorschläge, die Sie beim Erstellen neuer Richtlinien für das Ausgabenmanagement unterstützen können: 
 
 - Richtlinien haben das Datum des Inkrafttretens. Dies bedeutet, dass eine Richtlinie nicht wirksam wird, wenn sie mit einem Datum nach dem Datum erstellt wird, an dem die Ausgabe entstanden sind. Beispielsweise erstellen Sie heute eine neue Richtlinie, um eine maximale Essensausgabe von $50 durchzusetzen. Bestehende Ausgaben, die ab gestern eingegeben wurden, werden nicht mit dieser Richtlinie verglichen.
 - Wenn Sie eine Richtlinie für eine Ausgabenkategorie erstellen, die aufgelistet werden kann, sollten Sie eine Bedingung für den Ausgabenzeilentyp hinzufügen. Einige Richtlinien, z. B. das Erfordernis einer Quittung, sind für einzelne Zeilen möglicherweise nicht sinnvoll. In dieser Situation wird die Richtlinie nur auf die Kopfzeile oder eine nicht aufgeschlüsselte Zeile angewendet. 
-- Ausgabenverwaltungsrichtlinien werden standardmäßig anhand der Quellenentität bewertet. Für konzerninterne Szenarien können Sie stattdessen festlegen, dass die Richtlinie anhand der Zielentität (Kreditinstanz) bewertet wird. Aktivieren Sie die Funktion **Bewerten Sie die Ausgabenpolitik gegen die Aufnahme einer juristischen Person** im Arbeitsbereich **Funktionsverwaltung** , um die Richtlinien für die Zielentität auszuführen.
+- Ausgabenverwaltungsrichtlinien werden standardmäßig anhand der Quellenentität bewertet. Für konzerninterne Szenarien können Sie stattdessen festlegen, dass die Richtlinie anhand der Zielentität (Kreditinstanz) bewertet wird. Aktivieren Sie die Funktion **Bewerten Sie die Ausgabenpolitik gegen die Aufnahme einer juristischen Person** im Arbeitsbereich **Funktionsverwaltung**, um die Richtlinien für die Zielentität auszuführen.
 
 ## <a name="when-to-evaluate-policies"></a>Wann müssen die Richtlinien bewertet werden
 

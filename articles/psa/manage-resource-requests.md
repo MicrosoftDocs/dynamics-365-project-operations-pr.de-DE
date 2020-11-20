@@ -3,7 +3,7 @@ title: Ressourcenanfragen verwalten
 description: Ressourcenanfragen verwalten (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076523"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129002"
 ---
 # <a name="manage-resource-requests-project-service"></a>Ressourcenanfragen verwalten (Project Service)
 
@@ -37,15 +37,15 @@ Konto-Manager und Projektleiter fordern regelmäßig Ressourcen für ihre Projek
   
     Unternehmen Sie Folgendes, um die Suche zu optimieren:  
   
-   -   Wählen Sie eine Ansicht oder Sortierreihenfolge oben auf dem Bildschirm. Sie können auch wählen, ob die Verfügbarkeit für den **Tag** , die **Woche** oder den **Monat** gezeigt werden soll und die Pfeile benutzen, um den vorhergehenden oder folgenden Zeitraum anzuzeigen. Benutzen Sie das Suchfeld, um eine spezifische Ressource zu finden.  
+   -   Wählen Sie eine Ansicht oder Sortierreihenfolge oben auf dem Bildschirm. Sie können auch wählen, ob die Verfügbarkeit für den **Tag**, die **Woche** oder den **Monat** gezeigt werden soll und die Pfeile benutzen, um den vorhergehenden oder folgenden Zeitraum anzuzeigen. Benutzen Sie das Suchfeld, um eine spezifische Ressource zu finden.  
   
-   -   Klicken Sie auf **Optionen** , um zu ändern, was anzeigt wird. Zum Beispiel können Sie eine Legende zeigen, die das Farbschema für die verschiedenen Arten von Buchungen zeigt, oder Sie können beschließen, nur eine bestimmte Art von Buchungen anzuzeigen (zum Beispiel eine verbindliche oder unverbindliche Buchung).  
+   -   Klicken Sie auf **Optionen**, um zu ändern, was anzeigt wird. Zum Beispiel können Sie eine Legende zeigen, die das Farbschema für die verschiedenen Arten von Buchungen zeigt, oder Sie können beschließen, nur eine bestimmte Art von Buchungen anzuzeigen (zum Beispiel eine verbindliche oder unverbindliche Buchung).  
   
-   -   Klicken Sie auf **Filter** , um den **Filter** -Fensterbereich anzuzeigen. So können Sie Ihre Ergebnisse nach Organisationseinheit, Rolle, Qualifikation oder anderen Attributen filtern.  
+   -   Klicken Sie auf **Filter**, um den **Filter**-Fensterbereich anzuzeigen. So können Sie Ihre Ergebnisse nach Organisationseinheit, Rolle, Qualifikation oder anderen Attributen filtern.  
   
        Wechseln Sie zu ![Project Service Ressourcenanfrage-Bildschirm](../psa/media/project-service-resource-request-screen.png "Wechseln Sie zu Project Service Ressourcenanfrage-Bildschirm")  
   
-3. Wählen Sie im Kalender für die Ressource, die Sie buchen möchten, den Zeitraum für die Buchung der Ressource, und klicken Sie entweder auf **Buchen** , um die Ressource zu buchen oder auf **Buchung vorgeschlagen** , um die Buchung vorzuschlagen und vom Anforderer genehmigen zu lassen. Wenn Sie eine Ressource buchen, können Sie verbindlich und unverbindlich buchen.  
+3. Wählen Sie im Kalender für die Ressource, die Sie buchen möchten, den Zeitraum für die Buchung der Ressource, und klicken Sie entweder auf **Buchen**, um die Ressource zu buchen oder auf **Buchung vorgeschlagen**, um die Buchung vorzuschlagen und vom Anforderer genehmigen zu lassen. Wenn Sie eine Ressource buchen, können Sie verbindlich und unverbindlich buchen.  
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Ressourcen Manager](../psa/resource-manager-guide.md)

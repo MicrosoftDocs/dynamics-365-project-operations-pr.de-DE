@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076423"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124637"
 ---
 # <a name="extending-time-entries"></a>Zeiteinträge verlängern
 
@@ -33,7 +33,7 @@ Das Verlängern von Zeiteinträgen ist in zwei Bereichen möglich:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Benutzerdefinierte Zeiteinträge für Ihren eigenen Gebrauch hinzufügen
 
-Zeiteinträge sind eine Kernentität, die in mehreren Szenarien verwendet wird. In der April-Welle 1 2020 wurde die TESA-Kernlösung eingeführt. TESA stellt die Entität **Einstellungen** und eine neue Sicherheitsrolle **Zeiteintragsbenutzer** bereit. Die neuen Felder **msdyn_start** und **msdyn_end** , die eine direkte Beziehung zu **msdyn_duration** haben, wurden ebenfalls eingeführt. Die neue Entität, Sicherheitsrolle und die Felder ermöglichen einen einheitlicheren Zeitansatz für mehrere Produkte.
+Zeiteinträge sind eine Kernentität, die in mehreren Szenarien verwendet wird. In der April-Welle 1 2020 wurde die TESA-Kernlösung eingeführt. TESA stellt die Entität **Einstellungen** und eine neue Sicherheitsrolle **Zeiteintragsbenutzer** bereit. Die neuen Felder **msdyn_start** und **msdyn_end**, die eine direkte Beziehung zu **msdyn_duration** haben, wurden ebenfalls eingeführt. Die neue Entität, Sicherheitsrolle und die Felder ermöglichen einen einheitlicheren Zeitansatz für mehrere Produkte.
 
 
 ### <a name="time-source-entity"></a>Zeitquellentität
@@ -109,7 +109,7 @@ Diese Ansicht sollte die Felder **Beschreibung** und **Externe Kommentare** enth
 2. Konfigurieren Sie das benutzerdefinierte Steuerelement für diese Ansicht, damit es zu einem Steuerelement **Zeiteintragsraster** wird. 
 3. Fügen Sie dieses Steuerelement der Ansicht hinzu, und wählen Sie es für Internet, Smartphone und Tablet aus. 
 4. Konfigurieren Sie die Parameter für das Raster für den wöchentlichen Zeiteintrag. 
-5. Legen Sie das Feld **Startdatum** auf **msdyn_date** , das Feld **Dauer** auf **msdyn_duration** und das Feld **Status** auf **msdyn_entrystatus** fest. 
+5. Legen Sie das Feld **Startdatum** auf **msdyn_date**, das Feld **Dauer** auf **msdyn_duration** und das Feld **Status** auf **msdyn_entrystatus** fest. 
 6. Für die Standardansicht wird das Feld **Schreibgeschützte Statusliste** auf **192350002,192350003,192350004** festgelegt. Das Feld **Aufgabenflow zur Zeilenbearbeitung** ist auf **msdyn_timeentryrowedit** festgelegt. Das Feld **Aufgabenflow zur Zellenbearbeitung** ist auf **msdyn_timeentryedit** festgelegt. 
 7. Sie können diese Felder anpassen, um den schreibgeschützten Status hinzuzufügen oder zu entfernen, oder eine andere aufgabenbasierte Umgebung (task-based experience, TBX) für die Zeilen- oder Zellenbearbeitung zu verwenden. Diese Felder werden nun an einen statischen Wert gebunden.
 
@@ -117,11 +117,11 @@ Diese Ansicht sollte die Felder **Beschreibung** und **Externe Kommentare** enth
 > [!NOTE] 
 > Durch beide Optionen werden einige der standardmäßigen Filterungen bei den Entitäten **Projekt** und **Projektaufgabe** entfernt, sodass alle Suchansichten für die Entitäten sichtbar werden. Standardmäßig sind nur die relevanten Suchansichten sichtbar.
 
-Legen Sie den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld fest. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenflow „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit** , sollte es in den Aufgabenfluss „Zelle bearbeiten” verschoben werden.
+Legen Sie den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld fest. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenflow „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten” verschoben werden.
 
-Um einem Aufgabenfluss ein benutzerdefiniertes Feld hinzuzufügen, ziehen Sie ein Element **Feld** an die geeignete Position auf der Seite, und legen Sie dann die Feldeigenschaften fest. Legen Sie die Eigenschaft **Quelle** auf **Zeiteintrag** und dann die Eigenschaft **Datenfeld** für das benutzerdefinierte Feld fest. Die Eigenschaft **Feld** gibt den Anzeigenamen auf der TBX-Seite an. Wählen Sie **Anwenden** , um Ihre Änderungen im Feld zu speichern, und wählen Sie dann **Aktualisieren** , um Ihre Änderungen an der Seite zu speichern.
+Um einem Aufgabenfluss ein benutzerdefiniertes Feld hinzuzufügen, ziehen Sie ein Element **Feld** an die geeignete Position auf der Seite, und legen Sie dann die Feldeigenschaften fest. Legen Sie die Eigenschaft **Quelle** auf **Zeiteintrag** und dann die Eigenschaft **Datenfeld** für das benutzerdefinierte Feld fest. Die Eigenschaft **Feld** gibt den Anzeigenamen auf der TBX-Seite an. Wählen Sie **Anwenden**, um Ihre Änderungen im Feld zu speichern, und wählen Sie dann **Aktualisieren**, um Ihre Änderungen an der Seite zu speichern.
 
-Um stattdessen eine neue benutzerdefinierte TBX-Seite zu verwenden, erstellen Sie einen neuen Prozess. Legen Sie die Kategorie auf **Geschäftsprozessflow** , die Entität auf **Zeiteintrag** und den Geschäftsprozesstyp auf **Prozess als Aufgabenflow ausführen** fest. Unter **Eigenschaften** sollte die Eigenschaft **Seitenname** auf den Anzeigenamen für die Seite festgelegt werden. Fügen Sie der TBX-Seite alle relevanten Felder hinzu. Speichern und aktivieren Sie den Prozess. Aktualisieren Sie dann die Eigenschaft für das benutzerdefinierte Steuerelement für den relevanten Aufgabenflow auf den Wert **Name** im Prozess.
+Um stattdessen eine neue benutzerdefinierte TBX-Seite zu verwenden, erstellen Sie einen neuen Prozess. Legen Sie die Kategorie auf **Geschäftsprozessflow**, die Entität auf **Zeiteintrag** und den Geschäftsprozesstyp auf **Prozess als Aufgabenflow ausführen** fest. Unter **Eigenschaften** sollte die Eigenschaft **Seitenname** auf den Anzeigenamen für die Seite festgelegt werden. Fügen Sie der TBX-Seite alle relevanten Felder hinzu. Speichern und aktivieren Sie den Prozess. Aktualisieren Sie dann die Eigenschaft für das benutzerdefinierte Steuerelement für den relevanten Aufgabenflow auf den Wert **Name** im Prozess.
 
 ### <a name="add-new-option-set-values"></a>Hinzufügen neuer Optionssatzwerte
 Um Optionssatzwerte einem standardmäßigen Feld hinzuzufügen, öffnen Sie die Bearbeitungsseite des Felds und wählen Sie unter **Typ** die Option **Bearbeiten** neben dem Optionssatz aus. Fügen Sie eine neue Option hinzu, die eine benutzerdefinierte Beschriftung und Farbe hat. Wenn Sie einen neuen Zeiteintragsstatus hinzufügen möchten, wird das standardmäßige Feld **Eintragsstatus** und nicht **Status** genannt.
@@ -143,4 +143,4 @@ Mithilfe von Geschäftsregeln können Sie Felder sperren und entsperren, Standar
 Verwenden Sie Plug-In-Prüfungen für alle Prüfungen, bei denen mehr Kontext erforderlich ist, als in einem einzelnen Zeiteintrags-Datensatz vorhanden ist, oder für alle Prüfungen, die Sie für Inline-Aktualisierungen im Raster ausführen möchten. Um die Prüfung abzuschließen, erstellen Sie ein benutzerdefiniertes Plug-In in der Entität **Zeiteintrag**.
 
 ### <a name="copying-time-entries"></a>Kopieren von Zeiteinträgen
-Verwenden Sie die Ansicht **Zeiteintragsspalten kopieren** , um die Liste der Felder zu definieren, die während der Zeiteingabe kopiert werden sollen. **Datum** und **Dauer** sind Pflichtfelder und sollten nicht aus der Ansicht entfernt werden.
+Verwenden Sie die Ansicht **Zeiteintragsspalten kopieren**, um die Liste der Felder zu definieren, die während der Zeiteingabe kopiert werden sollen. **Datum** und **Dauer** sind Pflichtfelder und sollten nicht aus der Ansicht entfernt werden.

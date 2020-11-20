@@ -3,7 +3,7 @@ title: Angebote und Angebotszeilen
 description: Dieses Thema enthält Informationen zu Angeboten und Angebotszeilen.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076639"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129452"
 ---
 # <a name="quotes-and-quote-lines"></a>Angebote und Angebotszeilen
 
@@ -35,7 +35,7 @@ In Dynamics 365 Project Service Automation gibt es zwei Typen von Angeboten: Pro
 - Ein Vertriebsangebot unterstützt die Aktivierung und Revisionen. Ein Projektangebot unterstützt diese Prozesse nicht.
 - Sie können mehrere Aufträge einem Vertriebsangebot anfügen. Sie können nur einen Projektvertrag einem Projektangebot anfügen.
 - Sie können ein Vertriebsangebot gewinnen und die verknüpfte Verkaufschance geöffnet lassen. Wenn ein Projektangebot gewonnen wird, wird die verknüpfte Verkaufschance geschlossen.
-- Ein Vertriebsangebot enthält einige Felder und Konzepte nicht, die in einem Projektangebot enthalten sind. Die Felder enthalten **Vertragseinheit** , **Kontomanager** und **Kontaktname für Rechnungsadresse**.  
+- Ein Vertriebsangebot enthält einige Felder und Konzepte nicht, die in einem Projektangebot enthalten sind. Die Felder enthalten **Vertragseinheit**, **Kontomanager** und **Kontaktname für Rechnungsadresse**.  
 - Vertriebsangebote und Projektangebote werden ebenfalls über ein optionssatzbasiertes Feld namens **Typ** ermittelt. Für ein Verkaufsangebot hat dieses Feld den Wert **Elementbasiert**. Für ein Projektangebot hat es den Wert **Arbeitsbasiert**.
 
 Dieses Thema konzentriert sich auf die Details von Projektangeboten.
@@ -76,7 +76,7 @@ PSA unterstützt alle drei Typen von Rechnungszeitplänen für Angebotszeilen mi
 Organisationen für professionelle Services erstellen für ihre Kunden Angebote und Rechnungen für gewöhnlich basierend auf einer Klassifizierung von Kosten. In PSA werden die Kosten anhand der folgenden Transaktionsklassifizierungen dargestellt:
 
 - **Zeit** – Diese Klassifizierung stellt den Arbeitslohn oder die Zeit des Personals für ein Projekt dar.
-- **Ausgaben** : Diese Klassifizierung stellt alle anderen Arten von Ausgaben bei einem Projekt dar. Da Ausgaben breit klassifiziert werden können, erstellen die meisten Organisationen Unterkategorien, wie Reisekosten, Automiete, Hotelkosten oder Bürobedarf.
+- **Ausgaben**: Diese Klassifizierung stellt alle anderen Arten von Ausgaben bei einem Projekt dar. Da Ausgaben breit klassifiziert werden können, erstellen die meisten Organisationen Unterkategorien, wie Reisekosten, Automiete, Hotelkosten oder Bürobedarf.
 - **Gebühr** – Diese Klassifizierung stellt die verschiedenen Aufwände, Strafen und andere Elemente dar, die dem Kunden in Rechnung gestellt werden. 
 - **Steuer** – Diese Klassifizierung stellt die Steuerbeträge dar, die Benutzer hinzufügen, während sie die Ausgaben eingeben.
 - **Materialtransaktion** – Diese Klassifizierung stellt die tatsächlichen Werte von Produktzeilen auf einer bestätigten Projektrechnung dar.
@@ -91,7 +91,7 @@ Beispielsweise könnte ein Angebot die folgenden zwei Angebotszeilen enthalten:
 - Zugehörige Reisekosten, die eine Abrechnungsmethode mit Festpreis verwenden. Beispielsweise werden alle Reisekosten für das Beispielprojekt **Dynamics AX-Implementierung** zu einem monetären Festwert in Rechnung gestellt.
 
 > [!NOTE]
-> Die Kombination der Projekt- und Transaktionsklassifizierungen **Zeit** , **Ausgaben** und **Gebühr** , die einer Angebots- oder Vertragszeile zugeordnet sind, müssen eindeutig sein. Wenn die gleiche Kombination einer Projekt- und Transaktionsklasse mehreren Vertrags- oder Angebotszeilen zugeordnet ist, funktioniert PSA nicht ordnungsgemäß.
+> Die Kombination der Projekt- und Transaktionsklassifizierungen **Zeit**, **Ausgaben** und **Gebühr**, die einer Angebots- oder Vertragszeile zugeordnet sind, müssen eindeutig sein. Wenn die gleiche Kombination einer Projekt- und Transaktionsklasse mehreren Vertrags- oder Angebotszeilen zugeordnet ist, funktioniert PSA nicht ordnungsgemäß.
 
 ## <a name="billing-types"></a>Abrechnungstypen
 

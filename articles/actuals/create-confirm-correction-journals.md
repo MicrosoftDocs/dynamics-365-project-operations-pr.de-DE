@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076521"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127749"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Korrekturerfassungen erstellen und bestätigen
 
@@ -53,9 +53,9 @@ Führen Sie die folgenden Schritte aus, um einzelne oder mehrere Zeiteinträge f
 
 7. Wenn die Korrekturen wie erwartet angezeigt werden, wählen Sie **Bestätigen** aus. Wählen Sie im Dialogfeld **OK** aus.
 
-8. Kehren Sie zurück zum Bereich **Vertrieb** , wählen Sie **Projekte** aus, und öffnen Sie dann das Projekt, für das Sie gerade die Zeiteinträge aktualisiert haben. 
+8. Kehren Sie zurück zum Bereich **Vertrieb**, wählen Sie **Projekte** aus, und öffnen Sie dann das Projekt, für das Sie gerade die Zeiteinträge aktualisiert haben. 
 
-9. Zeigen Sie auf der Seite **Projekte** , auf der Registerkarte **Istwerte** die vorgenommenen Änderungen an. 
+9. Zeigen Sie auf der Seite **Projekte**, auf der Registerkarte **Istwerte** die vorgenommenen Änderungen an. 
 
 > [!NOTE]
 > Wenn die Registerkarte **Istwerte** nicht sichtbar ist, wählen Sie **Verknüpft** > **Istwerte** aus.  
@@ -73,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um einen oder mehrere Ausgabeneinträge 
 
 2. Wählen Sie in der Liste **Genehmigte Ausgaben** das Projekt aus, das Sie korrigieren möchten, und klicken Sie dann auf **Richtige Einträge**. Ein neues Korrekturjournal mit dem zugewiesenen Typ **Ausgabenkorrektur** wird automatisch erstellt. 
 
-3. Geben Sie auf der Seite **Neues Journal** eine **Beschreibung** für die Korrektur ein. Wählen Sie dann auf der Registerkarte **Ausgabenkorrektur** im Abschnitt **Neue Werte für Ausgaben** die Datenfelder aus, die Sie für die ausgewählten Ausgabenpositionen korrigieren möchten. Beispielsweise können Sie die Ausgaben einem anderen **Projekt** zuordnen oder die Felder **Ausgabenkategorie** , **Ausgabendatum** oder **Buchbare Ressource** korrigieren.
+3. Geben Sie auf der Seite **Neues Journal** eine **Beschreibung** für die Korrektur ein. Wählen Sie dann auf der Registerkarte **Ausgabenkorrektur** im Abschnitt **Neue Werte für Ausgaben** die Datenfelder aus, die Sie für die ausgewählten Ausgabenpositionen korrigieren möchten. Beispielsweise können Sie die Ausgaben einem anderen **Projekt** zuordnen oder die Felder **Ausgabenkategorie**, **Ausgabendatum** oder **Buchbare Ressource** korrigieren.
 
 4. Wählen Sie **Vorschau** aus. Wählen Sie im Dialogfeld **OK** aus. 
 

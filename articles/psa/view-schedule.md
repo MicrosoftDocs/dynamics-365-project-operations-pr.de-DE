@@ -3,7 +3,7 @@ title: Anzeigen des Zeitplans
 description: Anzeigen Ihres Zeitplans (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c3f85a8502439322af68a90d8a46bfd0fbe4b65
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35054a46251cbc4a91c7c37405e22287de4a9389
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076595"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125807"
 ---
 # <a name="view-your-schedule-project-service"></a>Sehen Sie Ihren Zeitplan an (Project Service)
 
@@ -35,7 +35,7 @@ Wenn Sie sehen möchten, woran Sie für die Woche bearbeiten, werfen Sie einen B
   
 1.  Gehen Sie zu **Project Service > Buchungen und Aufgaben**. Dieses öffnet eine Kalenderansicht Ihres Zeitplanes.  
   
-2.  Klicken Sie auf **Zurück** oder **Weiter** , um Ihren Kalender für die vorhergehende oder nächste Woche anzuzeigen. Klicken Sie auf **Heute** , um zurück zur laufenden Woche zu gelangen. Sie können eine Aufgabe anklicken, um sie bei Bedarf zu aktualisieren.  
+2.  Klicken Sie auf **Zurück** oder **Weiter**, um Ihren Kalender für die vorhergehende oder nächste Woche anzuzeigen. Klicken Sie auf **Heute**, um zurück zur laufenden Woche zu gelangen. Sie können eine Aufgabe anklicken, um sie bei Bedarf zu aktualisieren.  
   
 3.  Wenn Sie lieber eine Liste sehen möchten, aus der hervorgeht, an was Sie arbeiten, wählen Sie **Raster**. Sie können Aufgaben bei Bedarf inline bearbeiten.  
   

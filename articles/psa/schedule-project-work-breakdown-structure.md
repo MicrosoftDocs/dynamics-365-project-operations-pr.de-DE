@@ -3,7 +3,7 @@ title: Planen Sie ein Projekt mit einem Projektstrukturplan
 description: Planen Sie ein Projekt mit einem Projektstrukturplan (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076706"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127877"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Planen Sie ein Projekt mit einem Projektstrukturplan (Project Service)
 
@@ -86,14 +86,14 @@ Sie benutzen die folgenden Aufgabentypen, wenn Ihr Projektstrukturplan erstellt 
   
 ### <a name="schedule-attributes"></a>Zeitplanattribute.
 
- - Weisen Sie **Aufwandsstunden** , **Anzahl der Ressourcen** , **Startdatum** , **Enddatum** und **Dauer** Werte zu, um den Zeitplan für die Aufgabe zu bestimmen. 
+ - Weisen Sie **Aufwandsstunden**, **Anzahl der Ressourcen**, **Startdatum**, **Enddatum** und **Dauer** Werte zu, um den Zeitplan für die Aufgabe zu bestimmen. 
  - **Audwand** ist eine Schätzung der Stunden, die für den Abschluss der Aufgabe erforderlich sind.
  - **Anzahl der Ressourcen** ist eine Schätzung, die der Projektleiter für die Aufgabe angibt, um den bestmöglichen Zeitplan zu erhalten. 
  - **Dauer** (in Tagen) zeigt die Anzahl von Arbeitstagen an, die für den Abschluss der Aufgabe erforderlich sind.  
   
 ### <a name="staffing-attributes"></a>Personalattributen.
 
- - **Rollen** , **Organisationseinheit der Ressource** , **Anzahl der Ressourcen** und **Ressourcen** beschreiben die Personalanforderungen für die Aufgabe. 
+ - **Rollen**, **Organisationseinheit der Ressource**, **Anzahl der Ressourcen** und **Ressourcen** beschreiben die Personalanforderungen für die Aufgabe. 
  - **Rolle** beschreibt die Art der Ressource, die benötigt wird, um die Aufgabe durchzuführen. 
  - **Organisationseinheit der Ressource** zeigt die Organisationseinheit an, aus der Ressourcen für diese Aufgabe mit Personal besetzt werden sollten. Dies wirkt sich auch auf die Kosten und die Umsatzschätzung der Aufgabe aus, da es von Bedeutung ist, wenn der Verkaufspreis pro Einheit für die Ressource bestimmt wird. 
  - **Ressourcen** enthält eine generische Ressource oder eine benannte Ressource, wenn eine gefunden wird.  
@@ -136,11 +136,11 @@ Sie benutzen die folgenden Aufgabentypen, wenn Ihr Projektstrukturplan erstellt 
   
 5.  Fügen Sie weiter Aufgaben hinzu, bis Ihr Projektstrukturplan vollständig ist. Bei der Erstellung Ihres Projektstrukturplans können Sie Folgendes tun, um Ihre Aufgaben zu organisieren:  
   
-    -   Wählen Sie eine Aufgabe aus, und klicken Sie auf **Herunterstufen** , um sie unter eine andere Aufgabe zu verschieben oder klicken Sie auf "Höherstufen" , um sie eine ebene heraus zu bewegen.  
+    -   Wählen Sie eine Aufgabe aus, und klicken Sie auf **Herunterstufen**, um sie unter eine andere Aufgabe zu verschieben oder klicken Sie auf "Höherstufen" , um sie eine ebene heraus zu bewegen.  
   
-    -   Wählen Sie eine Aufgabe aus, und klicken Sie auf **Nach oben** oder **Nach unten** , um sie in der Liste auf oder ab zu bewegen.  
+    -   Wählen Sie eine Aufgabe aus, und klicken Sie auf **Nach oben** oder **Nach unten**, um sie in der Liste auf oder ab zu bewegen.  
   
-    -   Klicken Sie auf **Gantt ausblenden** , um das Gantt-Diagramm zu verbergen, und klicken Sie auf **Gantt anzeigen** , um es wieder anzuzeigen.  
+    -   Klicken Sie auf **Gantt ausblenden**, um das Gantt-Diagramm zu verbergen, und klicken Sie auf **Gantt anzeigen**, um es wieder anzuzeigen.  
   
     -   Wählen Sie einen anderen Zeitabschnitt für das Gantt-Diagramm auf der **Zeitskala** aus.  
   

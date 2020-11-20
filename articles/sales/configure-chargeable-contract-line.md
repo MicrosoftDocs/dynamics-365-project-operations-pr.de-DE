@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076461"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128687"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Fakturierbare Komponenten einer projektbasierten Vertragszeile konfigurieren
 
@@ -35,13 +35,13 @@ Die für Transaktionskategorien für eine Projektvertragszeile festgelegte Faktu
 
 Eine Rolle kann für eine bestimmte projektbasierte Vertragszeile fakturierbar oder nicht fakturierbar sein.
 
-Aktualisieren Sie auf der Registerkarte **Fakturierbare Rollen** einer projektbasierten Vertragszeile im Unterraster **Fakturierbare Kategorien** im Feld **Fakturierungstyp** den Fakturierungstyp für eine Rolle.
+Aktualisieren Sie auf der Registerkarte **Fakturierbare Rollen** einer projektbasierten Vertragszeile im Unterraster **Fakturierbare Kategorien** im **Fakturierungstyp**-Feld den Fakturierungstyp für eine Rolle.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Eine Transaktionskategorie als fakturierbar oder nicht fakturierbar aktualisieren
 
 Eine Transaktionskategorie kann für eine bestimmte projektbasierte Vertragszeile fakturierbar oder nicht fakturierbar sein.
 
-Aktualisieren Sie auf der Registerkarte **Fakturierbare Rollen** einer projektbasierten Vertragszeile im Unterraster **Fakturierbare Kategorien** im Feld **Fakturierungstyp** den Fakturierungstyp für eine Rolle.
+Aktualisieren Sie auf der Registerkarte **Fakturierbare Kategorien** einer projektbasierten Vertragszeile im Unterraster **Fakturierbare Kategorien** im **Fakturierungstyp**-Feld den Fakturierungstyp für eine Transaktion.
 
 ### <a name="resolve-chargeability"></a>Fakturierbarkeit abschließen
 

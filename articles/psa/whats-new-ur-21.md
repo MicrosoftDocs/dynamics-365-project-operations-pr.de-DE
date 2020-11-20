@@ -3,7 +3,7 @@ title: Neuigkeiten und Änderungen in Project Service Automation, Update Release
 description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 21, V3 aufgeführt.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076475"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126707"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation Update Release 21, V3
 
@@ -54,7 +54,7 @@ Die folgenden Probleme wurden behoben:
 
 Die folgenden Probleme wurden behoben:
 
-- Die Formularraster **Projekt** (Ansicht **Ressourcenzuweisung** , **Aufgabe** , **Abstimmung** , **Ausgabenvorkalkulationen** ) bleiben bearbeitbar, selbst wenn ein Projekt nicht aktiv ist.
+- Die Formularraster **Projekt** (Ansicht **Ressourcenzuweisung**, **Aufgabe**, **Abstimmung**, **Ausgabenvorkalkulationen**) bleiben bearbeitbar, selbst wenn ein Projekt nicht aktiv ist.
 - Doppelte Kunden können nicht mit Kunden zusammengeführt werden, die mit bestätigten Projektverträgen verknüpft sind.
 - Wenn eine Ressource hinzugefügt wird, die keinen gültigen Kalender hat, gibt das System keine benutzerfreundliche Fehlermeldung zurück.
 - Die Schaltfläche **Aufgabe hinzufügen** im Aufgabenraster ist aktiviert, wenn das Projekt mit **Microsoft Project-Add-In** verknüpft ist.
@@ -68,10 +68,10 @@ Die folgenden Verbesserungen wurden vorgenommen:
 
 Die folgenden Probleme wurden behoben:
 
-- **Gesamtverkaufspreis** ist null (0) für **Kategorie** , obwohl **Rolle** einen Gesamtverkaufspreis hat, der nicht Null ist.
+- **Gesamtverkaufspreis** ist null (0) für **Kategorie**, obwohl **Rolle** einen Gesamtverkaufspreis hat, der nicht Null ist.
 - Kunden können den Wert des Felds **Rechnungsstatus** nicht in **Bereit zur Rechnungsstellung** ändern, wenn ein anderer angepasster Prozess ein zusätzliches Feld aktualisiert.
 - Die Schaltfläche **Rechnungspositionen aktualisieren** kann mehrere doppelte Positionen erstellen, wenn sie wiederholt ausgewählt wird.
-- Die Schaltfläche **Preise aktualisieren** funktioniert nicht im Unterraster **Rollenpreise** des Formulars **Schnellansicht**.
+- Die **Preise aktualisieren**-Schaltfläche funktioniert nicht im **Rollenpreise**-Unterraster im Formular **Schnellansicht**.
 - Die Logik **Verkaufspreislisten-Lösung** behandelt Zeitzonen nicht ordnungsgemäß, was zu einer falschen Auswahl von Preislisten führt.
 - Die **Gesamten Istkosten** eines Projekts können um einen Bruchteil des Betrags abweichen, nachdem ein einmaliger Eintrag genehmigt wurde.
 - Die Logik **Preislösung** liefert keine benutzerfreundliche Fehlermeldung, wenn **Abgerufener RolePrice** keine Werte in den Feldern **Primäre Einheit** und **Preis in primärer Einheit** hat.

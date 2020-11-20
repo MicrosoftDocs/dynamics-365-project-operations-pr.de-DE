@@ -3,7 +3,7 @@ title: Zeigen Sie Projektteammitglieder an und verwalten Sie Buchungen
 description: Zeigen Sie Projektteammitglieder an und verwalten Sie Buchungen (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076599"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127766"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Zeigen Sie Projektteammitglieder an und verwalten Sie Buchungen (Project Service)
 
@@ -41,13 +41,13 @@ Sie können eine Liste der Teammitglieder Ihres Projektes anzeigen, und von dort
   
 5.  Um eine Ressource stattdessen verbindlichen zu buchen, wählen Sie die Rolle aus, und klicken dann auf **Verbindlich Buchen**. Dieses zeigt eine Kalenderansicht aller Ressourcen und ihre Verfügbarkeit an. Eine Farbkennzeichnung gibt Auskunft über den aktuellen Buchungsstatus der Ressource. Unternehmen Sie Folgendes, um die Suche zu optimieren:  
   
-    -   Wählen Sie eine Ansicht oder Sortierreihenfolge oben auf dem Bildschirm. Sie können auch wählen, ob die Verfügbarkeit für den **Tag** , die **Woche** oder den **Monat** gezeigt werden soll und die Pfeile benutzen, um den vorhergehenden oder folgenden Zeitraum anzuzeigen. Benutzen Sie das Suchfeld, um eine spezifische Ressource zu finden.  
+    -   Wählen Sie eine Ansicht oder Sortierreihenfolge oben auf dem Bildschirm. Sie können auch wählen, ob die Verfügbarkeit für den **Tag**, die **Woche** oder den **Monat** gezeigt werden soll und die Pfeile benutzen, um den vorhergehenden oder folgenden Zeitraum anzuzeigen. Benutzen Sie das Suchfeld, um eine spezifische Ressource zu finden.  
   
-    -   Klicken Sie auf **Optionen** , um zu ändern, was anzeigt wird. Zum Beispiel können Sie eine Legende zeigen, die das Farbschema für die verschiedenen Arten von Buchungen zeigt, oder Sie können beschließen, nur eine bestimmte Art von Buchungen anzuzeigen (zum Beispiel eine verbindliche oder unverbindliche Buchung).  
+    -   Klicken Sie auf **Optionen**, um zu ändern, was anzeigt wird. Zum Beispiel können Sie eine Legende zeigen, die das Farbschema für die verschiedenen Arten von Buchungen zeigt, oder Sie können beschließen, nur eine bestimmte Art von Buchungen anzuzeigen (zum Beispiel eine verbindliche oder unverbindliche Buchung).  
   
-    -   Klicken Sie auf **Filter** , um den **Filter** -Fensterbereich anzuzeigen. So können Sie Ihre Ergebnisse nach Organisationseinheit, Rolle, Qualifikation oder anderen Attributen filtern.  
+    -   Klicken Sie auf **Filter**, um den **Filter**-Fensterbereich anzuzeigen. So können Sie Ihre Ergebnisse nach Organisationseinheit, Rolle, Qualifikation oder anderen Attributen filtern.  
   
-    -   Wählen Sie im Kalender für die Ressource, die Sie buchen möchten, den Zeitraum für die Buchung der Ressource, und klicken Sie entweder auf **Buchen** , um die Ressource zu buchen oder auf **Buchung vorgeschlagen** , um die Buchung vorzuschlagen und vom Anforderer genehmigen zu lassen.  
+    -   Wählen Sie im Kalender für die Ressource, die Sie buchen möchten, den Zeitraum für die Buchung der Ressource, und klicken Sie entweder auf **Buchen**, um die Ressource zu buchen oder auf **Buchung vorgeschlagen**, um die Buchung vorzuschlagen und vom Anforderer genehmigen zu lassen.  
   
 6.  Um die Ressourcenbuchungen für dieses Projekt zu verwalten, wählen Sie die gewünschte Ressourcen aus, und klicken Sie dann auf **Buchungen verwalten**.  
   
