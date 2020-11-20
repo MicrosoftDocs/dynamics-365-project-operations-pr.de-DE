@@ -3,7 +3,7 @@ title: Buchungen und Arbeitsaufträge abstimmen
 description: Dieses Thema enthält Informationen zu Ist-Werten.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076570"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120452"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Buchungen und Arbeitsaufträge abstimmen
 
@@ -35,7 +35,7 @@ Aufgrund der losen Verbindung von Projektbuchungen und -aufgabenzuweisungen ist 
 
 Für jedes benannte Teammitglied werden auf der Registerkarte **Abstimmung** Buchungen und Zuweisungen bis hinunter zur einzelnen Aufgabenzuweisung angezeigt. Sie zeigt Stunden in Zellen an, die für Zeitperioden von Monaten bis Tagen stehen können.
 
-Wählen Sie im Feld **Zeitskala** die Option **Monat** , **Woche** oder **Tag** aus. Standardmäßig ist die Option **Woche** ausgewählt. Sie können den Standardwert jedoch ändern, indem Sie die Schaltfläche **Einstellungen** auswählen. Wenn die Registerkarte **Abstimmung** geöffnet ist, zeigt sie das aktuelle Datum an. Über den Kalender können Sie jedoch vor- oder zurückgehen. Wenn das Startdatum eines Projekts in der Zukunft liegt, zeigt die Registerkarte das Datum an, an dem es eröffnet wird. Der Kalender verfügt außerdem über Optionen, mit denen Sie Start- und Enddatum des Projekts verschieben können.
+Wählen Sie im Feld **Zeitskala** die Option **Monat**, **Woche** oder **Tag** aus. Standardmäßig ist die Option **Woche** ausgewählt. Sie können den Standardwert jedoch ändern, indem Sie die Schaltfläche **Einstellungen** auswählen. Wenn die Registerkarte **Abstimmung** geöffnet ist, zeigt sie das aktuelle Datum an. Über den Kalender können Sie jedoch vor- oder zurückgehen. Wenn das Startdatum eines Projekts in der Zukunft liegt, zeigt die Registerkarte das Datum an, an dem es eröffnet wird. Der Kalender verfügt außerdem über Optionen, mit denen Sie Start- und Enddatum des Projekts verschieben können.
 
 Sie können die Erweiterungssteuerelemente verwenden, um Details zu den Buchungen der einzelnen Ressourcen anzuzeigen. Außerdem können Sie die Zuweisungen jeder Ressource erweitern, bis hinunter zu den einzelnen Aufgaben.
 

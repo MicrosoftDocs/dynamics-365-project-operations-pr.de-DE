@@ -3,7 +3,7 @@ title: Arbeiten mit dem Project Service Automation-Datenmodell
 description: In diesem Thema finden Sie Informationen dazu, wie Sie mit dem Datenmodell arbeiten.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076709"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120272"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeiten mit dem Project Service Automation-Datenmodell
 
@@ -33,15 +33,15 @@ Dynamics 365 Project Service Automation erweitert andere App-Entitäten und füh
 
 ## <a name="reporting-on-opportunities"></a>Berichte zu Verkaufschancen
 
-Project Service Automation erweitert die Dynamics 365 Sales **Verkaufschance** -Entität, indem Felder hinzugefügt werden, die projektbasierte Szenarien ermöglichen. Diese Felder werden von einem Schemanamen mit vorangestelltem **msdyn\_** erkannt. Ein neues Feld, das für die Berichterstellung in PSA-Verkaufschancen wichtig ist, ist **Auftragstyp**. Ein Wert von **Arbeitsbasiert** für dieses Feld zeigt, dass die Verkaufschance eine PSA-Verkaufschance ist. Die anderen Felder, die der Entität hinzugefügt wurden, sind **Vertragsorganisation** , um die Organisation zu erfassen, die die Verkaufschance hat, und **Konto-Manager** , um den Namen des Kundenbetreuers zu erfassen, der für die Verkaufschance zuständig ist.
+Project Service Automation erweitert die Dynamics 365 Sales **Verkaufschance**-Entität, indem Felder hinzugefügt werden, die projektbasierte Szenarien ermöglichen. Diese Felder werden von einem Schemanamen mit vorangestelltem **msdyn\_** erkannt. Ein neues Feld, das für die Berichterstellung in PSA-Verkaufschancen wichtig ist, ist **Auftragstyp**. Ein Wert von **Arbeitsbasiert** für dieses Feld zeigt, dass die Verkaufschance eine PSA-Verkaufschance ist. Die anderen Felder, die der Entität hinzugefügt wurden, sind **Vertragsorganisation**, um die Organisation zu erfassen, die die Verkaufschance hat, und **Konto-Manager**, um den Namen des Kundenbetreuers zu erfassen, der für die Verkaufschance zuständig ist.
 
 Die Entität **Verkaufschancenzeile** enthält auch Felder, die mit Project Service verknüpft sind. **Fakturierungsmethode** zeigt an, dass die Verkaufschancenzeile auf Zeit- und Materialgrundlage oder Festpreisgrundlage berechnet werden soll, und **Projekt** erfasst den Namen des Projekts, das die Verkaufschance unterstützt. Die anderen Felder, für die Sie Berichte zu Erfassungskosten und Kundenbudgetbeträgen für die Positionsartikel erstellen können.
 
 ## <a name="reporting-on-quotes"></a>Berichte in Angeboten
 
-PSA erweitert die Vertriebs- **Angebot** -Entität, indem projektbezogene Felder hinzugefügt werden. **Auftragstyp** unterscheidet PSA-Angebote von Angeboten außerhalb von PSA. Ein Wert von **Arbeitsbasiert** für dieses Feld zeigt, dass das Angebot ein PSA-Angebot ist. Die anderen Felder, die für Berichte zu PSA-Angeboten relevant sein können, umfassen Betragsfelder, wie **Fakturierbare Kosten** , **Nichtfakturierbare Kosten** , **Bruttogewinn** , **Schätzungen** und **Budget**. Weitere hilfreiche Felder geben an, ob das Angebot rentabel ist, planmäßig abgeschlossen wird und ob es den Budgeterwartungen des Kunden entspricht.
+PSA erweitert die Vertriebs-**Angebot**-Entität, indem projektbezogene Felder hinzugefügt werden. **Auftragstyp** unterscheidet PSA-Angebote von Angeboten außerhalb von PSA. Ein Wert von **Arbeitsbasiert** für dieses Feld zeigt, dass das Angebot ein PSA-Angebot ist. Die anderen Felder, die für Berichte zu PSA-Angeboten relevant sein können, umfassen Betragsfelder, wie **Fakturierbare Kosten**, **Nichtfakturierbare Kosten**, **Bruttogewinn**, **Schätzungen** und **Budget**. Weitere hilfreiche Felder geben an, ob das Angebot rentabel ist, planmäßig abgeschlossen wird und ob es den Budgeterwartungen des Kunden entspricht.
 
-PSA erweitert auch die Vertriebsentität **Angebotsposition**. Ein Feld, das in PSA hinzugefügt wurde, ist **Fakturierungsmethode** , das angibt, wie die Angebotsposition berechnet wird (Zeit und Materialien oder Festpreis). Die anderen Felder, die der Entitätserfassung für das zugehörige Projekt hinzugefügt wurden, das die Angebotsposition, die Rechnungsstellung, die Kosten und das Budget unterstützt.
+PSA erweitert auch die Vertriebsentität **Angebotsposition**. Ein Feld, das in PSA hinzugefügt wurde, ist **Fakturierungsmethode**, das angibt, wie die Angebotsposition berechnet wird (Zeit und Materialien oder Festpreis). Die anderen Felder, die der Entitätserfassung für das zugehörige Projekt hinzugefügt wurden, das die Angebotsposition, die Rechnungsstellung, die Kosten und das Budget unterstützt.
 
 PSA fügt auch neue Entitäten in Verbindung mit Angeboten zum Dynamics 365-Datenmodell hinzu. Im Folgenden finden Sie einige Beispiele hierfür:
 
@@ -50,13 +50,13 @@ PSA fügt auch neue Entitäten in Verbindung mit Angeboten zum Dynamics 365-Dat
 - **Meilenstein der Angebotsposition** – Diese Entität enthält die Fakturierungsmeilensteine für Festpreisangebotspositionen.
 - **Angebotsposition-Analyseaufschlüsselung** – Diese Entität enthält die Finanzdetails der Angebotsposition. Diese Details können nützlich für Berichte zu angebotenen Verkäufen und geschätzten Kostenbeträgen nach verschiedenen Dimensionen sein.
 
-Andere Entitäten, die PSA zu Angeboten hinzufügt, sind **Projektpreisliste der Angebotsposition** , **Ressourcenkategorie für die Angebotsposition** und **Transaktionskategorie der Angebotsposition**.
+Andere Entitäten, die PSA zu Angeboten hinzufügt, sind **Projektpreisliste der Angebotsposition**, **Ressourcenkategorie für die Angebotsposition** und **Transaktionskategorie der Angebotsposition**.
 
 ![Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen](media/PS-Reporting-image2.png "Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen")
 
 ## <a name="reporting-on-project-contracts"></a>Berichte zu Projektverträgen
 
-PSA erweitert die Vertriebs- **Auftrags** -Entität, die verwendet wird, wenn Projektverträge erfasst werden. Hierdurch wird ein wichtiges neues Feld **Auftragstyp** hinzugefügt, das den Vertrag als PSA-Projektvertrag anstelle eines Vertriebsauftrags identifiziert. Ein Wert von **Arbeitsbasiert** für dieses Feld zeigt, dass der Auftrag ein PSA-Projektauftrag ist. Andere neue Felder, die zu den **Auftrags** -Entitätserfassungsdetails über Kosten, PSA-Vertragsstatus und über die Organisation hinzugefügt wurden, der der Vertrag gehört.
+PSA erweitert die Vertriebs-**Auftrags**-Entität, die verwendet wird, wenn Projektverträge erfasst werden. Hierdurch wird ein wichtiges neues Feld **Auftragstyp** hinzugefügt, das den Vertrag als PSA-Projektvertrag anstelle eines Vertriebsauftrags identifiziert. Ein Wert von **Arbeitsbasiert** für dieses Feld zeigt, dass der Auftrag ein PSA-Projektauftrag ist. Andere neue Felder, die zu den **Auftrags**-Entitätserfassungsdetails über Kosten, PSA-Vertragsstatus und über die Organisation hinzugefügt wurden, der der Vertrag gehört.
 
 PSA erweitert auch die Entität **Vertriebsauftragspositionen**. Die hinzugefügten Felder umfassen Felder, die die Fakturierungsmethode (Zeit und Materialien oder Festpreis), die Kundenbudgetbeträge und das zugrundeliegende Projekt erfassen.
 
@@ -66,13 +66,13 @@ PSA fügt auch neue Entitäten hinzu, die für Projektverträge verwendet werden
 - **Rechnungszeitplan für die Vertragszeile** – Diese Entität enthält den Fakturierungszeitplan, der auf Basis der Rechnungshäufigkeit generiert wird, die der Vertragszeile zugeordnet wurde.
 - **Vertragsmeilenstein** – Diese Entität enthält die Fakturierungsmeilensteine für Vertragszeilen, die eine Festpreisfakturierungsbedingung haben.
 
-Andere Entitäten, die PSA zu Verträgen hinzufügt, sind **Projektpreisliste der Projektvertragsposition** , **Ressourcenkategorie für die Projektvertragsposition** und **Transaktionskategorie der Projektvertragsposition**.
+Andere Entitäten, die PSA zu Verträgen hinzufügt, sind **Projektpreisliste der Projektvertragsposition**, **Ressourcenkategorie für die Projektvertragsposition** und **Transaktionskategorie der Projektvertragsposition**.
 
 ![Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen](media/PS-Reporting-image3.png "Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen")
 
 ## <a name="reporting-on-projects"></a>Berichte zu Projekten
 
-Die **Projekte** -Entität und verknüpfte Entitäten sind für PSA exklusiv. **Projekt** ist die Entität auf oberster Ebene, die verwendet wird, um die Arbeits- und Kostenseite von Aktivitäten aufzuzeichnen. Hier finden Sie eine Liste der zugeordneten Entitäten:
+Die **Projekte**-Entität und verknüpfte Entitäten sind für PSA exklusiv. **Projekt** ist die Entität auf oberster Ebene, die verwendet wird, um die Arbeits- und Kostenseite von Aktivitäten aufzuzeichnen. Hier finden Sie eine Liste der zugeordneten Entitäten:
 
 - **Projektteammitglied** – Diese Entität enthält Details zu buchbaren Ressourcen, die dem Projekt zugewiesen werden. Diese Ressourcen können allgemeine buchbare Ressourcen sein, oder sie können buchbare Ressourcen benannt werden, die entweder vom Projektmanager eingegeben werden oder im Projektzeitplan generiert werden.
 - **Projektaufgabe** – Diese Entität enthält die Aufgaben, die den Projektplan oder den Zeitplan bilden.
@@ -101,7 +101,7 @@ Wenn Sie die Entität **Tatsächlich** verwenden, ist es wichtig, zu verstehen, 
 
 1. Wenn die Zeiteintragung gespeichert wurde, werden keine Datensätze in der Entität **Tatsächlich** erstellt.
 2. Wenn die Zeiteintragung übermittelt wurde, werden keine Datensätze in der Entität **Tatsächlich** erstellt.
-3. Wenn die Zeiteintragung genehmigt wurde, wird ein Datensatz in der Entität **Tatsächlich** erstellt und es kann ein zweiter Datensatz erstellt werden. Im ersten Datensatz sind die Kosten der Zeiteintragung gespeichert. Der zweite Datensatz speichert den nicht fakturierten Umsatz der Zeiteintragung. Der zweite Datensatz ist abhängig vom Projekt und hat entweder einen Kunden, ein Angebot oder eine Vertragsposition zugeordnet.
+3. Wenn die Zeiteintragung genehmigt wurde, wird ein Datensatz in der Entität **Tatsächlich** erstellt und es kann ein zweiter Datensatz erstellt werden. Im ersten Datensatz sind die Kosten der Zeiteintragung gespeichert. Der zweite Datensatz speichert den nicht fakturierten Umsatz der Zeiteintragung. Der zweite Datensatz ist abhängig vom Projekt und hat entweder einen Kunden, ein Angebot oder eine Vertragszeile zugeordnet.
 
     | Dokumentdatum | Transaktionstyp | Transaktionsklasse | Kunde         | Vertrag   | Ressource     | Ressourcenrolle | Fakturierungstyp | Menge | Einzelpreis | Betrag |
     |---------------|------------------|-------------------|------------------|------------|--------------|---------------|--------------|----------|------------|--------|

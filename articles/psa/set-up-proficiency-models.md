@@ -3,7 +3,7 @@ title: Kompetenzstufenmodelle einrichten
 description: Einrichten von Kompetenzstufenmodellen (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076741"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122972"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Einrichten von Kompetenzstufenmodellen (Project Service)
 
@@ -33,9 +33,9 @@ Nun da Sie die Qualifikationen für die Projekte Ihrer Kunden hinzugefügt haben
   
 1.  Wechseln Sie zu **Project Service > Kompetenzstufenmodelle**.  
   
-2.  Um das Standard-Kompetenzstufenmodell anzuzeigen oder zu bearbeiten, klicken Sie auf **Standardbewertungsmodell** in der Liste, oder Sie klicken auf **Neu** , um ein neues zu erstellen.  
+2.  Um das Standard-Kompetenzstufenmodell anzuzeigen oder zu bearbeiten, klicken Sie auf **Standardbewertungsmodell** in der Liste, oder Sie klicken auf **Neu**, um ein neues zu erstellen.  
   
-3.  Wenn Sie ein neues Kompetenzstufenmodell erstellen, füllen Sie die Felder im Bereich **Allgemein** aus und klicken auf **Speichern** , um den Datensatz zu erstellen, damit Sie diesen weiterhin bearbeiten können. Wenn Sie Ihr eigenes Kompetenzstufenmodell erstellen, beachten Sie, dass höhere Zahlen besser sind.  
+3.  Wenn Sie ein neues Kompetenzstufenmodell erstellen, füllen Sie die Felder im Bereich **Allgemein** aus und klicken auf **Speichern**, um den Datensatz zu erstellen, damit Sie diesen weiterhin bearbeiten können. Wenn Sie Ihr eigenes Kompetenzstufenmodell erstellen, beachten Sie, dass höhere Zahlen besser sind.  
   
      Wenn Sie beispielsweise das Standardbewertungsmodell anzeigen oder bearbeiten, sehen Sie die folgenden Kompetenzstufen in **Bewertungswerte**.  
   

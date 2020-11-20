@@ -3,7 +3,7 @@ title: 'Dashboards und Berichte anzeigen '
 description: Anzeigen von Dashboards und Berichten (Project Service)
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c07a1710edd26a5349194134fbebb3679d194268
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51c372d117bd451c15c75d2a0797c78d7842168e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076601"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121667"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Anzeigen von Dashboards und Berichten (Project Service)
 
@@ -35,7 +35,7 @@ Dashboards und Berichte ermöglichen ein Verständnis des Status des Unternehmen
   
 1. Gehen Sie zu **Project Service > Dashboards**.  
   
-2. Wählen Sie auf der Leiste oben auf dem Bildschirm den Abwärtspfeil neben **Dashboards** , und wählen Sie das gewünschte Dashboard.  
+2. Wählen Sie auf der Leiste oben auf dem Bildschirm den Abwärtspfeil neben **Dashboards**, und wählen Sie das gewünschte Dashboard.  
   
    Um [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Berichte anzuzeigen:  
   

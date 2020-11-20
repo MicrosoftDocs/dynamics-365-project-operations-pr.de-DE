@@ -3,7 +3,7 @@ title: Projektzeitpläne
 description: Dieses Thema bietet Informationen zur Vorgehensweise beim Erstellen von Zeitplänen.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076559"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123233"
 ---
 # <a name="project-schedules"></a>Projektzeitpläne 
 
@@ -83,12 +83,12 @@ Die Schaltflächen **Nach oben** und **Nach unten** ändern die Position einer A
 
 Auf das Raster **Zeitplan** kann vollständig zugegriffen werden, und es kann mit Bildschirmlesern wie Narrator, JAWS oder NVDA verwendet werden. Sie können durch den Rasterbereich navigieren, indem Sie die Pfeiltasten (wie in Microsoft Excel) verwenden. Sie können die TAB-TASTE verwenden, um über die interaktiven Benutzeroberflächenelemente zu navigieren, und Sie können den ABWÄRTSPFEIL, die EINGABETASTE oder LEERTASTE verwenden, um die Dropdownmenüs auszuwählen und aufzurufen. Die Spaltenüberschriften sind auch interaktiv. Sie können Spalten ausblenden und einblenden; verwenden Sie die TAB-TASTE und die PFEILTASTEN, um durch die Spaltenüberschriften zu navigieren, verwenden Sie die interaktiven Schaltflächen auf der Menüleiste. Außerdem können Sie folgende Tastaturkürzel verwenden:
 
-- **Aktualisieren** : ALT+SHIFT+F5
-- **Hinzufügen** : ALT+SHIFT+Insert
-- **Löschen** : ALT+SHIFT+Delete
-- **Verschieben auf/ab** : ALT+SHIFT+Up-/Downpfeile
-- **Einrücken/Ausrücken** : ALT_SHIFT+Links-/Rechtspfeile
-- **Hierarchien Erweitern/Reduzieren/** : ALT+SHIFT+Plus-/Minustasten
+- **Aktualisieren**: ALT+SHIFT+F5
+- **Hinzufügen**: ALT+SHIFT+Insert
+- **Löschen**: ALT+SHIFT+Delete
+- **Verschieben auf/ab**: ALT+SHIFT+Up-/Downpfeile
+- **Einrücken/Ausrücken**: ALT_SHIFT+Links-/Rechtspfeile
+- **Hierarchien Erweitern/Reduzieren/**: ALT+SHIFT+Plus-/Minustasten
 
 ## <a name="task-attributes"></a>Aufgabenattribute
 
@@ -98,19 +98,19 @@ Ein Aufgabenname beschreibt die Arbeit, die abgeschlossen werden muss. In PSA b
  
 ### <a name="schedule-attributes"></a>Zeitplanattribute.
 
-Die Attribute **Aufwand** , **Startdatum** , **Enddatum** und **Dauer** definieren den Zeitplan für die Aufgabe.
+Die Attribute **Aufwand**, **Startdatum**, **Enddatum** und **Dauer** definieren den Zeitplan für die Aufgabe.
 
 Weitere Zeitplanattribute enthalten:
 
-- **Aufwandsstunden** : Geben Sie eine geschätzte Anzahl der Stunden ein, die erforderlich sind, um die Aufgabe abzuschließen. 
-- **Dauer** : Geben Sie die Anzahl der Arbeitstage an, die erforderlich sind, um die Aufgabe abzuschließen.
-- **Zeitplan-ID** : Diese automatisch generierte ID wird verwendet, um Aufgaben in der Hierarchie anzuordnen. Abhängigkeiten zwischen den Aufgaben verwalten die tatsächliche Reihenfolge, in der die Aufgaben bearbeitet werden.
+- **Aufwandsstunden**: Geben Sie eine geschätzte Anzahl der Stunden ein, die erforderlich sind, um die Aufgabe abzuschließen. 
+- **Dauer**: Geben Sie die Anzahl der Arbeitstage an, die erforderlich sind, um die Aufgabe abzuschließen.
+- **Zeitplan-ID**: Diese automatisch generierte ID wird verwendet, um Aufgaben in der Hierarchie anzuordnen. Abhängigkeiten zwischen den Aufgaben verwalten die tatsächliche Reihenfolge, in der die Aufgaben bearbeitet werden.
  
 ### <a name="staffing-attributes"></a>Personalattributen.
 
 Attribute der Personalbesetzung werden durch das Feld **Ressourcen** im Zeitplan angezeigt. Sie können entweder nach einer bestehenden Ressource suchen oder auf **Erstellen** klicken und im Fenster **Schnellerfassung** ein Projektteammitglied als neue Ressourcen hinzufügen.
 
-Die Felder **Rolle** , **Ressourcenzuordnungseinheit** und **Positionsname** werden verwendet, um die Personalanforderungen für die Aufgabe zu beschreiben. Diese Stellenbesetzungsattribute zusammen mit dem Aufgabenplan werden verwendet, um verfügbare Ressourcen zu finden, um diese Aufgabe auszuführen.
+Die Felder **Rolle**, **Ressourcenzuordnungseinheit** und **Positionsname** werden verwendet, um die Personalanforderungen für die Aufgabe zu beschreiben. Diese Stellenbesetzungsattribute zusammen mit dem Aufgabenplan werden verwendet, um verfügbare Ressourcen zu finden, um diese Aufgabe auszuführen.
 
 **Rolle** – Geben Sie die Art der Ressource an, die für die Aufgabe erforderlich ist.
 

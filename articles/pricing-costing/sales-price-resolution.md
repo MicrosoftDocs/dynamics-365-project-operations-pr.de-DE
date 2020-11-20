@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087924"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119552"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Verkaufspreise für Vorkalkulationen und Istwerte auflösen
 
@@ -27,12 +27,12 @@ In Project Operations werden Vorkalkulationszeilen für die Zeit verwendet, um d
 
 Nachdem eine Preisliste für Verkäufe aufgelöst wurde, führt das System die folgenden Schritte aus, um den Fakturierungssatz als Standard festzulegen.
 
-1. Das System verwendet die Felder **Rolle** , **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** in der Vorkalkulationszeile für Zeit, um diese mit den Rollenpreisen in der aufgelösten Preisliste abzugleichen. Bei dieser Übereinstimmung wird davon ausgegangen, dass sofort einsatzbereite Preisdimensionen für Fakturierungssätze verwendet werden. Wenn Sie die Preise basierend auf anderen Feldern anstatt zusätzlich zu **Rolle** , **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** zu konfigurieren, ist das die Kombination, die verwendet wird, um eine übereinstimmende Rollenpreiszeile abzurufen.
-2. Wenn das System eine Rollenpreiszeile findet, die eine Fakturierungsrate für die Feldkombination **Rolle** , **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** aufweist, ist dieser Fakturierungssatz der Standardwert.
-3. Wenn das System die Feldwerte **Rolle** , **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** nicht zuordnen kann, erhält es die Rollenpreiszeilen mit einer übereinstimmenden Rolle, aber Nullwerte der **Ressourcenzuordnungseinheit**. Nachdem das System einen passenden Rollenpreisdatensatz gefunden hat, wird der Fakturierungssatz aus diesem Datensatz standardmäßig festgelegt. Diese Übereinstimmung setzt eine sofort einsatzbereite Konfiguration für die relative Priorität der **Rolle** im Vergleich zur **Ressourcenzuordnungseinheit** als Verkaufspreisdimension voraus.
+1. Das System verwendet die Felder **Rolle**, **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** in der Vorkalkulationszeile für Zeit, um diese mit den Rollenpreisen in der aufgelösten Preisliste abzugleichen. Bei dieser Übereinstimmung wird davon ausgegangen, dass sofort einsatzbereite Preisdimensionen für Fakturierungssätze verwendet werden. Wenn Sie die Preise basierend auf anderen Feldern anstatt zusätzlich zu **Rolle**, **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** zu konfigurieren, ist das die Kombination, die verwendet wird, um eine übereinstimmende Rollenpreiszeile abzurufen.
+2. Wenn das System eine Rollenpreiszeile findet, die eine Fakturierungsrate für die Feldkombination **Rolle**, **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** aufweist, ist dieser Fakturierungssatz der Standardwert.
+3. Wenn das System die Feldwerte **Rolle**, **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** nicht zuordnen kann, erhält es die Rollenpreiszeilen mit einer übereinstimmenden Rolle, aber Nullwerte der **Ressourcenzuordnungseinheit**. Nachdem das System einen passenden Rollenpreisdatensatz gefunden hat, wird der Fakturierungssatz aus diesem Datensatz standardmäßig festgelegt. Diese Übereinstimmung setzt eine sofort einsatzbereite Konfiguration für die relative Priorität der **Rolle** im Vergleich zur **Ressourcenzuordnungseinheit** als Verkaufspreisdimension voraus.
 
 > [!NOTE]
-> Wenn Sie eine andere Priorisierung von **Rolle** , **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** konfiguriert haben, oder Sie andere Dimensionen mit einer höheren Priorität haben, ändert sich dieses Verhalten entsprechend. Das System ruft Rollenpreisdatensätze mit übereinstimmenden Werten ab, die mit jedem der Preisdimensionswerte in der Reihenfolge ihrer Priorität übereinstimmen, wobei Zeilen Nullwerte für die zuletzt kommenden Dimensionen enthalten.
+> Wenn Sie eine andere Priorisierung von **Rolle**, **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** konfiguriert haben, oder Sie andere Dimensionen mit einer höheren Priorität haben, ändert sich dieses Verhalten entsprechend. Das System ruft Rollenpreisdatensätze mit übereinstimmenden Werten ab, die mit jedem der Preisdimensionswerte in der Reihenfolge ihrer Priorität übereinstimmen, wobei Zeilen Nullwerte für die zuletzt kommenden Dimensionen enthalten.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Verkaufsraten in Istwert- und Vorkalkulationszeilen für Ausgaben auflösen
 

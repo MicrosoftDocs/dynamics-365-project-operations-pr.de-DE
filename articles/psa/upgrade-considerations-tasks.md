@@ -2,7 +2,7 @@
 title: Upgrade-Überlegungen für den Projektstrukturplan
 description: Dieses Thema enthält Informationen zum Aktualisieren des Projektstrukturplans von Project Service Automation 2.x auf 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076606"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121802"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Upgrade-Überlegungen für den Projektstrukturplan
 Dieses Thema enthält Informationen zum Aktualisieren des Projektstrukturplans von Project Service Automation 2.x auf 3.x. Dieses Thema definiert den fehlerfreien Status eines Projekts in Project Service Automation (PSA), der für ein erfolgreiches Upgrade erforderlich ist. Es gibt auch Informationen über die allgemeinen Sperrbedingungen, die zum Fehlschlag eines Upgrades führen können. Weitere Informationen über das Definieren von Projektaufgaben und deren Funktionen innerhalb eines Projektzeitplans finden Sie unter [Projektzeitpläne](project-creating.md).

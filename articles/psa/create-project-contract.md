@@ -3,7 +3,7 @@ title: Erstellen eines Projektvertrags
 description: Erstellen eines Projektvertrags (Project Service)
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7a626da271a4c4e1751870323b56ce54743bb891
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94dd55559f9eaa71758caba7974b0e3b779c40a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076538"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121937"
 ---
 # <a name="create-a-project-contract-project-service"></a>Erstellen eines Projektvertrags (Project Service)
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Nun, da Sie das Angebot für Ihr Projekt gewonnen haben, ist es Zeit, einen Vertrag mit Ihrem Kunden zu erstellen und ihn offiziell zu machen. Sie können einen oder mehrere Verträge für jedes Angebot erstellen. Wenn Sie einen Vertrag erstellen, sind Sie in der **Vertrags** -Phase Ihres Projektes.  
+Nun, da Sie das Angebot für Ihr Projekt gewonnen haben, ist es Zeit, einen Vertrag mit Ihrem Kunden zu erstellen und ihn offiziell zu machen. Sie können einen oder mehrere Verträge für jedes Angebot erstellen. Wenn Sie einen Vertrag erstellen, sind Sie in der **Vertrags**-Phase Ihres Projektes.  
   
 1. Auf dem Bildschirm **Projektvertrag** vom vorhergehenden Schritt, ändern Sie alle mögliche Informationen falls erforderlich im Bereich **Zusammenfassung**.  
   
-2. Um ein Produkt dem Vertrag hinzuzufügen, klicken Sie auf **Neu** unter **Produktbasierte Zeilen** im Bereich **Vertragszeilen**. Wählen Sie ein Element unter **Produktname** , und spezifizieren Sie dann die Menge, den Verkaufspreis und den Vertragsbetrag.  
+2. Um ein Produkt dem Vertrag hinzuzufügen, klicken Sie auf **Neu** unter **Produktbasierte Zeilen** im Bereich **Vertragszeilen**. Wählen Sie ein Element unter **Produktname**, und spezifizieren Sie dann die Menge, den Verkaufspreis und den Vertragsbetrag.  
   
 3. Um eine projektbasierte Zeile dem Vertrag hinzuzufügen, klicken Sie auf **+** unter **Projektbasierte Zeilen** im Bereich **Vertragszeilen**. Geben Sie, wenn verfügbar, einen Namen, einen Budgetbetrag und ein Projekt ein. Wenn Sie ein Projekt mit einem Projektstrukturplan erstellen möchten, um eine Schätzung zu erhalten, lesen Sie [ein Projekt ersttelen](../psa/create-project.md).  
   

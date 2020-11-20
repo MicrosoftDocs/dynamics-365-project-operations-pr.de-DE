@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076406"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121037"
 ---
 # <a name="configure-expense-management-parameters"></a>Ausgabenverwaltungsparameter konfigurieren
 
@@ -26,7 +26,7 @@ Dieses Thema beschreibt die Parameter, die das allgemeine Verhalten in der Ausga
 | Feld                                                    | Beschreibung des Dataflows |
 |----------------------------------------------------------|-------------|
 | Standardrate der Fahrleistung                                 | Geben Sie den Erstattungssatz für die Fahrausgaben ein. Dieser Satz wird mit dem Kilometerstand multipliziert, der für die Ausgabe eingegeben wurde, um den Betrag zu berechnen, der für die Reisekosten erstattet wird. |
-| Ausgabenzweck bestätigen                                 | Aktivieren Sie diese Option, um Benutzer auf einen vorhandenen Wertesatz zu beschränken, der im **Zweck der Ausgabenabrechnung** -Feld konfiguriert ist, wenn sie Ausgabenabrechnungen erstellen. |
+| Ausgabenzweck bestätigen                                 | Aktivieren Sie diese Option, um Benutzer auf einen vorhandenen Wertesatz zu beschränken, der im **Zweck der Ausgabenabrechnung**-Feld konfiguriert ist, wenn sie Ausgabenabrechnungen erstellen. |
 | Persönliche Ausgaben bezahlt von                                | Wählen Sie aus, wer für die Zahlung von Kreditkartentransaktionsbeträgen verantwortlich ist, die als persönlich eingestuft sind. |
 | Zeigen Sie die gesamte Ausgabenabrechnung beim Drillback an               | Wählen Sie diese Option, um alle Ausgaben für eine Ausgabenabrechnung anzuzeigen, wenn die Details des Originaldokuments für einen bestimmten Gutschein angezeigt werden, der beim Buchen der Ausgabenabrechnung generiert wurde. |
 | Eine Vorautorisierung der Reise ist obligatorisch                 | Wählen Sie diese Option aus, um zu verlangen, dass eine Reiseanforderung eingereicht und genehmigt wird, bevor ein Mitarbeiter eine Ausgabenabrechnung einreichen kann. |
@@ -34,9 +34,9 @@ Dieses Thema beschreibt die Parameter, die das allgemeine Verhalten in der Ausga
 | Die Richtlinien für das Kostenmanagement bewerten                     | Wählen Sie aus, wann Ausgaben ausgewertet werden, um festzustellen, ob eine Ausgabenrichtlinie verletzt wurde. Ausgaben können auf Verstöße untersucht werden, wenn die Ausgabenbuchung eingegeben und gespeichert wird oder wenn die Ausgaben zur Genehmigung eingereicht werden. Die Richtlinienregeln für erforderliche Belege werden beim Speichern der Ausgabenposition ausgewertet. |
 | Konzerninterne Ausgabenpositionen zulassen                         | Wählen Sie aus, ob Ausgaben für andere juristische Personen in einer Ausgabenabrechnung erfasst werden können. |
 | Ermöglichen Sie die Bearbeitung des Wechselkurses für Kreditkartenausgaben | Wählen Sie diese Option, damit der Benutzer den Wechselkurs für importierte Kreditkartenausgaben bearbeiten kann. |
-| Mehrstufige Hierarchiefelder, die angezeigt werden sollen                  | Wählen Sie aus, welche Genehmigerfelder angezeigt werden, wenn der Workflow-Zuweisungstyp als Hierarchie festgelegt ist, und die **Hierarchie** -Auswahl so festgelegt wird, dass die Genehmigungshierarchie verwendet wird. Wenn die mehrstufige Genehmigungshierarchie für einen Workflow verwendet wird, werden die ausgewählten Felder in der Ausgabenabrechnung angezeigt und können bearbeitet werden. |
-| Geben Sie die Kreditkartennummer des Mitarbeiters ein                        | Wählen Sie aus, ob eine 15-stellige oder 16-stellige Nummer eingegeben und im **Ausweiskarte** -Feld auf der **Kreditkarten** -Seite für einen Mitarbeiter gespeichert werden soll. |
-| Überprüfen Sie den Zweck der Reiseanforderung                      | Aktivieren Sie diese Option, um Benutzer auf einen vorhandenen Wertesatz zu beschränken, der im **Zweck der Ausgabenabrechnung** -Feld konfiguriert ist, wenn sie Reiseanforderungen erstellen. |
+| Mehrstufige Hierarchiefelder, die angezeigt werden sollen                  | Wählen Sie aus, welche Genehmigerfelder angezeigt werden, wenn der Workflow-Zuweisungstyp als Hierarchie festgelegt ist, und die **Hierarchie**-Auswahl so festgelegt wird, dass die Genehmigungshierarchie verwendet wird. Wenn die mehrstufige Genehmigungshierarchie für einen Workflow verwendet wird, werden die ausgewählten Felder in der Ausgabenabrechnung angezeigt und können bearbeitet werden. |
+| Geben Sie die Kreditkartennummer des Mitarbeiters ein                        | Wählen Sie aus, ob eine 15-stellige oder 16-stellige Nummer eingegeben und im **Ausweiskarte**-Feld auf der **Kreditkarten**-Seite für einen Mitarbeiter gespeichert werden soll. |
+| Überprüfen Sie den Zweck der Reiseanforderung                      | Aktivieren Sie diese Option, um Benutzer auf einen vorhandenen Wertesatz zu beschränken, der im **Zweck der Ausgabenabrechnung**-Feld konfiguriert ist, wenn sie Reiseanforderungen erstellen. |
 
 ## <a name="financial"></a>Finanzen
 
@@ -57,8 +57,8 @@ Dieses Thema beschreibt die Parameter, die das allgemeine Verhalten in der Ausga
 
 | Feld                                 | Beschreibung des Dataflows |
 |---------------------------------------|-------------|
-| Mindeststunden pro Tag            | Geben Sie die Standard-Mindeststundenzahl ein, die ein Mitarbeiter an einem Tag arbeiten muss, um einen Tagessatz für reisebezogene Ausgaben zu erhalten. Dieser Wert wird nur als Standardwert für das **Mindeststunden** -Feld für Tagessätze verwendet. |
-| Prozentuale Aufteilung der Mahlzeit                          | Geben Sie den Standardprozentsatz des Tagessatzes für Mahlzeiten ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird, wenn das **Reduzierung der Mahlzeiten berechnen um** -Feld entweder auf **Mahlzeitentyp pro Tag** oder **Anzahl der Mahlzeiten pro Tag** festgelegt ist. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf **0** (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00. |
+| Mindeststunden pro Tag            | Geben Sie die Standard-Mindeststundenzahl ein, die ein Mitarbeiter an einem Tag arbeiten muss, um einen Tagessatz für reisebezogene Ausgaben zu erhalten. Dieser Wert wird nur als Standardwert für das **Mindeststunden**-Feld für Tagessätze verwendet. |
+| Prozentuale Aufteilung der Mahlzeit                          | Geben Sie den Standardprozentsatz des Tagessatzes für Mahlzeiten ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird, wenn das **Reduzierung der Mahlzeiten berechnen um**-Feld entweder auf **Mahlzeitentyp pro Tag** oder **Anzahl der Mahlzeiten pro Tag** festgelegt ist. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf **0** (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00. |
 | Prozentuale Aufteilung des Hotels                         | Geben Sie den Standardprozentsatz des Tagessatzes für Hotels ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf **0** (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00. |
 | Prozentuale Aufteilung – Sonstiges                         | Geben Sie den Standardprozentsatz des Tagessatzes für verschiedene Ausgaben ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf **0** (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00. |
 | Prozentuale Reduzierung für das Frühstück | Geben Sie den Betrag ein, um den der Tagessatz für das Frühstück reduziert wird. Wenn ein Mitarbeiter beispielsweise ein kostenloses Frühstück erhält, können Sie möglicherweise die Höhe des Tagessatzes um 10 Prozent reduzieren. |

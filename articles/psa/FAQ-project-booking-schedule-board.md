@@ -3,7 +3,7 @@ title: Erstellen einer Projektbuchung aus der Zeitplanübersicht
 description: Dieses Thema enthält Informationen über die Erstellung einer Projektbuchung aus der Zeitplanübersicht.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076541"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122297"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Erstellen einer Projektbuchung aus der Zeitplanübersicht
 
@@ -66,7 +66,7 @@ Ein Projekt in Project Service erstellen erstellt automatisch eine Ressourcenanf
 
 2. Wählen Sie die Anforderung aus, die nur den Projektnamen als Namen und eine Dauer von Null (0) hat.
 
-3. Wählen Sie die Registerkarte **Verfügbarkeit durchsuchen** , die oben in der ausgewählten Zeile angezeigt wird. Dies hat zur Folge, dass die Zeitplanübersicht in den Zeitplanassistentenmodus wechselt und die verfügbaren Ressourcen anzeigt, die für das Projekt gebucht werden können.
+3. Wählen Sie die Registerkarte **Verfügbarkeit durchsuchen**, die oben in der ausgewählten Zeile angezeigt wird. Dies hat zur Folge, dass die Zeitplanübersicht in den Zeitplanassistentenmodus wechselt und die verfügbaren Ressourcen anzeigt, die für das Projekt gebucht werden können.
 
 4. Da eine **Primäre Anforderung** eine leere Anforderung mit einer Dauer von Null (0) ist, müssen Sie die Dauer im Bereich **Ressourcenbuchung erstellen** festlegen, wenn Sie eine Ressource auswählen und buchen.
 

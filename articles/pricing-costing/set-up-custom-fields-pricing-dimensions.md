@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076519"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119417"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Benutzerdefinierte Felder als Preisdimensionen einrichten
 
@@ -36,14 +36,14 @@ Dieses Thema enthält Informationen zum Einrichten von benutzerdefinierten Preis
 - **msdyn_OrganizationalUnit** (Organisationseinheit)
 
 > [!IMPORTANT]
-> Löschen Sie diese Zeilen nicht. Wenn Sie sie jedoch nicht benötigen, können Sie sie in einem bestimmten Kontext als nicht erforderlich festlegen, indem Sie **Gilt für Kosten** , **Gilt für Vertrieb** und **Gilt für Kauf** auf **Nein** setzen. Das Festlegen dieser Attributwerte auf **Nein** hat denselben Effekt, als ob das Feld als Preisdimension nicht vorhanden ist.
+> Löschen Sie diese Zeilen nicht. Wenn Sie sie jedoch nicht benötigen, können Sie sie in einem bestimmten Kontext als nicht erforderlich festlegen, indem Sie **Gilt für Kosten**, **Gilt für Vertrieb** und **Gilt für Kauf** auf **Nein** setzen. Das Festlegen dieser Attributwerte auf **Nein** hat denselben Effekt, als ob das Feld als Preisdimension nicht vorhanden ist.
 
 Damit ein Feld zu einer Preisdimension wird, muss es:
 
 - als Feld in den Entitäten **Rollenpreis** und **Rollenpreisaufschlag** erstellt werden. Weitere Informationen hierzu erhalten Sie unter [Hinzufügen benutzerdefinierter Felder zum Preis und zu Transaktionsentitäten](add-custom-fields-price-setup-transactional-entities.md).
 - als Zeile in der Tabelle **Preisdimension** erstellt worden sein. Beispielsweise können Sie Preisdimensionszeilen, wie in der folgenden Grafik dargestellt, hinzufügen. 
 
-Beachten Sie, dass die Arbeitszeiten ( **msdyn_resourceworkhours** ) als aufschlagsbasierte Dimension hinzugefügt wurde und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
+Beachten Sie, dass die Arbeitszeiten (**msdyn_resourceworkhours**) als aufschlagsbasierte Dimension hinzugefügt wurde und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
 
 > [!IMPORTANT]
 > Jegliche Änderungen an Preisdimensionsdaten in der Tabelle, ob bei vorhandenen oder neuen Daten, werden erst weitergegeben, wenn der Cache aktualisiert wird. Die Aktualisierungszeit des Cache kann bis zu 10 Minuten betragen. Warten Sie diese Zeit ab, um die Änderungen in der Preis-Standardlogik anzuzeigen, die aus Änderungen an den Preisdimensionsdaten resultieren müssen.
@@ -58,8 +58,8 @@ Dieser Wert muss genau dem Schemanamen des Feldes entsprechen, das der Tabelle *
 ### <a name="type-of-dimension"></a>Dimensionstyp
 Es gibt zwei Arten von Preisdimensionen:
   
-  - **Betragsbasierte Dimensionen** : Diese Dimensionswerte aus dem Eingabekontext werden mit den Dimensionswerten in der Position **Rollenpreis** abgeglichen und Preise/Kosten werden standardmäßig der Tabelle **Rollenpreis** entnommen.
-  - **Aufschlagsbasierte Dimensionen** : Dies sind Dimensionen, bei denen ein 3-Schritte-Prozess erfolgt, um Preise/Kosten abzurufen:
+  - **Betragsbasierte Dimensionen**: Diese Dimensionswerte aus dem Eingabekontext werden mit den Dimensionswerten in der Position **Rollenpreis** abgeglichen und Preise/Kosten werden standardmäßig der Tabelle **Rollenpreis** entnommen.
+  - **Aufschlagsbasierte Dimensionen**: Dies sind Dimensionen, bei denen ein 3-Schritte-Prozess erfolgt, um Preise/Kosten abzurufen:
  
     1. Die nicht aufschlagsbasierten Dimensionswerte aus dem Eingabekontext werden mit der Rollenpreisposition abgegelichen, um den Basistarif abzurufen.
     2. Die Dimensionswerte aus dem Eingabekontext werden mit dem **Rollenpreisaufschlag** abgegelichen, um den Aufschlagsprozentsatz abzurufen.
@@ -88,5 +88,5 @@ Falls diese Option auf **Ja** eingestellt ist, gibt sie an, dass der Dimensionsw
 ### <a name="priority"></a>Priorität
 Das Festlegen der Dimensionspriorität hilfte einen Preis auch dann zu bestimmen, wenn kein genauer Abgleich zwischen den Eingabedimensionswerten und den Werten aus den Tabellen **Rollenpreis** oder **Rollenpreisaufschlag** möglich ist. In diesem Szenario werden Nullwerte bei nicht übereinstimmenden Dimensionswerten verwendet, indem die Dimensionen gemäß ihrer Priorität gewichtet werden.
 
-- **Kostenpriorität** : Der Wert der Kostenpriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Einstandspreise an. Der Wert der **Kostenpriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Kosten** aufweisen.
-- **Vertriebspriorität** : Der Wert der Vertriebspriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Verkaufspreise oder Rechnungssätze an. Der Wert der **Vertriebspriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Vertrieb** aufweisen.
+- **Kostenpriorität**: Der Wert der Kostenpriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Einstandspreise an. Der Wert der **Kostenpriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Kosten** aufweisen.
+- **Vertriebspriorität**: Der Wert der Vertriebspriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Verkaufspreise oder Rechnungssätze an. Der Wert der **Vertriebspriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Vertrieb** aufweisen.

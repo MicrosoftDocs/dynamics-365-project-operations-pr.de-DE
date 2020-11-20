@@ -2,7 +2,7 @@
 title: Neuigkeiten und Änderungen in Project Service Automation, Version 3
 description: Dieses Thema enthält Informationen über Neuigkeiten und Änderungen in Project Service Automation, Version 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076486"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120002"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Neuigkeiten und Änderungen in Project Service Automation, Version 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Schätzungen sind in zwei Registerkarten **Ressourcen-Zuweisung** und **Schätzu
 
 ![Ressourcen-Zuweisungsregisterkarte mit Aufwandsschätzungen und Ressourcen-Zuweisungen für Aufgaben](media/resource-assignments-tab-02.png)
 
-Die Registerkarte **Schätzungen** zeigt die Kosten und Umsätze für Ressourcen-Zuweisungen an. Die Beträge sind schreibgeschützt. Die Kosten- und Vertriebspreisberechnungen werden nun von Teammitglieds-Zuweisungen im Zeitplan abgeleitet. Das bedeutet, dass bei einer Aufgabe ohne jegliche Zuweisung die Aufgabe unter dem nicht zugewiesenen Bucket dargestellt wird. Dies bedeutet auch, dass ohne **Rolle** , was eine Standardpreisberechnungsdimension ist, keine geschätzten Kosten oder Verkäufe existieren, wenn Sie einen Kunden oder einen Vertrag/ein Angebot haben, dem das Projekt zugeordnet ist. 
+Die Registerkarte **Schätzungen** zeigt die Kosten und Umsätze für Ressourcen-Zuweisungen an. Die Beträge sind schreibgeschützt. Die Kosten- und Vertriebspreisberechnungen werden nun von Teammitglieds-Zuweisungen im Zeitplan abgeleitet. Das bedeutet, dass bei einer Aufgabe ohne jegliche Zuweisung die Aufgabe unter dem nicht zugewiesenen Bucket dargestellt wird. Dies bedeutet auch, dass ohne **Rolle**, was eine Standardpreisberechnungsdimension ist, keine geschätzten Kosten oder Verkäufe existieren, wenn Sie einen Kunden oder einen Vertrag/ein Angebot haben, dem das Projekt zugeordnet ist. 
 
 ![Schätzungsregisterkarte mit Kosten und Verkaufsbeträgen](media/estimates-tab-03.png)
   
@@ -112,7 +112,7 @@ In Project Service Automation Version 3 mit der neuen einheitlichen Clientbenutz
 ### <a name="assign-a-real-bookable-resource"></a>Zuweisen einer realen buchbaren Ressource 
 In Project Service Automation Version 3 sind Buchungen und Aufgabenzuweisungen nicht so eng miteinander verknüpft wie in früheren Versionen von Project Service Automation. Sie können das Teamraster verwenden, um ein **reales** Team wie auf dem Markt zu buchen.
 
-Mithilfe der Ressourcenauswahl im Zeitplan können Sie das Teammitglied auswählen, das in der Teamansicht erstellt wird, und diesem dann Aufgaben zuweisen. Sie können auch nach der Buchung Aufgaben zuweisen. Verwenden Sie die Registerkarte **Abstimmung** , um Teammitglieder abzugleichen, die über Unterschiede bei Buchungen und Zuweisungen verfügen.
+Mithilfe der Ressourcenauswahl im Zeitplan können Sie das Teammitglied auswählen, das in der Teamansicht erstellt wird, und diesem dann Aufgaben zuweisen. Sie können auch nach der Buchung Aufgaben zuweisen. Verwenden Sie die Registerkarte **Abstimmung**, um Teammitglieder abzugleichen, die über Unterschiede bei Buchungen und Zuweisungen verfügen.
 
 Die Ressourcenauswahl zeigt Teammitglieder für das Projekt an. Sie können die Ressourcenauswahl auch verwenden, um nach einer buchbaren Ressource zu suchen und sie anzuzeigen, die nicht Teil des Projektteams ist. Sie können sie Aufgaben zuweisen, sodass sie Teil des Projektteams werden. Sie müssen sie mithilfe der **Zeitplanübersicht** oder über die Registerkarte **Abstimmung** buchen.
 
@@ -143,7 +143,7 @@ Für jede Ressource nimmt die Ansicht den Unterschied zwischen den Buchungen ein
 Wenn Sie Aufgabenzuordnungen für eine Ressource ohne Buchungen (ein Verlust der Buchung) haben, können Sie den gesamten Buchungsverlust auswählen und **Anmeldung erweitern** klicken. Von hier können Sie Buchung anzeigen, die benötigt wird, um den Mangel und die Verfügbarkeit der Ressource zu beheben. 
  
 ## <a name="time-and-expense"></a>Zeit und Ausgaben
-Dieser Abschnitt enthält Informationen zu den Änderungen an Zeitplanung, Ausgaben und Genehmigung in Version 3 von Project Service Automation. Als Teil der Dynamics 365 Project Service Automation-Lösung wurde die **Zeiteintrag** -Funktion aktualisiert, um das einheitliche Oberfläche-Framework zu nutzen. Dies bietet eine durchgängige, einheitliche Benutzeroberfläche (UI) und folgt den dynamischen Designgrundsätzen für eine optimale Anzeige auf jeder Bildschirmgröße oder jedem Gerät. 
+Dieser Abschnitt enthält Informationen zu den Änderungen an Zeitplanung, Ausgaben und Genehmigung in Version 3 von Project Service Automation. Als Teil der Dynamics 365 Project Service Automation-Lösung wurde die **Zeiteintrag**-Funktion aktualisiert, um das einheitliche Oberfläche-Framework zu nutzen. Dies bietet eine durchgängige, einheitliche Benutzeroberfläche (UI) und folgt den dynamischen Designgrundsätzen für eine optimale Anzeige auf jeder Bildschirmgröße oder jedem Gerät. 
 
 ### <a name="landing-page"></a>Angebotsseite
 Die nicht erweiterbare benutzerdefinierte Zeiteintragungsumgebung wurde in Version 3 eingestellt. Stattdessen gibt es jetzt eine erweiterbare und zugreifbare systemeigene Rastererfahrung. Sie können auf die Zeiteintragsfunktion zugreifen, indem Sie die Siteübersicht auf der linken Seite verwenden. Mit dieser Änderung können Sie die Zeit für eine Woche nicht gleichzeitig eingeben. Stattdessen müssen Sie eine Zeiteintragung für jeden Tag im Raster erstellen. Wenn einige Zeiteintragungen erstellt wurden, können Benutzer Zeiteintragungen per **Kopieren** in Massen erstellen, wie später in diesem Thema beschrieben wird. 
@@ -151,19 +151,19 @@ Die nicht erweiterbare benutzerdefinierte Zeiteintragungsumgebung wurde in Versi
 ![Zeiteintragungs-Angebotsseite](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Neue Zeiteinträge erstellen 
-Klicken Sie im Menüband auf **Neu** , um eine Schnellerstellungsseite für die Zeiteintragung zu öffnen, in der Sie die Minuten, Stunden und Tage eingeben. Geben Sie hierzu nur h, m oder d zusammen mit der Menge ein.  
+Klicken Sie im Menüband auf **Neu**, um eine Schnellerstellungsseite für die Zeiteintragung zu öffnen, in der Sie die Minuten, Stunden und Tage eingeben. Geben Sie hierzu nur h, m oder d zusammen mit der Menge ein.  
 
 ![Schnellerfassung für Zeiteintrag](media/quick-create-time-entry-08.png)
 
 Suchfelder werden von Systemansichten unterstützt. Wenn Sie beispielsweise Projektinformationen eingeben, ist das Feld **Projektaufgabe** standardmäßig auf **Meine offenen Projektaufgaben** festgelegt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die dem Benutzer nicht zugewiesen werden, klicken Sie auf **Ansicht ändern** ind er Suche und wählen **Alle aktiven Projektaufgaben**. Nachdem die Zeiteintragung erstellt wurde und im Raster angezeigt wird, können Sie direkt alle Zeilenwerte im Raster bearbeiten.  
 
 ### <a name="bulk-createcopy"></a>Massenerstellen/-kopieren 
-Nachdem einige Zeiteinträge erstellt wurden, können Sie diese kopieren, um eine Massenerstellung zusätzlicher Zeiteinträge vorzunehmen. Klicken Sie auf **Kopieren** , um das Dialogfeld **Kopieren** zu öffnen. In **Zeitraum von: Startdatum** legen Sie den Datumsbereich fest, aus dem andere Buchhaltungsperioden kopiert werden müssen. Geben Sie in **Zeitraum bis: Startdatum** das Datum an, für das Zeiteintragungen erstellt werden müssen. Klicken Sie auf **Kopieren** , um die Zeiteintragungen zum entsprechenden Wochentag zu kopieren, der in **Zeitraum bis** angegeben ist. So wird z. B. der Zeiteintrag für Montag der vergangenen Woche in den Montag für die Woche kopiert, die in **Zeitraum bis** angegeben ist. 
+Nachdem einige Zeiteinträge erstellt wurden, können Sie diese kopieren, um eine Massenerstellung zusätzlicher Zeiteinträge vorzunehmen. Klicken Sie auf **Kopieren**, um das Dialogfeld **Kopieren** zu öffnen. In **Zeitraum von: Startdatum** legen Sie den Datumsbereich fest, aus dem andere Buchhaltungsperioden kopiert werden müssen. Geben Sie in **Zeitraum bis: Startdatum** das Datum an, für das Zeiteintragungen erstellt werden müssen. Klicken Sie auf **Kopieren**, um die Zeiteintragungen zum entsprechenden Wochentag zu kopieren, der in **Zeitraum bis** angegeben ist. So wird z. B. der Zeiteintrag für Montag der vergangenen Woche in den Montag für die Woche kopiert, die in **Zeitraum bis** angegeben ist. 
 
 ![Zeiteinträge massenkopieren](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Daten importieren 
-Zuweisung und Austausch folgen demselben Benutzeroberflächenmuster, mit dem Benutzer den Datumsbereich angeben können, wenn Buchungen importiert werden müssen. Sie müssen Buchungen dann explizit auswählen, die in **Entwurf** -Zeiteintragungen kopiert werden sollen. In Version 3 werden **Vorgeschlagen** -Zeiteintragungen im Raster und Kalender nicht mehr angezeigt.  
+Zuweisung und Austausch folgen demselben Benutzeroberflächenmuster, mit dem Benutzer den Datumsbereich angeben können, wenn Buchungen importiert werden müssen. Sie müssen Buchungen dann explizit auswählen, die in **Entwurf**-Zeiteintragungen kopiert werden sollen. In Version 3 werden **Vorgeschlagen**-Zeiteintragungen im Raster und Kalender nicht mehr angezeigt.  
 
 ### <a name="change-in-calendar-control"></a>Änderung im Kalendersteuerelement
 In Version 3 sind wir vom benutzerdefinierten Kalendersteuerelement abgewichen und nutzen jetzt den UC-Kalender, um Zeiteinträge der Woche anzuzeigen. In diesem Kalender können Sie nach Tag, Woche oder Monat anzeigen. 
@@ -192,7 +192,7 @@ Die Common Data Service-Plattform unterstützt nciht, dass Benutzer die Identit�
 Anpassung ermöglicht es Ihnen, eine **Buchbare Ressource** hinzuzufügen, um Erfahrungen zu erstellen und zu bearbeiten, mit denen ein Benutzer als Stellvertretung agieren kann, indem er das Feld **Buchungsressource** eiens anderen Benutzers ändert, dessen Zeit- und Ausgabeneinträge aufgezeichnet werden müssen. Die folgende Schritte decken die Zeiteintragungsdelegierung ab. Die gleichen Informationen gelten für Ausgabeneintragsdelegierung. 
  
 1.  Stellen Sie sicher, dass der delegierte Benutzer über Sicherheitszugriff für globale Projekte und Projektaufgaben verfügt. 
-1.  Da **Buchbare Ressource** , ein Feld der Entität **Zeiteintragung** , nicht auf der **Schnellerfassung** -Seite verfügbar gemacht wird, müssen Sie es hinzufügen.
+1.  Da **Buchbare Ressource**, ein Feld der Entität **Zeiteintragung**, nicht auf der **Schnellerfassung**-Seite verfügbar gemacht wird, müssen Sie es hinzufügen.
 
     – oder –
 
@@ -201,7 +201,7 @@ Anpassung ermöglicht es Ihnen, eine **Buchbare Ressource** hinzuzufügen, um Er
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. Erstellen Sie ein neues Plug-In, um das Feld **Manager** für den Vorgesetzten des Benutzers zu überschreiben, der im Feld **Buchbare Ressource** zugeordnet ist. Verwenden Sie dieselbe **Ausführungsphase** wie das OOB-Plug-In (Vorüberprüfung) und verwenden Sie eine **Reihenfolge der Ausführung** , diehöher ist als die des OOB-Plug-Ins (mehr als 1). Dadurch wird sichergestellt, dass das benutzerdefinierte Plug-In nach den OOB-Plug-Ins ausgeführt wird.  
+1. Erstellen Sie ein neues Plug-In, um das Feld **Manager** für den Vorgesetzten des Benutzers zu überschreiben, der im Feld **Buchbare Ressource** zugeordnet ist. Verwenden Sie dieselbe **Ausführungsphase** wie das OOB-Plug-In (Vorüberprüfung) und verwenden Sie eine **Reihenfolge der Ausführung**, diehöher ist als die des OOB-Plug-Ins (mehr als 1). Dadurch wird sichergestellt, dass das benutzerdefinierte Plug-In nach den OOB-Plug-Ins ausgeführt wird.  
  
 ### <a name="end-user-experience"></a>Endbenutzererfahrung
 1.  Wenn Sie eine Zeiteintragung auf der Schnellerfassungsseite erstellen, geben Sie die Projekt- und ein Projektaufgabendetails ein, und wählen Sie dann den Benutzer im Feld **Buchbare Ressource** aus, für den die Zeiteintragungen aufgezeichnet werden müssen. 
@@ -231,7 +231,7 @@ In Version 3 von Project Service Automation haben sich die Aspekte des Setups un
 ### <a name="set-up-chargeability-options"></a>Einrichten von Fakturierbarkeitsoptionen
 In den Versionen 1 und 2 wurde das Fakturierbarkeitssetup für Rollen und Kategorien sowie für bestimmte Angebote und Verträge mithilfe der Ansicht **Fakturierbarkeit** erledigt, die sich in der obersten Navigation einer Angebotszeile oder einer Vertragszeile befand. Dort wurden auch die Preise für diesen Rollen und Ausgabenkategorien festgelegt.
 
-Ab Version 3 werden die Fakturierbarkeitsoptionen nach Rolle und Ausgabenkategorie auf der Angebots- oder Vertragszeilenebene ausgeführt. Das Preisberechnungssetup ist getrennt vom Fakturierbarkeitssetup. Sie finden **Fakturierbare Rollen** und **Fakturierbare Kategorie** als Registerkarten auf den Seiten **Angebotszeile** und **Vertragszeile** , ohne dafür die obere Navigation verwenden zu müssen.
+Ab Version 3 werden die Fakturierbarkeitsoptionen nach Rolle und Ausgabenkategorie auf der Angebots- oder Vertragszeilenebene ausgeführt. Das Preisberechnungssetup ist getrennt vom Fakturierbarkeitssetup. Sie finden **Fakturierbare Rollen** und **Fakturierbare Kategorie** als Registerkarten auf den Seiten **Angebotszeile** und **Vertragszeile**, ohne dafür die obere Navigation verwenden zu müssen.
 
 ![Fakturierbare Rollen](media/chargeable-12.png)
  

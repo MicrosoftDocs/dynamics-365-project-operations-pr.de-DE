@@ -3,7 +3,7 @@ title: Mehrfachwährungsszenarien (Version 3.x)
 description: Dieses Thema enthält Informationen zu Mehrfachwährungsszenarien.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076634"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123377"
 ---
 # <a name="multiple-currency-scenarios"></a>Mehrfachwährungsszenarien
 
@@ -56,7 +56,7 @@ Die folgenden Entitäten gelten als Geschäftstransaktionen:
 - Rechnungsposition
 - Tatsächlich
 
-In jeder dieser Entitäten ist ein Datensatz vorhanden, der den Kostenbetrag oder den Umsatzbetrag darstellt. Wie bei jeder Dynamics 365-Entität mit einem Feld **Betrag** , enthält jeder Datensatz Beträge sowohl in der Transaktionswährung als auch in der Basiswährung. 
+In jeder dieser Entitäten ist ein Datensatz vorhanden, der den Kostenbetrag oder den Umsatzbetrag darstellt. Wie bei jeder Dynamics 365-Entität mit einem Feld **Betrag**, enthält jeder Datensatz Beträge sowohl in der Transaktionswährung als auch in der Basiswährung. 
 
 PSA erweitert das Konzept der Transaktionswährung für Kosten und Umsatz folgendermaßen:
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076556"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121217"
 ---
 # <a name="currency"></a>Währung
 
@@ -31,7 +31,7 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 Währungen bestimmen die Preise für Produkte im Produktkatalog und die Transaktionskosten, z. B. für Vertriebsaufträge. Wenn die Kunden über mehrere Regionen verteilt sind, fügen Sie deren Währungen hinzu, um Ihre Transaktionen zu verwalten. Fügen Sie die Währungen hinzu, die am meisten Ihren aktuellen und zukünftigen Geschäftsanforderungen entsprechen.  
 
 > [!NOTE]
-> Wenn es sich bei Ihrer Umgebung um eine Common Data Service Umgebung handelt, befinden Sie sich im Power Platform Admin Center und wählen die Seite **Währungen** ( **Umgebungen** > [Umgebung auswählen] > **Einstellungen** > **Unternehmen** > **Währungen** ) aus, die Seite ist leer. Das liegt daran, dass das Einstellen einer Währung in Common Data Service-Umgebungen nicht unterstützt wird.
+> Wenn es sich bei Ihrer Umgebung um eine Common Data Service Umgebung handelt, befinden Sie sich im Power Platform Admin Center und wählen die Seite **Währungen** (**Umgebungen** > [Umgebung auswählen] > **Einstellungen** > **Unternehmen** > **Währungen**) aus, die Seite ist leer. Das liegt daran, dass das Einstellen einer Währung in Common Data Service-Umgebungen nicht unterstützt wird.
 
 ## <a name="add-a-currency"></a>Hinzufügen einer Währung  
 Bevor Sie diesen Vorgang starten prüfen Sie, dass die Sicherheitsrollen die Systemadministratorberechtigungen enthalten. 
@@ -45,7 +45,7 @@ Bevor Sie diesen Vorgang starten prüfen Sie, dass die Sicherheitsrollen die Sys
 
    |          Feld          |                                                                                                                                                                                                                                                                                                                                                                            Beschreibung                                                                                                                                                                                                                                                                                                                                                                            |
    |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Währungstyp**    | - **System** – Wählen Sie diese Option aus, wenn Sie die in modellgesteuerten Apps in Dynamics 365 verfügbaren Währungen verwenden möchten. Wählen Sie **Suche** , um nach einer Währung zu suchen. Wenn Sie einen Währungscode auswählen, werden **Währungsname** und **Währungssymbol** für die ausgewählte Währung automatisch hinzugefügt.<br />- **Benutzerdefiniert** – Wählen Sie diese Option aus, wenn Sie eine Währung hinzufügen möchten, die in modellgesteuerten Apps in Dynamics 365 nicht verfügbar ist. In diesem Fall müssen Sie die Werte für **Währungscode** , **Genauigkeit für die Angabe von Währungsbeträgen** , **Währungsname** , **Währungssymbol** und **Währungsumrechnung** manuell eingeben. |
+   |    **Währungstyp**    | - **System** – Wählen Sie diese Option aus, wenn Sie die in modellgesteuerten Apps in Dynamics 365 verfügbaren Währungen verwenden möchten. Wählen Sie **Suche**, um nach einer Währung zu suchen. Wenn Sie einen Währungscode auswählen, werden **Währungsname** und **Währungssymbol** für die ausgewählte Währung automatisch hinzugefügt.<br />- **Benutzerdefiniert** – Wählen Sie diese Option aus, wenn Sie eine Währung hinzufügen möchten, die in modellgesteuerten Apps in Dynamics 365 nicht verfügbar ist. In diesem Fall müssen Sie die Werte für **Währungscode**, **Genauigkeit für die Angabe von Währungsbeträgen**, **Währungsname**, **Währungssymbol** und **Währungsumrechnung** manuell eingeben. |
    |    **Währungscode**    |                                                                                                                                                                                                                                                                                                                                            Kurzform der Währung. Z. B. **EUR** für Euro.                                                                                                                                                                                                                                                                                                                                            |
    | **Währungspräzision**  |                                                                                                                                                                                  Geben Sie die Anzahl der Dezimalstellen ein, die für diese Währung angezeigt werden sollen.  Sie können einen Wert zwischen 0 und 4 eingeben. **Hinweis:**  Wenn Sie einen Genauigkeitswert im Dialogfeld **Systemeinstellungen** festgelegt haben, wird dieser Wert hier angezeigt.                                                                                                                                                                                  |
    |    **Währungsname**    |                                                                                                                                                                                                                                         Wenn Sie aus der Liste der in modellgesteuerten Dynamics 365-Apps verfügbaren Währungen einen Währungscode ausgewählt haben, wird hier der Währungsname für den ausgewählten Code angezeigt. Wenn Sie **Benutzerdefiniert** ausgewählt haben, geben Sie den Namen der Währung ein.                                                                                                                                                                                                                                          |

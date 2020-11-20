@@ -3,7 +3,7 @@ title: Erstellen einer Preisliste
 description: Erstellen einer Preisliste (Project Service)
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076560"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122027"
 ---
 # <a name="create-a-price-list-project-service"></a>Erstellen einer Preisliste (Project Service)
 
@@ -39,7 +39,7 @@ Preislisten beruhen auf Rollen und Ausgabenkategorien. Deshalb sollten Sie, ehe 
   
 2.  Klicken Sie auf **Neu**.  
   
-3.  Legen Sie unter **Kontext** fest, ob die Preisliste für **Kosten** , **Kaufen** oder **Vertrieb** gilt.  
+3.  Legen Sie unter **Kontext** fest, ob die Preisliste für **Kosten**, **Kaufen** oder **Vertrieb** gilt.  
   
 4.  Geben Sie unter **Namen** einen Namen für die Preisliste ein.  
   
@@ -47,9 +47,9 @@ Preislisten beruhen auf Rollen und Ausgabenkategorien. Deshalb sollten Sie, ehe 
   
 6.  Geben Sie unter **Zeiteinheit** die Zeitspanne an, für die die Preise gilt, beispielsweise Tag oder Stunde.  
   
-7.  Füllen Sie die Felder **Startdatum** , **Enddatum** und **Beschreibung** wie erforderlich aus.  
+7.  Füllen Sie die Felder **Startdatum**, **Enddatum** und **Beschreibung** wie erforderlich aus.  
   
-8.  Klicken Sie auf **Speichern** , um den Datensatz zu erstellen, sodass Sie ihn weiter bearbeiten können.  
+8.  Klicken Sie auf **Speichern**, um den Datensatz zu erstellen, sodass Sie ihn weiter bearbeiten können.  
   
 9. Zum Hinzufügen eines Rollenpreises klicken Sie auf **+** unter **Rollenpreise**.  
   

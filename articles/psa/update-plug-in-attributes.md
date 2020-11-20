@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076607"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121847"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Plug-In-Attribute aktualisieren, damit sie neue Preisdimensionen enthalten
 
@@ -39,8 +39,8 @@ Wenn Sie eine Änderung der Menge oder eines Felds auf der Kostenseite vornehmen
 
 Die folgenden Schritte führen Sie durch den Prozess der Registrierung der Plug-Ins.
 
-1. Öffnen Sie das **PluginRegistrationTool** , und stellen Sie eine Verbindung mit Ihrer Online-Instanz her.
-2. Klicken Sie auf **Suchen** , und suchen Sie nach dem Plug-In, das aktualisiert werden soll.
+1. Öffnen Sie das **PluginRegistrationTool**, und stellen Sie eine Verbindung mit Ihrer Online-Instanz her.
+2. Klicken Sie auf **Suchen**, und suchen Sie nach dem Plug-In, das aktualisiert werden soll.
 
  ![Screenshot der Suchstruktur](media/PRT-1.png)
 
@@ -50,7 +50,7 @@ Die folgenden Schritte führen Sie durch den Prozess der Registrierung der Plug-
 
  ![Screenshot des Plug-Ins, das aktualisiert werden soll](media/PRT-2.png)
  
-5. Klicken Sie im Updatefenster auf die Auslassungspunkte ( **...** ) in den Filterattributen.
+5. Klicken Sie im Updatefenster auf die Auslassungspunkte (**...**) in den Filterattributen.
 
  ![Screenshot der Informationen zu „Vorhandene Schrittkonfiguration aktualisieren”](media/PRT-3.png)
  
@@ -58,7 +58,7 @@ Die folgenden Schritte führen Sie durch den Prozess der Registrierung der Plug-
 
  ![Screenshot, der die Kontrollkästchenauswahl für Preisattribute zeigt](media/PRT-4.png)
 
-7. Klicken Sie auf **OK** , um die Seite zu schließen, und wählen Sie dann **Aktualisierungsschritt** aus.
+7. Klicken Sie auf **OK**, um die Seite zu schließen, und wählen Sie dann **Aktualisierungsschritt** aus.
 
  ![Screenshot, der die Schaltfläche „Aktualisierungsschritt” anzeigt](media/PRT-5.png)
  

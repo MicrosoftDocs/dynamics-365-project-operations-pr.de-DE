@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076592"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119597"
 ---
 # <a name="product-price-lists"></a>Produktpreislisten
 
@@ -46,7 +46,7 @@ Wenn Sie eine neue benutzerdefinierte Preisliste für ein Angebot erstellen, ind
 
  
 ## <a name="default-product-price-list"></a>Standardproduktpreisliste
-Jeder Kundendatensatz hat ein Feld **Standardpreisliste** , in dem Sie eine Preisliste angeben können, die der Währung des Kunden entspricht. Es wird kein Standardwert automatisch in dieses Feld eingefügt. Wenn ein benutzerdefiniertes Preisabkommen mit einem bestimmten Kunden besteht, können Sie das Feld verwenden, um diesem Kunden eine Preisliste zuzuordnen.
+Jeder Kundendatensatz hat ein Feld **Standardpreisliste**, in dem Sie eine Preisliste angeben können, die der Währung des Kunden entspricht. Es wird kein Standardwert automatisch in dieses Feld eingefügt. Wenn ein benutzerdefiniertes Preisabkommen mit einem bestimmten Kunden besteht, können Sie das Feld verwenden, um diesem Kunden eine Preisliste zuzuordnen.
 
 Die Verkaufschance, das Angebot und die Entitäten des Projektvertrags verwenden die folgende Reihenfolge zur Eingabe von Standardproduktpreislisten. Die gleiche Reihenfolge wird für Projektpreislisten wird verwendet.
 

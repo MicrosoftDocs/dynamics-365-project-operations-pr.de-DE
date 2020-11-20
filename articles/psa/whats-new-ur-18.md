@@ -3,7 +3,7 @@ title: Neuigkeiten und Änderungen in Project Service Automation, Update Release
 description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 18, V3 aufgeführt.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076478"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119867"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation Update Release 18, V3
 
@@ -36,7 +36,7 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 
 **Zeit und Ausgaben**
 
-- Behoben: Die Flows **Zurückrufen** , **Anfordern** , und **Genehmigung abbrechen** lösen Ausnahmen mit unklaren Fehlermeldungen aus.
+- Behoben: Die Flows **Zurückrufen**, **Anfordern**, und **Genehmigung abbrechen** lösen Ausnahmen mit unklaren Fehlermeldungen aus.
 - Behoben: Wenn **Genehmigung abbrechen** für eine Ausgabe fehlschlägt, wird kein relevanter Ausnahmefehler ausgelöst.
 - Behoben: Das Zeiteintragsraster behandelt arbeitsfreie Tage in Australien nach der Sommerzeitumstellung im Oktober falsch.
 - Behoben: Eine falsche Standardlogik verhindert die Übermittlung von Ausgaben.
@@ -60,4 +60,4 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 
 **Vertrieb**
 
-- Behoben: Wenn Zeiteinträge erneut genehmigt werden ( **Genehmigen > Abbrechen >** Erneut genehmigen), wird ein Duplikat des nicht kostenpflichtigen Ist-Werts erstellt.
+- Behoben: Wenn Zeiteinträge erneut genehmigt werden (**Genehmigen > Abbrechen >** Erneut genehmigen), wird ein Duplikat des nicht kostenpflichtigen Ist-Werts erstellt.

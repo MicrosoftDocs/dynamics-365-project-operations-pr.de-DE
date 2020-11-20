@@ -3,17 +3,17 @@ title: Eine neue Umgebung bereitstellen
 description: Dieses Thema enthält Informationen zum Bereitstellen einer neuen Project Operations-Umgebung.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076411"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121172"
 ---
 # <a name="provision-a-new-environment"></a>Eine neue Umgebung bereitstellen
 
@@ -40,7 +40,7 @@ Führen Sie die folgenden Schritte aus, um den automatisierten Project Operation
 > Stellen Sie sicher, dass die ausgewählte Anwendungsversion 10.0.13 oder höher ist.
 
 3. Um Project Operations bereitzustellen, wählen Sie unter **Erweiterte Einstellungen** **Common Data Service** aus. 
-4. Aktivieren Sie die **Common Data Service-Einstellung** , indem Sie **Ja** auswählen und dann Informationen in die entsprechenden Felder eingeben:
+4. Aktivieren Sie die **Common Data Service-Einstellung**, indem Sie **Ja** auswählen und dann Informationen in die entsprechenden Felder eingeben:
 
   - Name des Dataflows
   - Region
@@ -54,7 +54,7 @@ Führen Sie die folgenden Schritte aus, um den automatisierten Project Operation
 ![Bereitstellungseinstellungen](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Wählen Sie **Zustimmen** aus, um die Vertragsbedingungen zu bestätigen, und dann **Fertig** , um zu den Bereitstellungseinstellungen zurückzukehren.
+> Wählen Sie **Zustimmen** aus, um die Vertragsbedingungen zu bestätigen, und dann **Fertig**, um zu den Bereitstellungseinstellungen zurückzukehren.
 
 ![Bereitstellungseinwilligung](./media/2DeploymentConsent.png)
 
@@ -84,7 +84,7 @@ Möglicherweise müssen Sie Qualitätsupdates auf Ihre Finance-Umgebung anwenden
 
 ![Paket speichern](./media/6SavePackage.png)
 
-3. Klicken Sie auf **Alle auswählen** , und wählen Sie dann **Paket speichern** aus.
+3. Klicken Sie auf **Alle auswählen**, und wählen Sie dann **Paket speichern** aus.
 
 ![Aktualisierungen überprüfen und speichern](./media/7ReviewAndSaveUpdates.png)
 
@@ -185,4 +185,10 @@ Um eine Zuordnung mit Voraussetzungen auszuführen, aktivieren Sie die Umschaltt
 
 ![Alle Zuordnungen werden ausgeführt](./media/22AllMapsRunning.png)
 
-Ihre Project Operations-Umgebung ist jetzt bereitgestellt und konfiguriert.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Konfigurationsdaten in CDS für Project Operations anwenden (optional)
+
+Wenn Sie Demodaten auf die Finanzumgebung angewendet haben, erhalten Sie weitere Informationen unter [Konfigurationsdaten in Common Data Service für Project Operations einrichten und anwenden](resource-apply-pro-setup-config-data.md), um Demodaten auf die CDS-Umgebung anzuwenden.
+
+
+Ihre Project Operations-Umgebung ist jetzt bereitgestellt und konfiguriert. 

@@ -3,7 +3,7 @@ title: Produktbasierte Angebotspositionen
 description: Dieses Thema enthält Informationen zu produktbasierten Angebotspositionen.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076704"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123197"
 ---
 # <a name="product-based-quote-lines"></a>Produktbasierte Angebotspositionen
 
@@ -41,7 +41,7 @@ Beispielsweise verkauft ein Unternehmen Abonnementlizenzen für eine Vielzahl vo
 - Anzahl der Benutzer 
 - Abonnementdauer (in Monaten)
 
-Eine gute Möglichkeit, diese Art von Katalog zu verwalten, besteht darin, eine Produktfamilie mit der Bezeichnung **Abonnement-Software** mit den Attributen **Anzahl der Benutzer** und **Abonnementdauer** zu erstellen. Sie können dann einzelne Produkte, z. B. **Dynamics 365 Sales** oder **Dynamics 365 Field Service** , der Produktfamilie **Abonnement-Software** hinzufügen.
+Eine gute Möglichkeit, diese Art von Katalog zu verwalten, besteht darin, eine Produktfamilie mit der Bezeichnung **Abonnement-Software** mit den Attributen **Anzahl der Benutzer** und **Abonnementdauer** zu erstellen. Sie können dann einzelne Produkte, z. B. **Dynamics 365 Sales** oder **Dynamics 365 Field Service**, der Produktfamilie **Abonnement-Software** hinzufügen.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Hinzufügen von Produktkatalogelementen zu einer Angebotsposition
 

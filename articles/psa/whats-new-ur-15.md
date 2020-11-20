@@ -3,7 +3,7 @@ title: Neuigkeiten und Änderungen in Project Service Automation, Update Release
 description: Diese Thema enthält Informationen zu den Neuerungen in Project Service Automation Release 15, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076481"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119912"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation Update Release 15, V3
 
@@ -41,8 +41,8 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 - Zeit und Ausgaben
 
   - Behoben: Fehlerbehandlung beim Laden in der Abstimmungsansicht hinzugefügt.
-  - Behoben: Project Resource Hub: Umbenennen von **Menge** , um Mehrdeutigkeit zu reduzieren.
-  - Behoben: Passen Sie die Ansicht an **Zeiteintragsspalten kopieren** , um den Typ einzuschließen.
+  - Behoben: Project Resource Hub: Umbenennen von **Menge**, um Mehrdeutigkeit zu reduzieren.
+  - Behoben: Passen Sie die Ansicht an **Zeiteintragsspalten kopieren**, um den Typ einzuschließen.
   - Behoben: Das Bearbeiten der Zeiteintragsdauer in der Rasteransicht unter Verwendung von Dezimalzahlen führt bei einigen Zahlen zu einem unbekannten Fehler.
 
 - Projektmanagement
@@ -58,6 +58,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 
   - Behoben: Die Suche nach Ausgabenschätzungskategorien kann zum Filtern von Duplikaten verwendet werden.
   - Behoben: Code in **PluginDomain.ExecuteInTryCatchBlock (..)** verbirgt nicht länger den Ursprung der Ausnahme.
-  - Behoben: Es wird keine Fehlermeldung mehr angezeigt in **Projektsuche** in der **Angebotszeile** , wenn es mehr als 1000 Projekte gibt.
+  - Behoben: Es wird keine Fehlermeldung mehr angezeigt in **Projektsuche** in der **Angebotszeile**, wenn es mehr als 1000 Projekte gibt.
   - Behoben: Raster **Schätzungen** für Arbeitsschätzungen und Ausgabenschätzungen zeigt jetzt das richtige Währungssymbol an.
   - Behoben: Nachdem eine Organisation PSA von Update Release 14 auf Update Release 15 aktualisiert hat, wird die **Zeitplan** Registerkarte nicht mehr als leer auf dem Formular **Projekt** angezeigt.

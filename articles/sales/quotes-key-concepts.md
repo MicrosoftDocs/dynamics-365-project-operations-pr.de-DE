@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076690"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121307"
 ---
 # <a name="quotes---key-concepts"></a>Angebote - Schlüsselkonzepte
 
@@ -30,20 +30,20 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 In Dynamics 365 Project Operations gibt es zwei Arten von Angeboten: Projekt und Vertrieb. Die zwei Typen von Angeboten unterscheiden sich folgendermaßen:
 
-- **Raster für Vertragszeilen** : Bei einem Verkaufsangebot gibt es nur ein Raster für Vertragszeilen. Bei einem Projektangebot gibt es zwei Raster für Vertragszeilen. Ein Raster ist für Projektzeilen und das andere für Produktzeilen.
-- **Aktivierung und Überarbeitung** : Vertriebsangebote unterstützen die Aktivierung und Überarbeitung. Diese Prozesse werden in einem Projektangebot nicht unterstützt.
-- **Angefügte Aufträge** : Sie können mehrere Aufträge einem Vertriebsangebot anfügen. Sie können nur einen Projektvertrag einem Projektangebot anfügen.
+- **Raster für Vertragszeilen**: Bei einem Verkaufsangebot gibt es nur ein Raster für Vertragszeilen. Bei einem Projektangebot gibt es zwei Raster für Vertragszeilen. Ein Raster ist für Projektzeilen und das andere für Produktzeilen.
+- **Aktivierung und Überarbeitung**: Vertriebsangebote unterstützen die Aktivierung und Überarbeitung. Diese Prozesse werden in einem Projektangebot nicht unterstützt.
+- **Angefügte Aufträge**: Sie können mehrere Aufträge einem Vertriebsangebot anfügen. Sie können nur einen Projektvertrag einem Projektangebot anfügen.
 - **Ein Angebot gewinnen** : Wenn Sie ein Angebot gewinnen, kann die zugehörige Verkaufschance offen bleiben. Wenn ein Projektangebot gewonnen wird, wird die verknüpfte Verkaufschance geschlossen.
-- **Felder und Konzepte** Ein Vertriebsangebot enthält einige Felder und Konzepte nicht, die in einem Projektangebot enthalten sind. Die Felder enthalten **Vertragseinheit** , **Kontomanager** und **Kontaktname für Rechnungsadresse**.  
-- **Typ** : Vertriebsangebote und Projektangebote werden ebenfalls über ein optionssatzbasiertes Feld namens **Typ** ermittelt. Für ein Verkaufsangebot hat dieses Feld den Wert **Elementbasiert**. Für ein Projektangebot hat es den Wert **Arbeitsbasiert**.
+- **Felder und Konzepte** Ein Vertriebsangebot enthält einige Felder und Konzepte nicht, die in einem Projektangebot enthalten sind. Die Felder enthalten **Vertragseinheit**, **Kontomanager** und **Kontaktname für Rechnungsadresse**.  
+- **Typ**: Vertriebsangebote und Projektangebote werden ebenfalls über ein optionssatzbasiertes Feld namens **Typ** ermittelt. Für ein Verkaufsangebot hat dieses Feld den Wert **Elementbasiert**. Für ein Projektangebot hat es den Wert **Arbeitsbasiert**.
 
 Dieses Thema fokussiert sich auf die Details von Projektangeboten.
 
 Ein Projektangebot in Projektvorgängen kann mehrere Vertragszeilen oder Angebotszeilen haben. Tatsächlich hat ein Projektangebot zwei Raster für Vertragszeilen. Ein Raster dient für projektbasierte Zeilen, die ausführliche Schätzungen ermöglichen. Das andere Raster ist für produktbasierte Zeilen, die einen einfachen Einheitenpreis und eine mengenbasierte Herangehensweise verwenden.
 
-- **Projektbasiert** : Der Angebotswert wird bestimmt, nachdem Sie geschätzt haben, wie viel Arbeit erforderlich ist. Sie können die Arbeit auf oberster Ebene direkt als Liniendetails unter jeder Angebotszeile oder basierend auf Basisschätzungen mithilfe eines Projekts und eines Projektplans schätzen. Projektbasierte Angebotszeilen sind nur bei projektbasierten Angeboten zu finden, die mithilfe von Project Operations erstellt werden. Diese Art der Angebotszeile ist eine benutzerdefinierte Form der manuell auszufüllenden Zeilen, die in Microsoft Dynamics 365 Sales verfügbar sind.
+- **Projektbasiert**: Der Angebotswert wird bestimmt, nachdem Sie geschätzt haben, wie viel Arbeit erforderlich ist. Sie können die Arbeit auf oberster Ebene direkt als Liniendetails unter jeder Angebotszeile oder basierend auf Basisschätzungen mithilfe eines Projekts und eines Projektplans schätzen. Projektbasierte Angebotszeilen sind nur bei projektbasierten Angeboten zu finden, die mithilfe von Project Operations erstellt werden. Diese Art der Angebotszeile ist eine benutzerdefinierte Form der manuell auszufüllenden Zeilen, die in Microsoft Dynamics 365 Sales verfügbar sind.
 
-- **Produktbasiert** : Der Angebotswert wird basierend auf der Menge an Einheiten, die verkauft wird, sowie auf dem Einheitenverkaufspreis des Produkts bestimmt. Das Produkt bei einer produktbasierten Zeile kann von einem Produktkatalog in Sales stammen, oder es kann ein von Ihnen festgelegtes Produkt sein. Diese Art der Angebotszeile ist auch bei projektbasierten Angeboten verfügbar, die mithilfe von Project Operations erstellt werden.
+- **Produktbasiert**: Der Angebotswert wird basierend auf der Menge an Einheiten, die verkauft wird, sowie auf dem Einheitenverkaufspreis des Produkts bestimmt. Das Produkt bei einer produktbasierten Zeile kann von einem Produktkatalog in Sales stammen, oder es kann ein von Ihnen festgelegtes Produkt sein. Diese Art der Angebotszeile ist auch bei projektbasierten Angeboten verfügbar, die mithilfe von Project Operations erstellt werden.
 
 Der Betrag eines Angebots ist die Gesamtsumme der produktbasierten und projektbasierten Zeilen.
 
@@ -75,12 +75,12 @@ Project Operations unterstützt alle drei Typen von Rechnungszeitplänen für An
 
 Organisationen für professionelle Services erstellen für ihre Kunden Angebote und Rechnungen für gewöhnlich basierend auf einer Klassifizierung von Kosten. Die Kosten anhand der folgenden Transaktionsklassifizierungen dargestellt:
 
-- **Zeit** : Diese Klassifizierung stellt den Arbeitslohn oder die Zeit des Personals für ein Projekt dar.
-- **Ausgaben** : Diese Klassifizierung stellt alle anderen Arten von Ausgaben bei einem Projekt dar. Da Ausgaben breit klassifiziert werden können, erstellen die meisten Organisationen Unterkategorien, wie Reisekosten, Automiete, Hotelkosten oder Bürobedarf.
-- **Gebühr** : Diese Klassifizierung stellt die verschiedenen Aufwände, Strafen und andere Elemente dar, die dem Kunden in Rechnung gestellt werden. 
-- **Steuer** : Diese Klassifizierung stellt die Steuerbeträge dar, die Benutzer hinzufügen, während sie die Ausgaben eingeben.
-- **Materialtransaktion** : Diese Klassifizierung stellt die tatsächlichen Werte von Produktzeilen auf einer bestätigten Projektrechnung dar.
-- **Meilenstein** : Diese Klassifizierung wird von der Abrechnungslogik mit Festpreis verwendet.
+- **Zeit**: Diese Klassifizierung stellt den Arbeitslohn oder die Zeit des Personals für ein Projekt dar.
+- **Ausgaben**: Diese Klassifizierung stellt alle anderen Arten von Ausgaben bei einem Projekt dar. Da Ausgaben breit klassifiziert werden können, erstellen die meisten Organisationen Unterkategorien, wie Reisekosten, Automiete, Hotelkosten oder Bürobedarf.
+- **Gebühr**: Diese Klassifizierung stellt die verschiedenen Aufwände, Strafen und andere Elemente dar, die dem Kunden in Rechnung gestellt werden. 
+- **Steuer**: Diese Klassifizierung stellt die Steuerbeträge dar, die Benutzer hinzufügen, während sie die Ausgaben eingeben.
+- **Materialtransaktion**: Diese Klassifizierung stellt die tatsächlichen Werte von Produktzeilen auf einer bestätigten Projektrechnung dar.
+- **Meilenstein**: Diese Klassifizierung wird von der Abrechnungslogik mit Festpreis verwendet.
 
 Eine oder mehrere dieser Transaktionsklassifizierungen können den einzelnen Angebotszeilen zugeordnet werden. Nachdem ein Angebot gewonnen wurde, wird das Mapping zwischen der Transaktionsklassifizierung und der Angebotszeile an die Vertragszeile übertragen.
   
@@ -90,16 +90,16 @@ Beispielsweise könnte ein Angebot die folgenden zwei Angebotszeilen enthalten:
 - Zugehörige Reisekosten, die eine Abrechnungsmethode mit Festpreis verwenden. Beispielsweise werden alle Reisekosten für das Beispielprojekt **Dynamics AX-Implementierung** zu einem monetären Festwert in Rechnung gestellt.
 
 > [!NOTE]
-> Die Kombination der Projekt- und Transaktionsklassifizierungen **Zeit** , **Ausgaben** und **Gebühr** , die einer Angebots- oder Vertragszeile zugeordnet sind, müssen eindeutig sein. Wenn die gleiche Kombination einer Projekt- und Transaktionsklasse mehreren Vertrags- oder Angebotszeilen zugeordnet ist, funktioniert Project Operations nicht ordnungsgemäß.
+> Die Kombination der Projekt- und Transaktionsklassifizierungen **Zeit**, **Ausgaben** und **Gebühr**, die einer Angebots- oder Vertragszeile zugeordnet sind, müssen eindeutig sein. Wenn die gleiche Kombination einer Projekt- und Transaktionsklasse mehreren Vertrags- oder Angebotszeilen zugeordnet ist, funktioniert Project Operations nicht ordnungsgemäß.
 
 ## <a name="billing-types"></a>Abrechnungstypen
 
 Mit dem Feld **Abrechnungstyp** wird das Konzept der Fakturierbarkeit definiert. Es ist ein Optionssatz, der über die folgenden möglichen Werte verfügt:
 
-- **Fakturierbar** : Die Kosten, die über diese Rolle/Kategorie anfallen, sind direkte Kosten, die die Projektausführung fördern. Der Kunde zahlt für diese Arbeit. Die Zahlung kann im Rahmen der Methode für Zeit und Materialien oder für einen Festpreis verwaltet werden. Allerdings erhält der Mitarbeiter, der diese Zeit dafür aufwendet, die entsprechende Gutschrift für seine Nutzung.
-- **Nicht fakturierbar** : Die Kosten, die über diese Rolle/Kategorie anfallen, werden als direkte Kosten betrachtet, die die Projektausführung fördern, auch wenn der Kunde diese Tatsache nicht anerkennt und für diese Arbeit nicht zahlt. Der Mitarbeiter, der diese Zeit aufwendet, erhält keine Gutschrift mit einer abrechenbaren Nutzung dafür.
-- **Kostenlos** : Die Kosten, die über diese Rolle/Kategorie anfallen, werden als direkte Kosten betrachtet, die die Projektausführung fördern, und der Kunde erkennt diese Tatsache an. Der Mitarbeiter, der diese Zeit aufwendet, erhält dafür eine Gutschrift für eine abrechenbare Nutzung. Diese Kosten werden dem Kunden jedoch nicht in Rechnung gestellt.
-- **Nicht verfügbar** : Die Kosten, die für interne Projekte entstehen, und für die keine Umsatzverfolgung erforderlich ist, werden mithilfe dieser Option nachverfolgt.
+- **Fakturierbar**: Die Kosten, die über diese Rolle/Kategorie anfallen, sind direkte Kosten, die die Projektausführung fördern. Der Kunde zahlt für diese Arbeit. Die Zahlung kann im Rahmen der Methode für Zeit und Materialien oder für einen Festpreis verwaltet werden. Allerdings erhält der Mitarbeiter, der diese Zeit dafür aufwendet, die entsprechende Gutschrift für seine Nutzung.
+- **Nicht fakturierbar**: Die Kosten, die über diese Rolle/Kategorie anfallen, werden als direkte Kosten betrachtet, die die Projektausführung fördern, auch wenn der Kunde diese Tatsache nicht anerkennt und für diese Arbeit nicht zahlt. Der Mitarbeiter, der diese Zeit aufwendet, erhält keine Gutschrift mit einer abrechenbaren Nutzung dafür.
+- **Kostenlos**: Die Kosten, die über diese Rolle/Kategorie anfallen, werden als direkte Kosten betrachtet, die die Projektausführung fördern, und der Kunde erkennt diese Tatsache an. Der Mitarbeiter, der diese Zeit aufwendet, erhält dafür eine Gutschrift für eine abrechenbare Nutzung. Diese Kosten werden dem Kunden jedoch nicht in Rechnung gestellt.
+- **Nicht verfügbar**: Die Kosten, die für interne Projekte entstehen, und für die keine Umsatzverfolgung erforderlich ist, werden mithilfe dieser Option nachverfolgt.
 
 ## <a name="invoice-schedule"></a>Rechnungszeitplan
 
@@ -115,11 +115,11 @@ Diese drei Attributwerte werden verwendet, um einen vorläufigen Satz an Datumsa
 
 Die Rechnungshäufigkeit ist eine Entität, bei der Attributwerte gespeichert werden, die dabei helfen, die Häufigkeit der Rechnungserstellung auszudrücken. Der folgende Attribute drücken die Entität für die Rechnungshäufigkeit aus oder definieren sie:
 
-- **Periode** : Monatlich, zweiwöchentlich und wöchentliche Perioden werden unterstützt. 
-- **Ausführungen pro Periode** : Für wöchentliche und zweiwöchentliche Perioden können Sie nur eine Ausführung pro Periode definieren. Für Perioden von einem Monat können Sie zwischen einer und vier Ausführungen pro Periode definieren. 
-- **Tage der Ausführung** : Die Tage, an denen die Rechnungsstellung ausgeführt werden soll. Sie können dieses Attribut auf zwei Arten konfigurieren:
-  - **Wochentage** : Zum Beispiel können Sie angeben, dass die Rechnungsstellung jeden Montag oder jeden zweiten Montag ausgeführt werden soll. Kunden, die festlegen müssen, dass die Rechnungsstellung an einem Werktag ausgeführt werden soll, bevorzugen unter Umständen diese Art der Konfiguration. 
-  - **Kalendertage** : Sie können zum Beispiel angeben, dass die Rechnungsstellung am siebten und einundzwanzigsten Tag jedes Monats ausgeführt wird. Einige Organisationen bevorzugen unter Umständen diese Art der Konfiguration, weil damit garantiert werden kann, dass die Rechnungsstellung jeden Monat gemäß einem festen Zeitplan ausgeführt wird.
+- **Periode**: Monatlich, zweiwöchentlich und wöchentliche Perioden werden unterstützt. 
+- **Ausführungen pro Periode**: Für wöchentliche und zweiwöchentliche Perioden können Sie nur eine Ausführung pro Periode definieren. Für Perioden von einem Monat können Sie zwischen einer und vier Ausführungen pro Periode definieren. 
+- **Tage der Ausführung**: Die Tage, an denen die Rechnungsstellung ausgeführt werden soll. Sie können dieses Attribut auf zwei Arten konfigurieren:
+  - **Wochentage**: Zum Beispiel können Sie angeben, dass die Rechnungsstellung jeden Montag oder jeden zweiten Montag ausgeführt werden soll. Kunden, die festlegen müssen, dass die Rechnungsstellung an einem Werktag ausgeführt werden soll, bevorzugen unter Umständen diese Art der Konfiguration. 
+  - **Kalendertage**: Sie können zum Beispiel angeben, dass die Rechnungsstellung am siebten und einundzwanzigsten Tag jedes Monats ausgeführt wird. Einige Organisationen bevorzugen unter Umständen diese Art der Konfiguration, weil damit garantiert werden kann, dass die Rechnungsstellung jeden Monat gemäß einem festen Zeitplan ausgeführt wird.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Rechnungszeitplan für eine Angebotszeile mit Festpreis
 
