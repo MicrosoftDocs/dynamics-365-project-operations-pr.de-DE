@@ -1,6 +1,6 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Los geht's
+- name: Erste Schritte
   items:
     - name: Bereitstellungstyp festlegen
       href: environment/determine-deployment-type.md
@@ -8,7 +8,7 @@
       href: whats-new/project-operations-updates.md
 - name: Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
   items:
-    - name: Los geht's
+    - name: Erste Schritte
       items:
         - name: Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen – Bereitstellungsübersicht
           href: environment/project-operations-integrated-deployment-overview.md
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Neuigkeiten
       items:
+        - name: Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Projektvertriebsprozess
@@ -87,7 +89,7 @@
                 - name: Mehrere Kunden in projektbasierten Angebotspositionen verwalten
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Die kostenpflichtigen Komponenten einer Projektangebotsposition konfigurieren
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Schätzungen in einer Angebotsposition erstellen
                   href: sales/create-estimate-quote-line.md
                 - name: Schätzungen aus einem Projekt in eine projektbasierte Angebotsposition importieren
@@ -109,7 +111,7 @@
             - name: Projektpreislisten in Projektverträgen verwalten
               href: sales/contracts-manage-project-price-lists.md
             - name: Mehrere Kunden in Projektverträgen verwalten
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projektbasierte Vertragszeilen
               items:
                 - name: Projektbasierte Vertragszeilen – Übersicht
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Einen Projektvertrag kopieren
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Vorauszahlungen und Vorschüsse
+              items:
+                - name: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge – Lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Einen Vorschusszeitplan einrichten – Lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Eine Ad-hoc-Vorauszahlung für einen Vertrag erstellen – Lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preisgestaltung und Kalkulation
       items:
         - name: Preislisteneinrichtung
@@ -158,18 +168,28 @@
           items:
             - name: Preisdimensionen – Übersicht
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Eine Lösung für benutzerdefinierte Preisdimensionen erstellen
+              href: sales/create-solution-custompd.md
             - name: Vorhandene Felder als Preisdimensionen verwenden
               items:
                 - name: Project Operations-Felder als Preisdimensionen
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Eine buchbare Ressourcen als Preisdimension verwenden
+                  href: sales/use-br-as-pd.md
+                - name: Transaktionskategorie als Preisdimension verwenden
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Buchbare Ressource mit mehrere Rollen in einem Projekt
+                  href: sales/br-playing-multiple-roles.md
             - name: Benutzerdefinierte Felder als Preisdimensionen
               items:
                 - name: Benutzerdefinierte Felder und Entitäten als Preisdimensionen erstellen
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Benutzerdefinierte Felder zur Preisgestaltung und zu Transaktionsentitäten hinzufügen
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Benutzerdefinierte Felder als Preisdimensionen einrichten
+                - name: Einrichten von benutzerdefinierten Feldern als Preisdimensionen
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Plug-In-Attribute zum Einbinden neuer Preisdimensionen aktualisieren
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Eine Preisdimension deaktivieren
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektmanagement
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Verwaltung von Ressourcen
           items:
+            - name: Ressourcen erstellen
+              href: resource-management/create-resources.md
             - name: Fähigkeiten und Kompetenzstufen definieren
               href: resource-management/define-skills-proficiencies.md
+            - name: Rollen definieren
+              href: resource-management/define-roles.md
             - name: Ressourcenkalender definieren
               href: resource-management/define-resource-calendars.md
         - name: Buchungszuteilungsmethoden
           href: resource-management/booking-allocation-methods.md
+        - name: Buchungsstatus
+          href: resource-management/booking-status.md
         - name: Fähigkeiten und Kompetenzstufenmodelle
           href: resource-management/skills-proficiency-models.md
         - name: Ressourcenabstimmung
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Eine Proforma-Projektrechnung verwalten
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Eine Vorauszahlung oder einen Vorschuss abrechnen
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Eine Proforma-Projektrechnung bestätigen
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Projektrechnungsautomation konfigurieren
@@ -370,9 +398,35 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integrationsjournal in Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Intercompany-Rechnungsstellung
+          items:
+            - name: Intercompany-Rechnungsstellung – Übersicht
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Intercompany-Rechnungsstellung konfigurieren
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Intercompany-Transaktionen erstellen
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Umsatzerkennung
+      items:
+        - name: Umsatzrealisierungsübersicht
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Umsatzrealisierung einrichten
+          items:
+            - name: Periodentypen einrichten
+              href: project-accounting/period-types.md
+            - name: Kostenvorlagen einrichten
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Umsatzschätzungen verwalten
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Projektvorkalkulation (Festpreis) des Umsatzes
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Methoden für die Kosten zur Fertigstellung
+          href: revenue-recognition/cost-complete-methods.md
 - name: Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
   items:
-    - name: Los geht's
+    - name: Erste Schritte
       items:
         - name: Lite-Bereitstellung – Übersicht
           href: pro/project-operations-overview-lite.md
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
+        - name: Neuigkeiten für Dezember 2020 – Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: Neuigkeiten für November 2020 – Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektvertriebsprozess
@@ -538,18 +594,28 @@
           items:
             - name: Preisdimensionen – Übersicht
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Eine Lösung für benutzerdefinierte Preisdimensionen erstellen
+              href: sales/create-solution-custompd.md
             - name: Vorhandene Felder als Preisdimensionen verwenden
               items:
-                - name: Ein vorhandenes Feld als Preisdimension verwenden
+                - name: Project Operations-Felder als Preisdimensionen
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Eine buchbare Ressourcen als Preisdimension verwenden
+                  href: sales/use-br-as-pd.md
+                - name: Transaktionskategorie als Preisdimension verwenden
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Buchbare Ressource mit mehrere Rollen in einem Projekt
+                  href: sales/br-playing-multiple-roles.md
             - name: Benutzerdefinierte Felder als Preisdimensionen
               items:
                 - name: Benutzerdefinierte Felder und Entitäten als Preisdimensionen erstellen
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Benutzerdefinierte Felder zur Preisgestaltung und zu Transaktionsentitäten hinzufügen
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Benutzerdefinierte Felder als Preisdimensionen einrichten
+                - name: Einrichten von benutzerdefinierten Feldern als Preisdimensionen
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Plug-In-Attribute zum Einbinden neuer Preisdimensionen aktualisieren
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Eine Preisdimension deaktivieren
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projektmanagement
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Verwaltung von Ressourcen
           items:
+            - name: Ressourcen erstellen
+              href: resource-management/create-resources.md
             - name: Fähigkeiten und Kompetenzstufen definieren
               href: resource-management/define-skills-proficiencies.md
+            - name: Rollen definieren
+              href: resource-management/define-roles.md
             - name: Ressourcenkalender definieren
               href: resource-management/define-resource-calendars.md
         - name: Zuteilungsmethoden buchen
           href: resource-management/booking-allocation-methods.md
+        - name: Buchungsstatus
+          href: resource-management/booking-status.md
         - name: Fähigkeiten und Kompetenzstufenmodelle
           href: resource-management/skills-proficiency-models.md
         - name: Ressourcenabstimmung
@@ -834,6 +906,8 @@
       items:
         - name: "Update-Releasezeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 26, V3?'
+          href: psa/whats-new-ur-26.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 25, V3?'
           href: psa/whats-new-ur-25.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 24, V3?'
@@ -926,9 +1000,9 @@
               href: psa/custompricingdimensionssolution.md
             - name: Benutzerdefinierte Felder und Entitäten erstellen
               href: psa/create-custom-fields-entities.md
-            - name: Hinzufügen von benutzerdefinierten Feldern zur Preisgestaltung und zu Transaktionsentitäten
+            - name: Benutzerdefinierte Felder zur Preisgestaltung und zu Transaktionsentitäten hinzufügen
               href: psa/field-references.md
-            - name: Einrichten von benutzerdefinierten Feldern als Preisdimensionen
+            - name: Benutzerdefinierte Felder als Preisdimensionen einrichten
               href: psa/set-up-pricing-dimensions.md
             - name: Plug-In-Attribute zum Einbinden neuer Preisdimensionen aktualisieren
               href: psa/update-plug-in-attributes.md
@@ -936,9 +1010,9 @@
               items:
                 - name: Ein vorhandenes Feld in Project Service als Preisdimension verwenden
                   href: psa/use-existing-field.md
-                - name: Verwenden buchbarer Ressourcen als Preisdimension
+                - name: Buchbare Ressourcen als Preisdimension verwenden
                   href: psa/bookable-resource-pricing-dimension.md
-                - name: Verwenden der Transaktionskategorie als Preisdimension
+                - name: Transaktionskategorie als Preisdimension verwenden
                   href: psa/transaction-category-pricing-dimension.md
             - name: Buchbare Ressource mit mehrere Rollen in einem Projekt
               href: psa/bookable-resource-multiple-roles.md
