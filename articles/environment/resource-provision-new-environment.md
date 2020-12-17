@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121172"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642969"
 ---
 # <a name="provision-a-new-environment"></a>Eine neue Umgebung bereitstellen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Dieses Thema enthält Informationen zum Bereitstellen einer neuen Dynamics 365 Project Operations-Umgebung für Szenarien mit vorrätigen/nicht vorrätigen Ressourcen.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dieses Thema enthält Informationen zur Bereitstellung einer neuen Dynamics 365 Project Operations-Umgebung für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Automatisierte Project Operations-Bereitstellung in einem LCS-Projekt aktivieren
 
@@ -120,7 +122,7 @@ Die Wartung der Umgebung wird einige Zeit dauern. Nach Abschluss des Vorgangs ke
 
 ![Lösungen anwenden](./media/13ApplySolutions.png)
 
-5. Wählen Sie beide Lösungen, **Dynamics 365 Finance and Operations Dual Write Entity Map** und **Dynamics 365 Project Operations Dual Write Entity Maps** und dann **Anwenden** aus.
+5. Wählen Sie beide Lösungen, **Dynamics 365 Finance and Operations Dual Write Entity Map** und **Dynamics 365 Project Operations Dual Write Entity Maps**, und dann **Anwenden** aus.
 
 ![Lösungen bestätigen](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Die Aktualisierung dauert ungefähr 20 Minuten. Sie erhalten eine Benachrichtigu
 | --- | --- | --- | --- | --- | --- |
 | **Projektressourcenrollen für alle Unternehmen(bookableresourcecategories)** | Nr. | Ja | Common Data Service | Nr. | Nicht zutreffend |
 | **Juristische Personen (cdm\_companies)** | Nr. | Ja | Finance and Operations-Apps | Nr. | Nicht zutreffend |
+| **Sachkonto (msdyn_ledgers)** | Nr. | Ja | Finance and Operations-Apps | Ja | Ja, Finance and Operations-Apps |
 | **Tatsächliche Werte der Project Operations-Integration (msdyn\_actuals)** | Nr. | Nr. | Nicht zutreffend | Ja | Nr. |
 | **Projektvertragszeilen (salesorderdetails)** | Nr. | Nr. | Nicht zutreffend | Nr. | Nr. |
 | **Integrationsentität für die Projekttransaktionsbeziehungen (msdyn\_transactionconnections)** | Nr. | Nr. | Nicht zutreffend | Nr. | Nicht zutreffend |

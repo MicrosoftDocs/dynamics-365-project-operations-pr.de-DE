@@ -3,21 +3,24 @@ title: Project Operations-Updates
 description: Dieses Thema enthält Informationen zu den veröffentlichten Versionen von Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/02/2020
+ms.date: 12/07/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2d1a6b411f17ddf1633443c2cf1526f3424efac6
-ms.sourcegitcommit: 3a10fb3b7eaaa983e562ba9cda0576966e09421b
+ms.openlocfilehash: acafb97b2bb20deaf12db12cd9238cf5ad0817a9
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4404105"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689409"
 ---
 # <a name="project-operations-updates"></a>Project Operations-Updates
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung und Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="project-operations-components"></a>Project Operations-Komponenten
 
@@ -30,9 +33,9 @@ Dynamics 365 Project Operations besteht aus zwei Komponenten:
 
 | Project Operations für CDS-Umgebung | Projektmanagement und Buchhaltung in Finance and Operations-App-Umgebungen |
 | --- | --- |
-| 4.4.0.70 | 10.0.14 |
+| 4.5.0.134 | 10.0.15 |
 
-Project Operations – Versionshinweise für November 2020 für [vorrätige/nicht vorrätige Ressourcen](whats-new-nov-2020-resource-based.md), [vorrätige Ressourcen/Fertigung](../prod-pma/whats-new/whats-new-nov-2020-production-based.md) und [Lite-Bereitstellung](../pro/whats-new/whats-new-nov-2020-lite.md).
+Project Operations Dezember 2020-Versionshinweise für [vorrätige/nicht-vorrätige Ressourcen](whats-new-dec-2020-resource-based.md)
 
 ## <a name="release-schedule-for-project-operations-on-cds-environment"></a>Release-Zeitplan für Project Operations in einer CDS-Umgebung
 
@@ -41,18 +44,18 @@ Updates für Project Operations in einer CDS-Umgebung sind monatlich verfügbar.
 | Station   | Region        | Aktuelle Version | Nächste Version | Allgemein verfügbar |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Südamerika |  4.4.0.70       | TBD     | 20. November 2020           |
-|    &nbsp; | Kanada        |  4.4.0.70       | TBD     | 20. November 2020           |
-|   &nbsp;  | Indien         |  4.4.0.70       | TBD     | 20. November 2020           |
+|   &nbsp;  | Südamerika |  4.5.0.134       | TBD     | 08. Jan 21           |
+|    &nbsp; | Kanada        |  4.5.0.134       | TBD     | 08. Jan 21          |
+|   &nbsp;  | Indien         |  4.5.0.134       | TBD     | 08. Jan 21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.4.0.70       | TBD     | 04. Dezember 2020           |
-|   &nbsp;  | Asien-Pazifik  |  4.4.0.70       | TBD     | 04. Dezember 2020           |
-|   &nbsp;  | Großbritannien |  4.4.0.70       | TBD     | 04. Dezember 2020           |
-|   &nbsp;  | Ozeanien       |  4.4.0.70       | TBD     | 04. Dezember 2020           |
+|   &nbsp;  | Japan         |  4.5.0.134       | TBD     | 15. Jan 21           |
+|   &nbsp;  | Asien-Pazifik  |  4.5.0.134       | TBD     | 15. Jan 21           |
+|   &nbsp;  | Großbritannien |  4.5.0.134       | TBD     | 15. Jan 21           |
+|   &nbsp;  | Ozeanien       |  4.5.0.134       | TBD     | 15. Jan 21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.4.0.70       | TBD     | 11. Dezember 2020           |
+|   &nbsp;  | Europa        |  4.4.0.70       | 4.5.0.134     | 11. Dezember 2020           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Nordamerika | 4.3.0.61        | 4.4.0.70     | 15. November 2020           |
+|   &nbsp;  | Nordamerika |  4.4.0.70       | 4.5.0.134     | 18. Dez 20           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Release-Zeitplan für Projektmanagement und Buchhaltung in der Finance and Operations-Apps-Umgebung
 
@@ -60,13 +63,13 @@ Updates für Projektmanagement und Buchhaltung werden achtmal im Jahr veröffent
 
 | Unterstützte Version | Allgemein verfügbar (Selbstaktualisierung) |
 | --- | --- |
+| 10.0.15 | 4. Dezember 2020 |
 | 10.0.14 | 23. Oktober 2020 |
-| 10.0.13 (mit Qualitätsupdates ab dem 2. Oktober 2020) | 18. September 2020 |
 
 Geplante Veröffentlichungstermine können sich ändern. Weitere Informationen finden Sie unter [Verfügbarkeit von Serviceupdates](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json)
 
 | Geplantes Veröffentlichungsdatum | Allgemein verfügbar (Selbstaktualisierung) |
 | --- | --- |
-| 10.0.15 | 4. Dezember 2020 |
 | 10.0.16 | 22. Jan. 2021 |
+| 10.0.17 | 1. Februar 2021 |
 

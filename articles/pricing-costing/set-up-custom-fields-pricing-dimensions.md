@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119417"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650208"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Benutzerdefinierte Felder als Preisdimensionen einrichten
 
@@ -41,9 +41,15 @@ Dieses Thema enthält Informationen zum Einrichten von benutzerdefinierten Preis
 Damit ein Feld zu einer Preisdimension wird, muss es:
 
 - als Feld in den Entitäten **Rollenpreis** und **Rollenpreisaufschlag** erstellt werden. Weitere Informationen hierzu erhalten Sie unter [Hinzufügen benutzerdefinierter Felder zum Preis und zu Transaktionsentitäten](add-custom-fields-price-setup-transactional-entities.md).
+
 - als Zeile in der Tabelle **Preisdimension** erstellt worden sein. Beispielsweise können Sie Preisdimensionszeilen, wie in der folgenden Grafik dargestellt, hinzufügen. 
 
+![Betragsbasierte Preisdimensionszeilen](media/Amt-based-PD.png)
+
 Beachten Sie, dass die Arbeitszeiten (**msdyn_resourceworkhours**) als aufschlagsbasierte Dimension hinzugefügt wurde und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
+
+![Aufschlagsbasierte Preisdimensionszeilen](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Jegliche Änderungen an Preisdimensionsdaten in der Tabelle, ob bei vorhandenen oder neuen Daten, werden erst weitergegeben, wenn der Cache aktualisiert wird. Die Aktualisierungszeit des Cache kann bis zu 10 Minuten betragen. Warten Sie diese Zeit ab, um die Änderungen in der Preis-Standardlogik anzuzeigen, die aus Änderungen an den Preisdimensionsdaten resultieren müssen.

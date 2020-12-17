@@ -3,17 +3,17 @@ title: Ausgabeneintrag (Lite)
 description: Dieses Thema enthält Informationen zum Arbeiten mit Ausgabeneintrag in einer Lite-Bereitstellung.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121082"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590945"
 ---
 # <a name="expense-entry-lite"></a>Ausgabeneintrag (Lite)
 
@@ -21,7 +21,7 @@ _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
 
 Basic oder Lite, die Ausgabenverwaltung ist die Fähigkeit, einfache Ausgaben zu erfassen. Sie können Ausgaben für ein Projekt erfassen, und der Projektgenehmiger überprüft und genehmigt sie.
 
-Weitere Informationen zu den Ausgabefunktionen in Dynamics 365 Project Operations finden Sie unter [Ausgabenübersicht](expense-overview.md).
+Weitere Informationen zu Kostenfunktionen in Dynamics 365 Project Operations finden Sie unter [Ausgaben – Übersicht](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Eine Grundausgabe erfassen
 
@@ -36,6 +36,10 @@ Nachdem Sie alle Ihre Ausgaben erfasst haben und bereit sind, sie genehmigen zu 
 
 1. Wechseln Sie zu **Ausgaben** und wählen Sie eine Ausgabe. Oder wählen Sie alle Ausgaben aus, indem Sie das Kontrollkästchen in der Kopfzeile verwenden.
 2. Wählen Sie **Übermitteln** aus. Das System verarbeitet die ausgewählten Einträge und erstellt dann Kostengenehmigungsanforderungen.
+
+## <a name="add-an-attachment"></a>Anlage hinzufügen
+
+Möglicherweise müssen Sie dem Genehmigenden zusätzliche Unterlagen zu Ihren Ausgaben vorlegen. Sie können eine Quittung in der Zeitleiste der Spesenbuchung anhängen. Wählen Sie **Bearbeiten** und im Bereich **Zeitleiste** dann das Büroklammersymbol aus, um Ihre Quittung anzuhängen.
 
 ## <a name="recall-a-basic-expense"></a>Eine Grundausgabe zurückrufen
 

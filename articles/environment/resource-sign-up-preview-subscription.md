@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121127"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642956"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Sich für Szenarien bei Project Operations-Vorschauabonnements für vorrätige/nicht vorrätige Ressourcen anmelden
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In diesem Thema wird erläutert, wie Sie das Vorschau-/Partnerangebot abonnieren und die Project Operations-Umgebung bei Szenarien für vorrätige/nicht vorrätige Ressourcen bereitstellen.
 
@@ -31,18 +33,18 @@ In diesem Thema wird erläutert, wie Sie das Vorschau-/Partnerangebot abonnieren
 
 Wenn Ihre [Vorschauanforderung](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) genehmigt wird, erhalten Sie drei Angebote von Microsoft per E-Mail. Mit diesen Angeboten können Sie die Project Operations-Vorschau bereitstellen:
 
-- Dynamics 365 Project Operations (CRM) – Vorschau-Testversion
+- Dynamics 365 Project Operations (CRM)-Vorschautestversion
 - Office 365 Project Operations – Vorschau-Testversion
 - Dynamics 365 Finance – Vorschautestversion
 
 > [!IMPORTANT]
 > Nur eine Person in der Organisation, der Mandanten-Administrator, muss diese Aufgabe ausführen. Wenn Sie nicht Abonnent dieser Version sind, warten Sie, bis Ihre Organisation angemeldet wurde und Sie Ihre Benutzeranmeldeinformationen erhalten haben.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Vorschau-Testversion 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM)-Vorschautestversion 
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie bei einem Browser mit dem Benutzerarbeitskonto im Mandanten angemeldet sind, in dem Sie die Vorschau des Projektvorgangs anzeigen möchten.
 
-1. Lösen Sie den ersten Angebotscode **Dynamics 365 Project Operations (CRM) – Vorschau-Testversion** ein, indem Sie ihn in die Browser-URL einfügen.
+1. Lösen Sie den ersten Angebotscode **Dynamics 365 Project Operations (CRM)-Vorschautestversion** durch Einfügen in die Browser-URL ein.
 
 ![Angebot einlösen](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Wiederholen Sie dieselben Schritte mit dem letzten Angebot aus der Begrüßungs-
 
 ![Lizenzen zuweisen](./media/15AssignLicenses.png)
 
-3. Stellen Sie sicher, dass die Lizenzen **Dynamics 365 Project Operations (CRM) Vorschau** und **Office 365 Project Operations - Vorschau** ausgewählt sind, und wählen Sie **Änderungen speichern** aus.
+3. Stellen Sie sicher, dass die **Dynamics 365 Project Operations (CRM)-Vorschau**- und **Office 365 Project Operations – Vorschau**-Lizenz ausgewählt sind und wählen Sie **Änderungen speichern**.
 
 > [!NOTE]
 > Das Finance-Testangebot muss keinem Benutzer zugewiesen werden.

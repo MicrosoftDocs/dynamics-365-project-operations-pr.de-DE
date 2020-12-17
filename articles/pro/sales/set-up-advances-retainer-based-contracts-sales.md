@@ -1,5 +1,5 @@
 ---
-title: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge – Lite
+title: Vorschüsse und vorauszahlungsbasierte Verträge
 description: Dieses Thema enthält Informationen über vorauszahlungsbasierte Vertragsmodell und Vorschüsse in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180866"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596101"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Vorauszahlungen oder auf dem Vorbehalt basierende Verträge – Lite
+# <a name="advances-and-retainer-based-contracts"></a>Vorauszahlungen oder auf dem Vorbehalt basierende Verträge
 
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations unterstützt auf Vorauszahlungen basierende Verträge. Ein auf Vorauszahlungen basierender Vertrag ist ein ausgehandelter Satz gleichmäßig verteilter Zahlungen, die dem Kunden während der gesamten Projektdauer in Rechnung gestellt werden. Diese Art von Vertrag wird normalerweise für Zeit- und Material- oder verbrauchsabhängige Abrechnungsmodelle verwendet, bei denen dem Kunden ein vorhersehbarer Rechnungs- und Zahlungsplan vorgelegt werden muss. In jeder Periode aufgelaufene tatsächliche Umsatzerlöse werden mit der Zahlung abgeglichen, die der Kunde zu Beginn der Periode erhalten hat. Gemäß dem Konzept des Zeit- und Materialfakturierungsmodells können die in jeder Periode aufgelaufenen Umsatzwerte mit den angefallenen Kosten variieren. Wenn die aufgelaufenen Umsätze höher sind als der zu Beginn des Zeitraums erhaltene Betrag, könnte das Unternehmen der Projektbereitstellung:
+Dynamics 365 Project Operations unterstützt auf Vorbehalt basierende Verträge. Ein auf Vorauszahlungen basierender Vertrag ist ein ausgehandelter Satz gleichmäßig verteilter Zahlungen, die dem Kunden während der gesamten Projektdauer in Rechnung gestellt werden. Diese Art von Vertrag wird normalerweise für Zeit- und Material- oder verbrauchsabhängige Abrechnungsmodelle verwendet, bei denen dem Kunden ein vorhersehbarer Rechnungs- und Zahlungsplan vorgelegt werden muss. In jeder Periode aufgelaufene tatsächliche Umsatzerlöse werden mit der Zahlung abgeglichen, die der Kunde zu Beginn der Periode erhalten hat. Gemäß dem Konzept des Zeit- und Materialfakturierungsmodells können die in jeder Periode aufgelaufenen Umsatzwerte mit den angefallenen Kosten variieren. Wenn die aufgelaufenen Umsätze höher sind als der zu Beginn des Zeitraums erhaltene Betrag, könnte das Unternehmen der Projektbereitstellung:
 
 - Dem Debitor nur den Überschuss in Rechnung stellen 
 - Die Abstimmung des Umsatzes auf die nächste Rechnungsperiode verschieben und am Ende des Projekts eine endgültige Rechnung für verbleibende nicht abgestimmte Umsätze erstellen

@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076658"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642632"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation zu Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Verträgen und Projekten direkt zwischen Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
 
@@ -109,7 +111,7 @@ Wenn die Integrationslösung Project Service Automation zu Finance angewendet wi
 - Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdy\_Organisationseinheiten** zu **msdyn\_Name \[Name\]** hinzu. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdyn\_Projekte** zu **msdynce\_projectnumber \[Projektnummer\]**. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** für Projektverträge und Projekte können auf einen anderen Wert aktualisiert oder aus dem Mapping entfernt werden. Der Standardvorlagenwert ist **Project Service Automation**.
-- Das **Zahlungsbedingungen** -Mapping muss aktualisiert werden, damit es die gültigen Zahlungsbedingungen in Finance widerspiegelt. Sie können das Mapping auch aus der Projektaufgabe entfernen. Die Standardwertzuordnung enthält Standardwerte für Demodaten. Die folgende Tabelle zeigt die Werte in Project Service Automation.
+- Das **Zahlungsbedingungen**-Mapping muss aktualisiert werden, damit es die gültigen Zahlungsbedingungen in Finance widerspiegelt. Sie können das Mapping auch aus der Projektaufgabe entfernen. Die Standardwertzuordnung enthält Standardwerte für Demodaten. Die folgende Tabelle zeigt die Werte in Project Service Automation.
 
     | Value | Beschreibung   |
     |-------|---------------|
@@ -133,9 +135,9 @@ Wenn Sie Power Query verwenden müssen, folgen Sie diesen Richtlinien:
 ## <a name="template-mapping-in-data-integration"></a>Vorlagenzuordnung in der Datenintegration
 
 > [!NOTE] 
-> Die Felder **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AdressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** , und **AddressZipCode** sind in der Standardzuordnung für Projektverträge nicht enthalten. Sie können die Zuordnungen hinzufügen, wenn diese Daten für Projektverträge synchronisiert werden sollen.
+> Die Felder **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AdressDescription**, **AddressLine1**, **AddressLine2**, **AddressState**, und **AddressZipCode** sind in der Standardzuordnung für Projektverträge nicht enthalten. Sie können die Zuordnungen hinzufügen, wenn diese Daten für Projektverträge synchronisiert werden sollen.
 >
-> Die Felder **Beschreibung** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** , und **ProjektType** sind in der Standardzuordnung für Projekte nicht enthalten. Sie können die Zuordnungen hinzufügen, wenn diese Daten für Projekte synchronisiert werden sollen.
+> Die Felder **Beschreibung**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber**, und **ProjektType** sind in der Standardzuordnung für Projekte nicht enthalten. Sie können die Zuordnungen hinzufügen, wenn diese Daten für Projekte synchronisiert werden sollen.
 
 Die folgende Abbildung zeigt Beispiele für die Zuordnung von Vorlagenaufgaben in der Datenintegration. Das Mapping zeigt die Feldinformationen an, die von Project Service Automation zu Finance synchronisiert werden.
 

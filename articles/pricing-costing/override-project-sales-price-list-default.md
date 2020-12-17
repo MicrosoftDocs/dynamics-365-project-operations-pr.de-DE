@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130847"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672230"
 ---
 # <a name="override-project-sales-price-lists"></a>Standardeinstellungen für Projektvertriebs-Preislisten außer Kraft setzen
 
@@ -27,7 +28,7 @@ Um eine kundenspezifische Projektpreisliste einzurichten, navigieren Sie im Bere
 
 1. Öffnen Sie die **Konten**-Listenseite.
 2. Suchen Sie einen Kundendatensatz und doppelklicken Sie darauf, um die **Konto**-Detailseite zu öffnen.
-3. Wählen Sie auf der **Projektpreislisten**-Registerkarte **+ Neue Projektpreisliste hinzufügen^^.
+3. Wählen Sie auf der **Projektpreislisten**-Registerkarte **+ Neue Projektpreisliste hinzufügen**.
 4. Auf der Seite **Neue Projektpreisliste** wählen Sie eine Preisliste aus der Dropdown-Liste aus. Nur Preislisten, für die der Kontext auf **Vertrieb** festgelegt ist und deren Währung mit der Kontowährung übereinstimmt, sind enthalten.
 5. Geben Sie einen Namen für die Zuordnung ein, und wählen Sie **Speichern** aus. Es wird eine kundenspezifische Projektpreisliste erstellt. Diese Preisliste wird verwendet, um Projektpreise für Projektangebote oder Verträge, die für diesen Kunden erstellt wurden, als Standard festzulegen, wenn das Erstellungsdatum des Angebots oder des Projektvertrags innerhalb des Datums der Gültigkeitsdauer der Preisliste liegt.
 

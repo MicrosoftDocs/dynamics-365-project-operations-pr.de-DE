@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129677"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642767"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Verwenden Sie das Project Service Automation-Add-In, um Ihre Arbeit in Microsoft Project planen
 
@@ -92,7 +92,7 @@ Das Projekt wird in [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-Diagramme**   | Importe im Bildschirm in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektstrukturplan**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ressourcenblatt** |   Importe im Bildschirm [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektteammitglieder**.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Verwendungs-Verwendung**    |    Omports im Bildschirm [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektschätzungen**.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Verwendungs-Verwendung**    |    Import im Bildschirm [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektschätzungen**.     |
 
 **Projekt importieren und veröffentlichen**  
 1. Klicken Sie in der Registerkarte **Project Service** auf **Veröffentlichen** > **New Project Service Automation**.  
@@ -173,6 +173,59 @@ Das Projekt wird in [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
 4. Klicken Sie auf **Veröffentlichen**.  
 
 Durch das Verknüpfen der Projektdatei mit [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] wird die Projektdatei zur Masterdatei und legt den Projektstrukturplan in der [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Vorlage auf schreibgeschützt fest.  Um Änderungen am Projektplan vorzunehmen, müssen Sie diese in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] vornehmen und sie als Aktualisierungen für [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] veröffentlichen.
+
+## <a name="read-a-resource-loaded-schedule"></a>Lesen Sie einen Zeitplan mit geladenen Ressourcen
+
+Beim Lesen eines Projekts aus Project Service Automation wird der Kalender der Ressource nicht mit dem Desktopclient synchronisiert. Wenn es Unterschiede in der Dauer, dem Aufwand oder dem Ende der Aufgabe gibt, liegt dies wahrscheinlich daran, dass auf die Ressourcen und den Desktopclient nicht derselbe Arbeitsstundenvorlagenkalender auf das Projekt angewendet wird.
+
+
+## <a name="data-synchronization"></a>Datensynchronisierung
+
+In der folgenden Tabelle wird beschrieben, wie Daten zwischen Project Service Automation und dem Microsoft Project-Desktop-Add-In synchronisiert werden.
+
+| **Entität** | **Feld** | **Microsoft Project zu Project Service Automation** | **Project Service Automation zu Microsoft Project** |
+| --- | --- | --- | --- |
+| Projektaufgabe | Fälligkeits- datum | ● | - |
+| Projektaufgabe | Geschätzter Aufwand | ● | - |
+| Projektaufgabe | MS Project-Client-ID | ● | - |
+| Projektaufgabe | Übergeordnete Aufgabe | ● | - |
+| Projektaufgabe | Project | ● | - |
+| Projektaufgabe | Projektaufgabe | ● | - |
+| Projektaufgabe | Name der Projektaufgabe | ● | - |
+| Projektaufgabe | Ressourcenzuordnungseinheit (veraltet in Version 3.0) | ● | - |
+| Projektaufgabe | Geplante Dauer | ● | - |
+| Projektaufgabe | Startdatum | ● | - |
+| Projektaufgabe | PSP-ID | ● | - |
+
+| **Entität** | **Feld** | **Microsoft Project zu Project Service Automation** | **Project Service Automation zu Microsoft Project** |
+| --- | --- | --- | --- |
+| Teammitglied | MS Project-Client-ID | ● | - |
+| Teammitglied | Positionsname | ● | - |
+| Teammitglied | Projekt | ● | ● |
+| Teammitglied | Projektteam | ● | ● |
+| Teammitglied | Ressourcenzuordnungseinheit | - | ● |
+| Teammitglied | Rolle | - | ● |
+| Teammitglied | Arbeitszeit | Nicht synchronisiert | Nicht synchronisiert |
+
+| **Entität** | **Feld** | **Microsoft Project zu Project Service Automation** | **Project Service Automation zu Microsoft Project** |
+| --- | --- | --- | --- |
+| Ressourcenzuweisung | Startdatum | ● | - |
+| Ressourcenzuweisung | Stunden | ● | - |
+| Ressourcenzuweisung | MS Project-Client-ID | ● | - |
+| Ressourcenzuweisung | Geplante Arbeit | ● | - |
+| Ressourcenzuweisung | Project | ● | - |
+| Ressourcenzuweisung | Projektteam | ● | - |
+| Ressourcenzuweisung | Ressourcenzuweisung | ● | - |
+| Ressourcenzuweisung | Task | ● | - |
+| Ressourcenzuweisung | Bis heute | ● | - |
+
+| **Entität** | **Feld** | **Microsoft Project zu Project Service Automation** | **Project Service Automation zu Microsoft Project** |
+| --- | --- | --- | --- |
+| Abhängigkeiten der Projektaufgaben | Abhängigkeit der Projektaufgaben | ● | - |
+| Abhängigkeiten der Projektaufgaben | Verknüpfungstyp | ● | - |
+| Abhängigkeiten der Projektaufgaben | Vorherige Aufgabe | ● | - |
+| Abhängigkeiten der Projektaufgaben | Project | ● | - |
+| Abhängigkeiten der Projektaufgaben | Nachfolgende Aufgabe | ● | - |
 
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)

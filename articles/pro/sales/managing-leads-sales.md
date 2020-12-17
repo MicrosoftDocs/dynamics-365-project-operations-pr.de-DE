@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180506"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513788"
 ---
 # <a name="manage-leads---lite"></a>Leads verwalten – Lite
 
@@ -23,7 +23,7 @@ Projektbasierte Leads können in Project Operations verwaltet und qualifiziert w
 
 ## <a name="list-of-project-sales-leads"></a>Liste der Projektvertriebsleads
 
-Im **Vertrieb**-Abschnitt öffnen Sie im linken Navigationsbereich die **Leads**-Listenseite, um eine Liste aller Lead-Datensätze im System anzuzeigen. Die Liste zeigt Leads die arbeitsbasiert sind und andere Arten von Leads, die erstellt werden können, wenn Sie auch über Dynamics 365 Sales oder Dynamics 365 Field Service-Anwendungen verfügen.
+Im **Vertrieb**-Abschnitt öffnen Sie im linken Navigationsbereich die **Leads**-Listenseite, um eine Liste aller Lead-Datensätze im System anzuzeigen. Die Leads in der Liste sind arbeitsbasiert sowie andere Arten von Leads, die erstellt werden können, wenn Sie auch über Dynamics 365 Sales- oder Dynamics 365 Field Service-Anwendungen verfügen.
 
 Sie können eine gefilterte Ansicht erstellen, um nur projektbasierte Leads anzuzeigen, indem Sie einen Filter für den **Typ**-Wert erstellen. Sie können beispielsweise festlegen, dass nur arbeitsbezogene Leads angezeigt werden.
 

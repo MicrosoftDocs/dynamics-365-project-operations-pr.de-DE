@@ -1,5 +1,5 @@
 ---
-title: Eine Vorauszahlung oder einen Vorschuss abrechnen – Lite
+title: Eine Vorauszahlung oder einen Vorschuss abrechnen
 description: Dieses Thema enthält Informationen zum Fakturieren einer Vorauszahlung oder eines Vorschusses in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180551"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596191"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Eine Vorauszahlung oder einen Vorschuss abrechnen – Lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Eine Vorauszahlung oder einen Vorschuss abrechnen
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations unterstützt auf Vorauszahlungen basierende Verträge und einmalige Vorschüsse. In einem Projektvertrag können Sie einen Zeitplan für Vorauszahlungen oder einen einmaligen Vorschuss aufzeichnen. Durch die Aufzeichnung auf Projektvertragsebene wird jedoch nicht sofort eine Vorauszahlung oder Vorschuss zur Verwendung verfügbar. Um eine Vorauszahlung oder einen Vorschuss auf einer Rechnung zu verwenden, der den Kunden tatsächlich belastet, muss die Vorauszahlung oder der Vorschuss zuerst in Rechnung gestellt werden.
+Dynamics 365 Project Operations unterstützt auf Vorbehalt basierende Verträge und einmalige Vorschüsse. In einem Projektvertrag können Sie einen Zeitplan für Vorauszahlungen oder einen einmaligen Vorschuss aufzeichnen. Durch die Aufzeichnung auf Projektvertragsebene wird jedoch nicht sofort eine Vorauszahlung oder Vorschuss zur Verwendung verfügbar. Um eine Vorauszahlung oder einen Vorschuss auf einer Rechnung zu verwenden, der den Kunden tatsächlich belastet, muss die Vorauszahlung oder der Vorschuss zuerst in Rechnung gestellt werden.
 
 Führen Sie die folgenden Schritte aus, um eine Vorauszahlung oder einen Vorschuss zu fakturieren.
 

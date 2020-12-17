@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124367"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642902"
 ---
 # <a name="security-model"></a>Sicherheitsmodell
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Microsoft Dynamics 365 Project Operations enthält ein einzigartiges Sicherheitsmodell, das ein rollenbasiertes Geschäftssicherheitsmodell ermöglicht, das mit Microsoft Office-Gruppen zusammenarbeitet. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations enthält ein einzigartiges Sicherheitsmodell, das ein rollenbasiertes Geschäftssicherheitsmodell ermöglicht, mit dem in Microsoft Office-Gruppen zusammengearbeitet wird. 
 
 
 ## <a name="security-roles"></a>Sicherheitsrollen
