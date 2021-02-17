@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Demodaten anwenden
           items:
-            - name: Demodaten auf eine in der Cloud gehostete Finance-Umgebung anwenden
-              href: environment/resource-apply-finance-demo-data.md
             - name: Konfigurationsdaten in Common Data Service anwenden
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Umgebungen bereitstellen
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Neuigkeiten
       items:
+        - name: Februar 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Vorauszahlungen und Vorschüsse
               items:
-                - name: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge – Lite
+                - name: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Einen Vorschusszeitplan einrichten – Lite
+                - name: Einen Vorschusszeitplan einrichten
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Eine Ad-hoc-Vorauszahlung für einen Vertrag erstellen – Lite
+                - name: Eine Ad-hoc-Vorauszahlung für einen Vertrag erstellen
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preisgestaltung und Kalkulation
       items:
@@ -186,7 +188,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Benutzerdefinierte Felder zur Preisgestaltung und zu Transaktionsentitäten hinzufügen
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Einrichten von benutzerdefinierten Feldern als Preisdimensionen
+                - name: Benutzerdefinierte Felder als Preisdimensionen einrichten
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Plug-In-Attribute zum Einbinden neuer Preisdimensionen aktualisieren
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Projektstrukturplan erstellen
           items:
+            - name: Einen Projektstrukturplan erstellen
+              href: project-management/create-wbs.md
             - name: Arbeitsaufträge erstellen
               href: project-management/create-assignments.md
         - name: Projekte kalkulieren
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Teammitglieder verwalten
               href: project-management/maintain-team-members.md
+        - name: Problembehandlung für die Arbeit im Aufgabenraster
+          href: project-management/projectplanningUIFAQ.md
         - name: Zusammenarbeit
           items:
             - name: Mit Office-Gruppen zusammenarbeiten
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Vorgeschlagene Ressourcen überprüfen
               href: resource-management/review-proposed-resources.md
+            - name: Buchungen bearbeiten
+              href: resource-management/edit-existing-bookings.md
         - name: Dezentrale Ressourcenbuchung (Hybrid)
           items:
             - name: Teammitglieder aus dem Teammitgliedsraster hinzufügen
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Ausgabenkategorien einrichten
                   href: expense/set-up-expense-categories.md
+            - name: Mit persönlichen Ausgaben in einer Spesenabrechnung arbeiten
+              href: expense/personal-expenses-expense-report.md
             - name: Spesenabrechnungen erstellen
               items:
                 - name: Verteilungen auf einer Spesenabrechnung
@@ -370,22 +380,28 @@
           items:
             - name: Korrekturerfassungen erstellen und bestätigen
               href: actuals/create-confirm-correction-journals.md
-    - name: Proforma-Rechnung
+    - name: Rechnungsstellung
       items:
-        - name: Projektabrechnungsrückstand verwalten
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: 'Status und Validierungen, die nicht überschritten werden dürfen, verwalten'
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Eine Proforma-Projektrechnung manuell erstellen
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Eine Proforma-Projektrechnung verwalten
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Eine Vorauszahlung oder einen Vorschuss abrechnen
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Eine Proforma-Projektrechnung bestätigen
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Projektrechnungsautomation konfigurieren
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Rechnungsverarbeitung – Übersicht
+          href: invoicing/post-project-invoices.md
+        - name: Projektrechnungsvorschläge verwalten
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Proforma-Rechnung
+          items:
+            - name: Projektabrechnungsrückstand verwalten
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: 'Status und Validierungen, die nicht überschritten werden dürfen, verwalten'
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Eine Proforma-Projektrechnung manuell erstellen
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Eine Proforma-Projektrechnung verwalten
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Eine Vorauszahlung oder einen Vorschuss abrechnen
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Eine Proforma-Projektrechnung bestätigen
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Projektrechnungsautomation konfigurieren
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projektbuchhaltung
       items:
         - name: Finanzdimensions-Standardeinstellungen
@@ -404,11 +420,11 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Intercompany-Rechnungsstellung konfigurieren
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Intercompany-Transaktionen erstellen
               href: project-accounting/create-intercompany-transactions.md
-    - name: Umsatzerkennung
+            - name: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Umsatzrealisierung
       items:
         - name: Umsatzrealisierungsübersicht
           href: revenue-recognition/revenue-recognition-overview.md
@@ -418,13 +434,13 @@
               href: project-accounting/period-types.md
             - name: Kostenvorlagen einrichten
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Umsatzschätzungen verwalten
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Projektvorkalkulation (Festpreis) des Umsatzes
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Methoden für die Kosten zur Fertigstellung
           href: revenue-recognition/cost-complete-methods.md
-- name: Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
+        - name: Umsatzschätzungen verwalten
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+- name: "Lite-Bereitstellung\_– Abschluss zur Proforma-Rechnungsstellung"
   items:
     - name: Erste Schritte
       items:
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
-        - name: Neuigkeiten für Dezember 2020 – Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
+        - name: Neuigkeiten für Februar 2021 – Lite-Bereitstellung
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Neuigkeiten für Januar 2021 – Lite-Bereitstellung
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Neuigkeiten für Dezember 2020 – Lite-Bereitstellung
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Neuigkeiten für November 2020 – Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
+        - name: Neuigkeiten für November 2020 – Lite-Bereitstellung
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektvertriebsprozess
       items:
@@ -612,7 +632,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Benutzerdefinierte Felder zur Preisgestaltung und zu Transaktionsentitäten hinzufügen
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Einrichten von benutzerdefinierten Feldern als Preisdimensionen
+                - name: Benutzerdefinierte Felder als Preisdimensionen einrichten
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Plug-In-Attribute zum Einbinden neuer Preisdimensionen aktualisieren
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Projektstrukturplan erstellen
           items:
+            - name: Einen Projektstrukturplan erstellen
+              href: project-management/create-wbs.md
             - name: Arbeitsaufträge erstellen
               href: project-management/create-assignments.md
         - name: Projekte kalkulieren
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Teammitglieder verwalten
               href: project-management/maintain-team-members.md
+        - name: Problembehandlung für die Arbeit im Aufgabenraster
+          href: project-management/projectplanningUIFAQ.md
         - name: Zusammenarbeit
           items:
             - name: Mit Office-Gruppen zusammenarbeiten
               href: project-management/collaboration-groups.md
+        - name: Anmerkungen des Entwicklers
+          items:
+            - name: Projektvorlagen mit Projekt kopieren erstellen
+              href: project-management/dev-copy-project.md
     - name: Ressourcenverwaltung
       items:
         - name: Wichtige Konzepte
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Vorgeschlagene Ressourcen überprüfen
               href: resource-management/review-proposed-resources.md
+            - name: Buchungen bearbeiten
+              href: resource-management/edit-existing-bookings.md
         - name: Dezentrale Ressourcenbuchung (Hybrid)
           items:
             - name: Teammitglieder aus dem Teammitgliedsraster hinzufügen
@@ -772,6 +802,10 @@
   items:
     - name: Neuigkeiten
       items:
+        - name: Neuigkeiten für Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Neuigkeiten für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung – Bereitstellungsübersicht
@@ -906,6 +940,14 @@
       items:
         - name: "Update-Releasezeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 28.5, Hotfix, V3?'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 28, V3?'
+          href: psa/whats-new-ur-28.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 27.5, Hotfix, V3?'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 27, V3?'
+          href: psa/whats-new-ur-27.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 26, V3?'
           href: psa/whats-new-ur-26.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 25, V3?'
@@ -936,7 +978,9 @@
           href: psa/whats-new-ur-13.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 12, V3?'
           href: psa/whats-new-ur-12.md
-        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, Version V3.x Welle 1 2020'
+        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2021'
+          href: psa/whats-new-2021-wave1.md
+        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2020'
           href: psa/whats-new-v3-2020-wave1.md
         - name: 'Neuigkeiten oder Änderungen in Project Service Automation, V3'
           href: psa/whats-new-changed-v3.md
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Projekteinstellungen
               href: psa/project-settings.md
+            - name: Arbeit in Microsoft Project mit dem Project Service-Add-In planen
+              href: psa/add-in-plan-work-projects.md
         - name: Preis- und Kostendimensionen
           items:
             - name: Homepage zu Preis- und Kostendimensionen
