@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076623"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144997"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Verwenden buchbarer Ressourcen als Preisdimension
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Dieses Thema bietet Informationen über das Verwenden von buchbaren Ressourcen als Preisdimension. Bevor Sie beginnen, falls Sie noch keine Preisdimensionslösung erstellt haben, müssen Sie eine neue erstellen. Wenn Sie bereits eine Preisdimensionslösung haben, dann können Sie Ihre Änderungen in dieser Lösung vornehmen. Wenn Sie keine neue Preisdimensionslösung für Ihre Organisation erstellt haben, führen Sie die Prozeduren im Thema [Erstellen benutzerdefinierter Felder und Entitäten](create-custom-fields-entities.md) durch.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Hinzufügen von buchbaren Ressourcen zu Formularen und Ansichten
@@ -48,17 +51,17 @@ Die folgende Tabelle enthält eine umfassende Liste der vorkonfigurierten Formul
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Einrichten von buchbaren Ressourcen als Preisdimension
 
-1. In der Weboberfläche wechseln Sie zu **Project Service** > **Einstellungen** > **Parameter**. Beachten Sie auf der Seite **Parameter** in der Registerkarte **Betragsbasierte Preisdimensionen** , dass das Raster in der Registerkarte die Datensätze in der Entität „Preisdimensionen” anzeigt. 
+1. In der Weboberfläche wechseln Sie zu **Project Service** > **Einstellungen** > **Parameter**. Beachten Sie auf der Seite **Parameter** in der Registerkarte **Betragsbasierte Preisdimensionen**, dass das Raster in der Registerkarte die Datensätze in der Entität „Preisdimensionen” anzeigt. 
 2. Fügen Sie dieser Liste der Preisdimensionen **Buchbare Ressource** als **msdyn_bookableresource** hinzu. 
 3. Geben Sie den Kontext an, in dem die buchbare Ressource als Preisdimension fungiert, und legen Sie die Werte **Gilt für Kosten** und **Gilt für Vertrieb** fest.
 4. Wählen Sie im Feld **Dimensionstyp** die Option **Betragsbasiert** aus. 
-5. Wählen Sie die Kosten- und Vertriebspriorität für die buchbare Ressource aus. Wenn eine buchbare Ressource als Preisdimension einbezogen wird, hat sie in der Regel die höchste Priorität. Wenn Sie diese also auf **1** (oder **0** , je nachdem, wie Sie die Priorität zählen) festlegen, wird dieses Verhalten sichergestellt.
+5. Wählen Sie die Kosten- und Vertriebspriorität für die buchbare Ressource aus. Wenn eine buchbare Ressource als Preisdimension einbezogen wird, hat sie in der Regel die höchste Priorität. Wenn Sie diese also auf **1** (oder **0**, je nachdem, wie Sie die Priorität zählen) festlegen, wird dieses Verhalten sichergestellt.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Einrichten von Feldnamen für Preisdimensionen
 
 Wenn sich der Feldname einer Preisdimension in der Tabelle **Rollenpreis** von dem Feldnamen in einer der anderen Entitäten unterscheidet, in denen der Standardpreis funktionieren muss, muss der Preisdimensionsdatensatz die verschiedenen Namen kennen.    
-Bei einer buchbaren Ressource verfügt die Entität **Projektteammitglieder** über einen geringfügig anderen Feldnamen ( **msdyn_bookableresourceid** ), als die Entität **Rollenpreis** ( **msdyn_bookableresource** ). Der Preisdimensionsdatensatz **msydn_bookableresource** muss diesen kennen. 
-1. Doppelklicken Sie dazu auf die Zeile im Raster **Preisdimensionen** , um die Dimensionsseite von **msdyn_bookableresource** zu öffnen.
+Bei einer buchbaren Ressource verfügt die Entität **Projektteammitglieder** über einen geringfügig anderen Feldnamen (**msdyn_bookableresourceid**), als die Entität **Rollenpreis** (**msdyn_bookableresource**). Der Preisdimensionsdatensatz **msydn_bookableresource** muss diesen kennen. 
+1. Doppelklicken Sie dazu auf die Zeile im Raster **Preisdimensionen**, um die Dimensionsseite von **msdyn_bookableresource** zu öffnen.
 2. Klicken Sie auf der Dimensionsseite auf der Registerkarte **Verknüpft** auf **Preisdimensions-Feldnamen**.
 
  ![Registerkarte „Preisdimensions-Feldnamen”](media/PD-fieldname.png)

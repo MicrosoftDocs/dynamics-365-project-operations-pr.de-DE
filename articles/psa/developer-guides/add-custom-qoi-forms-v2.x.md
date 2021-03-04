@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076718"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144592"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Hinzufügen neuer Formulare der benutzerdefinierten Entität (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Feld „Typ” 
 
-Dynamics 365 Project Service Automation verwendet das Feld **Typ** ( **msdyn\_ordertype** ) der Entitäten „Verkaufschance”, „Angebot”, „Bestellung” und „Rechnung”, um **arbeitsbasierte** Versionen dieser Entitäten von **elementbasierten** und **dienstbasierten** Versionen zu unterscheiden. Arbeitsbasierte Versionen dieser Entitäten werden von PSA verwaltet. Viele Geschäftslogiken auf der Kunden- und Serverseite der Lösung hängen vom Feld **Typ** ab. Daher ist es wichtig, dass das Feld beim Erstellen der Entitäten mit einem korrekten Wert initialisiert wird. Ein falscher Wert kann zu falschem Verhalten führen, und einige Geschäftslogiken werden möglicherweise nicht ordnungsgemäß ausgeführt.
+Dynamics 365 Project Service Automation verwendet das Feld **Typ** (**msdyn\_ordertype**) der Entitäten „Verkaufschance”, „Angebot”, „Bestellung” und „Rechnung”, um **arbeitsbasierte** Versionen dieser Entitäten von **elementbasierten** und **dienstbasierten** Versionen zu unterscheiden. Arbeitsbasierte Versionen dieser Entitäten werden von PSA verwaltet. Viele Geschäftslogiken auf der Kunden- und Serverseite der Lösung hängen vom Feld **Typ** ab. Daher ist es wichtig, dass das Feld beim Erstellen der Entitäten mit einem korrekten Wert initialisiert wird. Ein falscher Wert kann zu falschem Verhalten führen, und einige Geschäftslogiken werden möglicherweise nicht ordnungsgemäß ausgeführt.
 
 ## <a name="automatic-form-switching"></a>Automatischer Formularwechsel
 
@@ -47,7 +49,7 @@ Gehen Sie folgendermaßen vor, um eine benutzerdefinierte Version des Formulars 
     > [!IMPORTANT]
     > Entfernen Sie die Skripte nicht. Andernfalls werden einige Daten möglicherweise nicht ordnungsgemäß initialisiert.
 
-3. Überprüfen Sie, ob das Feld **Typ** ( **msdyn\_ordertype** ) im Formular vorhanden ist. 
+3. Überprüfen Sie, ob das Feld **Typ** (**msdyn\_ordertype**) im Formular vorhanden ist. 
 
     > [!IMPORTANT]
     > Entfernen Sie dieses Feld nicht. Andernfalls schlagen die Initialisierungsskripten fehl.
@@ -59,7 +61,7 @@ Gehen Sie folgendermaßen vor, um eine benutzerdefinierte Version des Formulars 
 
     ![Der Wert „formID” des neuen Formulars in der URL](media/how-to-add-custom-forms-in-v2.0.png)
 
-5. Erstellen Sie eine Zuordnung **msdyn\_ordertype** für den Wert **formId** , indem Sie die Webressource msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js bearbeiten. Entfernen Sie den Code aus der Ressource und ersetzen Sie ihn durch den folgenden Code.
+5. Erstellen Sie eine Zuordnung **msdyn\_ordertype** für den Wert **formId**, indem Sie die Webressource msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js bearbeiten. Entfernen Sie den Code aus der Ressource und ersetzen Sie ihn durch den folgenden Code.
 
     ```javascript
     define(["require", "exports"], function (require, exports) {

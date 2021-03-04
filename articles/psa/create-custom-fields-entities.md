@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076593"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144862"
 ---
 # <a name="create-custom-fields-and-entities"></a>Benutzerdefinierte Felder und Entitäten erstellen 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Führen Sie die folgenden Schritte aus, wenn Sie einen benutzerdefinierten Optionssatz oder eine Entität auf der Power Apps-Plattform erstellen möchten.  
 Die Verfahren in diesem Thema sollten über die Weboberfläche von Project Service Automation (PSA) ausgeführt werden.
@@ -41,18 +43,18 @@ Eine Preisdimension kann ein Optionssatz oder eine Entität sein. Beide müssen 
 
 1. Wählen Sie in PSA **Einstellungen** > **Lösungen** und doppelklicken Sie dann auf **\<your organization name> Preisdimensionen**.
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten** aus.
-3. Klicken Sie auf **Neu** , um eine neue Entität namens **Standardtitel** zu erstellen. Geben Sie die verbleibenden erforderlichen Informationen ein und klicken Sie anschließend auf **Speichern**.
+3. Klicken Sie auf **Neu**, um eine neue Entität namens **Standardtitel** zu erstellen. Geben Sie die verbleibenden erforderlichen Informationen ein und klicken Sie anschließend auf **Speichern**.
 
 > ![Definition der Entität „Standardtitel”](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Optionssatzbasierte Dimensionen 
-Sie können zwei optionssatzbasierte Dimensionen erstellen. Verwenden Sie **Arbeitsstandort der Ressource** , um den Preis für die Arbeit am **Wohnort** und  **Vor Ort** nachzuverfolgen. Verwenden Sie für **Arbeitszeiten der Ressource** die Werte **Regulär** bzw. **Überstunden** , um einen Aufschlag anzuwenden, wenn die Arbeit abgeschlossen ist.
+Sie können zwei optionssatzbasierte Dimensionen erstellen. Verwenden Sie **Arbeitsstandort der Ressource**, um den Preis für die Arbeit am **Wohnort** und  **Vor Ort** nachzuverfolgen. Verwenden Sie für **Arbeitszeiten der Ressource** die Werte **Regulär** bzw. **Überstunden**, um einen Aufschlag anzuwenden, wenn die Arbeit abgeschlossen ist.
 
 
 1. Wählen Sie in PSA **Einstellungen** > **Lösungen** und doppelklicken Sie dann auf **\<your organization name> Preisdimensionen**. 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Optionssätze** aus. 
-3. Klicken Sie auf **Neu** , um einen neuen Optionssatz zu erstellen, geben Sie die verbleibenden erforderlichen Informationen ein, und klicken Sie dann auf **Speichern**.
+3. Klicken Sie auf **Neu**, um einen neuen Optionssatz zu erstellen, geben Sie die verbleibenden erforderlichen Informationen ein, und klicken Sie dann auf **Speichern**.
 
 > ![Optionssatzbasierte Preisdimension namens „Arbeitsstandort der Ressource” ](media/Option-set-PD-called-Resource-Work-Location.png)
 

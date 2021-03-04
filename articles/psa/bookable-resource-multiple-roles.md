@@ -1,6 +1,6 @@
 ---
-title: Schätzen Sie den Projektumsatz und die Projektkosten, wenn eine buchbare Ressource mehrere Rollen in einem Projekt ausfüllt
-description: Dieses Thema enthält Informationen darüber, wie Preisdimensionen verwendet werden können, um die Preisgestaltung und Kostenberechnung für eine Ressource zu unterstützen, die mehrere Rollen in einem Projekt ausfüllt.
+title: Schätzen Sie den Umsatz und die Kosten eines Projekts, wenn eine buchbare Ressource mehrere Rollen für ein Projekt ausfüllt
+description: In diesem Thema wird erläutert, wie Informationen zu Preisdimensionen verwendet werden können, um Preis- und Kostenschätzungen für eine Ressource zu unterstützen, die mehrere Rollen in einem Projekt ausfüllt.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,16 +17,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076576"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145042"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>Schätzen Sie den Projektumsatz und die Projektkosten, wenn eine buchbare Ressource mehrere Rollen in einem Projekt ausfüllt 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Schätzen Sie den Umsatz und die Kosten eines Projekts, wenn eine buchbare Ressource mehrere Rollen für ein Projekt ausfüllt 
 
-Projektbasierte Unternehmen benötigen häufig eine Ressource, um mehrere Rollen in einem Projekt zu übernehmen. Jede dieser Rollen kann unterschiedlich bewertet und kostenpflichtig sein, was bedeutet, dass die Zeit derselben Ressource für das Projekt abhängig von der Rechnung und den Kostensätzen für jede der Rollen eine andere finanzielle Schätzung erhalten kann. Project Service Automation ermöglicht die Einrichtung der Werte im Teammitgliedsdatensatz für die benannte Ressource und unterschiedliche Überschreibungen für jede der Aufgaben, denen das Teammitglied zugewiesen ist.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Projektbasierte Unternehmen benötigen häufig eine Ressource, um mehrere Rollen in einem Projekt auszuführen. Jede dieser Rollen kann unterschiedlich bewertet und kostenpflichtig sein, was bedeutet, dass die Zeit der gleichen Ressource für das Projekt abhängig von der Rechnung und den Kostensätzen für jede der Rollen eine andere finanzielle Schätzung erhalten kann. Project Service Automation ermöglicht die Einrichtung der Werte im Teammitgliedsdatensatz für die benannte Ressource und unterschiedliche Überschreibungen für jede der Aufgaben, denen das Teammitglied zugewiesen ist.
 
 Im folgenden Beispiel wird erläutert, wie durch die einfache Überschreibung dieses Werts eine Ressource mehrere Rollen in einem Projekt mit unterschiedlichen Kosten und Abrechnungssätzen haben kann.
 
@@ -45,22 +47,22 @@ Wiederholen Sie diese Schritte für Aufgabe B und stellen Sie sicher, dass sich 
 ## <a name="set-up-role-and-organization-unit-for-a-project-task"></a>Richten Sie die Rollen- und Organisationseinheit für eine Projektaufgabe ein
 
 1. Nachdem Sie Aufgabe A erstellt haben, wählen Sie die Aufgabe aus, und wählen Sie dann **Aufgabe bearbeiten**.
-2. Suchen Sie auf der Seite **Aufgabendetails** die **Rolle** und **Organisationseinheit** , und fügen Sie in den Feldern die Werte hinzu, die für eine Ressource erforderlich sind, die diese Aufgabe ausführen würde. 
+2. Suchen Sie auf der Seite **Aufgabendetails** die **Rolle** und **Organisationseinheit**, und fügen Sie in den Feldern die Werte hinzu, die für eine Ressource erforderlich sind, die diese Aufgabe ausführen würde. 
 
   > [!NOTE]
   > Wenn Sie diese Szenarien mit Project Service Automation-Demodaten abschließen, wählen Sie **Beratungs-Lead** für die Rolle und **Fabrikam USA** als Organisationseinheit.
 
 3. Wählen Sie Aufgabe B aus, und wählen Sie dann **Aufgabe bearbeiten** aus.
-4. Suchen Sie auf der Seite **Aufgabendetails** die **Rolle** und **Organisationseinheit** , und fügen Sie in den Feldern die Werte hinzu, die für eine Ressource erforderlich sind, die diese Aufgabe ausführen würde. Stellen Sie sicher, dass die Werte in den Feldern **Rolle** und **Organisationseinheit** für Aufgabe B sich von denen für Aufgabe A unterscheiden. 
+4. Suchen Sie auf der Seite **Aufgabendetails** die **Rolle** und **Organisationseinheit**, und fügen Sie in den Feldern die Werte hinzu, die für eine Ressource erforderlich sind, die diese Aufgabe ausführen würde. Stellen Sie sicher, dass die Werte in den Felder **Rolle** und **Organisationseinheit** für Aufgabe B sich von den Werten für Aufgabe A unterscheiden. 
 
   > [!NOTE]
   > Wenn Sie diese Szenarien mit Project Service Automation-Demodaten abschließen, wählen Sie **Netzwerktechniker** für die Rolle und **Fabrikam USA** als Organisationseinheit.
 
 5. Wählen Sie auf der Seite **Aufgabendetails** „Speichern und schließen“ aus. 
 
-## <a name="team-member-and-estimates-behaviour"></a>Teammitglied und geschätztes Verhalten 
+## <a name="team-member-and-estimates-behavior"></a>Teammitglied und Verhaltensschätzungen 
 
-1. Wählen Sie auf der Seite **Aufgabendetails** unter **Teammitglied** die beiden allgemeinen Teammitglieder aus, und wählen Sie dann **Anforderungen generieren** aus. Dadurch werden Ressourcenanforderungen erstellt. 
+1. Wählen Sie auf der Seite **Aufgabendetails** unter **Teammitglied** die beiden allgemeinen Teammitglieder aus, und wählen Sie dann **Anforderungen generieren** aus. 
 2. Wählen Sie die Teammitgliedszeile für **Beratungs-Lead** und dann **Buchen** aus. Die Zeitplanübersicht wird geöffnet und eine Ressource für diese Anforderung wird gebucht.
 3. Wählen Sie die Teammitgliedszeile für **Netzwerktechniker** und dann **Buchen** aus. Die Zeitplanübersicht wird geöffnet und die gleiche Ressource für diese Anforderung wird gebucht.
 
@@ -70,9 +72,5 @@ Wenn Sie die Zeile dieses Teammitgliedsdatensatzes erweitern, werden im Teammitg
 
 ### <a name="estimates-grid"></a>Vorkalkulationsraster 
 Wenn Sie zum Raster **Schätzungen** navigieren, werden Sie feststellen, dass beide Zuweisungen für dieselbe Ressource unterschiedliche Preise haben.
-Die Zuordnung für die Ressource zu Aufgabe A erfolgt über den **Rolle** -Attributwert von **Beratungs-Lead**. Die Zuordnung für die gleiche Ressource zu Aufgabe B erfolgt über den **Rolle** -Attributwert von **Netzwerktechniker**.
-
-
-
-
+Die Zuordnung für die Ressource zu Aufgabe A erfolgt über den **Rolle**-Attributwert von **Beratungs-Lead**. Die Zuordnung für die gleiche Ressource zu Aufgabe B erfolgt über den **Rolle**-Attributwert von **Netzwerktechniker**.
 
