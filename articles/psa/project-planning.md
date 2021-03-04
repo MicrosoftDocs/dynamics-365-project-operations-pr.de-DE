@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 645f9f1009bb52f6584bbce7f8ef07a033e450e9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123287"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148237"
 ---
 # <a name="project-planning-home-page"></a>Projektplanungs-Homepage
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -37,7 +39,7 @@ Die Projektmanagementtools in PSA unterstützen Sie bei der problemlosen Ausfüh
 
 - Planung von Projekten mithilfe von Arbeitszeitplänen und -kulationen
 - Kalkulation und Verfolgung von Projektkosten und -erlösen
-- Verwendung von Projektvorkalkulationen während des Vertriebsprozesses
+- Projektschätzungen während des Verkaufsprozesses nutzen
 - Prognose des Ressourcenbedarfss für Projekte, die sich in der Vorbereitung befinden
 - Erfolgreiche Durchführung von Projekten durch Verfolgung von Fortschritt und Kostenverbrauch
 

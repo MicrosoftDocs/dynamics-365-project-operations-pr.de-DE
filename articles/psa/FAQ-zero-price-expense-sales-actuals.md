@@ -3,6 +3,7 @@ title: Warum ist der Standardpreis bei vertrieblichen Ausgaben-Ist-Werten null?
 description: Die folgenden drei Überprüfungen helfen bei der Problembehebung, warum der Preis bei vertrieblichen Ausgaben-Ist-Werten 0 ist.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122072"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146302"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Warum ist der Standardpreis bei vertrieblichen Ausgaben-Ist-Werten null?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -47,7 +50,7 @@ Damit Project Service eine Preisliste als Standardpreis annimmt muss diese Preis
 - Beginen Sie damit, zu überprüfen, ob die Start- und Enddaten auf der Registerkarte „Allgemein” für die angefügten Preisliste nicht leer sind. Wenn die Start- und Enddaten auf den oben identifizierten Preislisten leer sind, haben Sie das Problem isoliert. 
 - Notieren Sie das Startdatumfeld auf Ihrem vertrieblichen Ausgaben-Ist-Wert und überprüfen Sie, ob eine der identifizierten Preislisten für das Datum gilt. Beispielsweise sollte das Datum des Ausgaben-Ist-Werts innerhalb eines Startdatums und des Enddatums auf der Preisliste liegen. 
     - Wenn keine Preisliste für das Datum im Ausgaben-Ist-Wert vorhanden ist, haben Sie das Problem isoliert. Ändern Sie die Start- und Enddaten der Preisliste, um sicherzustellen, dass die Preisliste für das Datum des Ausgaben-Ist-Werts gilt. 
-    - Wenn mehr als eine Preisliste für das Datum im Ausgaben-Ist-Wert vorhanden ist, haben Sie das Problem isoliert. Sie können dies beheben, indem Sie die Start- und Enddaten der Preisliste(n) bearbeiten, sodass nur eine Preisliste vorhanden ist, die für das Datum des Ausgaben-Ist-Werts gilt. 
+    - Wenn mehr als eine Preisliste für das Datum im Ausgaben-Ist-Wert vorhanden ist, haben Sie das Problem isoliert. Sie können das beheben, indem Sie die Start- und Enddaten der Preisliste(n) bearbeiten, sodass nur eine Preisliste vorhanden ist, die für das Datum des Ausgaben-Ist-Werts gilt. 
     - Liegt nur eine Preisliste für das Datum des Ausgaben-Ist-Werts vor, machen Sie bei Überprüfung 3 weiter.
 Wenn Sie die erforderlichen Fehlerbehebungen vorgenommen haben, erstellen Sie erneut einen Ausgabeneintrag, genehmigen Sie ihn und stellen Sie sicher, dass der nicht in Rechnung gestellte vertriebliche Ist-Wert einen gültigen Preis anzeigt.
 
@@ -55,7 +58,7 @@ Wenn Sie die erforderlichen Fehlerbehebungen vorgenommen haben, erstellen Sie er
 
 Wenn Sie Überprüfung 1 und 2 erfolgreich abgeschlossen haben, sollte nur eine Projektpreisliste für das Datum des vertrieblichen Ausgaben-Ist-Werts vorhanden sein. Öffnen Sie diese Projektpreisliste und wechseln Sie zur Registerkarte „Kategoriepreise”. Stellen Sie sicher, dass im Raster eine Zeile für die bestimmte Ausgabenkategorie auf dem Ausgaben-Ist-Wert vorhanden ist.
  
-- Wenn keine Zeile vorhanden ist, haben Sie das Problem isoliert. Erstellen Sie eine Zeile im Kategoriepreisraster für die Kategorie auf dem Ausgaben-Ist-Wert. Wenn dies durchgeführt ist, erstellen Sie erneut einen Ausgabeneintrag, genehmigen Sie ihn und stellen Sie sicher, dass der nicht in Rechnung gestellte vertriebliche Ist-Wert einen gültigen Preis anzeigt. 
+- Wenn keine Zeile vorhanden ist, haben Sie das Problem isoliert. Erstellen Sie eine Zeile im Kategoriepreisraster für die Kategorie auf dem Ausgaben-Ist-Wert. Wenn dies durchgeführt ist, erstellen Sie erneut einen Ausgabeneintrag, genehmigen Sie ihn und stellen Sie sicher, dass der nicht in Rechnung gestellte Ist-Wert einen gültigen Preis anzeigt. 
 - Wenn eine Zeile für die Ausgabenkategorie im Kategoriepreisraster vorhanden ist, überprüfen Sie, ob ein gültiger Preis darin angegeben ist.
 
 Wenn Sie verstehen möchten, was ein gültiger Preis ist, verwenden Sie diese Methoden:
@@ -66,6 +69,6 @@ Wenn Sie verstehen möchten, was ein gültiger Preis ist, verwenden Sie diese Me
 
 Wenn der Preis, der für die Ausgabenkategorie eingerichtet wird, nicht gültig ist, dann haben Sie das Problem isoliert. Zur Lösung bearbeiten Sie die Kategoriepreisposition mit einem gültigen Preis für die Ausgabenkategorie laut den oben genannten Regeln. Wenn Sie dies durchgeführt ist, erstellen Sie erneut einen Ausgabeneintrag, überprüfen Sie ihn dann und stellen Sie sicher, dass der nicht in Rechnung gestellte vertriebliche Ist-Wert einen gültigen Preis erhält.
 
-Wird weiterhin keine gültiger Preis auf Ihrem vertrieblichen Ausgaben-Ist-Wert angezeigt, nachdem alle drei oben genannten Überprüfungen durchgeführt wurden, reichen Sie ein Support-Ticket ein.
+Wird weiterhin keine gültiger Preis auf Ihrem Ausgaben-Ist-Wert angezeigt, nachdem alle drei oben genannten Überprüfungen durchgeführt wurden, reichen Sie ein Support-Ticket ein.
 
 
