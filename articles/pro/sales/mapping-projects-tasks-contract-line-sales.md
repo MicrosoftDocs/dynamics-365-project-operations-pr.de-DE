@@ -82,3 +82,6 @@ Dies ist die optimalere Erfahrung, um die Zuordnung von Projektaufgaben zu Vertr
 4. Wählen Sie auf der sich öffnenden Dialogseite eine Vertragszeile aus der Dropdown-Liste aus.
 5. Aktivieren Sie das Kontrollkästchen, um anzugeben, ob die Zuordnung auch aus untergeordneten Aufgaben der ausgewählten Aufgaben entfernt werden soll. Durch Aktivieren des Kontrollkästchens werden auch die untergeordneten Aufgaben der ausgewählten Aufgaben aus der Vertragszeile entfernt.
 6. Klicken Sie auf **OK**. Eine Warnmeldung zeigt an, dass das Entfernen dieser Zuordnung zur Umkehrung aller zuvor in der Aufgabe aufgezeichneten Istwerte führen kann. Wählen Sie **OK** im Warnungsdialogfeld aus, um die Zuordnung zwischen der Aufgabe und der projektbasierten Vertragszeile zu entfernen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

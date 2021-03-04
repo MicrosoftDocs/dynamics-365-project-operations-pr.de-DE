@@ -36,3 +36,6 @@ Nachdem eine Selbstkostenpreisliste aufgelöst wurde, werden die Felder **Rolle*
 Vorkalkulationszeilen für Ausgaben beziehen sich auf die Angebots- und Vertragszeilendetails für Ausgaben- und Ausgabenvorkalkulationszeilen in einem Projekt.
 
 Nachdem eine Kostenpreisliste aufgelöst wurde, verwendet das System eine Kombination aus **Kategorie** und **Einheit** Felder in der Kostenschätzungszeile, die mit den Feldern **Kategorie Preis** Zeilen auf der aufgelösten Preisliste übereinstimmen. Wenn das System eine Kategoriepreiszeile findet, die einen Kostensatz für die Kombination **Kategorie** und **Einheit** hat, ist der Kostensatz standardmäßig festgelegt. Wenn das System nicht mit den Werten **Kategorie** und **Einheit** übereinstimmen kann oder wenn es in der Lage ist, eine passende Kategorie Preislinie zu finden, die Preismethode jedoch nicht **Preis pro Einheit** ist, ist der Kostensatz standardmäßig Null (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Tragen Sie Ihre Ausgaben mindestens wöchentlich ein (oder mit der Häufigkeit, 
  [Überblick über Project Service](../psa/overview.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

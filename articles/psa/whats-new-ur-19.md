@@ -66,3 +66,6 @@ Die folgenden Probleme wurden behoben:
 - Kunden können beim Erstellen eines Projekts eine Leistungsminderung feststellen, weil **GetBookableResourceIdFromUser** alle Spalten buchbarer Ressourcen und nicht nur die primäre ID abruft.
 - Der Entität **TransactionType** fehlt das Plug-In zur Updatevorüberprüfung, das verhindert, dass Benutzer **Einheiten** und **Einheitengruppen** eingeben, die für Transaktionstypen nicht gültig sind.
 - Der Schritt **Entfernen** funktioniert nicht beim Zeiteintragsimport.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

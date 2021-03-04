@@ -35,3 +35,6 @@ Nachdem eine Einstandspreisliste beschlossen wurde, verwendet das System die Fel
 Vorkalkulationszeilen für Ausgaben beziehen sich auf die Angebots- und Vertragszeilendetails für Ausgaben- und Ausgabenvorkalkulationszeilen in einem Projekt.
 
 Nachdem eine Einstandspreisliste beschlossen wurde, verwendet das System eine Kombination der Felder **Kategorie** und **Einheit** in der Vorkalkulationszeile für eine Ausgabe, um Zeilen mit **Kategoriepreis** in der beschlossenen Preisliste abzugleichen. Wenn das System eine Kategoriepreiszeile findet, die einen Kostensatz für die Kombination **Kategorie** und **Einheit** hat, ist der Kostensatz standardmäßig festgelegt. Wenn das System die Werte **Kategorie** und **Einheit** nicht abgleichen kann oder es eine übereinstimmende Kategoriepreiszeile findet, die Preisberechnungsmethode jedoch nicht **Einzelpreis** lautet, ist der Kostensatz standardmäßig auf Null (0) festgelegt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

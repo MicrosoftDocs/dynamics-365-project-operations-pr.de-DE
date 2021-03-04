@@ -27,3 +27,6 @@ Die Mitglieder des Projektteams erstellen Zeiteinträge und senden sie zur Geneh
 
 Informationen zum Erstellen, Senden oder Abrufen eines Eintrags sowie weitere Tools zum Vervollständigen Ihrer Berichterstellung finden Sie unter [Benutzerverhalten bei Zeiteinträgen](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

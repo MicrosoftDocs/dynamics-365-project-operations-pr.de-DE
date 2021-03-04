@@ -66,3 +66,6 @@ Als Projektmanager müssen Sie möglicherweise eine Ressource für ein Projekt b
 
 > [!NOTE]
 > Diese Methode erstellt keine Buchungen für die Ressource. Stattdessen wird die Ressource dem Team hinzugefügt. Nachdem das Teammitglied dem Projekt hinzugefügt wurde, kann der Projektmanager Buchungen verwalten oder Buchungen erweitern, um die erforderlichen Buchungen zur Ressource hinzuzufügen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,5 @@ Führen Sie als Projektmanager die folgenden Schritte aus, um die Ressourcenanfo
 ## <a name="edit-resource-assignment-contours"></a>Konturen für die Ressourcenzuweisung bearbeiten
 
 Zusätzlich zur Bearbeitung der Details der Ressourcenanforderungen kann ein Projektmanager die einzelnen Konturen der Ressourcenanforderung mithilfe der Funktionalität **Muster angeben** aktualisieren. Wenn **Muster angeben** ausgewählt ist, wird eine Seite geöffnet, und Sie können die Konturen auf der Zeitskala für Tag, Woche oder Monat anzeigen. Jede Kontur kann für Startzeit, Endzeit und Gesamtaufwand in einem bestimmten Zeitraum angepasst werden.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

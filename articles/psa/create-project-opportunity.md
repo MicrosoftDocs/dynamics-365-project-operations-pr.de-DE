@@ -55,3 +55,6 @@ Verkaufschancen sind frische Leads von Kunden, die interessiert sind, einen Vert
   
 ### <a name="see-also"></a>Siehe auch  
  [Konto-Manager Handbuch](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Diese Bereitstellung sollte so gewählt werden, dass von Project Operations erwa
 - Erfordernis einer umfassenden Umsatzsteuer- und Wechselkurs-Engine der Enterprise-Klasse zur Erstellung kundenorientierter Rechnungen für Projekte.
 - Ein IFRS-konformes Projektbuchhaltungs- und Umsatzrealisierungssystem (International Financial Reporting Standards).
 - Finance- oder Supply Chain Management-Anwendungen und Integration projektbasierter Transaktionen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Verkaufspreise werden einmal pro Geschäft angewendet. Die Hierarchie für die S
 1. Organisation
 2. Kunde
 3. Angebot/Vertrag
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

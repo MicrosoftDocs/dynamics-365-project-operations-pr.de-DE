@@ -55,3 +55,6 @@ Jede Ausgabenkategorie kann eine eigene Einheitengruppe und Einheit haben. Sie k
   
 ### <a name="see-also"></a>Siehe auch  
  [Project Service Automation konfigurieren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

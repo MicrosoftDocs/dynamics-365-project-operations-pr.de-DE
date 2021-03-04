@@ -127,3 +127,6 @@ Gehen Sie folgendermaßen vor, um mit Microsoft Project Client einen neuen Proje
 8.  Wählen Sie den **Kalender** aus, der für die Beschaffung verwendet werden soll.
 
 11. Klicken Sie auf **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

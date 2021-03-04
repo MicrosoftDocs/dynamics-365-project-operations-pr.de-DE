@@ -79,3 +79,6 @@ Sie können einen Zuschuss erstellen, indem Sie alle Details in einen neuen Date
 2. Wählen Sie den zu ändernden Zuschuss aus.
 3. Wählen Sie im Aktionsbereich auf der Registerkarte **Zuschuss** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.
 4. Überprüfen Sie die Zuschussdetails, und nehmen Sie die erforderlichen Änderungen vor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

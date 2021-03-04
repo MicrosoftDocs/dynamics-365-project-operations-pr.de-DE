@@ -43,3 +43,6 @@ Unten sind die Felder im **Vertragszeilen**-Kundendatensatz einer projektbasiert
 Fakturierungs-Aufteilungsprozentsätze können im Raster bearbeitet werden. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 Prozent betragen, wird eine Fehlermeldung angezeigt. Aktualisieren Sie die Seite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung bearbeitet haben, um den Fehler zu entfernen.
 
 Sie können auch **Gleichmäßig verteilen** im Vertragszeilenkunden-Unterraster auswählen. Durch diese Aktion werden allen Vertragszeilenkunden gleichmäßig Abrechnungssplits zugewiesen. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Ein Vertragszeilenkunde wird immer als **Rundungs**-Kunde gekennzeichnet, bei dem das **Rundungs**-Flag auf **Ja** gesetzt ist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

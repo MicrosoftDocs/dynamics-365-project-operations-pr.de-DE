@@ -89,3 +89,6 @@ Die Parameter steuern das allgemeine Verhalten in der Ausgabenverwaltung.
 | <strong>Korruptionsbekämpfungsnachricht für den Einsender</strong> |                                                                                             Geben Sie den Text ein, der dem Mitarbeiter beim Erstellen einer neuen Spesenabrechnung angezeigt wird. Klicken Sie auf die Schaltfläche <strong>Übersetzungen</strong>, um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird.                                                                                             |
 | <strong>Korruptionsbekämpfungsnachricht für den Genehmiger</strong>  |                                                                                             Geben Sie den Text ein, der der genehmigenden Person beim Erstellen einer neuen Spesenabrechnung angezeigt wird. Klicken Sie auf die Schaltfläche <strong>Übersetzungen</strong>, um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

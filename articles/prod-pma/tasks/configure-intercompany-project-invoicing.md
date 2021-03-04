@@ -64,3 +64,6 @@ Dieses Thema zeigt, wie Sie die Projektabrechnung zwischen zwei Unternehmen in I
 32. Geben Sie im Feld **Preisberechnung** eine Zahl ein.
 33. Wählen Sie **Speichern** aus.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

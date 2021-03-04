@@ -39,3 +39,6 @@ ms.locfileid: "4076501"
 10. Klicken Sie auf OK. 
 
 Nach diesem Schritt steht die Gutschrift für den Rechnungsvorschlag zur Verfügung.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

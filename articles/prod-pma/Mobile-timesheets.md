@@ -62,3 +62,6 @@ Android wird mit Platform Update 16 kompatibel sein, sobald es verfügbar ist.
 13. Optional: Geben Sie zusätzliche Arbeitszeittabellenzeilen ein.
 
 14. Nachdem Sie die Arbeitszeittabellenpositionen eingegeben haben, wählen Sie die Aktion **Workflow** \> **Senden** zum Senden Ihrer Arbeitszeittabelle an den Workflow-Genehmigungsprozess aus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

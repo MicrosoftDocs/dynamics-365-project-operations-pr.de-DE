@@ -32,3 +32,6 @@ Ihre Organisation verlangt möglicherweise, dass eine Reiseanforderung eingereic
 Reiseanforderungen und -richtlinien können für die Budgetkontrolle verwendet werden. Wenn Ihre Organisation beispielsweise an einem Festpreisprojekt arbeitet, für das Reisen erforderlich sind, müssen die Reisekosten der Teammitglieder des Projekts in das Budget für das Projekt passen. Durch die Anforderung, dass Reisekosten genehmigt werden müssen, bevor sie anfallen, kann die Organisation dazu beitragen, dass das Projekt innerhalb des Budgets bleibt.
 
 Sie können Richtlinien für Reiseanforderungen über die Seite **Reiseanforderung** einrichten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

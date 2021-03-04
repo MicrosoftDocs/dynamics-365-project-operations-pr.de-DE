@@ -55,3 +55,6 @@ Noch nicht eingereichte Ausgaben können gelöscht werden. Um eine bereits einge
 ## <a name="see-also"></a>Siehe auch
 
 - [Genehmigungen – Übersicht](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

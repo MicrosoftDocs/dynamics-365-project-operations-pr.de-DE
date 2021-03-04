@@ -63,3 +63,6 @@ Auf dieselbe Weise können Sie eine verbindliche oder eine unverbindliche Buchun
 Um eine unverbindlich gebuchte Ressource auf der Registerkarte **Team** des Projekts in eine verbindlich gebuchte Ressource zu konvertieren, wählen Sie die Ressource und anschließend **Bestätigen** aus.
 
 ![Befehl bestätigen](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

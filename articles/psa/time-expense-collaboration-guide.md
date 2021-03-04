@@ -73,3 +73,6 @@ Klicken Sie auf einen der untengenannten Links, um mehr darüber zu erfahren, wa
  [Konto-Manager Handbuch](../psa/account-manager-guide.md)   
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)   
  [Handbuch Ressourcen Manager](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ Produktbasierte Positionen können Katalogartikel oder einzutragende Produkte se
 
 Wenn die Ertragsmethode der Verkaufschancen-Zusammenfassung lautet **System berechnet** werden die Kundenbudgetwerte über die Verkaufschancen-Zeilen hinweg zusammengefasst, um den geschätzten Umsatz zu berechnen. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

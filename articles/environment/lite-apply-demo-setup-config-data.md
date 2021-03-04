@@ -74,3 +74,6 @@ Bevor Sie mit der Konfiguration beginnen, müssen Sie eine Common Data Service (
     -   Merkmal der buchbaren Ressource
 
     ![Import abschließen](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

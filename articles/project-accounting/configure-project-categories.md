@@ -53,3 +53,6 @@ Projektkategorien stellen die detaillierteste Ebene der Kategoriekonfiguration d
 Kategoriegruppen werden verwendet, um Eigenschaften, hauptsächlich Buchungsprofile, zwischen verwandten Projektkategorien freizugeben. Für jeden Transaktionstyp muss mindestens eine Kategoriegruppe vorhanden sein, und jeder Projektkategorie ist eine Gruppe zugeordnet.
 
 Die Buchungsspezifikationen in Project Operations werden durch die Projektkosten- und Ertragsprofilregeln, Projektkategorien sowie Kategoriegruppen definiert. Sie können Kategoriegruppen unter **Projektmanagement und Buchhaltung** \> **Einrichtung** \> **Kategorien** \> **Kategoriegruppen** einrichten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

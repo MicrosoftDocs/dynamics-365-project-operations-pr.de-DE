@@ -101,3 +101,6 @@ Wenn Sie keine fakturierbare Nutzung finden, sind hier einige Dinge, die Sie üb
   - Die Rolle in der Projektvertragszeile, die das Projekt unterstützen, sind auf nicht verrechenbar festgelegt.
   - Das Projekt hat keine zugewiesenen Vertragszeilen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

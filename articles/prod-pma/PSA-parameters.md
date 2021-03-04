@@ -47,3 +47,6 @@ Zum Öffnen der Seite **Integrationsparameter für Project Service Automation** 
 | Standardeinstellungen für die Abrechnungstyp  | Fakturierungstyp         | Klicken Sie auf **Neu** , um eine Zeile hinzuzufügen, in der Sie den Abrechnungstyp auswählen können, für den die Standardzeileneigenschaft festgelegt werden soll. Ein bestimmter Abrechnungstyp kann in der Konfiguration nur einmal ausgewählt werden. |
 |                        | Zeileneigenschaft        | Wählen Sie die Standardzeileneigenschaft für den ausgewählten Rechnungstyp aus. Wenn neue Stundenschätzungen, neue Ausgabenschätzungen oder neue Istwerte von Project Service Automation synchronisiert werden, wird das Feld **Zeilen-Eigenschaft** auf den Standardwert für die Abrechnungsart gesetzt. |
 | Sperrung von Funktionen  | Nicht verfügbar       | Wählen Sie die zu deaktivierende Funktion in Finance für Projekte und Verträge aus, die aus Project Service Automation stammen. Sie können beispielsweise die Möglichkeit deaktivieren, Verträge und Projekte zu bearbeiten, Projektstrukturpläne zu erstellen und Arbeitszeittabellen in Finance einzugeben. Buchhaltungsbezogene Felder bleiben weiterhin aktiviert, auch wenn sie durch die Parametereinstellung nicht verfügbar gemacht werden. Standardmäßig sind alle Funktionen aktiviert. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

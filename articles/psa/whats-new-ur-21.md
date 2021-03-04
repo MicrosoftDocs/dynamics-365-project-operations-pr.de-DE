@@ -77,3 +77,6 @@ Die folgenden Probleme wurden behoben:
 - Die Logik **Verkaufspreislisten-Lösung** behandelt Zeitzonen nicht ordnungsgemäß, was zu einer falschen Auswahl von Preislisten führt.
 - Die **Gesamten Istkosten** eines Projekts können um einen Bruchteil des Betrags abweichen, nachdem ein einmaliger Eintrag genehmigt wurde.
 - Die Logik **Preislösung** liefert keine benutzerfreundliche Fehlermeldung, wenn **Abgerufener RolePrice** keine Werte in den Feldern **Primäre Einheit** und **Preis in primärer Einheit** hat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

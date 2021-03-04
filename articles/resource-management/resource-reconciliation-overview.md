@@ -48,3 +48,6 @@ Wenn Sie Aufgabenzuordnungen für eine Ressource, jedoch keine Buchungen haben, 
 Buchungen, die über die Aktionen **Buchung verlängern** erstellt werden sind mit der primären Projektanforderung verbunden. Wenn eine Erweiterung initiiert wird, kann die spezifische Anforderung, die erweitert werden muss, nicht bestimmt werden, da die Ressource möglicherweise mehr als einer Anforderung für das Projekt zugeordnet ist.
 
 Der Projektmanager oder der Ressourcenmanager kann dann die Zeitplanansicht verwenden, um alle Situationen zu verwalten, in denen eine Ressource über die Kapazität überbucht wird.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

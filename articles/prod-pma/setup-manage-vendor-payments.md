@@ -80,3 +80,6 @@ Wenn ein Kreditor seine Arbeit an einem Projekt abgeschlossen hat und Ihnen eine
 2. Geben Sie auf der Seite **Kreditorenrechnungen mit Pay When Paid** im Suchfeld die Werte ein, um die Kreditorenrechnung zu finden, die Sie überprüfen möchten, und wählen Sie dann **Suchen** aus.
 3. Wählen Sie im Inforegister **Kreditorenrechnungspositionen** die Zeilen aus, die Sie ändern möchten.
 4. Wenn die **Pay When Paid** -Bedingungen für die Rechnungszeile erfüllt sind, wählen Sie **Kreditorenzahlung freigeben** aus. Die Option **Pay When Paid** wird gelöscht, und der Wert für das Feld **Bereit für Zahlung** wird in **Ja** geändert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

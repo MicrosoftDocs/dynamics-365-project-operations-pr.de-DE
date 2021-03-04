@@ -55,3 +55,6 @@ Die folgenden Themen enthalten Informationen zu den Aufgaben, die ausgeführt we
 - [Planungsleistung für Projektressourcen](project-scheduling-performance.md)
 - [Rollen in Vorlagen für Projektstrukturpläne einrichten](set-up-roles-wbs-template.md)
 - [Ressourcenerfüllung für geplante Ressourcen](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

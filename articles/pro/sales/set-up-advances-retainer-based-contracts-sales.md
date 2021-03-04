@@ -37,3 +37,6 @@ Die Vorauszahlung in Project Operations kann erst verwendet werden, wenn sie dem
 | --- | --- | --- |
 | Verfügbarer Betrag | Der Betrag, der zur Verwendung im Vorauszahlungs- oder Vorschussdatensatz verfügbar ist. | Bis der Vorschuss oder die Vorauszahlung in Rechnung gestellt wird, kann sie nicht verwendet werden, was bedeutet, dass der verfügbare Betrag null ist. |
 | Verwendeter Betrag | Der Betrag, der zur Verwendung im Vorauszahlungs- oder Vorschussdatensatz bereits verwendet wird. | Ein Vorschuss oder eine Vorauszahlung kann teilweise auf einer Rechnung mit den tatsächlichen Kosten abgeglichen werden, wobei ein Teil als bereits verwendet oder verbraucht gekennzeichnet ist. Der Rest des Vorschuss- oder Vorauszahlungsbetrags steht zur Verfügung, um eine zukünftige Rechnung mit den tatsächlichen Kosten abzustimmen. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

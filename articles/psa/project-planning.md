@@ -52,3 +52,6 @@ Die folgende Themen enthalten Informationen, mit deren Hilfe Projektmanager den 
 - [Projektvorlagen](project-templates.md)
 - [Projektphasen](project-stages.md)
 - [Projekteinstellungen](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Jedes Projekt, das in Dynamics 365 Project Operations keinem Vertrag zugeordnet 
 Nachdem Transaktionen in das Projekt gebucht wurden und das Projekt einem Projektvertrag zugeordnet ist, storniert das System alle kumulierten Transaktionen und erstellt neue fakturierbare Transaktionen. Die fakturierbaren Transaktionen folgen den Buchhaltungsregeln, die im jeweiligen Projektkosten- und Ertragsprofil definiert sind.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

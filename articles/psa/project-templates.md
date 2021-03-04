@@ -69,3 +69,6 @@ Wenn Sie Positionen aus der Projektvorkalkulation kopieren, werden die Preislist
 ### <a name="copying-a-project-team"></a>Kopieren eines Projektteams
 
 Wenn ein Projektteam aus einer Projektvorlage in ein Projekt kopiert wird, werden die generischen Ressourcen zusammen mit den Kompetenzen und Fähigkeiten kopiert, die in der Vorlage definiert sind. Generische Ressourcenzuweisungen werden wie in der Projektvorlage verwaltet. Benannte Ressourcen werden in Projektvorlagen nicht unterstützt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

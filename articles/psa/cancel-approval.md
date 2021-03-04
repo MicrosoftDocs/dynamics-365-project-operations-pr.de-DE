@@ -62,3 +62,6 @@ Das Stornieren einer Genehmigung wirkt sich auch finanziell auf das Projekt aus.
 Als Nächstes werden Umkehrungseinträge in der Tabelle „Ist-Werte” erstellt. Zum Erstellen von Umkehrungseinträgen kopiert das System die Feldwerte aus den ursprünglichen Ist-Werten. Die einzigen Werte, die nicht übernommen werden, sind die Mengenwerte. Diese Werte werden stattdessen umgekehrt. Umgekehrte Ist-Werte werden sowohl für **Kosten** als auch für Ist-Werte von **Nicht fakturierten Umsätzen** erstellt. Das Feld **Anpassungsstatus** des umgekehrten Ist-Werts wird auf **Nicht anpassbar** festgelegt, und der Fakturierungsstatus wird auf **Storniert** festgelegt.
 
 Nachdem diese Änderungen vorgenommen wurden, stellen der Betrag, der als für das Projekt ausgegeben erfasst wurde, und das Umsatz-Rückstandsprotokoll des Projekts nicht mehr die Ist-Werte dar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

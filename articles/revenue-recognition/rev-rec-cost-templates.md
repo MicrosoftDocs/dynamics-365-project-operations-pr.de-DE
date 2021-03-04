@@ -79,3 +79,6 @@ Gehen Sie wie folgt vor, um eine Kostenvorlagen zu erstellen:
 7. Auf der **Kategorien**-Registerkarte wählen Sie die Projektkategorien aus, die in die Kostenvorlagenzeile aufgenommen werden sollen.
 8. Auf der **Allgemein**-Registerkarte wählen Sie aus, ob diese Zeile in die Berechnung des Prozentsatzes der Fertigstellung einbezogen werden soll.
 9. Wählen Sie die Methode zum Abschluss der Kosten aus, die bei der Berechnung des Fertigstellungsgrads verwendet werden soll.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

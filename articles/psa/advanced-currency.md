@@ -105,3 +105,6 @@ Dynamics 365 verarbeitet automatisch die Rollups von Beträgen in verschiedenen 
 | Expense           | Nicht fakturierte Umsätze   | 17. Jun | Falk  | Autovermietung           | 1 EA     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Um den gesamten nicht fakturierten Umsatzwert des Projekts zu berechnen, können Sie ein Rollup-Feld für das Feld **Betrag** auf allen zugehörigen nicht fakturiertem Umsatz-Ist-werten erstellen. Das Rollup-Feld ist ein Konstrukt von Dynamics 365, das bei zugehörigen Datensätzen schnelle Formeln ermöglicht.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Wenn Sie verbleibende Budgetbeträge verarbeiten, können Sie in der Finanzbuchh
 5. Wählen Sie für jedes Projekt, das Sie verarbeiten möchten, die Option am Anfang der Zeile für das Projekt aus. 
 6. Wählen Sie **Prozess** aus, um die verbleibenden Budgetbeträge für die ausgewählten Projekte an das ausgewählte Geschäftsjahr zu übertragen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Dieses FAQ gilt für tatsächliche Ausgabenwerte, bei denen die Transaktionsklas
 Rufen Sie den entsprechenden Ausgabeneintrag auf und stellen Sie sicher, dass ein Betrag im Ausgabeneingabefeld steht. Falls beim ursprüngliche Ausgabeneintrag das Betragsfeld nicht ausgefüllt war, haben Sie das Problem isoliert.
  
 Um dieses Problem zu beheben, erstellen Sie den Ausgabeneintrag erneut mit einem gültigen Betrag und genehmigen Sie ihn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

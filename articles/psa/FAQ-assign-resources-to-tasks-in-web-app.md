@@ -116,3 +116,6 @@ Sie können die unterstützende Ressourcenanforderung für das allgemeine Teammi
 Wenn die allgemeine Ressource mit einer benannten Ressource erfüllt ist, wird die aufgewendete allgemeine Ressource aus dem Team entfert und die Aufgabenzuordnungen für die allgemeine Ressource werden der benannten Ressource zugewiesen, mit dem generische Ressourcenanforderungen für der Ressource erfüllt wurden.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

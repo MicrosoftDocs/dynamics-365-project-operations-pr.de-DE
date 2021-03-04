@@ -124,3 +124,6 @@ Zum Beispiel, wenn es die folgenden Eigenschaften gibt:
 - **Produkt-SKU** 
 
 Die Eigenschaften **Anzahl der Benutzer** und **Anzahl der Monate** können durch Bearbeitung der Produktposition als Mengenfaktoren gekennzeichnet werden. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Sie können Projektaufgaben auch über die Registerkarte **Fakturierbare Aufgabe
 
 >[!NOTE]
 > Durch diesen Vorgang wird die Aufgabe nicht aus dem Projekt gelöscht. Es wird nur die Aufgabenzuordnung aus der projektbasierten Angebotsposition entfernt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Wenn eine Angebotsposition auf einem Produktkatalog basiert, können Sie den Ver
 Wenn Sie **Preise überschreiben** auswählen, ist der Standardpreis nicht festgelegt. Sie müssen stattdessen einen Preis für das Produkt in der Angebotsposition eingeben. Wenn Sie **Standard verwenden** auswählen, wird der Standardverkaufspreis verwendet und das Feld für die Bearbeitung gesperrt.
 
 Es werden die Standardverkaufspreise in den produktbasierten Positionen in einem Angebot eingegeben. Das Feld **Preise** wird dann auf **Preise überschreiben** festgelegt, damit Sie den Standardpreis in den Angebotspositionen bearbeiten können. Dies ist eine Project Operations-spezifische Überschreibung des produktbasierten Zeilenverhaltens in Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

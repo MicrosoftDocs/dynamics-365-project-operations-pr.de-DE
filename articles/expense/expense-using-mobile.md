@@ -236,3 +236,6 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 22. Wählen Sie **Übermitteln** aus.
 23. Geben Sie Kommentare für die genehmigende Person ein.
 24. Wählen Sie **Fertig** aus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

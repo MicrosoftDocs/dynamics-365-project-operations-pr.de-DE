@@ -59,3 +59,6 @@ Jedes Projekt hat eine Reihe von Projektteammitgliedern. Sie können angeben, we
 3. Wählen Sie **Speichern** aus.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ In diesem Handbuch werden Sie durch den Prozess zum Einrichten und der Konfiguri
  [Kundenbetreuer-Handbuch](../psa/account-manager-guide.md) [Projekt-Manager-Handbuch](../psa/project-manager-guide.md)   
  [Handbuch Resource Manager](../psa/resource-manager-guide.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

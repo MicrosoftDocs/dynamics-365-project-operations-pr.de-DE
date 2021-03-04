@@ -33,3 +33,6 @@ Es gibt zwei Methoden, um mit den persönlichen Ausgaben eines Arbeitnehmers umz
 - **Auf Kosten des Unternehmens** – Ihre Organisation bezahlt die gesamte Rechnung für die Firmenkreditkarte und belastet dann die persönlichen Ausgaben vom Konto des Arbeitnehmers.
 
 Sie können die Methode auswählen, die Ihre Organisation für die Seite **Spesenverwaltungsparameter** verwendet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

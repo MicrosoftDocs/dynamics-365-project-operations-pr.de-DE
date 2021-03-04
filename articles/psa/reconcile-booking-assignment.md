@@ -101,3 +101,6 @@ Nachdem die Funktion Buchung verlängern für jede Ressource ausgeführt wurde, 
 
 Ein genauerer Blick auf die Details der Buchungen zeigt jedoch Unterschiede in der Startzeit der Buchungen. Die Buchungen beginnen frühestens zum Startzeitpunkt der Zuordnungskontur und frühestens zum verfügbaren Startzeitpunkt der Ressource.
  ![Neue Buchungen der Ressourcen in der Zeitplantafel](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

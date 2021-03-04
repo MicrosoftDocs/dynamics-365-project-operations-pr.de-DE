@@ -54,3 +54,6 @@ Weitere Informationen zum Projektmanagement und zur Buchhaltung finden Sie unter
 ## <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
 
 Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Eine weitere Möglichkeit, Informationen zu behördlichen Aktualisierungen zu erhalten, besteht darin, sich bei Lifecycle Services (LCS) anzumelden und die geplanten behördlichen Aktualisierungen mithilfe des Problemsuchwerkzeugs anzuzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

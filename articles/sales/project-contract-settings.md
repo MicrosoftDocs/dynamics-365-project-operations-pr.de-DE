@@ -58,3 +58,6 @@ Die folgenden KPIs sind auf der Registerkarte **Vertragsleistung** eines Projekt
 | Angefallene Kosten | Produktbasierte Positionen | Die Summe aller tatsächlichen Kosten, die für die produktbasierte Vertragszeile protokolliert wurden. |
 | Bruttogewinn | Projektbasierte Positionen | Rechnungsbetrag – Bis zum Datum angefallene Kosten/Rechnungsbetrag |
 | Erwartete Marge | Produktbasierte Positionen | (Vertragszeilenwert – Vorkalkulierte Kosten für die Vertragszeile)/Vertragszeilenwert |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

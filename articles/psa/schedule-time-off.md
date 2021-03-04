@@ -57,3 +57,6 @@ Planen Sie Ihre Urlaubszeiten und Abwesenheit so, wie Sie auch Zeiten für ein P
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

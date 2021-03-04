@@ -57,3 +57,6 @@ Im Filterbereich werden arbeitsbezogene Optionen angezeigt, darunter:
 -   Ressourcenzuordnungsunternehmen
 -   Ressourcentypen
 -   Bevorzugte Ressourcen
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Dieses Handbuch enthält Informationen, wie Sie Projekte erstellen und verwalten
  [Handbuch Resource Manager](../psa/resource-manager-guide.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

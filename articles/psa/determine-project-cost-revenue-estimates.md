@@ -81,3 +81,6 @@ Jede Ausgabe im Projekt, die nicht direkt mit der verbrauchten Arbeit zusammenh
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

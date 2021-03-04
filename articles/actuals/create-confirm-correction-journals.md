@@ -89,3 +89,6 @@ Führen Sie die folgenden Schritte aus, um einen oder mehrere Ausgabeneinträge 
 8. Auf der Projektseite, auf der Registerkarte **Istwerte** überprüfen Sie die **Zugeordnete Ansicht: Istwerte**. Die ursprünglichen Einträge und die korrigierten Einträge werden aufgelistet. Die folgende Grafik zeigt die ursprünglichen Ausgabeneinträge und die entsprechenden korrigierten Ausgabeneinträge. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

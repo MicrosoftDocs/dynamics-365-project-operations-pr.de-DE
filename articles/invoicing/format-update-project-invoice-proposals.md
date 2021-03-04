@@ -143,3 +143,6 @@ Deaktivieren Sie das Kontrollkästchen, um die Rechnung vor dem **Buchen** anzuz
 Zusätzlich zur Seite **Rechnungsvorschlag** können Rechnungsvorschläge auch durch Ausführen des periodischen Auftrags **Rechnungsvorschläge buchen** gebucht werden. Um diesen Auftrag zu finden, gehen Sie zu **Projektverwaltung und Buchhaltung** > **Periodisch** > **Projektrechnungen** > **Rechnungsvorschläge buchen**.
 
 Diese Seite zeigt alle Rechnungsvorschläge, die zur Buchung bereit sind. Sie können die Buchung von Rechnungsvorschlägen durch Auswahl von **Batch** planen. Stellen Sie die **Batchverarbeitungsparameter** auf **Ja** und legen Sie die Batchverarbeitung auf **Serie** fest.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

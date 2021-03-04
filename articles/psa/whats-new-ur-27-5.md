@@ -42,3 +42,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 Die folgenden Probleme wurden behoben:
 
 - Planen Sie eine Verschlechterung der Suchleistung
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

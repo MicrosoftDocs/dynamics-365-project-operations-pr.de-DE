@@ -44,3 +44,6 @@ Die folgende Themen enthalten mehr Informationen zu den Funktionen für die Ange
 - [Einheitengruppen und Einheiten](advanced-units.md)
 - [Währung für mehrere Einheiten](advanced-currency.md)
 - [Erfassen von Ist-Werten](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

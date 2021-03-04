@@ -96,3 +96,6 @@ Gehen Sie folgendermaßen vor, um eine benutzerdefinierte Version des Formulars 
     ```
 
 6. Speichern und veröffentlichen Sie dann die Anpassungen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

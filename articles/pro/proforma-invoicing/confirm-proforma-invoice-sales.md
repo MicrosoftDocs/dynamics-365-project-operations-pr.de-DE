@@ -273,3 +273,6 @@ Ein fakturierter tatsächlicher Umsatz für die Produktzeile mit der Menge und d
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

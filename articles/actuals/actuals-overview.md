@@ -342,3 +342,6 @@ Project Operations erfasst die Finanztransaktionen, die während eines Projekts 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

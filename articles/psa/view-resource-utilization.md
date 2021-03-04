@@ -43,3 +43,6 @@ Sie können die Ressourcennutzung überprüfen, um Nutzungsniveaus für Ihre Res
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Ressourcen Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

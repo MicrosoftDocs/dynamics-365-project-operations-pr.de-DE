@@ -140,3 +140,6 @@ Die folgende Abbildung zeigt Beispiele für die Zuordnung von Vorlagenaufgaben i
 [![Vorlagenzuordnung – Istwerte-Aktualisierung](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Vorlagenzuordnung – Transaktionsaktualisierung](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

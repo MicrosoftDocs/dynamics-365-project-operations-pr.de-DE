@@ -63,3 +63,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
   - Behoben: Es wird keine Fehlermeldung mehr angezeigt in **Projektsuche** in der **Angebotszeile**, wenn es mehr als 1000 Projekte gibt.
   - Behoben: Raster **Schätzungen** für Arbeitsschätzungen und Ausgabenschätzungen zeigt jetzt das richtige Währungssymbol an.
   - Behoben: Nachdem eine Organisation PSA von Update Release 14 auf Update Release 15 aktualisiert hat, wird die **Zeitplan** Registerkarte nicht mehr als leer auf dem Formular **Projekt** angezeigt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | **Verkaufschancenmanagement** | 2040713 | Der Skriptfehler, der beim Erstellen einer Rechnung aus einem Vertrag und beim Installieren von Field Service auftritt, wurde behoben. |
 | **Projektplanung und -nachverfolgung** | 2090202 | Markierte Geschäftsregeln, die nicht mehr als **Veraltet** verwendet werden. |
 | **Zeit und Ausgaben** | 2091249 | Engere Steuerung, so dass Benutzer die Aufgabe für einen Zeiteintrag nicht ändern können, der genehmigt oder übermittelt wurde. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

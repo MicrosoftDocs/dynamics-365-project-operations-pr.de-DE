@@ -242,3 +242,6 @@ In der folgenden Tabelle wird beschrieben, wie Entitätsdaten von Projektaufgabe
 
 ### <a name="additional-resources"></a>Zusätzliche Ressourcen
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

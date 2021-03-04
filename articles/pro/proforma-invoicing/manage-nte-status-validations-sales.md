@@ -73,3 +73,6 @@ Sie können eine Massen-Neubewertung des Status „Nicht zu überschreiten“ du
 Um den Status „Nicht zu überschreiten“ neu zu bewerten, wählen Sie einen oder mehrere Istwerte aus der Ansicht **Rückstandsprotokoll über Zeit- und Materialberechnung** oder **Istwerte** und dann **Nicht zu überschreitenden Status erneut bewerten** aus.
 
 Alle relevanten ausgewählten Istwerte mit einem Grenzwert, der nicht überschritten werden darf, werden anhand der Einstellung des Grenzwerts bewertet, der nicht überschritten werden darf. Bei Istwerten, die relevant für die Neubewertung sind, handelt es sich um nicht in Rechnung gestellte Verkaufsdaten, die nicht bereits in Rechnung gestellt wurden, nicht auf einem Rechnungsentwurf und als kostenpflichtig gekennzeichnet sind. Alle anderen ausgewählten Istwerte.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

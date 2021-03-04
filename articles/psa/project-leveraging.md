@@ -54,3 +54,6 @@ Sie können den Arbeitsaufwand definieren und Vorkalkulationen planen, indem Sie
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importieren von Vorkalkulationen aus einem Projekt in ein Angebot
 
 Nach der Definition von Projektvorkalkulationen können Sie diese in die Angebotszeile importieren. Wählen Sie auf der Seite **Detailinformationen zur Angebotsposition** im Menüband die Schaltfläche **Aus Vorkalkulation importieren** aus, um Projektvorkalkulationen nach Transaktionstyp, Rolle oder Aufgabenebene zusammenzufassen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

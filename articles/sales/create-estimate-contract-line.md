@@ -69,3 +69,6 @@ Rentabilitätsberechnungen konvertieren die Beträge für die Vertragszeilendeta
 
 > [!NOTE]
 > Währungsrundungsfehler und geänderte Margen können aufgrund fehlender datumswirksamer Wechselkurse auftreten. Verwenden Sie diese Berechnungen für Projektverträge nur als Näherungswerte und nicht für tatsächliche gesetzliche oder andere Berichte, die eine höhere Rundungsgenauigkeit und Kenntnis der Datumseffektivität für Wechselkurse erfordern.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

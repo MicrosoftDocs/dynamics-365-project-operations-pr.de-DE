@@ -113,3 +113,6 @@ Molly Clark, Entwicklerin bei GBPM, verzeichnet 10 Stunden Arbeit für ein USPM 
     - Gutschrift: Projekt – Aufgelaufene Einnahmen 120 USD
 
     Das System ist jetzt bereit, eine Intercompany-Debitorenrechnung zu erstellen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

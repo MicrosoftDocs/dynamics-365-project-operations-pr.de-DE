@@ -78,3 +78,6 @@ Die folgenden Funktionen sind auf der vorhandenen Seite vorhanden, auf der neuen
 - Workflow auf Positionsebene
 - Unterstützung für temporäre Genehmiger
 - Erweiterte Auflistung
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

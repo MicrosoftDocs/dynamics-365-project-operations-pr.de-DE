@@ -71,3 +71,6 @@ Preislisten beruhen auf Rollen und Ausgabenkategorien. Deshalb sollten Sie, ehe 
   
 ### <a name="see-also"></a>Siehe auch  
  [Project Service Automation konfigurieren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

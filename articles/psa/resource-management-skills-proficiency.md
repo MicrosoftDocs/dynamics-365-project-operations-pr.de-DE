@@ -48,3 +48,6 @@ Fähigkeiten für Ressourcen werden durch Kompetenzstufenmodelle bewertet. Die e
 > ![Definierte Mindest- und Höchstbewertungswerte](media/Resource-Management-image85.png)
 
 Diese Bewertungswerte werden in den Filtern **Ressourcenanforderungen**, **Zeitplanübersicht** und **Zeitplan-Assistent** angezeigt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -429,3 +429,6 @@ Die Eingabe einer Standardprojektkategorie in Arbeitszeittabelleneinträge erfol
 1. Die App versucht, die Standardkategorie aus der Projektressource zu übernehmen. Diese Standardkategorie wird in den **getCurrentUserResource** - und **getDelegatedResourcesForCurrentUser** -Methoden in der **TSTimesheetSettingsService** -Klasse festgelegt.
 2. Wenn die Standardkategorie auf Projektressourcenebene nicht bereitgestellt wird, versucht die App, sie aus der Projektaktivität abzurufen. Diese Standardkategorie wird in der **getActivitiesForProject** -Methode in der **TSTimesheetProjectService** -Klasse festgelegt.
 3. Wenn die Standardkategorie auf Projektaktivitätsebene nicht bereitgestellt wird, wird die Standardkategorie aus den Projektparametern abgerufen. Diese Standardkategorie wird in der **getProjectDetailsbyRule** -Methode in der **TSTimesheetProjectService** -Klasse festgelegt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Mit Office-Gruppen können Sie ein Projekt für andere Teammitgliedern im Common
 > [!NOTE] 
 > Benutzer werden der Gruppe nur hinzugefügt, wenn Sie **Gruppen** drücken und sie hinzufügen. Dies unterscheidet sich vom Verhalten von Project for the Web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

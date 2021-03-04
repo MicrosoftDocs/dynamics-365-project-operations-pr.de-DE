@@ -41,3 +41,6 @@ Ressourcen sind die wichtigsten Anlagen einer dienstbasierten Organisation. Die 
 - [Anforderungen für unverbindliches Buchen](resource-management-softbook-requirements.md)
 - [Fähigkeiten und Kompetenzstufenmodelle](resource-management-skills-proficiency.md)
 - [FAQ zur Ressourcenverwaltung](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

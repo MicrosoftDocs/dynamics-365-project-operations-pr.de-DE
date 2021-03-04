@@ -73,3 +73,6 @@ Sie können Daten für entitätsbasierte Dimensionen manuell oder mithilfe von M
 > ![Beispieldaten für die Entität „Standardtitel” ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

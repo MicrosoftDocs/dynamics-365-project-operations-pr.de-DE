@@ -112,3 +112,6 @@ Nr. Die Zeitplanschätzung ist derzeit auf Stunden begrenzt und kann nicht geän
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Können Einheiten und Einheitengruppen bearbeitet, gelöscht hinzugefügt werden?
 Ja. Mit Ausnahme der Einheitengruppe **Zeit** und der Einheit **Stunde** können alle Einheiten gelöscht oder bearbeitet und neue Einheiten hinzugefügt werden. In PSA können die Einheitengruppe **Zeit** und die Einheit **Stunde** nicht gelöscht werden. Sie können jedoch mit einem übersetzten Text für das Feld **Name** aktualisiert werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

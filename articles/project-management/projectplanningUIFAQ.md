@@ -106,3 +106,6 @@ Wenn eine oder mehrere Aktualisierungen am Projektstrukturplan vorgenommen werde
   - Project Operations System
   - Projektsystem
   - System duales Schreiben für Project Operations (Diese Rolle ist erforderlich, wenn Sie das Szenario ressourcen/nicht vorrätig von Project Operations bereitstellen.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

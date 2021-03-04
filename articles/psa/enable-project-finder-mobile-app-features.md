@@ -68,3 +68,6 @@ Ihre Ressourcen können die Project Finder Mobile-App auf ihrem Telefon mit [!IN
   
 ### <a name="see-also"></a>Siehe auch  
  [Ressourcen einrichten](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

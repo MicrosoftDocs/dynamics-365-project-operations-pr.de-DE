@@ -70,3 +70,6 @@ Die Autorisierung ist jetzt abgeschlossen.
 Sie haben Ihr Azure-Abonnement erfolgreich verbunden. Sie können nun Cloud-gehostete Dynamics 365 Finance-Umgebungen bereitstellen.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

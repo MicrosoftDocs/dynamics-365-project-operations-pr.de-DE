@@ -51,3 +51,6 @@ ms.locfileid: "5146797"
   
 ### <a name="see-also"></a>Siehe auch  
  [Project Service konfigurieren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

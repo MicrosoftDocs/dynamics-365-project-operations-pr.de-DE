@@ -113,3 +113,6 @@ Die mobile App Finance and Operations herunterladen und installieren:
 11. Wählen Sie die Eigenschaft Zeile aus.
 12. Optional: geben Sie externe und interne Kommentare ein.
 13. Wählen Sie **Fertig** aus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

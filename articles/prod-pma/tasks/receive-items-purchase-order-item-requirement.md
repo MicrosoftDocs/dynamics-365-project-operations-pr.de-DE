@@ -56,3 +56,6 @@ Diese Aufgabe verwendet die USSI Dataset.
 21. Geben Sie in das Feld **Produktzugang** einen Wert ein.
 22. Klicken Sie auf **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

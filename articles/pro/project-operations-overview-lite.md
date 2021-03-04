@@ -37,3 +37,6 @@ Verwenden Sie diesen Bereitstellungstyp, wenn Sie von Project Operations erwarte
 - Ein integriertes Projektmanagementsystem, das interne und abrechnungsfähige Projekte für Zeitpläne und Finanzen vom Projektverkauf bis zur Fakturierung verwaltet.
 - Ein Enterprise Resource Planning-Software von Drittanbietern (ERP/Financial Accounting System zur Integration in Project Operations).
 - Ein Drittanbietersystem zur Bearbeitung von Umsatzsteuern, Wechselkursen, Kostenerstattungen und nicht projektbezogenen Ausgaben.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

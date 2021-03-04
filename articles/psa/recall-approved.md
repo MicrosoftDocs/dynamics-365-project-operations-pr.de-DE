@@ -107,3 +107,6 @@ Die folgende Abbildung zeigt die Änderungen, die für genehmigte Zeiteinträge 
 Die folgende Abbildung zeigt die Änderungen, die für genehmigte Ausgabeneinträge auftreten, wenn sie zurückgerufen werden.
 
 ![Statusübergänge für Ausgabeneinträge](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

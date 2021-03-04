@@ -60,3 +60,6 @@ Im Raster der Teammitglieder können die folgenden Aktionen ausgeführt werden:
 
 - **Neu**: Zusätzlich zum Hinzufügen von Ressourcen direkt aus dem Zeitplan können Projektmanager neue benannte oder allgemeine Teammitglieder aus dem Teammitgliedsraster hinzufügen.
 - **Löschen**: Durch Auswahl eines oder mehrerer Teammitglieder kann der Projektmanager Ressourcen löschen, die nicht mehr am Projekt teilnehmen werden. Durch das Löschen eines Teammitglieds werden auch alle zugehörigen Ressourcenzuweisungen gelöscht und alle vorhandenen Buchungen storniert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

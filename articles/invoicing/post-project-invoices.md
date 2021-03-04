@@ -30,3 +30,6 @@ Der Projektmanager kann nicht abgerechnete Verkaufstransaktionen anhand der Zeit
 Sie können [manuell eine Proforma-Rechnung erstellen](../proforma-invoicing/create-manual-proforma-invoice.md) oder einen [periodischer Prozess](../proforma-invoicing/configure-automated-invoice-creation.md) verwenden. Der Projektmanager kann [einen Entwurf einer Proforma-Rechnung anpassen](../proforma-invoicing/manage-proforma-invoice.md) nach Bedarf und ihn dann bestätigen.
 
 Die bestätigte Proforma-Rechnung wird an das Modul **Projektmanagement und Buchhaltung** in Finance senden. Der Projektbuchhalter formatiert und aktualisiert den Projektrechnungsvorschlag und veröffentlicht und druckt das Dokument. Gebuchte Projektrechnungen werden im Hauptbuch sowie in den Nebenbüchern Kunden und Projekt erfasst.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

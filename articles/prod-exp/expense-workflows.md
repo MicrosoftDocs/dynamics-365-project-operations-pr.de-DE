@@ -50,3 +50,6 @@ Die folgende Tabelle enthält die Workflow-Typen, die Sie in **Ausgaben** erstel
 |      <strong>Vorauskassenanfrage</strong>      |         Erstellen Sie Genehmigungsworkflows für Vorauszahlungsanfragen.          |
 |        <strong>MWsT-Rückforderung</strong>        | Erstellen Sie Genehmigungsworkflows für die Erstattung der Mehrwertsteuer (MWsT).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

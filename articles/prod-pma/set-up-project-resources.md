@@ -75,3 +75,6 @@ Nachdem die vorhergehenden Aufgaben abgeschlossen wurden, können Sie die folgen
 - Erfüllen von Ressourcenanforderungen.
 - Fordern Sie eine besetzte Ressource von einem PSP an.
 - Buchen Sie Ressourcen für ein Projekt, ohne eine Personalressource anzufordern.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

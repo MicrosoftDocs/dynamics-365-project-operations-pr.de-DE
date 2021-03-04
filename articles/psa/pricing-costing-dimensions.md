@@ -77,3 +77,6 @@ Das folgende Beispiel zeigt Rechnungssätze, die basierend auf der Rolle und der
 | ----------------|-------------|----------|----------:|----------|
 | Mein Unternehmen_Band1 | Contoso US  |Hour | 145|USD     |
 | Mein Unternehmen_Band2 | Koch Indien |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

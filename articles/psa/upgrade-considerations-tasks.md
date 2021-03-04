@@ -96,3 +96,6 @@ Um ein erfolgreiches Upgrade zu gewährleisten, müssen die folgenden Beziehunge
 
 - Alle Projektaufgabenabhängigkeiten müssen mit demselben Projekt verknüpft sein.
 - Auf eine Aufgabe kann nicht mehrmals dieselbe Abhängigkeit verwiesen werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

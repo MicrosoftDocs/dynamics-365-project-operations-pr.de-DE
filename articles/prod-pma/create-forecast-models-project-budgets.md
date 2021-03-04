@@ -57,3 +57,6 @@ In diesem Thema wird beschrieben, wie Sie ein Prognosemodell für verbleibende B
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

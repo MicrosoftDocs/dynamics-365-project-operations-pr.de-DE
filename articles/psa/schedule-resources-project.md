@@ -83,3 +83,6 @@ Wenn Sie eine ältere Version verwenden, lesen Sie für die Ressourcenverfügbar
   
 ### <a name="additional-resources"></a>Zusätzliche Ressourcen  
  [Ressourcenmanagerhandbuch](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

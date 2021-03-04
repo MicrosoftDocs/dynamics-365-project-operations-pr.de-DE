@@ -55,3 +55,6 @@ Wenn diese Preisberechnungsmethode in der Kategoriepreiszeile ausgewählt wird, 
 
 ### <a name="markup-over-cost"></a>Aufschlag auf Kosten
 Wenn diese Preisberechnungsmethode in der Kategoriepreiszeile ausgewählt wird, die mit einer Verkaufspreisliste verknüpft ist, wird der Preis für die Kombination aus Kategorie und Einheit nur für die Istwerte der Ausgaben verwendet. Beispielsweise nicht fakturierte Umsatz-Istwerte für die Ausgabentransaktionsklasse. Dieser Preis pro Einheit wird auf den nicht fakturierten tatsächlichen Umsatz auf einen berechneten Wert aus dem Preis pro Einheit in den tatsächlichen Kosten für diesen Aufwand gesetzt, nachdem der definierte Aufschlagsprozentsatz angewendet wurde. Die Standand-Preisberechnung basierend auf Kosten wird nicht anhand von Projektvorkalkulationen für Ausgaben oder der Angebots- und Vertragszeilendetails für Ausgaben vorgenommen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

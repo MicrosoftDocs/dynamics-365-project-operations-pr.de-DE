@@ -38,3 +38,6 @@ Die folgenden Attribute sind für jede Ausgabenposition definiert:
 - **Stückpreis** : Der Einheitspreis, der zur Berechnung der Ausgabenkosten verwendet wird.
 - **Stückverkaufspreis** : Der Einheitspreis, der zur Berechnung des Verkaufspreises verwendet wird.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

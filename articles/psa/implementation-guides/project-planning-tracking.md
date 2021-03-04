@@ -45,3 +45,6 @@ Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in d
 
 > [!NOTE]
 > Dieses Thema wird in einem zukünftigen Dokumentationsupdate entfernt. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

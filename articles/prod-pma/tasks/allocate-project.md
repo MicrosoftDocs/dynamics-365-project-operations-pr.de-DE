@@ -44,3 +44,6 @@ Nachdem ein Budget oder eine Budgetrevision zugewiesen wurde, können Sie die Zu
 10. Wenn die Zuordnung Ihren Wünschen entspricht, klicken Sie auf der Seite „Projektbudget“ auf „Senden“, um das Budget oder die Budgetrevisionen an den Genehmigungsworkflow zu senden.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

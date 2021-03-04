@@ -40,3 +40,6 @@ Ein Projektmanager kann die erforderlichen Ressourcenrollen für ein Projekt pla
 7. Wählen Sie einen Worker und wählen Sie dann **Zuweisen**.
 8. Stellen Sie sicher, dass die Zeile für **Softwareentwickler 1** entfernt wurde für das Projekt **XYZ-Upgrade-Projekt Phase 2**.
 9. Auf der Registerkarte **Projektteam und Terminplanung** für das Projekt **XYZ-Upgrade-Phase 2** überprüfen Sie im Projekt, ob der Worker, den Sie im vorherigen Schritt ausgewählt haben, als **Softwareentwickler** hinzugefügt wurde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

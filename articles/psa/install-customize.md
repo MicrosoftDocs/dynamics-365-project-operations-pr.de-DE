@@ -55,3 +55,6 @@ ms.locfileid: "5151477"
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)   
  [Handbuch Resource Manager](../psa/resource-manager-guide.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

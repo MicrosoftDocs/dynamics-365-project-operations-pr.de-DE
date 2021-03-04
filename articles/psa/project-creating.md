@@ -149,3 +149,6 @@ Wenn eine Blattknotenaufgabe keine Vorgänger hat, wird ihr Startdatum standardm
 ### <a name="manual-scheduling"></a>Manuelle Terminierung
 
 Wenn die Regeln zur automatischen Zeitplanung Ihre Bedingungen nicht erfüllen, können Sie den Aufgabenmodus der Aufgabe auf **Manuell geplant** setzen. Diese Einstellung stoppt die Zeitplanungsengine an der Berechnung der Werte anderer Zeitplanungsattribute. Wenn Sie unabhängig vom Aufgabenmodus die Vorgänger auf Aufgaben einstellen, beeinflussen Sie immer das Startdatum der abhängigen Aufgabe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

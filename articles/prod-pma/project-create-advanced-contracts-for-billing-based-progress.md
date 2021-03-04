@@ -103,3 +103,6 @@ Budgetkategorien werden verwendet, um automatisch die Rechnungsbeträge für den
 8. Optional: Weisen Sie weiteren Projekten Fakturierungsregeln zu. Wählen Sie im Inforegister **Projekt** im Abschnitt **Verfügbare Projekte** ein Projekt aus. Wählen Sie dann die Schaltfläche mit dem Rechtspfeil aus, um das Projekt dem Abschnitt **Ausgewählte Projekte** hinzuzufügen.
 9. Optional: Berechnen Sie den Prozentsatz, den der Kunde von Zahlungen auf einer Rechnung einbehält. Wählen Sie im Inforegister **Bedingungen für Einbehaltung der Zahlung** die Finanzierungsquelle aus, und geben Sie dann im Feld **Prozentsatz der Einbehaltung** den Prozentsatz der Einbehaltung ein.
 10. Wiederholen Sie diese Schritte, um zusätzliche Fakturierungsregeln für den Projektvertrag zu erstellen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

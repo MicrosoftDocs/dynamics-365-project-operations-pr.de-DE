@@ -63,3 +63,6 @@ Wenn Sie eine Ausgabenabrechnung für den bereits erhaltenen Vorschuss erstellen
 ### <a name="example"></a>Beispiel
 Sie planen, für eine Konferenz von Seattle nach New York City zu reisen. Sie erstellen eine Vorauszahlungsanfrage für 3000.00 USD basierend auf den geschätzten Kosten für Konferenzticket, Flüge, Hotel, Mahlzeiten und Taxi. Sie werden erst bezahlt, wenn Ihr Manager diese Anfrage genehmigt. Nachdem Ihr Manager eine Genehmigung erteilt hat, wird der angeforderte Vorschuss als 3.000,00 USD auf Ihr Bankkonto gezahlt. Sie nehmen dann an der Konferenz teil. Nach Abschluss Ihrer Reise stellen Sie fest, dass die Gesamtausgaben nur 2.790,00 USD betrugen. Wählen Sie das Feld **Kasse** unter **Zahlungsmethode** und senden Sie Ihre Ausgaben für 2790.00 USD. Ihr übermittelter Ausgabenbetrag wird automatisch an der Vorauszahlung von 3.000,00 USD angepasst, der Ihnen verliehen wurde. Sie schulden jetzt einen Saldo von 210.00 USD (3000.00 – 2790.00), den Sie an das Unternehmen zurückgeben können mit der Ausgabenkategegorie **Bargeld zurückgeben**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

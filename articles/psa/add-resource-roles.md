@@ -47,3 +47,6 @@ Legen Sie Zielnutzungsraten für jede Rolle fest. Diese Einstellungen bestimmen 
   
 ### <a name="see-also"></a>Siehe auch  
  [Ressourcen einrichten](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

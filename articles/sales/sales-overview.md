@@ -63,3 +63,6 @@ In Project Operations ist es nicht möglich, Überarbeitungen an einem Angebot n
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Nachverfolgungskommentare und Genehmigungen von Angeboten und Projektverträgen
 Sie können die Überprüfung und Genehmigung von Angeboten und Projektverträgen mithilfe der Datensatzpinnwand und Beiträge verwalten. Ihre Organisation kann benutzerdefinierte Workflows und Plug-Ins erstellen, um die Benachrichtigungen zu Überprüfungs- und Genehmigungsarbeitselementen zuzuweisen, umzuleiten, zu eskalieren und zu verwalten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

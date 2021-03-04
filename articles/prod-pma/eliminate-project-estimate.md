@@ -51,3 +51,6 @@ Um ein Vorkalkulationsprojekt zu löschen, muss es vollständig sein. In den fol
 5. Nach Abschluss des Entfernungsprozesses wird das entfernte Vorkalkulationsprojekt mit einem negativen Wert angezeigt. 
 
 Wenn das Entfernen der Vorkalkulation nicht beabsichtigt war, können Sie die entfernte Vorkalkulation und dann **Entfernen stornieren** auswählen.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

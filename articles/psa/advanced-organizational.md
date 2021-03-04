@@ -167,3 +167,6 @@ Wenn Ihr Unternehmen als eine Einheit mit einer Einstandspreisliste tätig ist, 
 Wenn ein Projekt eigenständig erstellt wird, basiert die standardmäßige Vertragseinheit des Projekts auf dem Benutzer, der sie erstellt. Dieser Benutzer ist auch der Standardprojektmanager. Wenn das Projekt einer Vertriebsentität wie einem Angebot oder einem Projektvertrag zugeordnet ist, basiert die Vertragseinheit im Projekt stattdessen auf der Vertriebsentität. In diesem Fall werden Projektschätzungen möglicherweise neu berechnet, da die Einstandspreisliste verwendet wird, um Änderungen der Kostenschätzung zu berechnen, wenn die Vertragseinheit geändert wird. Die Vertriebspreisliste wird verwendet, um die Vertriebsschätzungen zu berechnen, die geändert werden, damit sie mit der Projektpreisliste im Angebot konsistent sind.
 
 Die Felder **Vertragseinheit** und **Währung** im Projekt sind zum Bearbeiten gesperrt, da sie mit den Werten in der Vertriebsentität konsistent sein müssen (Angebot oder Projektvertrag), der das Projekt zugeordnet ist.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

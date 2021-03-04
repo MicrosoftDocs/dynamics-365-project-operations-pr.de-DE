@@ -29,3 +29,6 @@ Der Abschnitt **Status** auf der Seite **Projektentität** bietet eine Zusammenf
 - Im Feld **Kommentare** kann der Projektmanager bestimmte Kommentare zum Status eingeben. 
 - Das Feld **Status aktualisiert am** kann nicht bearbeitet werden. Der Wert in diesem Feld ist ein Zeitstempel, der angibt, wann der Status zuletzt aktualisiert wurde.
 - Die Felder **Zeitplanleistung** und **Kostenleistung** werden über das Nachverfolgungsraster festgelegt. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten in der Ansicht **Aufwandsverfolgung** positiv sind, können Sie diese Felder auf **Vorsprung** aktualisieren. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten negativ sind, können Sie diese Felder auf **Rückstand** festlegen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

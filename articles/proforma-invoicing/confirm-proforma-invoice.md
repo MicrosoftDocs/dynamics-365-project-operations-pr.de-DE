@@ -198,3 +198,6 @@ Ein in Rechnung gestellter tatsächlicher Umsatz für den Meilensteinbetrag im u
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

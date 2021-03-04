@@ -107,3 +107,6 @@ Im PSP wurden zusätzliche Optionen hinzugefügt, um so die Ressourcing-Funktion
     > Sie erhalten keine Warnung, dass die angegebene Ressource jetzt 2 ist, da die Anzahl der Ressourcen 1 bleibt.
 
 14. Auf der Seite **Projektstrukturplan** überprüfen Sie die Ressourcenzuweisung im PSP und wählen Sie dann **Speichern**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

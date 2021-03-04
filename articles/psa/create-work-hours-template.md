@@ -65,3 +65,6 @@ Bevor Sie Projektzeitpläne erstellen können, müssen Sie einen Projektkalender
   
 ### <a name="see-also"></a>Siehe auch  
  [Ressourcen einrichten](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

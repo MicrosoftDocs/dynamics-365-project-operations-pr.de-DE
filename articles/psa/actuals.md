@@ -330,3 +330,6 @@ PSA erfasst die Finanztransaktionen, die während eines Projekts stattfinden. Di
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

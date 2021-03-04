@@ -47,3 +47,6 @@ Konfigurieren Sie die Zeiteinheiten im Produktkatalog, den Sie als Basis für di
   
 ### <a name="see-also"></a>Siehe auch  
  [Project Service konfigurieren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

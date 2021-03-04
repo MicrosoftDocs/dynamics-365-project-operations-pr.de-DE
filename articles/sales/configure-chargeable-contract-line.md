@@ -58,3 +58,6 @@ Eine für die Ausgabe erstellte Vorkalkulation oder ein Istwert wird nur dann al
 | Nr. | Ja | Kann nicht festgelegt werden | Nicht fakturierbar | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht verfügbar </br>Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar |
 | Ja | Nr. | Fakturierbar | Kann nicht festgelegt werden | Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar </br>Fakturierungstyp bei tatsächlichen Ausgaben: Nicht verfügbar |
 | Ja | Nr. | Nicht fakturierbar | Kann nicht festgelegt werden | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar </br> Fakturierungstyp bei tatsächlichen Ausgaben: Nicht verfügbar |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

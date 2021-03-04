@@ -81,3 +81,6 @@ Die folgenden Probleme wurden behoben:
 - Die Schaltfläche **Tatsächliche Transaktionen aktualisieren** berechnet Zusammenfassungsaufgaben falsch.
 - Microsoft Project-Add-In: Behebung eines Nullreferenzfehlers, wenn ein Teammitglied eine leere Ressourceneinheit hat.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Im Gegensatz zu Buchungen sind Zuweisungen die Bindung von Ressourcen an Projekt
 Normalerweise entspricht die Summe der Buchungen für eine Ressource der Summe der Zuweisungen der Ressource für eine oder mehrere Aufgaben. Project Operations erzwingt diese Vereinbarung jedoch nicht. Die **Abstimmungsansicht** zeigt einem Projektmanager an, wo die Buchungen und Zuweisungen einer Ressource nicht übereinstimmen.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

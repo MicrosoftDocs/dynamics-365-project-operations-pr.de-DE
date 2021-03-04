@@ -47,3 +47,6 @@ Ein Vertragskunde kann über die **Vertragskunden**-Registerkarte auf der **Vert
 Sie können Fakturierungs-Aufteilungsprozentsätze im Raster bearbeiten. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 Prozent betragen, wird eine Fehlermeldung angezeigt. Aktualisieren Sie die Seite **Projektvertrag**, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung bearbeitet haben, um den Fehler zu entfernen.
 
 Sie können auch **Gleichmäßig verteilen** im Projektvertragskunden-Unterraster auswählen. Die Abrechnung wird gleichmäßig auf alle Kunden in der Projektvertragszeile verteilt. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Vertragskunden hat immer das **Rundung**-Flag auf **Ja** gesetzt. Dieser Kunde ist der Rundungskunde. In der Regel ist der Rundungskunde auch der Hauptkunde des Vertrags, dies ist jedoch nicht erforderlich.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

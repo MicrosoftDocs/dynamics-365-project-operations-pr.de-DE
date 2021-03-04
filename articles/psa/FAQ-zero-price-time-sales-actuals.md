@@ -57,3 +57,6 @@ Wenn keine Zeile im Rollenpreisraster für die Preisberechnungsdimensionen auf d
 
 Wird weiterhin keine gültiger Preis auf Ihrem vertrieblichen Zeit-Ist-Wert angezeigt, nachdem alle drei oben genannten Überprüfungen befolgt wurden, reichen Sie ein Support-Ticket ein. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

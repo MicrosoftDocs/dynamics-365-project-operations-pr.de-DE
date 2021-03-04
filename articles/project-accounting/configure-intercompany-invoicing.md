@@ -101,3 +101,6 @@ Im folgenden Beispiel ist Contoso Robotics USA (USPM) die kreditnehmende juristi
           - **Ressourcenzuordnungsunternehmen** = **Contoso Robotics UK**
           - **Fakturierungsrate** = **200 USD**
       9. Gehen Sie zu **Vertrieb** > **Projektverträge** und hängen Sie die **Rechnungssätze für Adventure Works**-Preisliste an die Adventure Works-Projektpreisliste des Projektvertrags an.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

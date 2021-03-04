@@ -49,3 +49,6 @@ Meine Arbeitszeittabellen (für Mobilgeräte optimiert) und Arbeitszeittabellen 
 - [Projektzeiterfassung]( project-time-entry-mobile-workspace.md)
 - [Projektzeittabellen auf einem mobilen Gerät](Mobile-timesheets.md)
 - [Implementieren Sie benutzerdefinierte Felder für die Microsoft Dynamics 365 Project Timesheet mobile App auf iOS und Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

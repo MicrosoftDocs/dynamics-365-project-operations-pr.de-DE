@@ -72,3 +72,6 @@ Wenn der Preis, der für die Ausgabenkategorie eingerichtet wird, nicht gültig 
 Wird weiterhin keine gültiger Preis auf Ihrem Ausgaben-Ist-Wert angezeigt, nachdem alle drei oben genannten Überprüfungen durchgeführt wurden, reichen Sie ein Support-Ticket ein.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

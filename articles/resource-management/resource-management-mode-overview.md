@@ -48,3 +48,6 @@ Eine Ressource direkt auf ein Projekt buchen:
 Eine Ressource aus einer Ressourcenanforderung buchen:
 - [Allgemeine buchbare Ressourcen einer Aufgabe zuweisen und Ressourcenanforderungen erstellen](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Benannte Ressourcen aus Ressourcenanforderungen buchen](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Nachfolgend sind die Felder in einer projektbasierten Verkaufschancenposition au
 | Name des Dataflows | Registerkarte „Allgemein“ | Dies ist ein bearbeitbares Textfeld, mit dem dieser Position eine kurze Identität zugewiesen werden kann. | Dieser Wert wird in die Angebotsposition übertragen, wenn Sie aus dieser Verkaufschance ein Angebot erstellen. |
 | Kundenbudget | Registerkarte „Allgemein“ | Dieses bearbeitbare Währungsfeld kann verwendet werden, um den Betrag zu verfolgen, den der Kunde bereit ist, für diese Position auszugeben. | Dieser Wert wird in das entsprechende Feld in der Angebotsposition übertragen, wenn Sie aus dieser Verkaufschance ein Angebot erstellen. |
 | Fakturierungsmethode | Registerkarte „Allgemein“ | Dieses bearbeitbare Feld weist die folgenden Werte auf:</br>- Zeit und Material</br>- Festpreis | Dieser Wert wird in das entsprechende Feld in der Angebotsposition übertragen, wenn Sie aus dieser Verkaufschance ein Angebot erstellen. Nachdem die Angebotsposition erstellt wurde, ist das Feld gesperrt und kann nicht geändert werden. Weisen Sie diesen Feldwert so genau wie möglich zu. Wenn Sie den Wert dieses Felds in der Angebotsposition ändern müssen, löschen Sie die Angebotsposition und erstellen Sie sie neu. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

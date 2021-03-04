@@ -34,3 +34,6 @@ Führen Sie die folgenden Schritte aus, um Periodentypen zu erstellen und damit 
 4. Wählen Sie den Periodentyp-Datensatz aus und dann **Perioden generieren**, um Perioden für den Periodentyp zu erstellen. Basierend auf der von Ihnen ausgewählten Periodenhäufigkeit haben Sie möglicherweise die Möglichkeit, ein Startdatum oder die Anzahl der zu generierenden Perioden anzugeben.
 5. Wählen Sie **Perioden** aus, um generierte Perioden zu überprüfen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

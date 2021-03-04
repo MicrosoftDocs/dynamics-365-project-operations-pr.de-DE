@@ -35,3 +35,6 @@ Navigieren Sie zu den Projekt-Istwerten und überprüfen Sie, ob die Kosten und 
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

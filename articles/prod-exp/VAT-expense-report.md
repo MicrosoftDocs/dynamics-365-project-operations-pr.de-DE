@@ -72,3 +72,6 @@ Wenn Arnie bereit ist, die Spesenabrechnungsdaten an den Drittanbieter zu senden
 Arnie muss überprüfen, ob die Spesenabrechnungstransaktionen für die Erstattung der Mehrwertsteuer in Frage kommen und ob die digitalen Belege den Berichten beigefügt sind. Um gültige Ausgaben für die inländische Rückforderung zu verarbeiten, öffnet Arnie die Seite **Steuerrückerstattung** und wählt die Spesenabrechnung aus, die überprüft werden muss. Er überprüft, ob die Belege auf den Namen des Unternehmens und nicht auf den des Mitarbeiters lauten. Für die Erstattung der Mehrwertsteuer müssen die Belege auf den Namen des Unternehmens lauten. Arnie bestätigt dann, dass die richtigen Umsatzsteuergruppen- und Artikelumsatzsteuerkennzeichen angewendet wurden.
 
 Wenn Arnie die Papierbelege erhält, ändert er den Status der Spesenabrechnung in **Bereit für Beitreibung**. Er kann die Steuererklärung dann bei der zuständigen Steuerbehörde einreichen. In diesem Fall ist die entsprechende Steuerbehörde in den USA der Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Führen Sie die folgenden Schritte aus, um aus einer neuen Ressourcenanforderung
 
 4. Nachdem die Ressource gebucht wurde, müssen Sie Aufgaben manuell zuweisen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

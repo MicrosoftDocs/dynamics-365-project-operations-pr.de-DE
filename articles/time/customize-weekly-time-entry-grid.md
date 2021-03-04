@@ -144,3 +144,6 @@ Verwenden Sie Plug-In-Prüfungen für alle Prüfungen, bei denen mehr Kontext er
 
 ### <a name="copying-time-entries"></a>Kopieren von Zeiteinträgen
 Verwenden Sie die Ansicht **Zeiteintragsspalten kopieren**, um die Liste der Felder zu definieren, die während der Zeiteingabe kopiert werden sollen. **Datum** und **Dauer** sind Pflichtfelder und sollten nicht aus der Ansicht entfernt werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

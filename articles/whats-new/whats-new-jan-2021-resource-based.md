@@ -89,3 +89,6 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 ## <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
 
 Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

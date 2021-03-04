@@ -56,3 +56,6 @@ Ein vorhandenes Angebot kann mit einer Verkaufschance verknüpft werden. Führen
    Wenn Sie eine Verkaufschance in diese Phase verschieben, können Sie dieses Angebot aus einer Liste von Angeboten auswählen, die dieser Verkaufschance zugeordnet sind. Wenn Sie dieses Angebot auswählen, bedeutet dies, dass Sie damit fortfahren.
 
    Alle anderen mit der Verkaufschance verbundenen Angebote sind weiterhin verfügbar und aktiv, bis eines davon gewonnen wird. Sie können den Verkaufsprozess wieder in die vorherige Phase **Qualifizieren** verschieben und ein anderes Angebot auswählen, um mit diesem weiterzumachen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

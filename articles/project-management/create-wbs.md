@@ -116,3 +116,6 @@ Der Aufgabenmodus hat keine Auswirkungen auf die Updates, die für das Start- un
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Barrierefreiheit und Tastenkombinationen
 
 Auf das Raster **Zeitplan** kann vollständig zugegriffen werden, und es kann mit Bildschirmlesern wie Narrator, JAWS oder NVDA verwendet werden. Sie können durch den Rasterbereich navigieren, indem Sie die Pfeiltasten (wie in Microsoft Excel) verwenden. Sie können die TAB-TASTE verwenden, um über die interaktiven Benutzeroberflächenelemente zu navigieren, und Sie können den ABWÄRTSPFEIL, die EINGABETASTE oder LEERTASTE verwenden, um die Dropdownmenüs auszuwählen und zu öffnen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

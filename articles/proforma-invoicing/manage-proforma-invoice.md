@@ -135,3 +135,6 @@ Wenn Sie Istdaten haben, die nach dem Erstellen der Rechnung eingegangen sind, k
 2. Öffnen Sie den Entwurf der Proforma-Rechnung und auf dem Menüband **Aktionen** klicken Sie auf **Transaktionen für Rechnungszeile aktualisieren**.
 
   Dadurch werden Rechnungszeilendetails für alle tatsächlichen Daten erstellt, deren Datum überschritten und als **Bereit für die Rechnungsstellung** markiert, aber nicht in der Rechnung enthalten ist.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

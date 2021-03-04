@@ -34,3 +34,6 @@ ms.locfileid: "5145717"
 Alle Finanztransaktionen, die während eines Projekts auftreten, werden erfasst. Diese Transaktionen werden als **Ist-Werte** aufgezeichnet. Die folgende Tabelle enthält die verschiedenen Arten von Ist-Werten, die abhängig davon erstellt werden, ob es sich beim Projekt um ein Zeit-und Material- oder ein Festpreisprojekt handelt, es ein internes Projekt ist oder sich in der Vorverkaufsphase befindet.
 
 > ![Tabelle, die zeigt, wie Ist-Werte erfasst werden](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

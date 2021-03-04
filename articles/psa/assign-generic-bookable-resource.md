@@ -59,3 +59,6 @@ Sie können auch auf den Link **Ressourcenanforderung** im Teamraster klicken, u
 
 ![Ressourcenanforderung](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

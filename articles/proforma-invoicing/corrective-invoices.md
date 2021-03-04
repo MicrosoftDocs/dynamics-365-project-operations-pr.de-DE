@@ -36,3 +36,6 @@ Wenn Sie eine Korrekturrechnung bestätigen, wird der ursprüngliche abgerechnet
 
 - Einen abgerechneten vertrieblichen Ist-Wert für sechs Stunden.
 - Einen nicht abgerechneten vertrieblichen Ist-Wert für die verbleibenden zwei Stunden. Diese Transaktion kann – abhängig von den Verhandlungen mit dem Kunden – später entweder abgerechnet oder als nicht fakturierbar markiert werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Die folgenden Probleme wurden behoben:
 
 - Planen Sie eine Verschlechterung der Suchleistung
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

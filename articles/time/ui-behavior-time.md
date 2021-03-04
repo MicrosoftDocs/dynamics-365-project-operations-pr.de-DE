@@ -85,3 +85,6 @@ Nachdem einige Zeiteinträge erstellt wurden, können Benutzer mehrere Zeiteintr
 
 ## <a name="import"></a>Import
 Derselbe grundlegende Vorgang wird verwendet, um Elemente aus Buchungen, Arbeitsaufträgen und Austausch zu importieren. Sie können den Datumsbereich angeben, aus dem Buchungen import werden werden sollen und dann explizit die Buchungen auswählen, die als Entwurf-Zeiteinträge kopiert werden sollen. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

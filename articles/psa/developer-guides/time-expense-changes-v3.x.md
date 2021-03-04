@@ -32,3 +32,6 @@ In Dynamics 365 Project Service Automation Version 3.0 wurden die Ansichten für
 Zuvor wurden die Kalender- und Rasteransichten für Zeit und Ausgaben als DHTMLX-Steuerelemente implementiert. Die Artefakte, die mit dieser Implementierung der Kalender- und Rasteransichten verknüpft sind, sind jetzt überholt (veraltet).
 
 Die vollständige Liste veralteter Ressourcen finden Sie unter [Veraltete Webressourcen in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

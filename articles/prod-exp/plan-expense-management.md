@@ -160,3 +160,6 @@ Durch das Erstellen von Richtlinien für Spesenabrechnungen können Sie Ihrem Un
 - Wann läuft die Richtlinie ab?
 - Wie lautet die Richtlinienregel?
 - Was ist das Ergebnis der Richtlinienregel?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

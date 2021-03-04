@@ -90,3 +90,6 @@ Die Schätzung ändert den Status in **Eliminiert**.
 Auf dieser Seite können Sie alle Eliminierungen mit einem bestimmten Schätzdatum und dem Schätzstatus von **Eliminiert** rückgängig machen. Der Transaktionsstatus ändert sich, nachdem Sie die entsprechenden Felder ausgewählt haben.
 
 Dadurch wird auch der Projektstatus automatisch in **In Bearbeitung** geändert, wenn die Projektphase auf beendet eingestellt ist. Der Schätzstatus des Projektzeitraums ändert sich wieder in **Gebucht**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

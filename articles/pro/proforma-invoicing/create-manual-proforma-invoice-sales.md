@@ -35,3 +35,6 @@ Alle erstellten Projektrechnungen sind auf der Seite **Rechnung** im Abschnitt *
 Eine Proforma-Rechnung kann auch aus der **Projektvertrag** Detailseite erstellt werden. Das System prüft, ob der Projektvertrag das Rechnungsrückstandsprotokoll **Bereit für die Rechnungsstellung** aufweist, der vor dem heutigen Datum datiert ist. Aus diesen Verträgen erstellt das System Entwürfe von Proforma-Rechnungen basierend auf der Anzahl der Kunden in jeder Vertragszeile.
 
 Wenn eine einzelne Proforma-Rechnung erstellt wird, wird die Seite **Rechnung** geöffnet. Wenn für diesen Projektvertrag mehrere Rechnungen erstellt wurden, wird die Listenseite **Rechnungen** geöffnet, um alle erstellten Rechnungen anzuzeigen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

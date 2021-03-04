@@ -125,3 +125,6 @@ Festpreis – prozentuale Fertigstellung
 Die Regeln für Projektkosten- und Umsatzprofile bestimmen das Projektkosten- und Ertragsprofil, das bei der Verarbeitung abrechnungsfähiger Projekttransaktionen verwendet werden muss. Definieren Sie die Regeln unter **Projektmanagement und Buchhaltung** \> **Einrichtung** \> **Buchung** \> **Regeln für das Projektkosten- und Ertragsprofil**.
 
 Regeln können durch Projektvertrag, Projektgruppe oder durch ein bestimmtes Projekt definiert werden. Das System wählt immer zuerst die Regel mit der höchsten Granularität aus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ In der **Abstimmungsansicht** kann der Projektmanager die Buchungen und Zuordnun
 > [!NOTE]
 > Wenn Sie eine Aufgabe verschieben, die Sie konturiert haben, werden diese Konturen nicht beibehalten. Die Konturen werden nach dem Projektkalender neu erstellt, um Änderungen bei Arbeitszeiten und Feiertagen zu erläutern. Dies ist entwurfsbedingt, da das System nicht die Absicht der ursprünglichen Kontur kennt und nicht bestimmen kann, ob es Sinn ergibt, diese Kontur in einem neuen Zeitraum zu halten. Da Buchungen und Zuweisungen getrennt sind, behalten diese Buchungen die ursprünglichen Buchungskonturen. In diesem Fall müssen Sie stornieren und die neuen Zuweisungskontur neu buchen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

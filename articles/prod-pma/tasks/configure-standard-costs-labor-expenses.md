@@ -54,3 +54,6 @@ In diesem Thema wird erläutert, wie Standardkosten für Arbeitskräfte und Kost
 22. Geben Sie im Feld **Preisberechnung** eine Zahl ein. Der tatsächliche Verkaufspreis, der angewendet wird, wenn ein Mitarbeiter Transaktionen in die Ausgabenerfassung eingibt, ist der Verkaufspreis mit dem höchsten Detaillierungsgrad. Wenn beispielsweise sowohl ein allgemeiner Verkaufspreis als auch ein arbeiterspezifischer Verkaufspreis festgelegt sind, wird der arbeiterspezifische Verkaufspreis verwendet.  
 23. Wählen Sie **Speichern** aus.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

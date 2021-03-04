@@ -93,3 +93,6 @@ Project Operations-Verträge basieren auf Dynamics 365 Sales-Verträge. Es gibt 
 - Project Operations-Verträge haben ihre eigenen Formular- und Benutzeroberflächenelemente, Geschäftsregeln, eine Geschäftslogik in Plug-Ins und clientseitige Skripte, die sie bei Verkaufsverträgen einzigartig machen.
 
 Aus diesen Gründen sollten Sie einen Verkaufsauftrag nicht gegen einen Project Operations-Vertrag austauschen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

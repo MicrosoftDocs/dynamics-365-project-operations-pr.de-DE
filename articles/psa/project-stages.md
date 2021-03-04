@@ -65,3 +65,6 @@ Wenn die Arbeit für das Projekt abgeschlossen wurde, kann der Projektmanager di
 ## <a name="close"></a>Schließen
 
 Sobald alle Transaktionen für das Projekt erfasst wurden, kann der Projektmanager die Phase zu **Schließen** aktualisieren. An diesem Punkt können keine Transaktionen mehr erfasst werden und das Projekt ist schreibgeschützt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

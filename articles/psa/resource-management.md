@@ -53,3 +53,6 @@ Sie können Ihr Projekt mit einem Team aus generischen oder benannten Ressourcen
 - [Buchen von benannten Ressourcen aus Ressourcenanforderungen](book-named-resource.md)
 - [Eine Ressourcenanforderung übermitteln](submit-resource-request.md)
 - [Eine vorgeschlagene Projektressource aus einer Ressourcenanfrage annehmen oder ablehnen](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

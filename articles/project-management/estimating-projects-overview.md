@@ -79,3 +79,6 @@ Verwenden Sie die Plug-In-Registrierungswerkzeuge **PreOperationContractLineDeta
 7. Wählen Sie **OK** aus, um das Dialogfeld zu schließen, und wählen Sie dann **Schritt aktualisieren** aus.
 8. Wiederholen Sie die Schritte 1 bis 7 für das zweite Plug-In.
 9. Schließen Sie das **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ Die folgende Abbildung zeigt ein Beispiel für die Zuordnung von Vorlagenaufgabe
 > Das Mapping zeigt die Feldinformationen an, die von Project Service Automation zu Finance synchronisiert werden.
 
 [![Project Service Automation zu Finance-Vorlagenzuordnung](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

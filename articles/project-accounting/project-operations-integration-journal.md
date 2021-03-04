@@ -55,3 +55,6 @@ In den Project Operations-Integrationsjournalzeilen können nur die folgenden Ab
 Integrationsjournalzeilen können gelöscht werden. Nicht gebuchte Zeilen werden jedoch erneut in das Journal eingefügt, nachdem Sie den periodischen Prozess **Import aus Staging** erneut ausgeführt haben.
 
 Wenn Sie das Integrationsjournal buchen, werden ein untergeordnetes Sachkonto und Finanzbuchhaltungsvorgänge erstellt. Diese werden in der nachgelagerten Kundenabrechnung, Umsatzrealisierung und Finanzberichterstattung verwendet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

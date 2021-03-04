@@ -64,3 +64,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 
     -   Behoben: Wenn Benutzer ein Upgrade von 2.X auf 3.X durchführen, sind Projekte mit einem NULL-Wert für den Projektnamen zulässig.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

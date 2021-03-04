@@ -35,3 +35,6 @@ Projektphasen können als Leitfaden für den Projektlebenszyklus dienen. Sie kö
 4. Wählen Sie in der Liste den vordefinierte Benutzer oder den vordefinierten Status aus, den Sie ändern möchten, und klicken Sie dann auf Ändern. 
 5. Geben Sie im Feld Projektphase einen neuen Namen ein.
 6. Klicken Sie auf "Speichern".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

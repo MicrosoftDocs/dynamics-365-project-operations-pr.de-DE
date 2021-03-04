@@ -55,3 +55,6 @@ Vor der Anforderung oder der Zuordnung von Ressourcen in [!INCLUDE[pn_project_se
   
 ### <a name="see-also"></a>Siehe auch  
  [Project Service konfigurieren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

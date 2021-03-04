@@ -57,3 +57,6 @@ Um ein vorhandenes Projektangebot zu ändern, muss der Angebotsstatus **Erstellt
 
 > [!NOTE]
 > Sie können ein Projektangebot nicht mehr ändern, nachdem der Status in **Gesendet** geändert wurde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

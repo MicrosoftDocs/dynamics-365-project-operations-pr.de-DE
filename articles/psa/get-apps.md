@@ -36,3 +36,6 @@ Wenn Sie Ihre Zeit und Ausgaben auf dem Mobilgerät eingeben möchten, gehen Sie
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

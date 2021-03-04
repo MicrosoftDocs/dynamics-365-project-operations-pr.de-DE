@@ -76,3 +76,6 @@ Mit einer der folgenden Methoden können Sie eine Bestellung in Projektmanagemen
 
 Weitere Informationen finden Sie unter [Erhalten Sie Artikel auf Bestellung aus Artikelanforderung](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

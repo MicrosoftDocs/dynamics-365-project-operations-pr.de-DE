@@ -65,3 +65,6 @@ Nachdem Sie Bedingungen für die Einbehaltung von Kreditorenzahlungen für einen
 6. Wenn für das Projekt auch Bedingungen zur Zahlung bei Zahlungsempfang für den Kreditor eingerichtet wurden, geben Sie den Schwellenwertprozentsatz für das Projekt im Feld **Pay When Paid - Schwellenwertprozentsatz** ein.
 
 Die Bedingungen für die Einbehaltung von Kreditorenzahlungen werden auch in Bestellungen angezeigt, die Sie für den Kreditor erstellen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

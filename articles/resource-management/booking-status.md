@@ -20,3 +20,6 @@ ms.locfileid: "4514525"
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Sie können die in bereitgestellten Funktionen in Universal Resource Scheduling für Dynamics 365 Field Service verwenden, um Buchungsstatus für Ihre Organisation einzurichten. Informationen zum Abschließen dieser Einrichtung finden Sie unter [Buchungsstatus einrichten](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

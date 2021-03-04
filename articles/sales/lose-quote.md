@@ -45,3 +45,6 @@ Wenn Sie **OK** auf der Dialogseite auswählen, erstellt das System eine Kopie d
 > - Projektreferenz zu den projektbasierten Angebotspositionen – Informationen zum Kundenbudget
 >
 >Da diese Informationen für jedes Angebot sehr spezifisch sind, werden diese Felder und Datensätze nicht kopiert. Angebotspositionen für Projekte und Produkte, Schätzungen zu Angebotspositionsdetails und nicht zu überschreitende Werte auf Angebotsebene werden kopiert. Die Standardeinstellungen für Preis und Kostensatz hängen von der **Preise kopieren**-Option ab, die auf der **Parameter kopieren**-Dialogseite ausgewählt sind.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Wenn Sie Aufgabenzuordnungen für eine Ressource, jedoch keine Buchungen haben, 
 ![Dialogfeld „Buchung erweitern“](media/Resource-Management-image58.png)
 
 Der Projektmanager oder der Ressourcenmanager kann dann die Zeitplanübersicht verwenden, um alle Situationen zu verwalten, in denen eine Ressource über die Kapazität überbucht wird.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

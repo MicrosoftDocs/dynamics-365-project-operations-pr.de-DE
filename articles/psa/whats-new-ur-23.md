@@ -67,3 +67,6 @@ Die folgenden Probleme wurden behoben:
 Die folgenden Probleme wurden behoben:
 
 - Durch Doppelklicken auf **Alle Transaktionskategorien abrufen** werden mehrere Zeilen erstellt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Dieses Thema beschreibt die Parameter, die das allgemeine Verhalten in der Ausga
 | Anzeige der Korruptionsbekämpfung   | Wählen Sie diese Option, um den Antikorruptionstext anzuzeigen, wenn eine Ausgabenabrechnung erstellt wird. Anschließend können bestimmte Ausgabenkategorien aktiviert werden, für die die Antikorruptionsbescheinigung in der Ausgabenabrechnung ausgewählt werden muss. Beispielsweise kann eine Geschenkkategorie, die sich auf Ausgaben eines Regierungsbeamten bezieht, erfordern, dass der Mitarbeiter bestätigt, dass die Kosten den Unternehmensrichtlinien entsprechen, die sich auf Regierungsbeamte beziehen. |
 | Korruptionsbekämpfungsnachricht für den Einsender | Geben Sie den Text ein, der einem Mitarbeiter angezeigt werden soll, der eine Ausgabenabrechnung erstellt. Um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird, wählen Sie **Übersetzungen** aus. |
 | Korruptionsbekämpfungsnachricht für den Genehmiger  | Geben Sie den Text ein, der dem Genehmiger angezeigt werden soll, wenn eine Ausgabenabrechnung erstellt wird. Um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird, wählen Sie **Übersetzungen** aus. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -440,3 +440,6 @@ Nachdem die Anweisung berechnet wurde, können Sie die folgenden Informationen a
 -   **Verbrauch** – Informationen zum Verbrauch von Stunden, Artikeln, Ausgaben und Gehaltsabrechnungen.
 -   **Rechnung** – Informationen zu Rechnungen und Rechnungsstellung.
 -   **Stundennutzung** – Die Stundensätze für Stunden, die auf Einnahmen- und Kostenkonten gebucht werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

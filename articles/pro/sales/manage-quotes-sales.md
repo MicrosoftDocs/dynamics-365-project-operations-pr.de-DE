@@ -33,3 +33,6 @@ Eine Liste aller Projektangebote finden Sie auf der **Angebote**-Listenseite.
 2. Verwenden Sie **Ansicht wechseln**, um andere gefilterte Ansichten der Angebote auszuwählen. Mithilfe benutzerdefinierter Filterkriterien können Sie Ihre eigenen Ansichten und Navigationsoptionen konfigurieren.
 
 Auf dieser Listenseite oder auf den Detailseiten können Angebote erstellt oder gelöscht werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

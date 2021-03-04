@@ -209,3 +209,6 @@ Wenn Sie Demodaten auf die Finanzumgebung angewendet haben, erhalten Sie weitere
 
 
 Ihre Project Operations-Umgebung ist jetzt bereitgestellt und konfiguriert. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Im ersten Monat werden von den Beratern des Projekts insgesamt 800 Stunden aufge
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

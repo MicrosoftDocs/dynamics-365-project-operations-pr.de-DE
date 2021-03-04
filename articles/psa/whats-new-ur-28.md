@@ -55,3 +55,6 @@ Die folgenden Probleme wurden behoben:
 - Eine Nullreferenzausnahme wird generiert, wenn das **GetEstimatesForProject** Plug-In aufgerufen wird.
 - **Als für Rechnung bereit markieren** im Meilensteinraster werden nur die teilweise aktualisierten Attribute mit Ausnahme des Attributs **InvoiceStatus** aktualisiert.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Wenn für ein Katalogprodukt eine produktbasierte Vertragszeile erstellt wird, w
 Ein Einstandspreis in einer produktbasierten Vertragszeile ermöglicht unterschiedliche Kosten für jeden Kauf einer Einheit. Obwohl dies nicht immer erforderlich ist, gibt es bestimmte Szenarien, in denen die Kosten des Produkts vom Lieferanten für den Kunden abgezogen werden können. Betrachten Sie folgendes Szenario:
 
 Fabrikam Robotics installiert Roboterarme an den Fließbändern der Adatum Corporation. Fabrikam bietet Installationsservices an, die Roboterarme stammen jedoch von Trey Research. Wenn die Installation von Roboterarmen bei Adatum Corporation eine neue vertikale Branche für Trey Research eröffnet, könnten sie einen Sonderrabatt für dieses Geschäft gewähren. In diesem Fall erstellt Fabrikam eine produktbasierte Vertragslinie für Robotic Arms. Für diesen Vertrag werden Kosten pro Einheit eingegeben. Die Kosten unterscheiden sich von den Kosten für Roboterarme von Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

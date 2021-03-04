@@ -106,3 +106,6 @@ Verwenden Sie die Plug-In-Registrierungswerkzeuge PreOperationContractLineDetail
 
 8. Wiederholen Sie die Schritte 1 bis 7 für das zweite Plug-In.
 9. Schließen Sie das PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Eine Liste aller Projektverträge finden Sie auf der **Verträge**-Listenseite.
 2. Wählen Sie **Ansicht wechseln** (Dropdown-Pfeil neben dem Namen der Ansicht), um andere gefilterte Ansichten auszuwählen. Sie können Ihre eigenen Ansichten mit benutzerdefinierten Filterkriterien erstellen.
 
 Auf dieser Listenseite oder auf den Detailseiten können Verträge erstellt oder gelöscht werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

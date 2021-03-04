@@ -28,3 +28,6 @@ ms.locfileid: "4960021"
 Ein *Tagessatz* ist eine Zulage, die an einen Arbeitnehmer gezahlt wird, der zur Arbeit reist. In der Ausgabenverwaltung können Sie Tagessatzregeln für verschiedene Reisesituationen erstellen. Die Tagessätze können auf der Jahreszeit, dem Reiseort oder beiden basieren. Wenn Sie eine Tagessatzregel erstellen, können Sie festlegen, dass ein Prozentsatz des Tagessatzes einbehalten wird, wenn ein Mitarbeiter kostenlose Mahlzeiten oder Dienstleistungen erhält. Sie können auch eine minimale und maximale Anzahl von Stunden festlegen, für die der Tagessatz für die Reise eines Arbeitnehmers gelten kann.
 
 Die Berechnung eines Gesamtpauschalbetrags basiert auf den Start- und Enddaten, die Sie auf der Seite **Tagessätze** festlegen können.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

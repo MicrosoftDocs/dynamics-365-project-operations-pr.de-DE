@@ -34,3 +34,6 @@ Projektverkaufschancen können ganz einfach kopiert werden, um neue Projektverka
     | Preise kopieren | Ein Ja/Nein-Wert, der angibt, ob der Preis für die Verkaufschance von der Quellverkaufschance kopiert werden soll. | Wenn **Ja** ausgewählt ist, werden Preislisten von der Quell- in die Zielverkaufschance kopiert. Wenn **Nein** ausgewählt ist, werden Preislisten basierend auf den neuesten Preislisten, die eingerichtet wurden, auf die Standardeinstellungen zurückgesetzt. |
 
 3. Klicken Sie auf **OK**. Das System erstellt anhand der ausgewählten Parameter eine Kopie der Projektverkaufschance und die neue Projektverkaufschance wird geöffnet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

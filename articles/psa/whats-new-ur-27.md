@@ -81,3 +81,6 @@ Die folgenden Probleme wurden behoben:
 - Wenn Dynamics 365 Field Service und Project Service Automation beide installiert sind, werden die Optionen **Preise sperren** und **Verwenden Sie die aktuelle Preisgestaltung** nicht gleichzeitig auf der Seite **Rechnung** angezeigt.
 - Für die japanische Sprache gibt es eine inkonsistente Übersetzung mit anderen kalenderbasierten Seiten.
 - **Aktivieren** und **Deaktivieren** wurden von den Entitäten **Preislistenverband** in Project Service Automation entfernt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

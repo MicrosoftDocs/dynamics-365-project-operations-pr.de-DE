@@ -78,3 +78,6 @@ Der Preisdimensionsdatensatz **msydn_bookableresource** muss diesen Unterschied 
 5. Fügen Sie **msdyn_bookableresourceid** zu **Feldname** hinzu.
 
  ![Formular „Neuer Preisdimensions-Feldname”](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

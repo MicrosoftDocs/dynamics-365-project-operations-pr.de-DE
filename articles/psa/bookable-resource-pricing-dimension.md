@@ -76,3 +76,6 @@ Dadurch wird die Seite **Neuer Preisdimensions-Feldnamen** für **msdyn_bookable
 5. Fügen Sie **msdyn_projectteam** dem Feld **Logischer Name der Entität** und **msdyn_bookableresourceid** dem Feld **Feldname** hinzu. Speichern Sie den Datensatz.
 
  ![Formular „Neuer Preisdimensions-Feldname”](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

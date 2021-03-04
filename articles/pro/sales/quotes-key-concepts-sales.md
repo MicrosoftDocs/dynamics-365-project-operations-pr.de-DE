@@ -89,3 +89,6 @@ Project Operations-Angebote basieren auf den Dynamics 365 Sales-Angeboten. Es gi
 - Project Operations-Angebote haben ihre eigenen Formular- und Benutzeroberflächenelemente, Geschäftsregeln, eine Geschäftslogik in Plug-Ins und clientseitige Skripte, die sie bei Verkaufsangeboten einzigartig machen.
 
 Aus diesen Gründen wird nicht empfohlen, ein Verkaufsangebot und ein Project Operations-Angebot variabel zu verwenden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

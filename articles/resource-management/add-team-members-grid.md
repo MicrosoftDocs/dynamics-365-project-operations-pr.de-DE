@@ -200,3 +200,6 @@ Wenn Sie Zeit auf höheren Ebenen anzeigen, haben die Zellen auf der Registerkar
 Wenn Sie Aufgabenzuordnungen für eine Ressource, jedoch keine Buchungen haben, wählen Sie im Formular **Projekte**, auf der Registerkarte **Abstimmung** den Buchungsverlust aus, und wählen Sie dann **Buchung erweitern** aus. Das Dialogfeld **Buchung erweitern** wird mit der Buchung angezeigt, die benötigt wird, um einen Ressourcenmangel zu beheben. Das Dialogfeld enthält außerdem die vorhandenen Buchungen der Ressource in allen Projekten oder anderen planbaren Entitäten. Wenn Sie **OK** auswählen, um die Buchung für die Ressource zu erstellen, entsteht ungeachtet der Verfügbarkeit der Ressource möglicherweise eine Überbuchung.
 
 Der Projektmanager oder der Ressourcenmanager kann dann die Zeitplanübersicht verwenden, um alle Situationen zu verwalten, in denen eine Ressource über die Kapazität überbucht wird.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

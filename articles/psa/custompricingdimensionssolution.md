@@ -68,3 +68,6 @@ Sie müssen Ihrer Preisberechnungslösung die folgenden Project Service-Entität
 > ![Schließen Sie nicht alle zugehörigen Komponenten ein.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

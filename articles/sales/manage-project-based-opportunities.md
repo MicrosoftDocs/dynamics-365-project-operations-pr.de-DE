@@ -65,3 +65,6 @@ Der Verkaufschancen-Verkaufsprozess in Project Operations ist eine Erweiterung d
 > Wenn Ihr projektbasiertes Geschäft mit einer Verkaufschance begann, hat der Verkaufschancen-Verkaufsprozess Vorrang.
 
 Sie können den Geschäftsprozessfluss des Produkts bearbeiten oder eigene Geschäftsprozessabläufe erstellen, um Ihren Verkaufsprozess nach Bedarf zu verfolgen. Weitere Informationen über den Geschäftsprozessfluss finden Sie unter [Geschäftsprozessflüsse, Übersicht](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

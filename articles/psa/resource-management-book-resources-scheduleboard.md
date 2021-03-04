@@ -53,3 +53,6 @@ Bevor Buchungen über die Zeitplanübersicht möglich sind, müssen Sie Ressourc
 Die Anforderung wird durch das Verwenden der ausgewählten Ressource erfüllt. Beachten Sie im Bereich **Buchungsanforderungen**, dass die Anforderung aktualisiert wurde und die Ressource als für das Projekt gebucht angezeigt wird.
 
 ![Für das Projekt gebuchte Ressource](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

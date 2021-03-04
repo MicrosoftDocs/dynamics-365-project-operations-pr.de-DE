@@ -46,3 +46,6 @@ Führen Sie die folgenden Schritte aus, um Mengenfaktoren aus Produkteigenschaft
 7. Wiederholen Sie die Schritte 2 bis 6 für alle Eigenschaften, die zusammen die Menge für die produktbasierte Vertragszeile bilden.
 
 Wenn Mengenfaktoren eingerichtet sind und der Benutzer eine Vertragszeile für dieses Produkt erstellt, wird die Menge der Vertragszeile gesperrt. Die Menge wird dann als Produkt der Eigenschaftswerte für diese Vertragszeile berechnet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

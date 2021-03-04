@@ -55,3 +55,6 @@ Der folgende Prozess ist ein Beispiel für den Workflow der Kostenverwaltung fü
 Nachdem diese Anforderungen überprüft wurden, wird die Spesenabrechnung gebucht.
 
 Nachdem die Spesenabrechnung gebucht wurde, wird die Zahlung für die Spesenabrechnung autorisiert und der Mitarbeiter erhält eine Rückerstattung.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

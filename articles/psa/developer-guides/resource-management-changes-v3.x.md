@@ -170,3 +170,6 @@ Die folgenden Felder für geplante, tatsächliche und verbleibende Kosten und Ve
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

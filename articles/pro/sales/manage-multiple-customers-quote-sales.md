@@ -52,3 +52,6 @@ Ein Angebotskunde kann in der **Angebotskunden**-Registerkarte auf der **Angebot
 Sie können die Prozentsätze für die Aufteilung der Abrechnung mithilfe der Inline-Rasterbearbeitung bearbeiten. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 % betragen, tritt ein Fehler auf. Aktualisieren Sie die Seite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung aktualisiert haben, um den Fehler zu beheben.
 
 Sie können auch **Gleichmäßig verteilen** im Angebotskunden-Unterraster auswählen. Diese Aktion weist allen Angebotskunden Abrechnungssplits zu. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Angebotskunden wird immer als Rundungskunde gekennzeichnet. Dies bedeutet, dass der Angebotskundendatensatz das **Rundung**-Flag auf **Ja** festgelegt hat. In der Regel ist dies der Hauptkunde des Angebots, dies kann jedoch geändert werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

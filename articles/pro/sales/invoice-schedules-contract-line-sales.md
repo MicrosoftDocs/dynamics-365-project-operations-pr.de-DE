@@ -74,3 +74,6 @@ Festpreismeilensteine können manuell generiert werden, wenn sie nicht regelmä�
 | Steuer | Schnellertellung | Der auf den Meilenstein angewendete Steuerbetrag. | Dies ist im Meilenstein der Projektvertragszeile und in der Rechnung enthalten. |
 
 4. Klicken Sie auf **Speichern und schließen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

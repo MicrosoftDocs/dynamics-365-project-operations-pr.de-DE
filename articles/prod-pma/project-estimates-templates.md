@@ -170,3 +170,6 @@ Die folgende Abbildung zeigt Beispiele für die Zuordnung von Vorlagenaufgaben i
 [![Vorlagenzuordnung von Kostenvoranschlagstransaktionen](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Vorlagenzuordnung von Ausgabenvorkalkulationen](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

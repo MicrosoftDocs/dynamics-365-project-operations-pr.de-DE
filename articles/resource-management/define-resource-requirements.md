@@ -26,3 +26,5 @@ Ressourcenanforderungen werden vom Projektmanager definiert, um die Ressourcen f
 3.  Wählen Sie auf der Registerkarte **Teammitglied** das Teammitglied und dann **Anforderung generieren** aus.
 
 Informationen zum Ändern der Ressourcenanforderung finden Sie unter [Aktualisieren der Details der Ressourcenanforderungen](define-resource-requirements.md), um den Ressourcenbedarf zu ändern.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

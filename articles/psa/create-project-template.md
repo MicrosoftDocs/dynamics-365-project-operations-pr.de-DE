@@ -62,3 +62,6 @@ Projektvorlagen sparen Zeit, wenn Ihr Unternehmen regelmäßig Gebote für ähnl
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

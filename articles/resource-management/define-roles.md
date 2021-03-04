@@ -20,3 +20,6 @@ ms.locfileid: "4514526"
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Sie können die in Dynamics 365 Field Service bereitgestellten Funktionen verwenden, um die Rollen in Ihrer Dynamics 365 Project Operations-Umgebung zu definieren. Informationen zum Abschließen dieses Setups finden Sie unter [Buchbare Ressourcenkategorien einrichten](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ In Dynamics 365 Project Operations variieren die Grundsätze für die Umsatzreal
 [Umsatzschätzungen verwalten](rev-rec-completed-contract-method.md)
 
 [Methoden für die Kosten zur Fertigstellung](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

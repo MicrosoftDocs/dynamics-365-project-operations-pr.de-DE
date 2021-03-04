@@ -41,3 +41,6 @@ Im Folgenden finden Sie die Registerkarten und KPIs, die in einem Projektangebot
 | Rentabilitätsanalyse | Registerkarte im Angebot | Die Registerkarte zeigt die folgenden Metriken an:</br>- Fakturierbare Gesamtkosten</br></br>- Nicht fakturierbare Gesamtkosten</br>- Gesamtumsatz</br>- Gesamtumsatz (Basis)</br>- Bruttogewinn</br>- Angepasster Bruttogewinn|
 | Vergleich mit Kundenerwartungen | Registerkarte im Angebot | Diese Registerkarte zeigt die folgenden Metriken an:</br>- Geschätzter Abschluss</br>- Angeforderter Abschluss</br>- Kundenbudget</br>- Angebotswert |
 | Angebotsanalyse | Registerkarte im Angebot | Diese Registerkarte fasst die folgenden Top-KPIs für ein Projektangebot zusammen</br>- Vergleich der Kundenerwartungen hinsichtlich Budget und Zeitplan</br>- Bruttogewinn</br>- Angepasster Bruttogewinn |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

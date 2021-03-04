@@ -88,3 +88,6 @@ Rechnungszeitpläne sind für jede Vertragszeile spezifisch und erforderlich, da
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Änderungen gegenüber dem Dynamics 365 Sales-Auftrag
 
 Verträge in Project Operations basieren auf Aufträgen in Dynamics 365 Sales. Es gibt jedoch wichtige Abweichungen und Unterschiede in der Funktionalität. Verträge haben ihre eigenen Formular- und Benutzeroberflächenelemente, Geschäftsregeln, eine Geschäftslogik in Plug-Ins und clientseitige Skripte, die sie bei Aufträgen einzigartig machen. Tauschen Sie aus diesen Gründen einen Verkaufsauftrag nicht gegen einen Project Operations-Vertrag aus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

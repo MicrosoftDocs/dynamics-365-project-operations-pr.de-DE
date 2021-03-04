@@ -71,3 +71,6 @@ Zusammenfassend die folgenden Zuordnungsmethoden führen zu Überbuchen, wenn di
 - Stunden gleichmäßig verteilen
 
 Wenn Sie eine dieser drei Möglichkeiten für Zuordnungen nutzen, werden Sie nicht darauf hingewiesen, dass die Ressource überbucht wird. Um die Überbuchung zu korrigieren, müssen Sie die Zeitplanübersicht verwenden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

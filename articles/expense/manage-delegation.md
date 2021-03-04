@@ -39,3 +39,6 @@ Wenn der Funktionsverwaltungsschlüssel **Listenseite für Kostenstellvertretung
 Eine Stellvertretung kann vorhandene Ausgabenabrechnungen, die an ihn delegiert wurden, schnell filtern und durchsuchen. Die Stellvertretung kann durch Auswahl von **Neue Ausgabenabrechnung** auch schnell eine neue Ausgabenabrechnung für andere Benutzer erstellen.
 
 Die Stellvertretung kann Ausgabenabrechnungen für andere Mitarbeiter erstellen und verwalten, indem sie zu **Ausgabenmanagement** > **Meine Kosten** > **Ausgabenabrechnungen** wechseln und **Ausgaben anderer Benutzer öffnen** auswählen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

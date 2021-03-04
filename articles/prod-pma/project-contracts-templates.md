@@ -153,3 +153,6 @@ Die folgende Abbildung zeigt Beispiele für die Zuordnung von Vorlagenaufgaben i
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Meilensteinzuordnung für Projektvertragszeilen in der Vorlage Projekte und Verträge (PSA 3.x zu Dynamics) – v2 Vorlage:
 
 [![Zuordnung von Vorlagen der Version 2 für Meilensteine in Projektvertragszeilen](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Wenn der als verloren geschlossene Projektvertrag auf ein Projekt in seinen Zeil
 
 > [!NOTE]
 > In Dynamics 365 Project Operations wirkt sich das Schließen eines Projektvertrags als „Verloren“ nicht auf diesen Status der zugeordneten Verkaufschance aus. Die Verkaufschance bleibt offen und muss manuell geschlossen werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

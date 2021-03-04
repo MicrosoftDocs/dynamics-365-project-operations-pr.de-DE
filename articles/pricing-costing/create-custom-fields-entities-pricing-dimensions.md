@@ -77,3 +77,6 @@ Sie können Daten für entitätsbasierte Dimensionen manuell oder mithilfe von M
 5. Wiederholen Sie die Schritte 1 - 3, um einen anderen Standardtitel für „Leitender Systemtechniker” zu erstellen.
 
 > ![Beispieldaten für die Entität „Standardtitel“](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

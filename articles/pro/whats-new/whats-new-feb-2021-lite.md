@@ -38,3 +38,6 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | **Projektplanung und -nachverfolgung** | 2164035 | Probleme mit der Funktion **Projekt kopieren** behoben. |
 | **Zeiteintrag** | 2129161 | Es werden strengere Einschränkungen angewendet, um sicherzustellen, dass Benutzer einen eingereichten oder genehmigten Zeiteintrag nicht ändern und aktualisieren können. |
 | **Zeiteintrag** | 2103572 | Die Zeitgenehmigung für Zeiteinträge außerhalb des Projekts darf nicht nach einer Projektgenehmigungsrolle suchen. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

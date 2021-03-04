@@ -31,3 +31,6 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 Die **Istwerte** Entität verfügt über viele Felder, die als Preisdimensionen für die ressourcenbasierte Preisgestaltung verwendet werden können. Beispielsweise ist ein allgemeines Feld **Buchbare Ressource**. Kleinere Unternehmen mit weniger als 20-30 fakturierbaren Ressourcen finden vielleicht, dass spezifische Fakturierungs- und Kostensätze für jede Ressource eine einfachere Herangehensweise sind. Wenn jedoch die abrechnungsfähigen Mitargeiter wachsen, kann es unrealistisch werden, ressourcenschonende Raten beizubehalten. Die Ressourcenkosten und Rechnungsraten variieren, wenn Ressourcen gefördert werden, mehr Erfahrung gesammelt werden oder andere Fähigkeiten erworben werden. 
 
 Ein weiteres Beispiel ist die Transaktionskategorie. Kunden und Implementierer haben die Transaktionskategorie in PSA verwendet, um Arbeit zu klassifizieren und verwenden das Feld für Preis und Kosten, basierend auf der Arbeitskategorie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

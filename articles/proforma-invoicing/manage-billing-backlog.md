@@ -38,3 +38,6 @@ Nicht fakturierte Umsatz-Istwerte, die als Status für **Nicht zu überschreiten
 Bei Vertragszeilen mit mehreren Kunden, die über eine Zeit- und Materialfakturierungsmethode verfügen, wird bei Genehmigung von Zeit und Kosten für jeden Kunden in der Vertragszeile ein nicht fakturierter tatsächlicher Umsatz-Istwert gemäß der für jeden Kunden in der Vertragszeile definierten Aufteilung des Abrechnungsprozentsatzes erstellt. In der Ansicht **Rückstandsprotokoll über Zeit- und Materialberechnung** sehen Sie diese einzelnen kundenspezifischen, nicht fakturierten Umsatz-Istwerte. Jeder dieser Datensätze an nicht fakturierten Umsatz-Istwerten kann separat von dieser Ansicht als **Bereit für die Rechnungsstellung** markiert werden.
 
 Ein nicht fakturierter Umsatz-Istwert in einem Rechnungsentwurf wird in dieser Ansicht mit dem **Fakturierungsstatus** **Erstellte Kundenrechnung** angezeigt. Wenn der Rechnungsentwurf bestätigt wird, wird der Fakturierungsstatus in diesem Datensatz auf **Gebuchte Kundenrechnung** aktualisiert. Das Aktualisieren dieses Statuswerts in diesem Status mithilfe von benutzerdefiniertem Code wird nicht empfohlen. Project Operations funktioniert nicht ordnungsgemäß, wenn diese Statuswerte mit benutzerdefiniertem Code aktualisiert werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

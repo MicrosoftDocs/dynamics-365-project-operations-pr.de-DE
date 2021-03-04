@@ -27,3 +27,6 @@ Sie können eine generierte Ressourcenanfrage als Ressourcenanforderung übermit
 Der Anforderungsstatus des allgemeinen Teammitglieds wird in **Übermittelt** geändert.
 
 Nachdem die Anforderung vom Resource Manager erfüllt wurde, wird die allgemeine Ressource durch eine benannte Ressource ersetzt, falls der Resource Manager die Anforderung durch die Buchung einer benannten Ressource erfüllt. Wenn der Resource Manager andernfalls einen benannte Ressource vorschlägt, verbleibt die allgemeine Ressource im Team, und der Anforderungsstatus wird in **Prüfung erforderlich** geändert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

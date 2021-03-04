@@ -68,3 +68,6 @@ Festpreismeilensteine können auch manuell generiert werden, wenn sie nicht rege
 | Rechnungsstatus | Schnellerfassung | Wenn ein Meilenstein erstellt wird, wird dieser Status immer auf **Nicht bereit für die Rechnungsstellung** festgelegt. | Dies wird auf den Meilenstein der Projektvertragszeile und auf die Rechnung übertragen. |
 | Zeilenbetrag | Schnellerfassung | Betrag oder Wert des Meilensteins, der dem Kunden in Rechnung gestellt wird. | Dies wird auf den Meilenstein der Projektvertragszeile und auf die Rechnung übertragen. |
 | Steuer | Schnellerfassung | Steuerbetrag, der auf den Meilenstein angewendet wird. | Dies wird auf den Meilenstein der Projektvertragszeile und auf die Rechnung übertragen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

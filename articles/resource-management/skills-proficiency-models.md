@@ -43,3 +43,5 @@ Durch Hinzufügen von Merkmalen zu Ressourcenanforderungen können Sie das Wisse
 3. Wählen Sie im Unterraster **Fertigkeiten** die Option **+Neues Anforderungsmerkmal hinzufügen** aus.
 4. Suchen Sie im Bereich zum schnellen Erstellen die erforderlichen Merkmale, und wählen Sie sie aus. Fügen Sie einen **Bewertungswert** hinzu.
 5. Klicken Sie auf **Speichern und Schließen**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

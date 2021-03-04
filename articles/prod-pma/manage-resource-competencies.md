@@ -53,3 +53,6 @@ Um Kompetenzen für einen Mitarbeiter einzurichten, können Sie entweder die Lis
 5. Wählen Sie im Feld **Ebenendatum** die Option **14.1.2014** aus.
 6. Geben Sie in das Feld **Erfahrung in Jahren** **10** ein.
 7. Wählen Sie **Speichern** aus, und schließen Sie die Seite.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

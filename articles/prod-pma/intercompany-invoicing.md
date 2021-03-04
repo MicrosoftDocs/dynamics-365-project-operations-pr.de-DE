@@ -113,3 +113,6 @@ Wenn die kreditgebende juristische Person USSI die Intercompany-Kundenrechnung b
 Weitere Informationen finden Sie unter [Konfigurieren Sie die Intercompany-Projektabrechnung](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

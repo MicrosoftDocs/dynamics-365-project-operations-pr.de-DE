@@ -34,3 +34,6 @@ Alle Kosten-, Verkaufs- und Transferpreise können für Rollen eingerichtet werd
 1. Auf der Seite **Verkaufspreis (Stunde)** wählen Sie **Neu** und geben Sie ein Datum des Inkrafttretens ein.
 2. Wählen Sie in der Spalte **Rolle** eine Rolle aus.
 3. In der Spalte **Preise** geben Sie in dieser Spalte einen Preis für die ausgewählte Ressourcenrolle ein.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

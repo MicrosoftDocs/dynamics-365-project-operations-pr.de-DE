@@ -43,3 +43,6 @@ Wählen Sie diesen Bereitstellungstyp aus, um Dynamics 365 Project Operations f�
 - Eine Umsatzsteuer- und Wechselkurs-Engine der Enterprise-Klasse zur Erstellung kundenorientierter Rechnungen für Projekte.
 - Ein IFRS-konformes Projektbuchhaltungs- und Umsatzrealisierungssystem (International Financial Reporting Standards).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

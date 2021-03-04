@@ -45,3 +45,6 @@ Zusätzlich muss jeder buchbaren Ressource eine Standardrolle zugewiesen werden.
 Auf der Registerkarte **Project Service** können Sie außerdem eine individuelle Zielnutzung für die Ressource festlegen. Die Nutzungsberechnung verwendet dann die Zielnutzung, um statt dem Ziel der Standardrolle der Ressource das Ziel der Ressource zu evaluieren.
 
 Die Nutzung für eine Ressource wird nur dann angezeigt, wenn diese Ressource für den Zeitraum ihrer Anzeige im Raster über genehmigte, fakturierbare Zeit verfügt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

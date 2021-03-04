@@ -91,3 +91,6 @@ Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um eine
 
 > [!NOTE]
 > Die Batchabrechnung wird nur für Projektvertragszeilen in Project Operations ausgeführt, die durch Rechnungszeitpläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Weitere Informationen zur Berichterstellung in PSA finden Sie in folgenden Theme
 - [Arbeiten mit dem Project Service-Datenmodell](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

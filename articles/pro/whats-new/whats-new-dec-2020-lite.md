@@ -57,3 +57,6 @@ In der folgenden Tabelle sind die Aktualisierungen von Project Operations in der
 | Zeit und Ausgaben | 2034882 | **Neu**-Schaltfläche wird zweimal in der Befehlsleiste für Zeiteinträge angezeigt, wenn Dynamics 365 Field Service installiert ist. |
 | Zeit und Ausgaben | 2056028 | **Zeit bearbeiten**-Seite mit Zeitleiste aktualisiert. |
 | Zeit und Ausgaben | 1983747 | Die Zeiterfassungstabelle zeigt zusätzliche Daten. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

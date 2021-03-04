@@ -149,3 +149,6 @@ Die folgende Tabelle enthält die Datensätze in der Entität „Transaktionsver
 | Korrektur des Rechnungsentwurfs       | GUID der Rechnungszeilentransaktion | Ersetzen          | msdyn_invoicelinetransaction | GUID der Fakturierten Umsätze            | Original           | msdyn_actual       |
 | Bestätigen der Rechnungskorrektur     | GUID der Umkehrung der fakturierten Umsätze    | Umkehren          | msdyn_actual                 | GUID der Fakturierten Umsätze            | Original           | msdyn_actual       |
 | GUID des Neuen nicht fakturierten Umsatz-Istwerts | Ersetzen                     | msdyn_actual       | GUID der Fakturierten Umsätze            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

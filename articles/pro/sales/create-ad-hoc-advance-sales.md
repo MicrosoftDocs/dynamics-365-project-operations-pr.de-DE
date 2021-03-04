@@ -39,3 +39,6 @@ Führen Sie die folgenden Schritte aus, um dem Kunden einen Vorschuss in Rechnun
     | **Rechnungsstatus** | Dies ist eine Optionseinstellung, die angibt, ob dieser Vorschuss einem Rechnungsentwurf für diesen Kunden hinzugefügt wird. Dies sind die möglichen Werte:</br>- **Nicht bereit für die Rechnungsstellung**</br>- **Bereit für die Rechnungsstellung** | Wenn eine Vorauszahlung oder ein Vorschuss als **Bereit für die Rechnungsstellung** markiert ist, wird dies als Zeilenzeit auf einem Rechnungsentwurf hinzugefügt. Nur ein vollständig in Rechnung gestellter Vorschuss kann verwendet werden, um die Projektkosten für den nächsten Rechnungszeitraum abzugleichen. |
 
 4. Wählen Sie **Speichern und schließen** im Schnellerfassungs-Dialogfeld aus, um den Vorschuss oder die Vorauszahlung aufzuzeichnen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

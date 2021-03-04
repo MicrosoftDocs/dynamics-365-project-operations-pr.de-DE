@@ -51,3 +51,6 @@ Konto-Manager und Projektleiter fordern regelmäßig Ressourcen für ihre Projek
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Ressourcen Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

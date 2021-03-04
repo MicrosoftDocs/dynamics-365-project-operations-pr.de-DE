@@ -38,3 +38,6 @@ Wählen Sie **Anmeldung** > **Bei Umgebung anmelden**, um zum **Projektmanagemen
 
 > [!NOTE]
 > Sie können über die Module Common Data Service und **Projektmanagement und Buchhaltung** direkt unter Verwendung der jeweiligen URLs auf Project Operations zugreifen. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

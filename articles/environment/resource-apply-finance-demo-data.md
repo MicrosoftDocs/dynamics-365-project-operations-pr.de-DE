@@ -79,3 +79,6 @@ Dies kann einige Minuten dauern. Sie sollten eine Bestätigungsnachricht erhalte
 18. Schließen Sie die Remotedesktopsitzung, und verwenden Sie die LCS-Seite **Umgebungsdetails**, um sich bei der Umgebung anzumelden und zu bestätigen, dass sie wie erwartet funktioniert.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

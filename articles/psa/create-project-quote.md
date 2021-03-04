@@ -55,3 +55,6 @@ Das Erstellen eines Angebots gleicht dem Erstellen einer Verkaufschance. Eine Ve
   
 ### <a name="see-also"></a>Siehe auch  
  [Konto-Manager Handbuch](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

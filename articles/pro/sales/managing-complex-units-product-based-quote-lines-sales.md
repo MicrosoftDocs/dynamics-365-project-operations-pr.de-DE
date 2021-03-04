@@ -45,3 +45,6 @@ Gehen Sie folgendermaßen vor, um Mengenfaktoren aus Produkteigenschaften zu ers
 6. Speichert und schließt das Formular. Wiederholen Sie diese Schritte für alle Eigenschaften, die zur Berechnung der Menge für die produktbasierte Angebotsposition verwendet werden sollen.
 
 Wenn Sie eine produktbasierte Angebotsposition für ein Produkt erstellen, wird die Menge der Angebotsposition gesperrt. Die Menge wird als Produkt der Eigenschaftswerte berechnet, die Sie für diese Angebotsposition eingeben.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

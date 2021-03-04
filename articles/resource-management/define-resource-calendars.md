@@ -43,3 +43,6 @@ Jede buchbare Ressource, die an einem Projekt arbeitet, muss über einen Arbeits
 2. Wählen Sie in der Rasteransicht bis zu 25 **Buchbare Ressourcen** zum Aktualisieren aus.
 3. Wählen Sie **Kalender einstellen** aus. Ein Dialogfeld zeigt einer Liste der verfügbaren Arbeitsstundenvorlagen an.
 4. Wählen Sie die zu verwendende Vorlage aus und wählen Sie dann **Anwenden** aus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

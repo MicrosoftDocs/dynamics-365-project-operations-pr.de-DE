@@ -73,3 +73,6 @@ Informationen zu Updates für Project Service finden Sie unter [Dynamics 365-Ve
 >[!Note]
 > - Datumsangaben in allen Regionen außer der Government Community Cloud (GCC) geben den Zeitpunkt der nächsten automatischen Aktualisierung an. Datumsangaben in GCC geben die Verfügbarkeit der Version an. Derzeit gibt es keine automatische Aktualisierung für diese Regionen.
 > - Für alle anderen Regionen sollten die meisten Aktualisierungen wohl in der geplanten Nacht abgeschlossen sein, aber Aktualisierungen, die mehr Zeit erfordern, können während der späten Nachtstunden des Wochenendes durchgeführt werden, die in der Spalte **Terminiertes Datum** angegeben sind.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

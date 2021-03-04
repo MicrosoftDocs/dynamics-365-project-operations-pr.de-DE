@@ -49,3 +49,6 @@ Es wird empfohlen, dass Sie einen Batch verwenden. Die Optionen stehen während 
     | Enddatum    | Geben Sie das Enddatum für den Synchronisierungsprozess für Rollups der Ressourcenkapazität ein. |
 
 [![Synchronisierungsprozess](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

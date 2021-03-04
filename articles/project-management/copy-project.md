@@ -61,3 +61,6 @@ Wenn ein Projektteam aus dem Quellprojekt kopiert wird, werden die generischen R
 Wenn das Projekt kopiert wird, werden sowohl Ressourcen- als auch Ausgabenschätzungszeilen aus dem Quellprojekt kopiert. 
 
 Informationen zum programmgesteuerten Zugriff auf „Projekt kopieren“ finden Sie unter [Projektvorlagen mit „Projekt kopieren“ entwickeln](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

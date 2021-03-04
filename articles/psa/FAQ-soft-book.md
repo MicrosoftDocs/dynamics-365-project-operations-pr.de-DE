@@ -67,3 +67,6 @@ Wenn Sie bereit sind, eine unverbindlich gebuchte Teammitgliedsressource in ein 
 2. Klicken Sie mit der rechten Maustaste auf die Buchung und wählen Sie unter **Status ändern** **Verbindlich buchen** \> **Verbindlich** aus. Der Buchungsstatus lautet nun **Verbindlich**.
 3. Nachdem Sie die Zeitplanübersicht geschlossen haben, kehren Sie zum Projekt zurück und öffnen Sie die Registerkarte **Team**. Es wird angezeigt, dass in der Ansicht **Benannte Teammitglieder** die Stunden für die Ressource auf der Registerkarte **Team** von der Spalte **Unverbindlich gebuchte Stunden** in die Spalte **Verbindlich gebuchte Stunden** verschoben wurden. Wenn die Ressource Aufgaben zugewiesen wurde, weisen diese auf der Registerkarte **Abstimmung** kein Buchungsdefizit mehr auf, da ihre Buchungen nun verbindlich sind.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Sie können die Verfügbarkeit von Ressourcen überprüfen, um einen Gesamtüber
 
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Ressourcen Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

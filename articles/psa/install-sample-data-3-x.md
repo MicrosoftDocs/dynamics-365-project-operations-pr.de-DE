@@ -297,3 +297,6 @@ Wählen Sie einen Benutzer (beispielsweise Bernhard Anhalter) aus und ändern Si
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot aktiver buchbaren Ressourcen](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

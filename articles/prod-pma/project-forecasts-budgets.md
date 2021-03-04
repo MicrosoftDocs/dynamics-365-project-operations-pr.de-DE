@@ -81,3 +81,6 @@ Wenn Sie die Projektprognose verwenden, können Sie Modelle als Untermodelle ide
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

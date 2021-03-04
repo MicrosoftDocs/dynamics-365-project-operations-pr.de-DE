@@ -231,3 +231,6 @@ In der folgenden Tabelle wird beschrieben, wie Daten zwischen Project Service Au
 
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

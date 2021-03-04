@@ -146,3 +146,6 @@ Die folgende Tabelle enthält eine umfassende Liste vorkonfigurierter Formulare 
 |  Tatsächlich|• Informationen<br>• Aktive Ist-Werte|• Zugeordnete Ansicht: Ist-Werte|
 
 Je nach Ihrer Definition müssen möglicherweise auch benutzerdefinierte Felder zu Geschäftsregeln hinzugefügt werden. Ein OOB-Beispiel für die Geschäftsregel ist **Bearbeitbarkeit des Zeiteintrags auf Grundlage des Status**. Diese Regel definiert, welche Felder gesperrt werden müssen, wenn sich der Zeiteintrag in einem nicht bearbeitbaren Status wie etwa **Genehmigt** befindet. Fügen Sie dieser Geschäftsregel Felder hinzu, damit die Felder für die Bearbeitung gesperrt sind, wenn sich der Zeiteintrag in einem anderen Status als **Entwurf** oder **Zurückgegeben** befindet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Mithilfe der Funktion „Buchung erweitern” auf der Registerkarte **Abstimmung
 ![„Buchungen erweitern” für ein Teammitglied auf der Registerkarte „Ressourcenabstimmung”](media/RM-how-to-7.png)
 
 Nachdem ein Teammitglied für Ihr Projekt gebucht wurde, können Sie zum Verwalten seiner Buchungen die Funktion „Buchungen verwalten” oder die Zeitplanübersicht direkt verwenden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

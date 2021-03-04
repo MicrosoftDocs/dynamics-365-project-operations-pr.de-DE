@@ -43,3 +43,6 @@ Führen Sie die folgenden Schritte aus, um eine Kopie der Preisliste zu erstelle
 1. Auf den Registerkarten **Rolle**, **Kategorie** und **Preislistenartikel** einer Preisliste können Sie **Preise aktualisieren** auswählen, um einen Aufschlag für alle Preise im Unterraster anzuwenden. 
 2. Geben Sie auf der sich öffnenden Dialogseite einen Aufschlag ein. Sie können auch einen negativen Aufschlag in Prozent eingeben, um die Preise um einen bestimmten Prozentsatz zu senken. 
 3. Wählen Sie auf der Dialogseite **OK** aus und stellen Sie sicher, dass die Preise im Unterraster die von Ihnen vorgenommenen Änderungen widerspiegeln.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

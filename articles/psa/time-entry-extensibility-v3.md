@@ -132,3 +132,6 @@ Sie sollten Plug-In-Prüfungen für alle Prüfungen, bei denen mehr Kontext erfo
 
 > [!IMPORTANT] 
 > Derzeit verhindert ein bekannter Issue auf den TBX-Seiten, dass Benutzer Informationen korrigieren und „Fertig” auswählen können, wenn eine Aktualisierung eine Plug-In-Prüfung nicht besteht. Als Problemumgehung können Sie Geschäftsregelprüfungen einrichten, um diese Situation so gut wie möglich zu verhindern.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

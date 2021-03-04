@@ -57,3 +57,6 @@ Regel: Ein Projekt und eine bestimmte Transaktionsklasse können nur in einer pr
 | C1       | CL2           | P1      | Nr.           | Ja             | Nr.          | Gültig           | Zeit und Gebühren für Projekt P1 sind im CL1 enthalten. Die Kosten für das P1-Projekt sind in CL2 enthalten. </br>   Es gibt keine Überschneidungen in dem, was in jeder Vertragszeile enthalten ist, und ist daher gültig.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Nicht gültig       | Verstößt gegen die Regel. Zeit, Kosten und Gebühren für Projekt P1 sind in den Zeilen von zwei Verträgen enthalten.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Nicht gültig       | Verstößt gegen die Regel. Zeit, Kosten und Gebühren für Projekt P1 sind in den Zeilen von zwei Verträgen enthalten.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

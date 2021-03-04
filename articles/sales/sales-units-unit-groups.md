@@ -46,3 +46,6 @@ Stellen Sie zum Ausführen der Schritte in diesem Thema sicher, dass Sie der Sys
 3. Geben Sie im Feld **Menge** die Menge ein, die die Einheit enthält. Wenn eine Kiste z. B. zwei Stück enthält, würden Sie 2 eingeben. 
 4. In dem Feld **Grundeinheit** wählen Sie im Feld eine Basiseinheit aus, um die niedrigste Maßeinheit für die Einheit festzulegen. Zum Beispiel könnten Sie Stück auswählen.
 5. Wählen Sie **Speichern**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Wenn das als verloren geschlossene Projektangebot in einer seiner Zeilen auf ein
 
 > [!NOTE]
 > In Project Operations wirkt sich das Schließen eines Angebots als „Gewonnen“ oder „Verloren“ nicht auf den Status der Verkaufschance aus, die geöffnet bleibt, bis sie manuell geschlossen wird.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

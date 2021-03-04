@@ -47,3 +47,6 @@ Nun, da Sie das Angebot für Ihr Projekt gewonnen haben, ist es Zeit, einen Vert
   
 ### <a name="see-also"></a>Siehe auch  
  [Konto-Manager Handbuch](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

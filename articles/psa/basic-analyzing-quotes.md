@@ -60,3 +60,6 @@ Sie können Angebote analysieren und Diagramme für Kundenerwartungen zu Zeitpla
 Die Analyse der Kundenerwartungen bezüglich des Zeitplans erfolgt durch Vergleichen des letzten Enddatums des Angebotszeilendetails mit dem angeforderten Lieferdatum über alle Angebotszeilen im Angebot.
 
 Die Analyse der Kundenerwartungen zum Budget erfolgt durch Vergleich der Summe des gesamten Kundenbudgets mit dem Angebotsbetrag über alle Angebotszeilen hinweg.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

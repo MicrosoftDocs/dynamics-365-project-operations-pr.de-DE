@@ -31,3 +31,6 @@ Ein Tagessatz ist eine Zulage, die an einen Arbeitnehmer gezahlt wird, der zur A
     
 ## <a name="submit-expenses-using-per-diem"></a>Ausgaben mit „Pro Tag“ einreichen
 Um Ausgaben mit Tagessätzen einzureichen, verwenden Sie die Ausgabenkategorie **Pro Tag**, wenn Sie eine Spesenabrechnung erstellen. Geben Sie **Tagessatz von Datum**, **Tagessatz bis Datum** und **Tagessatz (Lagerplätze)** ein. Der Betrag wird basierend auf den Tagessätzen für den ausgewählten Standort berechnet, und die Reduzierung der Mahlzeiten wird basierend auf den Tagessätzen berechnet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

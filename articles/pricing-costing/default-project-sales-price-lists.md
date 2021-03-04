@@ -57,3 +57,6 @@ Einstandspreislisten sind standardmäßig keine Entität in Project Operations. 
 5. Das System prüft als Nächstes die Datumseffektivität der Preislisten, die mit dem Datum der Zeile der eingehenden Vorkalkulation oder der tatsächlichen Transaktionen übereinstimmen. 
 6. Wenn mehrere Preislisten vorhanden sind, die für das Datum der eingehenden Vorkalkulation oder der tatsächlichen Transaktionen gültig sind, wird die zuletzt erstellte Preisliste ausgewählt.
 7. Wenn den Projektparametern keine Einstandspreislisten zugeordnet sind, die der Währung und dem Datum des Inkrafttretens entsprechen, setzt das System den Kostensatz in der Zeile der eingehenden Vorkalkulation oder der tatsächlichen Transaktionen auf Null (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

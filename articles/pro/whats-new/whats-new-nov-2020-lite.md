@@ -37,3 +37,6 @@ In der folgenden Tabelle sind die Aktualisierungen von Project Operations in der
 | Zeit- und Schnellausgabeneinträge | 2047499          | Die **Neu**-Schaltfläche auf der Zeiteingabeseite öffnet die **Neue E-Mail-Signatur**-Seite.                                                                                               |
 | Zeit- und Schnellausgabeneinträge | 2059859          | Das unerwartete Popup wird geöffnet, wenn eine Spesenbuchung erstellt wird.                                                                                                                         |
 | Sonstige                        | 2044181          | [P-Deinstallation] – Der Fehler „Datensatz ist nicht verfügbar“ tritt auf, wenn Sie versuchen, die Kernlösungen von **msdyn_ProjectServiceCore_Patch** und msdyn Project Service zu deinstallieren.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

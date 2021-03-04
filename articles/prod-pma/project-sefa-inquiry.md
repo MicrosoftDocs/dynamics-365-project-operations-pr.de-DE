@@ -104,3 +104,6 @@ Die Abfrage des Zeitplans der Ausgaben für Bundeszuschüsse umfasst die folgend
 - Catalog of Federal Domestic Assistance
 - Quittungen
 - Ausgaben
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

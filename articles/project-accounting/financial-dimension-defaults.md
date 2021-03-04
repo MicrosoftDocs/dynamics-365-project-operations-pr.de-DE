@@ -62,3 +62,6 @@ Projekte werden in CDS erstellt und gepflegt. Buchhaltungsattribute für Projekt
 4. Legen Sie die Finanzdimensions-Standardeinstellungen fest. Beachten Sie, dass die finanziellen Dimensionen standardmäßig vom Kundenkonto ausgehen. Wenn das Projekt einer Vertragszeile mit mehreren Projektvertragskunden zugeordnet ist, wird der Hauptkunde verwendet, um finanzielle Dimensionen festzulegen.
 
 Die finanziellen Standarddimensionen des Projekts werden verwendet, um die Standardeinstellungen für Journalzeilen für Zeit-, Kosten- und Gebührentransaktionen im **Project Operations-Integrationsjournal** und für verwandte Projektrechnungszeilen festzulegen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

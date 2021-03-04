@@ -62,3 +62,6 @@ Da Dynamics 365 Project Operations die Universal Resource Scheduling-Engine nutz
 
 Um mehr Details zu einer individuellen Ressource anzuzeigen, klicken Sie mit der rechten Maustaste darauf, um die Ressourcenkarte zu öffnen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Der Zeitplan-Assistent wird angezeigt und nach den Anforderungen gefiltert. Wäh
 > ![Ausgewählte Ressource](media/Resource-Management-image61.png)
 
 Das generische Teammitglied wird durch die verbindlich gebuchte und benannte Ressource für das Projektteam und die Aufgabenzuweisungen im Projektzeitplan ersetzt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Vorschusszeitpläne werden auf der **Projektvertrag**-Seite in Dynamics 365 Proj
 | Anzahl der zu erstellenden Vorschüsse | Wenn Sie die Anzahl der zu erstellenden Vorschüsse eingeben, verwendet das System das Startdatum und die Häufigkeit, um die Nummer in diesem Feld zu erstellen. | Wenn dieses Feld manuell aktualisiert wird, ignoriert das System den Wert im Feld **Ende des Vorschusszeitplans** und erstellt stattdessen die spezifische Anzahl von Vorauszahlungen oder Vorschüssen. |
 | Rechnungshäufigkeit | Wie oft erstellt die Anwendung Vorauszahlungen und Vorschüsse? | Dieser Wert beeinflusst direkt die Anzahl der Vorauszahlungen und Vorschüsse sowie die erstellten Daten. |
 | Gesamtbetrag | Der Gesamtbetrag ist der Betrag, der in die einzelnen Vorschüssen oder Vorauszahlungen aufgeteilt wird, die erstellt werden. | Es gibt keine nachgelagerten Auswirkungen für dieses Feld. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

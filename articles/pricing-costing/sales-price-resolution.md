@@ -54,3 +54,6 @@ Nachdem eine Preisliste für Verkäufe aufgelöst wurde, führt das System die f
     | &nbsp; | Aufschlag auf Kosten | Durch Anwenden eines Aufschlags gemäß der Preiszeile der Kategorie auf den Stückkostensatz der zugehörigen tatsächlichen Kosten |
 
 4. Wenn das System die Feldwerte **Kategorie** und **Einheit** nicht abgleichen kann, ist die Verkaufsrate standardmäßig null (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

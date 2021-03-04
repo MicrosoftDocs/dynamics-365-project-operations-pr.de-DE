@@ -40,3 +40,6 @@ Das Dashboard **Practice Manager** bietet eine grafische Dashboarderfahrung für
 ## <a name="resource-manager"></a>Resource Manager 
 
 Das Dashboard **Resource Manager** bietet Ressourcen-Managern eine grafische Dashboarderfahrung zur Überwachung von Ressourcenanforderungen sowie von Ressourcennachfrage und -nutzung. Außerdem können Ressourcen-Manager die überwachten Informationen nach verschiedenen Dimensionen aufschlüsseln.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

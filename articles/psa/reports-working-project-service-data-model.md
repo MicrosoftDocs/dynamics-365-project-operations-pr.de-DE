@@ -123,3 +123,6 @@ Wenn Sie die Entität **Tatsächlich** verwenden, ist es wichtig, zu verstehen, 
 Die Entität **Transaktionsursprung** zeichnet den Ursprung des Datensatzes **Tatsächlich** und die Entität **Transaktionsverbindung** zeichnet die zugehörigen Datensätze für den Datensatz **Tatsächlich** auf. Darüber hinaus enthält der Datensatz **Tatsächlich** Verweise auf das Projekt, den Projektvertrag (Auftrag), die buchbare Ressource und den Kunden.
 
 ![Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen](media/PS-Reporting-image6.png "Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Nachdem Sie organisatorische und kundenspezifische Standard-Projektpreislisten e
 
 1. Stellen Sie unter **Projektangebot** auf der **Projektpreisliste** im Unterraster sicher, dass kein bestimmter Preislistendatensatz ausgewählt ist.
 2. Wählen Sie **Benutzerdefinierte Preisberechnung erstellen** aus. Dadurch werden Kopien aller Standardpreislisten erstellt, die derzeit dem Angebot zugeordnet sind, und diese Kopien werden dem Angebot zugeordnet. Die bestehenden Verknüpfungen zu Standardpreislisten werden entfernt. Der Vertriebsmitarbeiter kann dann beginnen, die Preise für diese Kopien zu ändern. Diese geänderten Preise gelten nur für dieses Projektangebot.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

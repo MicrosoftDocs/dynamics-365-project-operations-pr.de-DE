@@ -35,3 +35,6 @@ Führen Sie die folgenden Schritte aus, um Projekte zur Schätzung von Festpreis
 
   Projektkosten, Umsatzprofil, Kostenvorlage und der Periodencode können manuell festgelegt werden. Wenn sie nicht manuell festgelegt werden, werden die Werte bei der ersten Schätzungsberechnung für das Projekt standardmäßig unter Verwendung der für Projektkosten- und Ertragsprofile konfigurierten Regeln verwendet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

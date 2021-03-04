@@ -64,3 +64,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
      - Behoben: Der Gesamtverkaufspreis wird erst berechnet, wenn der Benutzer auch einen Selbstkostenpreis für Kostenvoranschläge für ein Projekt eingibt.
      - Behoben: Schließen eines Zitats als **Gewonnen** schlägt fehl, wenn der zugehörige Projektvertrag nicht im **Entwurf** Zustand ist.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

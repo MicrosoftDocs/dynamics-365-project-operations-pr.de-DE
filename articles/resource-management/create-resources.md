@@ -20,3 +20,6 @@ ms.locfileid: "4514524"
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Sie können Dynamics 365 Field Service verwenden, um buchbare Ressourcen zu erstellen, die Sie in Ihrer Dynamics 365 Project Operations-Umgebung verwenden können. Informationen zum Erstellen dieser Ressourcen finden Sie unter [Buchbare Ressourcen einrichten](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

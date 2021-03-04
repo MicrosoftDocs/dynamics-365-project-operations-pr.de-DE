@@ -257,3 +257,6 @@ Die folgende Grafik stellt den Zeitpunkt dar, nachdem Listen des benutzerdefinie
 
 > [!NOTE]
 > Eine kurze Verzögerung zwischen dem Klicken auf **Benutzerdefinierte Preisberechnung erstellen** kann auftreten, wenn die Liste des benutzerdefinierten Preises erstellt wird. Es ist empfehlenswert, das Raster zu aktualisieren, anstatt mehrmals zu klicken. Eine Liste von benutzerdefinierten Preises wird erstellt, wenn dem Preislistenname der Angebotsname oder der Projektvertragsname angefügt wurde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

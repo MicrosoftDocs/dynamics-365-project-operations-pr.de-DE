@@ -53,3 +53,6 @@ Die folgende Tabelle ist eine umfassende Liste der vorkonfigurierten Formulare u
 2. Auf der Seite **Parameter** in der Registerkarte **Betragsbasierte Preisdimensionen** beachten Sie, dass das Raster in der Registerkarte die Datensätze in der Entität **Preisdimensionen** anzeigt.
 3. Fügen Sie **Transaktionskategorie** zu dieser Liste hinzu, und legen Sie die Felder **Gilt für Kosten** und **Gilt für Vertrieb** auf **Ja** fest.
 4. Wählen Sie im Feld **Dimensionstyp** die Option **Betragsbasiert** aus, und wählen Sie anschließend die Priorität für **Transaktionskategorie** in Bezug auf Kosten und Vertrieb fest.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

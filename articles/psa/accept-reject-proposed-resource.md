@@ -45,3 +45,6 @@ Klicken Sie auf **Ressource ablehnen**, um den Vorschlag abzulehnen.
 ![Annehmen eines Ressourcenvorschlags](media/RM-how-to-20.png) 
 
 Ähnlich wie bei der direkten Erfüllung einer generischen Ressourcenanforderung mit einer benannten Ressource wird die generische Ressource ersetzt und die zugewiesenen Aufgaben werden mit dem benannten Teammitglied aktualisiert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

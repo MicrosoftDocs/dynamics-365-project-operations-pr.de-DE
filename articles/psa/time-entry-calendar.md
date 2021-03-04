@@ -42,3 +42,6 @@ Der Kalender unterstützt keine Aktionen für einzelne Kalenderelemente, und Sie
 ## <a name="extensibility"></a>-Erweiterbarkeit
 
 Auf der Seite **Zeiteinträge**, die das Zeiteintragraster enthält, können Sie benutzerdefinierte Felder hinzufügen, Suchfelder einrichten und benutzerdefinierte Ansichten erstellen. Sie können auch eine benutzerdefinierte Geschäftslogik einrichten, die auf Werten basiert, die ausgewählt sind oder in benutzerdefinierten Feldern eingegeben werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

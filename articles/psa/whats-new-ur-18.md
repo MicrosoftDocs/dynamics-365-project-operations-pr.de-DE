@@ -63,3 +63,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 **Vertrieb**
 
 - Behoben: Wenn Zeiteinträge erneut genehmigt werden (**Genehmigen > Abbrechen >** Erneut genehmigen), wird ein Duplikat des nicht kostenpflichtigen Ist-Werts erstellt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

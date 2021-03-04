@@ -69,3 +69,6 @@ Führen Sie die folgenden Schritte aus, um die Leistungsverbesserung bei der Res
 
 > [!NOTE]
 > Dadurch werden allgemeine Daten an die Tabelle **ResRollup** für alle Unternehmen in Ihrer Umgebung verteilt, sodass der Batchauftrag nur in einer juristischen Person ausgeführt werden muss. Dieser Batchauftrag ist für alle **Ressourcenverfügbarkeits** -Ansichten erforderlich. Wenn dieser Batchauftrag nicht ausgeführt wird, werden die **ResRollup** -Daten während der Bearbeitung generiert, was einige Zeit dauern kann.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

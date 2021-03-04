@@ -61,3 +61,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
     - Behoben: Objekt-IDs, die im Formular **Hauptvertrag** gefunden wurde, duplizieren.
     - Behoben: Die Logik wurde aktualisiert, um die **Angebotsanalyse** Registerkarte sichtbar zu machen, damit das Metadaten-Setup der Registerkarte angezeigt wird.
     - Behoben: Abrechnungsdatum auf dem aktuellen Datensatz stammt jetzt vom Datum der Zeit-/Ausgabenerfassung und nicht vom Datum der Genehmigung.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

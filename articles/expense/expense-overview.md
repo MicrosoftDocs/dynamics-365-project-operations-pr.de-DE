@@ -44,3 +44,6 @@ Weitere Informationen finden Sie unter [Ausgabeneintrag (lite)](basic-expense.md
 
 ## <a name="determine-your-expense-deployment"></a>Feststellen Ihrer Ausgabenbereitstellung
 Um festzustellen, bo Sie die Basic Expense-Verwaltungbereitstellung ausführen, stellen Sie sicher, dass die Adress-URL mit **.crm.dynamics.com** endet. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

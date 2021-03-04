@@ -65,3 +65,6 @@ Ab dem 1. März 2020 können Kunden von Dynamics PSA keine neue Umgebung mehr mi
 
 > [!NOTE]
 > Für eine optimale Erfahrung, wenn Sie ältere Versionen von Field Service und PSA-Anwendungen verwenden, wechseln Sie zur Seite **Systemeinstellungen**, und für das Feld **Nur die neue einheitliche Oberfläche verwenden (empfohlen)** wählen Sie **Nein** aus, da diese Versionen nicht dazu entworfen sind, in UCI korrekt geladen zu werden. Nachdem Sie UCI deaktiviert haben, können Sie diese Versionen von Field Service und PSA mithilfe des alten Webclient öffnen und ausführen. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

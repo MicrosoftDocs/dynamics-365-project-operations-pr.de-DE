@@ -152,3 +152,6 @@ Sie benutzen die folgenden Aufgabentypen, wenn Ihr Projektstrukturplan erstellt 
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

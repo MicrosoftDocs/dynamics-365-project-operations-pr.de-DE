@@ -45,3 +45,6 @@ Die folgenden Informationen werden nicht vom **Quell-** in den **Zielvertrag** k
   - Kundenbudgetinformationen
 
 Da diese Informationen für jeden Vertrag spezifisch sind, werden diese Felder und Datensätze nicht kopiert. Vertragszeilen für Projekte und Produkte, Schätzungen zu Vertragszeilendetails und nicht zu überschreitende Werte auf Vertragsebene werden kopiert. Die Standardeinstellungen für Preis und Kostensatz hängen von der Auswahl im Feld **Preisberechnung kopieren** auf der Dialogseite **Parameter kopieren** ab.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

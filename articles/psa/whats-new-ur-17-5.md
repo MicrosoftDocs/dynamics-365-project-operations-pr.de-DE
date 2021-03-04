@@ -44,3 +44,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 - Behoben: Adressierte 24-Stunden-Arbeitsstundenvorlagen fügten Aufgaben ungenau einen zusätzlichen Tag hinzu.
 - Behoben: Adressierte +13 GMT-Arbeitsstundenvorlagen, die Aufgaben einen Tag im Voraus ungenau verschieben.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

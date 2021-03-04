@@ -64,3 +64,6 @@ Fügen Sie Ihrer Preislösung die folgenden Project Service-Entitäten hinzu, um
 5.  Wenn Sie aufgefordert werden, abhängige Entitäten für die ausgewählten Entitäten einzuschließen, wählen Sie **Nein, erforderliche Komponenten nicht einschließen.**
 
     ![Einschließlich abhängiger Einheiten](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

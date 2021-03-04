@@ -59,3 +59,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
      - Behoben: Zusätzliche Schaltflächen für **Neue Verkaufschance**, **Angebot**, **Auftragsposition** und **Produkt hinzufügen** werden in Befehlen für Verkaufschancen, Angebote, Bestellprodukte und projektbasierte Zeilenunterraster angezeigt.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

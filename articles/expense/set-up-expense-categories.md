@@ -61,3 +61,6 @@ Bevor Sie mit dem Einrichtungsprozess beginnen können, müssen für jede Ausgab
 
     - Sind einige der Unterkategorien von der Steuerrückerstattung ausgeschlossen?
     - Was ist die Artikel-Mehrwertsteuergruppe der Unterkategorien?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

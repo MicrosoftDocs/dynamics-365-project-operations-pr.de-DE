@@ -72,3 +72,6 @@ Sie können auch kundenspezifische Projektpreislisten einrichten, wenn Sie mit I
 ## <a name="custom-pricing-on-a-project-contract"></a>Benutzerdefinierte Preisgestaltung für einen Projektvertrag
 
 Nachdem Sie organisatorische und kundenspezifische Standardprojektpreislisten erstellt haben, werden Ihre Projektverträge mit diesen Projektpreislistenzuordnungen automatisch erstellt. Projektpreislisten auf einem Projektvertrag werden jedoch immer mit dem Datum und dem Vertragsnamen kopiert, die an sie angehängt sind. Die Konto- und Projektmanager können dann beginnen, die Preise für diese Kopien zu ändern. Diese geänderten Preise gelten nur für diesen Projektvertrag.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ Die folgenden Aktualisierungen der Sicherheitsberechtigungen für Entitäten sin
  
  ![Synchronisation der Ledger Zuordnung](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

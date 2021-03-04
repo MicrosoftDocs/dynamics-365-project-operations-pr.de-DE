@@ -53,3 +53,6 @@ Im Folgenden finden Sie einige Vorschläge, die Sie beim Erstellen neuer Richtli
 ## <a name="when-to-evaluate-policies"></a>Wann müssen die Richtlinien bewertet werden
 
 In den Ausgabenmanagementparametern können Sie auswählen, ob die Ausgabenmanagementrichtlinien ausgewertet werden sollen, wenn eine Zeile gespeichert wird oder wenn eine Ausgabenabrechnung gesendet wird. Wenn Sie auswerten möchten, wann eine Zeile gespeichert wird, haben Benutzer früher einen Überblick darüber, was sie tun müssen, um ihre Ausgabenabrechnung auf einmal zu vervollständigen. Andernfalls können Sie die Richtlinienbewertung verzögern und Zeit sparen, indem Sie am Ende während der Übermittlung an den Workflow validieren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

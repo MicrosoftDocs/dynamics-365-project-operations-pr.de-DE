@@ -45,3 +45,6 @@ Diese Whitepaper sind konzipiert, um weiterführende Informationen für [!INCLUD
 
 ### <a name="see-also"></a>Siehe auch
  [Überblick über Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

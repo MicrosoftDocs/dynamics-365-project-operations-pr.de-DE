@@ -51,3 +51,6 @@ Jede juristische Person, die Project Operations in Dynamics 365 Customer Engagem
   - **Standards Fakturierungstyp**: Project Operations verwendet einen festen Satz von Standardeinstellungen für Fakturierungstypen, die den Zeileneigenschaften in Finance zugeordnet werden müssen. Erstellen Sie für jeden Fakturierungstyp einen Datensatz: **Unbestimmt**, **Fakturierbar**, **Nicht fakturierbar**, **Kostenlos** und **Nicht verfügbar**.
   - **Standardeinstellungen für Projektkategorien** : Wählen Sie die Standardprojektkategorien aus, die für jeden Transaktionstyp verwendet werden sollen. Diese Standardeinstellungen werden in **Project Operations-Integrationsjournal** und in Vorkalkulationen, in denen keine Transaktionskategorie für die Istwerte des Projekts angegeben ist.
   - **Prognosen**: Wählen Sie das Prognosemodell aus, das für Zeit- und Ausgabenvorkalkulationen verwendet werden soll.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

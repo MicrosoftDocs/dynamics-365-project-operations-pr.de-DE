@@ -36,3 +36,6 @@ Es gibt zwei Möglichkeiten, mit denen ein Projektmanager eine erneute Hochrechn
 - Er kann den standardmäßigen Fortschritt in Prozent mit einer neuen Vorkalkulation des tatsächlichen Fortschritts für die Aufgabe außer Kraft setzen.
 
 Jeder dieser Ansätze führt zu einer Neuberechnung der ETC, der Schätzung von EAC sowie des Fortschritts in Prozent und der hochgerechneten Aufwandsabweichung für eine Aufgabe. Die EAC, die ETC und der Fortschritt in Prozent für die Zusammenfassungsaufgaben werden auch neu berechnet. Hierdurch ergibt sich eine neue Hochrechnung der Aufwandsabweichung.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

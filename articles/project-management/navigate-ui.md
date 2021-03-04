@@ -102,3 +102,6 @@ Im Folgenden finden Sie eine kurze Übersicht über die typischen Steuerelemente
 **Spalte hinzufügen**: Ermöglicht dem Benutzer, die sichtbaren Spalten im Raster zu definieren Zu den Rastern im Formular **Projektplanung** können nur Standardspalten hinzugefügt werden.
 
 ![Schaltfläche „Spalte hinzufügen“](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

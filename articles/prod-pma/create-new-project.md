@@ -104,3 +104,6 @@ Während der Ressourcenreservierung können Projektmanager die Rollenressourcen 
 
 3. Wählen Sie **Speichern** aus, und schließen Sie die Seite.
 4. Auf der Registerkarte **Kompetenzen** fügen Sie die Fertigkeit **ProjectMgmt** und **PMP** Zertifikat hinzu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

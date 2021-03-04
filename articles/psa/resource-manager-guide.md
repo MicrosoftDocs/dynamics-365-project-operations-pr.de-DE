@@ -73,3 +73,6 @@ Mit den [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.m
  [Konto-Manager Handbuch](../psa/account-manager-guide.md)   
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Dieser Aufgabenleitfaden zeigt Ihnen, wie Sie eine Transaktion für ein Projekt 
 13. Markieren Sie in der Liste die ausgewählte Zeile. 
 14. Geben Sie in das Feld „Einstandspreis“ eine Zahl ein. 
 15. Klicken Sie auf Buchen. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Die Eigenschaften **Anzahl der Benutzer** und **Anzahl der Monate** können durc
 
 > ![Kennzeichnen von Anzahl der Benutzer und Anzahl der Monate als Mengenfaktoren](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

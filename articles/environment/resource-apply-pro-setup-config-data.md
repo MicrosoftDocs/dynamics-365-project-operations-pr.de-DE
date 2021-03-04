@@ -134,3 +134,6 @@ Bevor Sie beginnen, Daten in Common Data Service (CDS) zu konfigurieren, müssen
 13. Wählen Sie **Speichern** aus. 
 
 ![Aktualisierte Projektparameter](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

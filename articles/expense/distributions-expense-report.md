@@ -30,3 +30,6 @@ Da Nancy während ihres Aufenthalts in Frankfurt an zwei separaten Projekten gea
 | Zugfahrkosten   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Hotel        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Mahlzeiten        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

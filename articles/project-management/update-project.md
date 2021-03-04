@@ -48,3 +48,6 @@ Im Folgenden finden Sie eine Zusammenfassung der Felder, die für ein Projekt ak
 - **Gesamtprojektstatus**: Der vom Projektmanager bereitgestellte Gesamtzustand des Projekts
 - **Kommentare**: Eine vom Projektmanager bereitgestellte Darstellung des aktuellen Zustands des Projekts
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

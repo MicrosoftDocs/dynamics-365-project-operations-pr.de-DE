@@ -112,3 +112,6 @@ Das folgende Beispiel zeigt, wie Sie die benutzerdefiniert Aktion **Projekt kopi
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

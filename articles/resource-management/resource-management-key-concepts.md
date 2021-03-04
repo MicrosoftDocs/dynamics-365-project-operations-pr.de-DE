@@ -35,3 +35,6 @@ Ressourcen sind die wichtigsten Anlagen einer dienstbasierten Organisation. Die 
 
 
 Sie können Ihr Projekt mit einem Team aus generischen oder benannten Ressourcen in Project Operations besetzen. Sie können verschiedene Methoden verwenden, um Teammitglieder Hinzuzufügen und Zuzuweisen und ihre Buchungen und Zuweisungen zu verwalten. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

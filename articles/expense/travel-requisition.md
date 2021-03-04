@@ -56,3 +56,6 @@ Wählen Sie die Reiseanforderung aus, die Sie genehmigen möchten, und dann **Wo
 
 > [!NOTE]
 > Wenn Sie eine Spesenabrechnung einer genehmigten Reiseanforderung zuordnen, darf der Transaktionsbetrag nicht größer als der autorisierte Betrag sein. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

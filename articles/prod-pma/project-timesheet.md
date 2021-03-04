@@ -96,3 +96,6 @@ Klicken Sie auf **übermitteln** , um die Arbeitszeittabelle an den Genehmigungs
 ## <a name="review-timesheets"></a>Arbeitszeittabellen überprüfen
 
 Eine Liste der Arbeitszeittabellen, die überprüft werden müssen, ist im Menü verfügbar. Diese Option ist nur verfügbar, wenn Sie als die den Workflow genehmigende Person festgelegt wurden. Sowohl die Header- als auch die Zeilengenehmigung werden unterstützt. Die Genehmigung auf Zeilenebene bietet die Möglichkeit, eine oder mehrere Zeilen zur Genehmigung zu markieren. Klicken Sie nach dem Überprüfen der Arbeitszeittabelleninformationen auf **Genehmigen** , **Delegieren** , oder **Rückgabe** , um den Workflow fortzusetzen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

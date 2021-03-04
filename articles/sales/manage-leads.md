@@ -80,3 +80,6 @@ Der Lead-zu-Verkaufschance-Geschäftsprozess unterstützt die folgenden Phasen:
 | Entwickeln | Verkaufschance | Entwickeln Sie die Verkaufschance, um weitere Informationen über die Arbeit, die wichtigsten Interessengruppen und die Mitbewerber hinzuzufügen. |
 | Vorschlagen | Verkaufschance | Entwickeln Sie den Vorschlag und holen Sie sich vom internen Überprüfungsteam eine Genehmigung. |
 | Schließen | Verkaufschance | Gewinnen Sie die Verkaufschance, um den Deal zu schließen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

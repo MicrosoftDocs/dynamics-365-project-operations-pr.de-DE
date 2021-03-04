@@ -54,3 +54,6 @@ Wählen Sie nach dem Buchen von Ressourcen **Buchungen verwalten** aus, um erfor
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Was ist der Unterschied zwischen einer Zuweisung und einer Buchung?
 
 Zuweisungen betreffen die Zuweisung von Ressourcen zu Projektaufgaben im Projektzeitplan. Bei den Ressourcen kann es sich entweder um reale oder um generische Ressourcen handeln. Buchungen betreffen die verbindliche oder unverbindliche Zuweisung von Ressourcen zu einem Projekt. Verbindliche Buchungen verbrauchen die Kapazität einer Ressource. Idealerweise sollten die Buchungen und Zuweisungen für reale Buchungen übereinstimmen, da sie sich nicht unterscheiden. Diese Vereinbarung wird von PSA jedoch nicht erzwungen. Die Abstimmungsansicht zeigt einem Projektmanager an, wo die Buchungen und Zuweisungen einer Ressource nicht übereinstimmen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

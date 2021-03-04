@@ -71,3 +71,6 @@ Bevor Sie diesen Vorgang starten prüfen Sie, dass die Sicherheitsrollen die Sys
 
 > [!IMPORTANT]
 >  Sie können keine Währungen löschen, die von anderen Datensätzen verwendet werden, sondern diese nur deaktivieren. Durch Deaktivieren der Währungsdatensätze werden die Währungsinformationen, die in vorhandenen Datensätzen wie Verkaufschancen oder Aufträgen gespeichert sind, nicht entfernt. Sie können jedoch die deaktivierte Währung nicht für neue Transaktionen auswählen.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

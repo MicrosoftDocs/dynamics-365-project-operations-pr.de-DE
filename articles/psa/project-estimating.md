@@ -97,3 +97,6 @@ In der Rasteransicht und der Zeitphasenansicht können Sie auswählen, welche Fe
 ## <a name="expense-estimates"></a>Ausgabenschätzungen
 
 Mit der Schaltfläche **Neue Ausgabenvorkalkulation hinzufügen** können Sie in der Rasteransicht alle Ausgaben des Projekts aufzeichnen, die nicht direkt der Arbeit zugeordnet sind. Sie können die Ausgabenschätzungen für eine bestimmte Aufgabe oder für das gesamte Projekt aufzeichnen. Wählen Sie die Ausgabenkategorien und das vorläufige Datum, an dem Sie die Ausgabe erwarten. Wenn die verbundene Einstandspreisliste und die Verkaufspreisliste Standardpreise haben (oder Aufschlagprozentsätze für Ausgabenkategorien definiert wurden), werden sie automatisch bei der Zuweisung in die Vorkalkulationsposition einbezogen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

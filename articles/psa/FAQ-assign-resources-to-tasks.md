@@ -82,3 +82,6 @@ Auf diese Weise zugewiesene Ressourcen werden dem Team ohne Buchungen hinzugefü
 
 3. Wählen Sie die Ressource aus, die Sie der Aufgabe zuweisen möchten.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

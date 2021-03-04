@@ -41,3 +41,6 @@ Wenn der Funktionsverwaltungsschlüssel **Aktivieren Sie die Listenseite für Au
 Ein Stellvertretungs-Benutzer kann vorhandene Ausgabenabrechnungen, die an ihn delegiert wurden, schnell filtern und durchsuchen. Sie können durch Auswahl auch eine neue Ausgabenabrechnung für andere Benutzer erstellen, indem Sie **Neue Ausgabenabrechnung** auswählen.
 
 Stellvertretungsbenutzer können auch Ausgabenabrechnungen für andere Mitarbeiter erstellen und verwalten, indem Sie auf **Ausgabenverwaltung** > **Meine Kosten** > **Ausgabenabrechnungen** und **Öffnen Sie die Ausgaben anderer Benutzer** gehen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

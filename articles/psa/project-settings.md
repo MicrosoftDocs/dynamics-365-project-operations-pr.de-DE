@@ -68,3 +68,6 @@ Jede Organisation muss diese Rollen auf der Seite **Aktive Ressourcenkategorien*
 ## <a name="price-lists"></a>Preislisten
 
 Mithilfe von Preislisten können Sie Einkaufs- und Verkaufspreise für Ressourcenrollen, Ausgabenkategorien, Produkte und andere Elemente in einer Organisation festlegen. Bevor Sie finanzielle Vorkalkulationen für die im Rahmen eines Projekts zu leistende Arbeit erstellen, sollten Sie eine unterstützende Kosten- und Verkaufspreisliste erstellen. Im Parameterbereich sollten Sie außerdem eine standardmäßige Kosten- und Verkaufspreisliste festlegen, die für alle in der Organisation erstellten Projekte gilt. Achten Sie auf der Seite **Aktive Projektparameter** darauf, eine standardmäßige Kosten- und Verkaufspreisliste festzulegen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

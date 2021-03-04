@@ -48,3 +48,6 @@ Die folgende Tabelle definiert Schlüsselkonzepte, die in der Dynamics 365 Proje
 | Kontur                    | Aufgaben-, Anforderungs- oder Zuweisungsstunden, wie sie auf eine tägliche Verteilung aufgeteilt werden. Beispielsweise kann eine fünf Tage dauernde, 40-stündige Aufgabe auf acht Stunden pro Tag für fünf Tage konturiert werden. |
 | Abstimmungsansicht        | Eine Ansicht, die die Buchungen und Zuweisungen für jedes Projektteammitglied anzeigt. In dieser Ansicht können Projektmanager nach Diskrepanzen zwischen Buchungen und Zuweisungen suchen und bei Diskrepanzen korrektive Maßnahmen ergreifen. |
 | Arbeitszeit                 | Eine Entität, die verwendet wird, um die Ressourcenkapazität sowie die Arbeits- und die Nicht-Arbeitszeit zu identifizieren. Diese Entität wird auch als Ressourcenkalender bezeichnet. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

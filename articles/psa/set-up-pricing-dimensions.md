@@ -94,3 +94,6 @@ Das Festlegen der Dimensionspriorität unterstützt Project Service dabei, einen
 
 - **Kostenpriorität**: Der Wert der Kostenpriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Einstandspreise an. Der Wert der **Kostenpriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Kosten** aufweisen.
 - **Vertriebspriorität**: Der Wert der Vertriebspriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Verkaufspreise oder Rechnungssätze an. Der Wert der **Vertriebspriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Vertrieb** aufweisen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

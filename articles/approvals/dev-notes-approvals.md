@@ -23,3 +23,6 @@ Dynamics 365 Project Operations enthält eine Validierungslogik, die einen korre
 
   - Alle unterstützenden Zeilen werden in verwandten Tabellen wie Journalen und Istdaten erstellt.
   - Die genehmigende Person wird als **Projektgenehmiger** im Projekt gekennzeichnet, bevor Sie fortfahren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

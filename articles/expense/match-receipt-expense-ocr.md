@@ -94,3 +94,6 @@ Derzeit werden die USA unterstützt.
 Finance wird sich an Cognitive Services wenden, um die Felddaten zu extrahieren. Cognitive Services bewahrt eine Kopie Ihrer Quittung bis zu 24 Stunden lang auf, während die Verarbeitung erfolgt. Nach Abschluss der Verarbeitung entfernt Cognitive Services die Quittung. Belege werden weiterhin in Finanzen gespeichert.
 
 Weitere Informationen finden Sie unter [Aktivieren Sie das Belegverständnis mit der neuen Funktion der Formularerkennung](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

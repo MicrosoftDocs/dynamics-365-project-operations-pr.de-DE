@@ -57,3 +57,6 @@ Sie können eine Liste der Teammitglieder Ihres Projektes anzeigen, und von dort
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

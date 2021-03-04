@@ -58,3 +58,6 @@ Zusätzliche Hilfe ist als Aufgabenleitfaden verfügbar. Um auf Aufgabenleitfäd
 ### <a name="videos"></a>Videos
 
 Schauen Sie sich die Videos mit Anleitungen an, die jetzt im [Microsoft Dynamics 365 YouTube-Kanal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) verfügbar sind.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

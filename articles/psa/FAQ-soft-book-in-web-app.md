@@ -87,3 +87,6 @@ Wenn Sie bereit sind, vorläufig gebuchte Teammitgliedsressource in ein definiti
 2. Wenn der Zeitplanübersicht geöffnet wird, erweitern Sie die Ressource, um ihre Anmeldungen anzuzeigen. Sie sehen die Buchung als vorläufig markiert.
 3. Klicken Sie auf die Buchung unter Änderungsstatus und wählen Sie definitive Buchung und dann definitiv. Der Buchungsstatus ist nun definitiv.
 4. Nachdem die Zeitplanübersicht geschlossen wurde, sehen Sie, dass die Stunden für die Ressource von vorläufig auf definitiv im Teammitgliedsraster gewechselt hat. Sie können nun die Ressource den Aufgaben zuweisen (sofern eine Ausrichtung zwischen den definitiven gebuchten Stunden und den Aufwandsstunden der Aufgabe besteht). Beachten Sie, dass Sie den Ressourcenerfüllungsschritten im Element #3 oben folgen, wenn Sie den Status der vorläufig gebuchten, buchbaren Ressource auf definitiv buche. Das allgemeine Teammitglied wird vom Team entfernt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Sie können für alle ausleihenden juristischen Personen mehrere Intercompany-Re
 ## <a name="post-the-intercompany-vendor-invoice"></a>Intercompany-Kreditorenrechnung buchen
 
 Ein Projektbuchhalter in der kreditnehmenden juristischen Person kann ausstehende Intercompany-Kreditorenrechnungen überprüfen, wenn die entsprechende Intercompany-Kundenrechnung gebucht wird. In Finance gehen Sie in der kreditnehmenden juristischen Person zu **Kreditorenkonten** > **Rechnungen** > **Ausstehende Kreditorenrechnung**. Die ausstehende Rechnungsnummer stimmt mit der konzerninternen Kundenrechnungsnummer überein. Stellen Sie sicher, dass die Rechnung korrekt ist, und buchen Sie die Rechnung. Durch die Buchung einer konzerninternen Kreditorenrechnung werden ein Projektnebenbuch und eine Hauptbuchtransaktion erstellt, die die Transaktionskosten in der kreditnehmenden juristischen Person widerspiegeln.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

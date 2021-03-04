@@ -60,3 +60,6 @@ Nicht in Rechnung gestellte Vertriebs-Istwerte mit einem **Nicht zu überschreit
 Wenn Vertragszeilen mit mehreren Kunden über eine Zeit- und Materialabrechnungsmethode verfügen und Zeit und Kosten genehmigt werden, wird für jeden Kunden in der Vertragszeile ein nicht abgerechneter tatsächlicher Umsatz gemäß der für jeden Kunden definierten Aufteilung des Abrechnungsprozentsatzes erstellt. In der Ansicht **Rückstandsprotokoll über Zeit- und Materialberechnung** sehen Sie diese einzelnen kundenspezifischen, nicht in Rechnung gestellten Verkaufsdaten. Jeder dieser Datensätze an nicht fakturierten Umsatz-Istwerten kann separat von dieser Ansicht als **Bereit für die Rechnungsstellung** markiert werden.
 
 In dieser Ansicht wird ein nicht abgerechneter vertrieblicher Ist-Wert mit dem Abrechnungsstatus **Erstellte Kundenrechnung** angezeigt, der sich in einem Rechnungsentwurf befindet. Wenn der Rechnungsentwurf bestätigt wird, wird der Fakturierungsstatus in diesem Datensatz auf **Gebuchte Kundenrechnung** aktualisiert. Aktualisieren Sie diesen Statuswert nicht mithilfe von benutzerdefiniertem Code. Project Operations funktioniert nicht ordnungsgemäß, wenn diese Statuswerte mit benutzerdefiniertem Code aktualisiert werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

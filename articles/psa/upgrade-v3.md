@@ -110,3 +110,6 @@ Bei Aufgaben, die einer Rolle in einer Organisationseinheit zugewiesen sind, die
  
 Das Ändern der standardmäßigen Ressourcenorganisationseinheit für nicht erneut generierte Teammitglieder ist der Grund dafür, dass wir empfehlen, dass Sie die Teams in den Projekten vor dem Upgrade erstellen oder erneut generieren, sodass die Organisationseinheitenzuweisungen nicht verloren gehen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

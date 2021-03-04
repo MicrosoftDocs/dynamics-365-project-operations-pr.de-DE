@@ -62,3 +62,6 @@ Der folgende Prozess erläutert, wie Sie ein Projektteam erstellen.
 ## <a name="monitor-project-teams"></a>Projektteams überwachen
 1. Auf der Seite **Alle Projekte** wählen Sie die Verknüpfung **Projekt-ID** für das Projekt **XYZ Aktualisierung Phase 2**.
 2. Auf der Registerkarte **Projektteam und Terminplanung** überprüfen Sie, ob die aufgelisteten Projektressourcen korrekt sind.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

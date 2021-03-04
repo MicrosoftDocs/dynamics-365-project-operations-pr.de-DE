@@ -28,3 +28,6 @@ Es gibt zwei Methoden, mit denen Sie mit den persönlichen Ausgaben eines Mitarb
   - **Von der Firma bezahlt**: Ihre Organisation bezahlt die vollständige Rechnung für die Firmenkreditkarte und belastet dann die persönlichen Ausgaben vom Konto des Arbeitnehmers.
 
 Sie können die Methode auswählen, die Ihre Organisation für die Seite **Spesenverwaltungsparameter** verwendet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ In der Einstandspreisliste für Fabrikam UK-Robotics können die Kostensätze wi
 | Developer | Fabrikam UK | 115 GBP |
 
 Die Einstandspreisliste kann Arbeitssätze in mehreren Währungen enthalten. Bei der Erstellung eines Kostenvoranschlags für das Projekt konvertiert Project Operations diese Kostensätze in die Projektwährung und zeigt sie dem Benutzer an. Wenn ein Zeiteintrag genehmigt und ein tatsächlicher Kostenaufwand erstellt wird, werden die tatsächlichen Kosten in der Währung der entsprechenden Preiszeile für die Rolle in der Einstandspreisliste berechnet. Die tatsächlichen Kosten für die Zeit eines einzelnen Projekts können in mehreren Währungen erfasst werden. Wenn Sie jedoch die tatsächlichen Arbeitskosten auf Projektebene zusammenfassen, konvertiert Project Operations alle Arbeitskostenbeträge in die Projektwährung, die der Benutzer anzeigen kann.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

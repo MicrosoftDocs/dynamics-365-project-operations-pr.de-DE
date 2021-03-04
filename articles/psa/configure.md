@@ -58,3 +58,6 @@ Bevor Sie die [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)   
  [Handbuch Resource Manager](../psa/resource-manager-guide.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

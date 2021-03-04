@@ -42,3 +42,6 @@ Wenn Sie eine Auswahl treffen, wird die Ressource dem Projektteam hinzugefügt u
 Mithilfe der Funktion „Buchung erweitern” auf der Registerkarte **Abstimmung** oder der **Zeitplanübersicht** können Sie die Kapazität der Ressource für das Projekt buchen.
 
 Nachdem ein Teammitglied für Ihr Projekt gebucht wurde, können Sie **Buchungen verwalten** oder die **Zeitplanübersicht** zum direkten Verwalten der Buchungen verwenden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

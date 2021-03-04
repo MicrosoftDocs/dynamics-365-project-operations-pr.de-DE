@@ -42,3 +42,6 @@ Sie können das Suchfeld in der **Ressourcenauswahl** verwenden, um alle aktiven
 1. Navigieren Sie im Aufgabenraster, der Übersicht oder der Zeitskala zur **Zugewiesen zu**-Zelle.
 2. Geben Sie im Suchfeld einen Namen ein. Die Suchergebnisse für den Namen werden in die **Ressourcenauswahl** unter **Weitere Ressourcen** angezeigt.
 3. Wählen Sie die Ressource aus, die Sie der Aufgabe zuweisen möchten, oder wählen Sie den Ressourcennamen unter **Andere Teamressourcen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

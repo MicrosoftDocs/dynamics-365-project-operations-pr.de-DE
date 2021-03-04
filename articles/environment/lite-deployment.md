@@ -44,3 +44,6 @@ Project Operations unterstützt mehrere Bereitstellungsmodelle. Informationen zu
 2. Installieren Sie **Microsoft Dynamics 365 Project Operations** aus der Bereitstellungsliste der Dynamics 365-Apps. Weitere Informationen finden Sie unter [Verwalten von Dynamics 365-Apps](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

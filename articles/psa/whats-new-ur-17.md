@@ -57,3 +57,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
 - Behoben: Wenn die Transaktionsklasse **Zeit** ist, kann **UnitGroup** nicht für alle Entitäten bearbeitet werden, einschließlich, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** und **ContractLineDetails**. Jedoch ist das Feld **Einheit** nur für **JournalLine** und **InvoiceLineDetails** nicht bearbeitbar.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

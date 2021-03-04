@@ -32,3 +32,6 @@ Wenn Ausgaben in einer Spesenabrechnung einem anderen Unternehmen als dem Untern
 Um eine Spesenabrechnung zu erstellen, wählen Sie auf der Seite **Genehmigte Spesenabrechnungen** die Spesenanbrechnung und im Aktionsbereich **Buchen** aus.
 
 Sie können auch alle Spesenabrechnungen gleichzeitig in der Liste buchen. Wählen Sie alle Spesenabrechnungen und dann **Buchen** aus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

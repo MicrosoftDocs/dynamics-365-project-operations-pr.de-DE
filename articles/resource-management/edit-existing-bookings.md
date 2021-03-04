@@ -33,3 +33,6 @@ Vom Raster **Teammitglied** kann ein Projektmanager eine bestimmte Ressource mar
 ## <a name="schedule-board"></a>Zeitplanübersicht
 
 Von der **Zeitplanübersicht** hat der Ressourcenmanager eine Portfolioansicht aller Buchungen innerhalb eines Unternehmens. In dieser Ansicht kann der Ressourcenmanager vorhandene Buchungen erweitern, verkürzen oder verschieben, ähnlich wie in **Buchungen verwalten**. Der Ressourcenmanager kann auch vorhandene Ressourcen ersetzen, die einer bestimmten Buchung zugeordnet sind, indem er mit der rechten Maustaste auf die Buchung klickt und **Ersatzressource** auswählt. Ressourcenmanager können auch die Konturen vorhandener Buchungen bearbeiten, indem sie mit der rechten Maustaste auf die Buchung klicken und **Bearbeiten** auswählen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

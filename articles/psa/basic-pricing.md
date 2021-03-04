@@ -131,3 +131,6 @@ Wie Rechnungssätze werden auch Kostensätze für Personal mithilfe von Preislis
     1. Die Einstandspreisliste, die der Organisationseinheit angefügt wird.
     2. Die Einstandspreisliste, die den Project Service-Parametern angefügt wird. Da Einstandspreislisten in vielen verschiedenen Währungen den Project Service-Parametern angefügt werden können, führt PSA eine Währungsabstimmtung zwischen der Währung der Vertragsorganisationseinheit des Projekts, Vertrags oder Angebots und der Währung der Einstandspreisliste durch.
     3. Bei Ausgaben gelten die Preisberechnungsmethoden „Zum Einstandswert” und „Aufschlag auf Kosten” nicht für Einstandspreislisten. Selbst wenn diese Preisberechnungsmethoden bei Einstandspreislistenzeilen verwendet werden, um Transaktionskategoriekosten einzurichten, werden diese vom System ignoriert, und es wird kein Standardeinstandspreis angegeben.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

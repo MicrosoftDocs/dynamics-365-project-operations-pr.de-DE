@@ -43,3 +43,6 @@ Das folgende Diagramm zeigt die Intercompany-Rechnungsstellung in Bezug auf Buch
 - [Intercompany-Rechnungsstellung konfigurieren](configure-intercompany-invoicing.md)
 - [Intercompany-Transaktionen aufzeichnen](create-intercompany-transactions.md)
 - [Intercompany-Debitoren- und -Kreditorenrechnungen erstellen](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

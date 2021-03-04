@@ -55,3 +55,6 @@ Beispielsweise wird für einen Entwickler aus Fabrikam India, der an einem US-Pr
     | Developer | Fabrikam US | 150 USD |
 
 3. Fügen Sie die Verkaufspreisliste, **Fabrikam US-Fakturierungssätze**, zur Projektpreisliste des Projektvertrags oder einem bestimmten Konto hinzu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

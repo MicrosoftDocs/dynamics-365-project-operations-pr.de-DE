@@ -40,3 +40,6 @@ Gelegentlich müssen Sie die ursprünglichen Schätzungen für eine Aufgabe übe
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

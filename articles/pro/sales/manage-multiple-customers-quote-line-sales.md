@@ -43,3 +43,6 @@ Die folgenden Tabelle zeigt die Felder im Angebotspositionskundendatensatz einer
 Sie können Abrechnungsaufteilungsprozentsätze inline bearbeiten. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 % betragen, tritt ein Fehler auf. Aktualisieren Sie die Angebotspositionnseite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung bearbeitet haben, um den Fehler zu beheben.
 
 Verwenden Sie die Aktion „Gleichmäßig verteilen“ im Unterraster „Angebotspositionskunde“, um allen Angebotspositionskunden Abrechnungsaufteilungen zuzuweisen. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Kunden der Angebotsposition wird immer als Rundungskunde gekennzeichnet. Dies bedeutet, dass für den Kundendatensatz der Angebotsposition das Rundungsflag auf **Ja** festgelegt ist. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

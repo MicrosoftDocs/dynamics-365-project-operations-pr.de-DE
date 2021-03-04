@@ -106,3 +106,6 @@ Wenn Sie die Zeile für diesen Teammitgliedsdatensatz erweitern, werden im Teamm
 ### <a name="estimates-grid"></a>Vorkalkulationsraster 
 
 Im Raster **Schätzungen** werden beide Zuordnungen für dieselbe Ressource unterschiedlich bewertet. Die Zuordnung für die Ressource zu **Aufgabe A** erfolgt über den **Rolle**-Attributwert von **Beratungs-Lead**. Die Zuordnung für die gleiche Ressource zu **Aufgabe B** erfolgt über den **Rolle**-Attributwert von **Netzwerktechniker**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

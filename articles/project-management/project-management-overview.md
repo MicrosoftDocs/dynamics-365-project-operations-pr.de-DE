@@ -26,3 +26,6 @@ Die Projektmanagementtools in Dynamics 365 Project Operations unterstützen Sie 
 - Verwendung von Projektvorkalkulationen während des Vertriebsprozesses
 - Prognose des Ressourcenbedarfss für Projekte, die sich in der Vorbereitung befinden
 - Erfolgreiche Durchführung von Projekten durch Verfolgung von Fortschritt und Kostenverbrauch
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

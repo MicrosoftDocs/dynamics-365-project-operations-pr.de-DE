@@ -70,3 +70,6 @@ Sie können Daten aus Projektbuchungen und Arbeitsaufträgen importieren. Wenn S
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funktionen zum Gruppieren nach, Sortieren, Suchen und Filtern
 
 Sie können Zeiteinträge nach den Dimensionen gruppieren und filtern, die in den Spalten angegeben sind. Wählen Sie im Feld **Gruppieren nach** die Dimension aus, mithilfe der Zeiteinträge gefiltert werden sollen. Sie können auch die Zeiteintragdatensätze in aufsteigender oder absteigender Reihenfolge sortieren, indem Sie den Sortierpfeil in den Spaltenüberschriften verwenden. Zudem können Sie durch Auswahl der Schaltfläche **Filtern** in den Spaltenüberschriften Einträge ein- oder ausblenden. Dann können Sie im Feld **Suchen** den Text eingeben, der für die Suche von Zeiteinträgen anhand von Projektname, Projektaufgabe, Zeiteintrag oder Ressource verwendet werden soll.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

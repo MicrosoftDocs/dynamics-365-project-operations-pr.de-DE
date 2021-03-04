@@ -49,3 +49,6 @@ Zur Erstellung eines Projektzeitplans erstellen Sie zuerst eine Projektkalenderv
 8. Geben Sie im Dialogfeld **Arbeitsvorlage** einen Namen für die Arbeitsvorlage ein und wählen Sie dann **Übernehmen** aus. 
 
 Sie können die Arbeitsvorlage jetzt einer Projektkalendervorlage zuordnen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

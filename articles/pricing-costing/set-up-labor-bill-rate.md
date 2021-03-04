@@ -55,3 +55,6 @@ Beispielsweise wird für einen Entwickler aus der Robotics-Abteilung von Fabrika
     | Developer | Fabrikam US | Fabrikam US - Robotics | 150 USD |
 
 3. Fügen Sie die Verkaufspreisliste, **Fabrikam US-Fakturierungssätze**, zur Projektpreisliste des Projektvertrags oder einem bestimmten Konto hinzu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

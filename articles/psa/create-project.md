@@ -48,3 +48,6 @@ Als Nächstes erstellen Sie einen Projektstrukturplan für Ihr Projekt, um die A
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

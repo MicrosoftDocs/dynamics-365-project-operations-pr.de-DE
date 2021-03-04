@@ -66,3 +66,6 @@ Wird weiterhin keine gültiger Preis auf Ihrem Zeitkosten-Ist-Wert angezeigt, na
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

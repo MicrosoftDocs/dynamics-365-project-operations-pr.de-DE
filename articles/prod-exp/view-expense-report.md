@@ -32,3 +32,6 @@ Für Spesenabrechnungen können Sie die Detailinformationen aus einer Transaktio
 Um Detailinformationen zur ursprünglichen Spesenabrechnung anzuzeigen, in der eine Transaktion vorhanden ist, wählen Sie die Transaktion und dann **Originaldokument** aus.
 
 Wenn Sie einzelne Transaktionen anzeigen, können Sie auch alle zusätzlichen Daten anzeigen, die an eine Transaktion angehängt sind. Beispielsweise können Sie für eine aufgeschlüsselte Hotelausgabe eine detaillierte Liste der Ausgaben anzeigen, z. B. Internetzugang, Telefonanrufe und Zimmerservice.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

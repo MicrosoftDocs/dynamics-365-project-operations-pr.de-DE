@@ -43,3 +43,6 @@ Die folgenden Probleme wurden behoben:
 
 - Enddaten werden automatisch ausgefüllt, wenn ein Zeiteintrag erstellt wird, wenn die Dauer null ist.
 - Benutzer können die Aufgabe für einen Zeiteintrag ändern, der genehmigt oder übermittelt wurde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

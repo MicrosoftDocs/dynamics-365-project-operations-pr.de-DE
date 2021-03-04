@@ -67,3 +67,6 @@ Für die Währung bei Angebotspositionsdetails für Kosten wird standardmäßig 
 Bei Rentabilitätsberechnungen wird der Betrag in den Angebotspositionsdetails für Kosten und Verkauf in die Basiswährung der Umgebung umgerechnet, um die geschätzte Gesamtspanne im Angebot anzugeben.
 
 Dies könnte zu Währungsrundungsfehlern und sich ändernden Spannen führen, da keine datumswirksamen Wechselkurse vorhanden sind. Verwenden Sie diese Berechnungen für Projektangebote nur als Näherungswerte und nicht als tatsächliche gesetzliche oder sonstige Berichterstattung, die eine höhere Rundungsgenauigkeit und Kenntnis der Datumseffektivität für Wechselkurse erfordert.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

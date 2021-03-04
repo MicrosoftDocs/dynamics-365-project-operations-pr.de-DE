@@ -36,3 +36,6 @@ Gehen Sie wie folgt vor, um den Assistenten zu verwenden.
 1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Angebote** > **Projektangebote.**
 2. Wählen Sie das Angebot aus, das Sie übertragen möchten, und wählen Sie auf der Registerkarte **Nachverfolgung** in der Gruppe **Ändern** die Option **In Projekt übertragen** aus.
 3. Befolgen Sie den Assistenten **Angebot in Projektplanung übertragen** , um das Angebot einem Projekt zuzuordnen und zu übertragen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

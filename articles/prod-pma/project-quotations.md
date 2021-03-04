@@ -41,3 +41,6 @@ Wenn der Kunde das Projektangebot genehmigt, können Sie die Informationen im Pr
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

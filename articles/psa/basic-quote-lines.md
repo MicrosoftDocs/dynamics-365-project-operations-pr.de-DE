@@ -131,3 +131,6 @@ Für eine-Angebotszeile mit Festpreis können Sie das Raster **Rechnungszeitplan
 - Um Abrechnungsmeilensteine zu erstellen, die gleichmäßig aufgeteilt werden, wählen Sie eine Rechnungshäufigkeit aus, geben Sie das Startdatum für die Abrechnung in die Angebotszeile ein, und wählen Sie **Angefordertes Abschlussdatum** für das Angebot im Abschnitt **Zusammenfassung** der Angebotskopfzeile aus. Wählen Sie dann **Periodische Meilensteine generieren** aus, um gleichmäßig aufgeteilte Meilensteine basierend auf der ausgewählten Rechnungsfrequenz zu erstellen. 
 - Um einen Meilenstein mit Pauschalabrechnung zu erstellen, erstellen Sie einen Meilenstein und geben Sie den Wert der Angebotszeile als Meilensteinbetrag ein.
 - Um Abrechnungsmeilensteine zu erstellen, die auf bestimmten Aufgaben im Projektplan basieren, erstellen Sie einen Meilenstein und ordnen Sie ihn dem Zeitplanelement in der Abrechnungsmeilenstein-Benutzeroberfläche zu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Wenn Sie Istdaten haben, die nach dem Erstellen der Rechnung eingegangen sind, k
 In Project Operations können Sie Rechnungspositionen für Produkte erstellen, die für kein Projekt oder für alle Projekte gelten, sowie projektbasierte Rechnungspositionen. Diese Rechnungspositionen werden als produktbasierte Vertragszeilen erstellt und nachdem sie als „Bereit für die Rechnungsstellung“ markiert wurden, als produktbasierte Rechnungspositionen hinzugefügt.
 
 Nachdem Sie produktbasierte Rechnungspositionen hinzugefügt haben, können diese nicht mehr geändert werden. Sie können jedoch aus dem Entwurf der Proforma-Rechnung gelöscht werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

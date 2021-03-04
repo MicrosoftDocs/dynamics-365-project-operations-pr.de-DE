@@ -41,3 +41,6 @@ Wenn Sie mehrere Genehmiger für Ausgabenabrechnungen benötigen, können Sie di
 
     1. Der Manager des Mitarbeiters genehmigt die Ausgabenabrechnung.
     2. Der Budgetinhaber genehmigt die Ausgabenabrechnung.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
