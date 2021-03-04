@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650138"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960246"
 ---
 # <a name="redesigned-expense-reports"></a>Neu gestaltete Spesenabrechnungen
-[!include[banner](../includes/banner.md)]
 
 Der Eintrag in der Spesenabrechnung wurde neu gestaltet, um die Erfahrung beim Prozess des Ausfüllens der Spesenabrechnungen zu vereinfachen und die erforderliche Zeit zu verkürzen. Hier sind die Hauptkomponenten der neuen Ausgabenerfahrung:
 

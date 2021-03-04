@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176385"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764502"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Eine manuelle Proforma-Rechnung erstellen – Lite
 
@@ -29,8 +30,8 @@ Das System prüft, um zu erkennen, welcher der ausgewählten Projektverträge ei
 
 Alle erstellten Projektrechnungen sind auf der Seite **Rechnung** im Abschnitt **Abrechnung** des Bereichs **Umsatz** verfügbar.
 
-## <a name="project-contract-details-page"></a>Detailseite zu Projektverträgen
+## <a name="project-contract-details-page"></a>Seite „Projektvertragsdetails“
 
-Eine Proforma-Rechnung kann auch über die Detailseite **Projektvertrag** erstellt werden, auf der die Rechnung für diesen bestimmten Projektvertrag erstellt wird. Das System prüft, ob der Projektvertrag einen Rückstand für **Bereit für die Rechnungsstellung** aufweist, der vor dem heutigen Datum liegt. Aus diesen Verträgen erstellt das System Entwürfe von Proforma-Rechnungen basierend auf der Anzahl der Kunden in jeder Vertragszeile.
+Eine Proforma-Rechnung kann auch aus der **Projektvertrag** Detailseite erstellt werden. Das System prüft, ob der Projektvertrag das Rechnungsrückstandsprotokoll **Bereit für die Rechnungsstellung** aufweist, der vor dem heutigen Datum datiert ist. Aus diesen Verträgen erstellt das System Entwürfe von Proforma-Rechnungen basierend auf der Anzahl der Kunden in jeder Vertragszeile.
 
 Wenn eine einzelne Proforma-Rechnung erstellt wird, wird die Seite **Rechnung** geöffnet. Wenn für diesen Projektvertrag mehrere Rechnungen erstellt wurden, wird die Listenseite **Rechnungen** geöffnet, um alle erstellten Rechnungen anzuzeigen.

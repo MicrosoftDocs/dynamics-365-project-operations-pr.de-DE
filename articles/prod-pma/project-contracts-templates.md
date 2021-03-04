@@ -1,9 +1,9 @@
 ---
-title: Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation zu Finance and Operations
+title: Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation bis Finance
 description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Verträgen und Projekten direkt zwischen Microsoft Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642632"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764818"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation zu Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation bis Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Um auf die verfügbarem Vorlagen zuzugreifen, klicken Sie auf das Microsoft Powe
 Die folgenden Vorlagen und die zugrunde liegenden Aufgaben werden verwendet, um Projektverträge und Projekte von Project Service Automation und Finance zu synchronisieren.
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integration mit Dynamics 365 Project Service Automation v2.x
-- **Name der Vorlage in der Datenintegration:** Projekte und Verträge (PSA zu Fin und Ops)
+- **Name der Vorlage in der Datenintegration:** Projekte und Verträge (Project Service Automation zu Finance)
 - **Name der Aufgabe im Projekt:**
 
-    - Projektaufträge PSA mit Fin und Ops
-    - Projekte PSA zu Fin und Ops
-    - Projektauftragszeilen PSA mit Fin und Ops
-    - Projektauftragszeilen-Meilensteine PSA mit Fin und Ops
+    - Projektvertraäge Project Service Automation zu Finance
+    - Projekte Project Service Automation zu Finance
+    - Projektvertragszeilen Project Service Automation zu Finance
+    - Projektvertragszeilen-Meilensteine Project Service Automation zu Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integration mit Dynamics 365 Project Service Automation v3.x
 In Project Service Automation gibt es eine Schemaänderung, die sich auf die Meilensteinvorlage für die Projektvertragslinie auswirkt. Die v2 Version der Vorlage ist erforderlich, um Project Service Automation v3.x in Dynamics 365 zu integrieren.
 
-- **Name der Vorlage in der Datenintegration:** Projekte und Verträge (PSA 3.x zu Fin und Ops) - v2
+- **Name der Vorlage in der Datenintegration:** Projekte und Verträge (Project Service Automation 3x zu Finance) -v2
 - **Name der Aufgabe im Projekt:**
 
-    - Projektaufträge PSA mit Fin und Ops
-    - Projekte PSA zu Fin und Ops
-    - Projektauftragszeilen PSA mit Fin und Ops
-    - Projektauftragszeilen-Meilensteine PSA mit Fin und Ops
+    - Projektvertraäge Project Service Automation zu Finance
+    - Projekte Project Service Automation zu Finance
+    - Projektvertragszeilen Project Service Automation zu Finance
+    - Projektvertragszeilen-Meilensteine Project Service Automation zu Finance
 
 Bevor die Synchronisierung von Projektaufgaben erfolgen kann, müssen Sie Konten synchronisieren.
 
@@ -87,7 +87,8 @@ Bevor die Synchronisierung von Projektaufgaben erfolgen kann, müssen Sie Konten
 
 Projektverträge werden in Project Service Automation verwaltet und als Projektaktivitäten mit Finance als Projektverträge synchronisiert. Als Teil der Integrationsvorlage können Sie die Integrationsquelle in Finance für den Projektvertrag festlegen.
 
-Zeit- und Materialprojekt und Projekt mit festen Preisen werden in Project Service Automation verwaltet und sie werden mit Finance als Projekte synchronisiert. Als Teil der Integrationsvorlage können Sie die Integrationsquelle in Finance für das Projekt festlegen.
+Zeit- und Material- sowie Festpreisprojekte werden in Project Service Automation verwaltet und als Projekte mit Finance synchronisiert. Im Rahmen der Vorlagenintegration können Sie die Integrationsquelle für das Projekt in Finanzen festlegen. Derzeit werden nur Zeit- und Material- sowie Festpreisprojekte unterstützt.
+
 
 Projektvertragszeilen werden in Project Service Automation verwaltet und als Projektvertragsabrechnungsregeln mit Finance synchronisiert. Wenn sich die Abrechnungsmethode vom Standardprojekttyp unterscheidet, aktualisiert die Synchronisierung den Projekttyp für das Vertragslinienprojekt und die Projektgruppe.
 
@@ -122,7 +123,7 @@ Wenn die Integrationslösung Project Service Automation zu Finance angewendet wi
 
 ## <a name="power-query"></a>Power Query
 
-Sie müssen Microsoft Power Query für Excel verwenden, um Daten zu filtern, wenn die folgenden Bedingungen erfüllt sind:
+Verwenden Sie Microsoft Power Query für Excel, um Daten zu filtern, wenn die folgenden Bedingungen erfüllt sind:
 
 - Sie haben Vertriebsaufträge in Dynamics 365 Sales.
 - Sie haben mehrere Organisationseinheiten in Project Service Automation, und diese Organisationseinheiten werden mehreren juristischen Entitäten in Finance zugeordnet.
@@ -130,7 +131,7 @@ Sie müssen Microsoft Power Query für Excel verwenden, um Daten zu filtern, wen
 Wenn Sie Power Query verwenden müssen, folgen Sie diesen Richtlinien:
 
 - Die Vorlage Projekte und Verträge (PSA zu Fin und Ops) verfügt über einen Standardfilter, der nur Vertriebsaufträge des Typs **Arbeitselement (msdyn\_ordertype = 192350001)**. Mit diesem Filter können Sie sicherstellen, dass keine Projektverträge für Vertriebsaufträge in Finance erstellt werden. Wenn Sie eine eigene Vorlage erstellen, müssen Sie diesen Filter hinzufügen.
-- Sie müssen einen Filter Power Query erstellen, der nur die Vertragsorganisationen enthält, die mit der juristischen Person des Integrationsverbindungssatzes synchronisiert werden sollen. Beispielsweise sollten Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso US haben, mit der juristischen Person USSI synchronisiert werden, Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso Global haben, sollten jedoch mit der juristischen Person USMF synchronisiert werden. Wenn Sie diesen Filter nicht zu Ihrer Aufgabenzuordnung hinzufügen, werden alle Projektverträge unabhängig von der Vertragsorganisationseinheit mit der für den Verbindungssatz definierten juristischen Person synchronisiert.
+- Erstellen Sie einen Filter Power Query, der nur die Vertragsorganisationen enthält, die mit der juristischen Person des Integrationsverbindungssatzes synchronisiert werden sollen. Beispielsweise sollten Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso US haben, mit der juristischen Person USSI synchronisiert werden, Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso Global haben, sollten jedoch mit der juristischen Person USMF synchronisiert werden. Wenn Sie diesen Filter nicht zu Ihrer Aufgabenzuordnung hinzufügen, werden alle Projektverträge unabhängig von der Vertragsorganisationseinheit mit der für den Verbindungssatz definierten juristischen Person synchronisiert.
 
 ## <a name="template-mapping-in-data-integration"></a>Vorlagenzuordnung in der Datenintegration
 

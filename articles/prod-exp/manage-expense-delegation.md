@@ -1,6 +1,6 @@
 ---
 title: Ausgabenstellvertretung verwalten
-description: Ein Benutzer mit Ausgabenstellvertretung kann Spesenabrechnungen im Namen eines anderen Mitarbeiters in der Organisation erstellen und verwalten.
+description: Ein Benutzer mit Ausgabenstellvertretung kann Ausgabenabrechnungen für einen anderen Mitarbeiter in der Organisation erstellen und verwalten.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076676"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960786"
 ---
-# <a name="manage-expense-delegation"></a>Ausgabenstellvertretung verwalten
+# <a name="manage-expense-delegation"></a>Ausgabendelegierung verwalten
 
-[!include [banner](../includes/banner.md)]
+Eine Ausgabenstellvertretung kann Ausgabenabrechnungen für einen anderen Mitarbeiter erstellen und verwalten.
 
-Ein Benutzer mit Ausgabenstellvertretung kann Spesenabrechnungen im Namen eines anderen Mitarbeiters in der Organisation erstellen und verwalten.
+## <a name="configure-expense-delegation"></a>Ausgabenstellvertretung konfigurieren
 
-## <a name="configuring-expense-delegation"></a>Ausgabenstellvertretung konfigurieren
+1. Um einen Benutzer als Ausgabenstellvertretern einzurichten, gehen Sie zu **Ausgabenverwaltung > Einrichtung > Allgemein > Stellvertretung**.
+2. Wählen Sie auf der Seite **Stellvertretung** die Option **Neu** aus.
+3. Wählen Sie den Mitarbeiter aus, für den eine Stellvertretung definiert werden soll. 
+4. Geben Sie den Alias des stellvertretenden Benutzers sowie das Start- und Enddatum für den Stellvertretungszeitraum ein.
 
-Um einen Benutzer als Ausgabenstellvertretung einzurichten, navigieren Sie zu **Ausgabenverwaltung> Setup> Allgemein> Stellvertretungen** , um die Seite **Stellvertretungen** zu öffnen. Wählen Sie **Neu** und dann den Mitarbeiter aus, für den eine Stellvertretung definiert wird. Geben Sie den Alias des stellvertretenden Benutzers sowie das Start- und Enddatum für den Stellvertretungszeitraum ein.
+## <a name="manage-expense-delegation-for-another-employee"></a>Verwalten Sie die Ausgabenstellvertretung für einen anderen Mitarbeiter
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Verwalten der Ausgabenstellvertretung im Namen eines anderen Mitarbeiters
+Wenn der Funktionsverwaltungsschlüssel **Aktivieren Sie die Listenseite für Ausgabenstellvertretung** aktiviert ist, wird die **An mich delegierte Ausgaben** Listenseite verfügbar sein. Wechseln Sie zu **Ausgabenmanagement** > **Meine Ausgaben** > **An mich delegierte Ausgaben**.
 
-Wenn der Funktionsverwaltungsschlüssel **Listenseite für Kostenstellvertretung aktivieren** aktiviert ist, ist die Listenseite **An mich delegierte Ausgaben** verfügbar, indem Sie zu **Ausgabenverwaltung> Meine Ausgaben> An mich delegierte Ausgaben** navigieren.
+Ein Stellvertretungs-Benutzer kann vorhandene Ausgabenabrechnungen, die an ihn delegiert wurden, schnell filtern und durchsuchen. Sie können durch Auswahl auch eine neue Ausgabenabrechnung für andere Benutzer erstellen, indem Sie **Neue Ausgabenabrechnung** auswählen.
 
-Ein stellvertretender Benutzer kann vorhandene Spesenabrechnungen, die an den Benutzer delegiert wurden, schnell filtern und durchsuchen. Der Benutzer kann auch schnell eine neue Spesenabrechnung im Namen des anderen Benutzers erstellen, indem er auf **Neue Spesenabrechnung** klickt.
-
-Stellvertretende Benutzer können auch Spesenabrechnungen für andere Mitarbeiter erstellen, indem sie zu **Ausgabenverwaltung > Meine Ausgaben > Spesenabrechnungen** navigieren und auf die Schaltfläche **Ausgaben anderer Benutzer öffnen** klicken.
+Stellvertretungsbenutzer können auch Ausgabenabrechnungen für andere Mitarbeiter erstellen und verwalten, indem Sie auf **Ausgabenverwaltung** > **Meine Kosten** > **Ausgabenabrechnungen** und **Öffnen Sie die Ausgaben anderer Benutzer** gehen.

@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076682"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960291"
 ---
 # <a name="expense-receipt-processing"></a>Ausgabenbelegverarbeitung
-
-[!include [banner](../includes/banner.md)]
 
 Die Ausgabenerfassung wurde durch die Einführung der optischen Zeichenerkennungsverarbeitung (OCR) für Belege verbessert. Diese Funktionalität soll die Benutzererfahrung beim Erstellen von Spesenabrechnungen verbessern.
 
@@ -48,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe zu erstellen oder eine A
   1. Auf einem Ausgabenbericht auf der Registerkarte **Quittungen** fügen Sie eine Quittung hinzu, indem Sie **Quittungen hinzufügen** auswählen.
   2. Beachten Sie unter dem hochgeladenen Bild der Quittung die Optionen **Erstellen** und **Abstimmen**.
 
-      - Wählen Sie **Erstellen** , um eine manuell eingegebene Aufwandsbuchung zu erstellen und die Werte einzugeben, die aus dem Beleg extrahiert werden.
+      - Wählen Sie **Erstellen**, um eine manuell eingegebene Aufwandsbuchung zu erstellen und die Werte einzugeben, die aus dem Beleg extrahiert werden.
       - Wenn Sie **Abstimmen** auswählen, versucht das System, eine vorhandene Ausgabe mit der Quittung abzugleichen.
 
 ## <a name="installation"></a>Installation

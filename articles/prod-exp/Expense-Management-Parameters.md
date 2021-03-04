@@ -16,18 +16,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076568"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960381"
 ---
 # <a name="expense-management-parameters"></a>Ausgabenverwaltungsparameter
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 Die Parameter steuern das allgemeine Verhalten in der Ausgabenverwaltung.
 
@@ -66,7 +63,7 @@ Die Parameter steuern das allgemeine Verhalten in der Ausgabenverwaltung.
 | **Feld**                             | **Beschreibung des Dataflows**             |
 |---------------------------------------|--------------------------------------------------------------------------------------|
 |**Mindeststunden pro Tag**           | Geben Sie die Standard-Mindeststundenzahl ein, die ein Mitarbeiter an einem Tag arbeiten muss, um einen Tagessatz für reisebezogene Ausgaben zu erhalten.  Dieser Wert wird nur als Standardwert für das Mindeststunden-Feld für Tagessätze verwendet.                                                                                      |
-|**Prozentuale Aufteilung der Mahlzeit**                          | Geben Sie den Standardprozentsatz des Tagessatzes für Mahlzeiten ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird, wenn das **Reduzierung der Mahlzeiten berechnen um** -Feld entweder auf **Mahlzeitentyp pro Tag** oder **Anzahl der Mahlzeiten pro Tag** festgelegt ist. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf 0 (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00. |
+|**Prozentuale Aufteilung der Mahlzeit**                          | Geben Sie den Standardprozentsatz des Tagessatzes für Mahlzeiten ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird, wenn das **Reduzierung der Mahlzeiten berechnen um**-Feld entweder auf **Mahlzeitentyp pro Tag** oder **Anzahl der Mahlzeiten pro Tag** festgelegt ist. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf 0 (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00. |
 |**Prozentuale Aufteilung des Hotels**                        | Geben Sie den Standardprozentsatz des Tagessatzes für Hotels ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf 0 (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00.                                              |
 |**Prozentuale Aufteilung – Sonstiges**                        | Geben Sie den Standardprozentsatz des Tagessatzes für verschiedene Ausgaben ein, der am ersten und letzten Tag der reisebezogenen Kosten verwendet wird. Der Arbeitstag am ersten und letzten Tag ist möglicherweise kürzer als ein Standardarbeitstag. Daher kann die Höhe des Tagessatzes an diesen Tagen vom Standardbetrag abweichen. Wenn der Prozentsatz auf 0 (Null) eingestellt ist, betragen die Abzüge für den ersten und den letzten Tag 0,00.                                                                                                     |
 |**Prozentuale Reduzierung für das Frühstück** | Geben Sie den Betrag ein, um den der Tagessatz für das Frühstück reduziert wird. Wenn ein Mitarbeiter beispielsweise ein kostenloses Frühstück erhält, können Sie möglicherweise die Höhe des Tagessatzes um 10 Prozent reduzieren.                               |
@@ -80,7 +77,7 @@ Die Parameter steuern das allgemeine Verhalten in der Ausgabenverwaltung.
 
 | **Feld**                      | **Beschreibung des Dataflows**            |
 |--------------------------------|-----------------------------------------------------------------------------|
-| **Anweisungen**                   | Geben Sie die Anweisungen ein, die Mitarbeiter befolgen müssen, wenn sie ein Deckblatt für ein Fax erstellen, das zum Senden von Belegen verwendet wird, die sich auf eine Ausgabenabrechnung beziehen. Klicken Sie auf die Schaltfläche **Übersetzungen** , um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird. |
+| **Anweisungen**                   | Geben Sie die Anweisungen ein, die Mitarbeiter befolgen müssen, wenn sie ein Deckblatt für ein Fax erstellen, das zum Senden von Belegen verwendet wird, die sich auf eine Ausgabenabrechnung beziehen. Klicken Sie auf die Schaltfläche **Übersetzungen**, um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird. |
 |**Benutzer-ID (Barcode-Informationen)** | Wählen Sie diese Option aus, um die eindeutige Kennung eines Mitarbeiters im Barcode zu speichern, der auf dem Deckblatt des Faxes verwendet wird.                 |
 |**Strichcode**                      | Wählen Sie den Barcode aus, der auf dem Deckblatt des Faxes verwendet wird. Die Strichcodes 39 und 128 werden in der Ausgabenverwaltung unterstützt.               |
 

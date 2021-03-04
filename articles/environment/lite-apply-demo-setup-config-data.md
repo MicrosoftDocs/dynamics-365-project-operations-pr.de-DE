@@ -3,17 +3,17 @@ title: Demoeinrichtungs- und -konfigurationsdaten anwenden – Lite
 description: Dieses Thema enthält Informationen zum Anwenden von Demo-Einrichtungs- und Konfigurationsdaten für Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642092"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089118"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demoeinrichtungs- und -konfigurationsdaten für Project Operations anwenden – Lite 
 
@@ -32,47 +32,45 @@ Bevor Sie mit der Konfiguration beginnen, müssen Sie eine Common Data Service (
 2. Navigieren Sie zum Ordner *ProjOpsDemoDataSetupAndMaster – integriertes CMT* und führen Sie die ausführbare Datei *DataMigrationUtility* aus.
 3. Auf Seite 1 des Assistenten für Common Data Service-Konfigurationsmigration (CMT) wählen Sie **Daten importieren** und dann **Fortsetzen** aus.
 
-![Konfigurationsmigration](./media/1ConfigurationMigration.png)
+    ![Konfigurationsmigration](./media/1ConfigurationMigration.png)
 
 4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Microsoft 365** als **Bereitstellungstyp** aus.
 5. Aktivieren Sie die Kontrollkästchen **Eine Liste der verfügbaren Organisationen anzeigen** und **Erweitert anzeigen**.
 6. Wählen Sie die Region Ihres Mandanten aus, geben Sie Ihre Anmeldeinformationen ein und wählen Sie dann **Einloggen**.
 
-![Konfigurations-Login](./media/2ConfigurationSignin.png)
+   ![Konfigurations-Login](./media/2ConfigurationSignin.png)
 
 7. Wählen Sie auf Seite 3 aus der Liste der Organisationen im Mandanten aus, in welche Organisation Sie die Demo-Daten importieren möchten, und wählen Sie dann **Einloggen**.
 8. Wählen Sie auf Seite 4 die Zip-Datei *MasterAndSetupData* aus dem entpackten Ordner *ProjOpsDemoDataSetupAndMaster – integriertes CMT* aus.
 
-![ZIP-Datei](./media/3ZipFile.png)
+   ![ZIP-Datei](./media/3ZipFile.png)
 
-![Datei auswählen](./media/4SelectAFile.png)
+   ![Datei auswählen](./media/4SelectAFile.png)
 
 9. Nachdem die Zip-Datei ausgewählt wurde, wählen Sie **Daten importieren**.
 
-![Daten importieren](./media/5ImportData.png)
+   ![Daten importieren](./media/5ImportData.png)
 
 10. Der Import wird je nach Netzwerkgeschwindigkeit ungefähr zwei bis zehn Minuten lang ausgeführt. Beenden Sie nach Abschluss den CMT-Assistenten. 
 11. Überprüfen Sie Ihre Organisation auf Daten in den folgenden 20 Entitäten:
 
--   Währung
--   Konto
--   Organisationseinheit
--   Kontakt
--   Steuergruppe
--   Kundengruppe
--   Einheit
--   Einheitengruppe
--   Preisliste
--   Projektparameter-Preisliste 
--   Rechnungshäufigkeit
--   Buchbare Ressourcenkategorie
--   Transaktionskategorie
--   Ausgabenkategorie
--   Rollenpreis
--   Transaktionskategoriepreis
--   Merkmal
--   Buchbare Ressource
--   Zuordnung der buchbaren Ressourcenkategorie
--   Merkmal der buchbaren Ressource
+    -   Währung
+    -   Konto
+    -   Organisationseinheit
+    -   Kontakt
+    -   Einheit
+    -   Einheitengruppe
+    -   Preisliste
+    -   Projektparameter-Preisliste 
+    -   Rechnungshäufigkeit
+    -   Buchbare Ressourcenkategorie
+    -   Transaktionskategorie
+    -   Ausgabenkategorie
+    -   Rollenpreis
+    -   Transaktionskategoriepreis
+    -   Merkmal
+    -   Buchbare Ressource
+    -   Zuordnung der buchbaren Ressourcenkategorie
+    -   Merkmal der buchbaren Ressource
 
-![Import abschließen](./media/6CompleteImport.png)
+    ![Import abschließen](./media/6CompleteImport.png)
