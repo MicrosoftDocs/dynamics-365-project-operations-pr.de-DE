@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076715"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148642"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Änderungen bei der Ressourcenverwaltung (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Die Abschnitte dieses Themas bieten Informationen zu den Änderungen, die am Ressourcenverwaltungsbereich von Dynamics 365 Project Service Automation Version 3.x vorgenommen wurden.
 
 ## <a name="project-estimates"></a>Projektschätzungen
 
-Statt auf der Entität **msdyn\_projecttask** ( **Projektaufgabe** ) basieren Projektvorkalkulationen auf der Entität **msdyn\_resourceassignment** ( **Ressourcenzuweisung** ). Ressourcenzuweisungen haben sich zur „Quelle der Wahrheit“ für Aufgabenplanung und Preisberechnung entwickelt.
+Statt auf der Entität **msdyn\_projecttask** (**Projektaufgabe**) basieren Projektvorkalkulationen auf der Entität **msdyn\_resourceassignment** (**Ressourcenzuweisung**). Ressourcenzuweisungen haben sich zur „Quelle der Wahrheit“ für Aufgabenplanung und Preisberechnung entwickelt.
 
 ## <a name="line-tasks"></a>Positionsaufgaben
 
@@ -65,7 +67,7 @@ In PSA 3.x handelt es sich bei einer nicht zugewiesenen Zuweisung um eine Zuweis
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Planungsfelder auf der Projektaufgabenentität
 
-Die Felder auf der Entität **msdyn\_projecttask** sind veraltet oder wurden zur Entität **msdyn\_resourceassignment** verschoben oder werden jetzt von der Entität **msdyn\_projectteam** ( **Projektteammitglied** ) referenziert.
+Die Felder auf der Entität **msdyn\_projecttask** sind veraltet oder wurden zur Entität **msdyn\_resourceassignment** verschoben oder werden jetzt von der Entität **msdyn\_projectteam** (**Projektteammitglied**) referenziert.
 
 | Veraltetes Feld auf msdyn\_projecttask (Projektaufgabe) | Neues Feld auf msdyn\_resourceassignment (Ressourcenzuweisung) | Kommentar |
 |---|---|---|
@@ -77,15 +79,15 @@ Die Felder auf der Entität **msdyn\_projecttask** sind veraltet oder wurden zur
 
 ## <a name="schedule-contour"></a>Zeitplankontur
 
-Die Zeitplankontur wird im Feld **Geplante Arbeit** ( **msdyn\_plannedwork** ) der einzelnen Entitäten **Ressourcenzuweisung** ( **msdyn\_resourceassignment** ) gespeichert.
+Die Zeitplankontur wird im Feld **Geplante Arbeit** (**msdyn\_plannedwork**) der einzelnen Entitäten **Ressourcenzuweisung** (**msdyn\_resourceassignment**) gespeichert.
 
 ### <a name="structure"></a>Struktur
 
 Die neue Struktur der Zeitplankontur besteht aus flexiblen Zeiterfassungen, die für jeden Tag des Zeitplans definiert sind. Jede Zeiterfassung hat folgende Eigenschaften:
 
-- **Start**  – Der Start der Arbeitsstunden für den Tag laut Projektkalender.
-- **Ende**  – Das Ende der Arbeitsstunden für den Tag laut Projektkalender.
-- **Stunden**  – Die Stundenzahl, die am Tag zugewiesen werden.
+- **Start** – Der Start der Arbeitsstunden für den Tag laut Projektkalender.
+- **Ende** – Das Ende der Arbeitsstunden für den Tag laut Projektkalender.
+- **Stunden** – Die Stundenzahl, die am Tag zugewiesen werden.
 
 **Beispiel**
 
@@ -139,7 +141,7 @@ In diesem Beispiel wird die Aufgabe zwei Ressourcen zugewiesen und automatisch f
 
 ## <a name="pricing-dimensions"></a>Preisdimensionen
 
-In PSA 3.x wurden Preisdimensions-Felder (z. B. **Rolle** und **Organisationseinheit** ) aus der Entität **msdyn\_projecttask** entfernt. Diese Felder können jetzt vom entsprechenden Projektteammitglied ( **msdyn\_projectteam** ) der Ressourcenzuweisung ( **msdyn\_resourceassignment** ) abgerufen werden, wenn Projektvorkalkulationen generiert werden. Das neue Feld **msdyn\_organizationalunit** wurde der Entität **msdyn\_projectteam** hinzugefügt.
+In PSA 3.x wurden Preisdimensions-Felder (z. B. **Rolle** und **Organisationseinheit**) aus der Entität **msdyn\_projecttask** entfernt. Diese Felder können jetzt vom entsprechenden Projektteammitglied (**msdyn\_projectteam**) der Ressourcenzuweisung (**msdyn\_resourceassignment**) abgerufen werden, wenn Projektvorkalkulationen generiert werden. Das neue Feld **msdyn\_organizationalunit** wurde der Entität **msdyn\_projectteam** hinzugefügt.
 
 | Veraltetes Feld auf msdyn\_projecttask (Projektaufgabe) | Feld von msdyn\_projectteam (Projektteammitglied), das stattdessen verwendet wird |
 |---|---|

@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076739"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150352"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Einrichten von benutzerdefinierten Feldern als Preisdimensionen 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Bevor Sie beginnen, wird in diesem Thema davon ausgegangen, dass Sie die Verfahren in den Themen [Erstellen benutzerdefinierter Felder und Entitäten](create-custom-fields-entities.md) und [Hinzufügen von benutzerdefinierten Feldern zum Preissetup und zu Transaktionsentitäten](field-references.md) abgeschlossen haben. Wenn Sie diese Prozeduren nicht abgeschlossen abgeschlossen haben, kehren Sie zurück und schließen Sie diese ab. Dann kehren Sie zu diesem Thema zurück. 
 
@@ -34,7 +36,7 @@ Dieses Thema enthält Informationen zum Einrichten von benutzerdefinierten Preis
 - **msdyn_OrganizationalUnit** (Organisationseinheit)
 
 > [!IMPORTANT]
-> Löschen Sie diese Zeilen nicht. Wenn Sie sie jedoch nicht benötigen, können Sie sie in einem bestimmten Kontext als nicht erforderlich festlegen, indem Sie **Gilt für Kosten** , **Gilt für Vertrieb** und **Gilt für Kauf** auf **Nein** setzen. Das Festlegen dieser Attributwerte auf **Nein** hat denselben Effekt, als ob das Feld als Preisdimension nicht vorhanden ist.
+> Löschen Sie diese Zeilen nicht. Wenn Sie sie jedoch nicht benötigen, können Sie sie in einem bestimmten Kontext als nicht erforderlich festlegen, indem Sie **Gilt für Kosten**, **Gilt für Vertrieb** und **Gilt für Kauf** auf **Nein** setzen. Das Festlegen dieser Attributwerte auf **Nein** hat denselben Effekt, als ob das Feld als Preisdimension nicht vorhanden ist.
 
 Damit ein Feld zu einer Preisdimension wird, muss es:
 
@@ -43,7 +45,7 @@ Damit ein Feld zu einer Preisdimension wird, muss es:
 
 ![Betragsbasierte Preisdimensionszeilen](media/Amt-based-PD.png)
 
-Beachten Sie, dass die Arbeitszeiten der Ressource ( **msdyn_resourceworkhours** ) als aufschlagsbasierte Dimension und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
+Beachten Sie, dass die Arbeitszeiten der Ressource (**msdyn_resourceworkhours**) als aufschlagsbasierte Dimension und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
 
 ![Aufschlagsbasierte Preisdimensionszeilen](media/Markup-based-PD.png)
 
@@ -60,8 +62,8 @@ Dieser Wert muss genau dem Schemanamen des Feldes entsprechen, das der Tabelle *
 ### <a name="type-of-dimension"></a>Dimensionstyp
 Es gibt zwei Arten von Preisdimensionen:
   
-  - **Betragsbasierte Dimensionen** : Diese Dimensionswerte aus dem Eingabekontext werden mit den Dimensionswerten in der Position **Rollenpreis** abgeglichen und Preise/Kosten werden standardmäßig der Tabelle **Rollenpreis** entnommen.
-  - **Aufschlagsbasierte Dimensionen** : Dies sind Dimensionen, bei denen Project Service den folgenden 3-Schritte-Prozess übernimmt, um Preise/Kosten abzurufen
+  - **Betragsbasierte Dimensionen**: Diese Dimensionswerte aus dem Eingabekontext werden mit den Dimensionswerten in der Position **Rollenpreis** abgeglichen und Preise/Kosten werden standardmäßig der Tabelle **Rollenpreis** entnommen.
+  - **Aufschlagsbasierte Dimensionen**: Dies sind Dimensionen, bei denen Project Service den folgenden 3-Schritte-Prozess übernimmt, um Preise/Kosten abzurufen
  
     1. Project Service gleicht die nicht aufschlagsbasierten Dimensionswerte aus dem Eingabekontext mit der Rollenpreisposition ab, um den Basistarif abzurufen.
     2. Project Service gleicht alle Dimensionswerte aus dem Eingabekontext mit der Position **Rollenpreisaufschlag** ab, um den Aufschlagsprozentsatz abzurufen.
@@ -90,5 +92,5 @@ Falls diese Option auf **Ja** eingestellt ist, gibt sie an, dass der Dimensionsw
 ### <a name="priority"></a>Priorität
 Das Festlegen der Dimensionspriorität unterstützt Project Service dabei, einen Preis auch dann zu bestimmen, wenn kein genauer Abgleich zwischen den Eingabedimensionswerten und den Werten aus den Tabellen **Rollenpreis** oder **Rollenpreisaufschlag** möglich ist. In diesem Szenario verwendet Project Service Nullwerte bei nicht übereinstimmenden Dimensionswerten, indem die Dimensionen gemäß ihrer Priorität gewichtet werden.
 
-- **Kostenpriorität** : Der Wert der Kostenpriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Einstandspreise an. Der Wert der **Kostenpriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Kosten** aufweisen.
-- **Vertriebspriorität** : Der Wert der Vertriebspriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Verkaufspreise oder Rechnungssätze an. Der Wert der **Vertriebspriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Vertrieb** aufweisen.
+- **Kostenpriorität**: Der Wert der Kostenpriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Einstandspreise an. Der Wert der **Kostenpriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Kosten** aufweisen.
+- **Vertriebspriorität**: Der Wert der Vertriebspriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Verkaufspreise oder Rechnungssätze an. Der Wert der **Vertriebspriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Vertrieb** aufweisen.
