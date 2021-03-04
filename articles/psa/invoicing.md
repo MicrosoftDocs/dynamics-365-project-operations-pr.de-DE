@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076588"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151387"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rechnungsstellung in Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -82,9 +84,9 @@ Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf i
     - UpdateRoleUtilization
 
 5. Wählen Sie **ProcessRunCaller** und dann **Hinzufügen** aus.
-6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep** -Workflow folgt ein **Process** -Workflow.
+6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep**-Workflow folgt ein **Process** -Workflow.
 
-    In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process** -Workflow ein **Sleep** -Workflow.
+    In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
 
 Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen tatsächlich erstellt. Es durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt Rechnungen für diese Zeilen. Zur Bestimmung der Vertragszeilen, für die Rechnungen erstellt werden sollen, überprüft der Job die Rechnungsdurchlaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungsdurchlaufdatum aufweisen, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, überspringt der Job die Rechnungserstellung.
 
@@ -93,7 +95,7 @@ Nachdem **ProcessRunner** ausgeführt wurde, ruft es **ProcessRunCaller** auf, g
 Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um einen wiederkehrenden Job. Wenn diese Stapelverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Jobs erstellt und verursachen Fehler. Deshalb sollten Sie die Stapelverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
 
 > [!NOTE]
-> Die Stapelrechnungsstellung in Project Service Automation wird nur für Projektvertragspositionen ausgeführt, die über Rechnungszeitpläne konfiguriert sind. Für eine Vertragsposition mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden. Informationen zum Einrichten von Rechnungshäufigkeiten im Kontext eines Projekts, das auf einer Angebotszeile basiert, finden Sie im Thema, [Angebote und Angebotspositionen](basic-quote-lines.md#invoice-schedule). Gleiches gilt für eine projektbasierte Vertragslinie.      
+> Die Stapelrechnungsstellung in Project Service Automation wird nur für Projektvertragspositionen ausgeführt, die über Rechnungszeitpläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden. Informationen zum Einrichten von Rechnungshäufigkeiten im Kontext eines Projekts, das auf einer Angebotszeile basiert, finden Sie im Thema, [Angebote und Angebotspositionen](basic-quote-lines.md#invoice-schedule). Gleiches gilt für eine projektbasierte Vertragslinie.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Bearbeiten eines PSA-Rechnungsentwurfs
 

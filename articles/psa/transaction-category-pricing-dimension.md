@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076608"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150757"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Verwenden von Transaktionskategorie als Preisdimension
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Dieses Thema zeigt, wie eine Transaktionskategorie als Preisdimension verwendet wird. Bevor Sie beginnen, falls Sie noch keine Preisdimensionslösung erstellt haben, müssen Sie eine neue erstellen. Wenn Sie bereits eine Preisdimensionslösung haben, dann können Sie Ihre Änderungen in dieser Lösung vornehmen. Wenn Sie keine neue Preisdimensionslösung für Ihre Organisation erstellt haben, führen Sie die Prozeduren im Thema [Erstellen benutzerdefinierter Felder und Entitäten](create-custom-fields-entities.md) durch.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Transaktionskategorie zu Formularen und Ansichten hinzufügen

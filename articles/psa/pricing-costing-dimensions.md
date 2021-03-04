@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076565"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151297"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Preis- und Nachkalkulationsdimensions-Homepage
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Die Dimensionen, die zum Festlegen der Lohnkosten in projektbasierten Organisationen verwendet werden, werden von den folgenden Attributen beeinflusst:
 
@@ -38,7 +40,7 @@ Angesichts der typischen Art dieser Arbeitsattribute und der für die Ausführun
 
 ## <a name="pricing-dimensions"></a>Preisdimensionen
 
-PSA wird mit einem Standardsatz an Preisdimensionen bereitgestellt. Sie können diese anzeigen, indem Sie zu **Project Service** > **Parameter** navigieren. Prüfen Sie im Parameterdatensatz auf der Registerkarte **Betragsbasierte Preisdimensionen** , dass bei der Rolle **msdyn_resourcecategory** und der Organisationseinheit der Ressource **msdyn_organizationalunit** die Felder **Gilt für Vertrieb** und **Gilt für Kosten** auf **Ja** festgelegt sind. Dadurch können Sie den Preis und die Kosten für jede Kombination aus Rolle und Organisationseinheit einrichten.
+PSA wird mit einem Standardsatz an Preisdimensionen bereitgestellt. Sie können diese anzeigen, indem Sie zu **Project Service** > **Parameter** navigieren. Prüfen Sie im Parameterdatensatz auf der Registerkarte **Betragsbasierte Preisdimensionen**, dass bei der Rolle **msdyn_resourcecategory** und der Organisationseinheit der Ressource **msdyn_organizationalunit** die Felder **Gilt für Vertrieb** und **Gilt für Kosten** auf **Ja** festgelegt sind. Dadurch können Sie den Preis und die Kosten für jede Kombination aus Rolle und Organisationseinheit einrichten.
 
 ![Screenshot der Project Service-Parameter mit Markierung von „Gilt für Vertrieb”](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Wenn Sie einen Preis oder Kosten für Ihre Ressourcen mit zusätzlichen Attribut
 ## <a name="pricing-human-resource-time"></a>Preise für die Personalzeit
 Die Preisgestaltung der Personalzeit in einer Organisation ist häufig eine wichtige strategische Überlegung, die sich direkt auf die Rentabilität der Organisation auswirkt. Arbeiten Sie mit den Finanzteams und Übungsleitern zusammen, wenn Ihre Organisation bereit ist, zu ermitteln, wie Rechnungs- und Kostensätze für die Personalzeit eingerichtet werden sollen.
 
-Zu den weiteren Überlegungen für Preise gehört, ob Felder oder Entitäten wiederverwendet werden sollen, die derzeit keine Preisdimensionen sind, jedoch für Ihre Organisation als Preisdimension gelten. Felder wie **Transaktionskategorie** ( **msdyn_transactioncategory** ) und **Buchbare Ressource** ( **bookableresource** ) sind Beispiele für Kandidatendimensionen. 
+Zu den weiteren Überlegungen für Preise gehört, ob Felder oder Entitäten wiederverwendet werden sollen, die derzeit keine Preisdimensionen sind, jedoch für Ihre Organisation als Preisdimension gelten. Felder wie **Transaktionskategorie** (**msdyn_transactioncategory**) und **Buchbare Ressource** (**bookableresource**) sind Beispiele für Kandidatendimensionen. 
 
 Sie sollten ebenfalls berücksichtigen, ob Ihre Preisdimension eine Tabelle oder ein Optionssatz sein soll. Wenn Sie von mehr als 10 oder 12 Änderungen an den Werten einer Dimension ausgehen und Sie zusätzliche Attribute für diese Werte benötigen, erstellen Sie anstelle eines Optionssatzes eine Entität. Das Verwalten eines Optionssatzes, z. B. das Hinzufügen oder Entfernen von Werten, erfordert einen Administrator oder Entwickler, während das Hinzufügen neuer Zeilen zu einer Tabelle von den meisten Geschäftsbenutzern durchgeführt werden kann.
 
