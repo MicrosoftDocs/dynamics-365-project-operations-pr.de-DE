@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6544381f611a6caa24e4d470a659ca0b869f3e63
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283817"
 ---
 # <a name="project-planning-home-page"></a>Projektplanungs-Homepage
 
@@ -40,7 +40,7 @@ Die Projektmanagementtools in PSA unterstützen Sie bei der problemlosen Ausfüh
 - Planung von Projekten mithilfe von Arbeitszeitplänen und -kulationen
 - Kalkulation und Verfolgung von Projektkosten und -erlösen
 - Projektschätzungen während des Verkaufsprozesses nutzen
-- Prognose des Ressourcenbedarfss für Projekte, die sich in der Vorbereitung befinden
+- Ressourcenbedarf für Projekte in der Pipeline prognostizieren
 - Erfolgreiche Durchführung von Projekten durch Verfolgung von Fortschritt und Kostenverbrauch
 
 Die folgende Themen enthalten Informationen, mit deren Hilfe Projektmanager den Arbeitsaufwand abschätzen, die Projektkosten kalkulieren und die Ressourcenanforderungen prognostizieren können, indem sie die in PSA unterstützten Tools verwenden:
