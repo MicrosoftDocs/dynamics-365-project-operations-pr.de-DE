@@ -18,30 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc6fb5c195d98bc3808383a8ec059d675d6cff3b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b61e355f2caf2ce977e35e3ed3cdba0e855227cc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146977"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280127"
 ---
-# <a name="white-papers-for-project-service"></a><span data-ttu-id="0e9f8-103">Whitepaper für Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-103">White papers for Project Service</span></span>
+# <a name="white-papers-for-project-service"></a><span data-ttu-id="f7582-103">Whitepaper für Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-103">White papers for Project Service</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="0e9f8-104">Diese Whitepaper sind konzipiert, um weiterführende Informationen für [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Project Service Automation bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="0e9f8-104">These white papers are designed to provide in-depth information for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] project service automation.</span></span>
+<span data-ttu-id="f7582-104">Diese Whitepaper sind konzipiert, um weiterführende Informationen für [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Project Service Automation bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="f7582-104">These white papers are designed to provide in-depth information for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] project service automation.</span></span>
 
--   [<span data-ttu-id="0e9f8-105">Externe System-Integration für Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-105">External system integration for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825445)
+-   [<span data-ttu-id="f7582-105">Externe System-Integration für Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-105">External system integration for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825445)
 
--   [<span data-ttu-id="0e9f8-106">Grundlagenhandbuch für Angebote, Preisberechnung und Fakturierung für Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-106">Basic guide to quoting, pricing, and billing for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825241)
+-   [<span data-ttu-id="f7582-106">Grundlagenhandbuch für Angebote, Preisberechnung und Fakturierung für Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-106">Basic guide to quoting, pricing, and billing for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825241)
 
--   [<span data-ttu-id="0e9f8-107">Erweitertes Handbuch für Angebote, Preisberechnung und Fakturierung für Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-107">Advanced guide to quoting, pricing, and billing for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825242)
+-   [<span data-ttu-id="f7582-107">Erweitertes Handbuch für Angebote, Preisberechnung und Fakturierung für Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-107">Advanced guide to quoting, pricing, and billing for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825242)
 
--   [<span data-ttu-id="0e9f8-108">Handbuch zur Projektplanung und zur Nachverfolgung für Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-108">Guide to project planning and tracking for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825243)
+-   [<span data-ttu-id="f7582-108">Handbuch zur Projektplanung und zur Nachverfolgung für Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-108">Guide to project planning and tracking for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825243)
 
--   [<span data-ttu-id="0e9f8-109">Berichterstellung für Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-109">Reporting for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825446)
+-   [<span data-ttu-id="f7582-109">Berichterstellung für Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-109">Reporting for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825446)
 
--   [<span data-ttu-id="0e9f8-110">Ressourcenverwaltung für Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-110">Resource management for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825244)
+-   [<span data-ttu-id="f7582-110">Ressourcenverwaltung für Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-110">Resource management for project service</span></span>](https://go.microsoft.com/fwlink/?LinkId=825244)
 
-### <a name="see-also"></a><span data-ttu-id="0e9f8-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0e9f8-111">See Also</span></span>
- [<span data-ttu-id="0e9f8-112">Überblick über Project Service</span><span class="sxs-lookup"><span data-stu-id="0e9f8-112">Overview of Project Service</span></span>](../psa/overview.md)
+### <a name="see-also"></a><span data-ttu-id="f7582-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f7582-111">See Also</span></span>
+ [<span data-ttu-id="f7582-112">Überblick über Project Service</span><span class="sxs-lookup"><span data-stu-id="f7582-112">Overview of Project Service</span></span>](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
