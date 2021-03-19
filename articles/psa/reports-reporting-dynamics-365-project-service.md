@@ -18,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283277"
 ---
-# <a name="reporting-home-page"></a>Homepage zur Berichterstellung
+# <a name="reporting-home-page"></a>Homepage für die Berichterstellung
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -43,7 +43,7 @@ Falls Ihr Unternehmen einen bestimmten Bericht benötigt, der nicht mit dem Beri
 
 ## <a name="power-bi-insights-apps"></a>Power BI Insights-Apps
 
-In der Form von Insights-Apps bieten Ihnen Microsoft Power BI und Dynamics 365 eine leistungsstarke Möglichkeit, um mit Ihren Daten zu arbeiten. Informationen zur Verfügbarkeit von Insights-Apps finden Sie auf der Seite [Power BI Insights-Apps](https://powerbi.microsoft.com/power-bi-insights-apps/).
+Microsoft Power BI und Dynamics 365 bieten Ihnen in Form von Insights-Apps eine leistungsstarke Möglichkeit, um mit Ihren Daten zu arbeiten. Informationen zur Verfügbarkeit von Insights-Apps finden Sie auf der Seite [Power BI Insights-Apps](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
