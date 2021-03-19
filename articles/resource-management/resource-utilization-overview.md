@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401375"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279317"
 ---
 # <a name="resource-utilization-overview"></a>Ressourcennutzung – Übersicht
 
@@ -23,10 +23,10 @@ Ressourcen weisen für die abrechenbare Nutzung einen Zielwert auf. Dieser Zielw
 
 Die folgenden Formeln werden zur Berechnung der Nutzung verwendet:
 
-  - Abrechenbare Nutzung = Fakturierbare tatsächliche Stunden ÷ Ressourcenkapazität
-  - Nicht abrechenbare Nutzung = tatsächliche Zeit mit Abrechnungstyp-ID = nicht fakturierbare, komplementäre oder nicht verfügbare Stunden ÷ Ressourcenkapazität
-  - Intern = tatsächliche Zeit ohne Vertriebsvertrag ÷ Ressourcenkapazität
-  - Ressourcenkapazität = Ressourcenarbeitszeiten – arbeitsfreie Tage – Abwesenheit
+  - Fakturierbare Nutzung = Fakturierbare tatsächliche Stunden ÷ Ressourcenkapazität
+  - Nicht fakturierbare Nutzung = Tatsächliche Zeit mit Fakturierungstyp-ID = Nicht fakturierbar, komplementär oder nicht verfügbar ÷ Ressourcenkapazität
+  - Intern = Tatsächliche Zeit ohne Kaufvertrag ÷ Ressourcenkapazität
+  - Ressourcenkapazität = Ressourcenarbeitsstunden – Abwesend – Arbeitsfreie Tage
 
 Sie finden die Ansicht **Ressourcennutzung** im Bereich **Ressourcen**.
 

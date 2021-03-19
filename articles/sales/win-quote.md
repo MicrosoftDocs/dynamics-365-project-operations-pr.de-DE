@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124682"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277247"
 ---
 # <a name="close-a-quote"></a>Ein Angebot abschließen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Ein Projektangebot kann als „Gewonnen“ oder „Verloren“ geschlossen werden. Da die Funktionen „Aktivieren“ und „Überarbeiten“ in Angeboten in Microsoft Dynamics 365 Project Operations nicht unterstützt werden, können Sie den Angebotsentwurf schließen.
+Ein Projektangebot kann als „Gewonnen“ oder „Verloren“ geschlossen werden. Da Microsoft Dynamics 365 Project Operations die Funktionen „Aktivieren“ und „Überarbeiten“ für Angebote nicht unterstützt, können Sie einen Angebotsentwurf schließen.
 
 ## <a name="close-a-quote-as-won"></a>Ein Angebot als „Gewonnen“ schließen
 

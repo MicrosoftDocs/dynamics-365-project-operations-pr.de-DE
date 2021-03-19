@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181991"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277877"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mehrere Kunden in einem Projektangebot verwalten
 
@@ -23,7 +23,7 @@ Projektangebote unterstützen das Szenario, in dem mehrere Kunden an dem Angebot
 
 Alle Angebotskunden auf der **Kunden**-Registerkarte des Projektangebots werden auf beliebigen **neuen** projektbasierten Angebotspositionen, die für das Angebot erstellt wurden, standardmäßig als Angebotspositionskunden angegeben. Vorhandene projektbasierte Angebotspositionen erben keine neuen Angebotskundendatensätze, die nach ihnen erstellt wurden.
 
-Angebotskunden und Angebotspositionskunden können jederzeit hinzugefügt, aktualisiert oder gelöscht werden, bevor das Angebot gewonnen wird. Ein gültiger Kunde auf dem Angebot muss als Kunde im zuständigen Unternehmen oder der juristischen Person auf der **Kunden**-Seite eingerichtet sein. Juristische Personen werden im **Projektmanagement und -buchhaltung**-Modul von Dynamics 365 Project Operations eingerichtet und werden als Unternehmen in den **Projektverkauf und Lieferung**-Module von Project Operations verfügbar gemacht.
+Angebotskunden und Angebotspositionskunden können jederzeit hinzugefügt, aktualisiert oder gelöscht werden, bevor das Angebot gewonnen wird. Ein gültiger Kunde auf dem Angebot muss als Kunde im zuständigen Unternehmen oder der juristischen Person auf der **Kunden**-Seite eingerichtet sein. Juristische Personen sind im Modul **Projektmanagement und -buchhaltung** von Dynamics 365 Project Operations festgelegt und als Unternehmen in den Modulen **Projektvertrieb und Lieferung** von Project Operations verfügbar.
 
 ## <a name="concept-of-a-primary-customer"></a>Konzept eines Hauptkunden
 

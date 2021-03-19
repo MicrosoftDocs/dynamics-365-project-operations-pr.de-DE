@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180951"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272432"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Zusammenfassungsinformationen für ein Projektangebot – Lite
 
@@ -21,7 +21,7 @@ _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
 
 In diesem Artikel werden die Informationen erläutert, die für ein Projektangebot gelten. Dies umfasst die Einstellungen, die sich auf alle Angebotspositionen auswirken, sowie Informationen zum Angebot, die in allen Positionen zusammengefasst sind, um die KPIs des Projektangebots zu steuern.
 
-In der folgenden Tabelle sind die zusammenfassenden Informationsfelder in einem Projektangebot aufgeführt, die nur für Dynamics 365 Project Operations gelten oder einige wichtige Verhaltensänderungen gegenüber Dynamics 365 Sales-Angeboten aufweisen.
+In der folgenden Tabelle sind die Felder mit den zusammenfassenden Informationen zu einem Projektvertrag aufgeführt, die nur in Dynamics 365 Project Operations vorhanden sind oder einige wichtige Änderungen im Verhalten hinsichtlich Angeboten in Dynamics 365 Sales aufweisen.
 
 | **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |

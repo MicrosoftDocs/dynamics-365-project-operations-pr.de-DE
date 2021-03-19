@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180281"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274907"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kostensätze und Verkaufsraten für Ausgaben einrichten
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Sie können Kosten- und Verkaufspreise für Transaktionskategorien in Dynamics 365 Project Operations einrichten. Da die Kosten- und Verkaufspreise für Ausgaben ausgelegt sind, muss jede Transaktionskategorie, die diese enthält, auch als Ausgabenkategorie eingerichtet werden. Diese Einrichtung stellt die Genauigkeit der nachgeschalteten Funktionalität sicher. Kosten- und Verkaufspreise für Transaktionskategorien können nur in einer Währung aufgeführt werden, die die Währung im Preislisten-Header sein muss.
+Sie können in Dynamics 365 Project Operations Kosten- und Verkaufspreise für Transaktionskategorien einrichten. Da die Kosten- und Verkaufspreise für Ausgaben ausgelegt sind, muss jede Transaktionskategorie, die diese enthält, auch als Ausgabenkategorie eingerichtet werden. Diese Einrichtung stellt die Genauigkeit der nachgeschalteten Funktionalität sicher. Kosten- und Verkaufspreise für Transaktionskategorien können nur in einer Währung aufgeführt werden, die die Währung im Preislisten-Header sein muss.
 
 Führen Sie die folgenden Schritte aus, um Kostensätze und Verkaufsraten für Transaktionskategorien einzurichten. 
 

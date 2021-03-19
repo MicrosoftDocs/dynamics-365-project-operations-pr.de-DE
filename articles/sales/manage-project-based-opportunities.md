@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118472"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277832"
 ---
 # <a name="manage-project-based-opportunities"></a>Projektbasierte Verkaufschancen verwalten
 
@@ -21,7 +21,7 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 Projektbasierte Unternehmen haben ihre Geschäftstätigkeit in der Regel auf mehrere Länder und Regionen verteilt. Die Kosten für die Projektdurchführung und -bereitstellung können je nach Region oder Abteilung variieren, die die Bereitstellung verwaltet. Dies kann sich wiederum auf die Margen des Geschäfts auswirken. Die Bereitstellung projektbasierter Dienstleistungen erfordert in der Regel viel Personalzeit, erhebliche Reisekosten, Materialkosten und andere Kosten.
 
-Projektbasierte Verkaufschancen in Dynamics 365 Project Operations sind mit Erweiterungen für Dynamics 365 Sales konzipiert. Das Thema enthält Details zu den verschiedenen Feldern und der Geschäftslogik, die in den zusätzlichen Funktionen enthalten sind, die projektbasierte Unternehmen zur Verwaltung projektbasierter Geschäftschancen benötigen.
+In Dynamics 365 Project Operations werden projektbasierte Verkaufschancen mit Erweiterungen für Dynamics 365 Sales entwickelt. Das Thema enthält Details zu den verschiedenen Feldern und der Geschäftslogik, die in den zusätzlichen Funktionen enthalten sind, die projektbasierte Unternehmen zur Verwaltung projektbasierter Geschäftschancen benötigen.
 
 ## <a name="view-all-project-based-opportunities"></a>Alle Projektbasierte Verkaufschancen anzeigen
 
@@ -45,12 +45,12 @@ Der Lead-zu-Verkaufschance-Geschäftsprozess unterstützt die folgenden Phasen:
 | Freigabefenster | Zugeordnete Entität | Funktionalität |
 | --- | --- | --- |
 | Qualifizieren | Lead | Qualifizieren des Leads, um eine Firma, einen Kontakt und eine Verkaufschance zu erstellen. |
-| Entwickeln | Verkaufschance | Entwickeln Sie die Verkaufschance, um weitere Informationen über die Arbeit, die wichtigsten Interessengruppen und die Mitbewerber hinzuzufügen. |
-| Vorschlagen | Verkaufschance | Entwickeln Sie den Vorschlag und holen Sie sich vom internen Überprüfungsteam eine Genehmigung. |
-| Schließen | Verkaufschance | Gewinnen Sie die Verkaufschance, um den Deal zu schließen. |
+| Entwickeln | Verkaufschance | Entwickeln Sie die Möglichkeit, weitere Informationen über die Arbeit, die wichtigsten Interessengruppen und den Wettbewerb hinzuzufügen. |
+| Vorschlagen | Verkaufschance | Entwickeln Sie den Vorschlag und lassen Sie ihn vom internen Überprüfungsteam genehmigen. |
+| Schließen | Verkaufschance | Gewinnen Sie die Verkaufschance, um den Handel abzuschließen. |
 
 ### <a name="opportunity-sales-process"></a>Vertriebsprozess Verkaufschance
-Der Verkaufschancen-Verkaufsprozess in Project Operations ist eine Erweiterung des Geschäftsablaufs für den Verkaufschancen-Verkaufsprozess in der Vertriebsanwendung. Dieser Geschäftsprozess ist sofort einsatzbereit, um die folgenden Phasen einer projektbasierten Verkaufschance zu unterstützen.
+Der Vertriebsprozess Verkaufschance in Project Operations ist eine Erweiterung des Geschäftsablaufs für den Vertriebsprozessflow Verkaufschance in der Sales-Anwendung. Dieser Geschäftsprozess ist sofort einsatzbereit, um die folgenden Phasen einer projektbasierten Verkaufschance zu unterstützen.
 
 | Freigabefenster | Zugeordnete Entität | Funktionalität |
 | --- | --- | --- |

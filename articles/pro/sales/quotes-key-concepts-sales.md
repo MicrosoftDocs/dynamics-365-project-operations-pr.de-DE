@@ -8,21 +8,21 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178005"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272387"
 ---
 # <a name="quotes---key-concepts---lite"></a>Angebote – Wichtige Konzepte – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 
-Die folgenden wichtigen Konzepte sollten beachtet werden, bevor Sie Projektangebote in Dynamics 365 Project Operations verwenden:
+Nachfolgend finden Sie die wichtigsten Konzepte, die Sie kennen sollten, bevor Sie mit der Verwendung von Projektangeboten in Dynamics 365 Project Operations beginnen:
 
-## <a name="contracting-unit"></a>Vertragseinheit
+## <a name="contracting-unit"></a>Vertragsschlusseinheit
 
 Die Vertragseinheit repräsentiert die Abteilung oder Praxis, der die Projektbereitstellung gehört. Sie können Ressourcenkosten für jede Vertragseinheit einrichten. Wenn Sie Ressourcenkosten für eine Ressource in der Vertragseinheit angeben, können Sie auch unterschiedliche Kostensätze für Ressourcen festlegen, die diese Vertragseinheit ausleiht, oder für andere Abteilungen oder Praktiken innerhalb des Unternehmens. Diese werden als Verrechnungspreise, Ausleihe von Ressourcen oder Wechselkurse bezeichnet. Wenn Sie die Kosten für das Ausleihen von Ressourcen aus anderen Geschäftsbereichen festlegen, können Sie diese Kostensätze auch in der Währung der ausleihenden Abteilung festlegen.
 
@@ -57,8 +57,8 @@ Produktpreislisten sind Preislisten, die als Standardpreise und nicht als Kosten
 
 Project Operations unterstützt vier Arten von Transaktionsklassen:
 
-- Zeit
-- Ausgaben
+- Uhrzeit
+- Ausgabe
 - Material
 - Gebühr
 

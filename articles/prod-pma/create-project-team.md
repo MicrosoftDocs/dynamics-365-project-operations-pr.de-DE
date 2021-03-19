@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076689"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270857"
 ---
 # <a name="create-a-project-team"></a>Ein Projektteam erstellen
 
 [!include [banner](../includes/banner.md)]
 
-Um die Rollen zu verwenden, die zuvor in einem Projekt eingerichtet wurden, muss ein Projektmanager die Rollen dem Projekt zuordnen. Für ein Projekt können mehrere Rollen zugewiesen werden. Um Verwirrung zu vermeiden, werden diese Rollen während der Reservierung automatisch gekennzeichnet. Wenn der Projektmanager beispielsweise drei Softwareentwickler und drei Softwareentwicklerrollen benötigt wie **Softwareentwickler 1** , **Softwareentwickler 2** und **Softwareentwickler 3** , werden ihre Beschriftungen automatisch generiert werden. Wenn zuvor Rollenmerkmale für die Rolle festgelegt wurden, werden sie bei der Suche nach einer Ressource als Filter angewendet. Bei Bedarf können zusätzliche Merkmale hinzugefügt werden, um die Suche weiter zu verfeinern.
+Um die Rollen zu verwenden, die zuvor in einem Projekt eingerichtet wurden, muss ein Projektmanager die Rollen dem Projekt zuordnen. Für ein Projekt können mehrere Rollen zugewiesen werden. Um Verwirrung zu vermeiden, werden diese Rollen während der Reservierung automatisch gekennzeichnet. Wenn der Projektmanager beispielsweise drei Softwareentwickler und drei Softwareentwicklerrollen benötigt wie **Softwareentwickler 1**, **Softwareentwickler 2** und **Softwareentwickler 3**, werden ihre Beschriftungen automatisch generiert werden. Wenn zuvor Rollenmerkmale für die Rolle festgelegt wurden, werden sie bei der Suche nach einer Ressource als Filter angewendet. Bei Bedarf können zusätzliche Merkmale hinzugefügt werden, um die Suche weiter zu verfeinern.
 
 Die Ansichtseinstellungen können auch angepasst werden, um eine bessere Ansicht der Ressourcenverfügbarkeit zu erhalten. Es gibt Optionen zur Anzeige der stündlichen, täglichen, wöchentlichen, monatlichen, vierteljährlichen und jährlichen Verfügbarkeit. Es besteht auch die Option, die verfügbare und verbleibende Kapazität der Ressourcen anzuzeigen. Diese Option ist nützlich für die Zeitverwaltung, wenn Sie die verfügbare Zeit für Aktivitäten oder die Verfügbarkeit von Ressourcen schätzen.
 
@@ -37,7 +37,7 @@ Der Projektmanager kann eine Rolle auf der Seite auswählen und dann, wenn eine 
 
 [![Projektteamliste, die sowohl Rollen als auch tatsächliche Ressourcen enthält](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Der Projektmanager hat verschiedene Möglichkeiten, eine Ressource für ein Projekt zu buchen, wie **Verbleibende Kapazität** , **Volle Kapazität** , **Kapazitätsprozentsatz** , und **Stunden definieren**. Diese Buchungsoptionen können jederzeit storniert werden, wenn sich die Ressourcenzuweisungen ändern. Es werden zwei Arten der Buchung unterstützt:
+Der Projektmanager hat verschiedene Möglichkeiten, eine Ressource für ein Projekt zu buchen, wie **Verbleibende Kapazität**, **Volle Kapazität**, **Kapazitätsprozentsatz**, und **Stunden definieren**. Diese Buchungsoptionen können jederzeit storniert werden, wenn sich die Ressourcenzuweisungen ändern. Es werden zwei Buchungsarten unterstützt:
 
 - **Verbindlich buchen** – Die Ressourcenreservierung wurde genehmigt und bestätigt, um für die angegebene Dauer an dem Auftrag zu arbeiten.
 - **Unverbindlich buchen** – Die Ressourcenreservierung wurde genehmigt und bestätigt, um für die angegebene Dauer an dem Auftrag zu arbeiten.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181136"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277607"
 ---
 # <a name="project-contract-settings"></a>Projektvertragseinstellungen
 
@@ -21,7 +21,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Dieses Thema enthält Informationen zu Feldern, die für den gesamten Projektvertrag gelten, einschließlich Einstellungen, die sich auf alle Vertragszeilen auswirken. Informationen zum Vertrag, die in allen Zeilenpositionen zusammengefasst sind, um die KPIs des Projektvertrags zu bestimmen, sind ebenfalls enthalten.
 
-In der folgenden Tabelle sind die Felder in einem Projektvertrag aufgeführt, die für Dynamics 365 Project Operations einzigartig sind, oder einige wichtige Verhaltensänderungen gegenüber Vertriebsaufträge in Dynamics 365 Sales aufweisen.
+In der folgenden Tabelle sind die Felder eines Projektvertrags aufgeführt, die nur in Dynamics 365 Project Operations vorhanden sind oder einige wichtige Änderungen im Verhalten hinsichtlich Vertriebsaufträgen in Dynamics 365 Sales aufweisen.
 
 | Feld | Position | Beschreibung des Dataflows | Nachgelagerte Auswirkungen |
 | --- | --- | --- | --- |

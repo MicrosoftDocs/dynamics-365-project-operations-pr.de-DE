@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121532"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280082"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Teammitglieder aus dem Teammitgliedsraster hinzufügen
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations enthält ein Ressourcen-Manager-Dashboard, das eine visuelle Übersicht zur Ressourcennachfrage und -nutzung in der Organisation bereitstellt. Sie können die Diagramme im Dashboard verwenden, um die folgenden Informationen visuell darzustellen:
+Dynamics 365 Project Operations enthält ein Ressource Manager-Dashboard, das eine visuelle Übersicht zur Ressourcennachfrage und -nutzung in der Organisation bereitstellt. Sie können die Diagramme im Dashboard verwenden, um die folgenden Informationen visuell darzustellen:
 
 - **Ressourcennachfrage**: Das Diagramm **Aktive Ressourcenanfragen** zeigt Ressourcen an, die übermittelt wurden. Die Ressourcen werden entweder nach Rolle oder Projekt zusammengefasst.
 - **Nicht gesendeter Ressourcenbedarf**: Das Diagramm **Nicht zugewiesener Ressourcenbedarf** zeigt alle Ressourcenanforderungen an, die nicht gesendet wurden. Mit diesem Diagramm können Ressourcen-Manager die Nachfrage anzeigen, die nicht fest ist und durch eine Ressourcenanforderung gesendet werden kann.
@@ -42,7 +42,7 @@ Um ein Teammitglied direkt einem Projekt hinzuzufügen, wählen Sie im Formular 
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Buchen Sie ein Teammitglied, um Ressourcenanforderungen für eine allgemeine Ressource zu erfüllen
 
-In Project Operations können Sie eine allgemeine Ressource für ein Projektteam buchen. Sie können auch die Rolle, die erforderliche Kapazität und die Verteilung dieser Kapazität angeben. Sie können als Ressourcenanforderung Attribute angeben, die der generischen Ressource zugeordnet sind. Diese Attribute enthalten erforderliche Qualifikationen, die bevorzugte Organisationseinheit und bevorzugte Ressourcen.
+In Project Operations können Sie eine allgemeine Ressource für ein Projektteam buchen. Sie können auch die Rolle, die erforderliche Kapazität und die Verteilung dieser Kapazität angeben. Für die Ressourcenanforderung können Sie Attribute angeben, die der generischen Ressource zugeordnet sind. Diese Attribute enthalten erforderliche Qualifikationen, die bevorzugte Organisationseinheit und bevorzugte Ressourcen.
 
 Führen Sie die folgenden Schritte aus, um die Fähigkeiten einer allgemeinen Ressource für einen Entwickler anzugeben.
 
@@ -75,7 +75,7 @@ Führen Sie die folgenden Schritte aus, um die Fähigkeiten einer allgemeinen Re
 
 ## <a name="assign-generic-resources-to-tasks-and-generate-resource-requirements"></a>Weisen Sie allgemeine Ressourcen zu den Aufgaben zu und erstellen Sie Ressourcenanforderungen
 
-In Project Operations können Sie Aufgaben erstellen und anschließend zu allgemeinen Ressourcen zuweisen. Die Ressourcennachfrage kann dann durch Platzhalter dargestellt werden, während Sie Ihren Zeitplan und Finanzzahlen schätzen. Sie können für allgemeine Ressourcenanforderungen Ressourcen generieren und erfüllen.
+In Project Operations können Sie Aufgaben erstellen und anschließend zu allgemeinen Ressourcen zuweisen. Der Ressourcenbedarf kann dann durch Platzhalter dargestellt werden, während Sie Ihren Zeitplan und die wirtschaftlichen Zahlen schätzen. Sie können für allgemeine Ressourcenanforderungen Ressourcen generieren und erfüllen.
 
 1. Wählen Sie im Formular **Projekte** auf der Registerkarte **Zeitplan** **Hinzufügen** aus, um eine Aufgabe zu erstellen.
 2. Wählen Sie im Feld **Ressourcen** das Symbol **Ressourcenauswahl** aus. Die Ressourcenauswahl wird mit vorhandenen Teammitgliedern für das Projekt angezeigt.
@@ -191,7 +191,7 @@ Auf der Registerkarte wird auch die allgemeine Nettosumme für das Projekt zusam
 Für jede Ressource berechnet die Registerkarte den Unterschied zwischen den Buchungen des Teammitglieds und einem Rollup der Aufgabenzuordnungen des Teammitglieds. Idealerweise sollte der Unterschied 0 (null) sein. Das bedeutet, dass es keinen Unterschied zwischen Buchungen und Zuweisungen geben sollte. Die Unterschiede werden farbig und schattiert angezeigt, um auf zwei Bedingungen hinzuweisen:
 
 - **Verlust der Buchung**: Tritt auf, wenn eine Ressource mehr Zuweisungen als Buchungen hat. Da diese Kapazität nicht reserviert wurde, kann ein Projektmanager diesen Zustand korrigieren, indem er die Ressourcenbuchungen erweitert, um das Defizit abzudecken.
-- **Überzählige Buchungen**: Treten auf, wenn eine Ressource für das Projekt zwar gebucht, aber keinen Aufgaben zugewiesen wurde. Dieser Zustand kann akzeptabel sein, wenn die Ressource im Projekt gebucht wurde, bevor die Aufgabenzuordnung erfolgt ist. In anderen Fällen wird die Ressource jedoch nicht eingeplant, um Aufgaben zugewiesen zu werden. In diesen Fällen sollte es der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren, sodass die Kapazität für ein anderes Projekt verwendet werden kann.
+- **Überzählige Buchungen**: Treten auf, wenn eine Ressource für das Projekt zwar gebucht, aber keinen Aufgaben zugewiesen wurde. Diese Bedingung kann in den Fällen akzeptabel sein, in denen die Ressource vor der Aufgabenzuordnung für das Projekt gebucht wurde. In anderen Fällen wird die Ressource jedoch nicht eingeplant, um Aufgaben zugewiesen zu werden. In diesen Fällen sollte es der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren, sodass die Kapazität für ein anderes Projekt verwendet werden kann.
 
 Wenn Sie die Zeit in einigen Fällen auf einer höheren als der Tagsebene (z. B. auf Monatsebene) anzeigen, sehen Sie einen Nettounterschied von null für eine Ressource. Mit anderen Worten, Buchungen = Aufgaben. Wenn Sie die Zeit jedoch auf Wochenebene anzeigen, sehen Sie, dass es Zuweisungen mit null Stunden und Buchungen mit 40 Stunden in der ersten Woche gibt, aber Zuweisungen von 40 Stunden und Buchungen von null Stunden in der zweiten Woche. Die Buchungen und Zuweisungen werden insgesamt abgestimmt, sie unterscheiden sich jedoch von einer Woche zur nächsten.
 

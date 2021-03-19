@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076578"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270992"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementieren Sie benutzerdefinierte Felder für die mobile Microsoft Dynamics 365 Project Timesheet-App auf iOS und Android
 
@@ -42,49 +42,49 @@ Dieses Thema ist für Entwickler gedacht, die ihre benutzerdefinierten Felder in
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datenvertrag – TSTimesheetCustomField X++-Klasse
 
-Die **TSTimesheetCustomField** -Klasse ist die X++-Datenvertragsklasse, die Informationen zu einem benutzerdefinierten Feld für die Arbeitszeittabellenfunktionalität darstellt. Listen der benutzerdefinierten Feldobjekte werden sowohl im TSTimesheetDetails-Datenvertrag als auch im TSTimesheetEntry-Datenvertrag übergeben, um benutzerdefinierte Felder in der mobilen App anzuzeigen.
+Die **TSTimesheetCustomField**-Klasse ist die X++-Datenvertragsklasse, die Informationen zu einem benutzerdefinierten Feld für die Arbeitszeittabellenfunktionalität darstellt. Listen der benutzerdefinierten Feldobjekte werden sowohl im TSTimesheetDetails-Datenvertrag als auch im TSTimesheetEntry-Datenvertrag übergeben, um benutzerdefinierte Felder in der mobilen App anzuzeigen.
 
 - **TSTimesheetDetails** – Der Arbeitszeittabellen-Kopfzeilen-Vertrag.
-- **TSTimesheetEntry** – Der Arbeitszeittabellen-Transaktionsvertrag. Gruppen dieser Objekte mit identischen Projektinformationen und **timesheetLineRecId** -Werten bilden eine Position.
+- **TSTimesheetEntry** – Der Arbeitszeittabellen-Transaktionsvertrag. Gruppen dieser Objekte mit identischen Projektinformationen und **timesheetLineRecId**-Werten bilden eine Position.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (Typen)
 
-Die **FieldBaseType** -Eigenschaft im **TsTimesheetCustom** -Objekt bestimmt den Feldtyp, der in der App angezeigt wird. Folgende **Typen** -Werte werden unterstützt.
+Die **FieldBaseType**-Eigenschaft im **TsTimesheetCustom**-Objekt bestimmt den Feldtyp, der in der App angezeigt wird. Folgende **Typen**-Werte werden unterstützt.
 
 | Typen-Wert | Typ              | Hinweise |
 |-------------|-------------------|-------|
 | 0           | Zeichenfolge (und Enum) | Das Feld wird als Textfeld angezeigt. |
 | 1           | Integer           | Der Wert wird als Zahl ohne Dezimalstellen angezeigt. |
-| 2           | Real              | Der Wert wird als Zahl mit Dezimalstellen angezeigt.<p>Um den tatsächlichen Wert als Währung in der App anzuzeigen, verwenden Sie die **fieldExtenededType** -Eigenschaft. Sie können die **numberOfDecimals** -Eigenschaft zum Festlegen der Anzahl der angezeigten Dezimalstellen verwenden.</p> |
-| 3           | Date              | Datumsformate werden über die **Datum, Uhrzeit und Zahlenformat** -Einstellung vom Benutzer festgelegt, die unter **Sprach- und Länder-/Regionsvoreinstellungen** in den **Benutzeroptionen** angegeben ist. |
+| 2           | Real              | Der Wert wird als Zahl mit Dezimalstellen angezeigt.<p>Um den tatsächlichen Wert als Währung in der App anzuzeigen, verwenden Sie die **fieldExtenededType**-Eigenschaft. Sie können die **numberOfDecimals**-Eigenschaft zum Festlegen der Anzahl der angezeigten Dezimalstellen verwenden.</p> |
+| 3           | Date              | Datumsformate werden über die **Datum, Uhrzeit und Zahlenformat**-Einstellung vom Benutzer festgelegt, die unter **Sprach- und Länder-/Regionsvoreinstellungen** in den **Benutzeroptionen** angegeben ist. |
 | 4           | Boolean           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Wenn die **stringOptions** -Eigenschaft nicht im **TSTimesheetCustomField** -Objekt zur Verfügung gestellt wird, wird dem Benutzer ein Freitextfeld zur Verfügung gestellt.
+- Wenn die **stringOptions**-Eigenschaft nicht im **TSTimesheetCustomField**-Objekt zur Verfügung gestellt wird, wird dem Benutzer ein Freitextfeld zur Verfügung gestellt.
 
-    Mit der **stringLength** -Eigenschaft kann die maximale Zeichenfolgenlänge festgelegt werden, die Benutzer eingeben können.
+    Mit der **stringLength**-Eigenschaft kann die maximale Zeichenfolgenlänge festgelegt werden, die Benutzer eingeben können.
 
-- Wenn die **stringOptions** -Eigenschaft im **TSTimesheetCustomField** -Objekt zur Verfügung gestellt wird, sind diese Listenelemente die einzigen Werte, die Benutzer mithilfe von Optionsfeldern auswählen können.
+- Wenn die **stringOptions**-Eigenschaft im **TSTimesheetCustomField**-Objekt zur Verfügung gestellt wird, sind diese Listenelemente die einzigen Werte, die Benutzer mithilfe von Optionsfeldern auswählen können.
 
     In diesem Fall kann das Zeichenfolgenfeld als Aufzählungswert für die Benutzereingabe dienen. Um den Wert als Aufzählung in der Datenbank zu speichern, ordnen Sie den Zeichenfolgenwert manuell dem Aufzählungswert zu, bevor Sie ihn mithilfe der Befehlskette in der Datenbank speichern (siehe Beispiel im Abschnitt „Befehlskette in der TSTimesheetEntryService-Klasse verwenden, um einen Arbeitszeittabelleneintrag aus der App in der Datenbank zu speichern“ weiter unten in diesem Thema).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
-Mit dieser Eigenschaft können Sie reale Werte als Währung formatieren. Dieser Ansatz ist nur anwendbar, wenn der **fieldBaseType** -Wert **Real** ist.
+Mit dieser Eigenschaft können Sie reale Werte als Währung formatieren. Dieser Ansatz ist nur anwendbar, wenn der **fieldBaseType**-Wert **Real** ist.
 
 - **TSCustomFieldExtendedType:None** – Es wird keine Formatierung angewendet.
 - **TSCustomFieldExtendedType::Currency** – Wert wird als Währung formatiert.
 
-    Wenn die Währungsformatierung aktiv ist, kann das **stringValue** -Feld verwendet werden, um den Währungscode zu übergeben, der in der App angezeigt werden soll. Der Wert ist schreibgeschützt.
+    Wenn die Währungsformatierung aktiv ist, kann das **stringValue**-Feld verwendet werden, um den Währungscode zu übergeben, der in der App angezeigt werden soll. Der Wert ist schreibgeschützt.
 
-    Das **realValue** -Feld enthält den Geldbetrag, der in der Datenbank gespeichert werden soll.
+    Das **realValue**-Feld enthält den Geldbetrag, der in der Datenbank gespeichert werden soll.
 
 ### <a name="fieldsection-tscustomfieldsection"></a>fieldSection (TSCustomFieldSection)
 
 Mit dieser Eigenschaft können Sie angeben, wo das benutzerdefinierte Feld in der App angezeigt werden soll.
 
-- **TSCustomFieldSection::Header** – Das Feld wird im **Weitere Details anzeigen** -Abschnitt in der App angezeigt. Diese Felder sind immer schreibgeschützt.
+- **TSCustomFieldSection::Header** – Das Feld wird im **Weitere Details anzeigen**-Abschnitt in der App angezeigt. Diese Felder sind immer schreibgeschützt.
 - **TSCustomFieldSection::Line** – Das Feld wird nach allen Standardfeldern in Arbeitszeittabelleneinträgen angezeigt. Diese Felder können entweder bearbeitet oder schreibgeschützt sein.
 
 ### <a name="fieldname-fieldnameshort"></a>fieldName (FieldNameShort)
@@ -97,7 +97,7 @@ Diese Eigenschaft gibt das Feld an, in dem die von der App bereitgestellten Wert
 
 ### <a name="iseditable-noyes"></a>isEditable (NeinJa)
 
-Setzen Sie diese Eigenschaft auf **Ja** fest, um festzulegen, dass das Feld im Arbeitszeittabelleneintragsabschnitt von Benutzern bearbeitet werden kann. Setzen Sie die Eigenschaft auf **Nein** , um das Feld schreibgeschützt zu machen.
+Setzen Sie diese Eigenschaft auf **Ja** fest, um festzulegen, dass das Feld im Arbeitszeittabelleneintragsabschnitt von Benutzern bearbeitet werden kann. Setzen Sie die Eigenschaft auf **Nein**, um das Feld schreibgeschützt zu machen.
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NeinJa)
 
@@ -145,7 +145,7 @@ Für Felder des Typs **Real** übergibt diese Eigenschaft den Real-Wert des Feld
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Für Felder des Typs **String** übergibt diese Eigenschaft den Zeichenfolgen-Wert des Felds zwischen dem Server und der App. Es wird auch für Felder des **Real** -Typs verwendet, die als Währung formatiert sind. Für diese Felder wird die Eigenschaft verwendet, um den Währungscode an die App zu übergeben.
+Für Felder des Typs **String** übergibt diese Eigenschaft den Zeichenfolgen-Wert des Felds zwischen dem Server und der App. Es wird auch für Felder des **Real**-Typs verwendet, die als Währung formatiert sind. Für diese Felder wird die Eigenschaft verwendet, um den Währungscode an die App zu übergeben.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
@@ -179,9 +179,9 @@ Unten ist ein Screenshot des Anwendungsobjektbaums von Visual Studio zu sehen. E
 
 Dieser Code steuert die Anzeigeeinstellungen für das Feld in der App. Beispielsweise steuert es den Feldtyp, die Bezeichnung, ob das Feld obligatorisch ist und in welchem Abschnitt das Feld angezeigt wird.
 
-Das folgende Beispiel zeigt ein Zeichenfolgenfeld für Zeiteinträge. Dieses Feld hat zwei Optionen: **Erste Option** und **Zweite Option** , die über Optionsfelder verfügbar sind. Das Feld in der App ist dem **TestLineString** -Feld zugeordnet, das der TSTimesheetLine-Tabelle hinzugefügt wird.
+Das folgende Beispiel zeigt ein Zeichenfolgenfeld für Zeiteinträge. Dieses Feld hat zwei Optionen: **Erste Option** und **Zweite Option**, die über Optionsfelder verfügbar sind. Das Feld in der App ist dem **TestLineString**-Feld zugeordnet, das der TSTimesheetLine-Tabelle hinzugefügt wird.
 
-Nutzen Sie die **TSTimesheetCustomField::newFromMetatdata()** -Methode zur Vereinfachung der Initialisierung der benutzerdefinierten Feldeigenschaften: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** und **numberOfDecimals**. Sie können diese Parameter auch manuell einstellen, wie Sie möchten.
+Nutzen Sie die **TSTimesheetCustomField::newFromMetatdata()**-Methode zur Vereinfachung der Initialisierung der benutzerdefinierten Feldeigenschaften: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** und **numberOfDecimals**. Sie können diese Parameter auch manuell einstellen, wie Sie möchten.
 
 ```xpp
 ...
@@ -210,7 +210,7 @@ final class TSTimesheetSettings_Extension
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlistforentry-method-of-the-tstimesheetentry-class-to-enter-values-in-a-timesheet-entry"></a>Verwenden Sie die Befehlskette für die buildCustomFieldListForEntry-Methode der TSTimesheetEntry-Klasse, um ein Werte in eine Arbeitszeittabelle einzugeben
 
-Die **buildCustomFieldListForEntry** -Methode wird verwendet, um Werte in die gespeicherten Arbeitszeittabellenzeilen in der mobilen App einzugeben. Es wird ein TSTimesheetTrans-Datensatz als Parameter verwendet. Felder aus diesem Datensatz können verwendet werden, um den benutzerdefinierten Feldwert in der App einzugeben.
+Die **buildCustomFieldListForEntry**-Methode wird verwendet, um Werte in die gespeicherten Arbeitszeittabellenzeilen in der mobilen App einzugeben. Es wird ein TSTimesheetTrans-Datensatz als Parameter verwendet. Felder aus diesem Datensatz können verwendet werden, um den benutzerdefinierten Feldwert in der App einzugeben.
 
 ```xpp
 ...
@@ -243,12 +243,12 @@ final class TsTimesheetEntry_Extension
 
 Um ein benutzerdefiniertes Feld in der typischen Verwendung wieder in der Datenbank zu speichern, müssen Sie mehrere Methoden erweitern:
 
-- Mit der **timesheetLineNeedsUpdating** -Methode wird ermittelt, ob der Zeilendatensatz vom Benutzer in der App geändert wurde und in der Datenbank gespeichert werden muss. Wenn die Leistung keine Rolle spielt, kann diese Methode vereinfacht werden, sodass sie immer **wahr** zurückgibt.
-- Die **populateTimesheetLineFromEntryDuringCreate** - und **populateTimesheetLineFromEntryDuringUpdate** -Methoden können erweitert werden, sodass sie Werte in den TSTimesheetLine-Datenbankdatensatz aus dem bereitgestellten TSTimesheetEntry-Datenvertragsdatensatz eingeben. Beachten Sie im folgenden Beispiel, wie die Zuordnung zwischen dem Datenbankfeld und dem Eingabefeld manuell über X++-Code erfolgt.
-- Die **populateTimesheetWeekFromEntry** -Methode kann auch erweitert werden, wenn das benutzerdefinierte Feld dem **TSTimesheetEntry** -Objekt zugeordnet und in die TSTimesheetLineweek-Datenbanktabelle zurückgeschrieben werden muss.
+- Mit der **timesheetLineNeedsUpdating**-Methode wird ermittelt, ob der Zeilendatensatz vom Benutzer in der App geändert wurde und in der Datenbank gespeichert werden muss. Wenn die Leistung keine Rolle spielt, kann diese Methode vereinfacht werden, sodass sie immer **wahr** zurückgibt.
+- Die **populateTimesheetLineFromEntryDuringCreate**- und **populateTimesheetLineFromEntryDuringUpdate**-Methoden können erweitert werden, sodass sie Werte in den TSTimesheetLine-Datenbankdatensatz aus dem bereitgestellten TSTimesheetEntry-Datenvertragsdatensatz eingeben. Beachten Sie im folgenden Beispiel, wie die Zuordnung zwischen dem Datenbankfeld und dem Eingabefeld manuell über X++-Code erfolgt.
+- Die **populateTimesheetWeekFromEntry**-Methode kann auch erweitert werden, wenn das benutzerdefinierte Feld dem **TSTimesheetEntry**-Objekt zugeordnet und in die TSTimesheetLineweek-Datenbanktabelle zurückgeschrieben werden muss.
 
 > [!NOTE]
-> Das folgende Beispiel speichert den Wert von **Erste Option** oder **Zweite Option** , den der Benutzer als Rohzeichenfolgenwert für die Datenbank auswählt. Wenn das Datenbankfeld ein Feld des **Enum** -Typs ist, können diese Werte manuell einem Aufzählungswert zugeordnet und dann in einem Aufzählungsfeld in der Datenbanktabelle gespeichert werden.
+> Das folgende Beispiel speichert den Wert von **Erste Option** oder **Zweite Option**, den der Benutzer als Rohzeichenfolgenwert für die Datenbank auswählt. Wenn das Datenbankfeld ein Feld des **Enum**-Typs ist, können diese Werte manuell einem Aufzählungswert zugeordnet und dann in einem Aufzählungsfeld in der Datenbanktabelle gespeichert werden.
 
 ```xpp
 ...
@@ -366,7 +366,7 @@ final class TSTimesheetSettings_Extension
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlistforheader-method-of-the-tstimesheetdetails-class-to-fill-in-timesheet-details"></a>Verwenden Sie die Befehlskette für die buildCustomFieldListForHeader-Methode der TSTimesheetDetails-Klasse, um Arbeitszeittabellendetails einzugeben
 
-Die **buildCustomFieldListForHeader** -Methode wird verwendet, um Arbeitszeittabellen-Kopfzeilendetails in der mobilen App einzugeben. Es wird ein TSTimesheetTable-Datensatz als Parameter verwendet. Felder aus diesem Datensatz können verwendet werden, um den benutzerdefinierten Feldwert in der App einzugeben. Im folgenden Beispiel werden keine Werte aus der Datenbank gelesen. Stattdessen wird X++-Logik verwendet, um einen berechneten Wert zu generieren, der dann in der App angezeigt wird.
+Die **buildCustomFieldListForHeader**-Methode wird verwendet, um Arbeitszeittabellen-Kopfzeilendetails in der mobilen App einzugeben. Es wird ein TSTimesheetTable-Datensatz als Parameter verwendet. Felder aus diesem Datensatz können verwendet werden, um den benutzerdefinierten Feldwert in der App einzugeben. Im folgenden Beispiel werden keine Werte aus der Datenbank gelesen. Stattdessen wird X++-Logik verwendet, um einen berechneten Wert zu generieren, der dann in der App angezeigt wird.
 
 
 ```xpp
@@ -410,25 +410,25 @@ Die vorhandene Logik für die Arbeitszeittabellenfunktionalität auf Datenbankeb
 
 - Wenn **validateWrite** in der TSTimesheetLine-Tabelle während eines Speichervorgangs **falsch** für eine Arbeitszeittabellenzeile zurückgibt, wird in der mobilen App eine Fehlermeldung angezeigt.
 - Wenn **validateSubmit** in der TSTimesheetTable-Tabelle während der Zeittabellenübertragung **falsch** für eine Arbeitszeittabellenzeile zurückgibt, wird dem Benutzer eine Fehlermeldung angezeigt.
-- Logik, die Felder (z. B. **Positions-Eigenschaft** ) während der **insert** -Methode in der TSTimesheetLine-Tabelle ausfüllt, wird weiterhin ausgeführt.
+- Logik, die Felder (z. B. **Positions-Eigenschaft**) während der **insert**-Methode in der TSTimesheetLine-Tabelle ausfüllt, wird weiterhin ausgeführt.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Ausblenden und Markieren von Standardfeldern als schreibgeschützt über die Konfiguration
 
-Über die Projektparameter können Sie sofort einsatzbereite Felder schreibgeschützt oder in der mobilen App ausgeblendet machen. Legen Sie die Optionen im **Mobile Arbeitszeittabellen** -Abschnitt auf der **Arbeitszeittabelle** -Registerkarte der **Projektmanagement- und Buchhaltungsparameter** -Seite fest.
+Über die Projektparameter können Sie sofort einsatzbereite Felder schreibgeschützt oder in der mobilen App ausgeblendet machen. Legen Sie die Optionen im **Mobile Arbeitszeittabellen**-Abschnitt auf der **Arbeitszeittabelle**-Registerkarte der **Projektmanagement- und Buchhaltungsparameter**-Seite fest.
 
 ![Projektparameter](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Ändern der Aktivitäten, die über Erweiterungen zur Auswahl stehen
 
-Die Aktivitäten, die für ein Projekt zur Auswahl stehen, werden über die **getActivitiesForProject()** - und **getActivityQuery()** -Methoden in der **TsTimesheetProjectService** -Klasse ausgefüllt. Mithilfe der Befehlskette können Sie dieses Verhalten so ändern, dass es Ihrem Geschäftsszenario für die Aktivitäten entspricht, die für ein bestimmtes Projekt zur Auswahl stehen.
+Die Aktivitäten, die für ein Projekt zur Auswahl stehen, werden über die **getActivitiesForProject()**- und **getActivityQuery()**-Methoden in der **TsTimesheetProjectService**-Klasse ausgefüllt. Mithilfe der Befehlskette können Sie dieses Verhalten so ändern, dass es Ihrem Geschäftsszenario für die Aktivitäten entspricht, die für ein bestimmtes Projekt zur Auswahl stehen.
 
 ### <a name="entering-a-default-project-category-on-timesheet-entries"></a>Eingabe einer Standardprojektkategorie in Arbeitszeittabelleneinträgen
 
 Die Eingabe einer Standardprojektkategorie in Arbeitszeittabelleneinträge erfolgt auf drei Ebenen. Sie können die Befehlskette verwenden, um das Verhalten auf einer oder allen dieser Ebenen zu erweitern und das gewünschte Verhalten zu erzielen. Dabei kommt folgende Hierarchie zum Einsatz:
 
-1. Die App versucht, die Standardkategorie aus der Projektressource zu übernehmen. Diese Standardkategorie wird in den **getCurrentUserResource** - und **getDelegatedResourcesForCurrentUser** -Methoden in der **TSTimesheetSettingsService** -Klasse festgelegt.
-2. Wenn die Standardkategorie auf Projektressourcenebene nicht bereitgestellt wird, versucht die App, sie aus der Projektaktivität abzurufen. Diese Standardkategorie wird in der **getActivitiesForProject** -Methode in der **TSTimesheetProjectService** -Klasse festgelegt.
-3. Wenn die Standardkategorie auf Projektaktivitätsebene nicht bereitgestellt wird, wird die Standardkategorie aus den Projektparametern abgerufen. Diese Standardkategorie wird in der **getProjectDetailsbyRule** -Methode in der **TSTimesheetProjectService** -Klasse festgelegt.
+1. Die App versucht, die Standardkategorie aus der Projektressource zu übernehmen. Diese Standardkategorie wird in den **getCurrentUserResource**- und **getDelegatedResourcesForCurrentUser**-Methoden in der **TSTimesheetSettingsService**-Klasse festgelegt.
+2. Wenn die Standardkategorie auf Projektressourcenebene nicht bereitgestellt wird, versucht die App, sie aus der Projektaktivität abzurufen. Diese Standardkategorie wird in der **getActivitiesForProject**-Methode in der **TSTimesheetProjectService**-Klasse festgelegt.
+3. Wenn die Standardkategorie auf Projektaktivitätsebene nicht bereitgestellt wird, wird die Standardkategorie aus den Projektparametern abgerufen. Diese Standardkategorie wird in der **getProjectDetailsbyRule**-Methode in der **TSTimesheetProjectService**-Klasse festgelegt.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

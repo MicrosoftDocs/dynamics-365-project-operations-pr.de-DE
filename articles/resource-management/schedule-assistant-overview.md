@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125627"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279227"
 ---
 # <a name="schedule-assistant-overview"></a>Ansicht für Zeitplan-Assistent
 
@@ -25,7 +25,7 @@ Nachdem geeignete Ressourcen identifiziert wurden, kann der Ressourcen- oder Pro
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Der Zeitplan-Assistent ist Teil der Universal Resource Scheduling-Lösung. Diese Lösung ist in Dynamics 365 Project Operations, Dynamics 365 Field Service und Dynamics 365 Customer Service enthalten und installiert.
+Der Zeitplan-Assistent ist Teil der Universal Resource Scheduling-Lösung. Diese Lösung ist im Lieferumfang enthalten und wird mit Dynamics 365 Project Operations, Dynamics 365 Field Service und Dynamics 365 Customer Service installiert.
 
 ## <a name="matching-requirements-and-resources"></a>Übereinsteimmende Anforderungen und Ressourcen
 

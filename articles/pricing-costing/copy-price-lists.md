@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181496"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275717"
 ---
 # <a name="copy-price-lists"></a>Preislisten kopieren
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Sie können Kopien von Preislisten in Dynamics 365 Project Operations erstellen. Sie können beispielsweise Preislisten für das kommende Jahr mithilfe einer Preisliste aus dem aktuellen Jahr erstellen.  Sie können auch eine Preisliste für Rechnungssätze und Verkaufspreise aus den Preislisten für die Kosten kopieren. 
+In Dynamics 365 Project Operations können Sie Kopien von Preislisten erstellen. Sie können beispielsweise Preislisten für das kommende Jahr mithilfe einer Preisliste aus dem aktuellen Jahr erstellen.  Sie können auch eine Preisliste für Rechnungssätze und Verkaufspreise aus den Preislisten für die Kosten kopieren. 
 
 Führen Sie die folgenden Schritte aus, um eine Kopie der Preisliste zu erstellen.
 

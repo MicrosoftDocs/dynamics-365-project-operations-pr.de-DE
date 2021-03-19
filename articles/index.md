@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120812"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275897"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations vereint Vertriebs-, Ressourcen-, Projektmanagement- und Finanzteams in einer einzigen Anwendung, um mehr Geschäfte zu gewinnen, die Projektabwicklung zu beschleunigen und die Rentabilität zu maximieren.
+Microsoft Dynamics 365 Project Operations verbindet Vertriebs-, Ressourcen-, Projektmanagement- und Finanzteams in einer einzigen Anwendung, um mehr Geschäftsabschlüsse zu tätigen, die Projektabwicklung zu beschleunigen und die Rentabilität zu maximieren.
 
 -   **Führungskräfte erhalten geschäftliche Einblicke** zur Erhöhung der Transparenz in allen Teams, Daten und Prozessen sowie KI-Funktionen für bessere und schnellere Geschäftsentscheidungen.
 -   **Der Vertrieb wird aktiviert**, um mehr Deals zu gewinnen und den Verkaufszyklus mit schnellen und genauen Angeboten, flexiblen Preisen und nahtlosen Übergängen von der Schätzung zur Ausführung zu beschleunigen.
@@ -37,10 +37,10 @@ Microsoft Dynamics 365 Project Operations vereint Vertriebs-, Ressourcen-, Proje
 
 Project Operations ist für sich genommen leistungsstark, kann jedoch von unseren Kunden erweitert werden, die zusätzliche Funktionen von Dynamics 365 benötigen. Dies umfasst Marketing, Human Resources, Customer Service und mehr. Unabhängig davon, ob Sie die zusätzlichen Funktionen einer anderen Dynamics 365-Anwendung nutzen oder eine benutzerdefinierte Anwendung hinzufügen möchten, die mit Power Apps erstellt wurde. Alles funktioniert zusammen und wie erwartet, da sie die gemeinsame Grundlage einer sicheren, privaten und kompatiblen Cloud-Lösung teilen.
 
-Weitere Informationen finden Sie unter:
+Weitere Informationen finden Sie unter
 
 - [Project Operations – Übersicht](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Overview of Dynamics 365 Project Operations 2020 – Veröffentlichungswelle 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Überblick über den 1. Veröffentlichungszyklus 2020 von Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

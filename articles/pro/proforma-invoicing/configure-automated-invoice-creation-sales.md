@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176565"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274322"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Automatische Rechnungserstellung konfigurieren – Lite
  
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Sie können die automatische Rechnungserstellung in Dynamics 365 Project Operations konfigurieren. Das System erstellt einen Entwurf einer Proforma-Rechnung basierend auf dem Rechnungszeitplan für jeden Projektvertrag und jede Vertragszeile. Rechnungszeitpläne werden auf Vertragszeilenebene konfiguriert. Jede Zeile in einem Vertrag kann einen eigenen Rechnungszeitplan haben, oder in jeder Zeile des Vertrags kann derselbe Rechnungszeitplan enthalten sein.
+In Dynamics 365 Project Operations können Sie die automatische Rechnungserstellung konfigurieren. Das System erstellt einen Entwurf einer Proforma-Rechnung basierend auf dem Rechnungsplan für jeden Projektvertrag und jede Vertragszeile. Rechnungspläne werden auf Vertragszeilenebene konfiguriert. Jede Zeile in einem Vertrag kann einen eigenen Rechnungsplan haben, oder in jeder Zeile des Vertrags kann derselbe Rechnungsplan enthalten sein.
 
 Wenn Sie eine Rechnung erstellen, erstellt das System immer mindestens eine Rechnung pro Projektvertrag. In einigen Fällen werden möglicherweise mehrere Rechnungen erstellt.
 
@@ -71,7 +71,7 @@ Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf z
 1. Navigieren Sie in **Project Operations** zu **Einstellungen** > **Setup für wiederkehrende Rechnungen**.
 2. Erstellen Sie einen Batchauftrag und nennen Sie ihn **Vorgang zum Erstellen von Rechnungen**. Der Name des Batchauftrags muss die Wörter „Rechnungen erstellen“ enthalten.
 3. Wählen Sie im Feld **Auftragstyp** **Keiner** aus. Standardmäßig sind die Felder **Frequenz täglich** und **Ist aktiv** auf **Ja** festgelegt.
-4. Wählen Sie **Workflow ausführen** aus. Im Dialogfeld **Datensatz nachschlagen** finden Sie drei Workflows:
+4. Wählen Sie **Workflow ausführen** aus. Im Dialogfeld **Datensatz suchen** werden drei Workflows angezeigt:
 
 - ProcessRunCaller
 - ProcessRunner

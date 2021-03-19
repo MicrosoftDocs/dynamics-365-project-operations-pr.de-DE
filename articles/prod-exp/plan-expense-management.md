@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 74a8435464c8573ca831b7886f00c2695fd29827
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960336"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271352"
 ---
 # <a name="configure-expense-management"></a>Ausgabenverwaltung konfigurieren
 
@@ -43,7 +43,7 @@ Die Ausgabenverwaltung ist eng in die Finanzverwaltung Ihrer Organisation integr
 
 ### <a name="per-diems"></a>Pro Tag
 
-Sie müssen die von Ihrer Organisation bereitgestellten Mitarbeiter-Tagessätze definieren. Da Tagessätze normalerweise zur Deckung von Ausgaben wie Mahlzeiten, Unterkunft und anderen Nebenkosten verwendet werden, können Sie Regeln für die Tagessätze erstellen, die Ihre Organisation anbietet. Die Tagessätze können auf der Jahreszeit, dem Reiseort oder beiden basieren. Wenn Sie eine Tagessatzregel definieren, können Sie festlegen, dass ein Prozentsatz des Tagessatzes einbehalten wird, wenn ein Mitarbeiter kostenlose Mahlzeiten oder Dienstleistungen erhält. Sie können auch Tagessatzstufen definieren, um eine minimale und maximale Anzahl von Stunden festzulegen, für die der Tagessatz für die Reise eines Arbeitnehmers gelten kann.
+Sie müssen die von Ihrer Organisation bereitgestellten Mitarbeiter-Tagessätze definieren. Da Tagessätze normalerweise zur Deckung von Spesen wie für Mahlzeiten, Unterkunft und anderen Nebenkosten verwendet werden, können Sie Regeln erstellen, die Ihr Unternehmen für Tagessätze vorsieht. Die Tagessätze können von der Jahreszeit, dem Reiseziel oder beidem abhängen. Wenn Sie eine Tagessatzregel festlegen, können Sie einen Prozentsatz des Tagessatzes angeben, der einbehalten wird, wenn ein Arbeitnehmer kostenlose Mahlzeiten oder Dienstleistungen erhält. Sie können auch Tagessatzstufen definieren, um eine minimale und maximale Anzahl von Stunden festzulegen, für die der Tagessatz für die Reise eines Arbeitnehmers gelten kann.
 
 **Entscheidungen:**
 
@@ -56,7 +56,7 @@ Sie müssen die von Ihrer Organisation bereitgestellten Mitarbeiter-Tagessätze 
 
 - Standard-Tagessatzregeln:
 
-    - Gibt es eine prozentuale Reduzierung des Tagessatzes für jede Mahlzeit, wenn beispielsweise die Mahlzeit kostenlos ist? Wenn es eine Reduzierung gibt, wie hoch ist der Prozentsatz der Reduzierung für jede Mahlzeit?
+    - Gibt es für jede Mahlzeit eine prozentuale Ermäßigung des Tagessatzes, wenn die Mahlzeit z. B. kostenlos ist? Wenn es eine Reduzierung gibt, wie hoch ist der Prozentsatz der Reduzierung für jede Mahlzeit?
     - Wird die Reduzierung der Mahlzeiten pro Tag, pro Reise oder anhand der Anzahl der Mahlzeiten pro Tag berechnet?
     - Sollten die Beträge der Tagessätze regelmäßig gerundet oder aufgerundet werden?
     - Werden Tagessätze für einen Zeitraum von 24 Stunden oder an einem Kalendertag berechnet?
@@ -82,7 +82,7 @@ Für die Ausgabenverwaltung müssen Sie mehrere Journale und Konten verwenden. S
 
 ### <a name="payment-methods"></a>Zahlungsmethoden
 
-Wenn Sie Mitarbeitern erlauben, im Namen Ihres Unternehmens Kosten zu verursachen, müssen Sie die Zahlungsmethoden definieren, die Mitarbeiter verwenden dürfen. Beispielsweise können Sie Mitarbeitern erlauben, Bargeld oder eine Firmenkreditkarte zu verwenden. Sie können Mitarbeitern auch erlauben, persönliche Kreditkarten zu verwenden, und die Kosten den Mitarbeitern anschließend erstatten. Sie müssen die folgenden Entscheidungen für jede Zahlungsmethode treffen, die Sie zulassen.
+Wenn Sie Mitarbeitern erlauben, im Namen Ihres Unternehmens Kosten zu verursachen, müssen Sie die Zahlungsmethoden definieren, die Mitarbeiter verwenden dürfen. Zum Beispiel könnten Sie den Mitarbeitern erlauben, Bargeld oder eine Firmenkreditkarte zu verwenden. Sie können den Mitarbeitern auch erlauben, persönliche Kreditkarten zu verwenden und ihnen diese Ausgaben dann zurückzuerstatten. Sie müssen die folgenden Entscheidungen für jede Zahlungsmethode treffen, die Sie zulassen.
 
 **Entscheidungen:**
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274412"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Lohnkostensätze einrichten – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Jede Preisliste enthält einen Satz von Rollenpreisen oder Arbeitssätzen, die für den Kontext und die Datumseffektivität gelten, die im Preislistenheader enthalten sind. Fakturierungssätze für die Zeit in Dynamics 365 Project Operations können nur in einer Währung eingerichtet werden. Dies ist die Währung in der Kopfzeile der Preisliste.
+Jede Preisliste enthält einen Satz von Rollenpreisen oder Arbeitssätzen, die für den Kontext und die Datumseffektivität gelten, die im Preislistenheader enthalten sind. Rechnungssätze für Zeit können in Dynamics 365 Project Operations nur in der Währung eingerichtet werden, die die Währung in der Kopfzeile der Preisliste ist.
 
 1. Erstellen Sie eine Preisliste basierend auf der Kopfzeile der Preisliste, um die Lohnkosten für eine Verkaufspreisliste festzulegen. 
 2. Wählen Sie auf der Registerkarte **Rollenpreise** im Unterregister die Option **+ Neuer Rollenpreis** aus. 

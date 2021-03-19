@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270677"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eine Projektvorkalkulation entfernen
 
@@ -33,19 +33,19 @@ Projektvorkalkulationen stellen die Finanzansicht für die Arbeit bereit, die f�
 
 Um ein Vorkalkulationsprojekt zu löschen, muss es vollständig sein. In den folgenden Schritten wird erläutert, wie Sie eine Vorkalkulation entfernen.
 
-1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **All Projekte** , und öffnen Sie das Projekt. 
+1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **All Projekte**, und öffnen Sie das Projekt. 
 2. Wählen Sie auf der Registerkarte **Verwalten** **Vorkalkulationen** und auf der Seite **Schätzung** die Option **Entfernen** aus.
 3. Legen Sie auf der Seite **Vorkalkulation löschen** auf der Registerkarte **Allgemein** die folgenden Optionen fest:
 
-   - **Periodencode** : Wählen Sie den Periodencode aus, um die entsprechenden Vorkalkulationsprojekte auszuwählen. 
-   - **Vorkalkulationsdatum** : Wählen Sie das geeignete Vorkalkulationsdatum für das Entfernen aus.
-   - **Mit WIP-Warnungen löschen** : Aktivieren Sie diese Option, um eine Benachrichtigung bereitzustellen, wenn eine Vorkalkulation, die mit einem WIP (Work in Progress) verknüpft ist, entfernt wird. Wenn diese Option nicht aktiviert ist, kann das Entfernen nicht fortgesetzt werden, wenn nicht geschätzte Transaktionen vorhanden sind. 
+   - **Periodencode**: Wählen Sie den Periodencode aus, um die entsprechenden Vorkalkulationsprojekte auszuwählen. 
+   - **Vorkalkulationsdatum**: Wählen Sie das geeignete Vorkalkulationsdatum für das Entfernen aus.
+   - **Mit WIP-Warnungen löschen**: Aktivieren Sie diese Option, um eine Benachrichtigung bereitzustellen, wenn eine Vorkalkulation, die mit einem WIP (Work in Progress) verknüpft ist, entfernt wird. Wenn diese Option nicht aktiviert ist, kann das Entfernen nicht fortgesetzt werden, wenn nicht geschätzte Transaktionen vorhanden sind. 
    > [!NOTE]
    > Diese Option ist nur verfügbar, wenn das Entfernen auf ein Vorkalkulationsprojekt angewendet wird. Es ist nicht verfügbar, wenn Sie regelmäßige Buchungen verwenden. Diese Einstellung funktioniert mit den Einstellungen auf der Registerkarte **Schätzung** auf der Seite **Projektparameter** in der Feldgruppe **Löschung bei nicht vorkalkulierten Buchungen zulassen**.
-   - **Phase als 'abgeschlossen' festlegen** : Aktivieren Sie diese Option, um die Phase des Vorkalkulationsprojekts als **Abgeschlossen** festzulegen, nachdem Sie das Entfernen ausgeführt haben.
-   - **Vorkalkulationsliste drucken** : Wählen Sie die Informationen aus, die beim Drucken der Vorkalkulationsliste berücksichtigt werden sollen.
-   - **Infolog anzeigen** : Aktivieren Sie diese Option, um das Infolog anzuzeigen.
-   - **Buchungsdatum** : Wählen Sie das Buchungsdatum der Finanzbuchhaltung für die Vorkalkulation ein.
+   - **Phase als 'abgeschlossen' festlegen**: Aktivieren Sie diese Option, um die Phase des Vorkalkulationsprojekts als **Abgeschlossen** festzulegen, nachdem Sie das Entfernen ausgeführt haben.
+   - **Vorkalkulationsliste drucken**: Wählen Sie die Informationen aus, die beim Drucken der Vorkalkulationsliste berücksichtigt werden sollen.
+   - **Infolog anzeigen**: Aktivieren Sie diese Option, um das Infolog anzuzeigen.
+   - **Buchungsdatum**: Wählen Sie das Buchungsdatum der Finanzbuchhaltung für die Vorkalkulation ein.
 
 4.  Klicken Sie auf **OK**.
 5. Nach Abschluss des Entfernungsprozesses wird das entfernte Vorkalkulationsprojekt mit einem negativen Wert angezeigt. 

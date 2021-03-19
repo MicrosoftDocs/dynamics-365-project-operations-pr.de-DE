@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277517"
 ---
 # <a name="quotes---key-concepts"></a>Angebote - Schlüsselkonzepte
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-In Dynamics 365 Project Operations gibt es zwei Arten von Angeboten: Projekt und Vertrieb. Die zwei Typen von Angeboten unterscheiden sich folgendermaßen:
+In Dynamics 365 Project Operations gibt es zwei Typen von Angeboten: Projektangebote und Vertriebsangebote. Die zwei Typen von Angeboten unterscheiden sich folgendermaßen:
 
 - **Raster für Vertragszeilen**: Bei einem Verkaufsangebot gibt es nur ein Raster für Vertragszeilen. Bei einem Projektangebot gibt es zwei Raster für Vertragszeilen. Ein Raster ist für Projektzeilen und das andere für Produktzeilen.
 - **Aktivierung und Überarbeitung**: Vertriebsangebote unterstützen die Aktivierung und Überarbeitung. Diese Prozesse werden in einem Projektangebot nicht unterstützt.

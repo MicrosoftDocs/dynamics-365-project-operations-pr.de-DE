@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180236"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277562"
 ---
 # <a name="project-quote-settings"></a>Projektangebotseinstellungen
 
@@ -22,7 +22,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 In diesem Artikel werden die Informationen erläutert, die für ein Projektangebot gelten. Dies umfasst die Einstellungen, die sich auf alle Angebotspositionen auswirken, sowie Informationen zum Angebot, die in allen Positionen zusammengefasst sind, um die KPIs des Projektangebots zu steuern.
 
-In der folgenden Tabelle sind die zusammenfassenden Informationsfelder in einem Projektangebot aufgeführt, die nur für Dynamics 365 Project Operations gelten oder einige wichtige Verhaltensänderungen gegenüber Dynamics 365 Sales-Angeboten aufweisen.
+In der folgenden Tabelle sind die Felder mit den zusammenfassenden Informationen zu einem Projektvertrag aufgeführt, die nur in Dynamics 365 Project Operations vorhanden sind oder einige wichtige Änderungen im Verhalten hinsichtlich Angeboten in Dynamics 365 Sales aufweisen.
 
 | **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |

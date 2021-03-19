@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180712"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274367"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Arbeitskostensätze einrichten – Lite
 
@@ -38,7 +38,7 @@ Die folgende Tabelle enthält einige der Felder, die beim Erstellen von Arbeitss
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Verrechnungspreise und Kosten für Ressourcen außerhalb Ihres Geschäftsbereichs oder Ihrer juristischen Person
 
-In projektbasierten Unternehmen ist es üblich, Mitarbeiter aus unterschiedlichen legalen Entitäten oder Abteilungen in Projekten einzusetzen. Ein Projekt kann von einer juristischen Person ausgeführt werden, aber die Mitarbeiter oder Berater, die an dem Projekt arbeiten, können von derselben oder einer anderen juristischen Person stammen, oder es kann eine Kombination aus beiden geben. In Dynamics 365 Project Operations ist die juristische Person, die für die Bereitstellung des Projekts verantwortlich ist, das **zuständige Unternehmen** und die Abteilung, die für die Bereitstellung verantwortlich ist, die **Vertragseinheit**. Andere juristische Personen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungsunternehmen** und Abteilungen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungseinheiten**. In den meisten Ländern müssen Unternehmen sicherstellen, dass die juristische Person oder Abteilung das zuständige Unternehmen und die Vertragseinheit für die Verwendung der Ressourcen belasten.
+In projektbasierten Unternehmen ist es üblich, Mitarbeiter aus unterschiedlichen legalen Entitäten oder Abteilungen in Projekten einzusetzen. Ein Projekt kann von einer juristischen Person ausgeführt werden, aber die Mitarbeiter oder Berater, die an dem Projekt arbeiten, können von derselben oder einer anderen juristischen Person stammen, oder es kann eine Kombination aus beiden geben. In Dynamics 365 Project Operations ist die juristische Person, der die Lieferung des Projekts obliegt, das **Zuständige Unternehmen** und die Abteilung, der die Lieferung obliegt, die **Vertragseinheit**. Andere juristische Personen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungsunternehmen** und Abteilungen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungseinheiten**. In den meisten Ländern müssen Unternehmen sicherstellen, dass die juristische Person oder Abteilung das zuständige Unternehmen und die Vertragseinheit für die Verwendung der Ressourcen belasten.
 
 Beispielsweise muss die Fabrikam Corporation sicherstellen, dass Fabrikam India-Robotics eine Kostensatzkarte mit Fabrikam US-Robotics oder Fabrikam UK-Robotics ausgehandelt hat.
 

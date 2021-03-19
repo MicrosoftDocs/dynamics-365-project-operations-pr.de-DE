@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3c9804c77cc0931352b026f15fd764f43361757f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181316"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273152"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Mehrere Kunden in Projektverträgen verwalten – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Projektverträge in Dynamics 365 Project Operations unterstützen das Szenario, in dem eine vertragliche Vereinbarung mehrere Kunden umfasst, die einen Deal finanzieren. Die **Zusammenfassung**-Registerkarte auf der **Projektvertrag**-Seite enthält das **Kunde**-Feld. Dieses Feld identifiziert den Hauptkunden des Geschäfts. Andere Kunden für das Geschäft können auf der **Kunden**-Registerkarte der **Projektvertrag**-Seite eingerichtet werden.
+Projektverträge in Dynamics 365 Project Operations unterstützen das Szenario, in dem eine vertragliche Vereinbarung mehrere Kunden umfasst, die ein Geschäft finanzieren. Die **Zusammenfassung**-Registerkarte auf der **Projektvertrag**-Seite enthält das **Kunde**-Feld. Dieses Feld identifiziert den Hauptkunden des Geschäfts. Andere Kunden für das Geschäft können auf der **Kunden**-Registerkarte der **Projektvertrag**-Seite eingerichtet werden.
 
 Alle Vertragskunden, die im Projektvertrag aufgeführt sind, werden standardmäßig als Vertragszeilenkunden in allen neuen projektbasierten Vertragszeilen aufgeführt, die für den Projektvertrag erstellt wurden. Bestehende projektbasierte Vertragszeilen erben keine neuen Vertragskunden, wenn neue Datensätze erstellt werden.
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076661"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270947"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Bedingungen für die Einbehaltung von Kreditorenzahlungen erstellen und anwenden
 
@@ -41,9 +41,9 @@ Führen Sie die folgenden Schritte aus, um Bedingungen für die Einbehaltung von
 2. Wählen Sie **Neu** aus, um eine neue Bedingung für die Einbehaltung von Kreditorenzahlungen hinzuzufügen. Der Wert **Regel-ID** für die neue Bedingung wird automatisch eingegeben. 
 3. Geben Sie eine kurze Beschreibung in das Feld **Beschreibung** ein, und wählen Sie im Inforegister **Bedingungen** die Option **Zeile hinzufügen** aus, um Werte für die Bedingung für folgende Optionen einzugeben:
 
-   - **Prozentsatz der gelieferten Einheiten** : Geben Sie einen Prozentsatz für die Fertigstellung für die Bedingung ein. Beträge werden automatisch auf Kreditorenrechnungen einbehalten, bis der Projektstatus des Abschlusses dem angegebenen Prozentsatz entspricht. Wenn Sie beispielsweise 50,00 eingeben, werden die Beträge einbehalten, bis das Projekt zu 50 Prozent abgeschlossen ist.
+   - **Prozentsatz der gelieferten Einheiten**: Geben Sie einen Prozentsatz für die Fertigstellung für die Bedingung ein. Beträge werden automatisch auf Kreditorenrechnungen einbehalten, bis der Projektstatus des Abschlusses dem angegebenen Prozentsatz entspricht. Wenn Sie beispielsweise 50,00 eingeben, werden die Beträge einbehalten, bis das Projekt zu 50 Prozent abgeschlossen ist.
    - **Einzubehaltender Prozentsatz** : Geben Sie einen Prozentsatz des Kreditorenrechnungsbetrags ein, der einbehalten werden soll. Wenn Sie beispielsweise 10,00 eingeben, werden 10 Prozent des Betrags auf einer Kreditorenrechnung einbehalten, bis das Projekt den im Abschnitt festgelegten Prozentsatz des Abschlusses, wie in **Prozentsatz der gelieferten Einheiten** festgelegt, erreicht.
-   - **Freizugebender Prozentsatz** : Wählen Sie **Zeile hinzufügen** aus, um einen Prozentsatz aller zuvor einbehaltenen Beträge einzugeben, die für die ausgewählte Stufe des Projektabschlusses freigegeben werden sollen.
+   - **Freizugebender Prozentsatz**: Wählen Sie **Zeile hinzufügen** aus, um einen Prozentsatz aller zuvor einbehaltenen Beträge einzugeben, die für die ausgewählte Stufe des Projektabschlusses freigegeben werden sollen.
 
 > [!NOTE]
 > Wenn Sie mehr als einen Meilenstein für verschiedene Stufen des Projektabschlusses haben, geben Sie für jede Einbehaltungsregel eine separate Zeile für die Bedingung zum Einbehalt der Kreditorenrechnung ein. Jede Zeile kann für jede festgelegte Projektabschlussstufe einen anderen Prozentsatz für die Einbehaltung und einen anderen Prozentsatz für die Freigabe angeben.
@@ -52,13 +52,13 @@ Nachdem Sie Bedingungen für die Einbehaltung von Kreditorenzahlungen für einen
 
 ## <a name="apply-vendor-retention-terms-to-a-project"></a>Bedingungen für die Einbehaltung von Kreditorenzahlungen auf ein Projekt anwenden
 
-1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Projekte** > **Alle Projekte** , und öffnen Sie ein Projekt aus der Projektlistenseite aus.
+1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Projekte** > **Alle Projekte**, und öffnen Sie ein Projekt aus der Projektlistenseite aus.
 2. Wählen Sie im Inforegister **Kreditorenvereinbarungen** die Option **Zeile hinzufügen** aus.
 3. Wählen Sie im Feld **Kontocode** eine der folgenden Optionen aus: 
 
-   - **Tabelle** : Die Bedingungen für die Einbehaltung von Kreditorenzahlungen gelten für einen einzelnen Kreditor.
+   - **Tabelle**: Die Bedingungen für die Einbehaltung von Kreditorenzahlungen gelten für einen einzelnen Kreditor.
    - **Gruppe** : Die Bedingungen für die Einbehaltung von Kreditorenzahlungen gelten für alle Kreditoren in einer Kreditorengruppe.
-   - **Alle** : Die Bedingungen für die Einbehaltung von Kreditorenzahlungen gelten für alle Kreditoren.
+   - **Alle**: Die Bedingungen für die Einbehaltung von Kreditorenzahlungen gelten für alle Kreditoren.
 
 4. Wählen Sie im Feld **Kreditor/Kreditorengruppe** den Kreditor oder die Kreditorengruppe aus, für die die Bedingungen für die Einbehaltung von Kreditorenzahlungen gelten soll. Wenn Sie im vorherigen Schritt **Alle** ausgewählt haben, ist dieses Feld nicht verfügbar.
 5. Wählen Sie im Feld **Bedingungen für einbehaltene Kreditorenbeträge** die Bedingungen für die Einbehaltung aus, die Sie im vorherigen Verfahren erstellt haben.

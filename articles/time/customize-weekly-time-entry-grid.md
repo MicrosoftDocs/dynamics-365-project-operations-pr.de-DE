@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277157"
 ---
 # <a name="extending-time-entries"></a>Zeiteinträge verlängern
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations enthält ein erweiterbares benutzerdefiniertes Steuerelement für den Zeiteintrag. Dieses Steuerelement bietet die folgenden neuen Funktionen:
+Dynamics 365 Project Operations enthält ein benutzerdefinierbares Steuerelement für die erweiterbare Zeiteingabe. Dieses Steuerelement bietet die folgenden neuen Funktionen:
 
 - Die Zeit horizontal über eine Woche eingeben
 - Summen nach Tag, Zeile oder Woche

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401172"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279272"
 ---
 # <a name="review-proposed-resources"></a>Vorgeschlagene Ressourcen überprüfen
 
@@ -43,10 +43,10 @@ Der Projektmanager kann den Vorschlag annehmen oder ablehnen.
 
 Zum Verarbeiten von Ressourcenanfragen können Ressourcenmanager einen der folgenden Ansätze auswählen:
 
-- Schlagen Sie mehrere Ressourcen vor, um die Nachfrage zu befriedigen, falls zur Erfüllung der erforderlichen Stunden keine einzelne Ressource verfügbar ist. Vorgeschlagene Stunden werden dann auf mehrere Ressourcen aufgeteilt, die für die erforderlichen Stunden ausreichend sind. In diesem Szenario können sich die Stunden nicht überschneiden.
-- Schlagen Sie weniger Ressourcen als erforderlich vor. In diesem Szenario ist die vorgeschlagene Ressourcenkapazität geringer als die erforderlichen Stunden, die vom Anforderer angegeben wurden. Daher wird, wenn der Anforderer die vorgeschlagenen Ressourcen annimmt, eine nicht erfüllte Ressourcenanforderung erstellt, um die restliche Nachfrage zu erfassen.
-- Buchen Sie mehrere Ressourcen, um die Nachfrage zu befriedigen, falls zum Abschließen der Arbeit keine einzelne Ressource verfügbar ist.
-- Buchen Sie weniger Ressourcen als erforderlich. In diesem Szenario sind die gebuchten Stunden weniger als die erforderlichen Stunden. Das System führt Sie durch das Vorschlagen von Ressourcen statt durch Buchungen, damit der Anforderer die verbleibende Nachfrage verifizieren und nachverfolgen kann.
+- Mehrere Ressourcen vorschlagen, um den Bedarf zu decken, wenn keine einzelne Ressource verfügbar ist, um die geforderten Stunden zu erfüllen. Vorgeschlagene Stunden werden dann auf mehrere Ressourcen aufgeteilt, die für die erforderlichen Stunden ausreichend sind. In diesem Szenario können sich die Stunden nicht überschneiden.
+- Schlagen Sie weniger Ressourcen als erforderlich vor. In diesem Szenario ist die vorgeschlagene Ressourcenkapazität geringer als die erforderlichen Stunden, die vom Anforderer angegeben wurden. Wenn der Anfragende die vorgeschlagenen Ressourcen akzeptiert, wird daher eine nicht erfüllte Ressourcenanforderung erstellt, um den restlichen Bedarf zu erfassen.
+- Mehrere Ressourcen buchen, um den Bedarf zu decken, wenn keine einzelne Ressource verfügbar ist, um die Arbeit zu erledigen.
+- Weniger Ressourcen buchen als benötigt werden. In diesem Szenario sind die gebuchten Stunden geringer als die benötigten Stunden. Das System führt Sie durch das Vorschlagen von Ressourcen statt durch Buchungen, damit der Anforderer die verbleibende Nachfrage verifizieren und nachverfolgen kann.
 
 ## <a name="resource-availability"></a>Ressourcenverfügbarkeit
 

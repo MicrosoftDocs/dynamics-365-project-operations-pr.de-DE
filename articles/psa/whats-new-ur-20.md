@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147112"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280667"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation Update Release 20, V3
 
@@ -42,7 +42,7 @@ Die folgenden Probleme wurden behoben:
 
 - Das Importieren von Projektteammitgliedern mit einer Zuordnungsmethode, die mehrere Stunden erfordert, führt zu einer unklaren Fehlermeldung, wenn null Stunden angegeben sind.
 - Benutzern wird eine falsche Fehlermeldung angezeigt, wenn die maximale Anzahl von Zeichen in das Feld **Beschreibung** für eine Projektaufgabe eingegeben wurde.
-- Von der **Downloadseite für das Microsoft Dynamics 365 Project Service Automation-Add-In** wird zur englischen Downloadseite weitergeleitet, wenn Japanisch in den Spracheinstellungen des Benutzers festgelegt ist.
+- Die Seite **Microsoft Dynamics 365 Project Service Automation-Add-In-Download** leitet zur englischen Download-Seite weiter, wenn die Spracheinstellungen des Benutzers auf Japanisch eingestellt sind.
 - Wenn ein Serverfehler auftritt, bleibt die Synchronisationsbeschriftung auf der Registerkarte **Zeitplan** des Formulars **Projekte** manchmal bestehen.
 - Redundante Aufgabenaktualisierungen werden an den Server gesendet, wenn eine Aufgabe geändert wird.
 

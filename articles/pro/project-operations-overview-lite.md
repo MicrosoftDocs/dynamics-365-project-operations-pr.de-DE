@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365481"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273962"
 ---
 # <a name="lite-deployment-overview"></a>Lite-Bereitstellung – Übersicht
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Der Lite-Bereitstellungstyp von Dynamics 365 Project Operations bietet die folgenden Funktionen für projektbasierte Unternehmen:
+Der Bereitstellungstyp „Lite“ von Dynamics 365 Project Operations bietet projektbasierten Unternehmen folgende Funktionen:
 
 - Projektplanung mit Microsoft Project für das Web
 - Mehrdimensionale Preisgestaltung und Kalkulation für Arbeitsressourcen
@@ -27,7 +27,7 @@ Der Lite-Bereitstellungstyp von Dynamics 365 Project Operations bietet die folge
 - Projektbasiertes Vertriebsmanagement mit Dynamics 365 Sales-Funktionen
 - Universelle Ressourcenplanung, die in andere Anwendungen wie z. B. Dynamics 365 Field Service und Dynamics 365 Customer Service integriert ist
 - Projektfortschritt und Zeiterfassung
-- Grundlegende Kostenverfolgung für projektbezogene Ausgaben
+- Grundlegende Nachverfolgung von Kosten für projektbezogene Spesen
 - Proforma-Rechnungsstellung, die überprüft und zur Verarbeitung an ein Finanzsystem gesendet werden kann
 - Erweiterbarkeit durch Power Platform
 

@@ -8,27 +8,27 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123872"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279497"
 ---
 # <a name="resource-management-key-concepts"></a>Wichtige Konzepte für die Ressourcenverwaltung
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Ressourcen sind die wichtigsten Anlagen einer dienstbasierten Organisation. Die Möglichkeit, die richtigen Ressourcen zum richtigen Zeitpunkt zu finden, diese Ressourcen für Projekte zu buchen und die Ressourcen weiterhin zu nutzen, hilft der Organisation dabei, Umsatzziele und Kundenzufriedenheitsziele zu erreichen. Sie können die Ressourcenfunktion für Projekte in Dynamics 365 Project Operations verwenden, um die folgenden Aufgaben auszuführen:
+Ressourcen sind die wichtigsten Anlagen einer dienstbasierten Organisation. Die Möglichkeit, die richtigen Ressourcen zum richtigen Zeitpunkt zu finden, diese Ressourcen für Projekte zu buchen und die Ressourcen weiterhin zu nutzen, hilft der Organisation dabei, Umsatzziele und Kundenzufriedenheitsziele zu erreichen. Mit der Projektressourcen-Funktionalität in Dynamics 365 Project Operations können Sie die folgenden Aufgaben durchführen:
 
-- Bilden Sie Projektteams durch das Buchen verfügbarer und qualifizierter Ressourcen.
+- Bilden Sie Projektteams, indem Sie verfügbare und qualifizierte Ressourcen buchen.
 - Erstellen Sie generische Teammitgliedsdatensätze und definieren Sie ihre Rollen und Ressourcenorganisationseinheit.
 - Generieren Sie Ressourcenanforderungen für generische Teammitglieder aus ihren Aufgabenzuweisungen.
 - Führen Sie einen Abgleich der Fähigkeiten durch, indem Sie die für die Ressourcennachfrage definierten Fähigkeiten mit den verfügbaren Ressourcenfähigkeiten vergleichen.
 - Ersetzen Sie Ressourcen.
-- Richten Sie Zuweisungen und Ressourcenbuchungen für den Projektzeitplan aus.
-- Stimmen Sie die Unterschiede zwischen Buchungen und Zuweisungen ab.
-- Ändern Sie die Ressourcenbuchungen als Reaktion auf den Abwesenheitsstatus.
+- Gleichen Sie Projektplanzuweisungen und Ressourcenbuchungen ab.
+- Stimmen Sie Differenzen in Buchungen und Zuweisungen ab.
+- Ändern Sie Ressourcenbuchungen als Reaktion auf den Abwesenheitsstatus.
 - Ermöglichen Sie das Zusammenarbeiten von Projektmanagern und Ressourcen-Managern.
 - Zeigen Sie den Verlauf für die Ressourcennutzung gegen ein Ziel an, einschließlich einer Aufschlüsselung zur Nutzung der Zeit der Ressourcen.
 - Pflegen Sie ein Repository für Fähigkeiten und Kompetenzen.

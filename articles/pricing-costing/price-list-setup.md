@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275492"
 ---
 # <a name="set-up-price-lists"></a>Preislisten einrichten
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Preislisten in Dynamics 365 Project Operations stellen einen Katalog von Tarifen dar. Die Preise drücken Kosten-, Umsatz- und Rechnungssätze aus. Abhängig davon, ob die Preisliste Kostensätze oder Verkaufs- und Rechnungssätze ausdrückt, lautet der Kontext der Preisliste **Umsatz** oder **Kosten**.
+In Dynamics 365 Project Operations stellen Preislisten einen Katalog von Preisen dar. Die Preise drücken Kosten-, Umsatz- und Rechnungssätze aus. Abhängig davon, ob die Preisliste Kostensätze oder Verkaufs- und Rechnungssätze ausdrückt, lautet der Kontext der Preisliste **Umsatz** oder **Kosten**.
 
 Die folgenden Erweiterungen gelten speziell für Project Operations und werden auf Preislisten von Dynamics 365 Sales angewendet.
 

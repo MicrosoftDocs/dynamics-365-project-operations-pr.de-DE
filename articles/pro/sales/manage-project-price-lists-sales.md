@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175980"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273017"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projektpreislisten in Projektangeboten verwalten – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Projektangebote unterstützen effektive Verkaufspreislisten mit mehreren Daten. Mit Dynamics 365 Project Operations wird eine neue zugeordnete Entität mit der Bezeichnung **Projektpreislisten** hinzugefügt. Diese Entität hat eine 1:n-Beziehung zu einem Projektangebot.
+Projektangebote unterstützen effektive Verkaufspreislisten mit mehreren Daten. Mit Dynamics 365 Project Operations wird eine neue zugeordnete Entität namens **Projektpreislisten** ergänzt. Diese Entität hat eine 1:n-Beziehung zu einem Projektangebot.
 
 Projektpreislisten werden verwendet, um Zeit- und Kostentransaktionen für ein Projekt zu bewerten. Wenn ein Angebot eine oder mehrere Projektpreislisten enthält, werden diese Preislisten verwendet, um Zeit- und Kostenschätzungen sowie Istwerte für Projekte zu bewerten, die dem Angebot über die Angebotszeile zugeordnet sind.
 

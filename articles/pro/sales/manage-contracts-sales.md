@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273197"
 ---
 # <a name="manage-project-contracts"></a>Projektverträge verwalten
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Projektverträge in Dynamics 365 Project Operations erfassen und verwalten die vertraglich vereinbarten Verpflichtungen und Rechnungsdetails eines Projekts. Die Struktur eines Projektvertrags in Project Operations ist auf projektbasierte Arbeit mit folgenden Komponenten zugeschnitten:
+In Dynamics 365 Project Operations werden die vertraglich vereinbarten Verpflichtungen und Rechnungsdetails eines Projekts in Projektverträgen erfasst und verwaltet. Die Struktur eines Projektvertrags in Project Operations ist auf projektbasierte Arbeit mit folgenden Komponenten zugeschnitten:
 
-- Vertragszeilen, die die diskreten Komponenten der Arbeit identifizieren, die als übergeordnete Komponenten auf einer Projektrechnung dargestellt werden.
+- Vertragszeilen, die die diskreten Komponenten der Arbeit identifizieren, die als übergeordnete Komponenten für eine Projektrechnung dargestellt werden
 - Vertragszeilendetails, die die Arbeit für jede übergeordnete Komponente oder Vertragszeile identifizieren und schätzen. Die Schätzung enthält den Zeitplan und die finanziellen Aspekte für die an die Vertragszeile gebundenen Arbeiten.
 - Vertragsmodelle und kostenpflichtige Komponenten werden für jede Vertragszeile eingerichtet, die die Abrechnungsvereinbarung für jede Vertragszeile und den Gesamtvertrag enthält.
 

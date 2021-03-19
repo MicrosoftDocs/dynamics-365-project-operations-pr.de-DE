@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642137"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278642"
 ---
 # <a name="project-contracts---key-concepts"></a>Projektverträge – Wichtige Konzepte
 
@@ -29,11 +29,11 @@ Das zuständige Unternehmen ist die juristischen Person aus dem Modul **Projektm
 
 ## <a name="contracting-unit"></a>Vertragseinheit
 
-Die Vertragseinheit repräsentiert die Abteilung oder Praxis, der die Projektbereitstellung gehört. Sie können Ressourcenkosten für jede Vertragseinheit einrichten. Wenn Sie die Ressourcenkosten für eine Ressource angeben, können Sie auch unterschiedliche Kostensätze für Ressourcen einrichten. Diese Vertragseinheit leiht diese Ressourcen von anderen Abteilungen oder Verfahren innerhalb des Unternehmens. Die Kostensätze für die Ressourcen werden als Verrechnungspreise, Ausleihe von Ressourcen oder Wechselkurse bezeichnet. Wenn Sie die Kostensätze für das Ausleihen von Ressourcen aus anderen Geschäftsbereichen festlegen, verwenden Sie die Währung der ausleihenden Abteilung.
+Die Vertragseinheit repräsentiert die Abteilung oder Praxis, der die Projektbereitstellung gehört. Sie können für jede Vertragseinheit Ressourcenkosten einrichten. Wenn Sie die Ressourcenkosten für eine Ressource angeben, können Sie auch unterschiedliche Kostensätze für Ressourcen einrichten. Diese Vertragseinheit leiht diese Ressourcen von anderen Abteilungen oder Verfahren innerhalb des Unternehmens. Die Kostensätze für die Ressourcen werden als Verrechnungspreise, Ausleihe von Ressourcen oder Wechselkurse bezeichnet. Wenn Sie die Kostensätze für das Ausleihen von Ressourcen aus anderen Geschäftsbereichen festlegen, verwenden Sie die Währung der ausleihenden Abteilung.
 
 ## <a name="cost-currency"></a>Kostenwährung
 
-Die Kostenwährung ist die Währung, in der die Kosten auf dem Bildschirm gemeldet werden. Diese Währung leitet sich von der Währung ab, die dem Feld **Vertragseinheit** im Vertrag und Projekt beigefügt ist. Kosten können in jeder Währung für ein Projekt protokolliert werden. Es erfolgt jedoch eine Währungsumrechnung aus der Währung, in der die Kosten erfasst wurden, in die Kostenwährung des Projekts, wenn dies auf dem Bildschirm angezeigt wird.
+Die Kostenwährung ist die Währung, in der die Kosten auf dem Bildschirm gemeldet werden. Diese Währung leitet sich von der Währung ab, die dem Feld **Vertragseinheit** im Vertrag und Projekt beigefügt ist. Kosten können in jeder Währung gegen ein Projekt protokolliert werden. Es erfolgt jedoch eine Währungsumrechnung aus der Währung, in der die Kosten erfasst wurden, in die Kostenwährung des Projekts, wenn dies auf dem Bildschirm angezeigt wird.
 
 Da die Wechselkurse auf der Common Data Service-(CDS-)Plattform nicht datumsabhängig sein können, können sich die auf dem Bildschirm angezeigten Kostensummen im Laufe der Zeit ändern, wenn Sie die Wechselkurse aktualisieren. Die in der Datenbank erfassten Kosten bleiben jedoch unverändert, da die Beträge in der Währung gespeichert werden, in der sie angefallen sind.
 
@@ -62,8 +62,8 @@ Wenn ein Projektvertrag durch den Gewinn eines Projektangebots erstellt wird, we
 
 Project Operations unterstützt vier Arten von Transaktionsklassen:
 
-- Zeit
-- Ausgaben
+- Uhrzeit
+- Ausgabe
 - Material
 - Gebühr
 
@@ -71,9 +71,9 @@ Kosten- und Verkaufswerte können für die Transaktionsklassen Zeit, Kosten und 
 
 ## <a name="work-entities-and-billing-entities"></a>Arbeits- und Fakturierungsentitäten
 
-Entitäten, die Arbeit darstellen, sind Projekte und Aufgaben. Entitäten, die Fakturierungsaspekte darstellen, sind Vertragszeilen. Sie können verschiedene Arbeitsentitäten mit Fakturierungsoptionen verknüpfen, indem Sie sie Vertragszeilen zuordnen.
+Entitäten, die Arbeit darstellen, sind Projekte und Aufgaben. Entitäten, die Abrechnungsaspekte darstellen, sind Vertragszeilen. Sie können verschiedene Arbeitseinheiten mit Abrechnungsoptionen verknüpfen, indem Sie sie an Vertragszeilen binden.
 
-## <a name="multi-customer-deals"></a>Geschäfte mit mehreren Kunden
+## <a name="multi-customer-deals"></a>Mehrkundenangebote
 
 Bei Geschäften mit mehreren Kunden gibt es mehr als einen Kunden, dem bei einem Geschäft eine Rechnung gestellt werden muss. Hierzu zählen folgende gängige Beispiele:
 
@@ -83,7 +83,7 @@ Bei Geschäften mit mehreren Kunden gibt es mehr als einen Kunden, dem bei einem
 
 ## <a name="invoice-schedules"></a>Rechnungszeitpläne
 
-Rechnungszeitpläne sind für jede Vertragszeile spezifisch und erforderlich, damit die automatische Rechnungsstellung funktioniert. Rechnungszeitpläne werden basierend auf bestimmten Start- und Enddaten und der Rechnungshäufigkeit erstellt. Die Zeitpläne werden in der Vertragsphase verwendet, wenn der automatische Rechnungserstellungsprozess konfiguriert ist. Wenn aus einem Angebot ein Projektvertrag erstellt wird, wird der Rechnungszeitplan aus dem Angebot in den Projektvertrag kopiert.
+Rechnungszeitpläne sind für jede Vertragszeile spezifisch und erforderlich, damit die automatische Rechnungsstellung funktioniert. Rechnungszeitpläne werden basierend auf bestimmten Start‑ und Enddaten und der Rechnungshäufigkeit erstellt. Die Zeitpläne werden in der Vertragsphase verwendet, wenn der automatische Rechnungserstellungsprozess konfiguriert ist. Wenn aus einem Angebot ein Projektvertrag erstellt wird, wird der Rechnungszeitplan aus dem Angebot in den Projektvertrag kopiert.
 
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Änderungen gegenüber dem Dynamics 365 Sales-Auftrag
 

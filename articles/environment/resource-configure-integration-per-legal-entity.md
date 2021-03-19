@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122882"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276977"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations-Integration pro juristische Person konfigurieren 
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Dieses Thema führt Sie durch die Schritte, die zum Konfigurieren von Dynamics 365 Project Operations pro juristischer Person erforderlich sind.
+Dieses Thema führt Sie durch die erforderlichen Schritte zur Konfiguration von Dynamics 365 Project Operations pro juristischer Person.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Wichtige Funktionen in Dynamics 365 Finance aktivieren
 

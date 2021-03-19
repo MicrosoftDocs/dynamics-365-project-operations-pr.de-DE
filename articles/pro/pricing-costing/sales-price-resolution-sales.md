@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274502"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Vertriebspreise für Schätzungen und tatsächliche Transaktionen auflösen – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Wenn Verkaufspreise für Vorkalkulationen und Istwerte in Dynamics 365 Project Operations aufgelöst werden, verwendet das System zuerst das Datum und die Währung des zugehörigen Projektangebots oder Vertrags, um die Verkaufspreisliste aufzulösen. Nachdem die Verkaufspreisliste aufgelöst wurde, löst das System den Verkaufs- oder Fakturierungssatz auf.
+Wenn Verkaufspreise für Schätzungen und Istwerte in Dynamics 365 Project Operations aufgelöst werden, verwendet das System zunächst das Datum und die Währung des verknüpften Projektangebots oder -vertrags, um die Vertriebspreisliste aufzulösen. Nachdem die Verkaufspreisliste aufgelöst wurde, löst das System den Verkaufs- oder Fakturierungssatz auf.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Verkaufsraten in Istwert- und Vorkalkulationszeilen für Zeit auflösen
 

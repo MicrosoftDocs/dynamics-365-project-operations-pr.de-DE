@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513788"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272837"
 ---
 # <a name="manage-leads---lite"></a>Leads verwalten – Lite
 
@@ -69,7 +69,7 @@ Der Lead-zu-Verkaufschance-Geschäftsprozess unterstützt die folgenden Phasen:
 | Name der Phase | Zugeordnete Entität | Funktionalität |
 | --- | --- | --- |
 | Qualifizieren | Lead | Qualifizieren des Leads, um eine Firma, einen Kontakt und eine Verkaufschance zu erstellen. |
-| Entwickeln | Verkaufschance | Entwickeln Sie die Verkaufschance, um weitere Informationen über die Arbeit, die wichtigsten Interessengruppen und die Mitbewerber hinzuzufügen. |
+| Entwickeln | Verkaufschance | Entwickeln Sie die Möglichkeit, weitere Informationen über die Arbeit, die wichtigsten Interessengruppen und den Wettbewerb hinzuzufügen. |
 | Vorschlagen | Verkaufschance | Entwickeln Sie den Vorschlag und holen Sie sich vom internen Überprüfungsteam eine Genehmigung. |
 | Schließen | Verkaufschance | Gewinnen Sie die Verkaufschance, um den Deal zu schließen. |
 

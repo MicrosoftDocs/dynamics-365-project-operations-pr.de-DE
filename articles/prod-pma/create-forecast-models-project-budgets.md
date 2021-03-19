@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076660"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271037"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Prognosemodelle für Projektbudgets erstellen 
 
@@ -41,14 +41,14 @@ In diesem Thema wird beschrieben, wie Sie ein Prognosemodell für verbleibende B
 5. Um das Projektdatum als Rechnungsdatum zu verwenden, legen Sie **Datum der Planungsrechnung** auf **Ja** fest. 
 6. Wählen Sie im Feld **Budgettyp** eines der folgenden Modelltypen aus:
 
-   - **Ursprüngliches Budget** : Verwenden Sie die ursprünglichen Budgetbeträge, die bei der Erstellung und Genehmigung des ursprünglichen Budgets festgelegt wurden.
-   - **Übriges Budget** : Verwenden Sie die verbleibenden Budgetbeträge während der Laufzeit des Projekts. Die Salden in diesem Prognosemodell werden durch tatsächliche Transaktionen reduziert und durch Budgetüberarbeitungen erhöht oder verringert.
-   - **Vortrag** : Verwenden Sie die Vortragsbudgetbeträge für das Projekt. Ein Vortrag ist ein optionaler Prozess, der ausgeführt werden kann, um nicht verwendete Budgetbeträge von einem Geschäftsjahr in ein anderes zu übertragen.
+   - **Ursprüngliches Budget**: Verwenden Sie die ursprünglichen Budgetbeträge, die bei der Erstellung und Genehmigung des ursprünglichen Budgets festgelegt wurden.
+   - **Übriges Budget**: Verwenden Sie die verbleibenden Budgetbeträge während der Laufzeit des Projekts. Die Salden in diesem Prognosemodell werden durch tatsächliche Transaktionen reduziert und durch Budgetüberarbeitungen erhöht oder verringert.
+   - **Vortrag**: Verwenden Sie die Vortragsbudgetbeträge für das Projekt. Ein Vortrag ist ein optionaler Prozess, der ausgeführt werden kann, um nicht verwendete Budgetbeträge von einem Geschäftsjahr in ein anderes zu übertragen.
 
 7. Legen Sie bei Bedarf die folgenden Optionen fest:
 
-   - Aktivieren Sie **Datum der Planungsrechnung** , um das Projektdatum als Rechnungsdatum zu verwenden.
-   - Aktivieren Sie **Planung mit WIP** , um basierend auf WIP zu prognostizieren. Wählen Sie dann die Art der WIP aus. 
+   - Aktivieren Sie **Datum der Planungsrechnung**, um das Projektdatum als Rechnungsdatum zu verwenden.
+   - Aktivieren Sie **Planung mit WIP**, um basierend auf WIP zu prognostizieren. Wählen Sie dann die Art der WIP aus. 
    - Sie können die Standardeinstellung für **Budgettyp** als **Keiner** beibehalten, oder einen neuen Typ eingeben. Der Budgettyp kann nicht geändert werden, nachdem Sie einen Datensatz geändert haben.     
     > [!NOTE]
     > Wenn Sie den Standardbudgettyp ändern, stehen alle anderen Optionen nicht mehr für Aktualisierungen zur Verfügung, und Sie können dieses Prognosemodell nicht wiederverwenden. 

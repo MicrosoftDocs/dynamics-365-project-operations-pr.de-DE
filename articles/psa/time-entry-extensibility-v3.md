@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149632"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282062"
 ---
 # <a name="customize-weekly-time-entry"></a>Wöchentlichen Zeiteintrag anpassen 
 
@@ -31,7 +31,7 @@ ms.locfileid: "5149632"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In Microsoft Dynamics 365 Project Service Automation Version 3.3 hat Microsoft ein modernes Raster eingeführt, mit dem Projektressourcen schnell mit einem Mal die Zeit für bis zu eine Woche eingeben können. Im neuen Raster für den wöchentlichen Zeiteintrag können Summen für Einträge nach Datum, Zeile oder Woche angezeigt werden. Ressourcen können Kopien von Zeiteinträgen innerhalb der Woche und auch Massenkopien von vorherigen Wochen erstellen. Systemanpasser können die Ansicht anpassen, indem sie Felder und Suchen für die anderen Entitäten hinzufügen und benutzerdefinierte Geschäftsregeln implementieren, um die Verfahrensweise ihrer Organisation zu unterstützen.
+In Microsoft Dynamics 365 Project Service Automation Version 3.3 hat Microsoft ein modernes Raster eingeführt, mit dem Projektressourcen schnell die Zeit für bis zu jeweils einer Woche eingeben können. Im neuen Raster für den wöchentlichen Zeiteintrag können Summen für Einträge nach Datum, Zeile oder Woche angezeigt werden. Ressourcen können Kopien von Zeiteinträgen innerhalb der Woche und auch Massenkopien von vorherigen Wochen erstellen. Systemanpasser können die Ansicht anpassen, indem sie Felder und Suchen für die anderen Entitäten hinzufügen und benutzerdefinierte Geschäftsregeln implementieren, um die Verfahrensweise ihrer Organisation zu unterstützen.
 
 Der Zeiteintrag und das neue wöchentliche Zeitraster können über die Siteübersicht aufgerufen werden. Der nicht erweiterbare benutzerdefinierte Zeiteintrag, der in früheren PSA-Versionen vorhanden war, wurde durch das erweiterbare Raster für den wöchentlichen Zeiteintrag ersetzt. Außerdem wurde er durch eine alternative Funktion im schreibgeschützten Raster und im Kalender ersetzt. Aufgrund dieser Änderung können Benutzer die Zeit in wöchentlichen Beträgen eingeben.
 

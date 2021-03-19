@@ -1,6 +1,6 @@
 ---
 title: Neu gestaltete Spesenabrechnungen
-description: Dieses Thema enthält Informationen zu der neu gestalteten und neu entworfenen Erfahrung für die Erfassung von Spesenabrechnungen in Microsoft Dynamics 365 Finance. Die neue Erfahrung vereinfacht das Ausfüllen von Spesenabrechnungen und verkürzt die erforderliche Zeit.
+description: Dieses Thema enthält Informationen zu der neu gestalteten und neu entworfenen Erfahrung für die Erfassung von Ausgabenabrechnungen.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960246"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271982"
 ---
 # <a name="redesigned-expense-reports"></a>Neu gestaltete Spesenabrechnungen
 
@@ -41,15 +41,9 @@ Wenn Sie die neue Erfahrung aktivieren möchten, verwenden Sie den Arbeitsbereic
 - Es werden keine vorhandenen Menüelemente für Ausgabenabrechnungen (die vorhandene Seite) oder Ausgabenabrechnungsfelder entfernt.
 - Workflows und Genehmigungen führen Sie weiterhin zur vorhandenen Seite mit den Ausgabenabrechnungen.
 
-## <a name="getting-started-video-for-new-users"></a>Video mit den ersten Schritten für neue Benutzer
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Das Video [Ausgabenerfahrung in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (siehe oben) ist in der [Finance and Operations-Wiedergabeliste](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) enthalten, die auf YouTube verfügbar ist.
-
 ## <a name="new-features"></a>Neue Funktionen
 
-| Neue Funktion | Beschreibung des Dataflows |
+| Neue Funktion | Beschreibung |
 |---|----|
 | Ausgabenfeldsichtbarkeit | Auf einer neuen Einrichtungsseite können Sie angeben, welche Felder für eine Organisation deaktiviert werden sollen, welche Felder erforderlich sein sollen und welche Felder empfohlen werden. |
 | Erforderliche Felder | Mit der neuen einfachen Konfiguration können Sie einige Felder erforderlich machen, ohne das Richtlinien-Framework verwenden zu müssen. |
