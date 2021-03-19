@@ -3,17 +3,17 @@ title: Verhalten der Zeiteintrags-Benutzeroberfläche
 description: Dieses Thema bietet Informationen über das Verhalten der Benutzeroberfläche bei Zeiteinträgen.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124502"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499613"
 ---
 # <a name="time-entry-ui-behavior"></a>Verhalten der Zeiteintrags-Benutzeroberfläche
 
@@ -22,7 +22,20 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 Das Raster **Wöchentlicher Zeiteintrag** ist ein benutzerdefiniertes Steuerelement mit den zwei Hauptbereichen **Dimensionen** und **Dauer**.
 
-## <a name="dimensions"></a>Maße
+## <a name="keyboard-shortcuts"></a>Tastenkombinationen
+| Aktion        | Verknüpfung                  |
+|------------   |------------------------   |
+| Neu           | ALT + UMSCHALT + N           |
+| Zeile kopieren      | ALT + UMSCHALT + C           |
+| Eintrag bearbeiten    | ALT + UMSCHALT + E           |
+| Zeile bearbeiten      | ALT + UMSCHALT + STRG + E    |
+| Eintrag öffnen    | ALT + UMSCHALT + O           |
+| Senden        | ALT + UMSCHALT + S           |
+| Rückruf        | ALT + UMSCHALT + R           |
+| Entf        | ALT + UMSCHALT + D           |
+| Woche kopieren     | ALT + UMSCHALT + W           |
+
+## <a name="dimensions"></a>Dimensionen
 Der Abschnitt **Dimensionen** zeigt die Dimensionen an, für die eine Zeit eingegeben werden kann. Die folgenden Dimensionen werden standardmäßig unterstützt:
 
   - Project
@@ -40,7 +53,7 @@ Im Abschnitt „Dauer” werden die Wochentage als Spaltenüberschriften angezei
 
 1. Wählen Sie im Zeiteintragsraster die Option **Neu** aus. 
 2. Wählen Sie im Dialogfeld **Schnellerfassung für Zeiteintrag** das Datum der Zeiteingabe aus.
-3. Geben Sie Daten für die Dimensionen **Projekt**, **Projektaufgabe**, **Rolle** und **Dauer** ein. Diese Informationen sollten in Minuten, Stunden oder Tagen hinzugefügt werden, indem Sie **h**, **m** oder **d** zusammen mit der Zahl eingeben. 
+3. Geben Sie Daten für die Dimensionen **Projekt**, **Projektaufgabe**, **Rolle** und **Dauer** ein. Geben Sie diese Informationen in Minuten, Stunden oder Tagen an, indem Sie **h**, **m** oder **t** zusammen mit der Zahl eingeben. 
 4. Geben Sie eine Beschreibung für den Eintrag und Kommentare ein, die extern für den Zeiteintrag freigegeben werden können. 
 
 Wenn Sie den Eintrag speichern, werden die eingegebenen Werte im Abschnitt **Dimensionen** angezeigt. Die im Feld **Dauer** eingegebenen Informationen werden im Datum angezeigt, für das der Zeiteintrag erstellt wurde.

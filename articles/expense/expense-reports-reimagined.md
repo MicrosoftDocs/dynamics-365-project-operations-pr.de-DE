@@ -1,9 +1,9 @@
 ---
 title: Neu gestaltete Spesenabrechnungen
-description: Dieses Thema enthält Informationen zu der neu gestalteten und neu entworfenen Erfahrung für die Erfassung von Ausgabenabrechnungen.
+description: In diesem Thema wird die neu gestaltete Umgebung zur Erfassung von Spesenabrechnungen erläutert.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122792"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499715"
 ---
 # <a name="expense-reports-reimagined"></a>Neu gestaltete Spesenabrechnungen
 
@@ -59,25 +59,22 @@ Das Video [Ausgabenerfahrung in Dynamics 365 for Finance and Operations](https:/
 | Reduzierung der Nachrichten in der Nachrichtenleiste| Die Anzahl der Infolog-Nachrichten wurde verringert, und es wurde versucht, in vielen Fällen zu verhindern, dass doppelte Nachrichten angezeigt werden. |
 | Gemeinsame Aktionen wurden zusammengefasst | Die Benutzeroberfläche wurde mit einer neuen Aktionsschaltfläche für die meisten gängigen Aktionen auf Positionsebene und mit einer Ellipsenschaltfläche (...) für Kopfzeilen und andere weniger häufige Aktionen bereinigt. |
 | Neuer Arbeitsbereich zur Erhöhung der Sichtbarkeit | Ein neuer Arbeitsbereich vereint Funktionen und Links, mit denen Benutzer in verschiedene Bereiche wechseln können. |
-| Vorhandene Ausgaben und Belege während der Ausgabenerstellung hinzufügen | Wenn Sie Ausgabenabrechnungen erstellen, können Sie alle oder ausgewählte Ausgaben und Belege hinzufügen. |
+| Vorhandene Ausgaben und Belege während der Ausgabenerstellung hinzufügen | Bei der Erstellung von Spesenabrechnungen können Sie alle Ausgaben hinzufügen oder nicht angehängte Ausgaben auswählen. Nicht angehängte Ausgaben sind Ausgaben, die aus dem Kreditkarten-Feed des Unternehmens importiert wurden, oder Ausgaben, die vom Benutzer manuell erstellt, aber nicht an eine Spesenabrechnung angehängt wurden.|
 | Wechselkursrechner | Es wurde ein Wechselkursrechner hinzugefügt, mit dem Sie den Wechselkurs für Transaktionen mit mehreren Währungen aus eigener Tasche berechnen können. |
 | Speichern und Hinzufügen neuer Ausgabenpositionen | Die Schaltflächen **Speichern** und **Neu** sind bei der Eingabe neuer Ausgaben verfügbar, mit denen Sie schnell Ausgabenpositionen eingeben können. |
 | Bessere Sichtbarkeit in geteilte und aufgeschlüsselte Positionen | Aufgeschlüsselte und geteilte Positionen werden direkt der Liste der Ausgaben hinzugefügt, um die Sichtbarkeit zu erhöhen und um leicht festzustellen, ob Fehler vorliegen. |
 | Belege während der Auflistung anzeigen | Belege können während der Auflistung angezeigt werden. |
+| Barvorschussauswahl | Wählen Sie einen oder mehrere Barvorschüsse aus, um eine einzelne Ausgabentransaktion durchzuführen. |
+| Barvorschusssaldo | Überprüfen Sie den Barvorschusssaldo in Echtzeit, wenn Sie einen Speseneintrag für genehmigte und bezahlte Barvorschüsse erstellen. |
 
 Die erste Version konzentriert sich auf Ausgabenabrechnungsszenarien. In jedem Ausgabenabrechnungs- oder Genehmigungsszenario wird weiterhin die vorhandene Ausgabenabrechnung verwendet.
 
-Die folgenden Funktionen sind auf der vorhandenen Seite vorhanden, auf der neuen Seite jedoch noch nicht. Diese Funktionen werden in den nächsten Versionen wieder eingeführt:
+Die folgenden Funktionen werden im Arbeitsbereich „Neu gestaltete Spesenabrechnung“ nicht unterstützt:
 
-- Genehmigungen
-- Kreditorengenehmigungen und die Möglichkeit, die Buchhaltung zu bearbeiten
-- Mehrere Eintragungspunkte
 - Reiseanforderungsintegration
-- Sichtbarkeit der Datenentität für das Ausgabenfeld
-- Eintrag für Tagesausgaben
-- Workflow auf Positionsebene
+- Speseneintrag pro Tag
 - Unterstützung für temporäre Genehmiger
-- Erweiterte Auflistung
+- Möglichkeit zum Anzeigen des Workflow-Verlaufs
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

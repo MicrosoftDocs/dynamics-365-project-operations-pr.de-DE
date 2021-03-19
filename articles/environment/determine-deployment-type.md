@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401217"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479563"
 ---
 # <a name="determine-your-deployment-type"></a>Bereitstellungstyp festlegen
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 > [!IMPORTANT]
-> Nachdem Sie die Lizenz gekauft haben, beginnen Sie hier, um das beste Bereitstellungsmodell für Dynamics 365 Project Operations mithilfe des [geführten Installationsablaufs](https://aka.ms/provisionprojectoperations) zu ermitteln.
+> Beginnen Sie nach dem Kauf der Lizenz hier, um das beste Bereitstellungsmodell für Dynamics 365 Project Operations mithilfe des [ Geführten Installationsflows](https://aka.ms/provisionprojectoperations) zu ermitteln.
 > Nachdem Sie den geführten Installationsablauf abgeschlossen haben, werden Sie zum richtigen Verwaltungsportal weitergeleitet, um Ihre Installation abzuschließen. Weitere Informationen zum Abschluss der Installation finden Sie in den Bereitstellungsdetails.
 
 
@@ -31,6 +31,9 @@ Project Operations umfasst die Funktionen, die mit Project Service Automation ge
 
 Bestehende Finance-Kunden, die die Projektmanagement- und Buchhaltungsfunktion verwenden, können sie weiterhin unverändert verwenden. Weitere Informationen finden Sie unter [Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigungsaufträgen](#pma).
 
+
+## <a name="deployment-regions"></a>Bereitstellungsregionen
+Informationen dazu, welche Regionen die Bereitstellung von Project Operations unterstützen, finden Sie unter [Geografische Verfügbarkeit für Dynamics 365- und Power Platform-Berichte](https://dynamics.microsoft.com/en-us/geographic-availability/). Wählen Sie **Bericht anzeigen** aus, und erweitern Sie **Dynamics 365 > Operations-Apps > Dynamics 365 Project Operations**, um sich die unterstützten Regionen anzeigen zu lassen.
 
 ## <a name="deployment-types"></a>Bereitstellungstypen
 Project Operations unterstützt mehrere Bereitstellungsoptionen, die Ihren Anforderungen entsprechen. Unabhängig davon, ob Sie ein neuer oder vorhandener Dynamics 365-Kunde sind, kann Project Operations Ihre Anforderungen unterstützen.

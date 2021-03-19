@@ -1,5 +1,5 @@
 ---
-title: Ausgaben über Mobil
+title: Mobile Ausgaben-App
 description: Dieses Thema bietet Informationen über die Ausgabenverwaltung im mobilen Arbeitsbereich.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120902"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499895"
 ---
-# <a name="expense-using-mobile"></a>Ausgaben über Mobil
+# <a name="mobile-expense-app"></a>Mobile Ausgaben-App
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
