@@ -1,6 +1,6 @@
 ---
 title: Synchronisieren Sie Projektschätzungen direkt von Project Service Automation zu Finance and Operations
-description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektstunenschätzungen und Projektausgabenschätzungen direkt von Microsoft Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
+description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektstundenschätzungen und Projektausgabenschätzungen direkt von Microsoft Dynamics 365 Project Service Automation zu Dynamics 365 Finance verwendet werden.
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076652"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289458"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisieren Sie Projektschätzungen direkt von Project Service Automation zu Finance and Operations
 
@@ -137,7 +137,7 @@ In der Vorlage für Projektausgabenschätzungen müssen Sie Microsoft Power Quer
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtern, um nur Ausgabenschätzungszeilen einzuschließen
 
-Die Vorlage Projektkostenschätzungen (PSA zu Fin und Ops) verfügt über einen Standardfilter, der nur Ausgabenzeilen in die Integration einbezieht. Wenn Sie eine eigene Vorlage erstellen, müssen Sie diesen Filter hinzufügen. Wählen Sie die Aufgabe **Transaktionsbeziehungen** und klicken Sie dann auf den Pfeil **Zuordnen** , um das Mapping zu öffnen. Wählen Sie die Verknüpfung **Erweiterte Abfrage und Filterung**. Filtern Sie die Spalte **msdyn\_Transaktionstyp1** , sodass sie nur **msdyn\_Schätzlinie** enthält.
+Die Vorlage Projektkostenschätzungen (PSA zu Fin und Ops) verfügt über einen Standardfilter, der nur Ausgabenzeilen in die Integration einbezieht. Wenn Sie eine eigene Vorlage erstellen, müssen Sie diesen Filter hinzufügen. Wählen Sie die Aufgabe **Transaktionsbeziehungen** und klicken Sie dann auf den Pfeil **Zuordnen**, um das Mapping zu öffnen. Wählen Sie die Verknüpfung **Erweiterte Abfrage und Filterung**. Filtern Sie die Spalte **msdyn\_Transaktionstyp1**, sodass sie nur **msdyn\_Schätzlinie** enthält.
 
 #### <a name="set-the-default-forecast-model-id"></a>Legen Sie die Standardmdell-ID fest
 

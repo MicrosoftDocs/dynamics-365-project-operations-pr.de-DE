@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289638"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronisieren Sie Projektkostenkategorien zwischen Finance and Operations und Project Service Automation
 
@@ -86,7 +86,7 @@ Projektausgabenkategorien werden in Finance verwaltet und als Transaktionskatego
 Wenn Sie mit Project Service Automation synchronisieren, müssen Sie Microsoft Power Query für Excel verwenden, um die Abrechnungsart für die Transaktionskategorie festzulegen. Die Vorlage Projektkosten-Transaktionskategorien (Fin und Ops zu PSA) enthält eine Standardspalte und -zuordnung. Wenn Sie eine eigene Vorlage erstellen, müssen Sie eine bedingte Spalte in Power Query hinzufügen. Führen Sie die folgenden Schritte aus.
 
 1. Klicken Sie auf den Pfeil, um die Zuordnung der Aufgabe Projektausgabenkategorien in der Vorlage Projektausgaben-Transaktionskategorien (Fin und Ops zu PSA) zu öffnen.
-2. Klicken Sie auf die Verknüpfung **Erweiterte Abfrage und Filterung** , um Power Query zu öffnen.
+2. Klicken Sie auf die Verknüpfung **Erweiterte Abfrage und Filterung**, um Power Query zu öffnen.
 2. Wählen Sie **Bedingte Spalte hinzufügen**.
 3. Geben Sie einen Namen für die neue Spalte ein, wie **Abrechnungstyp**.
 4. Geben Sie die folgende Bedingung ein: **Wenn CATEGORYID nicht gleich null ist, dann 19235001, andernfalls null**.

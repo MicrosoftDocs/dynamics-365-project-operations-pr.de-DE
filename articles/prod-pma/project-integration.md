@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289323"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client-Integration
 
@@ -39,13 +39,13 @@ So aktivieren Sie die Integration mit Microsoft Project Client: Ein Microsoft Dy
 
 • Klicken Sie auf **Konfigurieren Sie das Projektclient-Add-In** aus dem Abschnitt **Verknüpfung** > **Einrichtung** des Arbeitsbereichs.
 
-• Klicken Sie auf **Öffnen** und dann klicken Sie auf **Ausführen** , wenn Sie dazu aufgefordert werden.
+• Klicken Sie auf **Öffnen** und dann klicken Sie auf **Ausführen**, wenn Sie dazu aufgefordert werden.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Öffnen und bearbeiten Sie einen vorhandenen Entwurf einer Projektstrukturplanstruktur in Microsoft Project Client
 Wenn ein Projekt in Dynamics 365 Finance bereits einen Projektstrukturplan hat, kann der Projektstrukturplan in der Microsoft Project Client-Anwendung geöffnet werden, wenn sich der Projektstrukturplan in einem Entwurfsstatus befindet. Zum Öffnen von der Seite **Projekt** klicken Sie auf die Verknüpfung **In Microsoft Project öffnen** aus der Registerkarte **Plan**. Diese Seite kann auch in der Microsoft Project Client-Anwendung durch Klicken  von **Öffnen** in der Registerkarte **Microsoft Dynamics 365** geöffnet werden. Wählen Sie die **Juristische Entität** und **Projekt** aus der Liste aus.
 
 > [!NOTE]
-> Wenn Sie den Internet Explorer als Ihren Browser verwenden, müssen Sie auf **speichern** klicken, um manuell von dem Speicherort zu öffnen, an den die Datei heruntergeladen wird. Oder klicken Sie auf **Speichern und öffnen** , um die Datei in Microsoft Project Client zu öffnen. Benennen Sie den Dateinamen beim Speichern nicht um.
+> Wenn Sie den Internet Explorer als Ihren Browser verwenden, müssen Sie auf **speichern** klicken, um manuell von dem Speicherort zu öffnen, an den die Datei heruntergeladen wird. Oder klicken Sie auf **Speichern und öffnen**, um die Datei in Microsoft Project Client zu öffnen. Benennen Sie den Dateinamen beim Speichern nicht um.
 
 Bevor Sie mit Microsoft Project Client Änderungen an der Datei vornehmen, müssen Sie diese auschecken. Klicken Sie auf **Auschecken** in der Registerkarte **Microsoft Dynamics 365**. Dadurch wird verhindert, dass andere Benutzer gleichzeitig die Projektstrukturplan innerhalb von Finance bearbeiten. Um den Projektstrukturplan nach Abschluss aller Änderungen zu veröffentlichen, klicken Sie auf **einchecken** auf der Registerkarte **Microsoft Dynamics 365**.
 
@@ -88,7 +88,7 @@ Um einen neuen Projektstrukturplan mithilfe von Microsoft Project Client zu erst
 
 4.  Wählen Sie das **Projekt** aus.
 
-5.  Klicken Sie auf **Auschecken** auf der Registerkarte **Microsoft Dynamics 365** -
+5.  Klicken Sie auf **Auschecken** auf der Registerkarte **Microsoft Dynamics 365**-
 
 6.  Wenn Sie bereit sind, in Finance zu veröffentlichen, klicken Sie auf **Check-In** auf der Registerkarte **Microsoft Dynamics 365**.
 
@@ -122,7 +122,7 @@ Gehen Sie folgendermaßen vor, um mit Microsoft Project Client einen neuen Proje
 
 6.  Geben Sie den **Projektnamen** ein.
 
-7.  Wählen Sie **Projekttyp** , **Projektgruppe** und die **Projektvertrags-ID** aus. Alternativ können Sie einen neuen Projektvertrag erstellen, indem Sie auf **Neu** klicken.
+7.  Wählen Sie **Projekttyp**, **Projektgruppe** und die **Projektvertrags-ID** aus. Alternativ können Sie einen neuen Projektvertrag erstellen, indem Sie auf **Neu** klicken.
 
 8.  Wählen Sie den **Kalender** aus, der für die Beschaffung verwendet werden soll.
 

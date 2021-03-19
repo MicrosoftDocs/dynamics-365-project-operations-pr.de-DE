@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076507"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289008"
 ---
 # <a name="project-resource-scheduling-performance"></a>Planungsleistung für Projektressourcen
 
@@ -31,7 +31,7 @@ ms.locfileid: "4076507"
 [!include [banner](../includes/preview-banner.md)]
 
 
-Leistungsprobleme im Zusammenhang mit der Ressourcenplanung können auftreten, wenn die Anzahl der Projekte in die Tausende geht. Um die Leistung der Ressourcenplanung zu verbessern, steht eine Funktion zur Verfügung, mit der Benutzer die Zeit reduzieren können, die zum Starten des Ressourcenverfügbarkeitsformulars erforderlich ist. Dies entfernt insbesondere den Rollup-Synchronisierungsprozess für die Ressourcenkapazität und verwendet die Tabelle **ResProjectResource** , um die Ressourcensuche zu beschleunigen. Beachten Sie, dass die Tabelle **ResRollup** nicht länger verwendet wird.
+Leistungsprobleme im Zusammenhang mit der Ressourcenplanung können auftreten, wenn die Anzahl der Projekte in die Tausende geht. Um die Leistung der Ressourcenplanung zu verbessern, steht eine Funktion zur Verfügung, mit der Benutzer die Zeit reduzieren können, die zum Starten des Ressourcenverfügbarkeitsformulars erforderlich ist. Dies entfernt insbesondere den Rollup-Synchronisierungsprozess für die Ressourcenkapazität und verwendet die Tabelle **ResProjectResource**, um die Ressourcensuche zu beschleunigen. Beachten Sie, dass die Tabelle **ResRollup** nicht länger verwendet wird.
 
 > [!IMPORTANT]
 > Wenn eine Abhängigkeit entweder vom Rollup-Synchronisierungsprozess der Ressourcenkapazität oder von der Tabelle **ResProjectResource** besteht, verwenden Sie diese Funktion nicht.
@@ -39,7 +39,7 @@ Leistungsprobleme im Zusammenhang mit der Ressourcenplanung können auftreten, w
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Leistungsverbesserung bei der Ressourcenplanung aktivieren
 Führen Sie die folgenden Schritte aus, um die Leistungsverbesserung bei der Ressourcenplanung zu aktivieren.
 
-1. Navigieren Sie zu **Funktionsverwaltung** > **Alle** , und suchen Sie in der Funktionsliste **Funktion zur Leistungsverbesserung der Ressourcenplanung aktivieren**.
+1. Navigieren Sie zu **Funktionsverwaltung** > **Alle**, und suchen Sie in der Funktionsliste **Funktion zur Leistungsverbesserung der Ressourcenplanung aktivieren**.
 2. Wählen Sie **Jetzt aktivieren** aus.
 
 > [!NOTE]
@@ -54,11 +54,11 @@ Führen Sie die folgenden Schritte aus, um die Leistungsverbesserung bei der Res
  > [!NOTE]
  > Dadurch werden allgemeine Daten an die Tabelle **ResCalendarCapacity** für alle Unternehmen in Ihrer Umgebung verteilt, sodass der Batchauftrag nur in einer juristischen Person ausgeführt werden muss. Die Daten in diesem Batchauftrag werden benötigt, um die Ressourcenkapazität über den zugehörigen Kalender zu berechnen.
 
-8. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Periodisch** > **Projektressourcen** > **Projektressourcen in allen Unternehmen ausfüllen** , und wählen Sie dann **OK** aus. Dies ist das Datenaktualisierungsskript für allgemeine Daten in den Tabellen **ResProjectResource** , **ResCalendarDateTimeRange** und **ResEffectiveDateTimeRange**. Werte für die Felder **PSAPRojSchedRole.RootActivity** werden ebenfalls aktualisiert. Wenn dies nicht ausgeführt wird, erhalten Sie eine Warnung, wenn Sie versuchen, Ressourcenplanungsvorgänge auszuführen.
+8. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Periodisch** > **Projektressourcen** > **Projektressourcen in allen Unternehmen ausfüllen**, und wählen Sie dann **OK** aus. Dies ist das Datenaktualisierungsskript für allgemeine Daten in den Tabellen **ResProjectResource**, **ResCalendarDateTimeRange** und **ResEffectiveDateTimeRange**. Werte für die Felder **PSAPRojSchedRole.RootActivity** werden ebenfalls aktualisiert. Wenn dies nicht ausgeführt wird, erhalten Sie eine Warnung, wenn Sie versuchen, Ressourcenplanungsvorgänge auszuführen.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Leistungsverbesserung bei der Ressourcenplanung deaktivieren
 
-1. Navigieren Sie zu **Funktionsverwaltung** > **Alle** , und suchen Sie nach **Funktion zur Leistungsverbesserung der Ressourcenplanung aktivieren**.
+1. Navigieren Sie zu **Funktionsverwaltung** > **Alle**, und suchen Sie nach **Funktion zur Leistungsverbesserung der Ressourcenplanung aktivieren**.
 2. Wählen Sie die Funktion und dann die Schaltfläche **Deaktivieren** aus.
 3. Aktualisieren Sie Ihren Browser.
 4. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Periodisch** > **Kapazitätssynchronisierung** > **Synchronisation der Rollup-Kapazität**.
@@ -68,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um die Leistungsverbesserung bei der Res
 8. Klicken Sie auf **OK**.
 
 > [!NOTE]
-> Dadurch werden allgemeine Daten an die Tabelle **ResRollup** für alle Unternehmen in Ihrer Umgebung verteilt, sodass der Batchauftrag nur in einer juristischen Person ausgeführt werden muss. Dieser Batchauftrag ist für alle **Ressourcenverfügbarkeits** -Ansichten erforderlich. Wenn dieser Batchauftrag nicht ausgeführt wird, werden die **ResRollup** -Daten während der Bearbeitung generiert, was einige Zeit dauern kann.
+> Dadurch werden allgemeine Daten an die Tabelle **ResRollup** für alle Unternehmen in Ihrer Umgebung verteilt, sodass der Batchauftrag nur in einer juristischen Person ausgeführt werden muss. Dieser Batchauftrag ist für alle **Ressourcenverfügbarkeits**-Ansichten erforderlich. Wenn dieser Batchauftrag nicht ausgeführt wird, werden die **ResRollup**-Daten während der Bearbeitung generiert, was einige Zeit dauern kann.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

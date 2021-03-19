@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076503"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288594"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Pay-When-Paid-Kreditorenzahlungen einrichten und verwenden
 
@@ -79,7 +79,7 @@ Wenn ein Kreditor seine Arbeit an einem Projekt abgeschlossen hat und Ihnen eine
 1. Navigieren Sie zu **Projektmanagement und -buchhaltung** \> **Anfragen und Berichte** \> **Einbehaltungsabfragen** \> **Kreditorenrechnung mit Pay When Paid**.
 2. Geben Sie auf der Seite **Kreditorenrechnungen mit Pay When Paid** im Suchfeld die Werte ein, um die Kreditorenrechnung zu finden, die Sie überprüfen möchten, und wählen Sie dann **Suchen** aus.
 3. Wählen Sie im Inforegister **Kreditorenrechnungspositionen** die Zeilen aus, die Sie ändern möchten.
-4. Wenn die **Pay When Paid** -Bedingungen für die Rechnungszeile erfüllt sind, wählen Sie **Kreditorenzahlung freigeben** aus. Die Option **Pay When Paid** wird gelöscht, und der Wert für das Feld **Bereit für Zahlung** wird in **Ja** geändert.
+4. Wenn die **Pay When Paid**-Bedingungen für die Rechnungszeile erfüllt sind, wählen Sie **Kreditorenzahlung freigeben** aus. Die Option **Pay When Paid** wird gelöscht, und der Wert für das Feld **Bereit für Zahlung** wird in **Ja** geändert.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

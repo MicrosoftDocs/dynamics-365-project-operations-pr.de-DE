@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076667"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289773"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektmanagement und -buchhaltung – Übersicht
 
@@ -118,13 +118,13 @@ In Finance können sechs Arten von Projekten erstellt werden. Jeder Projekttyp i
 
 Sie können Mitarbeiterressourcen entweder basierend auf den Anforderungen und dem Zeitplan eines Projekts oder basierend auf den Fähigkeiten und der Verfügbarkeit von Mitarbeitern planen. Mithilfe der Ressourcenplanungsfunktionen können Sie die Mitarbeiter Ihres Unternehmens effizient und effektiv bereitstellen. Sie können schnell die qualifiziertesten Mitarbeiter finden, die für die Arbeit an Ihrem Projekt zur Verfügung stehen. Sie können auch leicht erkennen, wie diese Mitarbeiter im Verlauf des Projekts effektiver eingesetzt werden können. 
 
-Hier sind einige Möglichkeiten, wie Sie die Ressourcenplanungsfunktion verwenden können:
+Hier sind einige Möglichkeiten, um die Ressourcenplanungsfunktion zu nutzen:
 
 -   Verwenden Sie Informationen zu den Attributen eines Mitarbeiters, wie z. B. Ausbildung, Fähigkeiten, Zertifizierungen und Projekterfahrung, um den Mitarbeiter an die Anforderungen eines Projekts anzupassen.
 -   Verwenden Sie Informationen zum Kalender und zur Verfügbarkeit eines Mitarbeiters, um den Zeitplan des Mitarbeiters an den Projektkalender anzupassen.
--   Überprüfen Sie die Kapazität eines jeden Workers und finden Sie heraus, wie diese Kapazität gerade genutzt wird. Wenn ein Mitarbeiter beispielsweise nicht ausreichend genutzt wird, kann er einem Projekt zugewiesen werden, das seiner Verfügbarkeit und seinen Attributen entspricht.
+-   Die Kapazität jedes Mitarbeiters überprüfen und feststellen, wie diese Kapazität verwendet wird Wenn ein Mitarbeiter beispielsweise nicht ausreichend genutzt wird, kann er einem Projekt zugewiesen werden, das seiner Verfügbarkeit und seinen Attributen entspricht.
 -   Überprüfen Sie die Verfügbarkeit eines Arbeitnehmers, um sicherzustellen, dass keine Kalenderkonflikte mit den Aufgaben des Arbeitnehmers vorliegen.
--   Überprüfen Sie die Informationen zur Auslastung der Mitarbeiter entweder in einer Übersichtsansicht (z. B. nach Abteilung oder nach Mitarbeiter) oder in einer Detailansicht (z. B. nach Mitarbeitern in einer Abteilung oder nach wöchentlichen Details für jeden Mitarbeiter).
+-   Die Informationen zur Auslastung der Mitarbeiter entweder in einer Übersichtsansicht (z. B. nach Abteilung oder nach Mitarbeiter) oder in einer Detailansicht (z. B. nach Mitarbeitern in einer Abteilung oder nach wöchentlichen Details für jeden Mitarbeiter) überprüfen.
 -   Ändern Sie die Ressourcenzuweisungen für verschiedene Zeiteinheiten, z. B. Tag, Woche oder Monat, um die Verwendung der Mitarbeiter zu optimieren.
 
 ## <a name="execute-the-project"></a>Führen Sie das Projekt aus
@@ -148,9 +148,9 @@ Ein projektbezogener Fertigungsauftrag kann mit einem Kundenauftrag oder einer A
 
 Verwenden Sie basierend auf den Kombinationen dieser Faktoren eine der folgenden Methoden:
 
-- **Fertiger Artikel/Link zur Bestellung** – Verknüpfen Sie das Projekt mit einem Kundenauftrag oder einer Artikelanforderung. Wenn Sie diese Methode verwenden, werden die tatsächlichen Projektkosten gebucht, wenn der Kundenauftrag in Rechnung gestellt wird oder wenn der Packzettel für den Artikelbedarf aktualisiert wird. Die Kosten werden als fertiger Artikel gebucht.
-- **Fertiger Artikel/kein Link zur Bestellung** – Die tatsächlichen Kosten können erst gebucht werden, wenn der Produktionszyklus für einen Artikel den Status **Beendet** hat. Die Kosten für den fertigen Artikel werden als einzelne Transaktion gebucht.
-- **Verbrauchter Artikel/Link zur Bestellung** – Verknüpfen Sie das Projekt mit einer Artikelanforderung. Mit dieser Methode können Sie die tatsächlichen Projektkosten anzeigen, wenn die Produktion den Status **Gestartet** hat oder als erledigt gemeldet wird. Die Kosten werden als Transaktionen mit mehreren Projektpositionen für Rohstoffe und für die Produktion verbrauchte Stunden gebucht. Wenn der Packzettel für die Artikelanforderung aktualisiert wird, werden keine Projektkosten gebucht. Sie können auch die Ebene in der Stücklistenhierarchie definieren, auf der die Projekte in der Produktion verfolgt werden.
+- **Fertiger Artikel/Link zur Bestellung** – Verknüpfen Sie das Projekt mit einem Kundenauftrag oder einer Artikelanforderung. Wenn Sie diese Methode verwenden, werden die tatsächlichen Projektkosten gebucht, wenn der Verkaufsauftrag in Rechnung gestellt wird oder wenn der Lieferschein für die Artikelanforderung aktualisiert wird. Die Kosten werden als fertiger Artikel gebucht.
+- **Fertiger Artikel/kein Link zum Auftrag** – Die tatsächlichen Kosten können erst gebucht werden, wenn der Produktionszyklus für einen Artikel den Status **Beendet** hat. Die Kosten für den fertigen Artikel werden als einzelne Transaktion gebucht.
+- **Verbrauchter Artikel/Link zum Auftrag** – Verknüpfen Sie das Projekt mit einer Artikelanforderung. Mit dieser Methode können Sie die tatsächlichen Projektkosten anzeigen, wenn die Produktion den Status **Gestartet** hat oder wird als erledigt gemeldet ist. Die Kosten werden als Transaktionen mit mehreren Projektpositionen für Rohstoffe und für die Produktion verbrauchte Stunden gebucht. Wenn der Lieferschein für die Artikelanforderung aktualisiert wird, werden keine Projektkosten gebucht. Sie können auch die Ebene in der Stücklistenhierarchie (BOM) definieren, auf der die Projekte in der Produktion verfolgt werden.
 - *<strong><em>Verbrauchter Artikel/kein Link zur Bestellung</em></strong>* – Verknüpfen Sie das Projekt mit einer Artikelanforderung. Mit dieser Methode können Sie die tatsächlichen Projektkosten anzeigen, wenn die Produktion den Status <strong>Gestartet</strong> hat oder als erledigt gemeldet wird. Die Kosten werden als Transaktionen mit mehreren Projektpositionen für Rohstoffe und für die Produktion verbrauchte Stunden gebucht. Sie können auch die Ebene in der Stücklistenhierarchie definieren, auf der die Projekte in der Produktion verfolgt werden.
 
 ### <a name="procure-products-and-services"></a>Produkte und Dienste beschaffen
@@ -177,17 +177,17 @@ Der Zweck der Bestellung bestimmt, wann die Bestellung verbraucht wird und wann 
 <tbody>
 <tr class="odd">
 <td>Eine Einkaufsbestellung direkt erstellen.</td>
-<td>Kaufen Sie Artikel von einem externen Lieferanten zum Verbrauch in einem Projekt. Sie können die Bestellung wie folgt erstellen:
+<td>Kaufen Sie Artikel von einem externen Lieferanten zum Verbrauch in einem Projekt. Sie können die Bestellung auf folgende Arten erstellen:
 <ul>
-<li>Vom Projekt selber. In diesem Fall ist das Projekt bereits für die Bestellung definiert.</li>
-<li>Durch Navigieren zur Projektbestellung. Sie müssen sowohl den Lieferanten als auch das Projekt auswählen, für das Sie die Bestellung erstellen möchten.</li>
+<li>Aus dem Projekt selbst. In diesem Fall ist das Projekt bereits für die Bestellung definiert.</li>
+<li>Durch Navigieren zur Projektbestellung. Sie müssen sowohl den Kreditor als auch das Projekt auswählen, für das Sie die Bestellung erstellen möchten.</li>
 </ul></td>
-<td>Artikel werden verbraucht, wenn die Lieferantenrechnung aktualisiert wird.</td>
+<td>Artikel werden verbraucht, wenn die Kreditorenrechnung aktualisiert wird.</td>
 </tr>
 <tr class="even">
-<td>Eine Bestellung auf Grundlage eines Auftrags anlegen</td>
-<td>Kaufen Sie Artikel, wenn Sie einen Kundenauftrag aus einem Projekt erstellen.</td>
-<td>Artikel werden verbraucht, wenn der Kundenauftrag dem Kunden in Rechnung gestellt wird.</td>
+<td>Legen Sie eine Bestellung auf Grundlage eines Auftrags an.</td>
+<td>Kaufen Sie Artikel, wenn Sie einen Verkaufsauftrag aus einem Projekt erstellen.</td>
+<td>Artikel werden verbraucht, wenn dem Kunden der Verkaufsauftrag in Rechnung gestellt wird.</td>
 </tr>
 <tr class="odd">
 <td>Erstellen Sie eine Bestellung aus einer Artikelanforderung.</td>
@@ -205,18 +205,18 @@ Sie können Artikel aus dem Inventar des Unternehmens für den Verbrauch in eine
 
 Die Art und Weise, wie Sie Artikel bestellen, hängt davon ab, wo Sie sie bestellen:
 
--   Um Artikel aus dem Inventar des Unternehmens zu bestellen, müssen Sie die Bestellung als Artikelanforderung eingeben. Wenn Sie die Seite **Artikelanforderungen** verwenden, können Sie die Anforderung so einrichten, dass Sie Artikel als Teillieferungen erhalten. Daher können Sie den Verbrauch einer Menge der Artikel verschieben, bis die Artikel benötigt werden.
+-   Um Artikel aus dem Inventar des Unternehmens zu bestellen, müssen Sie die Bestellung als Artikelanforderung eingeben. Wenn Sie die Seite **Artikelanforderungen** verwenden, können Sie die Anforderung so einrichten, dass Sie Artikel als Teillieferungen erhalten. Daher können Sie den Verbrauch einer Menge der Artikel verschieben, bis die Artikel benötigt werden.
 -   Um Artikel bei einem externen Lieferanten zu bestellen, müssen Sie die Bestellung als Bestellung auf der Seite **Bestellung** anlegen.
 
 > [!NOTE] 
 > Der Packzettel für einen projektbezogenen Kundenauftrag kann nicht storniert werden, wenn die Artikel bereits zum Verpacken markiert wurden. 
 
-In der folgenden Tabelle sind die Methoden zum Bestellen von Artikeln aufgeführt und wird beschrieben, wie die Artikel verbraucht werden.
+In der folgenden Tabelle sind die Methoden zum Bestellen von Artikeln aufgeführt, und es wird beschrieben, wie die Artikel verbraucht werden.
 
 | Methode            | Zweck                                                                                                                                                        | Verbrauch von Artikeltransaktionen                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kundenauftrag       | Geben Sie eine Transaktion direkt in ein Zeit- und Materialprojekt ein.                                                                                                   | Artikeltransaktionen werden verbraucht, wenn die Kundenrechnung gebucht wird.                                                                               |
-| Bestandsjournal | Artikeldatensätze schnell eingeben und pflegen. Wenn Sie beispielsweise eine Artikelanforderung basierend auf einer gedruckten Liste eingeben möchten, kann das Bestandsjournal angewendet werden. | Artikeltransaktionen werden verbraucht, wenn das Journal gebucht wird.                                                                                        |
+| Lagererfassung | Geben Sie Artikeldatensätze schnell ein und pflegen Sie sie. Wenn Sie beispielsweise eine Artikelanforderung basierend auf einer gedruckten Liste eingeben möchten, kann die Lagererfassung angewendet werden. | Artikeltransaktionen werden verbraucht, wenn die Erfassung gebucht wird.                                                                                        |
 | Artikelanforderung  | Geben Sie Artikel ein, die nicht sofort verbraucht werden. Mit dieser Methode können Sie die Anzahl der Artikel verfolgen, die in einem einzelnen Artikelanforderungsdatensatz verbraucht wurden.    | Artikeltransaktionen werden verbraucht, wenn der Lieferschein aktualisiert wird. Mit anderen Worten, die Artikelanforderung wird erstellt, wenn der Lieferschein gebucht wird. |
 | Bestellungen   | Geben Sie Transaktionen an einem von drei Standorten ein, abhängig von der Kaufmethode.                                                                              | Artikeltransaktionen werden verbraucht, wenn der Lieferschein aktualisiert wird oder wenn der Kunde oder Lieferant in Rechnung gestellt wird.                                      |
 
@@ -285,11 +285,11 @@ Die Finanzierung verringert die prognostizierten Schätzungen nicht automatisch.
 ## <a name="analyze-the-project"></a>Analysieren Sie das Projekt
 Auf der einfachsten Ebene wird ein Projekt verwendet, um Transaktionen zu gruppieren, die Kosten erfassen, und diese Kosten dann im Hauptbuch zu buchen. 
 
-Im Allgemeinen sind diese Transaktionen das Ergebnis von Geschäftsdokumenten wie Arbeitszeittabellen, Spesenabrechnungen, Lieferantenrechnungen oder Bestandsbuchungen. Der Lebenszyklus eines Projekts beginnt normalerweise mit Schätzungen, Prognosen und Budgets, mit deren Hilfe die Arbeit und die finanziellen Auswirkungen des Projekts geplant und vorweggenommen werden können. Während Sie ein Projekt analysieren, können Sie nicht nur die Transaktionen bewerten, die während des Projekts stattgefunden haben, sondern auch die Genauigkeit Ihrer Schätzungen und Prognosen, die Nutzungsraten der Mitglieder des Projektteams und den Gesamterfolg des Projekts.
+Im Allgemeinen sind diese Transaktionen das Ergebnis von Geschäftsdokumenten wie Arbeitszeittabellen, Spesenabrechnungen, Kreditorenrechnungen oder Lagerbuchungen. Der Lebenszyklus eines Projekts beginnt normalerweise mit Schätzungen, Prognosen und Budgets, mit deren Hilfe die Arbeit und die finanziellen Auswirkungen des Projekts geplant und vorweggenommen werden können. Während Sie ein Projekt analysieren, können Sie nicht nur die Transaktionen bewerten, die während des Projekts stattgefunden haben, sondern auch die Genauigkeit Ihrer Schätzungen und Prognosen, die Nutzungsraten der Mitglieder des Projektteams und den Gesamterfolg des Projekts.
 
 ### <a name="analyze-cash-flow"></a>Cashflow analysieren
 
-Verwenden Sie die Cashflow-Überwachung, um sowohl die prognostizierten Cashflows als auch die tatsächlichen Cashflows für ein Projekt zu überprüfen. Sie können die Zahlungsströme während eines laufenden Projekts überprüfen oder die Zahlungsströme eines abgeschlossenen Projekts anzeigen. 
+Verwenden Sie die Cashflow-Überwachung, um sowohl die prognostizierten Cashflows als auch die tatsächlichen Cashflows für ein Projekt zu überprüfen. Sie können die Cashflows während eines laufenden Projekts überprüfen oder die Cashflows eines abgeschlossenen Projekts anzeigen. 
 
 Durch die Überwachung der Cashflows können Sie ein einzelnes Projekt bewerten, mithilfe der Berichte mehrere Projekte anzeigen und die Projekt-Cashflows in die Cashflow-Prognosen im Hauptbuch übertragen.
 
@@ -299,8 +299,8 @@ Basierend auf Ihrem Setup können Sie die Mittelzuflüsse für ein ausgewähltes
 
 -   **Projektdatum:** 5. März 2012.
 -   **Rechnungsdatum:** 31. März 2012. Dieses Datum wird anhand der Rechnungshäufigkeit festgelegt. In diesem Beispiel legen Sie die Rechnungshäufigkeit auf den aktuellen Monat fest. Daher werden alle Transaktionen, die im Monat März gebucht werden, am letzten Tag des Monats in Rechnung gestellt.
--   **Fälligkeitsdatum** : 14. April 2012. Dieses Datum wird anhand der Zahlungsbedingungen festgelegt, die für das Projekt festgelegt wurden. In diesem Beispiel haben Sie Zahlungsbedingungen von 14 Tagen ausgewählt. Daher werden dem Rechnungsdatum 14 Tage hinzugefügt, um zu einem Fälligkeitsdatum am 14. April 2012 zu gelangen.
--   **Voraussichtlicher Verkaufszahlungstermin:** 27. April 2012. Dieses Datum wird berechnet, indem die Anzahl der Tage im Feld **Allgemeine Puffertage** auf der Seite **Projektmanagement- und Buchhaltungsparameter** zur Anzahl der Tage im Feld **Einzelne Puffertage** auf der Seite **Projektverträge** hinzugefügt und dann die Summe zur Anzahl der Tage im Feld **Fälligkeitsdatum** addiert wird. Für dieses Beispiel haben Sie **3** im Feld **Allgemeine Puffertage** und **10** im Feld **Einzelne Puffertage** eingegeben. Daher werden dem Fälligkeitsdatum 13 Tage hinzugefügt, um zu einem Verkaufszahlungstermin am 27. April 2012 zu gelangen.
+-   **Fälligkeitsdatum**: 14. April 2012. Dieses Datum wird anhand der Zahlungsbedingungen festgelegt, die für das Projekt festgelegt wurden. In diesem Beispiel haben Sie Zahlungsbedingungen von 14 Tagen ausgewählt. Daher werden dem Rechnungsdatum 14 Tage hinzugefügt, um zu einem Fälligkeitsdatum am 14. April 2012 zu gelangen.
+-   **Voraussichtlicher Verkaufszahlungstermin:** 27. April 2012. Dieses Datum wird berechnet, indem die Anzahl der Tage im Feld **Allgemeine Puffertage** auf der Seite **Projektmanagement- und Buchhaltungsparameter** zur Anzahl der Tage im Feld **Einzelne Puffertage** auf der Seite **Projektverträge** hinzugefügt und dann die Summe zur Anzahl der Tage im Feld **Fälligkeitsdatum** addiert wird. Für dieses Beispiel haben Sie **3** im Feld **Allgemeine Puffertage** und **10** im Feld **Einzelne Puffertage** eingegeben. Daher werden dem Fälligkeitsdatum 13 Tage hinzugefügt, um zu einem Verkaufszahlungstermin am 27. April 2012 zu gelangen.
 
 Die allgemeinen Puffertage können entweder die einzelnen Puffertage ersetzen oder zu den einzelnen Puffertagen hinzugefügt werden:
 
@@ -323,9 +323,9 @@ Aufgrund der definierten Tage kann das Datum der Kostenzahlung vom Projektdatum 
 
 Das Projektdatum der Transaktion ist beispielsweise der 5. März 2012, und die folgenden Zahlungsbedingungen werden festgelegt:
 
--   **Stunden:** Aktueller Monat ( **M** )
--   **Ausgaben:** 14 Tage ( **D14** )
--   **Artikel:** 30 Tage ( **D30** )
+-   **Stunden:** Aktueller Monat (**M**)
+-   **Ausgaben:** 14 Tage (**D14**)
+-   **Artikel:** 30 Tage (**D30**)
 
 Basierend auf diesen Einstellungen ist hier das Datum der Kostenzahlung für jeden Transaktionstyp:
 
@@ -357,7 +357,7 @@ Wenn alle Verkaufs- und Lieferantenrechnungen abgeschlossen sind, können Sie di
 
 ### <a name="review-costs"></a>Kosten überprüfen
 
-Sie können die Kosten überwachen, die Ihrer Organisation während eines Projekts auf der Seite **Kostensteuerung** entstehen. Durch das Vergleichen der ursprünglich budgetierten Kosten für das Projekt mit den aktuellen tatsächlichen Kosten und den zugesagten Kosten können Sie feststellen, ob das Projekt auf dem richtigen Weg, über dem Budget oder unter dem Budget liegt. 
+Sie können die Kosten überwachen, die Ihrer Organisation während eines Projekts auf der Seite **Kostensteuerung** entstehen. Durch Vergleichen der ursprünglich budgetierten Kosten für das Projekt mit den aktuellen tatsächlichen Kosten und den zugesagten Kosten können Sie feststellen, ob das Projekt wie geplant, über dem Budget oder unter dem Budget ist. 
 
 > [!NOTE] 
 > Wenn Sie die Seite **Kostensteuerung** verwenden, um den aktuellen Status der Projektkosten anzuzeigen, verwenden Sie die Prognosemodelle, die für das ursprüngliche und das verbleibende Budget ausgewählt wurden. Wenn Sie bei der Kostenberechnung andere Prognosemodelle auswählen, sind die Berechnungsergebnisse nicht korrekt.
@@ -366,60 +366,60 @@ Sie können die Kosten überwachen, die Ihrer Organisation während eines Projek
 
 Wenn **Übriges Budget** als Kostensteuerungsmethode auf der Seite **Projektmanagement- und Buchhaltungsparameter** ausgewählt wird, berechnet die Seite **Kostensteuerung** Kosten, die nicht als tatsächlich gebucht oder als übergeben markiert wurden. Insbesondere die Beträge auf der Registerkarte **Allgemein** im unteren Bereich der Seite **Kostensteuerung** werden auf folgende Arten berechnet:
 
--   **Ist-Kosten** – Der Gesamtbetrag, der für das Projekt für die ausgewählte Kostenposition ausgegeben wurde. Der tatsächliche Kostenbetrag wird auf der Seite **Ledger-Updates** berechnet.
+-   **Ist-Kosten** – Der Gesamtbetrag, der für das Projekt für die ausgewählte Kostenposition ausgegeben wurde. Der tatsächliche Kostenbetrag wird auf der Seite **Sachkonto-Updates** berechnet.
 -   **Zugesagte Kosten** – Der zusätzliche Betrag der Kosten, zu deren Zahlung sich die juristische Person verpflichtet hat. Die spezifischen zugesagten Kostenbeträge werden auf der Seite **Zugesagte Kosten** berechnet.
--   **Übriges Budget** – Der Betrag des ursprünglich budgetierten Betrags, der für die ausgewählte Kostenposition noch verfügbar ist. Der verbleibende Budgetbetrag wird auf der Seite **Vorschau der Finanzbuchhaltung** berechnet.
+-   **Verbleibendes Budget** – Der Betrag des ursprünglich budgetierten Betrags, der für die ausgewählte Kostenzeile noch verfügbar ist. Der verbleibende Budgetbetrag wird auf der Seite **Finanzbuchhaltungs-Vorschau** berechnet.
 -   **Gesamtkosten** – Die Summe der tatsächlichen Kosten, der zugesagten Kosten und der verbleibenden Budgetbeträge.
 
-Auf der Seite **Kostensteuerung** auf der Registerkarte **Abweichung** können Sie einen Vergleich der erwarteten Gesamtkosten mit dem ursprünglichen Budget anzeigen. Dieser Vergleich zeigt Unterschiede zwischen diesen Beträgen. Daher können Sie sehen, wo die Daten nicht übereinstimmen. Die Abweichungsbeträge werden folgendermaßen berechnet:
+Auf der Seite **Kostensteuerung** auf der Registerkarte **Abweichung** können Sie einen Vergleich der erwarteten Gesamtkosten mit dem ursprünglichen Budget anzeigen. Dieser Vergleich zeigt Unterschiede zwischen diesen Beträgen. Daher können Sie sehen, wo die Daten nicht übereinstimmen. Die Abschreibungsbeträge werden folgendermaßen berechnet:
 
--   **Ursprüngliches Budget** – Der Betrag, der ursprünglich für die ausgewählte Kostenposition budgetiert wurde. Der ursprüngliche Budgetbetrag wird auf der Seite **Vorschau der Finanzbuchhaltung** berechnet.
--   **Gesamtkosten** – Die Summe der tatsächlichen Kosten, der zugesagten Kosten und der verbleibenden Budgetbeträge, wie auf der Registerkarte **Allgemein** angegeben.
+-   **Ursprüngliches Budget** – Der Betrag, der ursprünglich für die ausgewählte Kostenzeile budgetiert wurde. Der ursprüngliche Budgetbetrag wird auf der Seite **Finanzbuchhaltungs-Vorschau** berechnet.
+-   **Gesamtkosten** – Die Summe der tatsächlichen Kosten, der zugesagten Kosten und des verbleibenden Budgets wie auf der Registerkarte **Allgemein** dargestellt.
 -   **Abweichung** – Die Differenz zwischen den Gesamtkosten und dem ursprünglichen Budget.
--   **Abweichung nach Menge** – Die Gesamtdifferenz zwischen der ursprünglichen Prognose und der Gesamtprognose. Diese Differenz kann mathematisch ausgedrückt werden als (prognostizierte Gesamtmenge) × (ursprünglicher Durchschnittspreis – Gesamtdurchschnittspreis). Diese Berechnung gilt nur für Projektstunden.
+-   **Abweichung nach Menge** – Die Gesamtdifferenz zwischen der ursprünglichen Prognose und der Gesamtprognose. Diese Differenz kann mathematisch ausgedrückt werden als (Gesamte Planungsmenge) × (Ursprünglicher Durchschnittspreis – Gesamtdurchschnittspreis). Diese Berechnung gilt nur für Projektstunden.
 -   **Abweichung nach Preis** – Die Gesamtdifferenz zwischen der ursprünglichen Prognose und der Gesamtprognose. Diese Differenz kann mathematisch ausgedrückt werden als (ursprünglich prognostizierter Preis) × (ursprünglich prognostizierte Menge – Gesamtprognosemenge). Diese Berechnung gilt nur für Projektstunden.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Anzeigen der gesamten budgetierten Beträge
 
-Wenn **Gesamtbudget** als Kostensteuerungsmethode auf der Seite **Projektmanagement- und Buchhaltungsparameter** ausgewählt wird, berechnet die **Kostensteuerung** die tatsächlichen Kosten und die Gesamtkosten des Projekts, damit Sie Unterschiede zwischen beiden erkennen können. Insbesondere auf der Seite **Kostensteuerung** werden die Mengen in den Spalten unten auf der Registerkarte **Allgemein** auf folgende Arten berechnet:
+Wenn **Gesamtbudget** als Kostensteuerungsmethode auf der Seite **Projektmanagement- und Buchhaltungsparameter** ausgewählt wird, berechnet die **Kostensteuerung** die tatsächlichen Kosten und die Gesamtkosten des Projekts, damit Sie Unterschiede zwischen beiden erkennen können. Insbesondere auf der Seite **Kostensteuerung** werden die Beträge in den Spalten im unteren Bereich auf der Registerkarte **Allgemein** auf folgende Weise berechnet:
 
--   **Gesamtbudgetkosten** – Der budgetierte Gesamtbetrag für die ausgewählte Kostenposition.
--   **Ist-Kosten** – Der Gesamtkostenbetrag, der bis jetzt für das Projekt für die ausgewählte Kostenposition ausgegeben wurde.
--   **Zugesagte Kosten** – Der Gesamtbetrag, der für das Projekt für die ausgewählte Kostenposition zugesagt wurde.
--   **Abweichung** – Die Differenz zwischen der Summe der tatsächlichen und zugesagten Kosten und den Gesamtkosten. Die Abweichung zeigt, ob für das Gesamtbudget zusätzliche Kosten angegeben werden müssen.
+-   **Budgetierter Einstandsbetrag** – Der budgetierte Einstandsbetrag für die ausgewählte Kostenzeile.
+-   **Tatsächliche Kosten** – Der Gesamtbetrag, der für das Projekt für die ausgewählte Kostenzeile bis heute ausgegeben wurde.
+-   **Zugesagte Kosten** – Der Gesamtbetrag, der für die ausgewählte Kostenzeile zugesagt wurde.
+-   **Varianz** – Die Differenz zwischen der Summe der tatsächlichen und zugesagten Kosten und den Gesamtkosten. Die Abweichung zeigt, ob für das Gesamtbudget zusätzliche Kosten angegeben werden müssen.
 
-Auf der Seite **Kostensteuerung** auf der Registerkarte **Abweichung** können Sie den Unterschied zwischen dem Gesamtbudget und dem ursprünglichen Budget anzeigen, indem Sie die folgenden Felder anzeigen:
+Auf der Seite **Kostensteuerung** können Sie auf der Registerkarte **Abweichung** den Unterschied zwischen dem Gesamtbudget und dem ursprünglichen Budget anzeigen, indem Sie die folgenden Felder betrachten:
 
--   **Ursprüngliches Budget** – Der Betrag, der ursprünglich für die Kostenposition budgetiert wurde. Das ursprüngliche Budget wird auf der Seite **Vorschau der Finanzbuchhaltung** berechnet.
--   **Gesamtbudgetkosten** – Die Gesamtkosten, die ursprünglich für die Kostenposition budgetiert wurden. Die Gesamtbudgetkosten werden auf der Seite **Vorschau der Finanzbuchhaltung** berechnet.
--   **Abweichung** – Die Abweichung für die Kostenposition. Dieser Betrag wird berechnet, indem die Gesamtkosten vom ursprünglichen Budget abgezogen werden.
--   **Abweichung nach Menge** – Die Gesamtdifferenz zwischen dem ursprünglichen Budget und dem Gesamtbudget. Dieser Betrag wird berechnet, indem die Gesamtbudgetstunden von den ursprünglichen Budgetstunden subtrahiert und dann die Differenz mit dem ursprünglich budgetierten Kostenpreis multipliziert wird. Diese Differenz kann mathematisch ausgedrückt werden als (ursprünglich budgetierter Kostenpreis) × (ursprüngliche Budgetstunden – Gesamtbudgetstunden). Diese Berechnung gilt nur für Projektstunden.
--   **Abweichung nach Preis** – Dieser Betrag wird berechnet, indem die Gesamtbudgetstunden von den ursprünglichen Budgetstunden subtrahiert und dann die Differenz mit der Gesamtzahl der verbrauchten Stunden multipliziert wird. Diese Differenz kann mathematisch ausgedrückt werden als (Gesamtzahl der verbrauchten Stunden) × (ursprüngliche Budgetstunden – Gesamtbudgetstunden). Diese Berechnung gilt nur für Projektstunden.
+-   **Ursprüngliches Budget** – Der Betrag, der ursprünglich für die Kostenzeile budgetiert wurde. Das ursprüngliche Budget wird auf der Seite **Finanzbuchhaltungs-Vorschau** berechnet.
+-   **Budgetierter Einstandsbetrag** – Der Einstandsbetrag ursprünglich für die Kostenzeile budgetiert wurde. Der budgetierte Einstandsbetrag wird auf der Seite **Finanzbuchhaltungs-Vorschau** berechnet.
+-   **Abweichung** – Die Abweichung für die Kostenzeile. Dieser Betrag wird berechnet, indem die Gesamtkosten vom ursprünglichen Budget abgezogen werden.
+-   **Abweichung nach Menge** – Die Gesamtdifferenz zwischen dem ursprünglichen Budget und dem Gesamtbudget. Dieser Betrag wird berechnet, indem die Gesamtbudgetstunden von den ursprünglichen Budgetstunden subtrahiert und dann die Differenz mit dem ursprünglich budgetierten Einstandspreis multipliziert wird. Diese Differenz kann mathematisch ausgedrückt werden als (ursprünglicher budgetierter Einstandspreis) × (ursprüngliche Budgetstunden – Gesamtbudgetstunden). Diese Berechnung gilt nur für Projektstunden.
+-   **Abweichung nach Preis** – Dieser Betrag wird berechnet, indem die Gesamtbudgetstunden von den ursprünglichen Budgetstunden subtrahiert und dann die Differenz mit den insgesamt verbrauchten Arbeitsstunden multipliziert wird. Diese Differenz kann mathematisch ausgedrückt werden als (Gesamtzahl der verbrauchten Stunden) × (ursprüngliche Budgetstunden – Gesamtbudgetstunden). Diese Berechnung gilt nur für Projektstunden.
 
 ### <a name="analyze-utilization"></a>Nutzung analysieren
 
 Die Nutzungsrate ist der Prozentsatz der Zeit, die ein Mitarbeiter in einer bestimmten Arbeitsperiode an abrechnungsfähiger oder produktiver Arbeit leistet. Abrechnungsfähige Stunden sind die Arbeitsstunden, die einem bestimmten Kunden in Rechnung gestellt werden können. 
 
-Die Nutzungsrate eines Arbeitnehmers wird berechnet, indem die Anzahl der abrechnungsfähigen Stunden durch die Anzahl der Arbeitsstunden in einem bestimmten Zeitraum dividiert wird. Wenn ein Arbeitnehmer beispielsweise 30 abrechnungsfähige Stunden in einem Zeitraum hat und die Anzahl der Arbeitsstunden im selben Zeitraum 40 beträgt, beträgt die Auslastungsrate des Arbeitnehmers 75 Prozent. 
+Die Nutzungsrate eines Arbeitnehmers wird berechnet, indem die Anzahl der abrechnungsfähigen Stunden durch die Anzahl der Arbeitsstunden in einem bestimmten Zeitraum dividiert wird. Wenn ein Arbeitnehmer beispielsweise 30 fakturierbare Stunden in einem Zeitraum hat und die Anzahl der Arbeitsstunden im selben Zeitraum 40 beträgt, beträgt die Auslastungsrate des Arbeitnehmers 75 Prozent. 
 
 Wenn Sie die Nutzungsrate für einen Mitarbeiter berechnen, können Sie entweder die Abrechnungsrate oder die Effizienzrate berechnen:
 
--   **Abrechnungsfähiger Rate** – Die Differenz zwischen abrechnungsfähigen Stunden und nicht abrechnungsfähigen Stunden oder Normstunden.
--   **Effizienzrate** – Die Differenz zwischen produktiven Stunden und nichtproduktiven Stunden oder Normstunden. Produktive Stunden sind die Stunden, die der Arbeitnehmer damit verbringt, zu einem bestimmten Projekt beizutragen. Produktive Stunden werden in der Regel den Kunden in Rechnung gestellt, außer bei internen Projekten. Nichtproduktive Stunden werden einem Kunden niemals in Rechnung gestellt.
+-   **Abrechnungsrate** – Die Differenz zwischen fakturierbaren Stunden und nicht fakturierbaren Stunden oder normalen Stunden.
+-   **Effizienzrate** – Die Differenz zwischen produktiven Stunden und nicht produktiven Stunden oder normalen Stunden. Produktive Stunden sind die Stunden, die der Arbeitnehmer damit verbringt, zu einem bestimmten Projekt beizutragen. Produktive Stunden werden in der Regel den Kunden in Rechnung gestellt, außer bei internen Projekten. Nichtproduktive Stunden werden einem Kunden niemals in Rechnung gestellt.
 
-Sie berechnen die Nutzungsraten auf der Seite **Stundennutzung**. Die Berechnungen, die auf den Standardeinstellungen basieren. Diese Einstellungen legen auch fest, wie Stunden durch Zuweisen von **Nutzung** oder **Last** zu jedem Projekttyp berechnet werden. Dies gilt für Abrechnungsratenberechnungen und Effizienzratenberechnungen.
+Sie berechnen die Nutzungsraten auf der Seite **Stundennutzung**. Die Berechnungen, die auf den Standardeinstellungen basieren. Diese Einstellungen legen auch fest, wie Stunden durch Zuweisen von **Nutzung** oder **Last** zu jedem Projekttyp berechnet werden. Dies gilt für Abrechnungsraten‑ und Effizienzratenberechnungen.
 
--   **Nutzung** – Stunden, die für den ausgewählten Projekttyp gemeldet werden, werden immer für die abrechnungsfähige oder effiziente Nutzung berücksichtigt.
--   **Last** – Stunden, die für den ausgewählten Projekttyp gemeldet werden, werden immer für die nicht-abrechnungsfähige oder nicht-effiziente Nutzung berücksichtigt.
--   **Nach Positionseigenschaft** – Die Positionseigenschaften einer bestimmten Stundentransaktion bestimmen, ob die Stunden für die abrechnungsfähige oder die Effizienznutzung berücksichtigt werden.
+-   **Nutzung** – Für den ausgewählten Projekttyp gemeldete Stunden werden immer für die Abrechnungs‑ oder Effizienzauslastung berücksichtigt.
+-   **Belastung** – Für den ausgewählten Projekttyp gemeldete Stunden werden immer für die nicht abrechnungsfähige oder nicht effiziente Auslastung berücksichtigt.
+-   **Nach Abrechnungscode** – Die Abrechnungscodes einer bestimmten Stundentransaktion bestimmen, ob die Stunden für die Abrechnungs‑ oder Effizienzauslastung berücksichtigt werden.
 -   **Nicht enthalten** – Stunden werden bei der Berechnung der Abrechnungs- oder Effizienzauslastung nicht berücksichtigt.
 
 Auf der Seite **Stundennutzung** können Sie neben dem Prozentsatz der Gesamtnutzungsrate für einen Mitarbeiter oder ein Projekt die Anzahl der Stunden anzeigen, die für die Berechnung der Nutzungsrate für jeden der folgenden Stundentypen verwendet wurden:
 
--   **Nicht enthaltene Stunden** – Diese Stunden sind nicht in der Stundenauslastung enthalten.
--   **Enthaltene Stunden** – Diese Stunden werden durch Addition der Nutzungs- und Belastungsstunden berechnet. Diese Stunden sind in der Nutzungsrate enthalten.
--   **Laststunden** – Wenn Sie einen abrechnungsfähigen Tarif berechnen, entsprechen diese Stunden den nicht-abrechnungsfähigen Stunden. Wenn Sie eine Effizienzrate berechnen, entsprechen diese Stunden nicht-produktiven Stunden.
--   **Nutzungsstunden** – Wenn Sie einen abrechnungsfähigen Tarif berechnen, entsprechen diese Stunden den abrechnungsfähigen Stunden. Wenn Sie eine Effizienzrate berechnen, entsprechen diese Stunden produktiven Stunden.
+-   **Nicht enthaltene Stunden** – Diese Stunden sind nicht in der Nutzungsrate der Stunden enthalten.
+-   **Enthaltene Stunden** – Diese Stunden werden durch Addition der Nutzungs‑ und Belastungsstunden berechnet. Diese Stunden sind in der Nutzungsrate enthalten.
+-   **Belastungsstunden** – Wenn Sie einen abrechnungsfähigen Tarif berechnen, entsprechen diese Stunden den nicht abrechnungsfähigen Stunden. Wenn Sie eine Effizienzrate berechnen, entsprechen diese Stunden nicht produktiven Stunden.
+-   **Nutzungsstunden** – Wenn Sie einen abrechnungsfähigen Tarif berechnen, entsprechen diese Stunden den abrechnungsfähigen Stunden. Wenn Sie eine Effizienzrate berechnen, entsprechen diese Stunden den produktiven Stunden.
 
 Wenn Sie die Nutzungsrate für einen Mitarbeiter berechnen, können Sie Normstunden oder enthaltene Stunden verwenden. Wenn Sie enthaltene Stunden verwenden, müssen Sie sicherstellen, dass die Mitarbeiter ihre gesamte Arbeitszeit für die Arbeitszeittabellen erfassen, da die Berechnung als Prozentsatz der eingegebenen Stunden ausgedrückt wird. Wenn Sie die Stundennutzung für ein Projekt, einen Projektvertrag, einen Kundendatensatz oder eine Kategorie berechnen, müssen Sie die enthaltenen Stunden für Ihre Berechnung verwenden.
 
@@ -429,17 +429,17 @@ Sie können eine Projektanweisung erstellen, um eine schnelle Momentaufnahme des
 
 -   Projekttypen
 -   Transaktionstypen
--   Projektdatum/Ledger-Datum
+-   Projektdatum/Finanzbuchhaltungsdatum
 -   Daten
 
-Nachdem die Anweisung berechnet wurde, können Sie die folgenden Informationen auf den verschiedenen Registerkarten auf der Seite **Projektanweisungen** anzeigen:
+Nachdem die Anweisung berechnet wurde, können Sie die folgenden Informationen auf den verschiedenen Registerkarten auf der Seite **Projektaufstellungen** anzeigen:
 
--   **Allgemein** – Allgemeine Informationen zur grundlegenden Gewinn- und Verluststruktur des Projekts.
+-   **Allgemein** – Allgemeine Informationen zur grundlegenden Gewinn- und Verluststruktur des Projekts
 -   **Gewinn- und Verlust** – Informationen zu aufgelaufenen Einnahmen.
 -   **WIP** – Informationen zu WIP-Kontoständen.
 -   **Verbrauch** – Informationen zum Verbrauch von Stunden, Artikeln, Ausgaben und Gehaltsabrechnungen.
--   **Rechnung** – Informationen zu Rechnungen und Rechnungsstellung.
--   **Stundennutzung** – Die Stundensätze für Stunden, die auf Einnahmen- und Kostenkonten gebucht werden.
+-   **Rechnung** – Informationen zu Rechnungen und Rechnungsstellung
+-   **Stundensatz** – Die Stundensätze für Stunden, die auf Umsatz- und Kostenkonten gebucht werden
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

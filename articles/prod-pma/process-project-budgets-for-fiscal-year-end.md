@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076657"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289728"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projektbudgets am Ende von Geschäftsjahr übertragen
 
@@ -36,7 +36,7 @@ Wenn Sie an einem mehrjährigen Projekt arbeiten, haben Sie möglicherweise am E
 Führen Sie die folgenden Schritte aus, um die Budgetbeträge zum Jahresende für Projekte zu überprüfen, ohne die Beträge vorzutragen.
 
 1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Periodisch** > **Budgets** > **Budgets vortragen**. 
-2. Überprüfen Sie auf der Seite **Projektbudgetvortrag-Prozess** auf der Registerkarte **Optionen zum Jahresende** , dass **Verbleibende Projektbudgetbeträge vortragen** nicht aktiviert ist.
+2. Überprüfen Sie auf der Seite **Projektbudgetvortrag-Prozess** auf der Registerkarte **Optionen zum Jahresende**, dass **Verbleibende Projektbudgetbeträge vortragen** nicht aktiviert ist.
 3. Wählen Sie auf der Registerkarte **Parameter** im Feld **Projektbudgetjahr** das Geschäftsjahr aus, für das Sie den verbleibenden Budgetbetrag anzeigen möchten. 
 4. Wählen Sie im Feld **Eröffnungsgeschäftsjahr** das Geschäftsjahr aus, für das Sie den verbleibenden Budgetbetrag anzeigen möchten. 
 5. Wählen Sie im Feld **Von Planzahlenmodell** die Option **Übriges Budget** aus. 
@@ -59,10 +59,10 @@ Wenn Sie verbleibende Budgetbeträge verarbeiten, können Sie in der Finanzbuchh
 2. Wählen Sie auf der Seite **Projektbudgetvortrag-Prozess** die Option **Jahresende** aus, und aktivieren Sie dann **Verbleibende Projektbudgetbeträge vortragen** und **Budgetregistereinträge im Hauptbuch erstellen**. 
 3. Wählen Sie auf der Registerkarte **Parameter** in der Feldgruppe **Projektparameter** Folgendes aus:
 
-   - **Projektbudgetjahr** : Wählen Sie den Anfang des Geschäftsjahres aus, für das Sie die verbleibenden Budgetbeträge anzeigen möchten. 
-   - **Gewinn und Verlust** : Erstellen Sie Gewinn- und Verlusttransaktionen in der Finanzbuchhaltung. 
-   -  **WIP** : Erstellen Sie WIP-Transaktionen in der Finanzbuchhaltung.
-   -  **Lohnbuchhaltung** : Erstellen Sie Zuteilungstransaktionen für die Lohnbuchhaltung in der Finanzbuchhaltung. 
+   - **Projektbudgetjahr**: Wählen Sie den Anfang des Geschäftsjahres aus, für das Sie die verbleibenden Budgetbeträge anzeigen möchten. 
+   - **Gewinn und Verlust**: Erstellen Sie Gewinn- und Verlusttransaktionen in der Finanzbuchhaltung. 
+   -  **WIP**: Erstellen Sie WIP-Transaktionen in der Finanzbuchhaltung.
+   -  **Lohnbuchhaltung**: Erstellen Sie Zuteilungstransaktionen für die Lohnbuchhaltung in der Finanzbuchhaltung. 
 
 5. Geben Sie in der Feldgruppe **Finanzbuchhaltung** die folgenden Informationen ein: 
 

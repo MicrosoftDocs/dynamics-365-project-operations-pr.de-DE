@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076656"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289683"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronisieren Sie die Projektdaten direkt von Project Service Automation in das Projektintegrationsjournal, um sie in Finance and Operations zu veröffentlichen
 
@@ -80,15 +80,15 @@ Bevor eine Synchronisierung der Istwerte erfolgen kann, müssen Sie die Integrat
 In der Vorlage für Projekt-Istwerte müssen Sie Microsoft Power Query für Excel verwenden, um die folgenden Aufgaben auszuführen:
 
 - Transformieren Sie den Transaktionstyp in Project Service Automation in den richtigen Transaktionstyp in Finance. Diese Transformation ist bereits in der Vorlage für Projekt-Istwerte (PSA zu Fin und Ops) definiert.
-- Transformieren Sie den Fakturierungstyp in Project Service Automation in den richtigen Fakturierungstyp in Finance. Diese Transformation ist bereits in der Vorlage für Projekt-Istwerte (PSA zu Fin und Ops) definiert. Die Abrechnungsart wird dann basierend auf der Konfiguration auf der **Integrationsparameter für Project Service Automation** -Seite zur Positionseigenschaft zugeordnet.
+- Transformieren Sie den Fakturierungstyp in Project Service Automation in den richtigen Fakturierungstyp in Finance. Diese Transformation ist bereits in der Vorlage für Projekt-Istwerte (PSA zu Fin und Ops) definiert. Die Abrechnungsart wird dann basierend auf der Konfiguration auf der **Integrationsparameter für Project Service Automation**-Seite zur Positionseigenschaft zugeordnet.
 - Filtern Sie nach bestimmten Ressourcenorganisationseinheiten, die mit dieser Vorlage synchronisiert werden müssen.
 - Wenn Intercompany-Zeit- oder Intercompany-Aufwandsdaten mit Finance synchronisiert werden, müssen Sie die Vertragsorganisationseinheit in die richtige juristische Person in Finance umwandeln. In der Vorlage für Projekt-Istwerte (PSA zu Fin und Ops) wird eine bedingte Spalte basierend auf Demodaten definiert. Sie müssen die zuletzt eingefügte bedingte Spalte auf die richtigen juristischen Personen aktualisieren. Andernfalls kann entweder ein Integrationsfehler auftreten, oder es können falsche tatsächliche Transaktionen in Finance importiert werden.
 - Wenn die tatsächlichen oder Intercompany-Ausgaben nicht mit Finance synchronisiert werden, müssen Sie die zuletzt eingefügte bedingte Spalte aus Ihrer Vorlage löschen. Andernfalls kann entweder ein Integrationsfehler auftreten, oder es können falsche tatsächliche Transaktionen in Finance importiert werden.
 
 #### <a name="contract-organizational-unit"></a>Vertragsorganisationseinheit
-Um die eingefügte bedingte Spalte in der Vorlage zu aktualisieren, klicken Sie auf den Pfeil **Zuordnen** und öffnen die Zuordnung. Wählen Sie die Verknüpfung **Erweiterte Abfrage und Filterung** , um Power Query zu öffnen.
+Um die eingefügte bedingte Spalte in der Vorlage zu aktualisieren, klicken Sie auf den Pfeil **Zuordnen** und öffnen die Zuordnung. Wählen Sie die Verknüpfung **Erweiterte Abfrage und Filterung**, um Power Query zu öffnen.
 
-- Wenn Sie die Standardvorlage für Projekt-Istwerte (PSA zu Fin und Ops) verwenden, wählen Sie in Power Query die letzte Option **Eingefügter Zustand** aus dem Abschnitt **Angewandte Schritte**. In dem Eintrag **Funktion** ersetzen Sie **USSI** mit dem Namen der juristischen Person, die für die Integration verwendet werden soll. Fügen Sie dem **Funktion** -Eintrag nach Bedarf Bedingungen hinzu, und aktualisieren Sie die **else** -Bedingung von **USMF** auf die richtige juristische Person.
+- Wenn Sie die Standardvorlage für Projekt-Istwerte (PSA zu Fin und Ops) verwenden, wählen Sie in Power Query die letzte Option **Eingefügter Zustand** aus dem Abschnitt **Angewandte Schritte**. In dem Eintrag **Funktion** ersetzen Sie **USSI** mit dem Namen der juristischen Person, die für die Integration verwendet werden soll. Fügen Sie dem **Funktion**-Eintrag nach Bedarf Bedingungen hinzu, und aktualisieren Sie die **else**-Bedingung von **USMF** auf die richtige juristische Person.
 - Wenn Sie eine neue Vorlage erstellen, müssen Sie die Spalte hinzufügen, um die Intercompany-Zeit und -Kosten zu unterstützen. Wählen Sie **Bedingte Spalte hinzufügen** aus, und geben Sie einen Namen für die neue Spalte ein wie **LegalEntity**. Geben Sie eine Bedingung für die Spalte ein, wobei, wenn **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\> entspricht, dann \<enter the legal entity\>; sonst null
 
 ### <a name="template-mapping-in-data-integration"></a>Vorlagenzuordnung in der Datenintegration

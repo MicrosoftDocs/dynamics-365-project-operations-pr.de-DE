@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288828"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekt-Zeittabelle mobile Anwendung
 
@@ -76,7 +76,7 @@ In dem Feld **Projekt** wählen Sie das Projekt aus, für das Sie die Zeit einge
 
 Die Kunden- und Projektsuche ermöglicht die Suche über Kunden und Projekte hinweg.
 
-Wählen Sie Informationen in den Feldern **Kategorie** , **Aktivität** , **Zeilen-Eigenschaft** , **Umsatzsteuergruppe** und **Artikel-Umsatzsteuergruppe** nach Bedarf. Diese Felder können überschrieben werden.
+Wählen Sie Informationen in den Feldern **Kategorie**, **Aktivität**, **Zeilen-Eigenschaft**, **Umsatzsteuergruppe** und **Artikel-Umsatzsteuergruppe** nach Bedarf. Diese Felder können überschrieben werden.
 
 Das Feld **Zeilen-Eigenschaft** wird basierend auf den Projektmanagement- und Buchhaltungsparametern auf einen Standardwert gesetzt. Wenn die Parameter Projekt/Kategorie und Kategorie/Ressource aktiviert sind, wird der Wert **Zeilen-Eigenschaft** auf den Standardwert gesetzt, den Sie für diese Validierung definiert haben. Wenn die Projekt-/Kategorie- und Kategorie-/Ressourcenparameter nicht aktiviert sind, wird der Wert **Zeilen-Eigenschaft** standardmäßig gemäß dem Feld **Aktivieren Sie die Standardzeileneigenschaft** auf der Seite **Projektmanagement- und Buchhaltungsparameter** dargestellt. Der Wert **Zeilen-Eigenschaft** kann überschrieben werden.
 
@@ -91,11 +91,11 @@ Finanzielle Dimension und Unterstützung für Anhänge werden in der mobilen Anw
 
 Fügen Sie nach Bedarf weitere Projektzeilen hinzu, um Ihre Arbeitszeittabelle zu vervollständigen.
 
-Klicken Sie auf **übermitteln** , um die Arbeitszeittabelle an den Genehmigungsworkflow zu senden.
+Klicken Sie auf **übermitteln**, um die Arbeitszeittabelle an den Genehmigungsworkflow zu senden.
 
 ## <a name="review-timesheets"></a>Arbeitszeittabellen überprüfen
 
-Eine Liste der Arbeitszeittabellen, die überprüft werden müssen, ist im Menü verfügbar. Diese Option ist nur verfügbar, wenn Sie als die den Workflow genehmigende Person festgelegt wurden. Sowohl die Header- als auch die Zeilengenehmigung werden unterstützt. Die Genehmigung auf Zeilenebene bietet die Möglichkeit, eine oder mehrere Zeilen zur Genehmigung zu markieren. Klicken Sie nach dem Überprüfen der Arbeitszeittabelleninformationen auf **Genehmigen** , **Delegieren** , oder **Rückgabe** , um den Workflow fortzusetzen.
+Eine Liste der Arbeitszeittabellen, die überprüft werden müssen, ist im Menü verfügbar. Diese Option ist nur verfügbar, wenn Sie als die den Workflow genehmigende Person festgelegt wurden. Sowohl die Header- als auch die Zeilengenehmigung werden unterstützt. Die Genehmigung auf Zeilenebene bietet die Möglichkeit, eine oder mehrere Zeilen zur Genehmigung zu markieren. Klicken Sie nach dem Überprüfen der Arbeitszeittabelleninformationen auf **Genehmigen**, **Delegieren**, oder **Rückgabe**, um den Workflow fortzusetzen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
