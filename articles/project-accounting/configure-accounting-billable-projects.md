@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287642"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Buchhaltung für fakturierbare Projekte konfigurieren
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations unterstützt verschiedene Buchhaltungsoptionen für abrechnungsfähige Projekte, einschließlich Zeit- und Materialtransaktionen sowie Festpreistransaktionen.
+Dynamics 365 Project Operations unterstützt verschiedene Abrechnungsoptionen für abrechnungsfähige Projekte, einschließlich Zeit-, Material- und Festpreistransaktionen.
 
 - **Zeit- und Materialtransaktionen**: Diese Transaktionen werden im Verlauf der Arbeiten basierend auf dem Verbrauch von Stunden, Ausgaben, Artikeln oder Gebühren für das Projekt in Rechnung gestellt. Diese Transaktionskosten können mit den Einnahmen aus jeder Transaktion abgeglichen werden, und das Projekt wird im Verlauf der Arbeiten in Rechnung gestellt. Projekteinnahmen können auch zum Zeitpunkt der Transaktion abgegrenzt werden. Während der Rechnungsstellung werden Umsatzerlöse erfasst und gegebenenfalls aufgelaufene Umsatzerlöse aufgelöst.
 - **Festpreistransaktionen**: Diese Transaktionen werden nach einem Abrechnungsplan in Rechnung gestellt, der auf dem Projektvertrag basiert. Umsatz aus Festpreistransaktionen können bei Rechnungsstellung entsprechend der **Vertrag abgeschlossen**- oder **Abgeschlossener Anteil**-Methoden erfasst oder entsprechend berechnet und periodisch gebucht werden.

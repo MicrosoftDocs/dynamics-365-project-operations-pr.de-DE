@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287417"
 ---
 # <a name="create-intercompany-transactions"></a>Intercompany-Transaktionen erstellen
 
@@ -69,7 +69,7 @@ Molly Clark, Entwicklerin bei GBPM, verzeichnet 10 Stunden Arbeit für ein USPM 
     5. Erstellen Sie ein neues Projekt und ordnen Sie es dieser Vertragslinie zu.
 4. Als Ressource **Molly Clark** anmelden. Gehen Sie zu **Projekte** > **Zeiteinträge** und erstellen Sie einen Zeiteintrag für das Adventure Works-Projekt.
 5. Melden Sie sich als Projektmanager an. Gehen Sie zu **Projekte** > **Genehmigungen** und genehmigen Sie die von Molly Clark protokollierte Zeiteintragstransaktion.
-6. Navigieren Sie zum Adventure Works-Projekt und wählen Sie **Verknüpft** > **Tatsächliche Transaktionen**. Die folgenden tatsächlichen Transaktionen werden erstellt.
+6. Navigieren Sie zum Adventure Works-Projekt, und wählen Sie **Verknüpft** > **Ist-Werte** aus. Die folgenden tatsächlichen Transaktionen werden erstellt.
 
 | **Transaktionstyp** | **Preis** | **Buchungswährung** | **Betrag** |
 | --- | --- | --- | --- |

@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131522"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286832"
 ---
 # <a name="maintain-team-members"></a>Teammitglieder verwalten
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Sie können Ihrem Projektteam eine benannte Ressource hinzufügen, indem Sie diese direkt für das Team buchen.
+Sie können Ihrem Projektteam eine benannte Ressource hinzufügen, indem Sie sie direkt im Team buchen.
 
-1. Wechseln Sie in Dynamics 365 Project Operations zu **Projekte**, wählen Sie das Projekt aus, für das Sie buchen möchten und öffnen Sie es.
+1. Rufen Sie in Dynamics 365 Project Operations **Projekte** auf, wählen Sie das Projekt aus, für das Sie buchen möchten, und öffnen Sie es.
 2. Wählen Sie auf der Seite **Projekt** auf der Registerkarte **Team** **Neu** aus. 
 3. Wählen Sie im Dialogfeld **Schnellerfassung: Projektteammitglied** die buchbare Ressource aus. Das Feld **Rolle** wird mit der Standardrolle der Ressource vorausgefüllt, sofern eine zugewiesen wurde. Sie können die Rolle ändern. 
 4. Wählen Sie das Start- und Enddatum aus, an denen die Ressource benötigt wird, und wählen Sie die Zuweisungsmethode für die Ressourcenkapazität aus. 

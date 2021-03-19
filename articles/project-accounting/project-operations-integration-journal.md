@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133341"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287237"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal in Project Operations
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Zeit- und Kosteneinträge erstellen **Tatsächliche** Transaktionen, die die operative Sicht auf Arbeiten darstellen, die für ein Projekt ausgeführt wurden. Dynamics 365 Project Operations bietet Buchhaltern ein Tool zum Überprüfen von Transaktionen und zum Anpassen der Buchhaltungsattribute nach Bedarf. Nach Abschluss der Überprüfung und Anpassungen werden die Transaktionen im untergeordneten Sachkonto und im Hauptbuch des Projekts gebucht. Ein Buchhalter kann diese Aktivitäten mit dem ausführen **Project Operations-Integrationsjournal** (**Dynamics 365 Finance** > **Projektmanagement und Buchhaltung** > **Journale** > **Project Operations-Integrationsjournal**) ausführen.
+Zeit- und Kosteneinträge erstellen **Tatsächliche** Transaktionen, die die operative Sicht auf Arbeiten darstellen, die für ein Projekt ausgeführt wurden. Dynamics 365 Project Operations bietet Buchhaltern ein Tool, mit dem sie Transaktionen überprüfen und die Buchhaltungsattribute nach Bedarf anpassen können. Nach Abschluss der Überprüfung und Anpassungen werden die Transaktionen im untergeordneten Sachkonto und im Hauptbuch des Projekts gebucht. Ein Buchhalter kann diese Aktivitäten mit dem ausführen **Project Operations-Integrationsjournal** (**Dynamics 365 Finance** > **Projektmanagement und Buchhaltung** > **Journale** > **Project Operations-Integrationsjournal**) ausführen.
 
 ![Flow des Integrationsjournals](./media/IntegrationJournal.png)
 
@@ -30,7 +30,7 @@ Datensätze im Project Operations-Integrationsjournal werden in regelmäßigen A
 Wenn der periodische Prozess ausgeführt wird, werden alle Aktualisierungen gefunden, die noch nicht zum Project Operations-Integrationsjournal hinzugefügt wurden. Für jede tatsächliche Transaktion wird eine Journalzeile erstellt.
 Das System gruppiert Journalzeilen basierend auf dem im **Periodeneinheit im Project Operations Integration-Journal** ausgewählten Wert (**Finance** > **Projektmanagement und Buchhaltung** > **Einrichtung** > **Projektmanagement- und Buchhaltungsparameter**, **Project Operations in Dynamics 365 Customer Engagement**-Registerkarte) in separate Journale. Mögliche Werte für dieses Feld sind:
 
-  - _*Tage**: Istwerte werden nach Transaktionsdatum gruppiert. Für jeden Tag wird ein separates Journal erstellt.
+  - **Tage**: Istwerte werden nach Transaktionsdatum gruppiert. Für jeden Tag wird ein separates Journal erstellt.
   - **Monate**: Istwerte werden nach Kalendermonaten gruppiert. Für jeden Monat wird ein separates Journal erstellt.
   - **Jahre**: Istwerte werden nach Kalenderjahren gruppiert. Für jedes Jahr wird ein separates Journal erstellt.
   - **Alle**: Alle tatsächlichen Transaktionen sind im selben Integrationsjournal enthalten. Wenn das Journal während der Ausführung des periodischen Prozesses nicht verfügbar ist, z. B. wenn das Journal gerade Transaktionen bucht, wird ein neues Journal erstellt.

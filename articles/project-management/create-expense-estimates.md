@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131702"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287057"
 ---
 # <a name="expense-estimates"></a>Ausgabenschätzungen
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Mit Dynamics 365 Project Operations können Projektmanager nicht nur ressourcenbasierte Schätzungen definieren, sondern auch projektbasierte Ausgaben für jedes Projekt definieren. Jeder Ausgabenposten kann einer bestimmten Projektaufgabe oder Ausgabenkategorie zugeordnet werden. Ausgabenkategorien werden normalerweise auf organisatorischer Ebene definiert. Die Preisgestaltung für jede Ausgabenkategorie wird normalerweise in der folgenden Hierarchie definiert:
+Zusammen mit der Definition von ressourcenbasierten Schätzungen ermöglicht es Dynamics 365 Project Operations Projektmanagern, projektbasierte Ausgaben für jedes Projekt zu definieren. Jeder Ausgabenposten kann einer bestimmten Projektaufgabe oder Ausgabenkategorie zugeordnet werden. Ausgabenkategorien werden normalerweise auf organisatorischer Ebene definiert. Die Preisgestaltung für jede Ausgabenkategorie wird normalerweise in der folgenden Hierarchie definiert:
 
 - Organisation
 - Kunde

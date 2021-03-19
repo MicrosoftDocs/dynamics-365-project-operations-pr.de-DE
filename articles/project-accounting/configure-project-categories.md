@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131927"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287507"
 ---
 # <a name="configure-project-categories"></a>Projektkategorien konfigurieren
 
@@ -37,7 +37,7 @@ Transaktionskategorien werden im Project Operations-Modul definiert.
 
 ## <a name="shared-categories"></a>Gemeinsame Kategorien
 
-Dynamics 365 verwendet das Konzept der gemeinsamen Kategorien, um Ausgaben in verschiedenen Anwendungen zu kategorisieren, z. B. Dynamics 365 Finance, Dynamics 365 Supply Chain und Dynamics 365 Project Operations. Für jede erstellte Transaktionskategorie erstellt Project Operations automatisch vier verwandte gemeinsame Kategorien: Stunden, Kosten, Gebühren und Artikel. Sie können die gemeinsamen Kategorien überprüfen und anpassen, indem Sie zu **Projektmanagement und Buchhaltung** \> **Einrichten** \> **Kategorien** \> **Gemeinsame Kategorien** wechseln.
+Dynamics 365 verwendet das Konzept der gemeinsam genutzten Kategorien, um Ausgaben in verschiedenen Anwendungen, wie beispielsweise Dynamics 365 Finance, Dynamics 365 Supply Chain und Dynamics 365 Project Operations, zu kategorisieren. Für jede erstellte Transaktionskategorie erstellt Project Operations automatisch vier verwandte gemeinsame Kategorien: Stunden, Kosten, Gebühren und Artikel. Sie können die gemeinsamen Kategorien überprüfen und anpassen, indem Sie zu **Projektmanagement und Buchhaltung** \> **Einrichten** \> **Kategorien** \> **Gemeinsame Kategorien** wechseln.
 
 ## <a name="project-categories"></a>Projektkategorien
 
