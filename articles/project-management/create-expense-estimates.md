@@ -1,43 +1,45 @@
 ---
-title: Ausgabenschätzungen
+title: Finanzielle Vorkalkulationen für die Ausgaben von Projekten
 description: Dieses Thema enthält Informationen zum Definieren oder Kalkulieren projektbasierter Ausgaben.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287057"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701781"
 ---
-# <a name="expense-estimates"></a>Ausgabenschätzungen
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+# <a name="financial-estimates-for-expenses-on-projects"></a>Finanzielle Vorkalkulationen für die Ausgaben von Projekten
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Zusammen mit der Definition von ressourcenbasierten Schätzungen ermöglicht es Dynamics 365 Project Operations Projektmanagern, projektbasierte Ausgaben für jedes Projekt zu definieren. Jeder Ausgabenposten kann einer bestimmten Projektaufgabe oder Ausgabenkategorie zugeordnet werden. Ausgabenkategorien werden normalerweise auf organisatorischer Ebene definiert. Die Preisgestaltung für jede Ausgabenkategorie wird normalerweise in der folgenden Hierarchie definiert:
-
-- Organisation
-- Kunde
-- Angebot/Vertrag
+Dynamics 365 Project Operations ermöglicht es Projektmanagern, projektbasierte Ausgaben für jedes Projekt oder jede Aufgabe zu definieren. Jeder Ausgabenartikel kann einer bestimmten Projektaufgabe zugeordnet werden. Ausgaben werden in verschiedene Ausgabenkategorien eingeteilt, die auf organisatorischer Ebene definiert werden. Die Preisgestaltung und Kalkulation für jede Ausgabenkategorie ist in der Preisliste definiert. 
 
 Führen Sie die folgenden Schritte aus, um Projektkosten anzuzeigen, hinzuzufügen oder zu löschen.
 
 1. Wechseln Sie zu **Projekte** und wählen Sie das Projekt aus, an dem Sie arbeiten möchten.
-2. Wählen Sie die Registerkarte **Projektschätzungen** aus und zeigen Sie die Liste der Projektkosten an.
+2. Wählen Sie die Registerkarte **Projektvorkalkulationen** aus und zeigen Sie die Liste der Projektkosten an.
 3. Wählen Sie **Neue Ausgabe** aus, um eine neue Ausgabe hinzuzufügen. Oder wählen Sie eine zu löschende Ausgabe aus und wählen Sie dann **Ausgabe löschen**.
 
-Die folgenden Attribute sind für jede Ausgabenposition definiert:
+Die folgende Tabelle enthält Informationen zu den Feldern auf der **Kostenvorkalkulationszeile** in einem Projekt. 
 
-- **Kategorie** : Die gemeinsamen Gruppierungen, mit denen alle für ein Projekt anfallenden Ausgaben beschrieben werden.
-- **Anfangsdatum** : Das Datum, an dem die Ausgaben voraussichtlich anfallen werden.
-- **Menge** : Die geschätzte Anzahl von Ausgabenposten für eine bestimmte Kategorie.
-- **Stückpreis** : Der Einheitspreis, der zur Berechnung der Ausgabenkosten verwendet wird.
-- **Stückverkaufspreis** : Der Einheitspreis, der zur Berechnung des Verkaufspreises verwendet wird.
-
+| **Feld** | **Beschreibung** | **Downstream-Auswirkungen** |
+| --- | --- | --- |
+| Aufgabe | Eine Liste der Aufgaben im Projekt. Dies umfasst Zusammenfassungs- und Blattknotenaufgaben. | Die Auswahl einer Aufgabe für eine Kostenvorkalkulationszeile wirkt sich auf die geschätzten Kostenkosten und den geschätzten Kostenumsatz für eine Aufgabe aus. Wenn dieses Feld leer ist, werden die entsprechenden Ausgabenvorkalkulationen nur auf Projektebene verfolgt und zusammengefasst. |
+| Kateg. | Eine Liste von Transaktionskategorien, die Ausgabenkategorien in der Anwendung verknüpft haben. | Durch Auswahl einer Kategorie werden Preisgestaltung und Kostenberechnung in der Kostenschätzungszeile gesteuert. |
+| Startdatum | Das prognostizierte Datum, an dem die Kosten anfallen werden. | Es gibt keine nachgelagerten Auswirkungen für dieses Feld. |
+| Einheitengruppe | Der Standardwert in diesem Feld stammt aus der Einheitengruppe, die als Standard für die ausgewählte Kategorie eingerichtet wurde. Sie können dieses Feld aktualisieren, um eine andere Einheitengruppe auszuwählen. | Es gibt keine nachgelagerten Auswirkungen für dieses Feld. |
+| Einheit | Der Standardwert in diesem Feld ist die Standardeinheit der ausgewählten Kategorie. Sie können dieses Feld aktualisieren, um eine andere Einheit auszuwählen. | Das Ändern der Einheit führt zu einem anderen Standardeinheitspreis und anderen Kosten. |
+| Menge | Die Menge der geschätzten Kosten, die Ihnen entstehen. | Es gibt keine nachgelagerten Auswirkungen für dieses Feld. |
+| Stückkosten | Die Kosten der ausgewählten Kategorie- und Einheitenkombination, wie in der entsprechenden Kostenpreisliste angegeben | Die Stückkosten werden immer in der Kostenwährung des Projekts angezeigt. |
+| Einheitenpreis | Der Preis der ausgewählten Kategorie- und Stückkombination, wie in der entsprechenden Verkaufspreisliste angegeben. | Die Stückpreise werden immer in der Verkaufswährung des Projekts angezeigt. |
+| Gesamtkosten | Der Kostenbetrag wird als Menge \* Kosten pro Einheit berechnet.| Der Kostenbetrag wird immer in der Kostenwährung des Projekts angezeigt. |
+| Gesamtumsatz | Der Verkaufsbetrag wird als Menge \* Preis pro Einheit berechnet. | Der Verkaufsbetrag immer in der Verkaufswährung des Projekts angezeigt. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,25 +3,25 @@ title: Status und Validierungen, die nicht überschritten werden dürfen, verwal
 description: Dieses Thema enthält Informationen zu den in Project Operations durchgeführten Grenzwertprüfungen, die nicht überschritten werden dürfen.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274018"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866726"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Status und Validierungen, die nicht überschritten werden dürfen, verwalten 
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 ## <a name="not-to-exceed-on-approvals"></a>Nicht zu überschreitende Genehmigungen
 
-Wenn ein Zeit- oder Kosteneintrag übermittelt wird, wird ein Genehmigungsdatensatz erstellt. Wenn die Genehmigung kostenpflichtig ist und einer Zeit- und Materialvertragszeile zugeordnet ist, führt das System eine nicht zu überschreitende Validierungsprüfung auf den folgenden Ebenen durch:
+Wenn Sie einen Zeit-, Kosten- oder Materialverbrauchseintrag senden, wird ein Genehmigungsdatensatz erstellt. Wenn die Genehmigung kostenpflichtig ist und einer Zeit- und Materialvertragszeile zugeordnet ist, führt das System eine nicht zu überschreitende Validierungsprüfung auf den folgenden Ebenen durch:
 
   - Prüfung anhand des für den Kunden festgelegten Limits in der Projektvertragszeile
   - Prüfung anhand des festgelegten Limits in der Vertragszeile
@@ -34,11 +34,11 @@ Wenn die Prüfung bestanden ist, erhält die Genehmigung den Validierungsstatus 
 
 Wenn die Prüfung fehlschlägt, erhält die Genehmigung den Validierungsstatus **Fehler**. Das nicht zu überschreitende Validierungsdetail informiert den Benutzer darüber, auf welcher Ebene die Validierung fehlgeschlagen ist.
 
-Wenn der übermittelte Zeit- oder Kosteneintrag als nicht kostenpflichtig angesehen wird, wird der Validierungsstatus „Nicht zu überschreiten“ auf **Nicht zutreffend** mit dem Validierungsdetail **Nicht zutreffend** gesetzt.
+Wenn der übermittelte Zeit-, Kosten- oder Materialverbrauchseintrag als nicht fakturierbar angesehen wird, wird der Validierungsstatus auf **Nicht zutreffend** und das Validierungsdetail auf **Nicht zutreffend** gesetzt.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Nicht zu überschreitende nicht fakturierte Umsatz-Istwerte
 
-Wenn eine Zeit- oder Kostenbuchung genehmigt wird, werden Kosten- und nicht abgerechnete Verkaufsdaten erstellt. Wenn die erstellten nicht fakturierten Umsatz-Istwerte fakturierbar und einer Zeit- und Materialvertragszeile zugeordnet sind, führt die Anwendung eine nicht zu überschreitende Validierungsprüfung auf den folgenden Ebenen durch:
+Wenn ein Zeit-, Kosten- oder Materialverbrauchseintrag genehmigt wird, werden Kosten- und nicht in Rechnung gestellte Umsatzdatensätze erstellt. Wenn die erstellten nicht fakturierten Umsatz-Istwerte fakturierbar und einer Zeit- und Materialvertragszeile zugeordnet sind, führt die Anwendung eine nicht zu überschreitende Validierungsprüfung auf den folgenden Ebenen durch:
 
   - Prüfung anhand des für den Kunden festgelegten Limits in der Projektvertragszeile
   - Prüfung anhand des festgelegten Limits in der Vertragszeile
@@ -55,9 +55,9 @@ Wenn der nicht abgerechnete tatsächliche Umsatz als nicht fakturierbar oder fak
 
 ## <a name="reset-the-not-to-exceed-status"></a>Nicht zu überschreitenden Status zurücksetzen
 
-Sie können einen Massen-Reset des Status „Nicht zu überschreiten“ durchführen. Auf diese Weise können Projektmanager die nicht zu überschreitende Validierung anpassen, um die Abrechnung eines bestimmten Arbeits-, Zeit- oder Kostenaufwands gegenüber anderen zu priorisieren, die bereits aus dem verfügbaren nicht zu überschreitenden Betrag gebunden sind.
+Sie können einen Massen-Reset des Status „Nicht zu überschreiten“ durchführen. Projektmanager können die nicht zu überschreitende Validierung anpassen, um die Abrechnung eines bestimmten Arbeits-, Zeit-, Kosten- oder Materialverbrauchs gegenüber anderen zu priorisieren, die bereits aus dem verfügbaren nicht zu überschreibenden Betrag gebunden sind.
 
-Nachdem der Status „Nicht zu überschreiten“ bei nicht in Rechnung gestellten Verkaufszahlen zurückgesetzt wurde, wird der zugesagte Betrag reduziert. Der Projektmanager kann einen anderen Teil der Arbeit, Zeit oder Kosten auswählen, bei denen die nicht zu überschreitende Validierung zuvor nicht bestanden wurde, und diese neu bewerten. Mit der Reduzierung des zugesagten Betrags bestehen diese Istwerte nun die Validierung. Dies hilft dem Projektmanager, mehr Einfluss und Kontrolle über die abrechnungsfähigen Transaktionen für diesen Zeitraum auszuüben.
+Nachdem der Status „Nicht zu überschreiten“ bei nicht in Rechnung gestellten Verkaufszahlen zurückgesetzt wurde, wird der zugesagte Betrag reduziert. Der Projektmanager kann einen anderen Arbeits-, Zeit-, Kosten- oder Materialverbrauchseintrag auswählen, bei dem die nicht zu überschreitende Validierung zuvor nicht bestanden und neu bewertet wurde. Mit der Reduzierung des zugesagten Betrags bestehen diese Istwerte nun die Validierung, wodurch der Projektmanager einen größeren Einfluss und eine größere Kontrolle über die abrechnungsfähigen Transaktionen für diesen Zeitraum ausüben kann.
 
 Um den Status „Nicht zu überschreiten“ zurückzusetzen, wählen Sie einen oder mehrere Istwerte aus der Ansicht **Rückstandsprotokoll über Zeit- und Materialberechnung** oder **Istwerte** und dann **Nicht zu überschreitenden Status zurücksetzen** aus.
 

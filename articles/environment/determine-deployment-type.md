@@ -3,21 +3,21 @@ title: Bereitstellungstyp festlegen
 description: Dieses Thema enthält Informationen, die Ihnen helfen, den korrekten Bereitstellungstyp von Projekt Operations für Ihr Unternehmen zu bestimmen.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479563"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663593"
 ---
 # <a name="determine-your-deployment-type"></a>Bereitstellungstyp festlegen
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 > [!IMPORTANT]
 > Beginnen Sie nach dem Kauf der Lizenz hier, um das beste Bereitstellungsmodell für Dynamics 365 Project Operations mithilfe des [ Geführten Installationsflows](https://aka.ms/provisionprojectoperations) zu ermitteln.
@@ -44,19 +44,19 @@ Unsere [Bereitstellungsfragebogen](https://aka.ms/provisionprojectoperations) hi
 - [Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen](#integrated)
 - [Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigungsaufträgen](#pma)
 
-Project Operations unterstützt Lager-/Produktionsauftragsszenarien und nicht lagernde/ressourcenbasierte Szenarien in derselben Umgebung durch Konfigurationen auf der Ebene der juristischen Person. Beispielsweise kann Contoso die Lagerbestands-/Produktionsauftragsfunktionen in seiner US-Produktionsstätte nutzen (juristische Person = Contoso Manufacturing United States). Contoso kann die nicht vorrätigen/ressourcenbasierten Funktionen in seiner Contoso Robotics Arms-Serviceeinrichtung im Vereinigten Königreich (juristische Person = Contoso Robotics, Vereinigtes Königreich) verwenden.
+Project Operations unterstützt Lager-/Produktionsauftragsszenarien und nicht lagernde/ressourcenbasierte Szenarien in derselben Umgebung durch Konfigurationen auf der Ebene der juristischen Person. Beispielsweise kann Contoso die Lagerbestands-/Produktionsauftragsfunktionen in ihrer US-Produktionsstätte nutzen (juristische Person = Contoso Manufacturing United States). Contoso kann die nicht vorrätigen/ressourcenbasierten Funktionen in der Contoso Robotics Arms-Serviceeinrichtung im Vereinigten Königreich (juristische Person = Contoso Robotics Vereinigtes Königreich) verwenden.
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
 
 Die Lite-Bereitstellung umfasst die folgenden Funktionen:
 
 - Verkaufsprozess für Projekte, der die Anwendungserfahrung von Dynamics 365 Sales erweitert
 - Projektplanung mit Microsoft Project für das Web
 - Mehrdimensionale Preisberechnung
-- Vereinheitlichte Ressourcenverwaltung
-- Zeitnachverfolgung
+- Einheitliche Ressourcenverwaltung
+- Zeiterfassung
 - Grundkosten
-- Proforma und kundenorientierte Rechnungsstellung 
+- Proforma-Rechnungsstellung für die Überprüfung und Bearbeitung durch den Projektmanager 
 
 #### <a name="deployment-steps"></a>Bereitstellungsschritte
 Bestimmen Sie das beste Bereitstellungsmodell für Project Operations mithilfe des [Bereitstellungsfragebogens](https://aka.ms/provisionprojectoperations).
@@ -88,13 +88,13 @@ Informationen zu dieser Bereitstellung finden Sie unter [Registrieren für Vorsc
 
 - Projektplanung mit WBS
 - Ressourcenverwaltung
-- Zeitnachverfolgung
+- Zeiterfassung
 - Volle Ausgaben
 - Zugangs-OCR
 - Volle Rechnungsstellung
 - Umsatzrealisierung
-- Produktionsaufträge
-- Materialienunterstützung
+- Fertigungsaufträge
+- Lagerbestandsunterstützung mit Inventar
 
 #### <a name="deployment-steps"></a>Bereitstellungsschritte
 Bestimmen Sie das beste Bereitstellungsmodell für Project Operations mithilfe des [Bereitstellungsfragebogens](https://aka.ms/provisionprojectoperations).

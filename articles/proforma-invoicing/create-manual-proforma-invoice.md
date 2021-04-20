@@ -1,42 +1,27 @@
 ---
-title: Manuelle Proforma-Rechnung erstellen
-description: Diese Thema enthält Informationen zum Erstellen einer Proforma-Rechnung.
+title: Proforma-Rechnungen
+description: Dieses Thema enthält Informationen zu Proforma-Rechnungen in Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287777"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866860"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Manuelle Proforma-Rechnung erstellen
+# <a name="proforma-invoices"></a>Proforma-Rechnungen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Die Rechnungstellung bietet Projekt-Managern eine zweite Genehmigungsstufe, bevor sie Rechnungen für Kunden erstellen. Die erste Genehmigungsstufe ist abgeschlossen, wenn die von den Projektteammitgliedern eingereichten Zeit- und Kosteneinträge genehmigt wurden.
+Proforma-Rechnungen sind hilfreich, da sie Projekt-Managern eine zweite Genehmigungsstufe bietet, bevor sie Rechnungen für Kunden erstellen. Die erste Genehmigungsstufe ist abgeschlossen, wenn die von den Projektteammitgliedern eingereichten Zeit-, Ausgaben- und Materialeinträge genehmigt wurden. Bestätigte Proforma-Rechnungen sind im Projektbuchhaltungsmodul von Project Operations verfügbar. Projektbuchhalter können zusätzliche Aktualisierungen wie Umsatzsteuer, Buchhaltung und Rechnungslayout durchführen.
 
-Dynamics 365 Project Operations ist aus folgenden Gründen nicht für die Erstellung von Kundenrechnungen konzipiert:
-
-- Es sind keine Steuerinformationen enthalten.
-- Es können keine anderen Währungen mit korrekt konfigurierten Wechselkursen in die Rechnungswährung konvertiert werden.
-- Rechnungen können nicht korrekt für den Druck formatiert werden.
-
-Stattdessen können Sie ein Finanz- oder Buchhaltungssystem verwenden, um Kundenrechnungen zu erstellen, die die Informationen aus generierten Rechnungsvorschlägen verwenden.
 
 ## <a name="creating-project-invoices"></a>Erstellen von Projektrechnungen
 
@@ -50,7 +35,7 @@ Führen Sie diesen Schritt aus, um eine Rechnung für einen bestimmten Projektve
 
 - Öffnen Sie auf der Listenseite **Projektverträge** einen Projektvertrag und wählen Sie dann **Rechnung erstellen** aus.
 
-    Es wird eine Rechnung für alle Transaktionen des ausgewählten Projektvertrags generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Ausgaben und Meilensteine sowie produktbasierte Vertragszeilen.
+    Es wird eine Rechnung für alle Transaktionen des ausgewählten Projektvertrags generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Ausgaben, Materialien, Meilensteine und andere nicht abgerechnete Verkaufsjournalzeilen.
 
 Befolgen Sie diese Schritte, um Rechnungen in einem Massenvorgang zu erstellen.
 
@@ -60,7 +45,7 @@ Befolgen Sie diese Schritte, um Rechnungen in einem Massenvorgang zu erstellen.
 
 2. Wählen Sie **OK** aus, um das Meldungsfeld zu schließen.
 
-    Es wird eine Rechnung für alle Transaktionen einer Vertragszeile generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Ausgaben und Meilensteine sowie produktbasierte Vertragszeilen.
+    Es wird eine Rechnung für alle Transaktionen einer Vertragszeile generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Ausgaben, Materialien, Meilensteine und andere nicht abgerechnete Verkaufsjournalzeilen.
 
 3. Um die generierten Rechnungen anzuzeigen, wechseln Sie zu **Vertrieb** \> **Fakturierung** \> **Rechnungen**. Sie sehen eine Rechnung für jeden Projektvertrag.
 
@@ -93,11 +78,10 @@ Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um eine
  
 ### <a name="edit-a-draft-invoice"></a>Bearbeiten eines Rechnungsentwurfs
 
-Wenn Sie einen Projektrechnungsentwurf erstellen, werden sämtliche nicht fakturierten Verkaufstransaktionen, die bei der Genehmigung der Zeit- und Ausgabeneinträge erstellt wurden, in die Rechnung aufgenommen. Sie können die folgenden Anpassungen vornehmen, solange sich die Rechnung noch im Entwurfsstadium befindet:
+Wenn Sie einen Projektrechnungsentwurf erstellen, werden sämtliche nicht fakturierten Verkaufstransaktionen, die bei der Genehmigung der Zeit-, Ausgaben- und Materialverbrauchseinträge erstellt wurden, in die Rechnung aufgenommen. Sie können die folgenden Anpassungen vornehmen, solange sich die Rechnung noch im Entwurfsstadium befindet:
 
 - Rechnungspositionsdetails löschen oder bearbeiten.
 - Menge und Fakturierungstyp bearbeiten und anpassen.
-- Zeit, Ausgaben und Gebühren als Transaktionen direkt der Rechnung hinzufügen. Sie können diese Funktion verwenden, wenn die Rechnungszeile einer Vertragszeile zugeordnet ist, die diese Transaktionsklassen zulässt.
 
 Wählen Sie **Bestätigen** aus, um eine Rechnung zu bestätigen. Die Aktion „Bestätigen” ist eine unidirektionale Aktion. Wenn Sie **Bestätigen** auswählen, generiert das System eine schreibgeschützte Rechnung und erstellt zudem für jede Rechnungszeile abgerechnete vertriebliche Ist-Werte aus jedem Rechnungspositionsdetail. Wenn das Rechnungspositionsdetail auf einen nicht fakturierten vertrieblichen Ist-Wert verweist, kehrt das System auch den nicht fakturierten vertrieblichen Ist-Wert um. (Sämtliche Rechnungspositionsdetails, die aus einem Zeit- oder Ausgabeneintrag erstellt wurden, verweisen auf einen nicht fakturierten vertrieblichen Ist-Wert.) Allgemeine Hauptbuchintegrationssysteme können sich diese Umkehrung zunutze machen, um laufende Projektarbeit (WIP, Work In Progress) für Buchhaltungszwecke umzukehren.
 

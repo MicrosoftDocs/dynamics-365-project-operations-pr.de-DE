@@ -1,27 +1,27 @@
 ---
-title: Projektpreislisten in Projektangeboten verwalten – Lite
-description: Dieses Thema bietet Informationen zur Arbeit mit Projektpreislisten in Angeboten. (Sales)
+title: Projektpreislisten in Projektangeboten verwalten
+description: Dieses Thema bietet Informationen zur Arbeit mit Projektpreislisten in Angeboten.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273017"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858607"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projektpreislisten in Projektangeboten verwalten – Lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Projektpreislisten in Projektangeboten verwalten 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 Projektangebote unterstützen effektive Verkaufspreislisten mit mehreren Daten. Mit Dynamics 365 Project Operations wird eine neue zugeordnete Entität namens **Projektpreislisten** ergänzt. Diese Entität hat eine 1:n-Beziehung zu einem Projektangebot.
 
-Projektpreislisten werden verwendet, um Zeit- und Kostentransaktionen für ein Projekt zu bewerten. Wenn ein Angebot eine oder mehrere Projektpreislisten enthält, werden diese Preislisten verwendet, um Zeit- und Kostenschätzungen sowie Istwerte für Projekte zu bewerten, die dem Angebot über die Angebotszeile zugeordnet sind.
+Projektpreislisten werden verwendet, um Zeit-, Material- und Aufwandsvorgänge für ein Projekt zu bewerten. Wenn ein Angebot eine oder mehrere Projektpreislisten enthält, werden diese Preislisten verwendet, um Zeit, Material, Kostenvorkalkulationen und Istwerte für Projekte zu bewerten, die dem Angebot über die Angebotszeile zugeordnet sind.
 
 Wenn ein Projektangebot keine Projektpreislisten enthält, erhalten Sie eine Warnmeldung. In der Meldung heißt es, dass Ihre geschätzten und tatsächlichen Projektarbeiten und -kosten nicht bewertet werden, da keine Projektpreislisten vorhanden sind. Stattdessen haben sie einen Preis von Null (0) für Verkaufswerte.
 

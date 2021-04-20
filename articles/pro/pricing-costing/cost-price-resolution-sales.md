@@ -1,22 +1,22 @@
 ---
-title: Einstandspreise in Schätzungen und tatsächlichen Transaktionen auflösen – Lite
-description: Diese Thema enthält Informationen darüber, wie Einstandspreise in Vorkalkulationen und Istwerten aufgelöst werden.
+title: Einstandspreise in Projektschätzungen und tatsächlichen Transaktionen auflösen
+description: Dieses Thema enthält Informationen zum Auflösen von Kostenpreisen anhand von Projektschätzungen und Istdaten.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274548"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877264"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Einstandspreise in Schätzungen und tatsächlichen Transaktionen auflösen – Lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Einstandspreise in Projektschätzungen und tatsächlichen Transaktionen auflösen 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -35,7 +35,13 @@ Nachdem eine Selbstkostenpreisliste aufgelöst wurde, werden die Felder **Rolle*
 
 Vorkalkulationszeilen für Ausgaben beziehen sich auf die Angebots- und Vertragszeilendetails für Ausgaben- und Ausgabenvorkalkulationszeilen in einem Projekt.
 
-Nachdem eine Kostenpreisliste aufgelöst wurde, verwendet das System eine Kombination aus **Kategorie** und **Einheit** Felder in der Kostenschätzungszeile, die mit den Feldern **Kategorie Preis** Zeilen auf der aufgelösten Preisliste übereinstimmen. Wenn das System eine Kategoriepreiszeile findet, die einen Kostensatz für die Kombination **Kategorie** und **Einheit** hat, ist der Kostensatz standardmäßig festgelegt. Wenn das System nicht mit den Werten **Kategorie** und **Einheit** übereinstimmen kann oder wenn es in der Lage ist, eine passende Kategorie Preislinie zu finden, die Preismethode jedoch nicht **Preis pro Einheit** ist, ist der Kostensatz standardmäßig Null (0).
+Nachdem eine Kostenpreisliste aufgelöst wurde, verwendet das System eine Kombination aus **Kategorie** und **Einheit** Felder in der Kostenvorkalkulationszeile, die mit den Feldern **Kategorie Preis** Zeilen auf der aufgelösten Preisliste übereinstimmen. Wenn das System eine Kategoriepreiszeile findet, die einen Kostensatz für die Kombination **Kategorie** und **Einheit** hat, ist der Kostensatz standardmäßig festgelegt. Wenn das System nicht mit den Werten **Kategorie** und **Einheit** übereinstimmen kann oder wenn es in der Lage ist, eine passende Kategorie Preislinie zu finden, die Preismethode jedoch nicht **Preis pro Einheit** ist, ist der Kostensatz standardmäßig Null (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Auflösen von Verkaufsraten für tatsächliche und geschätzte Zeilen für Material
+
+Schätzlinien für Material beziehen sich auf die Angebots- und Vertragszeilendetails für Materialien und die Materialschätzungslinien für ein Projekt.
+
+Nachdem eine Kostenpreisliste aufgelöst wurde, verwendet das System eine Kombination aus **Produkt**- und **Einheit**-Feldern in der Schätzzeile für eine Materialschätzung, die mit **Preislistenelement**-Zeilen auf der aufgelösten Preisliste übereinstimmt. Wenn das System eine Produktpreiszeile findet, die einen Kostensatz für die **Produkt**- und **Einheit**-Feldkombination hat, wird der Standard-Kostensatz voreingestellt. Wenn das System keine Übereinstimmung für **Produkt**- und **Einheit**-Werte finden kann oder wenn es möglich ist, eine passende Preislisten-Artikelzeile zu finden, die Preismethode jedoch auf Standardkosten oder aktuellen Kosten basiert und keine für das Produkt definiert ist, werden die Stückkosten standardmäßig auf null gesetzt.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

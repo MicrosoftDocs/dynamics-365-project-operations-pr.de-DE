@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272792"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858086"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Projekte und Aufgaben einer projektbasierten Vertragszeile zuordnen – Lite
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projekte und Aufgaben einer projektbasierten Vertragsposition zuordnen 
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung Project Operations für Ressourcen/nicht vorrätige Szenarien_
 
 In projektbasierten Vertragszeilen können Sie der Vertragszeile bestimmte Aufgaben in einem Projekt zuordnen.
 

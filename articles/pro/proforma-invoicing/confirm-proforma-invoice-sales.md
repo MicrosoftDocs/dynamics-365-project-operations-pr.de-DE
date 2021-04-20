@@ -1,26 +1,26 @@
 ---
-title: Eine Proforma-Rechnung bestätigen – Lite
-description: Dieses Thema bietet Informationen zur Bestätigung von Proforma-Rechnungen in Project Operations.
+title: Eine Proforma-Projektrechnung bestätigen
+description: Dieses Thema enthält Informationen zur Bestätigung von Proforma-Projektrechnungen in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274277"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867085"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Eine Proforma-Rechnung bestätigen – Lite
+# <a name="confirm-a-proforma-project-invoice"></a>Eine Proforma-Projektrechnung bestätigen 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 
-Nachdem eine Proforma-Rechnung bestätigt wurde, wird der Status der Projektrechnung auf **Bestätigt** aktualisiert. Wenn eine Rechnung bestätigt wird, ist sie schreibgeschützt. In Zukunft kann die Rechnung nur korrigiert werden, wenn vom Kunden initiierte Korrekturen oder Gutschriften vorliegen, oder wenn die Rechnung als bezahlt markiert ist.
+Nachdem eine Proforma-Rechnung bestätigt wurde, wird der Status der Projektrechnung auf **Bestätigt** aktualisiert. Wenn eine Rechnung bestätigt wird, ist sie schreibgeschützt. In Zukunft kann die Rechnung nur korrigiert werden, wenn vom Kunden initiierte Korrekturen oder Gutschriften vorliegen.
 
 Die folgende Tabelle führt die Istwerte auf, die vom System erstellt wurden. Diese Istwerte werden erstellt, wenn bestimmte Vorgänge für den Entwurf der Projektrechnung ausgeführt werden, bevor dieser bestätigt wird.
 
@@ -225,6 +225,70 @@ Eine nicht fakturierte Umsatzumkehrung für die Menge und den Betrag der ursprü
             <td width="408" valign="top">
                 <p>
 Ein neuer nicht fakturierter tatsächlicher Umsatz, der für die Menge und den Betrag im bearbeiteten Rechnungszeilendetail berechnet wird, eine Umkehrung des nicht fakturierten tatsächlichen Umsatzes und ein gleichwertiger fakturierter tatsächlicher Umsatz 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturierung einer wesentlichen Transaktion ohne Änderungen am Rechnungsentwurf.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Eine nicht in Rechnung gestellte Umsatzstornierung für die Menge und den Betrag in der ursprünglichen Materialverbrauchsgenehmigung.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ein abgerechneter vertrieblicher Ist-Wert für die Menge und den Betrag in der ursprünglichen Materialverbrauchsgenehmigung.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturierung einer Materialtransaktion, die bearbeitet wurde, um die Menge zu reduzieren.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Eine nicht in Rechnung gestellte Umsatzstornierung für die Menge und den Betrag in der ursprünglichen Zeitgenehmigung.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ein neuer nicht fakturierter tatsächlicher Umsatz, der für die Menge und den Betrag im bearbeiteten Rechnungszeilendetail berechnet wird, eine Umkehrung des nicht fakturierten tatsächlichen Umsatzes und ein gleichwertiger fakturierter tatsächlicher Umsatz
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ein neuer nicht fakturierter tatsächlicher Umsatz, der für die verbleibende Menge und den Betrag nach Abzug der korrigierten Zahlen im bearbeiteten Rechnungszeilendetail nicht fakturierbar ist, eine Umkehrung des nicht fakturierten tatsächlichen Umsatzes und ein gleichwertiger fakturierter tatsächlicher Umsatz
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturierung einer Materialtransaktion, die bearbeitet wurde, um die Menge zu erhöhen.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Eine nicht in Rechnung gestellte Umsatzstornierung für die Menge und den Betrag in der ursprünglichen Materialverbrauchsgenehmigung.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Ein neuer nicht fakturierter tatsächlicher Umsatz, der für die Menge und den Betrag im bearbeiteten Rechnungszeilendetail berechnet wird, eine Umkehrung des nicht fakturierten tatsächlichen Umsatzes und ein gleichwertiger fakturierter tatsächlicher Umsatz
                 </p>
             </td>
         </tr>

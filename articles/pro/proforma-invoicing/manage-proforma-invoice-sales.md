@@ -1,21 +1,21 @@
 ---
-title: Eine Proforma-Rechnung verwalten – Lite
-description: Dieses Thema enthält Informationen zum Arbeiten mit Proforma-Rechnungen.
+title: Eine Proforma-Projektrechnung verwalten
+description: Dieses Thema enthält Informationen zur Arbeit mit Proforma-Projektrechnungen.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274028"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866905"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Eine Proforma-Rechnung verwalten – Lite
+# <a name="manage-a-proforma-project-invoice"></a>Eine Proforma-Projektrechnung verwalten 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -39,7 +39,7 @@ Die folgenden Informationen sind in einem Proforma-Rechnungskopf in Project Oper
 | **Kunde** | Registerkarte **Zusammenfassung** | Verweis auf den verknüpften Projektvertrag. Ein schreibgeschütztes Feld, das für die Bearbeitung gesperrt ist. |&nbsp;  |
 | **Beschreibung** | Registerkarte **Zusammenfassung** | Das Textfeld, das die Rechnung beschreibt. Dieses Feld kann vom Benutzer bearbeitet werden. | &nbsp; |
 | **Rechnungsadresse** und verwandte Felder | Registerkarte **Zusammenfassung** | Die Standardeinstellungen werden vom Projektvertragskunden festgelegt. Dieses Feld kann vom Benutzer bearbeitet werden.  | &nbsp; |
-| **Status** | Registerkarte **Zusammenfassung** | Legt die folgenden Optionen fest: **Aktiv**, **Geschlossen**, **Bezahlt** und **Abgebrochen** und kann vom Benutzer bearbeitet werden. | Nicht unterstützte Status für Projektvorgänge umfassen **Geschlossen** und **Abgebrochen**. </br> Der Status ist auf **Aktiv** festgelegt, wenn die Rechnung erstellt wird. </br>Der Status sollte auf **Bezahlt** gesetzt sein, nachdem die Rechnung bestätigt wurde. |
+| **Status** | Registerkarte **Zusammenfassung** | Legt die folgenden Optionen fest: **Aktiv**, **Geschlossen**, **Bezahlt** und **Abgebrochen** und kann vom Benutzer bearbeitet werden. | Nicht unterstützte Status für Project Operations umfassen **Geschlossen** und **Abgebrochen**. </br> Der Status ist auf **Aktiv** festgelegt, wenn die Rechnung erstellt wird. </br>Der Status sollte auf **Bezahlt** gesetzt sein, nachdem die Rechnung bestätigt wurde. |
 | **Projektrechnungsstatus** | Registerkarte **Zusammenfassung** | Legt die folgenden Optionen fest: **Entwurf**, **In Überprüfung** und **Bestätigt** und kann vom Benutzer bearbeitet werden. | In den Status **Entwurf** und **In Überprüfung** kann die Rechnung bearbeitet werden. Die Rechnung kann nach Bestätigung nicht mehr bearbeitet werden. |
 | **Angebotsbetrag** | Registerkarte **Zusammenfassung** | Die Summe der Beträge auf allen Rechnungspositionen nach Vorschüssen und Abzügen. Ein schreibgeschütztes Feld, das für die Bearbeitung gesperrt ist. | In diesem Feld wird der Endbetrag berechnet. |
 | **Rabatt (%)** | Registerkarte **Zusammenfassung** | Dieses Feld kann bearbeitet werden, um einen Rabattprozentsatz einzugeben. Dieses Feld wird von der Project Operations-Funktionalität nicht unterstützt. | Dieses Feld wird nicht unterstützt. |
@@ -69,9 +69,9 @@ Im Project Operations gibt es für jede Projektvertragsposition immer eine Rechn
 
 Jede Rechnungsposition in einer Projektrechnung enthält Details zur Rechnungsposition. Diese Zeilendetails beziehen sich auf die nicht in Rechnung gestellten Verkaufszahlen und Meilensteine, die sich auf die Vertragszeile beziehen, auf die in der Rechnungszeile verwiesen wird. All diese Transaktionen sind als **Bereit für die Rechnungsstellung** markiert.
 
-Für die **Zeit- und Materialrechnung**-Zeile werden Rechnungszeilendetails in **Fakturierbar**, **Nicht fakturierbar** und **Kostenlos** auf der Seite **Rechnungszeile** gruppiert. **Fakturierbare Rechnungszeile**-Details addieren sich zur Rechnungszeilensumme. **Kostenlos** und **Nicht fakturierbare Istwerte** addieren Sie nicht zur Rechnungszeilensumme.
+Für eine **Zeit- und Materialrechnung**-Zeile werden Rechnungszeilendetails in **Fakturierbar**, **Nicht fakturierbar** und **Kostenlos** auf der Seite **Rechnungszeile** gruppiert. **Fakturierbare Rechnungszeile**-Details addieren sich zur Rechnungszeilensumme. **Kostenlos** und **Nicht fakturierbare Istwerte** werden nicht zur Rechnungszeilensumme addiert.
 
-Für die **Festpreisrechnung**-Zeile werden Rechnungszeilendetails aus Meilensteinen erstellt, die als **Bereit für die Rechnungsstellung** auf der zugehörigen Vertragszeile gekennzeichnet sind. Nachdem die Rechnungszeilendetails aus einem Meilenstein erstellt wurde, wird der Abrechnungsstatus des Meilensteins auf **Erstellte Kundenrechnung** aktualisiert.
+Für eine **Festpreisrechnung**-Zeile werden Rechnungszeilendetails aus Meilensteinen erstellt, die als **Bereit für die Rechnungsstellung** auf der zugehörigen Vertragszeile gekennzeichnet sind. Nachdem die Rechnungszeilendetails aus einem Meilenstein erstellt wurde, wird der Abrechnungsstatus des Meilensteins auf **Erstellte Kundenrechnung** aktualisiert.
 
 ### <a name="edit-invoice-line-details"></a>Rechnungspositionsdetails bearbeiten
 
@@ -98,8 +98,12 @@ Die folgenden Felder sind in den Rechnungszeilendetails verfügbar, die durch ei
 | **Steuer** | Standardmäßig aus der tatsächlichen Quelle festgelegt. Dieses Feld kann vom Benutzer bearbeitet werden | Das Feld kann vom Benutzer bearbeitet werden, wenn ein neues Rechnungszeilendetail ohne Hintergrund erstellt wird. |
 | **Erweiterter Betrag** | Ein berechnetes Feld, berechnet als **Betrag + Steuer**. Ein schreibgeschütztes Feld, das für die Bearbeitung gesperrt ist. | &nbsp; |
 | **Fakturierungstyp** | Standardmäßig aus der tatsächlichen Quelle festgelegt. Dieses Feld kann vom Benutzer bearbeitet werden. | Durch Auswählen von **Fakturierbar** wird die Zeile zur Rechnungszeilensumme hinzugefügt. **Kostenlos** und **Nicht fakturierbar** schließt es von der Rechnungszeilensumme aus. |
+| **Produkt auswählen** | Dies ist ein schreibgeschütztes Feld, das standardmäßig aus der tatsächlichen Quelle festgelegt wird. | Wenn Sie ein neues Rechnungszeilendetail ohne Hintergrund erstellen, kann dieses Feld bearbeitet werden. |
+| **Produkt** | Dies ist ein schreibgeschütztes Feld, das standardmäßig aus der tatsächlichen Quelle festgelegt wird. | Wenn Sie ein neues Rechnungszeilendetail ohne zugrundeliegenden Istwert erstellen, kann dieses Feld bearbeitet werden, wenn das Feld **Ausgewähltes Produkt** auf **Vorhandenes Produkt** gesetzt ist. |
+| **Produktname** | Dies ist ein schreibgeschütztes Feld, das standardmäßig aus der tatsächlichen Quelle festgelegt wird. | In einem neuen Rechnungszeilendetail, in dem die Produkt-ID aus dem Katalog ausgewählt ist, wird dieses Feld auf den Produktnamen gesetzt. Bei einem manuell einzutragenden Produkt wird das Feld auf den manuell einzutragenden Namen gesetzt. |
+| **Beschreibung des manuell einzutragenden Produkts** | Dies ist ein schreibgeschütztes Feld, das standardmäßig aus der tatsächlichen Quelle festgelegt wird. | Wenn Sie ein neues Rechnungszeilendetail ohne Hintergrund erstellen, können Sie eine Beschreibung für das Produkt hinzufügen. |
 | **Transaktionstyp** | Standardmäßig aus der tatsächlichen Quelle festgelegt. Ein schreibgeschütztes Feld, das für die Bearbeitung gesperrt ist. | Standardmäßig auf **Fakturierte Umsätze** eingestellt und beim Erstellen eines neuen **Rechnungszeilendetail** ohne eine tatsächliche Unterstützung gesperrt.  |
-| **Transaktionsklasse** | Standardmäßig aus der tatsächlichen Quelle festgelegt. Ein schreibgeschütztes Feld, das für die Bearbeitung gesperrt ist. | Standardmäßig basierend darauf, ob der Benutzer ein **Zeit**-, **Kosten**- oder **Gebühren**-Rechnungszeilendetail beim Erstellen eines neuen **Rechnungszeilendetails** ohne tatsächliche Unterstützung erstellen möchte. Für Bearbeitung gesperrt. |
+| **Transaktionsklasse** | Standardmäßig aus der tatsächlichen Quelle festgelegt. Ein schreibgeschütztes Feld, das für die Bearbeitung gesperrt ist. | Standardmäßig wird dies basierend darauf festgelgt, ob der Benutzer **Zeit**-, **Kosten**-, **Material**- oder **Gebühren**-Rechnungszeilendetails beim Erstellen eines neuen **Rechnungszeilendetails** ohne zugrundeliegenden Istwert erstellen möchte. Für Bearbeitung gesperrt. |
 
 Die folgenden Felder sind in den Rechnungszeilendetails verfügbar, die durch einen Meilenstein abgesichert sind:
 

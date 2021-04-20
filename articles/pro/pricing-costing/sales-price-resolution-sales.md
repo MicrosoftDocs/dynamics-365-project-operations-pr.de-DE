@@ -1,21 +1,21 @@
 ---
-title: Vertriebspreise für Schätzungen und tatsächliche Transaktionen auflösen – Lite
-description: Diese Thema enthält Informationen darüber, wie Verkaufspreise in Vorkalkulationen und Istwerten aufgelöst werden.
+title: Vertriebspreise für Projektschätzungen und tatsächliche Transaktionen auflösen
+description: Dieses Thema enthält Informationen zum Auflösen von Verkaufspreisen anhand von Projektschätzungen und Istdaten.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274502"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877355"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Vertriebspreise für Schätzungen und tatsächliche Transaktionen auflösen – Lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Vertriebspreise für Projektschätzungen und tatsächliche Transaktionen auflösen
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -55,5 +55,14 @@ Nachdem eine Preisliste für Verkäufe aufgelöst wurde, führt das System die f
 
 4. Wenn das System die Feldwerte **Kategorie** und **Einheit** nicht abgleichen kann, ist die Verkaufsrate standardmäßig null (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Auflösen von Verkaufsraten für tatsächliche und geschätzte Zeilen für Material
+
+In Project Operations werden Schätzlinien für Material verwendet, um Angebots- und Vertragszeilendetails für Materialien und die Materialschätzungslinien für ein Projekt zu bezeichnen.
+
+Nachdem eine Preisliste für Verkäufe aufgelöst wurde, führt das System die folgenden Schritte aus, um den Einheitsvertriebskostenpreis als Standard festzulegen.
+
+1. Das System verwendet die **Produkt**- und **Einheit**-Feldkombination in der Schätzzeile für Material, das mit den Preislisten-Artikelzeilen in der aufgelösten Preisliste übereinstimmt.
+2. Wenn das System eine Preislisten-Artikelzeile findet, die eine Verkaufsrate für die **Produkt**- und **Einheit**-Feldkombination hat und die Preismethode ist **Währungsbetrag**, wird der in der Preislistenzeile angegebene Verkaufspreis verwendet.
+3. Wenn keine Übereinstimmung für **Produkt**- und **Einheit**-Werte gefunden wird, ist die Verkaufsrate standardmäßig null.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

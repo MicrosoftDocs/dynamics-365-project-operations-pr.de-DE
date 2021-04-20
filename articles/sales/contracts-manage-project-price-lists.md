@@ -3,31 +3,31 @@ title: Projektpreislisten in Projektverträgen verwalten
 description: Dieses Thema enthält Informationen zum Verwalten von Projektpreislisten für Projektverträge.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278597"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858562"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projektpreislisten in Projektverträgen verwalten
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Projektverträge in Dynamics 365 Project Operations unterstützen effektive Verkaufspreislisten mit mehreren Daten für einen Vertrag. In Project Operations gibt es eine neue zugeordnete Entität mit dem Namen **Projektpreislisten**. Diese Entität hat eine 1:n-Beziehung zu einem Projektvertrag.
 
-Projektpreislisten werden verwendet, um Zeit- und Kostentransaktionen für ein Projekt zu bewerten. Wenn ein Vertrag eine oder mehrere Projektpreislisten enthält, werden diese Preislisten verwendet, um Zeit- und Kostenschätzungen sowie Istwerte für Projekte zu berechnen, die dem Vertrag über die Vertragszeile zugeordnet sind.
+Projektpreislisten werden verwendet, um Zeit-, Material- und Aufwandsvorgänge für ein Projekt zu bewerten. Wenn ein Vertrag eine oder mehrere Projektpreislisten enthält, werden diese Preislisten verwendet, um Zeit, Material, Kostenschätzungen und Istwerte für Projekte zu bewerten, die dem Vertrag über die Vertragszeile zugeordnet sind.
 
-Wenn ein Projektvertrag keine Projektpreislisten enthält, wird eine Warnmeldung angezeigt, dass keine Projektpreislisten vorhanden sind und Ihre Schätzungen, die tatsächliche Projektarbeit und die Kosten nicht bewertet werden. Für Verkaufswerte gibt es keinen Preis.
+Wenn ein Projektvertrag keine Projektpreislisten enthält, wird eine Warnmeldung angezeigt, dass keine Projektpreislisten vorhanden sind und Ihre Schätzungen, die tatsächliche Projektarbeit, das Material und die aufgezeichneten Kosten nicht bewertet werden. Für Verkaufswerte gibt es keinen Preis.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Verknüpfen oder Aufheben der Zuordnung einer Projektpreisliste zu einem Projektvertrag
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Erstellen oder verknüpfen Sie eine bestimmte Preisliste zur Schätzung der projektbezogenen Arbeit und Ausgaben
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Erstellen oder verknüpfen Sie eine bestimmte Preisliste zur Schätzung der projektbasierten Arbeit, des Materials und der Kosten
 
 1. Wählen Sie im Projektvertrag die Registerkarte **Projektpreislisten**.
 2. Wählen Sie im Unterraster **+ Neue Projektpreisliste hinzufügen** aus.
@@ -52,7 +52,7 @@ Wenn ein Projektvertrag keine Projektpreislisten enthält, wird eine Warnmeldung
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Richten Sie die automatische Standardisierung von Projektpreislisten für einen Vertrag ein
 
-Eine Projektpreisliste kann als Standardliste für einen Projektvertrag eingerichtet werden. Mit diesem Setup können Sie sicherstellen, dass alle Verträge in Ihrer Organisation immer mit einer Standardpreisliste für diesen Preiszeitraum beginnen.
+Eine Projektpreisliste kann als Standardprojektpreisliste eingerichtet werden. Dieses Setup stellt sicher, dass alle Verträge in Ihrer Organisation immer mit einer Standardprojektpreisliste für diesen Preiszeitraum beginnen.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Richten Sie den organisatorischen Standard für Projektpreislisten ein
 

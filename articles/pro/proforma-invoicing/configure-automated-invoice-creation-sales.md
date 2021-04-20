@@ -1,29 +1,27 @@
 ---
-title: Automatische Rechnungserstellung konfigurieren – Lite
-description: Diese Thema enthält Informationen zum Konfigurieren der automatischen Erstellung von Proforma-Rechnungen.
+title: Automatische Rechnungserstellung einrichten
+description: Dieses Thema enthält Informationen zum Einrichten und Konfigurieren der automatischen Erstellung von Proforma-Rechnungen.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274322"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866816"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Automatische Rechnungserstellung konfigurieren – Lite
+# <a name="set-up-automatic-invoice-creation"></a>Automatische Rechnungserstellung einrichten 
  
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung Project Operations für Ressourcen/nicht vorrätige Szenarien_
 
 In Dynamics 365 Project Operations können Sie die automatische Rechnungserstellung konfigurieren. Das System erstellt einen Entwurf einer Proforma-Rechnung basierend auf dem Rechnungsplan für jeden Projektvertrag und jede Vertragszeile. Rechnungspläne werden auf Vertragszeilenebene konfiguriert. Jede Zeile in einem Vertrag kann einen eigenen Rechnungsplan haben, oder in jeder Zeile des Vertrags kann derselbe Rechnungsplan enthalten sein.
 
-Wenn Sie eine Rechnung erstellen, erstellt das System immer mindestens eine Rechnung pro Projektvertrag. In einigen Fällen werden möglicherweise mehrere Rechnungen erstellt.
-
-Wenn der Vertrag beispielsweise mehrere Kunden hat, wird dieselbe Anzahl von Rechnungen erstellt wie die Anzahl der Kunden, die fakturierbare Transaktionen für diesen Projektvertrag in Rechnung stellen müssen.
+Wenn Sie eine Rechnung erstellen, erstellt das System immer mindestens eine Rechnung pro Projektvertrag. In einigen Fällen werden möglicherweise mehrere Rechnungen erstellt. Wenn der Vertrag beispielsweise mehrere Kunden hat, wird dieselbe Anzahl von Rechnungen erstellt wie die Anzahl der Kunden, die fakturierbare Transaktionen für diesen Projektvertrag in Rechnung stellen müssen.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Informationen dazu, wie Transaktionen in einer Rechnung eingeschlossen sind 
 

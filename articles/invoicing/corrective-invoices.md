@@ -1,23 +1,23 @@
 ---
-title: Korrekturprojektrechnungen
-description: Dieses Thema enthält Informationen zum Erstellen und Bestätigen von Korrekturrechnungen in Project Operations.
+title: Projektbasierte Korrekturrechnungen erstellen
+description: Dieses Thema enthält Informationen zu Korrekturrechnungen in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866590"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788856"
 ---
-# <a name="corrective-project-invoices"></a>Korrekturprojektrechnungen
+# <a name="create-corrective-project-based-invoices"></a>Projektbasierte Korrekturrechnungen erstellen 
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
 Eine bestätigte Projektrechnung kann korrigiert werden, um Änderungen oder Gutschriften zu verarbeiten, die mit dem Kunden und dem Projektmanager ausgehandelt wurden.
 
@@ -26,18 +26,17 @@ Um eine bestätigte Rechnung zu bearbeiten, öffnen Sie die bestätigte Rechnung
 > [!NOTE]
 > Diese Auswahl ist nur verfügbar, wenn eine Projektrechnung bestätigt wurde.
 
-Aus der bestätigten Rechnung wird ein neuer Rechnungsentwurf erstellt. Alle Rechnungszeilendetails aus der zuvor bestätigten Rechnung werden in den neuen Entwurf kopiert. Im Folgenden sind einige der wichtigsten Punkte aufgeführt, die Sie zum Verständnis der Zeilendetails auf der neuen korrigierten Rechnung beachten sollten:
+Aus der bestätigten Rechnung wird ein neuer Rechnungsentwurf erstellt. Alle Rechnungszeilendetails aus der zuvor bestätigten Rechnung werden in den neuen Entwurf kopiert. Im Folgenden finden Sie einige wichtige Punkte, die Ihnen helfen sollen, mehr über die Zeilendetails auf der neuen Korrekturrechnung zu erfahren:
 
-- Alle Mengen werden auf Null aktualisiert. Die Anwendung geht davon aus, dass alle in Rechnung gestellten Artikel vollständig gutgeschrieben sind. Bei Bedarf können Sie diese Mengen manuell aktualisieren, um die in Rechnung gestellte Menge und nicht die gutgeschriebene Menge widerzuspiegeln. Basierend auf der von Ihnen eingegebenen Menge berechnet die Anwendung die gutgeschriebene Menge. Dieser Betrag spiegelt sich in den Istwerten wider, die erstellt werden, wenn die korrigierte Rechnung bestätigt wird. Wenn Sie Änderungen am Steuerbetrag vornehmen, müssen Sie den richtigen Steuerbetrag eingeben und nicht den Steuerbetrag, der gutgeschrieben wird.
-- Zuvor bestätigte produktbasierte Vertragszeilen werden nicht kopiert. Die Verarbeitung von Korrekturen auf einer produktbasierten Projektrechnung wird nicht unterstützt.
+- Alle Mengen werden auf Null aktualisiert. Dies setzt voraus, dass alle in Rechnung gestellten Artikel vollständig gutgeschrieben werden. Bei Bedarf können Sie diese Mengen manuell aktualisieren, um die in Rechnung gestellte Menge und nicht die gutgeschriebene Menge widerzuspiegeln. Basierend auf der von Ihnen eingegebenen Menge berechnet die Anwendung die gutgeschriebene Menge. Dieser Betrag spiegelt sich in den Istwerten wider, die erstellt werden, wenn die korrigierte Rechnung bestätigt wird. Wenn Sie Änderungen am Steuerbetrag vornehmen, müssen Sie den richtigen Steuerbetrag eingeben und nicht den Steuerbetrag, der gutgeschrieben wird.
 - Meilensteinkorrekturen werden immer als volle Gutschriften verarbeitet.
 - Vorauszahlungs- oder Vorschussbeträge können korrigiert werden, wenn dem Kunden ein falscher Betrag in Rechnung gestellt wurde.
 - Abstimmungen von Vorauszahlungen und Vorschüssen können korrigiert werden, wenn ein falscher Betrag verwendet wurde, um die Gebühren auf einer zuvor bestätigten Rechnung abzugleichen.
 
 > [!IMPORTANT]
-> Bei Rechnungszeilendetails, die Korrekturen zu anderen bereits in Rechnung gestellten Gebühren darstellen, ist das Feld **Korrektur** auf **Ja** eingestellt. Rechnungen mit korrigierten Rechnungszeilendetails haben ein Feld mit dem Namen **Hat Korrekturen**, das auch auf **Ja** eingestellt ist.
+> Rechnungszeilendetails, bei denen es sich um Korrekturen zu anderen bereits in Rechnung gestellten Gebühren handelt, haben das **Korrektur**-Feld auf **Ja** gesetzt. Rechnungen mit korrigierten Rechnungszeilendetails haben ein Feld mit dem Namen **Hat Korrekturen**, das auch auf **Ja** eingestellt ist.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Tatsächliche Transaktionen werden erstellt, wenn eine Korrekturrechnung bestätigt wird
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Istwerten, die bei Bestätigung einer Korrekturrechnung erstellt wurden
 
 In der folgenden Tabelle sind die Istwerte aufgeführt, die erstellt werden, wenn eine Korrekturrechnung bestätigt wird.
 
@@ -214,51 +213,6 @@ Ein neuer nicht fakturierter tatsächlicher Umsatz, der für die verbleibende Me
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Fakturierung des vollen Guthabens einer zuvor in Rechnung gestellten Materialtransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Eine in Rechnung gestellte Umsatzstornierung für die Menge und den Betrag in der ursprünglichen Rechnungszeile für das Material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Eine neue noch nicht in Rechnung gestellte tatsächliche Verkaufstransaktion für die Menge und den Betrag in der ursprünglichen Rechnungszeile für das Material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fakturierung der Teilgutschrift für eine Materialtransaktion.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Eine in Rechnung gestellte Umsatzstornierung für die Menge und den berechneten Betrag in der ursprünglichen Rechnungszeile für das Material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Ein neuer nicht in Rechnung gestellter tatsächlicher Umsatz, der für die Menge und den Betrag in den bearbeiteten Rechnungszeilendetails berechnet wird, eine Umkehrung davon und ein gleichwertiger in Rechnung gestellter tatsächlicher Umsatz.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Ein neuer nicht fakturierter tatsächlicher Umsatz, der für die verbleibende Menge und den Betrag nach Abzug der korrigierten Zahlen im Rechnungszeilendetail berechnet wird.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Fakturierung des vollen Guthabens einer zuvor in Rechnung gestellten Gebührentransaktion
                 </p>
             </td>
@@ -319,20 +273,9 @@ Fakturierung der Teilgutschrift eines zuvor in Rechnung gestellten Meilensteins
                 <p>
 Nicht unterstützt </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Gutschriften und Korrekturen einer zuvor in Rechnung gestellten produktbasierten Vertragszeile
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Nicht unterstützt </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,40 +1,104 @@
 ---
-title: Eine manuelle Proforma-Rechnung erstellen – Lite
-description: Dieses Thema bietet Informationen zum Erstellen einer manuellen Proforma-Rechnung in Project Operations.
+title: Proforma-Projektrechnungen
+description: Dieses Thema enthält Informationen zu Proforma-Projektrechnungen in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 104c2f3f7f0ca0682158d0f7fa0f50a4967e6dd0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d08e2b0422a991aa4c98ae5d1e0f60aa0eb9daa6
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274187"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867175"
 ---
-# <a name="create-a-manual-proforma-invoice---lite"></a>Eine manuelle Proforma-Rechnung erstellen – Lite
+# <a name="proforma-project-pnvoices"></a>Proforma-Projektrechnungen
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-In Dynamics 365 Project Operations können Proforma-Rechnungen nach Bedarf manuell erstellt werden. Sie können manuell eine Proforma-Rechnung über die Listenseite **Projektverträge** oder über die Listenseite **Projektvertrag** erstellen.
+Proforma-Projektrechnungen sind hilfreich, da sie Projekt-Managern eine zweite Genehmigungsstufe bietet, bevor sie Rechnungen für Kunden erstellen. Die erste Genehmigungsstufe ist abgeschlossen, wenn die von den Projektteammitgliedern eingereichten Zeit-, Ausgaben- und Materialeinträge genehmigt wurden.
 
-##  <a name="project-contracts-list-page"></a>Listenseite „Projektverträge“
+Dynamics 365 Project Operations Lite Deployment ist nicht dafür ausgelegt, kundenorientierte Rechnungen zu erstellen. Die folgende Liste zeigt, warum Rechnungen nicht generiert werden können:
 
-Wählen Sie über die Listenseite **Projektverträge** eine oder mehrere Projektverträge aus, und erstellen Sie Rechnungen für alle ausgewählten Datensätze.
+- Es sind keine Steuerinformationen enthalten.
+- Andere Währungen können nicht in die Rechnungswährung umgerechnet werden.
+- Rechnungen zum Drucken können nicht korrekt formatiert werden.
 
-Das System prüft, um zu erkennen, welcher der ausgewählten Projektverträge einen Rückstand in **Bereit für die Rechnungsstellung** vor dem heutigen Datum aufweist. Aus diesen Verträgen erstellt das System Entwürfe von Proforma-Rechnungen. Wenn ein Projektvertrag mehrere Kunden hat, wird möglicherweise eine Rechnung pro Kunde und mehrere Rechnungen pro Projektvertrag erstellt.
+Stattdessen können Sie ein Finanz- oder Buchhaltungssystem verwenden, um Kundenrechnungen zu erstellen, die die Informationen aus generierten Rechnungsvorschlägen verwenden.
 
-Alle erstellten Projektrechnungen sind auf der Seite **Rechnung** im Abschnitt **Abrechnung** des Bereichs **Umsatz** verfügbar.
+## <a name="creating-project-invoices"></a>Erstellen von Projektrechnungen
 
-## <a name="project-contract-details-page"></a>Seite „Projektvertragsdetails“
+Projektrechnungen können einzeln oder mithilfe von Massendatensätzen erstellt werden. Sie können manuell erstellt oder so konfiguriert werden, dass sie in automatisierten Abläufen generiert werden.
 
-Eine Proforma-Rechnung kann auch aus der **Projektvertrag** Detailseite erstellt werden. Das System prüft, ob der Projektvertrag das Rechnungsrückstandsprotokoll **Bereit für die Rechnungsstellung** aufweist, der vor dem heutigen Datum datiert ist. Aus diesen Verträgen erstellt das System Entwürfe von Proforma-Rechnungen basierend auf der Anzahl der Kunden in jeder Vertragszeile.
+### <a name="manually-create-project-invoices"></a>Manuelles Erstellen von Projektrechnungen 
 
-Wenn eine einzelne Proforma-Rechnung erstellt wird, wird die Seite **Rechnung** geöffnet. Wenn für diesen Projektvertrag mehrere Rechnungen erstellt wurden, wird die Listenseite **Rechnungen** geöffnet, um alle erstellten Rechnungen anzuzeigen.
+Auf der Listenseite **Projektverträge** können Sie Projektrechnungen für jeden Projektvertrag separat erstellen, Sie können jedoch auch Rechnungen für mehrere Projektverträge in einem Massenvorgang erstellen.
+
+   - Um eine Rechnung für einen bestimmten Projektvertrag zu erstellen, öffnen Sie auf der Listenseite **Projektverträge** einen Projektvertrag, und wählen Sie dann **Projektrechnungen erstellen** aus.
+
+   Es wird eine Rechnung für alle Transaktionen des ausgewählten Projektvertrags generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Kosten, Materialien, Meilensteine, produktbasierte Vertragslinien und andere nicht in Rechnung gestellte Verkaufsjournalzeilen, die möglicherweise bestätigt wurden.
+
+Rechnungen in einem Massenvorgang erstellen:
+
+1. Wählen Sie auf der Listenseite **Projektverträge** einen oder mehrere Projektverträge aus, für den bzw. die Sie eine Rechnung erstellen möchten, und wählen Sie dann **Projektrechnungen erstellen** aus.
+2. Eine Warnmeldung weist Sie darauf hin, dass es zu Verzögerungen kommen kann, bevor Rechnungen erstellt werden. Der Prozess wird auch angezeigt. Wählen Sie **OK** aus, um das Meldungsfeld zu schließen.
+
+   Es wird eine Rechnung für alle Transaktionen einer Vertragszeile generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Kosten, Materialien, Meilensteine, produktbasierte Vertragslinien und andere nicht in Rechnung gestellte Verkaufsjournalzeilen, die möglicherweise bestätigt wurden.
+
+3. Zeigen Sie die generierten Rechnungen an, indem Sie zu **Vertrieb** \> **Fakturierung** \> **Rechnungen** wechseln. Sie sehen eine Rechnung für jeden Projektvertrag.
+
+### <a name="set-up-automated-creation-of-project-invoices"></a>Einrichten der automatischen Erstellung von Projektrechnungen 
+
+Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf zu konfigurieren.
+
+1. Gehen Sie zu **Einstellungen** \> **Batch-Auftrag**.
+2. Erstellen Sie einen Batchauftrag und nennen Sie ihn **Vorgang zum Erstellen von Rechnungen**. Der Name des Batchauftrags muss den Wortlaut „Rechnungen erstellen” enthalten.
+3. Wählen Sie im Feld **Auftragstyp** **Keiner** aus. Standardmäßig sind die Optionen **Frequenz täglich** und **Ist aktiv** auf **Ja** festgelegt.
+4. Wählen Sie **Workflow ausführen** aus. Im Dialogfeld **Datensatz suchen** werden die folgenden Workflows angezeigt:
+
+    - ProcessRunCaller
+    - ProcessRunner
+    - UpdateRoleUtilization
+
+5. Wählen Sie **ProcessRunCaller** und dann **Hinzufügen** aus.
+6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep**-Workflow folgt ein **Process** -Workflow.
+
+    In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
+
+Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen erstellt. Dieser Workflow durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt die Rechnungen. Zur Bestimmung der Vertragszeilen, für die Rechnungen erstellt werden sollen, überprüft der Workflow die Rechnungsdurchlaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungsdurchlaufdatum aufweisen, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, werden keine Rechnungen erstellt.
+
+Nachdem **ProcessRunner** ausgeführt wurde, ruft es **ProcessRunCaller** auf, gibt die Endzeit an und wird geschlossen. **ProcessRunCaller** startet dann einen Zeitgeber, der ab der angegebenen Endzeit 24 Stunden lang ausgeführt wird. Am Ende des Zeitgebers wird **ProcessRunCaller** geschlossen.
+
+Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um einen wiederkehrenden Job. Wenn diese Stapelverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Jobs erstellt und können Fehler verursachen. Um dieses Problem zu umgehen, sollten Sie die Stapelverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
+
+> [!NOTE]
+> Die Stapelabrechnung wird nur für Projektvertragszeilen ausgeführt, die durch Rechnungspläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden. Gleiches gilt für eine projektbasierte Vertragszeile.      
+ 
+### <a name="edit-a-draft-invoice"></a>Bearbeiten eines Rechnungsentwurfs
+
+Wenn Sie einen Projektrechnungsentwurf erstellen, werden sämtliche nicht fakturierten Verkaufstransaktionen, die bei der Genehmigung der Zeit- und Ausgabeneinträge erstellt wurden, in die Rechnung aufgenommen. Sie können die folgenden Anpassungen vornehmen, solange sich die Rechnung noch im Entwurfsstadium befindet:
+
+- Rechnungspositionsdetails löschen oder bearbeiten.
+- Menge und Fakturierungstyp bearbeiten und anpassen.
+- Zeit, Ausgaben, Material und Gebühren als Transaktionen direkt der Rechnung hinzufügen. Sie können diese Funktion verwenden, wenn die Rechnungszeile einer Vertragszeile zugeordnet ist, die diese Transaktionsklassen zulässt.
+
+Wählen Sie **Bestätigen** aus, um eine Rechnung zu bestätigen. Diese Aktion ist eine unidirektionale Aktion. Wenn Sie **Bestätigen** auswählen, wird die Rechnung schreibgeschützt und erstellt zudem für jede Rechnungszeile abgerechnete vertriebliche Ist-Werte aus jedem Rechnungspositionsdetail. Wenn das Rechnungspositionsdetail auf einen nicht fakturierten vertrieblichen Ist-Wert verweist, wird der nicht fakturierte vertrieblichen Ist-Wert umgekehrt. Alle Rechnungszeilendetails, die aus einem Zeit-, Kosten- oder Materialverbrauchseintrag erstellt wurden, verweisen auf einen nicht in Rechnung gestellten tatsächlichen Umsatz. Hauptbuch-Integrationssysteme können diese Umkehrung verwenden, um laufende Projektarbeiten (WIP) für Buchhaltungszwecke rückgängig zu machen.
+
+### <a name="correct-a-confirmed-invoice"></a>Korrigieren einer bestätigten Rechnung
+
+Bestätigte Rechnungen können bearbeitet werden. Wenn Sie eine bestätigte Rechnung korrigieren, wird ein neuer Korrekturrechnungsentwurf erstellt. Da davon ausgegangen wird, dass Sie alle Transaktionen und Mengen aus der ursprünglichen Rechnung umkehren möchten, enthält diese Korrekturrechnung alle Transaktionen aus der ursprünglichen Rechnung, wobei sämtliche Mengen mit null ausgewiesen sind.
+
+Wenn Transaktionen vorliegen, die keine Korrektur benötigen, können aus dem Korrekturrechnungsentwurf entfernt werden. Wenn Sie nur eine Teilmenge umkehren oder zurückgeben möchten, können Sie das Feld **Menge** im Positionsdetail bearbeiten. Wenn Sie das Rechnungspositionsdetail öffnen, sehen Sie die ursprüngliche Rechnungsmenge. Sie können die aktuelle Rechnungsmenge bearbeiten, indem Sie die ursprüngliche Rechnungsmenge erhöhen oder reduzieren.
+
+Wenn Sie eine Korrekturrechnung bestätigen, wird der ursprüngliche abgerechnete vertriebliche Ist-Wert umgekehrt und ein neuer abgerechneter vertrieblicher Ist-Wert erstellt. Wenn die Menge reduziert wurde, wird aufgrund der Differenz ein neuer, nicht abgerechneter vertrieblicher Ist-Wert erstellt. Wenn beispielsweise der ursprüngliche abgerechnete Wert acht Stunden war, und die korrigierte Rechnungszeile eine reduzierte Menge von sechs Stunden aufweist, wird die ursprüngliche abgerechnete Vertriebszeile storniert und zwei neue Ist-Werte werden erstellt:
+
+- Einen abgerechneten vertrieblichen Ist-Wert für sechs Stunden.
+- Einen nicht abgerechneten vertrieblichen Ist-Wert für die verbleibenden zwei Stunden. Diese Transaktion kann – abhängig von den Verhandlungen mit dem Kunden – später abgerechnet oder als nicht fakturierbar markiert werden.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

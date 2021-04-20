@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277517"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663687"
 ---
-# <a name="quotes---key-concepts"></a>Angebote - Schlüsselkonzepte
+# <a name="concepts-unique-to-project-based-quotes"></a>Konzepte, die nur für projektbasierte Angebote gelten
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 In Dynamics 365 Project Operations gibt es zwei Typen von Angeboten: Projektangebote und Vertriebsangebote. Die zwei Typen von Angeboten unterscheiden sich folgendermaßen:
 
@@ -39,9 +39,9 @@ In Dynamics 365 Project Operations gibt es zwei Typen von Angeboten: Projektange
 
 Dieses Thema fokussiert sich auf die Details von Projektangeboten.
 
-Ein Projektangebot in Projektvorgängen kann mehrere Vertragszeilen oder Angebotszeilen haben. Tatsächlich hat ein Projektangebot zwei Raster für Vertragszeilen. Ein Raster dient für projektbasierte Zeilen, die ausführliche Schätzungen ermöglichen. Das andere Raster ist für produktbasierte Zeilen, die einen einfachen Einheitenpreis und eine mengenbasierte Herangehensweise verwenden.
+Ein Projektangebot in Project Operationsn kann mehrere Vertragszeilen oder Angebotszeilen haben. Tatsächlich hat ein Projektangebot zwei Raster für Vertragszeilen. Ein Raster dient für projektbasierte Zeilen, die ausführliche Schätzungen ermöglichen. Das andere Raster ist für produktbasierte Zeilen, die einen einfachen Einheitenpreis und eine mengenbasierte Herangehensweise verwenden.
 
-- **Projektbasiert**: Der Angebotswert wird bestimmt, nachdem Sie geschätzt haben, wie viel Arbeit erforderlich ist. Sie können die Arbeit auf oberster Ebene direkt als Liniendetails unter jeder Angebotszeile oder basierend auf Basisschätzungen mithilfe eines Projekts und eines Projektplans schätzen. Projektbasierte Angebotszeilen sind nur bei projektbasierten Angeboten zu finden, die mithilfe von Project Operations erstellt werden. Diese Art der Angebotszeile ist eine benutzerdefinierte Form der manuell auszufüllenden Zeilen, die in Microsoft Dynamics 365 Sales verfügbar sind.
+- **Projektbasiert**: Der Angebotswert wird bestimmt, nachdem Sie geschätzt haben, wie viel Arbeit erforderlich ist. Sie können die Arbeit auf oberster Ebene direkt als Liniendetails unter jeder Angebotszeile oder basierend auf Basisvorkalkulationen mithilfe eines Projekts und eines Projektplans schätzen. Projektbasierte Angebotszeilen sind nur bei projektbasierten Angeboten zu finden, die mithilfe von Project Operations erstellt werden. Diese Art der Angebotszeile ist eine benutzerdefinierte Form der manuell auszufüllenden Zeilen, die in Microsoft Dynamics 365 Sales verfügbar sind.
 
 - **Produktbasiert**: Der Angebotswert wird basierend auf der Menge an Einheiten, die verkauft wird, sowie auf dem Einheitenverkaufspreis des Produkts bestimmt. Das Produkt bei einer produktbasierten Zeile kann von einem Produktkatalog in Sales stammen, oder es kann ein von Ihnen festgelegtes Produkt sein. Diese Art der Angebotszeile ist auch bei projektbasierten Angeboten verfügbar, die mithilfe von Project Operations erstellt werden.
 

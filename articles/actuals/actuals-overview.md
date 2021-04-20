@@ -3,7 +3,7 @@ title: Tatsächliche Transaktionen
 description: Dieses Thema enthält Informationen zum Arbeiten mit Istwerten in Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291798"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852543"
 ---
 # <a name="actuals"></a>Tatsächliche Transaktionen 
 
-_**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Ist-Werte sind der Arbeitsaufwand, der für ein Projekt erbracht wurde. Sie werden als Ergebnis von Zeit- und Kosteneingaben sowie Erfassungseinträgen und Rechnungen erstellt.
+Die tatsächlichen Werte repräsentieren den überprüften und genehmigten finanziellen und geplanten Fortschritt eines Projekts. Sie werden als Ergebnis der Genehmigung von Zeit-, Kosten-, Materialverbrauchseinträgen sowie Journaleinträgen und Rechnungen erstellt.
 
 ## <a name="journal-lines-and-time-submission"></a>Erfassungspositionen und Zeiteinreichung
 
@@ -45,7 +45,7 @@ Wenn ein eingereichter Zeiteintrag mit einem Projekt verknüpft wird, das einer 
 
 Die Logik zur Erstellung von Standardpreisen befindet sich in der Journalposition. Die Feldwerte des Zeiteintrags werden in die Erfassungsposition kopiert. Diese Werte enthalten das Transaktionsdatum, die Vertragszeile, der das Projekt zugeordnet ist, sowie das Währungsergebnis in der entsprechenden Preisliste.
 
-In den Feldern, die sich auf die Standardpreise wie etwa **Rolle** und **Organisationseinheit** auswirken, werden verwendet, um den entsprechenden Preis in die Erfassungsposition zu bestimmen. Sie können dem Zeiteintrag ein benutzerdefiniertes Feld hinzufügen. Wenn Sie möchten, dass der Feldwert an „Ist-Werte“ weitergegeben wird, erstellen Sie das Feld in der Entität „Ist-Werte“ und kopieren Sie das Feld mithilfe von Feldzuordnungen vom Zeiteintrag zum Ist-Wert.
+Die Felder, die sich auf die Standardpreise wie etwa **Rolle** und **Ressourceneinheit** auswirken, werden verwendet, um den entsprechenden Preis in die Erfassungsposition festzulegen. Sie können dem Zeiteintrag ein benutzerdefiniertes Feld hinzufügen. Wenn Sie möchten, dass der Feldwert an Istwerte weitergegeben wird, erstellen Sie das Feld in den Tabellen **Istwerte** und **Journalzeile**. Verwenden Sie benutzerdefinierten Code, um den ausgewählten Feldwert mithilfe von Transaktionsursprüngen von Zeiteinträgen zu Istwerten über die Journalzeile zu übertragen. Weitere Informationen zu Transaktionsursprüngen und -verbindungen finden Sie unter [Tatsächliche Transaktionen mit ursprünglichen Datensätzen verknüpfen](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Erfassungspositionen und Einreichung der Grundkosten
 
@@ -57,24 +57,42 @@ Wenn ein übermittelter Grundkosteneintrag mit einem Projekt verknüpft ist, das
 
 ### <a name="fixed-price"></a>Festpreis
 
-Wenn ein eingereichter Grundkosteneintrag mit einem Projekt verknüpft wird, das einer Festpreisvertragszeile zugeordnet ist, erstellt das System eine Erfassungsposition für Kosten.
+Wenn ein übertragener Basisausgabeneintrag mit einem Projekt verknüpft wird, das einer Festpreisvertragszeile zugeordnet ist, erstellt das System eine Journalzeile für Kosten.
 
 ### <a name="default-pricing"></a>Standardpreise
 
-Die Logik zur Eingabe von Standardpreisen für Ausgaben basiert auf der Ausgabenkategorie. Das Datum der Transaktion, die Vertragszeile, der das Projekt zugeordnet ist, sowie die Währung werden alle zum Bestimmen der entsprechenden Preisliste verwendet. Für den Preis selbst wird standardmäßig der vom Benutzer eingegebene Betrag jedoch direkt in den entsprechenden Ausgabenerfassungspositionen für Kosten und Umsatz festgelegt.
+Die Logik zur Eingabe von Standardpreisen für Ausgaben basiert auf der Ausgabenkategorie. Das Datum der Transaktion, die Vertragszeile, der das Projekt zugeordnet ist, sowie die Währung werden alle zum Bestimmen der entsprechenden Preisliste verwendet. Die Felder, die sich auf die Standardpreise wie etwa **Transaktionskategorie** und **Einheit** auswirken, werden verwendet, um den entsprechenden Preis in die Erfassungsposition festzulegen. Dies funktioniert jedoch nur, wenn die Preismethode in der Preisliste **Preis pro Einheit** lautet. Wenn die Preismethode **Zum Einstandswert** oder **Aufschlag auf Kosten** lautet, wird der bei der Erstellung der Spesenbuchung eingegebene Preis für die Kosten verwendet und der Preis in der Verkaufsjournalzeile wird anhand der Preismethode berechnet. 
 
-Der kategoriebasierte Eintrag von Standardpreisen pro Einheit ist bei Ausgabeneinträgen nicht verfügbar.
+Sie können der Spesenbuchung ein benutzerdefiniertes Feld hinzufügen. Wenn Sie möchten, dass der Feldwert an Istwerte weitergegeben wird, erstellen Sie das Feld in den Tabellen **Istwerte** und **Journalzeile**. Verwenden Sie benutzerdefinierten Code, um den ausgewählten Feldwert mithilfe von Transaktionsursprüngen von Zeiteinträgen zu Istwerten über die Journalzeile zu übertragen. Weitere Informationen zu Transaktionsursprüngen und -verbindungen finden Sie unter [Tatsächliche Transaktionen mit ursprünglichen Datensätzen verknüpfen](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Übermittlung von Journalzeilen und Materialverwendungsprotokollen
+
+Weitere Informationen zur Kostenerfassung finden Sie unter [Materialverbrauchsprotokoll](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Zeit und Materialien
+
+Wenn ein übermittelter Materialverwendungsprotokolleintrag mit einem Projekt verknüpft ist, das einer Zeit- und Materialvertragszeile zugeordnet ist, erstellt das System zwei Journalzeilen, eine für Kosten und eine für nicht abgerechnete Verkäufe.
+
+### <a name="fixed-price"></a>Festpreis
+
+Wenn ein übertragenes Materialverbrauchsprotokoll mit einem Projekt verknüpft wird, das einer Festpreisvertragszeile zugeordnet ist, erstellt das System eine Journalzeile für Kosten.
+
+### <a name="default-pricing"></a>Standardpreise
+
+Die Logik zur Eingabe von Standardpreisen für Material basiert auf der Produkt- und Einheitenkombination. Das Datum der Transaktion, die Vertragszeile, der das Projekt zugeordnet ist, sowie die Währung werden alle zum Bestimmen der entsprechenden Preisliste verwendet. Die Felder, die sich auf die Standardpreise wie etwa **Produkt-ID** und **Einheit** auswirken, werden verwendet, um den entsprechenden Preis in die Erfassungsposition festzulegen. Dies funktioniert jedoch nur für Katalogprodukte. Bei manuell einzutragenden Produkten wird der Preis, der bei der Erstellung des Materialverbrauchsprotokolleintrags eingegeben wurde, für Kosten und Verkaufspreis in den Journalzeilen verwendet. 
+
+Sie können dem **Materialverbrauchsprotokoll** ein benutzerdefiniertes Feld hinzufügen. Wenn Sie möchten, dass der Feldwert an Istwerte weitergegeben wird, erstellen Sie das Feld in den Tabellen **Istwerte** und **Journalzeile**. Verwenden Sie benutzerdefinierten Code, um den ausgewählten Feldwert mithilfe von Transaktionsursprüngen von Zeiteinträgen zu Istwerten über die Journalzeile zu übertragen. Weitere Informationen zu Transaktionsursprüngen und -verbindungen finden Sie unter [Tatsächliche Transaktionen mit ursprünglichen Datensätzen verknüpfen](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Eintragserfassungen zur Erfassung von Kosten verwenden
 
 Sie können mithilfe von Erfassungenn die Kosten bzw. den Umsatz in den Transaktionsklassen Material, Gebühr, Zeit, Ausgabe oder Steuer erfassen. Erfassungen können für die folgenden Zwecke verwendet werden:
 
-- Zeichnen Sie die Ist-Kosten der Materialien und Umsätze bei einem Projekt auf.
 - Importieren Sie Transaktions-Istwerte aus einem anderen System nach Microsoft Dynamics 365 Project Operations.
 - Zeichnen Sie die Kosten auf, die in einem anderen System aufgetreten sind. Diese Kosten können Beschaffungs- oder Fremdarbeitskosten umfassen.
 
 > [!IMPORTANT]
 > Die Anwendung überprüft weder den Erfassungspositionstyp noch den zugehörigen Preis, der in der Erfassungsposition eingegeben wird. Daher sollte nur ein Benutzer, der sich der Auswirkungen der tatsächlichen Buchhaltung auf das Projekt voll bewusst ist, Eintragserfassungen verwenden, um tatsächliche Daten zu erstellen. Aufgrund der Auswirkungen dieses Erfassungstyps sollten Sie sorgfältig auswählen, wer Zugriff zum Erstellen von Eintragserfassungen hat.
+
 ## <a name="record-actuals-based-on-project-events"></a>Ist-Werte basierend auf Projektereignissen erfassen
 
 Project Operations erfasst die Finanztransaktionen, die während eines Projekts stattfinden. Diese Transaktionen werden als Ist-Werte aufgezeichnet. Die folgenden Tabellen enthalten die verschiedenen Arten von Ist-Werten, die abhängig davon erstellt werden, ob es sich beim Projekt um ein Zeit-und Material- oder ein Festpreisprojekt handelt, es sich in der Vorverkaufsphase befindet oder ein internes Projekt ist.

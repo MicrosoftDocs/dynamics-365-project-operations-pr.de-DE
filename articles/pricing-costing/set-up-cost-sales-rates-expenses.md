@@ -3,29 +3,30 @@ title: Kostensätze und Verkaufsraten für Ausgaben einrichten
 description: Dieses Thema enthält Informationen zum Einrichten von Kostensätzen und Verkaufsraten für Transaktions- und Ausgabenkategorien.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274907"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877219"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kostensätze und Verkaufsraten für Ausgaben einrichten
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Sie können in Dynamics 365 Project Operations Kosten- und Verkaufspreise für Transaktionskategorien einrichten. Da die Kosten- und Verkaufspreise für Ausgaben ausgelegt sind, muss jede Transaktionskategorie, die diese enthält, auch als Ausgabenkategorie eingerichtet werden. Diese Einrichtung stellt die Genauigkeit der nachgeschalteten Funktionalität sicher. Kosten- und Verkaufspreise für Transaktionskategorien können nur in einer Währung aufgeführt werden, die die Währung im Preislisten-Header sein muss.
 
 Führen Sie die folgenden Schritte aus, um Kostensätze und Verkaufsraten für Transaktionskategorien einzurichten. 
 
-1. Erstellen Sie eine Preisliste basierend auf dem Preislisten-Header. 
-2. Wählen Sie unter **Kategoriepreise** im Unterraster-Menü die Option **+ Neuer Kategoriepreis**. 
-3. Geben Sie auf der Seite **Schnellerfassung** die Transaktionskategorie und -einheit ein, für die Sie den neuen Preis erstellen.
+1. Gehen Sie zu **Vertrieb** > **Kunden** > **Preisliste**.
+2. Um eine neue Preisiste zu erstellen, wählen Sie **Neu** aus. 
+3. Wählen Sie unter **Kategoriepreise** im Unterraster-Menü die Option **Neuer Kategoriepreis**. 
+4. Geben Sie auf der Seite **Schnellerfassung** die Transaktionskategorie und -einheit ein, für die Sie den neuen Preis erstellen.
 
 In der folgenden Tabelle sind die Felder auf der Registerkarte **Allgemein** und **Schnellerfassung** einer Kategoriepreiszeile aufgeführt, die Sie beim Erstellen von Kategoriepreisen in einer Verkaufs- oder Einstandspreisliste berücksichtigen sollten.
 

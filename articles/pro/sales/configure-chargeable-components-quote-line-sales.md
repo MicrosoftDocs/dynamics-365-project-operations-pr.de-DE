@@ -1,23 +1,23 @@
 ---
-title: Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren – Lite
+title: Die fakturierbaren Komponenten einer Angebotszeile konfigurieren
 description: Dieses Thema enthält Informationen zum Einrichten fakturierbarer und nicht fakturierbarer Komponenten in einer projektbasierten Angebotszeile.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273872"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858292"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren – Lite
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren 
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung Project Operations für Ressourcen/nicht vorrätige Szenarien_
 
 Eine projektbasierte Angebotszeile umfasst das Konzept *enthaltener* Komponenten und *fakturierbarer* Komponenten.
 
@@ -42,7 +42,7 @@ Die für Transaktionskategorien für eine Angebotszeile festgelegte Fakturierbar
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Eine Projektaufgabe als fakturierbar oder nicht fakturierbar aktualisieren
 
-Eine Projektaufgabe kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein, wodurch das folgende Setup möglich wird:
+Eine Projektaufgabe kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein, wodurch das folgende Setup möglich wird.
 
 Wenn eine projektbasierte Angebotszeile **Zeit** und die Aufgabe **T1** enthält, wird die Aufgabe der Angebotszeile als fakturierbar zugeordnet. Wenn es eine zweite Angebotszeile gibt, die **Ausgaben** enthält, können Sie die **T1**-Aufgabe in der Angebotszeile als nicht fakturierbar zuordnen. Das Ergebnis ist, dass die gesamte für die Aufgabe aufgezeichnete Zeit fakturierbar ist und alle für die Aufgabe aufgezeichneten Ausgaben nicht fakturierbar sind.
 
@@ -61,22 +61,575 @@ Eine Transaktionskategorie kann für eine bestimmte Angebotszeile fakturierbar o
 Der Fakturierungstyp einer Transaktion kann auf der Registerkarte **Fakturierbare Kategorien** einer Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Fakturierbare Kategorien** aktualisiert wird.
 
 ### <a name="resolve-chargeability"></a>Fakturierbarkeit abschließen
-Eine für die Zeit erstellte Schätzung oder tatsächliche Schätzung wird nur dann als fakturierbar angesehen, wenn **Zeit** in der Angebotszeile enthalten ist und **Aufgabe** und **Rolle** in der Angebotszeile als fakturierbar konfiguriert sind.
+Eine für die Zeit erstellte Schätzung oder tatsächliche Schätzung wird nur dann als steuerpflichtig angesehen, wenn:
 
-Eine für die Ausgabe erstellte Vorkalkulation oder ein Istwert wird nur dann als fakturierbar angesehen, wenn **Ausgaben** in der Angebotszeile enthalten ist und **Aufgabe** und **Transaktionskategorie** in der Angebotszeile als fakturierbar konfiguriert sind.
+   - **Zeit** ist in der Angebotszeile enthalten.
+   - **Rolle** ist in der Angebotszeile als fakturierbar konfiguriert.
+   - **Enthaltene Aufgaben** ist in der Angebotszeile eingestellt auf **Ausgewählte Aufgaben**. 
 
-| Schließt Zeit ein | Schließt Ausgaben ein | Eingeschlossene Aufgaben | Rolle | Kateg. | Task | Fakturierung |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ja | Ja | Gesamtes Projekt | Fakturierbar | Fakturierbar | Kann nicht festgelegt werden | Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar </br>Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar |
-| Ja | Ja | Nur ausgewählte Aufgaben | Fakturierbar | Fakturierbar | Fakturierbar | Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</br>Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar |
-| Ja | Ja | Nur ausgewählte Aufgaben | Nicht fakturierbar | Fakturierbar | Fakturierbar | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</br>Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar |
-| Ja | Ja | Nur ausgewählte Aufgaben | Fakturierbar | Fakturierbar | Nicht fakturierbar | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</br> Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar |
-| Ja | Ja | Nur ausgewählte Aufgaben | Nicht fakturierbar | Fakturierbar | Nicht fakturierbar | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</br> Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar |
-| Ja | Ja | Nur ausgewählte Aufgaben | Nicht fakturierbar | Nicht fakturierbar | Fakturierbar | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</br> Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar |
-| Nr. | Ja | Gesamtes Projekt | Kann nicht festgelegt werden | Fakturierbar | Kann nicht festgelegt werden | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht verfügbar </br>Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar |
-| Nr. | Ja | Gesamtes Projekt | Kann nicht festgelegt werden | Nicht fakturierbar | Kann nicht festgelegt werden | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht verfügbar </br>Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar |
-| Ja | Nr. | Gesamtes Projekt | Fakturierbar | Kann nicht festgelegt werden | Kann nicht festgelegt werden | Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</br>Fakturierungstyp bei tatsächlichen Ausgaben: Nicht verfügbar |
-| Ja | Nr. | Gesamtes Projekt | Nicht fakturierbar | Kann nicht festgelegt werden | Kann nicht festgelegt werden | Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar </br>Fakturierungstyp bei tatsächlichen Ausgaben: Nicht verfügbar |
+Wenn diese drei Dinge zutreffen, wird die **Aufgabe** auch als fakturierbar konfiguriert. 
+
+Eine für den Aufwand erstellte Schätzung oder tatsächliche Werte werden nur dann als fakturierbar angesehen, wenn: 
+
+   - **Ausgaben** ist in der Angebotszeile enthalten.
+   - **Transaktionskategorie** ist in der Angebotszeile als fakturierbar konfiguriert.
+   - **Enthaltene Aufgaben** ist in der Angebotszeile eingestellt auf **Ausgewählte Aufgaben**.
+
+Wenn diese drei Dinge zutreffen, wird die **Aufgabe** auch als fakturierbar konfiguriert. 
+
+Eine für die Materialien erstellte Schätzung oder tatsächliche Schätzung wird nur dann als steuerpflichtig angesehen, wenn:
+
+   - **Material** ist in der Angebotszeile enthalten.
+   - **Enthaltene Aufgaben** ist in der Angebotszeile eingestellt auf **Ausgewählte Aufgaben**.
+
+Wenn diese zwei Dinge zutreffen, wird die **Aufgabe** auch als fakturierbar konfiguriert. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Schließt Zeit ein</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Schließt Ausgaben ein</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Enthält Material</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Eingeschlossene Aufgaben</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rolle</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kateg.</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Aufgabe</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Auswirkungen auf die Fakturierbarkeit</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Gesamtes Projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Nur ausgewählte Aufgaben </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Nur ausgewählte Aufgaben </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Nur ausgewählte Aufgaben </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht Fakturierbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Nur ausgewählte Aufgaben </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht Fakturierbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Nur ausgewählte Aufgaben </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Gesamtes Projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Fakturierbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht verfügbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Gesamtes Projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht verfügbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Gesamtes Projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht verfügbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Gesamtes Projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht verfügbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Gesamtes Projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Fakturierbar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht verfügbar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Nr.</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Gesamtes Projekt </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nicht fakturierbar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kann nicht eingestellt werden </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </p>
+                <p>
+Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht verfügbar</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

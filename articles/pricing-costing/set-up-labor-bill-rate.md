@@ -3,17 +3,17 @@ title: Lohnkostensätze einrichten
 description: Dieses Thema enthält Informationen zum Einrichten und Anwenden von Lohnkostensätzen in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274817"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877399"
 ---
 # <a name="set-up-labor-bill-rates"></a>Lohnkostensätze einrichten
 
@@ -21,8 +21,8 @@ _ **Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nic
 
 Jede Preisliste enthält einen Satz von Rollenpreisen oder Arbeitssätzen, die für den Kontext und die Datumseffektivität gelten, die im Preislistenheader enthalten sind. Rechnungssätze für Zeit können in Dynamics 365 Project Operations nur in der Währung eingerichtet werden, die die Währung in der Kopfzeile der Preisliste ist.
 
-1. Erstellen Sie eine Preisliste basierend auf der Kopfzeile der Preisliste, um die Lohnkosten für eine Verkaufspreisliste festzulegen. 
-2. Wählen Sie auf der Registerkarte **Rollenpreise** im Unterregister die Option **+ Neuer Rollenpreis** aus. 
+1. Um die Lohnkosten für eine Verkaufspreisliste festzulegen, gehen Sie zu **Vertrieb** > **Kunden** > **Preislisten** und wählen **Neu** aus, um eine neue Preisliste zu erstellen. 
+2. Wählen Sie auf der Registerkarte **Rollenpreise** im Unterregister die Option **Neuer Rollenpreis** aus. 
 3. Geben Sie im Bereich **Schnellerfassung** die Kombination aus Rolle und Organisationseinheit ein, für die Sie den Fakturierungssatz einrichten müssen.
 
    In der folgenden Tabelle sind die Felder auf der Registerkarte **Allgemein** und der Bereich **Schnellerfassung** einer Rollenpreiszeile aufgeführt, die Sie beim Erstellen von Rollenpreisen in einer Verkaufspreisliste berücksichtigen sollten.
