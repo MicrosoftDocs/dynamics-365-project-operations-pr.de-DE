@@ -1,82 +1,710 @@
 ---
-title: Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren – Lite
+title: Die fakturierbaren Komponenten einer Angebotszeile konfigurieren
 description: Dieses Thema enthält Informationen zum Einrichten fakturierbarer und nicht fakturierbarer Komponenten in einer projektbasierten Angebotszeile.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273872"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858292"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a><span data-ttu-id="24033-103">Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren – Lite</span><span class="sxs-lookup"><span data-stu-id="24033-103">Configure the chargeable components of a quote line - lite</span></span>
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a><span data-ttu-id="7b11f-103">Die kostenpflichtigen Komponenten einer Angebotszeile konfigurieren</span><span class="sxs-lookup"><span data-stu-id="7b11f-103">Configure the chargeable components of a quote line</span></span> 
 
-<span data-ttu-id="24033-104">_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_</span><span class="sxs-lookup"><span data-stu-id="24033-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="7b11f-104">_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung Project Operations für Ressourcen/nicht vorrätige Szenarien_</span><span class="sxs-lookup"><span data-stu-id="7b11f-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="24033-105">Eine projektbasierte Angebotszeile umfasst das Konzept *enthaltener* Komponenten und *fakturierbarer* Komponenten.</span><span class="sxs-lookup"><span data-stu-id="24033-105">A project-based quote line has the concept of *included* components and *chargeable* components.</span></span>
+<span data-ttu-id="7b11f-105">Eine projektbasierte Angebotszeile umfasst das Konzept *enthaltener* Komponenten und *fakturierbarer* Komponenten.</span><span class="sxs-lookup"><span data-stu-id="7b11f-105">A project-based quote line has the concept of *included* components and *chargeable* components.</span></span>
 
-<span data-ttu-id="24033-106">Enthaltene Komponenten unterliegen Folgendem:</span><span class="sxs-lookup"><span data-stu-id="24033-106">Included components are subject to:</span></span>
+<span data-ttu-id="7b11f-106">Enthaltene Komponenten unterliegen Folgendem:</span><span class="sxs-lookup"><span data-stu-id="7b11f-106">Included components are subject to:</span></span>
 
-  - <span data-ttu-id="24033-107">Fakturierungsmethode und Kundenaufteilung</span><span class="sxs-lookup"><span data-stu-id="24033-107">Billing method and customer splits</span></span>
-  - <span data-ttu-id="24033-108">Nicht zu überschreitende Grenzwerte</span><span class="sxs-lookup"><span data-stu-id="24033-108">Not-to-exceed limits</span></span> 
-  - <span data-ttu-id="24033-109">In der projektbasierten Angebotszeile definierte Einstellungen für die Rechnungshäufigkeit</span><span class="sxs-lookup"><span data-stu-id="24033-109">Invoice frequency settings defined on the project-based quote line</span></span>
+  - <span data-ttu-id="7b11f-107">Fakturierungsmethode und Kundenaufteilung</span><span class="sxs-lookup"><span data-stu-id="7b11f-107">Billing method and customer splits</span></span>
+  - <span data-ttu-id="7b11f-108">Nicht zu überschreitende Grenzwerte</span><span class="sxs-lookup"><span data-stu-id="7b11f-108">Not-to-exceed limits</span></span> 
+  - <span data-ttu-id="7b11f-109">In der projektbasierten Angebotszeile definierte Einstellungen für die Rechnungshäufigkeit</span><span class="sxs-lookup"><span data-stu-id="7b11f-109">Invoice frequency settings defined on the project-based quote line</span></span>
 
-<span data-ttu-id="24033-110">Eine Teilmenge der eingeschlossenen Komponenten kann mit dem Feld **Fakturierungstyp** als fakturierbar markiert werden.</span><span class="sxs-lookup"><span data-stu-id="24033-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="24033-111">Das Feld **Fakturierungstyp** ist ein Optionssatz, der die folgenden Werte im Kontext einer Angebotszeile zulässt:</span><span class="sxs-lookup"><span data-stu-id="24033-111">The **Billing Type** field is an option-set that allows the following values in the context of a quote line:</span></span>
+<span data-ttu-id="7b11f-110">Eine Teilmenge der eingeschlossenen Komponenten kann mit dem Feld **Fakturierungstyp** als fakturierbar markiert werden.</span><span class="sxs-lookup"><span data-stu-id="7b11f-110">A subset of the included components can be marked as chargeable using the **Billing Type** field.</span></span> <span data-ttu-id="7b11f-111">Das Feld **Fakturierungstyp** ist ein Optionssatz, der die folgenden Werte im Kontext einer Angebotszeile zulässt:</span><span class="sxs-lookup"><span data-stu-id="7b11f-111">The **Billing Type** field is an option-set that allows the following values in the context of a quote line:</span></span>
 
-  - <span data-ttu-id="24033-112">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-112">Chargeable</span></span>
-  - <span data-ttu-id="24033-113">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-113">Non-chargeable</span></span>
+  - <span data-ttu-id="7b11f-112">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-112">Chargeable</span></span>
+  - <span data-ttu-id="7b11f-113">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-113">Non-chargeable</span></span>
 
-<span data-ttu-id="24033-114">Fakturierbare Komponenten können für die Kategorien Aufgaben, Rollen und Transaktionen definiert werden.</span><span class="sxs-lookup"><span data-stu-id="24033-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
+<span data-ttu-id="7b11f-114">Fakturierbare Komponenten können für die Kategorien Aufgaben, Rollen und Transaktionen definiert werden.</span><span class="sxs-lookup"><span data-stu-id="7b11f-114">Chargeable components can be defined on tasks, roles, and transaction categories.</span></span>
 
-<span data-ttu-id="24033-115">Die Fakturierbarkeit wird für Aufgaben für eine Angebotszeile definiert und gilt für alle in dieser Zeile enthaltenen Transaktionsklassen.</span><span class="sxs-lookup"><span data-stu-id="24033-115">Chargeability is defined on the tasks for a quote line and applies to all transaction classes included on that line.</span></span> <span data-ttu-id="24033-116">Wenn das Feld **Aufgaben einschließen** auf **Gesamtes Projekt** festgelegt wurde oder leer ist, ist die Registerkarte **Fakturierbare Aufgaben** nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="24033-116">If the **Include Tasks** field is set to **Entire project** or left blank, the **Chargeable Tasks** tab isn't available.</span></span>
+<span data-ttu-id="7b11f-115">Die Fakturierbarkeit wird für Aufgaben für eine Angebotszeile definiert und gilt für alle in dieser Zeile enthaltenen Transaktionsklassen.</span><span class="sxs-lookup"><span data-stu-id="7b11f-115">Chargeability is defined on the tasks for a quote line and applies to all transaction classes included on that line.</span></span> <span data-ttu-id="7b11f-116">Wenn das Feld **Aufgaben einschließen** auf **Gesamtes Projekt** festgelegt wurde oder leer ist, ist die Registerkarte **Fakturierbare Aufgaben** nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="7b11f-116">If the **Include Tasks** field is set to **Entire project** or left blank, the **Chargeable Tasks** tab isn't available.</span></span>
 
-<span data-ttu-id="24033-117">Die für Rollen für eine Angebotszeile festgelegte Fakturierbarkeit gilt nur für die Transaktionsklasse **Zeit**.</span><span class="sxs-lookup"><span data-stu-id="24033-117">Chargeability is defined on roles for a quote line and only applies to the **Time** transaction class.</span></span> <span data-ttu-id="24033-118">Wenn das Feld **Zeit einschließen** in einer Projektangebotszeile auf **Nein** festgelegt wurde, ist die Registerkarte **Fakturierbare Rollen** nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="24033-118">If the field, **Include Time** is set to **No** on a project quote line, the **Chargeable Roles** tab isn't available.</span></span>
+<span data-ttu-id="7b11f-117">Die für Rollen für eine Angebotszeile festgelegte Fakturierbarkeit gilt nur für die Transaktionsklasse **Zeit**.</span><span class="sxs-lookup"><span data-stu-id="7b11f-117">Chargeability is defined on roles for a quote line and only applies to the **Time** transaction class.</span></span> <span data-ttu-id="7b11f-118">Wenn das Feld **Zeit einschließen** in einer Projektangebotszeile auf **Nein** festgelegt wurde, ist die Registerkarte **Fakturierbare Rollen** nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="7b11f-118">If the field, **Include Time** is set to **No** on a project quote line, the **Chargeable Roles** tab isn't available.</span></span>
 
-<span data-ttu-id="24033-119">Die für Transaktionskategorien für eine Angebotszeile festgelegte Fakturierbarkeit gilt nur für die Transaktionsklasse **Ausgaben**.</span><span class="sxs-lookup"><span data-stu-id="24033-119">Chargeability is defined on transaction categories for a  quote line and only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="24033-120">Wenn das Feld **Ausgaben einschließen** in einer Projektangebotszeile auf **Nein** festgelegt wurde, ist die Registerkarte **Fakturierbare Kategorien** nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="24033-120">If the field, **Include Expenses** is set to **No** on a project quote line, the **Chargeable Categories** tab isn't available.</span></span>
+<span data-ttu-id="7b11f-119">Die für Transaktionskategorien für eine Angebotszeile festgelegte Fakturierbarkeit gilt nur für die Transaktionsklasse **Ausgaben**.</span><span class="sxs-lookup"><span data-stu-id="7b11f-119">Chargeability is defined on transaction categories for a  quote line and only applies to the **Expense** transaction class.</span></span> <span data-ttu-id="7b11f-120">Wenn das Feld **Ausgaben einschließen** in einer Projektangebotszeile auf **Nein** festgelegt wurde, ist die Registerkarte **Fakturierbare Kategorien** nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="7b11f-120">If the field, **Include Expenses** is set to **No** on a project quote line, the **Chargeable Categories** tab isn't available.</span></span>
 
-### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="24033-121">Eine Projektaufgabe als fakturierbar oder nicht fakturierbar aktualisieren</span><span class="sxs-lookup"><span data-stu-id="24033-121">Update a project task to be chargeable or non-chargeable</span></span>
+### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="7b11f-121">Eine Projektaufgabe als fakturierbar oder nicht fakturierbar aktualisieren</span><span class="sxs-lookup"><span data-stu-id="7b11f-121">Update a project task to be chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="24033-122">Eine Projektaufgabe kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein, wodurch das folgende Setup möglich wird:</span><span class="sxs-lookup"><span data-stu-id="24033-122">A project task can be chargeable or non-chargeable in the context of a specific project-based quote line, which makes the following setup possible:</span></span>
+<span data-ttu-id="7b11f-122">Eine Projektaufgabe kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein, wodurch das folgende Setup möglich wird.</span><span class="sxs-lookup"><span data-stu-id="7b11f-122">A project task can be chargeable or non-chargeable in the context of a specific project-based quote line, which makes the following setup possible.</span></span>
 
-<span data-ttu-id="24033-123">Wenn eine projektbasierte Angebotszeile **Zeit** und die Aufgabe **T1** enthält, wird die Aufgabe der Angebotszeile als fakturierbar zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="24033-123">If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable.</span></span> <span data-ttu-id="24033-124">Wenn es eine zweite Angebotszeile gibt, die **Ausgaben** enthält, können Sie die **T1**-Aufgabe in der Angebotszeile als nicht fakturierbar zuordnen.</span><span class="sxs-lookup"><span data-stu-id="24033-124">If there is a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as non-chargeable.</span></span> <span data-ttu-id="24033-125">Das Ergebnis ist, dass die gesamte für die Aufgabe aufgezeichnete Zeit fakturierbar ist und alle für die Aufgabe aufgezeichneten Ausgaben nicht fakturierbar sind.</span><span class="sxs-lookup"><span data-stu-id="24033-125">The result is that all time recorded on the task is chargeable and all expenses recorded on the task are non-chargeable.</span></span>
+<span data-ttu-id="7b11f-123">Wenn eine projektbasierte Angebotszeile **Zeit** und die Aufgabe **T1** enthält, wird die Aufgabe der Angebotszeile als fakturierbar zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="7b11f-123">If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable.</span></span> <span data-ttu-id="7b11f-124">Wenn es eine zweite Angebotszeile gibt, die **Ausgaben** enthält, können Sie die **T1**-Aufgabe in der Angebotszeile als nicht fakturierbar zuordnen.</span><span class="sxs-lookup"><span data-stu-id="7b11f-124">If there is a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as non-chargeable.</span></span> <span data-ttu-id="7b11f-125">Das Ergebnis ist, dass die gesamte für die Aufgabe aufgezeichnete Zeit fakturierbar ist und alle für die Aufgabe aufgezeichneten Ausgaben nicht fakturierbar sind.</span><span class="sxs-lookup"><span data-stu-id="7b11f-125">The result is that all time recorded on the task is chargeable and all expenses recorded on the task are non-chargeable.</span></span>
 
-<span data-ttu-id="24033-126">Der Fakturierungstyp einer Aufgabe kann auf der Registerkarte **Fakturierbare Aufgaben** einer projektbasierten Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Angebotszeilenaufgaben** aktualisiert wird.</span><span class="sxs-lookup"><span data-stu-id="24033-126">A task's billing type can be configured on the **Chargeable Tasks** tab of a project-based quote line by updating the **Billing Type** field on the **Quote Line Tasks** subgrid.</span></span> <span data-ttu-id="24033-127">Alternativ können Sie den Fakturierungstyp für eine Projektaufgabe im Feld **Fakturierungstyp** im Unterraster der Aufgabenabrechnungseinrichtung eines Projekts aktualisieren, in dem die einer Aufgabe zugeordneten Angebotszeilen angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="24033-127">Alternatively, you can update the billing type for a project task in the **Billing Type** field on the subgrid on the task billing setup of a project that shows the quote lines associated to a task.</span></span>
+<span data-ttu-id="7b11f-126">Der Fakturierungstyp einer Aufgabe kann auf der Registerkarte **Fakturierbare Aufgaben** einer projektbasierten Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Angebotszeilenaufgaben** aktualisiert wird.</span><span class="sxs-lookup"><span data-stu-id="7b11f-126">A task's billing type can be configured on the **Chargeable Tasks** tab of a project-based quote line by updating the **Billing Type** field on the **Quote Line Tasks** subgrid.</span></span> <span data-ttu-id="7b11f-127">Alternativ können Sie den Fakturierungstyp für eine Projektaufgabe im Feld **Fakturierungstyp** im Unterraster der Aufgabenabrechnungseinrichtung eines Projekts aktualisieren, in dem die einer Aufgabe zugeordneten Angebotszeilen angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="7b11f-127">Alternatively, you can update the billing type for a project task in the **Billing Type** field on the subgrid on the task billing setup of a project that shows the quote lines associated to a task.</span></span>
 
-### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="24033-128">Eine Rolle als fakturierbar oder nicht fakturierbar aktualisieren</span><span class="sxs-lookup"><span data-stu-id="24033-128">Update a role to be chargeable or non-chargeable</span></span>
+### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="7b11f-128">Eine Rolle als fakturierbar oder nicht fakturierbar aktualisieren</span><span class="sxs-lookup"><span data-stu-id="7b11f-128">Update a role to be chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="24033-129">Eine Rolle kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein.</span><span class="sxs-lookup"><span data-stu-id="24033-129">A role can be chargeable or non-chargeable in the context of a specific project-based quote line.</span></span>
+<span data-ttu-id="7b11f-129">Eine Rolle kann im Kontext einer bestimmten projektbasierten Angebotszeile fakturierbar oder nicht fakturierbar sein.</span><span class="sxs-lookup"><span data-stu-id="7b11f-129">A role can be chargeable or non-chargeable in the context of a specific project-based quote line.</span></span>
 
-<span data-ttu-id="24033-130">Der Fakturierungstyp einer Rolle kann auf der Registerkarte **Fakturierbare Rollen** einer Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Fakturierbare Rollen** aktualisiert wird.</span><span class="sxs-lookup"><span data-stu-id="24033-130">A role's billing type can be configured on the **Chargeable Roles** tab of a quote line by updating the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
+<span data-ttu-id="7b11f-130">Der Fakturierungstyp einer Rolle kann auf der Registerkarte **Fakturierbare Rollen** einer Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Fakturierbare Rollen** aktualisiert wird.</span><span class="sxs-lookup"><span data-stu-id="7b11f-130">A role's billing type can be configured on the **Chargeable Roles** tab of a quote line by updating the **Billing Type** field on the **Chargeable Roles** subgrid.</span></span>
 
-### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="24033-131">Eine Transaktionskategorie als fakturierbar oder nicht fakturierbar aktualisieren</span><span class="sxs-lookup"><span data-stu-id="24033-131">Update a transaction category to be chargeable or non-chargeable</span></span>
+### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a><span data-ttu-id="7b11f-131">Eine Transaktionskategorie als fakturierbar oder nicht fakturierbar aktualisieren</span><span class="sxs-lookup"><span data-stu-id="7b11f-131">Update a transaction category to be chargeable or non-chargeable</span></span>
 
-<span data-ttu-id="24033-132">Eine Transaktionskategorie kann für eine bestimmte Angebotszeile fakturierbar oder nicht fakturierbar sein.</span><span class="sxs-lookup"><span data-stu-id="24033-132">A transaction category can be chargeable or non-chargeable on a specific quote line.</span></span>
+<span data-ttu-id="7b11f-132">Eine Transaktionskategorie kann für eine bestimmte Angebotszeile fakturierbar oder nicht fakturierbar sein.</span><span class="sxs-lookup"><span data-stu-id="7b11f-132">A transaction category can be chargeable or non-chargeable on a specific quote line.</span></span>
 
-<span data-ttu-id="24033-133">Der Fakturierungstyp einer Transaktion kann auf der Registerkarte **Fakturierbare Kategorien** einer Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Fakturierbare Kategorien** aktualisiert wird.</span><span class="sxs-lookup"><span data-stu-id="24033-133">A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
+<span data-ttu-id="7b11f-133">Der Fakturierungstyp einer Transaktion kann auf der Registerkarte **Fakturierbare Kategorien** einer Angebotszeile konfiguriert werden, indem das **Fakturierungstyp**-Feld im Unterraster **Fakturierbare Kategorien** aktualisiert wird.</span><span class="sxs-lookup"><span data-stu-id="7b11f-133">A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.</span></span>
 
-### <a name="resolve-chargeability"></a><span data-ttu-id="24033-134">Fakturierbarkeit abschließen</span><span class="sxs-lookup"><span data-stu-id="24033-134">Resolve chargeability</span></span>
-<span data-ttu-id="24033-135">Eine für die Zeit erstellte Schätzung oder tatsächliche Schätzung wird nur dann als fakturierbar angesehen, wenn **Zeit** in der Angebotszeile enthalten ist und **Aufgabe** und **Rolle** in der Angebotszeile als fakturierbar konfiguriert sind.</span><span class="sxs-lookup"><span data-stu-id="24033-135">An estimate or actual created for time will only be considered chargeable if **Time** is included on the quote line, and if **Task** and **Role** are configured as chargeable on the quote line.</span></span>
+### <a name="resolve-chargeability"></a><span data-ttu-id="7b11f-134">Fakturierbarkeit abschließen</span><span class="sxs-lookup"><span data-stu-id="7b11f-134">Resolve chargeability</span></span>
+<span data-ttu-id="7b11f-135">Eine für die Zeit erstellte Schätzung oder tatsächliche Schätzung wird nur dann als steuerpflichtig angesehen, wenn:</span><span class="sxs-lookup"><span data-stu-id="7b11f-135">An estimate or actual created for time will only be considered chargeable if:</span></span>
 
-<span data-ttu-id="24033-136">Eine für die Ausgabe erstellte Vorkalkulation oder ein Istwert wird nur dann als fakturierbar angesehen, wenn **Ausgaben** in der Angebotszeile enthalten ist und **Aufgabe** und **Transaktionskategorie** in der Angebotszeile als fakturierbar konfiguriert sind.</span><span class="sxs-lookup"><span data-stu-id="24033-136">An estimate or actual created for expense will only be considered chargeable if **Expense** is included on the quote line, and if **Task** and **Transaction Category** are configured as chargeable on the quote line.</span></span>
+   - <span data-ttu-id="7b11f-136">**Zeit** ist in der Angebotszeile enthalten.</span><span class="sxs-lookup"><span data-stu-id="7b11f-136">**Time** is included on the quote line.</span></span>
+   - <span data-ttu-id="7b11f-137">**Rolle** ist in der Angebotszeile als fakturierbar konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="7b11f-137">**Role** is configured as chargeable on the quote line.</span></span>
+   - <span data-ttu-id="7b11f-138">**Enthaltene Aufgaben** ist in der Angebotszeile eingestellt auf **Ausgewählte Aufgaben**.</span><span class="sxs-lookup"><span data-stu-id="7b11f-138">**Included Tasks** is set to **Selected tasks** on the quote line.</span></span> 
 
-| <span data-ttu-id="24033-137">Schließt Zeit ein</span><span class="sxs-lookup"><span data-stu-id="24033-137">Includes Time</span></span> | <span data-ttu-id="24033-138">Schließt Ausgaben ein</span><span class="sxs-lookup"><span data-stu-id="24033-138">Includes Expense</span></span> | <span data-ttu-id="24033-139">Eingeschlossene Aufgaben</span><span class="sxs-lookup"><span data-stu-id="24033-139">Included Tasks</span></span> | <span data-ttu-id="24033-140">Rolle</span><span class="sxs-lookup"><span data-stu-id="24033-140">Role</span></span> | <span data-ttu-id="24033-141">Kateg.</span><span class="sxs-lookup"><span data-stu-id="24033-141">Category</span></span> | <span data-ttu-id="24033-142">Task</span><span class="sxs-lookup"><span data-stu-id="24033-142">Task</span></span> | <span data-ttu-id="24033-143">Fakturierung</span><span class="sxs-lookup"><span data-stu-id="24033-143">Billing</span></span> |
-| --- | --- | --- | --- | --- | --- | --- |
-| <span data-ttu-id="24033-144">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-144">Yes</span></span> | <span data-ttu-id="24033-145">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-145">Yes</span></span> | <span data-ttu-id="24033-146">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="24033-146">Entire project</span></span> | <span data-ttu-id="24033-147">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-147">Chargeable</span></span> | <span data-ttu-id="24033-148">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-148">Chargeable</span></span> | <span data-ttu-id="24033-149">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-149">Can't be set</span></span> | <span data-ttu-id="24033-150">Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-150">Billing on a time actual: Chargeable</span></span> </br><span data-ttu-id="24033-151">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-151">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="24033-152">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-152">Yes</span></span> | <span data-ttu-id="24033-153">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-153">Yes</span></span> | <span data-ttu-id="24033-154">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="24033-154">Selected tasks only</span></span> | <span data-ttu-id="24033-155">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-155">Chargeable</span></span> | <span data-ttu-id="24033-156">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-156">Chargeable</span></span> | <span data-ttu-id="24033-157">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-157">Chargeable</span></span> | <span data-ttu-id="24033-158">Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-158">Billing on a time actual: Chargeable</span></span></br><span data-ttu-id="24033-159">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-159">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="24033-160">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-160">Yes</span></span> | <span data-ttu-id="24033-161">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-161">Yes</span></span> | <span data-ttu-id="24033-162">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="24033-162">Selected tasks only</span></span> | <span data-ttu-id="24033-163">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-163">Non-chargeable</span></span> | <span data-ttu-id="24033-164">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-164">Chargeable</span></span> | <span data-ttu-id="24033-165">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-165">Chargeable</span></span> | <span data-ttu-id="24033-166">Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-166">Billing on a time actual: Non-Chargeable</span></span></br><span data-ttu-id="24033-167">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-167">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="24033-168">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-168">Yes</span></span> | <span data-ttu-id="24033-169">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-169">Yes</span></span> | <span data-ttu-id="24033-170">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="24033-170">Selected tasks only</span></span> | <span data-ttu-id="24033-171">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-171">Chargeable</span></span> | <span data-ttu-id="24033-172">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-172">Chargeable</span></span> | <span data-ttu-id="24033-173">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-173">Non-Chargeable</span></span> | <span data-ttu-id="24033-174">Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-174">Billing on a time actual: Non-Chargeable</span></span></br> <span data-ttu-id="24033-175">Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-175">Billing type on expense actual: Non-Chargeable</span></span> |
-| <span data-ttu-id="24033-176">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-176">Yes</span></span> | <span data-ttu-id="24033-177">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-177">Yes</span></span> | <span data-ttu-id="24033-178">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="24033-178">Selected tasks only</span></span> | <span data-ttu-id="24033-179">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-179">Non-Chargeable</span></span> | <span data-ttu-id="24033-180">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-180">Chargeable</span></span> | <span data-ttu-id="24033-181">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-181">Non- Chargeable</span></span> | <span data-ttu-id="24033-182">Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-182">Billing on a time actual: Non-Chargeable</span></span></br> <span data-ttu-id="24033-183">Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-183">Billing type on expense actual: Non-Chargeable</span></span> |
-| <span data-ttu-id="24033-184">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-184">Yes</span></span> | <span data-ttu-id="24033-185">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-185">Yes</span></span> | <span data-ttu-id="24033-186">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="24033-186">Selected tasks only</span></span> | <span data-ttu-id="24033-187">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-187">Non-Chargeable</span></span> | <span data-ttu-id="24033-188">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-188">Non-Chargeable</span></span> | <span data-ttu-id="24033-189">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-189">Chargeable</span></span> | <span data-ttu-id="24033-190">Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-190">Billing on a time actual: Non-Chargeable</span></span></br> <span data-ttu-id="24033-191">Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-191">Billing type on expense actual: Non-Chargeable</span></span> |
-| <span data-ttu-id="24033-192">Nr.</span><span class="sxs-lookup"><span data-stu-id="24033-192">No</span></span> | <span data-ttu-id="24033-193">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-193">Yes</span></span> | <span data-ttu-id="24033-194">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="24033-194">Entire project</span></span> | <span data-ttu-id="24033-195">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-195">Can't be set</span></span> | <span data-ttu-id="24033-196">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-196">Chargeable</span></span> | <span data-ttu-id="24033-197">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-197">Can't be set</span></span> | <span data-ttu-id="24033-198">Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht verfügbar</span><span class="sxs-lookup"><span data-stu-id="24033-198">Billing on a time actual: Not available</span></span> </br><span data-ttu-id="24033-199">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-199">Billing type on expense actual: Chargeable</span></span> |
-| <span data-ttu-id="24033-200">Nr.</span><span class="sxs-lookup"><span data-stu-id="24033-200">No</span></span> | <span data-ttu-id="24033-201">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-201">Yes</span></span> | <span data-ttu-id="24033-202">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="24033-202">Entire project</span></span> | <span data-ttu-id="24033-203">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-203">Can't be set</span></span> | <span data-ttu-id="24033-204">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-204">Non-chargeable</span></span> | <span data-ttu-id="24033-205">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-205">Can't be set</span></span> | <span data-ttu-id="24033-206">Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht verfügbar</span><span class="sxs-lookup"><span data-stu-id="24033-206">Billing on a time actual: Not available</span></span> </br><span data-ttu-id="24033-207">Fakturierungstyp bei tatsächlichen Ausgaben: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-207">Billing type on expense actual: Non-chargeable</span></span> |
-| <span data-ttu-id="24033-208">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-208">Yes</span></span> | <span data-ttu-id="24033-209">Nr.</span><span class="sxs-lookup"><span data-stu-id="24033-209">No</span></span> | <span data-ttu-id="24033-210">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="24033-210">Entire project</span></span> | <span data-ttu-id="24033-211">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-211">Chargeable</span></span> | <span data-ttu-id="24033-212">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-212">Can't be set</span></span> | <span data-ttu-id="24033-213">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-213">Can't be set</span></span> | <span data-ttu-id="24033-214">Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-214">Billing on a time actual: Chargeable</span></span></br><span data-ttu-id="24033-215">Fakturierungstyp bei tatsächlichen Ausgaben: Nicht verfügbar</span><span class="sxs-lookup"><span data-stu-id="24033-215">Billing type on expense actual: Not available</span></span> |
-| <span data-ttu-id="24033-216">Ja</span><span class="sxs-lookup"><span data-stu-id="24033-216">Yes</span></span> | <span data-ttu-id="24033-217">Nr.</span><span class="sxs-lookup"><span data-stu-id="24033-217">No</span></span> | <span data-ttu-id="24033-218">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="24033-218">Entire project</span></span> | <span data-ttu-id="24033-219">Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-219">Non-chargeable</span></span> | <span data-ttu-id="24033-220">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-220">Can't be set</span></span> | <span data-ttu-id="24033-221">Kann nicht festgelegt werden</span><span class="sxs-lookup"><span data-stu-id="24033-221">Can't be set</span></span> | <span data-ttu-id="24033-222">Abrechnung zu einem tatsächlichen Zeitpunkt: Nicht fakturierbar</span><span class="sxs-lookup"><span data-stu-id="24033-222">Billing on a time actual: Non-chargeable</span></span> </br><span data-ttu-id="24033-223">Fakturierungstyp bei tatsächlichen Ausgaben: Nicht verfügbar</span><span class="sxs-lookup"><span data-stu-id="24033-223">Billing type on expense actual: Not available</span></span> |
+<span data-ttu-id="7b11f-139">Wenn diese drei Dinge zutreffen, wird die **Aufgabe** auch als fakturierbar konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="7b11f-139">If these three things are true, the **Task** is also configured as chargeable.</span></span> 
+
+<span data-ttu-id="7b11f-140">Eine für den Aufwand erstellte Schätzung oder tatsächliche Werte werden nur dann als fakturierbar angesehen, wenn:</span><span class="sxs-lookup"><span data-stu-id="7b11f-140">An estimate or actual created for expense is only considered chargeable if:</span></span> 
+
+   - <span data-ttu-id="7b11f-141">**Ausgaben** ist in der Angebotszeile enthalten.</span><span class="sxs-lookup"><span data-stu-id="7b11f-141">**Expense** is included on the quote line.</span></span>
+   - <span data-ttu-id="7b11f-142">**Transaktionskategorie** ist in der Angebotszeile als fakturierbar konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="7b11f-142">**Transaction category** is configured as chargeable on the quote line.</span></span>
+   - <span data-ttu-id="7b11f-143">**Enthaltene Aufgaben** ist in der Angebotszeile eingestellt auf **Ausgewählte Aufgaben**.</span><span class="sxs-lookup"><span data-stu-id="7b11f-143">**Included Tasks** is set to **Selected tasks** on the quote line.</span></span>
+
+<span data-ttu-id="7b11f-144">Wenn diese drei Dinge zutreffen, wird die **Aufgabe** auch als fakturierbar konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="7b11f-144">If these three things are true, the **Task** is also configured as chargeable.</span></span> 
+
+<span data-ttu-id="7b11f-145">Eine für die Materialien erstellte Schätzung oder tatsächliche Schätzung wird nur dann als steuerpflichtig angesehen, wenn:</span><span class="sxs-lookup"><span data-stu-id="7b11f-145">An estimate or actual created for material will only be considered chargeable if:</span></span>
+
+   - <span data-ttu-id="7b11f-146">**Material** ist in der Angebotszeile enthalten.</span><span class="sxs-lookup"><span data-stu-id="7b11f-146">**Materials** is included on the quote line.</span></span>
+   - <span data-ttu-id="7b11f-147">**Enthaltene Aufgaben** ist in der Angebotszeile eingestellt auf **Ausgewählte Aufgaben**.</span><span class="sxs-lookup"><span data-stu-id="7b11f-147">**Included Tasks** is set to **Selected tasks** on the quote line.</span></span>
+
+<span data-ttu-id="7b11f-148">Wenn diese zwei Dinge zutreffen, wird die **Aufgabe** auch als fakturierbar konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="7b11f-148">If these two things are true, the **Task** should also be configured as chargeable.</span></span> 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-149">
+                    <strong>Schließt Zeit ein</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-149">
+                    <strong>Includes Time</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="7b11f-150">
+                    <strong>Schließt Ausgaben ein</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-150">
+                    <strong>Includes Expense</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="7b11f-151">
+                    <strong>Enthält Material</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-151">
+                    <strong>Includes Materials</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p><span data-ttu-id="7b11f-152">
+                    <strong>Eingeschlossene Aufgaben</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-152">
+                    <strong>Included Tasks</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-153">
+                    <strong>Rolle</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-153">
+                    <strong>Role</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-154">
+                    <strong>Kateg.</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-154">
+                    <strong>Category</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-155">
+                    <strong>Aufgabe</strong>
+                    <strong></strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-155">
+                    <strong>Task</strong>
+                    <strong></strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p><span data-ttu-id="7b11f-156">
+                    <strong>Auswirkungen auf die Fakturierbarkeit</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-156">
+                    <strong>Chargeability impact</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-157">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-157">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-158">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-158">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-159">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-159">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-160">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="7b11f-160">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-161">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-161">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-162">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-162">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-163">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-163">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-164">Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-164">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-165">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-165">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-166">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-166">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-167">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-167">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-168">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-168">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-169">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-169">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-170">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="7b11f-170">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-171">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-171">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-172">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-172">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-173">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-173">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-174">Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-174">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-175">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-175">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-176">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-176">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-177">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-177">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-178">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-178">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-179">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-179">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-180">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="7b11f-180">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-181">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-181">
+                    <strong>Non - Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-182">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-182">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-183">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-183">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-184">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-184">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-185">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-185">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-186">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-186">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-187">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-187">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-188">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-188">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-189">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-189">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-190">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="7b11f-190">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-191">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-191">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-192">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-192">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-193">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-193">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-194">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-194">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-195">Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-195">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-196">Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht Fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-196">Billing type on material actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-197">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-197">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-198">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-198">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-199">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-199">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-200">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="7b11f-200">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-201">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-201">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-202">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-202">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-203">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-203">
+                    <strong>Non- Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-204">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-204">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-205">Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-205">Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-206">Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht Fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-206">Billing type on material actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-207">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-207">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-208">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-208">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-209">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-209">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-210">Nur ausgewählte Aufgaben</span><span class="sxs-lookup"><span data-stu-id="7b11f-210">Selected tasks only</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-211">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-211">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-212">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-212">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-213">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-213">Chargeable</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-214">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-214">Billing on a time actual: <strong>Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-215">Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-215">Billing type on expense actual: <strong> Non-Chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-216">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-216">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-217">
+                    <strong>Nr.</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-217">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-218">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-218">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-219">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-219">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-220">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="7b11f-220">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-221">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-221">Cannot be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-222">
+                    <strong>Fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-222">
+                    <strong>Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-223">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-223">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-224">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht verfügbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-224">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-225">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-225">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-226">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-226">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-227">
+                    <strong>Nr.</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-227">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-228">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-228">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-229">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-229">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-230">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="7b11f-230">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-231">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-231">Cannot be set</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-232">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-232">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-233">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-233">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-234">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht verfügbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-234">Billing on a time actual: <strong>Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-235">Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-235">Billing type on expense actual: <strong> Non-chargeable</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-236">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-236">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-237">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-237">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="7b11f-238">
+                    <strong>Nr.</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-238">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-239">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-239">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-240">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="7b11f-240">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-241">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-241">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-242">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-242">Cannot be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-243">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-243">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-244">Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-244">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-245">Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht verfügbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-245">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-246">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-246">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-247">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-247">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p><span data-ttu-id="7b11f-248">
+                    <strong>Nr.</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-248">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+<span data-ttu-id="7b11f-249">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-249">Yes</span></span> </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-250">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="7b11f-250">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-251">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-251">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-252">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-252">Cannot be set</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-253">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-253">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-254">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-254">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-255">Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht verfügbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-255">Billing type on expense actual:<strong> Not available</strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-256">Fakturierungstyp bei tatsächlichen Materialien: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-256">Billing type on material actual: Chargeable</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-257">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-257">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-258">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-258">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="7b11f-259">
+                    <strong>Nr.</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-259">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-260">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="7b11f-260">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-261">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-261">Chargeable</span></span> </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-262">Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-262">Chargeable</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-263">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-263">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-264">Abrechnung zu einem tatsächlichen Zeitpunkt: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-264">Billing on a time actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-265">Fakturierungstyp bei tatsächlichen Ausgaben: Fakturierbar</span><span class="sxs-lookup"><span data-stu-id="7b11f-265">Billing type on expense actual: Chargeable</span></span> </p>
+                <p>
+<span data-ttu-id="7b11f-266">Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht verfügbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-266">Billing type on material actual: <strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+<span data-ttu-id="7b11f-267">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-267">Yes</span></span> </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+<span data-ttu-id="7b11f-268">Ja</span><span class="sxs-lookup"><span data-stu-id="7b11f-268">Yes</span></span> </p>
+            </td>
+            <td width="63" valign="top">
+                <p><span data-ttu-id="7b11f-269">
+                    <strong>Nr.</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-269">
+                    <strong>No</strong>
+                </span></span></p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+<span data-ttu-id="7b11f-270">Gesamtes Projekt</span><span class="sxs-lookup"><span data-stu-id="7b11f-270">Entire Project</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="7b11f-271">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-271">
+                    <strong>Non-Chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="70" valign="top">
+                <p><span data-ttu-id="7b11f-272">
+                    <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-272">
+                    <strong>Non-chargeable</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="7b11f-273">Kann nicht eingestellt werden</span><span class="sxs-lookup"><span data-stu-id="7b11f-273">Cannot be set</span></span> </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+<span data-ttu-id="7b11f-274">Abrechnung zu einem tatsächlichen Zeitpunkt: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-274">Billing on a time actual: <strong>Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-275">Fakturierungstyp bei tatsächlichen Ausgaben: <strong>Nicht fakturierbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-275">Billing type on expense actual:<strong> Non-chargeable </strong>
+                </span></span></p>
+                <p>
+<span data-ttu-id="7b11f-276">Fakturierungstyp bei tatsächlichen Materialien: <strong>Nicht verfügbar</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="7b11f-276">Billing type on material actual:<strong> Not available</strong>
+                </span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
