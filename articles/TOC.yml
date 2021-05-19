@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Project Operations-Integration pro juristische Person konfigurieren
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Integration des dualen Schreibens konfigurieren
+          items:
+            - name: Überblick über die Integration des dualen Schreibens
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations – Zuordnungsversionen für duales Schreiben
+              href: environment/resource-dual-write-maps.md
+            - name: Einrichtung von Project Operations und Integration der Konfigurationsdaten
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integration von Projektschätzungen und Istwerten
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Projektrechnungsintegration
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Ausgabenverwaltungsintegration
+              href: environment/resource-dual-write-expense.md
+            - name: Kreditorenrechnungsintegration
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Neuigkeiten
       items:
         - name: "April\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -210,12 +226,14 @@
           href: project-management/project-management-overview.md
         - name: Projektphasen
           href: project-management/project-stages.md
-        - name: In der Benutzeroberfläche navigieren
+        - name: Navigieren in der Benutzeroberfläche
           href: project-management/navigate-ui.md
         - name: Projektstatus verstehen
           href: project-management/understand-project-status.md
         - name: Projektkalender definieren
           href: project-management/define-project-calendars.md
+        - name: Planungsmodi
+          href: project-management/scheduling-modes.md
         - name: Ein Projekt aktualisieren
           href: project-management/update-project.md
         - name: Ein Projekt kopieren
@@ -404,6 +422,12 @@
           items:
             - name: Korrekturerfassungen erstellen und bestätigen
               href: actuals/create-confirm-correction-journals.md
+    - name: Beschaffung
+      items:
+        - name: Nicht vorrätige Materialien und ausstehende Kreditorenrechnungen konfigurieren
+          href: procurement/configure-materials-nonstocked.md
+        - name: Nicht vorrätige Materialien für Projekte mithilfe ausstehender Kreditorenrechnungen beschaffen
+          href: procurement/pending-vendor-invoices.md
     - name: Rechnungsstellung
       items:
         - name: Rechnungsverarbeitung – Übersicht
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektbasierte Rechnungsautomation konfigurieren
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Projektrechnungsvorschläge verwalten
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projektbuchhaltung
       items:
         - name: Finanzdimensions-Standardeinstellungen
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Projektkalender definieren
           href: project-management/define-project-calendars.md
+        - name: Planungsmodi
+          hreF: project-management/scheduling-modes.md
         - name: Ein Projekt aktualisieren
           href: project-management/update-project.md
         - name: Ein Projekt kopieren
@@ -848,6 +876,8 @@
   items:
     - name: Neuigkeiten
       items:
+        - name: "Neuigkeiten für April\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Neuigkeiten für März\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Neuigkeiten für Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
@@ -871,9 +901,9 @@
     - name: Pay-When-Paid-Kreditorenzahlungen einrichten und verwenden
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Projektkostenzunahme auf Kaufbelegen
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Projektrechnungsstellung
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Leistung von Projektrechnungsvorschlägen
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projektverträge
@@ -998,6 +1028,8 @@
       items:
         - name: "Update-Releasezeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 31, V3?'
+          href: psa/whats-new-ur-31.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 30, V3?'
           href: psa/whats-new-ur-30.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 29.5, Hotfix, V3?'
@@ -1327,7 +1359,7 @@
             - name: Ressourcennutzung anzeigen
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Handbuch für Projektmanager
           items:
             - name: Handbuch für Projektmanager (Project Service)
