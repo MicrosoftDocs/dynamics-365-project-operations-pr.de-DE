@@ -3,17 +3,17 @@ title: Intercompany-Transaktionen erstellen
 description: Dieses Thema enthält Informationen zum Erstellen von Intercompany-Transaktionen.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287417"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880447"
 ---
 # <a name="create-intercompany-transactions"></a>Intercompany-Transaktionen erstellen
 
@@ -62,7 +62,7 @@ Molly Clark, Entwicklerin bei GBPM, verzeichnet 10 Stunden Arbeit für ein USPM 
     4. Legen Sie die Währung auf **USD** fest.
     5. Speichern Sie den Datensatz.
 3. Gehen Sie zu **Vertrieb** > **Projektverträge** und erstellen Sie einen neuen Projektvertrag für Adventure Works.
-    1. Stellen Sie die Eigentümerfirma auf **USPM** ein und die Vertragseinheit auf **Contoso Robotics US**.
+    1. Setzen Sie die Eigentümerfirma auf **USPM** und die Vertragseinheit auf **Contoso Robotics US**.
     2. Wählen Sie Adventure Works als Debitor aus.
     3. Wählen Sie eine Produktpreisliste und speichern Sie den Datensatz.
     4. Auf der Registerkarte **Vertragspositionen** erstellen Sie eine neue Vertragsposition. Stellen Sie einen beliebigen Namen ein und wählen Sie **Zeit und Materialien** als Abrechnungsmethode.
@@ -94,7 +94,7 @@ Molly Clark, Entwicklerin bei GBPM, verzeichnet 10 Stunden Arbeit für ein USPM 
     Dieser nicht in Rechnung gestellte Verkauf ist jetzt zur Rechnungsstellung bereit. Die Rechnung für den Kunden Adventure Works kann bei Bedarf finanziell gebucht werden.
 
 10. Melden Sie sich als **GBPM**-Buchhalter an. Öffnen Sie die Finance-Instanz von Project Operations und öffnen Sie das Unternehmen **GBPM**. 
-11. Gehen Sie zu **Projektmanagement und Buchhaltung** > **Periodisch** > **Project Operations on Customer Engagement** > **Aus Staging importieren** und führen Sie den periodischen Prozess aus, um das Project Operations-Integrationsjournal auszufüllen.
+11. Gehen Sie zu **Projektmanagement und Buchhaltung** > **Periodisch** > **Project Operations-Integration** > **Import aus Staging-Tabelle** und führen Sie den periodischen Prozess aus, um das Project Operations Integrationsjournal auszufüllen.
 12. Gehen Sie zu **Projektmanagement und Buchhaltung** > **Journale** > **Project Operations-Integrationsjournal** und überprüfen Sie die Positionen. Das System erstellt die folgende Positionen.
 
     | **Transaktionstyp** | **Preis** | **Buchungswährung** | **Betrag** |

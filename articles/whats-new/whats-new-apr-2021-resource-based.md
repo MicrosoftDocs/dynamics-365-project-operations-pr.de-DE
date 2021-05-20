@@ -3,18 +3,18 @@ title: Neuigkeiten April 2021 – Project Operations für Szenarien basierend 
 description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations vom April 2021 für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen verfügbar sind.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867992"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935473"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten April 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -33,8 +33,26 @@ Die folgenden Funktionen sind in dieser Version enthalten:
   - Schätzung und Preisgestaltung von nicht vorrätigen Materialien während des Verkaufszyklus für ein Projekt. Weitere Informationen finden Sie unter [Kosten und Verkaufsraten für Katalogprodukte einrichten – Lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Verfolgung der Verwendung nicht vorrätiger Materialien während der Projektabwicklung. Weitere Informationen finden Sie unter [Materialverbrauch für Projekte und Projektaufgaben erfassen](../material/material-usage-log.md).
   - Fakturierung gebrauchter nicht vorrätiger Materialkosten. Weitere Informationen finden Sie unter [Abrechnungsstau verwalten](../proforma-invoicing/manage-billing-backlog.md).
+  - Informationen zum Konfigurieren dieser Funktion finden Sie unter [Konfigurieren nicht vorrätiger Materialien und ausstehender Lieferantenrechnungen](../procurement/configure-materials-nonstocked.md)
 - Aufgabenbasierte Abrechnung: Es wurde die Möglichkeit hinzugefügt, Projektaufgaben mit Projektvertragszeilen zu verknüpfen, wodurch diese der gleichen Abrechnungsmethode, Rechnungshäufigkeit und Kunden wie in der Vertragszeile unterliegen. Diese Zuordnung stellt eine genaue Rechnungsstellung, Buchhaltung, Umsatzvorkalkulation und Erfassung sicher, damit gemäß dieser Einrichtung für Projektaufgaben gearbeitet werden kann.
 - Neue APIs in Dynamics 365 Dataverse ermöglichen das Erstellen, Aktualisieren und Löschen von Vorgängen mit **Planungsentitäten**. Weitere informationen finden Sie unter [Verwenden Sie Zeitplan-APIs, um Vorgänge mit Zeitplan-Entitäten auszuführen](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations – Duales Schreiben-Kartenupdates
+
+Die folgende Liste zeigt die Dual-Write-Maps, die in der Version Project Operations April 2021 geändert oder hinzugefügt wurden.
+
+| **Entitätszuordnung** | **Aktualisierte Version** | **Kommentare** |
+| --- | --- | --- |
+| Tatsächliche Werte der Project Operations-Integration (msdyn\_actuals) | 1.0.0.14 | Karte geändert, um Materialprojekt-Istwerte zu synchronisieren. |
+| Project Operations-Integrationsentität für Ausgabenschätzungen (msdyn\_estimateslines) | 1.0.0.2 | Synchronisierung der Projektvertragszeile Finance and Operations-Apps für aufgabenbasierte Abrechnungsunterstützung hinzugefügt. |
+| Project Operations-Integrationsentität für Stundenschätzungen (msdyn\_resourceassignments) | 1.0.0.5 | Synchronisierung der Projektvertragszeile Finance and Operations-Apps für aufgabenbasierte Abrechnungsunterstützung hinzugefügt. |
+| Project Operations-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Materialschätzungen aus Dataverse zu Finance and Operations-Apps. |
+| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn\_projectvendorinvoices) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Lieferantenrechnungskopfzeilen aus Finance and Operations-Apps zu Dataverse. |
+| Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Lieferantenrechnungszeilen aus Finance and Operations-Apps zu Dataverse. |
+
+Sie sollten immer die neueste Version der Karte in Ihrer Umgebung ausführen und alle zugehörigen Tabellenkarten aktivieren, wenn Sie Ihre Project Operations Dataverse-Lösung und Finance and Operations-Lösungsversion aktualisieren. Bestimmte Funktionen und Fähigkeiten funktionieren möglicherweise nicht richtig, wenn die neueste Version der Karte nicht aktiviert ist. Sie können die aktive Version der Karte in der Spalte **Version** auf der Seite **Dual-Write** anzeigen. Sie können eine neue Version der Zuordnung aktivieren, indem Sie **Tabellenzuordnungsversionen** auswählen und dann die aktuellste Version auswählen und speichern. Wenn Sie eine sofort einsatzbereite Tabellenzuordnung angepasst haben, wenden Sie die Änderungen erneut an. Weitere Informationen finden Sie unter [Application Lifecycle Management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Wenn beim Starten der Karte ein Problem auftritt, befolgen Sie die Anweisungen unter [Fehlende Tabellenspalten auf Karten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) in der Anleitung zur Fehlerbehebung bei Dual Write.
 
 ## <a name="quality-updates"></a>Qualitätsupdates
 
@@ -67,7 +85,7 @@ Die folgenden Funktionen sind in dieser Version enthalten:
 
 | **Funktionsbereich** | **Referenznummer** | **Qualitätsupdate** |
 | --- | --- | --- |
-| Projektmanagement und -buchhaltung | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Die Eliminierung der umgekehrten Schätzung funktioniert in **Periodisch** nicht.  |
+| Projektmanagement und -buchhaltung | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Die Eliminierung der umgekehrten Schätzung funktioniert im Abschnitt **Periodisch**.  |
 | Projektmanagement und -buchhaltung | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Die **Bilanzierungsanpassung**-Funktion erstellt ein Problem mit Sachkonten, die **Manuelle Eingabe nicht zulassen** ausgewählt haben. |
 | Projektmanagement und -buchhaltung | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Geschäftslogik hinzugefügt, um Korrekturrechnungen einschließlich des Einbehaltungsbetrags oder des angewendeten Einbehaltungsbetrags zu verarbeiten. |
 | Projektmanagement und -buchhaltung | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP – Buchung des Verkaufswerts in der konzerninternen Projektrechnung wählt ein unerwartetes Konto aus. |

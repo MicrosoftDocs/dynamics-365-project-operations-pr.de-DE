@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285212"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948193"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Erstellen einer Projektverkaufschance (Project Service)
 
@@ -39,7 +39,7 @@ Verkaufschancen sind frische Leads von Kunden, die interessiert sind, einen Vert
   
 3.  Im Bereich **Zusammenfassung** geben Sie die Firma und die anderen Informationen Ihrer Verkaufschance ein.  
   
-4.  Fügen Sie eventuelle Notizen und Aktivitäten hinzu (z. B. oder Telefonanrufe oder E-Mails), die sich auf diesen Lead beziehen. Weitere Informationen zum Hinzufügen von Notizen und Aktivitäten finden Sie unter [Nachverfoglen von Notizen, Aufgaben, Anrufen oder E-Mails mit Aktvitäten](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities)  
+4.  Fügen Sie eventuelle Notizen und Aktivitäten hinzu (z. B. oder Telefonanrufe oder E-Mails), die sich auf diesen Lead beziehen. Weitere Informationen zum Hinzufügen von Notizen und Aktivitäten finden Sie unter [Nachverfoglen von Notizen, Aufgaben, Anrufen oder E-Mails mit Aktvitäten](/dynamics365/customerengagement/on-premises/basics/work-with-activities)  
   
 5.  Um Stakeholder hinzuzufügen, klicken Sie im Bereich Stakeholder auf **Stakeholder** und klicken **+**.  
   

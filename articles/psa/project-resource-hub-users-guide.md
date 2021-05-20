@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283772"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948140"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Benutzerhandbuch für Projektressourcen-Hub
 
@@ -48,7 +48,7 @@ Es gibt zwei Arten von [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn
 ## <a name="install-the-mobile-app"></a>Installation der mobilen App
 Bevor Sie die Projektressourcen-Hub-App verwenden können, müssen Sie die mobile App auf Ihrem Gerät installieren. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installieren von Dynamics 365 für Smartphones und Tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installieren von Dynamics 365 für Smartphones und Tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Grundlegende Navigation
 1.  Wenn Sie sich bei der mobilen App anmelden, wird die MyApps-Seite mit einer Liste von Apps angezeigt, auf die Sie zugreifen. 
@@ -58,7 +58,7 @@ Bevor Sie die Projektressourcen-Hub-App verwenden können, müssen Sie die mobil
 
 **Die Navigationsleiste**
 
-Über die Navigationsleiste können Sie Ihren Arbeitsbereich aufrufen, neue Datensätze erstellen oder suchen usw. Um auf weitere Befehle zuzugreifen, tippen Sie auf ![Weitere Schaltflächen](media/MoreButton.png "Schaltfläche "Mehr"").
+Über die Navigationsleiste können Sie Ihren Arbeitsbereich aufrufen, neue Datensätze erstellen oder suchen usw. Um auf weitere Befehle zuzugreifen, tippen Sie auf ![Weitere Schaltflächen](media/MoreButton.png "Schaltfläche &quot;Mehr&quot;").
 
 ![Navigationsleiste](media/NavBar_2.png "Navigationsleiste")
 
@@ -99,7 +99,7 @@ Tragen Sie Ihre Ausgaben mindestens wöchentlich ein (oder mit der Häufigkeit, 
 5. Geben Sie dann Ihre Ausgaben für die Woche ein. Wenn Sie fertig sind und alles korrekt ausschaut, tippen Sie auf **Senden**. Ein Manager wird Ihre Ausgaben überprüfen und genehmigen.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Allgemeine Informationen dazu, wie die mobile App verwendet wird 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grundlagenhandbuch für mobile Benutzer](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grundlagenhandbuch für mobile Benutzer](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Siehe auch  
  [Überblick über Project Service](../psa/overview.md)   

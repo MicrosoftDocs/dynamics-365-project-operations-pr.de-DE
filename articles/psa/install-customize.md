@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284312"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947923"
 ---
 # <a name="install-and-customize-project-service"></a>Installieren und anpassen (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284312"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Project Service installieren  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ist eine bevorzugte Lösung. Es gibt mehrere Möglichkeiten, um die Lösung zu erwerben. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboarding Ihrer Organisation und der Benutzer](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ist eine bevorzugte Lösung. Es gibt mehrere Möglichkeiten, um die Lösung zu erwerben. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboarding Ihrer Organisation und der Benutzer](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Anpassen von [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Formularen und -Berichten  
  Wenn Sie die [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] Formulare, Dashboards oder Berichte anpassen möchten, finden Sie weitere Informationen über das Anpassen in den folgenden Links:  
   
-- [Erste Schritte mit der App-Erstellung und -Anpassung](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Erste Schritte mit der App-Erstellung und -Anpassung](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Formulare erstellen und gestalten](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Formulare erstellen und gestalten](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Erstellen oder Bearbeiten eines Dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Erstellen oder Bearbeiten eines Dashboards](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Erstellen und Bearbeiten von Prozessen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Erstellen und Bearbeiten von Prozessen](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Einführung in die Berichterstellung und Analyse](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Einführung in die Berichterstellung und Analyse](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Siehe auch  
  [Administratorhandbuch](../psa/admin-guide.md)   

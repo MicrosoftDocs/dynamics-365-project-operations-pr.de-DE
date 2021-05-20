@@ -3,17 +3,17 @@ title: Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 description: Dieses Thema enthält Informationen zum Verbinden Ihres Azure-Abonnements mit einem LCS-Projekt.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289908"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880537"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 
@@ -62,7 +62,7 @@ Die Autorisierung ist jetzt abgeschlossen.
 3. Wählen Sie im Feld **Zur Verwendung von Azure Resource Manager konfigurieren** **Ja** aus.
 4. Stellen Sie sicher, dass die AAD-Mandantendomäne des Azure-Abonnements mit dem Azure-Abonnement der Domäne, die Sie verwenden, übereinstimmt, und wählen Sie **Weiter** aus.
 5. Wählen Sie im Bildschirm **Microsoft Azure-Einrichtung** zur Bestätigung **Weiter** aus. Wenn auf diesem Bildschirm eine Fehlermeldung angezeigt wird, kehren Sie zum Abschnitt [Dynamics Deployment Services den Zugriff auf Ihr Azure-Abonnement ermöglichen](#provide) in diesem Thema zurück, und stellen Sie sicher, dass Sie alle Schritte abgeschlossen haben.
-6. Laden Sie das Azure-Verwaltungszertifikat in einen lokalen Ordner auf Ihrem Computer herunter, und laden Sie es anschließend in das Azure-Verwaltungsportal hoch, indem Sie zu **Einstellungen** > **Verwaltungszertifikate** navigieren. Mit diesem Zertifikat kann LCS in Ihrem Namen mit Azure kommunizieren. Sie können diesen Schritt überspringen, wenn Ihr Benutzer Zugriff auf das Abonnement hat.
+6. Laden Sie das Azure-Verwaltungszertifikat in einen lokalen Ordner auf Ihrem Computer herunter. Bitten Sie Ihr Azure-Abonnement Administrator, das Zertifikat in das Azure-Verwaltungsportal hochzuladen, indem Sie das Abonnement auswählen und zu **Einstellungen** > **Verwaltungszertifikate** gehen. Mit diesem Zertifikat kann LCS in Ihrem Namen mit Azure kommunizieren. Sie können diesen Schritt überspringen, wenn Ihr Benutzer Zugriff auf das Abonnement hat.
 7. Wählen Sie **Weiter** aus.
 8. Wählen Sie die Azure-Region aus, in der die Bereitstellung erfolgen soll, und wählen Sie ein Rechenzentrum aus, das sich in der Nähe des Ortes befindet, an dem Sie dieses System verwenden möchten.
 9.  Wählen Sie **Verbinden** aus.

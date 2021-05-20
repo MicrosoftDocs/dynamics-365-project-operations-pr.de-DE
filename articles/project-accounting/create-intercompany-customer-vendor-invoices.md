@@ -3,17 +3,17 @@ title: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
 description: Dieses Thema enthält Informationen zum Erstellen von Intercompany-Debitoren- und -Kreditorenrechnungen.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287462"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948392"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
 
@@ -25,7 +25,9 @@ Der Projektbuchhalter der kreditgebenden juristischen Person kann einen Batch-Pr
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Erstellen Sie manuell eine Intercompany-Kundenrechnung für Projekttransaktionen 
 
-Verwenden Sie dieses Verfahren, um manuell eine Intercompany-Kundenrechnung für Projekttransaktionen zu erstellen. Suchen Sie nach Stunden, die von Arbeitnehmern für Projekte in den kreditnehmenden juristischen Personen gebucht wurden, und nach Ausgaben, die Ihrer juristischen Person im Auftrag von kreditnehmenden juristischen Personen entstanden sind. Sie können nach Name der juristischen Person, Projektvertragsnummer, Projektnummer, Datumsbereich oder einer beliebigen Kombination dieser Optionen suchen. Wählen Sie in den Suchergebnissen die Transaktionen aus, die einer Intercompany-Rechnung hinzugefügt werden sollen.
+Verwenden Sie dieses Verfahren, um manuell eine Intercompany-Kundenrechnung für Projekttransaktionen zu erstellen. Suchen Sie nach Stunden, die von Arbeitnehmern für Projekte in den kreditnehmenden juristischen Personen gebucht wurden, und nach Ausgaben, die Ihrer juristischen Person im Auftrag von kreditnehmenden juristischen Personen entstanden sind. Sie können nach Name der juristischen Person, Projektvertragsnummer, Projektnummer, Datumsbereich oder einer beliebigen Kombination dieser Optionen suchen. Wählen Sie in den Suchergebnissen die Transaktionen aus, die einer Intercompany-Rechnung hinzugefügt werden sollen. 
+
+Die folgenden Schritte müssen in der kreditgebenden juristischen Person ausgeführt werden. 
 
 1. Gehen Sie in Dynamics 365 Finance zu **Projektmanagement und Buchhaltung** > **Projektrechnungen** > **Intercompany-Debitorenrechnungen**. Auf der **Intercompany-Debitorenrechnungen**-Listenseite wählen Sie im Aktionsbereich **Neu.**
 2. Wählen Sie auf der **Intercompany-Debitorenrechnungen erstellen**-Seite im **Juristische Person**-Feld eine kreditnehmende juristische Person aus.
@@ -35,9 +37,9 @@ Verwenden Sie dieses Verfahren, um manuell eine Intercompany-Kundenrechnung für
 6. Wählen Sie in den Suchergebnissen die Transaktionen aus, die in den Intercompany-Rechnungsvorschlag aufgenommen werden sollen, und wählen Sie dann **OK**.
 7. Auf der **Intercompany-Debitorenrechnungen**-Seite werden die konzerninternen Projekttransaktionen angezeigt, die Sie aus den Suchergebnissen ausgewählt haben. Gehen Sie wie folgt vor, um die Transaktionen zu ändern, bevor Sie die Rechnung an die kreditnehmende juristische Person senden:
   
-    1. Öffnen Sie die Seite **Rechnungsvorschlag erstellen**. Wählen Sie zusätzliche Intercompany-Transaktionen für die aktuelle Rechnung aus und wählen Sie dann **Zeile hinzufügen**.
+    1. Auf der Seite **Konzerninterne Kundenrechnung** öfnen Sie die Rechnungsdetails und wählen Sie dann **Zeile hinzufügen**.
     2. Wählen Sie zum Entfernen einer Zeile die gewünschte Zeile aus, und wählen Sie **Entfernen**.
-    3. Zeigen Sie Kommentare, Gründe, finanzielle Dimensionen und andere Informationen zu einer ausgewählten Zeile im Inforegister **Rechnungspositionen** an.
+    3. Zeigen Sie Kommentare, Gründe, finanzielle Dimensionen und andere Informationen zu einer ausgewählten Zeile in den Rechnungszeilendetails an.
     
 8. Wählen Sie zum Buchen einer Intercompany-Debitorenrechnung im Aktionsbereich **Buchen** aus.
 
@@ -52,7 +54,7 @@ Sie können für alle ausleihenden juristischen Personen mehrere Intercompany-Re
 2. Wählen Sie auf der **Intercompany-Debitorenrechnungen erstellen**-Seite im **Unternehmen**-Feld eine juristische Person zur Rechnungsstellung aus. Wenn Sie kein Unternehmen auswählen, werden alle Transaktionen, die die Suchkriterien erfüllen, für alle kreditnehmenden juristischen Personen angezeigt.
 3. Wählen Sie unter **Eine Rechnung erstellen pro**, ob eine Rechnung für Intercompany-Transaktionen basierend auf einem Projekt oder basierend auf einer ausleihenden juristischen Person erstellt werden soll.
 4. Optional: Um ein bestimmtes Projekt und einen bestimmten Projektvertrag auszuwählen, für den Intercompany-Rechnungen erstellt werden solle, klicken Sie auf **Auswählen**. Auf der **Anfrage**-Seite im **Kriterien**-Feld wählen Sie den Projektvertrag, die Projektnummer oder beides aus, und wählen dann **OK**.
-5. Auf der **Stapel**-Registerkarte richten Sie einen Stapelprozess ein, um wiederkehrende Intercompany-Rechnungen zu erstellen. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag aus einem Formular senden](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Auf der **Stapel**-Registerkarte richten Sie einen Stapelprozess ein, um wiederkehrende Intercompany-Rechnungen zu erstellen. Weitere Informationen finden Sie unter [Stapelverarbeitungsauftrag aus einem Formular senden](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Wählen Sie zum Buchen von Intercompany-Rechnungen im Aktionsbereich **Buchen** aus.
 
 > [!NOTE]

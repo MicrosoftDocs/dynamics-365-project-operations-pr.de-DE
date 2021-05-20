@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284447"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947968"
 ---
 # <a name="get-the-apps-project-service"></a>Apps abrufen (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284447"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Wenn Sie Ihre Zeit und Ausgaben auf dem Mobilgerät eingeben möchten, gehen Sie zu [Abrufen und installieren Sie Dynamics 365 für Telefone und Tablets](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)  
+Wenn Sie Ihre Zeit und Ausgaben auf dem Mobilgerät eingeben möchten, gehen Sie zu [Abrufen und installieren Sie Dynamics 365 für Telefone und Tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)  
   
  Sie können auch die Project Finder Mobile-App auf Ihrem Telefon verwenden, um ein neues Projekt zu finden und sich für dieses zu bewerben. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Suchen des nächsten Projekts mit der Project Finder Mobile-App](../psa/find-next-project-finder-mobile-app.md) 
   
