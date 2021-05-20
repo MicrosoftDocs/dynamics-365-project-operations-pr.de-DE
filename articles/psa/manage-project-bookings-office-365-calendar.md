@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275042"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950308"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Verwalten von Projekten und Anmeldungen in Ihrem Kalender (Project Service)
 
@@ -52,7 +52,7 @@ Anzeigen der persönlichen Terminen, Projektarbeitbuchungen und Außendienst-Arb
   
 - Sie benötigen Anmeldeinformationen für den Globalen Administrator oder den [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Systemadministrator.  
   
-- Ihr Administrator muss das E-Mail-Serverprofil konfigurieren jeder Benutzer muss sein Postfach konfigurieren. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Einrichten der E-Mail-Verarbeitung durch serverseitige Synchronisierung](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Ihr Administrator muss das E-Mail-Serverprofil konfigurieren jeder Benutzer muss sein Postfach konfigurieren. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Einrichten der E-Mail-Verarbeitung durch serverseitige Synchronisierung](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Aktivieren der Synchronisierung für Ihre Organisation (Administratoraufgabe)  
   

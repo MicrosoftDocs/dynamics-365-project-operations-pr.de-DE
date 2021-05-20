@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288047"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950848"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Neuigkeiten oder Änderungen für Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
@@ -144,7 +144,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | Reisekosten und Ausgaben                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | In Project Operations kann die Zeit mit konzerninternen Aufgaben in Dataverse nicht erstellt oder genehmigt werden.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

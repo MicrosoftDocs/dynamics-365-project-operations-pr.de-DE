@@ -3,17 +3,17 @@ title: Projektrechnungsvorschläge verwalten
 description: Dieses Thema bietet Details zur Verarbeitung von kundenspezifischen Rechnungen für Project Operations für ressourcen /nicht vorrätige Szenarien.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275852"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950713"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projektrechnungsvorschläge verwalten
 
@@ -80,7 +80,8 @@ Die Werte **Umsatzsteuergruppe** und **Artikel Umsatzsteuergruppe** stammen stan
     - **Kunde**: Wird standardmäßig immer die Abrechnungsumsatzsteuergruppe vom Kunden verwendet.
     - **Suche**: Wird in allen oben genannten Entitäten in dieser Liste suchen und wählt den ersten verfügbaren Wert aus. Die Suche beginnt mit der Entität **Projekt**, gefolgt von der Entiät **Projektvertrag** und dann von der Entität **Kunde**.
 
-- **Festpreis Meilenstein Artikel Umsatzsteuergruppe** wird verwendet, um den Wert standardmäßig auf den Wert im Feld **Artikel Umsatzsteuergruppe** zu setzen.
+- **Festpreis Meilenstein Artikel Umsatzsteuergruppe** wird als Standardwert im Feld **Artikel Umsatzsteuergruppe** für den Abrechnungsmeilenstein verwendet. Der Buchhalter kann diesen Wert auf der Seite **Transaktionen auf Rechnung** überprüfen und ändern. Das System verwendet den Wert aus der On-Account-Transaktion beim Erstellen einer Projektrechnungsvorschlagszeile.
+ 
 
 ### <a name="financial-dimensions"></a>Finanzielle Dimensionen
 
@@ -132,7 +133,7 @@ Die Seite **Rechnungsvorschläge formatieren** ermöglicht es, benutzerdefiniert
 
 Die Druckverwaltung verwendet verschiedene Berichtsdateien, um bestimmte Ziele zu drucken und den Fußzeilentext für die Rechnung anzupassen. Die Druckverwaltung kann auf Modulebene eingerichtet werden. Diese Einstellungen können jedoch für einen bestimmten Kunden-, Vertrags- oder Rechnungsvorschlag überschrieben werden. Um auf diese Funktion zuzugreifen, klicken Sie auf die Seite **Projektrechnungsvorschlag** und wählen **Drucken** > **Druckverwaltung**.
 
-Das Einrichten der Druckverwaltung wird als Baumansicht angezeigt, in der auf jeder Knotenebene die verfügbaren Dokumente zum Anpassen angezeigt werden. Sie können benutzerdefinierte Ausdrucke auf Modul-, Kunden-, Vertrags- oder Rechnungsvorschlagsdokumentebene zuweisen. Erweitern Sie zum Ändern des Originaldokumentausdrucks den gewünschten Knoten und wählen Sie **Originalartikel**. In dem Feld **Berichtsformat** wählen Sie das Berichtsformat aus, das zum Drucken verwendet werden soll. Sie können benutzerdefinierte Berichtsformate verwenden, indem Sie [das Gechäftsdokumenten-Framework](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) verwenden.
+Das Einrichten der Druckverwaltung wird als Baumansicht angezeigt, in der auf jeder Knotenebene die verfügbaren Dokumente zum Anpassen angezeigt werden. Sie können benutzerdefinierte Ausdrucke auf Modul-, Kunden-, Vertrags- oder Rechnungsvorschlagsdokumentebene zuweisen. Erweitern Sie zum Ändern des Originaldokumentausdrucks den gewünschten Knoten und wählen Sie **Originalartikel**. In dem Feld **Berichtsformat** wählen Sie das Berichtsformat aus, das zum Drucken verwendet werden soll. Sie können benutzerdefinierte Berichtsformate verwenden, indem Sie [das Gechäftsdokumenten-Framework](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) verwenden.
 
 ## <a name="post-invoice-proposals"></a>Projektrechnungsvorschläge buchen
 

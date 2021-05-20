@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275087"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950578"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation von Beispieldaten für die Project Service-Anwendung
 
@@ -136,7 +136,7 @@ Das Demodatenenpaket erfordert sechs Benutzer. Damit das Paket richtig eingerich
     - Benutzer vollständiger Name = „Ulla Graf” als Clark Kundenbetreuer   
     - Benutzer vollständiger Name = „Karl Gäller” als Practice und Project Manager  
     - Benutzer vollständige Name= „Leonie Simon” als Teammitglied   
-    - Benutzer vollständiger Name = „Bernhard Koch”
+    - Benutzer vollständiger Name = „Bernhard Contoso”
   
 2. Der Zweck des Demodatenimports ist es, die sechs Benutzer zur Administratorrolle zuzuweisen, um Beispieldatensätze ordnungsgemäß zu importieren. 
 
@@ -149,7 +149,7 @@ Das Demodatenenpaket erfordert sechs Benutzer. Damit das Paket richtig eingerich
 
 5. Der erste Kalender des Benutzers (im **userstocreateandconfigure**-Tag) wird verwendet, um die Arbeitszeiten für alle buchbaren Rssourcen für den Import von Demodaten aufzufüllen. Navigieren Sie zu **Einstellungen**  > **Sicherheit**  > **Benutzer** und succhen Sie Benutzer „Karl Gäller” und öffnen Sie die Option „Arbeitszeit”. Bearbeiten Sie die vorhandenen Arbeitszeiten und die Option **Gesamter wöchentlicher Serienzeitplan vom Beginn bis zum Ende**. Stellen Sie unter **Arbeitszeiten werden auf 8 - 5 Uhr morgens (9 Stunden), Montag bis Freitag und Stunden mit der Zeitzone festgelegt auf Pacific Time (USA und Kanada)** sicher. Dies ist erforderlich, um sicherzustellen, dass die Projekt- und Zeitplanübersicht wie erwartet dargestellt wird.
 
-**Empfehlung:** Sie sollten jetzt eine Sicherung für Ihre Organisation vornehmen, falls Sie während der Installation der Beispieldaten wieder alles zurücksetzen müssen, wenn etwas schiefgehen sollte. Weitere Informationen finden Sie unter [Sicherung und Wiederherstellung von Instanzen](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Empfehlung:** Sie sollten jetzt eine Sicherung für Ihre Organisation vornehmen, falls Sie während der Installation der Beispieldaten wieder alles zurücksetzen müssen, wenn etwas schiefgehen sollte. Weitere Informationen finden Sie unter [Sicherung und Wiederherstellung von Instanzen](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Führen Sie den Package Deployer aus.
 

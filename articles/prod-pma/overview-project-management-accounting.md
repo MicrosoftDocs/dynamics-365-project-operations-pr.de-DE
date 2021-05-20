@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289773"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950443"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektmanagement und -buchhaltung – Übersicht
 
@@ -52,13 +52,13 @@ Wie in der vorhergehenden Abbildung gezeigt, können Projektmanagement und Buchh
 3.  Analysieren
 
 ## <a name="initiate-the-project"></a>Initiieren des Projekts
-Während der Projektinitiierung treten mehrere Schlüsselprozesse auf. Sie können ein Projektangebot verwenden, um dem Kunden die geschätzten Arbeitskräfte, Kosten und Materialien mitzuteilen. Sie können die Abrechnungsbedingungen, -limits und -vereinbarungen in einem Projektvertrag festhalten. Sie können einen Projektstrukturplan (PSP) verwenden, um die Arbeit zu planen und zu schätzen. Sie können Prognosen und Budgets einrichten, um die Projektausführung zu steuern. Die folgende Abbildung zeigt den Aufbau eines Projekts.[![Projektstruktur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Während der Projektinitiierung treten mehrere Schlüsselprozesse auf. Sie können ein Projektangebot verwenden, um dem Kunden die geschätzten Arbeitskräfte, Kosten und Materialien mitzuteilen. Sie können die Abrechnungsbedingungen, -begrenzungen und -vereinbarungen in einem Projektvertrag festhalten. Sie können einen Projektstrukturplan (PSP) verwenden, um die Arbeit zu planen und zu schätzen. Sie können Prognosen und Budgets einrichten, um die Projektausführung zu steuern. Die folgende Abbildung zeigt den Aufbau eines Projekts.[![Projektstruktur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projektangebote erstellen
 
 In der ersten Verkaufsphase eines Projekts können Sie einem Kunden mit einem Projektangebot ein unverbindliches Angebot unterbreiten. Ein Angebot kann Elemente wie die angebotenen Artikel und Dienstleistungen, grundlegende Kontaktinformationen, spezielle Handelsabkommen und Rabatte sowie mögliche Steuern und Zuschläge enthalten.
 
-Sie können auch eine Garantieerklärung für eine Projektangebotstransaktion zwischen Ihrer Organisation und dem Kunden ausstellen. Nachdem das Projektangebot erstellt wurde, können Sie das Garantiebrief für den Kunden erstellen und an die Bank senden. Nachdem die Bank den Antrag genehmigt hat, wird dem Kunden das Garantieschreiben ausgestellt. 
+Sie können auch eine Garantieerklärung für eine Projektangebotstransaktion zwischen Ihrer Organisation und dem Kunden ausstellen. Nachdem das Projektangebot erstellt wurde, können Sie die Bankgarantie für den Kunden erstellen und an die Bank senden. Nachdem die Bank den Antrag genehmigt hat, wird dem Kunden das Garantieschreiben ausgestellt. 
 
 Weitere Informationen finden Sie unter [Projektangebote](project-quotations.md).
 
@@ -93,23 +93,23 @@ In Finance können sechs Arten von Projekten erstellt werden. Jeder Projekttyp i
   </tr>
   <tr>
     <td>Festpreis</td>
-    <td>Bei Festpreisprojekten bestehen die Rechnungen aus Transaktionen auf Rechnung. Ein Festpreisprojekt wird nach einem Abrechnungsplan in Rechnung gestellt, der auf einem Projektvertrag basiert. Die Einnahmen für ein Festpreisprojekt können mithilfe der Methode des abgeschlossenen Prozentsatzes berechnet und im gesamten Projekt gebucht werden. Alternativ können die Einnahmen nach Abschluss des Projekts mithilfe der Methode für abgeschlossene Verträge berechnet und gebucht werden. Unternehmen können häufig davon profitieren, den Wert des Work-in-Process (WIP) zur Berechnung des Abschlussgrads eines Projekts oder einer Gruppe von Projekten zu verwenden.</td>
+    <td>Bei Festpreisprojekten bestehen die Rechnungen aus Transaktionen auf Rechnung. Ein Festpreisprojekt wird nach einem Abrechnungsplan in Rechnung gestellt, der auf dem Projektvertrag basiert. Die Einnahmen für ein Festpreisprojekt können mithilfe der Methode des abgeschlossenen Prozentsatzes berechnet und im gesamten Projekt gebucht werden. Alternativ können die Einnahmen nach Abschluss des Projekts mithilfe der Methode für abgeschlossene Verträge berechnet und gebucht werden. Unternehmen können häufig davon profitieren, den Wert des Work-in-Process (WIP) zur Berechnung des Abschlussgrads eines Projekts oder einer Gruppe von Projekten zu verwenden.</td>
   </tr>
   <tr>
     <td>Investition</td>
-    <td>Investitionsprojekte sind Projekte, die keine unmittelbaren Einnahmen erzielen. Sie werden normalerweise für langfristige interne Projekte verwendet, bei denen die Kosten aktiviert werden müssen. Für ein Investitionsprojekt können nur Kosten für Artikel, Stunden und Ausgaben erfasst werden. Die Kosten in einem Investitionsprojekt werden mithilfe der Schätzfunktion verfolgt und gesteuert. Investitionsprojekte können mit einer optionalen maximalen Kapitalisierung eingerichtet werden. Während ein Investitionsprojekt fortschreitet, erfassen Sie seine Kosten in WIP-Konten, in denen die Kosten bis zum Abschluss des Projekts aufbewahrt werden. Wenn das Projekt beendet ist, übertragen Sie den WIP-Wert auf ein Anlagevermögen, ein Sachkonto oder ein neues Projekt. <br></br> <strong>HINWEIS:</strong> Transaktionen in Investitionsprojekten werden nicht auf den Seiten <strong>Kosten buchen<strong>, <strong>Einnahmen erzielen</strong> oder <strong>Rechnungsvorschläge erstellen</strong> angezeigt.</td>
+    <td>Investitionsprojekte sind Projekte, die keine unmittelbaren Einnahmen erzielen. Sie werden normalerweise für langfristige interne Projekte verwendet, bei denen die Kosten aktiviert werden müssen. Für ein Investitionsprojekt können nur Kosten für Artikel, Stunden und Ausgaben erfasst werden. Die Kosten in einem Investitionsprojekt werden mithilfe der Schätzfunktion verfolgt und gesteuert. Investitionsprojekte können mit einer optionalen maximalen Kapitalisierung eingerichtet werden. Während ein Investitionsprojekt fortschreitet, erfassen Sie seine Kosten in Unf.-Arbeit-Konten, in denen die Kosten bis zum Abschluss des Projekts aufbewahrt werden. Wenn das Projekt beendet ist, übertragen Sie den WIP-Wert auf ein Anlagevermögen, ein Sachkonto oder ein neues Projekt. <br></br> <strong>HINWEIS:</strong> Transaktionen in Investitionsprojekten werden nicht auf den Seiten <strong>Kosten buchen<strong>, <strong>Einnahmen erzielen</strong> oder <strong>Rechnungsvorschläge erstellen</strong> angezeigt.</td>
   </tr>
   <tr>
     <td>Kostenprojekt</td>
-    <td>Wie Investitionsprojekte werden Kostenprojekte normalerweise zur Verfolgung interner Projekte verwendet, und nur Stunden, Ausgaben und Elemente können für sie erfasst werden. Kostenprojekte sind jedoch in der Regel kürzer als Investitionsprojekte. Darüber hinaus können Kostenprojekte im Gegensatz zu Investitionsprojekten nicht für Bilanzkonten aktiviert werden. Stattdessen werden ihre Projekttransaktionen nur auf Gewinn- und Verlustrechnungen gebucht. <br></br> <strong>HINWEIS:</strong> Transaktionen in Kostenprojekten werden nicht auf den Seiten <strong>Kosten buchen</strong>, <strong>Einnahmen erzielen</strong> oder <strong>Rechnungsvorschläge erstellen</strong> dargestellt. Da Kostenprojekte normalerweise zur Verfolgung interner Projekte verwendet werden, müssen sie normalerweise keinem Kundenkonto zugeordnet werden. Wenn für Ihre Einrichtung jedoch die Erstellung von Artikelanforderungen für Bestellungen erforderlich ist, müssen Sie das Kostenprojekt einem Kunden zuordnen. Diese Zuordnung ist erforderlich, da Artikelanforderungen als Kundenauftragspositionen verwaltet werden und das System die Angabe eines Kunden erfordert. Diese Einrichtung führt jedoch nicht dazu, dass Artikelanforderungen automatisch aus einer Bestellung erstellt werden. Für Kostenprojekte wird die <strong>Artikelanforderung erstellen</strong>-Einstellung ignoriert. Wenn Sie eine Artikelanforderung in einem Kostenprojekt benötigen, können Sie diese manuell erstellen, sofern ein Kunde dem Projekt zugeordnet ist.</td>
+    <td>Wie bei Investitionsprojekten werden Kostenprojekte normalerweise zur Verfolgung interner Projekte verwendet, und nur Stunden, Ausgaben und Elemente können für sie erfasst werden. Kostenprojekte haben jedoch in der Regel eine kürzere Laufzeit als Investitionsprojekte. Darüber hinaus können Kostenprojekte im Gegensatz zu Investitionsprojekten nicht für Bilanzkonten aktiviert werden. Stattdessen werden ihre Projekttransaktionen nur auf Gewinn- und Verlustrechnungen gebucht. <br></br> <strong>HINWEIS:</strong> Transaktionen in Kostenprojekten werden nicht auf den Seiten <strong>Kosten buchen</strong>, <strong>Einnahmen erzielen</strong> oder <strong>Rechnungsvorschläge erstellen</strong> dargestellt. Da Kostenprojekte normalerweise zur Verfolgung interner Projekte verwendet werden, müssen sie normalerweise nicht mit einem Kundenkonto verknüpft werden. Wenn für Ihr Setup jedoch die Erstellung von Artikelanforderungen für Bestellungen erforderlich ist, müssen Sie das Kostenprojekt einem Kunden zuordnen. Diese Zuordnung ist erforderlich, da Artikelanforderungen als Kundenauftragspositionen verwaltet werden und das System die Angabe eines Kunden erfordert. Dieses Setup führt jedoch nicht dazu, dass Artikelanforderungen automatisch aus einer Bestellung erstellt werden. Für Kostenprojekte wird die <strong>Artikelanforderung erstellen</strong>-Einstellung ignoriert. Wenn Sie eine Artikelanforderung in einem Kostenprojekt benötigen, können Sie diese manuell erstellen, sofern ein Kunde dem Projekt zugeordnet ist.</td>
   </tr>
   <tr>
     <td>Intern</td>
     <td>Interne Projekte werden verwendet, um die Kosten eines unternehmensinternen Projekts zu verfolgen. Interne Projekte können ein Planungswerkzeug zur Verwaltung des Ressourcenverbrauchs bereitstellen. <br></br><strong>HINWEIS:<strong> Transaktionen in internen Projekten werden nicht auf den Seiten <strong>Einnahmen erzielen</strong> oder <strong>Rechnungsvorschläge erstellen</strong> dargestellt.</td>
   </tr>
   <tr>
-    <td>Time</td>
-    <td>Zeitprojekte werden verwendet, um Zeit zu erfassen, die mit nicht kostenpflichtigen und nicht produktiven Aktivitäten verbunden ist, z. B. ein Projekt zur Erfassung der Krankenzeit für Arbeitnehmer. Transaktionen in Zeitprojekten werden nicht in das Hauptbuch gebucht. Stattdessen sind sie in Worker-Nutzungsberichten enthalten. In Zeitprojekten können nur Stundentransaktionen aufgezeichnet werden. Sie verwenden ein Stundenjournal oder eine Arbeitszeittabelle, um diese Stunden für das Projekt zu registrieren. Nachdem die Stunden registriert wurden, werden sie als Projekttransaktionen angezeigt, haben jedoch keine entsprechenden Gutscheintransaktionen. <br></br><strong>HINWEIS:</strong> Transaktionen in Zeitprojekten werden nicht auf den Seiten <strong>Kosten buchen</strong>, <strong>Einnahmen erzielen</strong> oder <strong>Rechnungsvorschläge erstellen</strong> dargestellt.</td>
+    <td>Zeit</td>
+    <td>Zeitprojekte werden verwendet, um Zeit zu erfassen, die mit nicht kostenpflichtigen und nicht produktiven Aktivitäten verbunden ist, z. B. ein Projekt zur Erfassung der Krankenzeit für Arbeitnehmer. Transaktionen in Zeitprojekten werden nicht in die Finanzbuchhaltung gebucht. Stattdessen sind sie in Arbeitsauslastungsberichten enthalten. In Zeitprojekten können nur Stundentransaktionen aufgezeichnet werden. Sie verwenden ein Stundenjournal oder eine Arbeitszeittabelle, um diese Stunden für das Projekt zu registrieren. Nachdem die Stunden registriert wurden, werden sie als Projekttransaktionen angezeigt, haben jedoch keine entsprechenden Gutscheintransaktionen. <br></br><strong>HINWEIS:</strong> Transaktionen in Zeitprojekten werden nicht auf den Seiten <strong>Kosten buchen</strong>, <strong>Einnahmen erzielen</strong> oder <strong>Rechnungsvorschläge erstellen</strong> dargestellt.</td>
   </tr>
 </table>
 
@@ -227,7 +227,7 @@ Die Projektart bestimmt, welches Rechnungsverfahren angewendet werden soll. Es k
 Bevor Sie eine Kundenrechnung für ein Projekt erstellen, können Sie eine vorläufige Rechnung oder einen Rechnungsvorschlag erstellen. In einem Rechnungsvorschlag können Sie Projekttransaktionen auswählen, die in eine Projektrechnung aufgenommen werden sollen. Sie können dann die Rechnungsdetails überprüfen, bevor Sie die Projektrechnung buchen und an den Kunden oder eine andere Finanzierungsquelle senden. 
 
 
-Weitere Informationen darüber, wie Sie Projektrechnungen verarbeiten, finden Sie unter [Projektrechnungsstellung](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Weitere Informationen darüber, wie Sie Projektrechnungen verarbeiten, finden Sie unter [Projektrechnungsstellung](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Berechnen Sie die Kosten für die Fertigstellung eines Projekts

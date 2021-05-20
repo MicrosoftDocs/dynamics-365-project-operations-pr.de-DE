@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279452"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949948"
 ---
 # <a name="resource-management-modes-overview"></a>Ressourcenverwaltungsmodi – Übersicht
 
@@ -29,11 +29,11 @@ Für Organisationen, die die Zuweisung von Ressourcen zu Projekten zentralisiere
 
 Informationen zum Verwalten von Ressourcen im zentralen Modus finden Sie unter:
 
-- [Allgemeine buchbare Ressourcen einer Aufgabe zuweisen und Ressourcenanforderungen erstellen](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Benannte Ressourcen aus Ressourcenanforderungen buchen](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Eine Ressourcenanforderung übermitteln](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Eine Ressourcenanfrage erfüllen](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Eine vorgeschlagene Projektressource aus einer Ressourcenanfrage annehmen oder ablehnen](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Allgemeine buchbare Ressourcen einer Aufgabe zuweisen und Ressourcenanforderungen erstellen](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Benannte Ressourcen aus Ressourcenanforderungen buchen](/dynamics365/project-service/book-named-resource)
+- [Eine Ressourcenanforderung übermitteln](/dynamics365/project-service/submit-resource-request)
+- [Eine Ressourcenanfrage erfüllen](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Eine vorgeschlagene Projektressource aus einer Ressourcenanfrage annehmen oder ablehnen](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hybridmodus
 Für Organisationen, die Flexibilität bei der Zuweisung von Ressourcen benötigen, bietet der Hybridmodus sowohl Projektmanagern als auch Ressourcenmanagern die Möglichkeit, Ressourcen zu buchen.
@@ -43,11 +43,11 @@ Für Organisationen, die Flexibilität bei der Zuweisung von Ressourcen benötig
 Weitere Informationen zum Verwalten aller anderen unterstützten Buchungsabläufe im Hybridmodus finden Sie neben dem unterstützten Prozess im zentralen Modus in den folgenden Themen:
 
 Eine Ressource direkt auf ein Projekt buchen:
-- [Genannte buchbare Ressourcen für ein Projektteam buchen und Aufgaben zuweisen](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Genannte buchbare Ressourcen für ein Projektteam buchen und Aufgaben zuweisen](/dynamics365/project-service/assign-named-bookable-resource)
 
 Eine Ressource aus einer Ressourcenanforderung buchen:
-- [Allgemeine buchbare Ressourcen einer Aufgabe zuweisen und Ressourcenanforderungen erstellen](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Benannte Ressourcen aus Ressourcenanforderungen buchen](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Allgemeine buchbare Ressourcen einer Aufgabe zuweisen und Ressourcenanforderungen erstellen](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Benannte Ressourcen aus Ressourcenanforderungen buchen](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

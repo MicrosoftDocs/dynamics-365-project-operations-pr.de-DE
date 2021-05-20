@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288873"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950173"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobiler Arbeitsbereich für die Projektzeiteingabe
 
@@ -48,7 +48,7 @@ Insbesondere im mobilen Arbeitsbereich **Projektzeiteintrag** können Benutzer f
 Die Voraussetzungen variieren je nach Version von Microsoft Dynamics 365, das für Ihre Organisation bereitgestellt wurde.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Voraussetzungen, wenn Sie Dynamics 365 Finance verwenden
-Wenn Finance  für Ihre Organisation bereitgestellt wurde, muss der Systemadministrator den mobilen Arbeitsbereich der **Projektzeiteingabe** veröffentlichen. Anweisungen finden Sie unter [Mobile nArbeitsbereiche veröffentlichen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Wenn Finance  für Ihre Organisation bereitgestellt wurde, muss der Systemadministrator den mobilen Arbeitsbereich der **Projektzeiteingabe** veröffentlichen. Anweisungen finden Sie unter [Mobile nArbeitsbereiche veröffentlichen](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Voraussetzungen, wenn Sie Version 1611 mit Platform Update 3 oder höher verwenden
 Wenn Version 1611 mit Plattform Update 3 oder höher für Ihre Organisation bereitgestellt wurde, muss der Systemadministrator die folgenden Voraussetzungen erfüllen. 
@@ -68,17 +68,17 @@ Wenn Version 1611 mit Plattform Update 3 oder höher für Ihre Organisation bere
 <td>Systemadministrator</td>
 <td>Wissensdatenbank 4018050 ist ein X ++ – Update oder ein Metadaten-Hotfix, der den mobilen Arbeitsbereich <strong>Projektzeiteintrag</strong> enthält. Um Wissensdatenbank 4018050 zu implementieren, muss Ihr Systemadministrator diese Schritte ausführen.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Laden Sie den Metadaten-Hotfix von Microsoft Dynamics Lifecycle Services (LCS)</a> herunter.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installieren Sie den Metadaten-Hotfix</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Erstellen Sie ein bereitstellbares Paket</a>, das die Modelle <strong>ApplicationSuite</strong> und <strong>ProjectMobile</strong> enthält und laden Sie dann das bereitstellbare Paket auf LCS hoch.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Bereitstellbares Paket anwenden</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Laden Sie den Metadaten-Hotfix von Microsoft Dynamics Lifecycle Services (LCS)</a> herunter.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installieren Sie den Metadaten-Hotfix</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Erstellen Sie ein bereitstellbares Paket</a>, das die Modelle <strong>ApplicationSuite</strong> und <strong>ProjectMobile</strong> enthält und laden Sie dann das bereitstellbare Paket auf LCS hoch.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Bereitstellbares Paket anwenden</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Veröffentlichen Sie den mobilen Arbeitsbereich <strong>Projektzeiteintrag</strong>.</td>
 <td>Systemadministrator</td>
-<td>Anweisungen finden Sie unter <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Einen mobilen Arbeitsbereich veröffentlichen</a>.</td>
+<td>Anweisungen finden Sie unter <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Einen mobilen Arbeitsbereich veröffentlichen</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Die mobile App Finance and Operations herunterladen und installieren:
 2.  Wählen Sie **Zeiteintrag**. Die Kalenderdaten für die aktuelle Woche werden angezeigt.
 3.  Wählen Sie für ein ausgewähltes Datum **Aktionen** &gt; **Neuer Eintrag**.
 4.  Geben Sie die Anzahl der aufzunehmenden Stunden ein.
-5.  Wählen Sie das Projekt für den Zeiteintrag. Eine Liste zeigt die Projekte an, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen finden Sie unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Wählen Sie das Projekt für den Zeiteintrag. Eine Liste zeigt die Projekte an, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen finden Sie unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Wenn Ihr Projekt nicht in der Liste enthalten ist, wählen Sie **Suchen**. Suchen Sie nach Namen oder wechseln Sie zur Suche nach Projektnamen oder Kunde.
-7.  Eine Kategorie  auswählen. Eine Liste zeigt die Kategorien an, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen finden Sie unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Eine Kategorie  auswählen. Eine Liste zeigt die Kategorien an, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen finden Sie unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Wenn Ihre Kategorie nicht in der Liste enthalten ist, wählen Sie **Suchen**. Nach Kategorie suchen oder zur Suche nach Kategorienamen wechseln.
-9.  Wählen Sie eine Aktivität aus. Eine Liste zeigt die Aktivitäten an, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen finden Sie unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Wählen Sie eine Aktivität aus. Eine Liste zeigt die Aktivitäten an, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen finden Sie unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Wenn Ihre Aktivität nicht in der Liste enthalten ist, wählen Sie **Suchen**. Suchen Sie nach Aktivitätsnummer oder wechseln Sie zur Suche nach Zweck.
 
 11. Wählen Sie die Eigenschaft Zeile aus.

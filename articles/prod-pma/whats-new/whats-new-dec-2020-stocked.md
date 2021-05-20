@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288137"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950218"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Neuigkeiten oder Änderungen für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
@@ -141,7 +141,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 
 ## <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
 
-Informationen zu behördlichen Aktualisierungen für Dynamics 365 Finance-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Eine weitere Möglichkeit, Informationen zu behördlichen Aktualisierungen zu erhalten, besteht darin, sich bei Lifecycle Services (LCS) anzumelden und die geplanten behördlichen Aktualisierungen mithilfe des Problemsuchwerkzeugs anzuzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu behördlichen Aktualisierungen für Dynamics 365 Finance-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Eine weitere Möglichkeit, Informationen zu behördlichen Aktualisierungen zu erhalten, besteht darin, sich bei Lifecycle Services (LCS) anzumelden und die geplanten behördlichen Aktualisierungen mithilfe des Problemsuchwerkzeugs anzuzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

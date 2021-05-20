@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291843"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950938"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -30,7 +30,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 
 | Funktionsbereich                 | Referenznummer | Qualitätsupdate                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Verkaufschancenmanagement       | 2036993          | Die Vertragszeilen für die geschätzte Zeilen- und Ressourcenzuweisung werden bei Gewinnangeboten aktualisiert, wenn der Angebotszeilentyp **Alle Aufgaben** lautet.                                                 |
+| Verkaufschancenmanagement       | 2036993          | Die Vertragszeilen für die geschätzte Zeilen- und Ressourcenzuweisung werden bei Gewinnangeboten aktualisiert, wenn der Angebotszeilentyp **Alle Aufgaben** lautet.                                                 |
 | Preise und Abrechnung          | 2070392          | Die Projektvertragszeilen auf der Rechnung erhöhen sich jedes Mal, wenn **Transaktionen für Rechnung aktualisieren** ausgewählt wird.                                                                         |
 | Projektplanung             | 2043336          | Ein Projektteammitgliedsdatensatz kann nicht gelöscht werden.                                                                                                                                  |
 | Projektplanung             | 2046013          | Inkonsistentes Verhalten für Schätzungen von Tag-Spalten während des Ladens im Vergleich zur Änderung des Zeitphasentyps.                                                                                   |
@@ -67,7 +67,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | Projektbuchhaltung  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Durch Aktivieren der Funktion sind mehrere Vertragszeilen ohne CDS-Integration nicht möglich.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

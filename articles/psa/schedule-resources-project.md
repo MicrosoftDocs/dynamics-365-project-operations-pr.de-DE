@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282647"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951433"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Ressourcen für ein Projekt planen (Project Service)
 
@@ -35,7 +35,7 @@ Sie können die Verfügbarkeit von Ressourcen überprüfen, um einen Gesamtüber
   
 Die Zeitplanübersicht zeigt eine Ressourcenliste und deren Verfügbarkeit an. Wählen Sie einen Anzeigemodus aus, um die Verfügbarkeiten nach **Stunden**, **Tag**, **Woche** und **Monat** anzuzeigen.  
   
-Bevor Sie die Zeitplanübersicht verwenden, müssen Sie diese einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Zeitplanübersicht (Field Service oder Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Bevor Sie die Zeitplanübersicht verwenden, müssen Sie diese einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Zeitplanübersicht (Field Service oder Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Wenn Sie eine ältere Version verwenden, lesen Sie für die Ressourcenverfügbarkeit [Ressourcenverfügbarkeit anzeigen (Project Service Automation)](../psa/view-resource-availability.md).  
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287372"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950128"
 ---
 # <a name="financial-dimension-defaults"></a>Finanzdimensions-Standardeinstellungen
 
@@ -21,7 +21,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations verwendet das [Finanzdimensionen](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions)-Framework in Dynamics 365 Finance, um zusätzliche Einblicke in Projekt-Nebenbuch- und Hauptbuchtransaktionen zu erhalten.
+Dynamics 365 Project Operations verwendet das [Finanzdimensionen](/dynamics365/finance/general-ledger/financial-dimensions)-Framework in Dynamics 365 Finance, um zusätzliche Einblicke in Projekt-Nebenbuch- und Hauptbuchtransaktionen zu erhalten.
 
 Standardmäßige Finanzdimensionen können für einen Kunden, eine Projektfinanzierungsquelle, einen Meilenstein, eine Projektvertragszeile oder ein Projekt festgelegt werden.
 
@@ -40,17 +40,17 @@ Projektverträge werden in Common Data Service (CDS) erstellt und gepflegt. Buch
 
 1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Projekte** > **Projektverträge**.
 2. Wählen Sie den Datensatz aus, den Sie aktualisieren möchten, und wählen Sie auf der **Projektvertrag**-Registerkarte **Standardabrechnung anzeigen** aus.
-3. Erweitern Sie **Verwandte Informationen** und wählen Sie die **Finanzierungsquellen**-Registerkarte aus.
-4. Legen Sie die Finanzdimensions-Standardeinstellungen fest. Beachten Sie, dass die finanziellen Dimensionen standardmäßig vom Kundenkonto ausgehen.
+3. Erweitern Sie **Zugehörige Informationen**, und wählen Sie die Registerkarte **Finanzierungsquellen** aus.
+4. Richten Sie die Standardeinstellungen für die Finanzdimension ein. Beachten Sie, dass die finanziellen Dimensionen standardmäßig vom Kundenkonto ausgehen.
 
 ### <a name="set-financial-dimensions-for-a-project-contract-line"></a>Legen Sie finanzielle Dimensionen für eine Vertragszeile fest
 
 1. Navigieren Sie zu **Projektmanagement und -buchhaltung** > **Projekte** > **Projektverträge**.
 2. Wählen Sie den Datensatz aus, den Sie aktualisieren möchten, und wählen Sie auf der **Projektvertrag**-Registerkarte **Standardabrechnung anzeigen** aus.
-3. Erweitern Sie **Verwandte Informationen** und wählen Sie die **Vertragszeilen**-Registerkarte aus.
-4. Legen Sie die Finanzdimensions-Standardeinstellungen fest. Die Standardeinstellungen für die finanzielle Dimension gelten und können nur mit Festpreisvertragszeilen (Meilenstein) verwendet werden.
+3. Erweitern Sie **Zugehörige Informationen**, und wählen Sie die Registerkarte **Vertragszeilen** aus.
+4. Richten Sie die Standardeinstellungen für die Finanzdimension ein. Die Standardeinstellungen für die finanzielle Dimension gelten und können nur mit Festpreisvertragszeilen (Meilenstein) verwendet werden.
 
-Diese Standardeinstellungen werden für verwandte Projekttransaktionen und Rechnungspositionen verwendet.
+Diese Standardeinstellungen werden für zugehörige Projekttransaktionen und Rechnungsposten verwendet.
 
 ## <a name="define-default-financial-dimensions-for-projects"></a>Definieren Sie Standardfinanzdimensionen für Projekte
 
@@ -58,10 +58,10 @@ Projekte werden in CDS erstellt und gepflegt. Buchhaltungsattribute für Projekt
 
 1. Wechseln Sie zu **Projektmanagement und -buchhaltung** > **Projekte** > **Alle Projekte**.
 2. Wählen Sie den Datensatz aus, den Sie aktualisieren möchten, und wählen Sie auf der **Vertrag**-Registerkarte **Standardabrechnung anzeigen** aus.
-3. Erweitern Sie **Verwandte Informationen** und wählen Sie die **Einrichtung**-Registerkarte aus.
-4. Legen Sie die Finanzdimensions-Standardeinstellungen fest. Beachten Sie, dass die finanziellen Dimensionen standardmäßig vom Kundenkonto ausgehen. Wenn das Projekt einer Vertragszeile mit mehreren Projektvertragskunden zugeordnet ist, wird der Hauptkunde verwendet, um finanzielle Dimensionen festzulegen.
+3. Erweitern Sie **Zugehörige Informationen**, und wählen Sie die Registerkarte **Einrichtung** aus.
+4. Richten Sie die Standardeinstellungen für die Finanzdimension ein. Beachten Sie, dass Finanzdimensionen standardmäßig vom Debitorenkonto ausgehen. Wenn das Projekt einer Vertragszeile mehreren Projektvertragsdebitoren zugeordnet ist, wird der primäre Debitor verwendet, um Finanzdimensionen als Standard festzulegen.
 
-Die finanziellen Standarddimensionen des Projekts werden verwendet, um die Standardeinstellungen für Journalzeilen für Zeit-, Kosten- und Gebührentransaktionen im **Project Operations-Integrationsjournal** und für verwandte Projektrechnungszeilen festzulegen.
+Die standardmäßigen Finanzdimensionen des Projekts werden verwendet, um die Standardeinstellungen für Buch.-Blattzeilen für Zeit‑, Spesen‑ und Gebührentransaktionen in der **Project Operations-Integrationserfassung** und auf verwandten Projektrechnungszeilen festzulegen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

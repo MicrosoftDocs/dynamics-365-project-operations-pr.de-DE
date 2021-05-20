@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499895"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950885"
 ---
 # <a name="mobile-expense-app"></a>Mobile Ausgaben-App
 
@@ -72,16 +72,16 @@ Wenn Version 1611 mit Plattform Update 3 oder höher für Ihre Organisation bere
 <td>Systemadministrator</td>
 <td>Wissensdatenbank 4019015 ist ein X ++ – Update oder ein Metadaten-Hotfix, der den mobilen Arbeitsbereich <strong>Ausgabenverwaltung</strong> enthält. Um Wissensdatenbank 4019015 zu implementieren, muss Ihr Systemadministrator diese Schritte ausführen.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Laden Sie Updates von Lifecycle Services herunter</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installieren Sie den Metadaten-Hotfix</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Erstellen Sie ein bereitstellbares Paket</a>, das die Modelle <strong>ApplicationSuite</strong> und <strong>ExpenseMobile</strong> enthält und laden Sie dann das bereitstellbare Paket auf LCS hoch.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Bereitstellbares Paket anwenden</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Laden Sie Updates von Lifecycle Services herunter</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installieren Sie den Metadaten-Hotfix</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Erstellen Sie ein bereitstellbares Paket</a>, das die Modelle <strong>ApplicationSuite</strong> und <strong>ExpenseMobile</strong> enthält und laden Sie dann das bereitstellbare Paket auf LCS hoch.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Bereitstellbares Paket anwenden</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Veröffentlichen Sie den mobilen Arbeitsbereich <strong>Ausgabenmanagement</strong>.</td>
 <td>Systemadministrator</td>
-<td>Anweisungen finden Sie unter <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Einen mobilen Arbeitsbereich veröffentlichen</a>.</td>
+<td>Anweisungen finden Sie unter <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Einen mobilen Arbeitsbereich veröffentlichen</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 
 1. Öffnen Sie den Arbeitsbereich der **Ausgabenverwaltung** auf Ihrem mobilen Gerät.
 2. Wählen Sie **Schnelle Ausgabenerfassung**.
-3. Wählen Sie die Ausgabenkategorie. Sie sehen eine Liste der Ausgabenkategorien, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Kategorie nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Ausgabenkategorie suchen oder zur Suche nach Ausgabentyp wechseln.
+3. Wählen Sie die Ausgabenkategorie. Sie sehen eine Liste der Ausgabenkategorien, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Kategorie nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Ausgabenkategorie suchen oder zur Suche nach Ausgabentyp wechseln.
 4. Geben Sie das Transaktionsdatum der Ausgabe ein.
 5. Optional: Geben Sie den Händler für die Augabe ein.
 6. Geben Sie den Geldbetrag für die Ausgabe ein.
-7. Wählen Sie die Währung der Ausgabe. Sie sehen eine Liste der Währungscodes, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 400 Währlungen geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Währung nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Währung suchen oder zur Suche nach Kategorienamen wechseln.
+7. Wählen Sie die Währung der Ausgabe. Sie sehen eine Liste der Währungscodes, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 400 Währlungen geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Währung nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Währung suchen oder zur Suche nach Kategorienamen wechseln.
 8. Wählen Sie **Foto machen** oder **Bild auswählen**.
 9. Folgen Sie einen der folgenden Schritte:
 
@@ -159,11 +159,11 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 7. Wählen Sie oder mehrere Ausgaben aus der Liste aus.
 8. Wählen Sie **Fertig** aus.
 9. Um eine neue Ausgabe dem Ausgabenbericht hinzuzufügen, wählen Sie **Neue Ausgaben**.
-10. Wählen Sie die Ausgabenkategorie für die Ausgabe. Sie sehen eine Liste der Ausgabenkategorien, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Kategorie nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Ausgabenkategorie suchen oder zur Suche nach Ausgabentyp wechseln.
+10. Wählen Sie die Ausgabenkategorie für die Ausgabe. Sie sehen eine Liste der Ausgabenkategorien, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Kategorie nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Ausgabenkategorie suchen oder zur Suche nach Ausgabentyp wechseln.
 11. Optional: Geben Sie den Händler für die Augabe ein.
 12. Geben Sie das Transaktionsdatum der Ausgabe ein.
 13. Geben Sie den Geldbetrag für die Ausgabe ein.
-14. Wählen Sie die Währung der Ausgabe. Sie sehen eine Liste der Währungscodes, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 400 Währlungen geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Währung nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Währung suchen oder zur Suche nach Kategorienamen wechseln.
+14. Wählen Sie die Währung der Ausgabe. Sie sehen eine Liste der Währungscodes, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 400 Währlungen geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Währung nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Nach Währung suchen oder zur Suche nach Kategorienamen wechseln.
 15. Wählen Sie **Fertig** aus.
 16. Um weitere Details zu den Ausgaben hinzuzufügen, wählen Sie **Fügen Sie weitere Details hinzu**. Die verfügbaren Felder hängen von der Konfiguration des Ausgabenmanagements für Ihr Unternehmen ab.
 17. Wenn für die Unternehmensrichtlinie eine Quittung für die Ausgaben erforderlich ist, wählen Sie **Quittungen** und befolgen Sie dann diese Schritte:
@@ -209,12 +209,12 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 
         - Wenn Sie **Vorheriger Gast** und folgen Sie diesen Schritten:
 
-            1. Wählen Sie in der Liste einen oder mehrere frühere Gäste aus. Sie sehen eine Liste früherer Gäste, die Sie zu früheren Spesenabrechnungen hinzugefügt haben, die zur Offline-Verwendung in Ihre App geladen wurden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihr früherer Gast nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Suchen Sie nach Namen oder wechseln Sie zur Suche nach Organisation, Land oder Titel.
+            1. Wählen Sie in der Liste einen oder mehrere frühere Gäste aus. Sie sehen eine Liste früherer Gäste, die Sie zu früheren Spesenabrechnungen hinzugefügt haben, die zur Offline-Verwendung in Ihre App geladen wurden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihr früherer Gast nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Suchen Sie nach Namen oder wechseln Sie zur Suche nach Organisation, Land oder Titel.
             2. Wählen Sie **Fertig** aus.
 
         - Wenn Sie **Kollege** wählen, folgen Sie diesen Schritten:
 
-            1. Wählen Sie in der Liste mindestens einen Kollegen aus. Sie sehen eine Liste der Kollegen, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihr Kollege nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Suchen Sie nach Namen oder wechseln Sie zur Suche nach Unternehmen, Land oder Titel.
+            1. Wählen Sie in der Liste mindestens einen Kollegen aus. Sie sehen eine Liste der Kollegen, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihr Kollege nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Suchen Sie nach Namen oder wechseln Sie zur Suche nach Unternehmen, Land oder Titel.
             2. Wählen Sie **Fertig** aus.
 
     3. Wählen Sie die Schaltfläche **Zurück**, um zu den Ausgabendetails zurückzukehren.
@@ -223,7 +223,7 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 
     1. Wählen Sie das erste Datum aus, das aufgelistet werden soll.
     2. Wählen Sie **Auflistung hinzufügen** aus.
-    3. Wählen Sie die Unterkategorie für die Ausgabenauflistung aus. Sie sehen eine Liste der Unterkategorien, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Unterkategorie nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Suche nach Ausgabenunterkategorienamen.
+    3. Wählen Sie die Unterkategorie für die Ausgabenauflistung aus. Sie sehen eine Liste der Unterkategorien, die zur Offline-Verwendung in Ihre App geladen werden. Standardmäßig werden 50 Elemente geladen, aber ein Entwickler kann diese Nummer ändern. Weitere Informationen sehen Entwickler unter [Mobile Plattform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Wenn Ihre Unterkategorie nicht in der Liste enthalten ist, wählen Sie **Suchen**, um eine Online-Suche zu machen. Suche nach Ausgabenunterkategorienamen.
     4. Geben Sie den Transaktionsbetrag für die Auflistung ein.
     5. Bearbeiten Sie das Transaktionsdatum, falls erforderlich.
     6. Wählen Sie **Fertig** aus.

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276887"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950533"
 ---
 # <a name="provision-a-new-environment"></a>Eine neue Umgebung bereitstellen
 
@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um den automatisierten Project Operation
 
 ## <a name="provision-a-project-operations-environment"></a>Eine Project Operations-Umgebung bereitstellen
 
-1. Öffnen Sie eine neue Dynamics 365 Finance [Demo-Umgebungs-](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oder [Sandbox/Produktionsumgebungs-](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure)Bereitstellung. 
+1. Öffnen Sie eine neue Dynamics 365 Finance [Demo-Umgebungs-](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) oder [Sandbox/Produktionsumgebungs-](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure)Bereitstellung. 
 2. Durchlaufen Sie den Assistenten zur **Umgebungsbereitstellung**. 
 
 > [!IMPORTANT]

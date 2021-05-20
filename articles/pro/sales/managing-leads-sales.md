@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272837"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949723"
 ---
 # <a name="manage-leads---lite"></a>Leads verwalten – Lite
 
@@ -25,11 +25,11 @@ Projektbasierte Leads können in Project Operations verwaltet und qualifiziert w
 
 Im **Vertrieb**-Abschnitt öffnen Sie im linken Navigationsbereich die **Leads**-Listenseite, um eine Liste aller Lead-Datensätze im System anzuzeigen. Die Leads in der Liste sind arbeitsbasiert sowie andere Arten von Leads, die erstellt werden können, wenn Sie auch über Dynamics 365 Sales- oder Dynamics 365 Field Service-Anwendungen verfügen.
 
-Sie können eine gefilterte Ansicht erstellen, um nur projektbasierte Leads anzuzeigen, indem Sie einen Filter für den **Typ**-Wert erstellen. Sie können beispielsweise festlegen, dass nur arbeitsbezogene Leads angezeigt werden.
+Sie können eine gefilterte Ansicht erstellen, um nur projektbasierte Leads anzuzeigen, indem Sie einen Filter für den Wert **Typ** erstellen. Sie können beispielsweise festlegen, dass nur arbeitsbezogene Leads angezeigt werden.
 
 ## <a name="creating-a-new-lead-for-a-project-based-deal"></a>Erstellen eines neuen Leads für einen projektbasierten Deal
 
-Wenn ein projektbasierter Lead qualifiziert ist, werden eine Verkaufschance und ein Konto erstellt. Eine projektbasierte Verkaufschance ist der Ausgangspunkt für Vertriebsaktivitäten in der Verkaufschance-Phase. Projektbasierte Verkaufschancen verfügen über einzigartige Funktionen, die für den Verkauf von Projektarbeit erforderlich sind. Diese Fähigkeiten umfassen Folgendes:
+Wenn ein projektbasierter Lead qualifiziert ist, werden eine Verkaufschance und ein Konto erstellt. Eine projektbasierte Gelegenheit ist der Ausgangspunkt für Vertriebsaktivitäten in der Phase Verkaufschance. Projektbasierte Verkaufschancen verfügen über einzigartige Funktionen, die für den Verkauf von Projektarbeit erforderlich sind. Diese Fähigkeiten umfassen Folgendes:
 
 - Abrechnungsmethoden Zeit und Material und Festpreis
 - Mehrere datumsabhängige Preislisten für Personal, Ausgaben und Material sind für Projekte angefallen.
@@ -55,7 +55,7 @@ Leads, die den **Typ**-Wert auf **Arbeitsbasiert** festgelegt haben, werden proj
 - Ein dem Konto zugeordneter Kontaktdatensatz basierend auf den Werten in den **Vorname**- und **Nachname**-Feldern zum Lead.
 - Eine projektbasierte Verkaufschance, bei der das Feld **Typ** auf **Arbeitsbezogen** festgelegt ist.
 
-Weitere Informationen zum Qualifizieren von Leads finden Sie unter [Leads qualifizieren oder konvertieren](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Weitere Informationen zum Qualifizieren von Leads finden Sie unter [Leads qualifizieren oder konvertieren](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Geschäftsprozessfluss für projektbasierte Deals
 

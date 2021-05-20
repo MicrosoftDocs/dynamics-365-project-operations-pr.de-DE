@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291933"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951028"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -108,7 +108,7 @@ Die folgenden Funktionen sind in dieser Version enthalten:
 | Reisekosten und Spesen                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Der Workflow für die automatische Buchung von Spesenabrechnungen ist abgeschlossen, die Rechnung wird jedoch nicht gebucht                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
