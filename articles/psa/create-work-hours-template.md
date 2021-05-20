@@ -1,6 +1,6 @@
 ---
-title: Erstellen Sie eine neue Arbeitszeitvorlage.
-description: Erstellen Sie eine Arbeitszeitvorlage (Project Service)
+title: Eine Arbeitsstundenvorlage erstellen
+description: In diesem Thema wird beschrieben, wie Sie eine Arbeitszeitvorlage in Project Service erstellen.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285032"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981254"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="0495e-103">Erstellen Sie eine Arbeitszeitvorlage (Project Service)</span><span class="sxs-lookup"><span data-stu-id="0495e-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="fcb70-103">Erstellen Sie eine Arbeitszeitvorlage (Project Service)</span><span class="sxs-lookup"><span data-stu-id="fcb70-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="0495e-104">Bevor Sie Projektzeitpläne erstellen können, müssen Sie einen Projektkalender einrichten, der die Anzahl von Arbeitsstunden pro Tag im Zeitplan und Betriebsferien definiert.</span><span class="sxs-lookup"><span data-stu-id="0495e-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="0495e-105">Sie tun dies mit einer Arbeitsstundenvorlage, in dem die Details über Arbeitsstunden pro Tag, freie Tage und sonstige Betriebsferien enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="0495e-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="0495e-106">Wenn Sie ein Projekt erstellen, weisen Sie eine Arbeitsvorlage dem Projektkalender zu, um den Zeitplan auf das Projekt anzuwenden.</span><span class="sxs-lookup"><span data-stu-id="0495e-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="0495e-107">Es gibt zwei Möglichkeiten, um eine Arbeitsstundenvorlage zu erstellen:</span><span class="sxs-lookup"><span data-stu-id="0495e-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="0495e-108">Erstellen Sie eine Arbeitsstundenvorlage, basierend auf dem Kalender einer Ressource.</span><span class="sxs-lookup"><span data-stu-id="0495e-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="0495e-109">Erstellen Sie eine neue Arbeitszeitvorlage.</span><span class="sxs-lookup"><span data-stu-id="0495e-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="0495e-110">So erstellen Sie eine Arbeitsstundenvorlage, basierend auf dem Kalender einer Ressource.</span><span class="sxs-lookup"><span data-stu-id="0495e-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="0495e-111">Wechseln Sie zu **Project Service > Ressourcen**.</span><span class="sxs-lookup"><span data-stu-id="0495e-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="0495e-112">Wählen Sie die Ressource aus, auf der Sie Ihre Arbeitsstunden basieren möchten.</span><span class="sxs-lookup"><span data-stu-id="0495e-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="0495e-113">Klicken Sie auf **Kalender speichern unter**, geben Sie einen Namen für die Arbeitsstundenvorlage ein, und klicken Sie dann auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="0495e-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="0495e-114">Wenn Sie die Optionen geändert haben, klicken Sie auf **Speichern und schließen**.</span><span class="sxs-lookup"><span data-stu-id="0495e-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="0495e-115">Wählen Sie das Symbol **Speichern** in der unteren rechten Ecke des Bildschirms.</span><span class="sxs-lookup"><span data-stu-id="0495e-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="0495e-116">So erstellen Sie eine neue Arbeitszeitvorlage.</span><span class="sxs-lookup"><span data-stu-id="0495e-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="0495e-117">Wechseln Sie zu **Project Service > Arbeitsstundenvorlage**.</span><span class="sxs-lookup"><span data-stu-id="0495e-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="0495e-118">Klicken Sie auf **Neu**.</span><span class="sxs-lookup"><span data-stu-id="0495e-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="0495e-119">Geben Sie einen Namen für die Arbeitszeitvorlage ein.</span><span class="sxs-lookup"><span data-stu-id="0495e-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="0495e-120">Wählen Sie eine Ressource aus, auf der die Arbeitsstunden basiert werden, und klicken Sie dann auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="0495e-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="0495e-121">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0495e-121">See Also</span></span>  
- [<span data-ttu-id="0495e-122">Ressourcen einrichten</span><span class="sxs-lookup"><span data-stu-id="0495e-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="fcb70-104">Um ein Projekt zu erstellen und zu verwalten, müssen Sie eine Kalendervorlage auf das Projekt anwenden.</span><span class="sxs-lookup"><span data-stu-id="fcb70-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="fcb70-105">Die Kalendervorlage definiert die folgenden Projektattribute:</span><span class="sxs-lookup"><span data-stu-id="fcb70-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="fcb70-106">Arbeitszeit einschließlich Start- und Endzeit</span><span class="sxs-lookup"><span data-stu-id="fcb70-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="fcb70-107">Werktags</span><span class="sxs-lookup"><span data-stu-id="fcb70-107">Working days</span></span>
+- <span data-ttu-id="fcb70-108">Kalenderausnahmen wie arbeitsfreie Tage</span><span class="sxs-lookup"><span data-stu-id="fcb70-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="fcb70-109">Die Kalendervorlage, die auf ein Projekt angewendet wird, ist eine Kopie der Kalendervorlage, die in den Einstellungen Ihrer Organisation definiert ist.</span><span class="sxs-lookup"><span data-stu-id="fcb70-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="fcb70-110">Wenn Sie die Kalendervorlage ändern, werden diese Änderungen nicht auf die Arbeitszeiten des Projekts übertragen.</span><span class="sxs-lookup"><span data-stu-id="fcb70-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="fcb70-111">Um die Arbeitszeiten des Projekts zu ändern, muss eine neue Vorlage angewendet werden.</span><span class="sxs-lookup"><span data-stu-id="fcb70-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="fcb70-112">Um eine Kalendervorlage für Ihre Organisation zu erstellen, gibt es zwei Hauptanforderungen:</span><span class="sxs-lookup"><span data-stu-id="fcb70-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="fcb70-113">Definieren Sie die gewünschten Arbeitszeiten der Vorlage mithilfe einer neuen oder vorhandenen buchbaren Ressource.</span><span class="sxs-lookup"><span data-stu-id="fcb70-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="fcb70-114">Erstellen Sie eine neue Kalendervorlage und ordnen Sie die Vorlage der buchbaren Ressource zu.</span><span class="sxs-lookup"><span data-stu-id="fcb70-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="fcb70-115">**Arbeitsstunden der Vorlage definieren**</span><span class="sxs-lookup"><span data-stu-id="fcb70-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="fcb70-116">Navigieren Sie zu **Ressourcen** \> **Ressourcen**.</span><span class="sxs-lookup"><span data-stu-id="fcb70-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="fcb70-117">Erstellen Sie eine neue Ressource, auf die in der Kalendervorlage verwiesen werden soll, oder wählen Sie eine vorhandene Ressource aus.</span><span class="sxs-lookup"><span data-stu-id="fcb70-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="fcb70-118">Wählen Sie die Registerkarte **Arbeitsstunden** der Ressource und vervollständigen Sie die Anweisungen in [Arbeitszeiten für eine Ressource festlegen](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) um die Kalenderregeln zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="fcb70-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="fcb70-119">**Erstellen einer neuen Kalendervorlage.**</span><span class="sxs-lookup"><span data-stu-id="fcb70-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="fcb70-120">Wechseln Sie zu **Einstellungen** \> **Kalendervorlage**.</span><span class="sxs-lookup"><span data-stu-id="fcb70-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="fcb70-121">Wählen Sie **Neu** und geben Sie einen Namen, eine Beschreibung und eine Vorlagenressource ein.</span><span class="sxs-lookup"><span data-stu-id="fcb70-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="fcb70-122">Wenn in einer Kalendervorlage auf eine Ressource verwiesen wird, wird der Kalendervorlage eine Kopie des Kalenders der Ressource zugeordnet.</span><span class="sxs-lookup"><span data-stu-id="fcb70-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="fcb70-123">Wenn die Arbeitszeiten der kopierten Vorlage sich ändern, werden diese Änderungen nicht auf die Kalendervoralge übertragen.</span><span class="sxs-lookup"><span data-stu-id="fcb70-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="fcb70-124">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="fcb70-124">See Also</span></span>  
+ [<span data-ttu-id="fcb70-125">Ressourcen einrichten</span><span class="sxs-lookup"><span data-stu-id="fcb70-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
