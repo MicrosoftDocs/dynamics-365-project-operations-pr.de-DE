@@ -1,9 +1,9 @@
 ---
 title: Projektkalender definieren
-description: Dieses Thema enthält Informationen zur Verwendung eines Projektkalenders zum Verfolgen des Projektzeitplans.
+description: Dieses Thema enthält Informationen zum Anwenden einer Kalendervorlage auf ein Projekt, um den Projektplan zu verfolgen.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286967"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981299"
 ---
 # <a name="define-project-calendars"></a>Projektkalender definieren
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Zur Erstellung eines Projektzeitplans erstellen Sie zuerst eine Projektkalendervorlage, in der die Anzahl der Arbeitsstunden pro Tag sowie etwaige Betriebsferien definiert werden. Zur Erstellung einer Projektkalendervorlage weisen Sie dem Feld **Kalendervorlage** eine Arbeitsvorlage für das Projekt zu. Führen Sie die folgenden Schritte aus, um eine Arbeitsvorlage zu erstellen.
+Um ein Projekt zu erstellen und zu verwalten, müssen Sie eine Kalendervorlage auf das Projekt anwenden. Die Kalendervorlage definiert die folgenden Projektattribute:
 
-1. Wählen Sie im Navigationsbereich die Option **Ressouren** aus. 
-2. Öffnen Sie auf der Listenseite **Ressourcen** einen Benutzerdatensatz und wählen Sie dann **Arbeitsstunden anzeigen** aus.
+- Arbeitszeit einschließlich Start- und Endzeit
+- Arbeitstage
+- Kalenderausnahmen wie arbeitsfreie Tage
 
-  > [!NOTE]
-  > Stellen Sie sicher, dass auf der Browserseite Popups zulässig sind. So können Sie die für die Ressource festgelegten Arbeitsstunden anzeigen.
-  
-3. Wählen Sie auf der Registerkarte **Monatliche Ansicht** **Einrichten** aus. Eine Liste mit drei Optionen wird angezeigt: 
+Die Kalendervorlage, die auf ein Projekt angewendet wird, ist eine Kopie der Kalendervorlage, die in den Einstellungen Ihrer Organisation definiert ist.
 
-  - Neuer wöchentlicher Zeitplan
-  - Arbeitsplan für einen Tag
-  - Arbeitsfreie Zeit
+> [!NOTE]
+> Wenn Sie die Kalendervorlage ändern, werden diese Änderungen nicht auf die Arbeitszeiten des Projekts übertragen. Um die Arbeitszeiten des Projekts zu ändern, muss eine neue Vorlage angewendet werden.
 
-4. Wählen Sie **Neuer wöchentlicher Zeitplan** aus und legen Sie anschließend die Optionen für den Ressourcenzeitplan fest. Sie können einen wöchentlichen Serienzeitplan, tägliche Stundenparameter, Betriebsferien und mehr festlegen.
-5. Legen Sie den Datumsbereich fest, wählen Sie **Speichern** aus und wählen Sie dann **Schließen**. 
-6. Kehren Sie zur Listenseite **Ressourcen** zurück und wählen Sie die Ressource aus, für die Sie die Arbeitsstunden festgelegt haben. 
-7. Wählen Sie **Kalender festlegen als** aus, um die Arbeitsvorlage festzulegen. 
-8. Geben Sie im Dialogfeld **Arbeitsvorlage** einen Namen für die Arbeitsvorlage ein und wählen Sie dann **Übernehmen** aus. 
+Um eine Kalendervorlage für Ihre Organisation zu erstellen, gibt es zwei Hauptanforderungen:
+
+- Definieren Sie die gewünschten Arbeitszeiten der Vorlage mithilfe einer neuen oder vorhandenen buchbaren Ressource.
+- Erstellen Sie eine neue Kalendervorlage und ordnen Sie die Vorlage der buchbaren Ressource zu.
+
+**Arbeitsstunden der Vorlage definieren**
+
+1. Navigieren Sie zu **Ressourcen** \> **Ressourcen**.
+2. Erstellen Sie eine neue Ressource, auf die in der Kalendervorlage verwiesen werden soll, oder wählen Sie eine vorhandene Ressource aus.
+3. Wählen Sie die Registerkarte **Arbeitsstunden** der Ressource und vervollständigen Sie die Anweisungen in [Arbeitszeiten für eine Ressource festlegen](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) um die Kalenderregeln zu konfigurieren.
+
+**Erstellen einer neuen Kalendervorlage.**
+
+1. Wechseln Sie zu **Einstellungen** \> **Kalendervorlage**.
+2. Wählen Sie **Neu** und geben Sie einen Namen, eine Beschreibung und eine Vorlagenressource ein.
+
+> [!NOTE]
+> Wenn in einer Kalendervorlage auf eine Ressource verwiesen wird, wird der Kalendervorlage eine Kopie des Kalenders der Ressource zugeordnet. Wenn die Arbeitszeiten der kopierten Vorlage sich ändern, werden diese Änderungen nicht auf die Kalendervoralge übertragen.
 
 Sie können die Arbeitsvorlage jetzt einer Projektkalendervorlage zuordnen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
