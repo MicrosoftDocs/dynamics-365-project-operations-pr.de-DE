@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Neuigkeiten
       items:
+        - name: "Mai\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: "April\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "März\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -374,11 +376,13 @@
               href: expense/set-up-credit-card-integration.md
             - name: Ausgabenkategorien einrichten
               href: expense/set-up-expense-categories.md
-        - name: Persönliche Spesen
+            - name: Kilometerleistung mithilfe von Kilometertarifstufen einrichten
+              href: expense/set-up-mileage.md
+        - name: Persönliche Ausgaben
           href: expense/personal-expenses-expense-report.md
         - name: Intercompany-Ausgaben
           href: prod-exp/intercompany-expense.md
-        - name: Spesenabrechnungen erstellen
+        - name: Ausgabenabrechnungen erstellen
           items:
             - name: Verteilungen auf einer Spesenabrechnung
               href: expense/distributions-expense-report.md
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
+        - name: "Neuigkeiten für Mai\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Neuigkeiten für April\_2021 – Lite-Bereitstellung"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "Neuigkeiten für März\_2021 – Lite-Bereitstellung"
@@ -994,11 +1000,11 @@
           href: expense/set-up-credit-card-integration.md
         - name: Ausgabenkategorien einrichten
           href: expense/set-up-expense-categories.md
-    - name: Persönliche Spesen
+    - name: Persönliche Ausgaben
       href: expense/personal-expenses-expense-report.md
     - name: Intercompany-Ausgaben
       href: prod-exp/intercompany-expense.md
-    - name: Spesenabrechnungen erstellen
+    - name: Ausgabenabrechnungen erstellen
       items:
         - name: Verteilungen auf einer Spesenabrechnung
           href: expense/distributions-expense-report.md
@@ -1028,6 +1034,8 @@
       items:
         - name: "Update-Releasezeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 32, V3?'
+          href: psa/whats-new-ur-32.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 31, V3?'
           href: psa/whats-new-ur-31.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 30, V3?'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Wöchentlichen Zeiteintrag anpassen
               href: psa/time-entry-extensibility-v3.md
+            - name: Genehmigungssätze
+              href: psa/approval-set.md
     - name: FAQ und Problembehandlung (3.x)
       items:
         - name: Warum ist der Standardpreis bei tatsächlichen Transaktionen für Ausgabenkosten null?
