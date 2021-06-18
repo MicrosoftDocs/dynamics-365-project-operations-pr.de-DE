@@ -2,8 +2,6 @@
 title: Projekt-Istwerte prüfen
 description: Projekt-Istwerte überprüfen (Project Service)
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,23 +16,23 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68d940790a33b22bf7dd8bc663dcea61264b082e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a46039ad8fc6c175ad5e736d344d869b94e2fab2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282737"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997780"
 ---
-# <a name="review-project-actuals-project-service"></a><span data-ttu-id="f0b65-103">Projekt-Istwerte überprüfen (Project Service)</span><span class="sxs-lookup"><span data-stu-id="f0b65-103">Review project actuals (Project Service)</span></span>
+# <a name="review-project-actuals-project-service"></a><span data-ttu-id="51b6e-103">Projekt-Istwerte überprüfen (Project Service)</span><span class="sxs-lookup"><span data-stu-id="51b6e-103">Review project actuals (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="f0b65-104">Navigieren Sie zu den Projekt-Istwerten und überprüfen Sie, ob die Kosten und nicht in Rechnung gestellten Verkäufe mit den richtigen Verkaufs- und Kostenpreisen protokolliert sind, und das die **Vertrags**- und **Ressourcenzuordnungseinheit** korrekt für die Istwerte aufgezeichnet werden.</span><span class="sxs-lookup"><span data-stu-id="f0b65-104">Navigate to project actuals and make sure that cost and unbilled sales for time are logged for the correct sales and cost prices and that the **Contracting** and **Resourcing Units** are recorded correctly on the actuals.</span></span>  
+<span data-ttu-id="51b6e-104">Navigieren Sie zu den Projekt-Istwerten und überprüfen Sie, ob die Kosten und nicht in Rechnung gestellten Verkäufe mit den richtigen Verkaufs- und Kostenpreisen protokolliert sind, und das die **Vertrags**- und **Ressourcenzuordnungseinheit** korrekt für die Istwerte aufgezeichnet werden.</span><span class="sxs-lookup"><span data-stu-id="51b6e-104">Navigate to project actuals and make sure that cost and unbilled sales for time are logged for the correct sales and cost prices and that the **Contracting** and **Resourcing Units** are recorded correctly on the actuals.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="f0b65-105">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f0b65-105">See Also</span></span>  
- [<span data-ttu-id="f0b65-106">Handbuch des Projektmanagers</span><span class="sxs-lookup"><span data-stu-id="f0b65-106">Project manager guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="51b6e-105">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="51b6e-105">See Also</span></span>  
+ [<span data-ttu-id="51b6e-106">Handbuch des Projektmanagers</span><span class="sxs-lookup"><span data-stu-id="51b6e-106">Project manager guide</span></span>](../psa/project-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
