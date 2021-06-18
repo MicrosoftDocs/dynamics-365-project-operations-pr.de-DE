@@ -2,11 +2,9 @@
 title: Delegierung verwalten
 description: Dieses Thema enthält Informationen darüber, wie eine Ausgabenstellvertretung Ausgabenabrechnungen für einen anderen Mitarbeiter erstellen und verwalten kann.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ee00b3c6a683aa8daf2823331a1a9638828dad03
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34b190f9a458c9e2706c5b8c9fdbceea1fbe2621
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276392"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995305"
 ---
 # <a name="manage-delegation"></a>Delegierung verwalten
 Eine Ausgabenstellvertretung kann Ausgabenabrechnungen für einen anderen Mitarbeiter erstellen und verwalten.
@@ -36,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um einen Benutzer als Ausgabenstellvertr
 
 Wenn der Funktionsverwaltungsschlüssel **Listenseite für Kostenstellvertretung aktivieren** aktiviert ist, ist die **An mich delegierte Ausgaben**-Listenseite verfügbar. Wechseln Sie zu **Ausgabenmanagement** > **Meine Ausgaben** > **An mich delegierte Ausgaben**.
 
-Eine Stellvertretung kann vorhandene Ausgabenabrechnungen, die an ihn delegiert wurden, schnell filtern und durchsuchen. Die Stellvertretung kann durch Auswahl von **Neue Ausgabenabrechnung** auch schnell eine neue Ausgabenabrechnung für andere Benutzer erstellen.
+Eine Stellvertretung kann vorhandene Ausgabenabrechnungen, die an ihn delegiert wurden, schnell filtern und durchsuchen. Der Delegat kann durch Auswahl von **Neue Spesenabrechnung** auch schnell eine neue Spesenabrechnung für andere Benutzer erstellen.
 
 Die Stellvertretung kann Ausgabenabrechnungen für andere Mitarbeiter erstellen und verwalten, indem sie zu **Ausgabenmanagement** > **Meine Kosten** > **Ausgabenabrechnungen** wechseln und **Ausgaben anderer Benutzer öffnen** auswählen.
 

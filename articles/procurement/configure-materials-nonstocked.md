@@ -2,19 +2,17 @@
 title: Konfigurieren Sie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen
 description: In diesem Thema wird erläutert, wie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen aktiviert werden.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880645"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993910"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurieren Sie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen
 
@@ -61,11 +59,11 @@ Wenn Sie Standarddemodaten verwenden, müssen Sie möglicherweise auch die folge
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivieren Sie den Workflow, um Konten basierend auf der Zuliefererentität zu erstellen
 
-Die Dual Write Orchestration-Lösung biete t[ Anbieter-Masterintegration ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Voraussetzung für diese Funktion sind Lieferantendaten in der Entität **Konten**. Aktivieren Sie einen Vorlagen-Workflow-Prozess, um Hersteller in der Tabelle **Konten** zu erstellen, wie unter [Wechseln zwischen Herstellerentwürfen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type) beschrieben.
+Die Dual Write Orchestration-Lösung biete t[ Anbieter-Masterintegration ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Voraussetzung für diese Funktion sind Lieferantendaten in der Entität **Konten**. Aktivieren Sie einen Vorlagen-Workflow-Prozess, um Hersteller in der Tabelle **Konten** zu erstellen, wie unter [Wechseln zwischen Herstellerentwürfen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type) beschrieben.
 
 ### <a name="set-products-to-be-created-as-active"></a>Legen Sie fest, dass Produkte als aktiv erstellt werden sollen
 
-Nicht vorrätige Materialien müssen als **Freigegebene Produkte** in Finance konfiguriert sein. Die Dual Write Orchestration-Lösung bietet eine sofort einsatzbereite [Integration von freigegebenen Produkten im Dataverse-Produktkatalog](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Standardmäßig werden Produkte aus Finance mit Dataverse in einem Entwurfszustand synchronisiert. Um das Produkt in einen aktiven Status zu synchronisieren, damit es direkt in Materialverwendungsdokumenten oder ausstehenden Lieferantenrechnungen verwendet werden kann, gehen Sie zu **System** > **Verwaltung** > **Systemadministration** > **Systemeinstellungen** und setzen Sie auf der Registerkarte **Vertrieb** die Option **Produkte im aktiven Status erstellen** auf **Ja**.
+Nicht vorrätige Materialien müssen als **Freigegebene Produkte** in Finance konfiguriert sein. Die Dual Write Orchestration-Lösung bietet eine sofort einsatzbereite [Integration von freigegebenen Produkten im Dataverse-Produktkatalog](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Standardmäßig werden Produkte aus Finance mit Dataverse in einem Entwurfszustand synchronisiert. Um das Produkt in einen aktiven Status zu synchronisieren, damit es direkt in Materialverwendungsdokumenten oder ausstehenden Lieferantenrechnungen verwendet werden kann, gehen Sie zu **System** > **Verwaltung** > **Systemadministration** > **Systemeinstellungen** und setzen Sie auf der Registerkarte **Vertrieb** die Option **Produkte im aktiven Status erstellen** auf **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Voraussetzungen in Finance konfigurieren
 
