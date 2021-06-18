@@ -2,8 +2,6 @@
 title: Eine Arbeitsstundenvorlage erstellen
 description: In diesem Thema wird beschrieben, wie Sie eine Arbeitszeitvorlage in Project Service erstellen.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981254"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997195"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Erstellen Sie eine Arbeitszeitvorlage (Project Service)
 
@@ -51,7 +49,7 @@ Um eine Kalendervorlage für Ihre Organisation zu erstellen, gibt es zwei Haupta
 
 1. Navigieren Sie zu **Ressourcen** \> **Ressourcen**.
 2. Erstellen Sie eine neue Ressource, auf die in der Kalendervorlage verwiesen werden soll, oder wählen Sie eine vorhandene Ressource aus.
-3. Wählen Sie die Registerkarte **Arbeitsstunden** der Ressource und vervollständigen Sie die Anweisungen in [Arbeitszeiten für eine Ressource festlegen](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) um die Kalenderregeln zu konfigurieren.
+3. Wählen Sie die Registerkarte **Arbeitsstunden** der Ressource und vervollständigen Sie die Anweisungen in [Arbeitszeiten für eine Ressource festlegen](/dynamics365/field-service/set-work-hours-resource.md) um die Kalenderregeln zu konfigurieren.
 
 **Erstellen einer neuen Kalendervorlage.**
 

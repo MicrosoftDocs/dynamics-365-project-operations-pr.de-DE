@@ -2,8 +2,6 @@
 title: Ressourcen verwalten
 description: In diesem Thema finden Sie Informationen dazu, wie Sie Ressourcen verwalten.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d47be6c11ced70b94b7497dfbc0c67d1a3f631b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274997"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997825"
 ---
 # <a name="manage-resources"></a>Ressourcen verwalten
 
@@ -44,12 +42,12 @@ Dynamics 365 Project Service Automation enthält ein Ressourcen-Manager-Dashboar
 
 Projektmanager können das Ressourcen-Manager-Dashboard verwenden, um Ressourcen in Projekten zu verwalten. Beispielsweise können sie ein Teammitglied direkt einem Projekt hinzufügen oder ein Teammitglied buchen, um die Ressourcenanforderungen zu erfüllen, die von einer allgemeine Ressource aufgezeichnet wurden.
 
-### <a name="add-a-team-member-directly-to-a-project"></a>Direktes Hinzufügen eines Teammitglieds zu einem Projekt
+### <a name="add-a-team-member-directly-to-a-project"></a>Teammitglied direkt zu einem Projekt hinzufügen
 
 Um ein Teammitglied direkt einem Projekt hinzuzufügen, wählen Sie auf der Seite **Projekte**, auf der Registerkarte **Team** **Neu** aus. Das Dialogfeld **Quick Create:Projektteammitglied** wird angezeigt. In diesem Dialogfeld können Sie die folgenden Aufgaben ausführen:
 
-- **Eine benannte Ressource buchen** – Wählen Sie im Feld **Buchbare Ressource** den Namen der Ressource aus. Wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie eine Zuordnungsmethode aus. Die die ausgewählte benannte Ressource wird zum Projekt hinzufügt, indem Sie die ausgewählte Zuordnungsmethode und den Ressourcenkalender verwenden.
-- **Eine allgemeine Ressource hinzufügen** – Lassen Sie das Feld **Buchbare Ressource** leer, und wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie die bevorzugte Zuordnungsmethode aus. Eine allgemeine Ressource wird dem Team als Platzhalter hinzugefügt, um das Nachfragemuster zu halten, das verwendet wird, um benannte Ressourcen im Team zu buchen. Die Anforderung wird gemäß dem Projektkalender gemacht.
+- **Eine benannte Ressource buchen** – Wählen Sie im Feld **Buchbare Ressource** den Namen der Ressource aus. Wählen Sie dann die Rolle, den Zeitraum und eine Zuordnungsmethode aus. Die die ausgewählte benannte Ressource wird zum Projekt hinzufügt, indem Sie die ausgewählte Zuordnungsmethode und den Ressourcenkalender verwenden.
+- **Eine allgemeine Ressource hinzufügen** – Lassen Sie das Feld **Buchbare Ressource** leer, und wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie die bevorzugte Zuordnungsmethode aus. Eine allgemeine Ressource wird dem Team als Platzhalter hinzugefügt, um das Nachfragemuster zu halten, das verwendet wird, um benannte Ressourcen im Team zu buchen. Die Anforderung richtet sich nach dem Projektkalender.
 - **Eine benannte Ressource zum Team hinzufügen, ohne Ressourcenkapazität zu nutzen** – Wählen Sie im Feld **Buchbare Ressource** eine Ressource aus. Wählen Sie den Zeitraum aus und wählen Sie **Keine** als Zuordnungsmethode aus. Die Ressource wird dem Team hinzugefügt, aber die Kapazität der Ressource wird von einer Buchung genutzt.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Buchen Sie ein Teammitglied, um Ressourcenanforderungen für eine allgemeine Ressource zu erfüllen
@@ -318,7 +316,7 @@ Gelegentlich muss ein Projektmanager ein gebuchtes Teammitglied in einem Projekt
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Abgleichen der Teammitgliedsbuchungen und -zuweisungen
 
-Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, jedoch keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Unter Umständen basieren die Buchungen auf der Verfügbarkeit, und die Aufgabenzeitplanung wird im Laufe des Projekts geändert. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
+Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, jedoch keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Die Buchungen können jedoch von der Verfügbarkeit abhängen, und die Aufgabenzeiten können sich im Verlauf des Projekts ändern. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
 
 PSA hat eine Registerkarte **Abstimmung**, die es dem Projektmanager ermöglicht, die Buchungen und Zuweisungen der Teammitglieder für die Projektteams abzustimmen.
 
@@ -330,8 +328,8 @@ Auf der Registerkarte wird auch die allgemeine Nettosumme für das Projekt zusam
 
 Für jede Ressource berechnet die Registerkarte den Unterschied zwischen den Buchungen des Teammitglieds und einem Rollup der Aufgabenzuordnungen des Teammitglieds. Idealerweise sollte der Unterschied 0 (null) sein. Das bedeutet, dass es keinen Unterschied zwischen Buchungen und Zuweisungen geben sollte. Die Unterschiede werden farbig und schattiert angezeigt, um auf zwei Bedingungen hinzuweisen:
 
-- **Verlust der Buchung** – Ein Buchungsverlust tritt auf, wenn eine Ressource mehr Zuweisungen als Buchungen hat. Da diese Kapazität nicht reserviert wurde, kann ein Projektmanager diesen Zustand korrigieren, indem er die Ressourcenbuchungen erweitert, um das Defizit abzudecken.
-- **Überzählige Buchungen** – Überzählige Buchungen treten auf, wenn eine Ressource für das Projekt zwar gebucht, aber keinen Aufgaben zugewiesen wurde. Diese Bedingung kann in den Fällen akzeptabel sein, in denen die Ressource vor der Aufgabenzuordnung für das Projekt gebucht wurde. In anderen Fällen ist jedoch nicht geplant, dass die Ressource Aufgaben zugeordnet wird. In diesen Fällen sollte es der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren, sodass die Kapazität für ein anderes Projekt verwendet werden kann.
+- **Buchungsmangel** – Ein Buchungsmangel tritt auf, wenn eine Ressource mehr Zuordnungen als Buchungen hat. Da diese Kapazität nicht reserviert wurde, möchte ein Projektmanager diesen Zustand möglicherweise korrigieren, indem er die Buchungen der Ressource erweitert, um das Defizit zu decken.
+- **Überbuchungen** – Überbuchungen treten auf, wenn eine Ressource für das Projekt gebucht, aber keinen Aufgaben zugeordnet wurde. Diese Bedingung kann in den Fällen akzeptabel sein, in denen die Ressource vor der Aufgabenzuordnung für das Projekt gebucht wurde. In anderen Fällen ist jedoch nicht geplant, dass die Ressource Aufgaben zugeordnet wird. In diesen Fällen sollte es der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren, sodass die Kapazität für ein anderes Projekt verwendet werden kann.
 
 Wenn Sie die Zeit in einigen Fällen auf einer höheren als der Tagsebene (z. B. auf Monatsebene) anzeigen, sehen Sie einen Nettounterschied von null für eine Ressource (d. h.: Buchungen =Zuweisungen). Wenn Sie die Zeit jedoch auf Wochenebene anzeigen, sehen Sie, dass es Zuweisungen mit null Stunden und Buchungen mit 40 Stunden in der ersten Woche gibt, aber Zuweisungen von 40 Stunden und Buchungen von null Stunden in der zweiten Woche. Die Buchungen und Zuweisungen werden insgesamt abgestimmt, sie unterscheiden sich jedoch von einer Woche zur nächsten.
 
