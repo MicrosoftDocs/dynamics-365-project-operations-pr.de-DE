@@ -2,8 +2,6 @@
 title: Neuigkeiten und Änderungen in Project Service Automation, Update Release 29.5 Hotfix, V3
 description: In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen für Project Service Automation Hotfix V3, Update Release 29.5 aufgeführt.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
 ms.topic: article
@@ -17,16 +15,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 99ba353236ad88b8bdff2c1b25e1247fa4bf3455
-ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
+ms.openlocfilehash: d5050945c4ab7c1da61b07ec08bed20f32e166b9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5715667"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999175"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Neuigkeiten und Änderungen in Project Service Automation, Update Release 29.5, V3
 
-Wir freuen uns, das neueste Update für die Project Service Automation-Anwendung für Dynamics 365 bekannt zu geben. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit. Diese Version ist mit Dynamics 365 9.x kompatibel. Um auf diese Version zu aktualisieren, wechseln Sie zum Admin Center für Dynamics 365 online, und rufen Sie die Lösungsseite auf, um das Update zu installieren. Weitere Informationen: [Installieren, Aktualisieren oder Entfernen einer bevorzugten Lösung](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Wir freuen uns, das neueste Update für die Project Service Automation-Anwendung für Dynamics 365 bekannt zu geben. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit. Diese Version ist mit Dynamics 365 9.x kompatibel. Um auf diese Version zu aktualisieren, wechseln Sie zum Admin Center für Dynamics 365 online, und rufen Sie die Lösungsseite auf, um das Update zu installieren. Weitere Informationen: [Installieren, Aktualisieren oder Entfernen einer bevorzugten Lösung](/power-platform/admin/install-remove-preferred-solution.md).
 
 In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen für Project Service Automation V3, Update Release 29.5 aufgeführt. Diese Version hat eine Build-Nummer von V3.10.47.150 und ist im durch ein Selbst-Update im Januar 2021 verfügbar.
 

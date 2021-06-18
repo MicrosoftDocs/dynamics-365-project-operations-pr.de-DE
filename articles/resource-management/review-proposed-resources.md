@@ -2,11 +2,9 @@
 title: Vorgeschlagene Ressourcen überprüfen
 description: Dieses Thema enthält Informationen zum Vorschlagen von Projektressourcen.
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 987ea08c77c1824182856c0d52ee0cd15e7029b9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279272"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000750"
 ---
 # <a name="review-proposed-resources"></a>Vorgeschlagene Ressourcen überprüfen
 
@@ -33,10 +31,10 @@ Ressourcenmanager können dem Projektmanager mithilfe einer Ressourcenanfrage ei
 1. Wählen Sie im Anfrageraster oder in der Anfrage selbst **Ressourcen suchen** aus.
 2. Wählen Sie auf der Seite **Zeitplan-Assistent** die Ressource aus. Wählen Sie dann im Bereich **Ressourcenbuchung erstellen** im Feld **Buchungsstatus** die Option **Buchen** aus.
 
-Die folgenden Statusupdates erfolgen:
+Die folgenden Statusaktualisierungen finden statt:
 
-- Auf der Seite **Zeitplan-Assistent** werden die Statusbezeichner aktualisiert, um anzuzeigen, dass es sich um eine vorgeschlagene und nicht um eine verbindliche Buchung handelt.
-- Für die Ressourcenanfrage wird der Status in **Prüfung erforderlich** geändert.
+- Auf der Seite **Planungsassistent** werden die Statusanzeigen aktualisiert, um anzuzeigen, dass die Buchung vorgeschlagen ist (nicht fest gebucht).
+- In der Ressourcenanforderung wird der Status auf **Überprüfung erforderlich** geändert.
 - Auf der Registerkarte **Team** des Projekts wird der Wert **Anforderungsstatus** für das generische Teammitglied in **Prüfung erforderlich** geändert.
 
 Der Projektmanager kann den Vorschlag annehmen oder ablehnen.

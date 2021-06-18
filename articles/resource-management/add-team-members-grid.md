@@ -2,18 +2,16 @@
 title: Teammitglieder aus dem Teammitgliedsraster hinzufügen
 description: In diesem Thema finden Sie Informationen dazu, wie Sie Teammitglied-Ressourcen verwalten.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 95f9e1d836e49672cfb51ace59aa77ea9da65b35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280082"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998860"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Teammitglieder aus dem Teammitgliedsraster hinzufügen
 
@@ -36,8 +34,8 @@ Projektmanager können das Ressourcen-Manager-Dashboard verwenden, um Ressourcen
 
 Um ein Teammitglied direkt einem Projekt hinzuzufügen, wählen Sie im Formular **Projekte**, auf der Registerkarte **Team** **Neu** aus. Das Dialogfeld **Quick Create:Projektteammitglied** wird angezeigt. In diesem Dialogfeld können Sie die folgenden Aufgaben ausführen:
 
-- **Eine benannte Ressource buchen**: Wählen Sie im Feld **Buchbare Ressource** den Namen der Ressource aus. Wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie eine Zuordnungsmethode aus. Die die ausgewählte benannte Ressource wird zum Projekt hinzufügt, indem Sie die ausgewählte Zuordnungsmethode und den Ressourcenkalender verwenden.
-- **Eine allgemeine Ressource hinzufügen**: Lassen Sie das Feld **Buchbare Ressource** leer, und wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie die bevorzugte Zuordnungsmethode aus. Eine generische Ressource wird dem Team als Platzhalter hinzugefügt. Der Platzhalter enthält das Nachfragemuster, mit dem benannte Ressourcen im Team gebucht werden. Die Anforderung wird gemäß dem Projektkalender gemacht.
+- **Eine benannte Ressource buchen**: Wählen Sie im Feld **Buchbare Ressource** den Namen der Ressource aus. Wählen Sie dann die Rolle, den Zeitraum und eine Zuordnungsmethode aus. Die die ausgewählte benannte Ressource wird zum Projekt hinzufügt, indem Sie die ausgewählte Zuordnungsmethode und den Ressourcenkalender verwenden.
+- **Eine allgemeine Ressource hinzufügen**: Lassen Sie das Feld **Buchbare Ressource** leer, und wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie die bevorzugte Zuordnungsmethode aus. Dem Team wird eine generische Ressource als Platzhalter hinzugefügt. Der Platzhalter umfasst das Nachfragemuster, mit dem benannte Ressourcen im Team gebucht werden. Die Anforderung richtet sich nach dem Projektkalender.
 - **Eine benannte Ressource zum Team hinzufügen, ohne Ressourcenkapazität zu nutzen**: Wählen Sie im Feld **Buchbare Ressource** eine Ressource aus. Wählen Sie den Zeitraum und dann **Keine** als Zuordnungsmethode aus. Die Ressource wird dem Team hinzugefügt, aber die Kapazität der Ressource wird von einer Buchung genutzt.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Buchen Sie ein Teammitglied, um Ressourcenanforderungen für eine allgemeine Ressource zu erfüllen
@@ -180,7 +178,7 @@ Oder. wenn Sie nach einer Ressource suchen müssen, führen Sie die folgenden Sc
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Abgleichen der Teammitgliedsbuchungen und -zuweisungen
 
-Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, jedoch keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Unter Umständen basieren die Buchungen auf der Verfügbarkeit, und die Aufgabenzeitplanung wird im Laufe des Projekts geändert. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
+Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, jedoch keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Die Buchungen können jedoch von der Verfügbarkeit abhängen, und die Aufgabenzeiten können sich im Verlauf des Projekts ändern. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
 
 Project Operations hat eine Registerkarte **Abstimmung**, die es dem Projektmanager ermöglicht, die Buchungen und Zuweisungen der Teammitglieder für die Projektteams abzustimmen.
 

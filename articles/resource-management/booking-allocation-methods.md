@@ -2,11 +2,9 @@
 title: Buchungszuteilungsmethoden
 description: Dieses Thema enthält Informationen zur Funktionsweise von Buchungszuweisungsmethoden im Projektbetrieb.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 358eb5a6ccf1dd09f8056a20dbf6906e2c3803bd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 839ef1f1d35c7d900794c0af36e6bc9ea640c497
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280037"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998770"
 ---
 # <a name="booking-allocation-methods"></a>Buchungszuteilungsmethoden
 
@@ -42,7 +40,7 @@ Es gibt sechs Buchungszuweisungsmethoden, die Sie verwenden können:
 - [Keine](#none)
 
 ### <a name="full-capacity"></a><a name="full"></a>Volle Kapazität 
-Die Methode „Volle Kapazität” bucht die volle Kapazität der Ressource für das angegebene Start- und Enddatum. Wenn für eine Ressource beispielsweise ein Kalender für acht Stunden pro Tag an fünf Tagen in der Woche festgelegt ist und ein Start- und Enddatum festgelegt wird, das fünf Arbeitstage umfasst, wird die Ressource für 40 Stunden gebucht. Die Anmeldung wird ohne Rücksicht auf die verbleibende Ressourcenrestkapazität ausgeführt. Wenn in diesem Zeitraum eine Ressource bereits für andere Projekte gebucht wurde, werden die 40 Stunden als zusätzliche Stunden gebucht, was möglicherweise zu Überbuchungen führt.
+Die Methode „Volle Kapazität” bucht die volle Kapazität der Ressource für das angegebene Start- und Enddatum. Wenn für eine Ressource beispielsweise ein Kalender für acht Stunden pro Tag an fünf Tagen in der Woche festgelegt ist und ein Start- und Enddatum festgelegt wird, das fünf Arbeitstage umfasst, wird die Ressource für 40 Stunden gebucht. Die Buchung erfolgt unabhängig von der verbleibenden Kapazität der Ressource. Wenn in diesem Zeitraum eine Ressource bereits für andere Projekte gebucht wurde, werden die 40 Stunden als zusätzliche Stunden gebucht, was möglicherweise zu Überbuchungen führt.
 
 ### <a name="remaining-capacity"></a><a name="remaining"></a>Verbleibende Kapazität
 Die Methode „Verbleibende Kapazität” ist nur verfügbar, wenn Sie mithilfe der Zeitplanübersicht direkt für ein Projekt buchen. Die Ressource verfügt nicht über ausreichende Kapazität innerhalb des angegebenen Datumsbereichs. Wenn eine Ressource beispielsweise eine Kapazität von 40 Stunden pro Woche hat und bereits für 10 Stunden gebucht wurde, führt die Buchung für dieselbe Woche zur Buchung der verbleibenden Kapazität von 30 Stunden für diese Woche.
