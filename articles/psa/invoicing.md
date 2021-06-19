@@ -2,12 +2,10 @@
 title: Rechnungsstellung in Project Service Automation
 description: Dieses Thema enthält Informationen zur Rechnungsstellung.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d9fff2d3b26da73e5a236cd8607576439fc1a08
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284267"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015060"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rechnungsstellung in Project Service Automation
 
@@ -48,25 +46,25 @@ Projektrechnungen können einzeln oder mithilfe von Massendatensätzen erstellt 
 
 Auf der Listenseite **Projektverträge** können Sie Projektrechnungen für jeden Projektvertrag separat erstellen, Sie können jedoch auch Rechnungen für mehrere Projektverträge in einem Massenvorgang erstellen.
 
-Führen Sie diesen Schritt aus, um eine Rechnung für einen bestimmten Projektvertrag zu erstellen.
+Befolgen Sie diesen Schritt, um eine Rechnung für einen bestimmten Projektvertrag zu erstellen.
 
 - Öffnen Sie auf der Listenseite **Projektverträge** einen Projektvertrag und wählen Sie dann **Rechnung erstellen** aus.
 
     ![Erstellen von Projektrechnungen für einen bestimmten Projektvertrag](media/CreateProjectInvoicesOneByOne.png)
 
-    Es wird eine Rechnung für alle Transaktionen des ausgewählten Projektvertrags generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Ausgaben und Meilensteine sowie produktbasierte Vertragszeilen.
+    Es wird eine Rechnung für alle Transaktionen des ausgewählten Projektvertrags generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Spesen, Meilensteine und produktbasierte Vertragszeilen.
 
-Befolgen Sie diese Schritte, um Rechnungen in einem Massenvorgang zu erstellen.
+Führen Sie die folgenden Schritte aus, um Rechnungen in großen Mengen zu erstellen.
 
 1. Wählen Sie auf der Listenseite **Projektverträge** einen oder mehrere Projektverträge aus, für den bzw. die Sie eine Rechnung erstellen müssen, und wählen Sie dann **Projektrechnungen erstellen** aus.
 
     ![Erstellen von Projektrechnungen mithilfe von Massendatensätzen](media/CreateProjectInvoicesBulk.png)
 
-    Eine Warnmeldung weist Sie darauf hin, dass es zu Verzögerungen kommen kann, bevor Rechnungen erstellt werden. Der Prozess wird auch angezeigt.
+    Eine Warnmeldung weist Sie darauf hin, dass es zu Verzögerungen kommen kann, bevor Rechnungen erstellt werden. Der Vorgang wird ebenfalls angezeigt.
 
-2. Wählen Sie **OK** aus, um das Meldungsfeld zu schließen.
+2. Wählen Sie **OK** aus, um das Nachrichtenfeld zu schließen.
 
-    Es wird eine Rechnung für alle Transaktionen einer Vertragszeile generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Ausgaben und Meilensteine sowie produktbasierte Vertragszeilen.
+    Für alle Transaktionen auf einer Vertragszeile mit dem Status **Bereit für die Rechnungsstellung** wird eine Rechnung erstellt. Diese Transaktionen umfassen Zeit, Ausgaben und Meilensteine sowie produktbasierte Vertragszeilen.
 
 3. Um die generierten Rechnungen anzuzeigen, wechseln Sie zu **Vertrieb** \> **Fakturierung** \> **Rechnungen**. Sie sehen eine Rechnung für jeden Projektvertrag.
 
@@ -77,22 +75,22 @@ Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf i
 1. Wechseln Sie zu **Project Service** \> **Einstellungen** \> **Batchaufträge**.
 2. Erstellen Sie einen Batchauftrag und nennen Sie ihn **PSA Rechnungen erstellen**. Der Name des Batchauftrags muss den Wortlaut „Rechnungen erstellen” enthalten.
 3. Wählen Sie im Feld **Auftragstyp** **Keiner** aus. Standardmäßig sind die Optionen **Frequenz täglich** und **Ist aktiv** auf **Ja** festgelegt.
-4. Wählen Sie **Workflow ausführen** aus. Im Dialogfeld **Datensatz nachschlagen** finden Sie drei Workflows:
+4. Wählen Sie **Workflow ausführen** aus. Im Dialogfeld **Datensatz suchen** werden drei Workflows angezeigt:
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
 5. Wählen Sie **ProcessRunCaller** und dann **Hinzufügen** aus.
-6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep**-Workflow folgt ein **Process** -Workflow.
+6. Wählen Sie im nächsten Dialogfeld die Option **OK** aus. Auf den Workflow **Ruhezustand** folgt der Workflow **Verarbeiten**.
 
-    In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
+    Sie können auch **ProcessRunner** in Schritt 5 auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
 
-Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen tatsächlich erstellt. Es durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt Rechnungen für diese Zeilen. Zur Bestimmung der Vertragszeilen, für die Rechnungen erstellt werden sollen, überprüft der Job die Rechnungsdurchlaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungsdurchlaufdatum aufweisen, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, überspringt der Job die Rechnungserstellung.
+Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen tatsächlich erstellt. Es durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt Rechnungen für diese Zeilen. Um die Vertragszeilen zu bestimmen, für die Rechnungen erstellt werden müssen, überprüft der Auftrag die Rechnungslaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungslaufdatum haben, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, überspringt der Auftrag die Rechnungserstellung.
 
-Nachdem **ProcessRunner** ausgeführt wurde, ruft es **ProcessRunCaller** auf, gibt die Endzeit an und wird geschlossen. **ProcessRunCaller** startet dann einen Zeitgeber, der ab der angegebenen Endzeit 24 Stunden lang ausgeführt wird. Am Ende des Zeitgebers wird **ProcessRunCaller** geschlossen.
+Nach dem **ProcessRunner** durchgeführt wurde, wird **ProcessRunCaller** aufgerufen, liefert die Endzeit und ist geschlossen. **ProcessRunCaller** startet dann einen Timer, der ab der angegebenen Endzeit 24 Stunden lang läuft. Am Ende des Timers ist **ProcessRunCaller** geschlossen.
 
-Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um einen wiederkehrenden Job. Wenn diese Stapelverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Jobs erstellt und verursachen Fehler. Deshalb sollten Sie die Stapelverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
+Der Batchverarbeitungsauftrag zum Erstellen von Rechnungen ist ein wiederkehrender Auftrag. Wenn dieser Batchauftrag mehrmals ausgeführt wird, werden mehrere Instanzen des Auftrags erstellt und verursachen Fehler. Deshalb sollten Sie die Stapelverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
 
 > [!NOTE]
 > Die Stapelrechnungsstellung in Project Service Automation wird nur für Projektvertragspositionen ausgeführt, die über Rechnungszeitpläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden. Informationen zum Einrichten von Rechnungshäufigkeiten im Kontext eines Projekts, das auf einer Angebotszeile basiert, finden Sie im Thema, [Angebote und Angebotspositionen](basic-quote-lines.md#invoice-schedule). Gleiches gilt für eine projektbasierte Vertragslinie.      

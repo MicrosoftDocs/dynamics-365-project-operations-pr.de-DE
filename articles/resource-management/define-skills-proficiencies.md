@@ -2,11 +2,9 @@
 title: Fähigkeiten und Kompetenzstufen definieren
 description: Dieses Thema enthält Informationen zur Einrichtung der Fähigkeiten und Kompetenzstufenmodelle, um Ressourcen zu bewerten.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 982f64677b74f2195eacc287fc07b80c34f7acc0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279677"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015330"
 ---
 # <a name="define-skills-and-proficiencies"></a>Fähigkeiten und Kompetenzstufen definieren
 
@@ -34,11 +32,11 @@ Fähigkeiten sind Ressourceneigenschaften, die von Dynamics 365 Project Operatio
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Kompetenzstufenmodelle zur Bewertung von Ressourcen verwenden
 
-Fähigkeiten für Ressourcen werden durch Kompetenzstufenmodelle bewertet. Die einzelnen Bewertungen befinden sich in einem Kompetenzstufenmodell. 
+Ressourcenqualifikationen sind nach Kompetenzstufenmodellen bewertet. Die einzelnen Bewertungen befinden sich in einem Kompetenzstufenmodell. 
 
 1. Um ein Kompetenzstufenmodell zu erstellen, navigieren Sie zu **Ressourcen** \> **Kompetenzstufenmodelle** und wählen Sie dann **Neu** aus.
 2. Geben Sie im neuen Bewertungsmodell den Mindestbewertungswert, dem Höchstbewertungswert und die bewertet Entität ein.
-3. Im Unterraster **Bewertungswerte** können Sie die verschiedenen Bewertungswerte definieren, vom Mindest- bis zum Höchstwert.
+3. Im Unterraster **Bewertungswerte** können Sie die verschiedenen Bewertungswerte vom Minimum bis zum Maximum festlegen.
 
 
 Diese Bewertungswerte werden in den Filtern **Ressourcenanforderungen**, **Zeitplanübersicht** und **Zeitplan-Assistent** angezeigt.

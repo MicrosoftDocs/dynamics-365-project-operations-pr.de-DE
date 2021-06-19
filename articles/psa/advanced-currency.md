@@ -2,8 +2,6 @@
 title: Mehrfachwährungsszenarien (Version 3.x)
 description: Dieses Thema enthält Informationen zu Mehrfachwährungsszenarien.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291708"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014790"
 ---
 # <a name="multiple-currency-scenarios"></a>Mehrfachwährungsszenarien
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 bietet zwei Konzepte für Währungen:
 - **Transaktionswährung** – Die Währung, in der eine Transaktion stattfindet. 
 - **Basiswährung** – Die Währung der Dynamics 365-Instanz. Diese Währung wird bei der Bereitstellung einer Dynamics 365-Instanz eingerichtet. Es kann nicht geändert werden.
 
-Beispielsweise verkaufte Koch USA 100 T-Shirts für jeweils 15 Pfund Sterling (GBP) an einen Kunden im Vereinigten Königreich. Die folgende Tabelle gibt Aufschluss darüber, wie diese Transaktion in der Entität „Auftrag (Produkt)” erfasst wird.
+Beispielsweise verkaufte Contoso USA 100 T-Shirts für jeweils 15 Pfund Sterling (GBP) an einen Kunden im Vereinigten Königreich. Die folgende Tabelle gibt Aufschluss darüber, wie diese Transaktion in der Entität „Auftrag (Produkt)” erfasst wird.
 
 | Produkt | Menge | Einzelpreis | Währung | Betrag | Wechselkurs | Einzelpreis (Basis)| Betrag (Basis)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA erweitert das Konzept der Transaktionswährung für Kosten und Umsatz folgen
 
 ## <a name="multiple-currency-scenario"></a>Mehrfachwährungsszenario
 
-In diesem Abschnitt wird ein Beispiel für ein Projekt beschrieben, das Koch UK für einen Kunden mit dem Namen Fabrikam, Japan, liefert. Das Szenario wurde folgendermaßen eingerichtet:
+In diesem Abschnitt wird ein Beispiel für ein Projekt beschrieben, das Contoso UK für einen Kunden mit dem Namen Fabrikam, Japan, liefert. Das Szenario wurde folgendermaßen eingerichtet:
 
 1. GBP und japanische Yen (JPY) werden unter **Einstellungen** \> **Unternehmensmanagement** \> **Währungen** eingerichtet. 
 2. Ein Kundenkonto namens **Fabrikam - Japan** wird eingerichtet, und JPY wird als Währung für das Konto ausgewählt.
-3. Eine Organisationseinheit mit dem Namen **Koch UK** wird eingerichtet, und GBP wird als Währung ausgewählt.
-4. Ein Projektvertrag wird erstellt, wobei **Koch UK** als Vertragseinheit und **Fabrikam - Japan** als Kunde angegeben ist.
+3. Eine Organisationseinheit mit dem Namen **Contoso UK** wird eingerichtet, und GBP wird als Währung ausgewählt.
+4. Ein Projektvertrag wird erstellt, wobei **Contoso UK** als Vertragseinheit und **Fabrikam - Japan** als Kunde angegeben ist.
 5. Projektvertragszeilen werden auf Grundlage der Fakturierungsanordnungen für die verschiedenen Transaktionsklassen für das Projekt – wie etwa Abrechnung von Zeit und Abrechnung von Ausgaben – erstellt.
-6. Ein Projekt wird erstellt, wobei **Koch UK** als Vertragseinheit angegeben ist. Dieses Projekt wird erstellt und den Projektvertragszeilen zugeordnet.
+6. Ein Projekt wird erstellt, wobei **Contoso UK** als Vertragseinheit angegeben ist. Dieses Projekt wird erstellt und den Projektvertragszeilen zugeordnet.
 
 
 Während der Vorkalkulation, die das Angebotspositionsdetail, das Projektvertragszeilendetail bzw. die Vorkalkulationsposition des Zeitplans verwendet, werden in der Entität immer zwei Datensätze erstellt. Ein Datensatz ist für Kosten und der andere Datensatz ist für den Vertrieb.

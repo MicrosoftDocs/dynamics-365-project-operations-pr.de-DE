@@ -2,18 +2,16 @@
 title: Ressourcenanforderung bearbeiten
 description: Dieses Thema enthält Informationen zum Aktualisieren von Ressourcenanforderungsinformationen.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67fb536f91bdf156e9437cd993e93a4eeb2df84f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 12d14167d5dcb9b43dee854981c551c6e5b734ee
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279092"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013980"
 ---
 # <a name="edit-a-resource-requirement"></a>Ressourcenanforderung bearbeiten
 
@@ -34,7 +32,7 @@ Führen Sie als Projektmanager die folgenden Schritte aus, um die Ressourcenanfo
 - Bevorzugte Organisationseinheit
 - Ressourcenzuordnungsunternehmen
 
-## <a name="edit-resource-assignment-contours"></a>Konturen für die Ressourcenzuweisung bearbeiten
+## <a name="edit-resource-assignment-contours"></a>Die Konturen der Ressourcenzuweisung bearbeiten
 
 Zusätzlich zur Bearbeitung der Details der Ressourcenanforderungen kann ein Projektmanager die einzelnen Konturen der Ressourcenanforderung mithilfe der Funktionalität **Muster angeben** aktualisieren. Wenn **Muster angeben** ausgewählt ist, wird eine Seite geöffnet, und Sie können die Konturen auf der Zeitskala für Tag, Woche oder Monat anzeigen. Jede Kontur kann für Startzeit, Endzeit und Gesamtaufwand in einem bestimmten Zeitraum angepasst werden.
 
