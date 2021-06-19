@@ -2,8 +2,6 @@
 title: Wöchentlichen Zeiteintrag anpassen
 description: Dieses Thema enthält Informationen darüber, wie Sie benutzerdefinierte Geschäftsregeln implementieren, die die Verfahrensweise einer Organisation unterstützen.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c117e06e7a5c57c7f9b70d1380f450c0ea97cd12
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282062"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013035"
 ---
 # <a name="customize-weekly-time-entry"></a>Wöchentlichen Zeiteintrag anpassen 
 
@@ -55,7 +53,7 @@ Im Abschnitt „Dauer” werden die Wochentage als Spaltenüberschriften angezei
 ## <a name="create-a-new-time-entry"></a>Erstellen eines neuen Zeiteintrags
 Um einen neuen Zeiteintrag im Raster für den Zeiteintrag zu erstellen, wählen Sie **Neu** aus. Das Dialogfeld **Schnellerfassung für Zeiteintrag** wird angezeigt. In diesem Dialogfeld können Benutzer das Zeiteintragungsdatum auswählen und dann Daten für die Dimensionen **Projekt**, **Projektaufgabe**, **Rolle** und **Dauer** in Minuten, Stunden oder Tagen angeben, indem sie **h**, **m** oder **d** zusammen mit der Zahl eingeben. Benutzer können auch eine Beschreibung und Kommentare eingeben, die extern für den Zeiteintrag freigegeben werden können. Wenn Benutzer ihre Änderungen speichern, erscheinen die Werte, die sie für die Dimensionen eingegeben haben, im Abschnitt **Dimensionen**. Informationen zur Dauer, die sie im Feld **Dauer** eingegeben haben, werden im Datum angezeigt, für das der Zeiteintrag erstellt wurde.
 
-Suchfelder werden von Systemansichten unterstützt. Wenn ein Benutzer beispielsweise ein Projekt eingibt, wird das Feld **Projektaufgabe** standardmäßig auf die Ansicht **Kopieren** eingestellt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die keinem Benutzer zugewiesen sind, wählen Sie im Dialogfeld für die Suche die Option **Ansicht ändern** und dann die Ansicht **Alle aktiven Projektaufgaben** aus.
+Suchfelder werden von Systemansichten unterstützt. Nachdem ein Benutzer beispielsweise ein Projekt eingegeben hat, wird das Feld **Projektaufgabe** standardmäßig auf die Ansicht **Kopieren** gesetzt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die keinem Benutzer zugewiesen sind, wählen Sie im Dialogfeld für die Suche die Option **Ansicht ändern** und dann die Ansicht **Alle aktiven Projektaufgaben** aus.
 
 ## <a name="edit-a-time-entry"></a>Bearbeiten eines Zeiteintrags
 Informationen aus einigen Feldern auf der Seite für den Zeiteintrag, wie **Beschreibung** und **Externe Kommentare**, werden nicht im Raster für den wöchentlichen Zeiteintrag angezeigt. Stattdessen erscheint eine kleine dreieckige Anzeige in den Zellen für die Dauer, die über zusätzliche Details verfügen. Wählen Sie die Zelle und dann **Details bearbeiten** aus, um die Daten im Bereich **Schnellbearbeitung** anzuzeigen. Wenn Sie die Details für einen bestimmten Zeiteintrag bearbeiten oder aktualisieren möchten, der nicht zum Raster für den wöchentlichen Zeiteintrag gehört, müssen Benutzer den Bereich **Schnellbearbeitung** öffnen.
