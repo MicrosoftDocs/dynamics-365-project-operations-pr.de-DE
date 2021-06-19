@@ -2,19 +2,17 @@
 title: Neuigkeiten für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations vom Dezember 2020 für Szenarien basierend auf vorrätigen Ressourcen/Fertigung verfügbar sind.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6194dfc9f8983b048f69605ee12036904c3c5e69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950218"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007230"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Neuigkeiten oder Änderungen für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 

@@ -2,18 +2,16 @@
 title: Preislisten einrichten
 description: Dieses Thema bietet Informationen zum Einrichten von Kosten- und Verkaufspreislisten.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 118c2bd6b59b509e5628ac00fc1607809458853b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275492"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005025"
 ---
 # <a name="set-up-price-lists"></a>Preislisten einrichten
 
@@ -23,7 +21,7 @@ In Dynamics 365 Project Operations stellen Preislisten einen Katalog von Preisen
 
 Die folgenden Erweiterungen gelten speziell für Project Operations und werden auf Preislisten von Dynamics 365 Sales angewendet.
 
-- **Kontext**: Dieses Feld enthält die unterstützten Werte **Kosten** und **Umsatz**. Der Wert **Kauf** wird nicht unterstützt. Legen Sie den Kontext auf **Kosten** fest, um eine Einstandspreisliste zu erstellen, oder den Kontext für eine Verkaufspreisliste auf **Verkauf** festzulegen. Einstandspreislisten lösen den Preis für die Kostenart in Datensätzen zu Kostenvoranschlägen und Istwerten auf. Verkaufspreislisten lösen den Preis für Datensätze zu Kostenvoranschlägen und Istwerten von nicht fakturierte und fakturierten Umsatztypen auf.
+- **Kontext**: Dieses Feld enthält die unterstützten Werte **Kosten** und **Umsatz**. Der Wert **Kauf** wird nicht unterstützt. Legen Sie den Kontext auf **Kosten** fest, um eine Einstandspreisliste zu erstellen, oder den Kontext für eine Verkaufspreisliste auf **Verkauf** festzulegen. Einstandspreislisten lösen Sie den Preis für die Kostenart anhand von Kostenvoranschlägen und Datensätze für Istwerte auf. Verkaufspreislisten lösen den Preis für Datensätze zu Kostenvoranschlägen und Istwerten von nicht fakturierte und fakturierten Umsatztypen auf.
 - **Zeiteinheit**: Dies ist die Standardzeiteinheit, für die der Preis in der entsprechenden Tabelle **Rollenpreis** für diese Preisliste eingerichtet ist.
 - **Preislistenentität**: Dieses ausgeblendete Feld wird von Project Operations verwendet, um Preislisten, die angebots- oder vertragsspezifisch sind, von Standardlisten zu unterscheiden, die standardmäßig und global anwendbar sind.
 

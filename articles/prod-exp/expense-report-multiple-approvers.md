@@ -2,11 +2,9 @@
 title: Mehrere genehmigende Personen in einer Spesenabrechnunng
 description: Dieses Thema enthält Informationen zu Spesenabrechnungen, die von mehreren Personen genehmigt werden müssen.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c745dda957fab5acc464b9d1c774fcdc783cde40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271712"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005250"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Mehrere genehmigende Personen in einer Spesenabrechnunng
 
@@ -29,12 +27,12 @@ Abhängig von den Richtlinien zur Ausgabengenehmigung Ihres Unternehmens muss m�
 
 Wenn Sie mehrere Genehmiger für Ausgabenabrechnungen benötigen, können Sie die Workflowelemente auf eine der folgenden Arten hinzufügen:
 
-- Fügen Sie ein Genehmigungselement mit einem Schritt hinzu. Für den Schritt muss beispielsweise eine Spesenabrechnung einer Benutzergruppe zugewiesen und von 50 Prozent der Mitglieder der Benutzergruppe genehmigt werden.
-- Fügen Sie ein Genehmigungselement hinzu, die verschiedene Schritte hat. Das Genehmigungselement kann beispielsweise die folgenden Schritte ausführen:
+- Fügen Sie ein Genehmigungselement mit einem Schritt hinzu. Für den Schritt kann beispielsweise erforderlich sein, dass eine Spesenabrechnung einer Benutzergruppe zugewiesen und von 50 Prozent der Mitglieder der Benutzergruppe genehmigt wird.
+- Fügen Sie ein Genehmigungselement mit mehreren Schritten hinzu. Das Genehmigungselement kann beispielsweise die folgenden Schritte ausführen:
 
-    1. Der Manager des Mitarbeiters, der die Ausgabenrechnung eingereicht hat, genehmigt sie.
-    2. Der Kreditorenbuchhalter überprüft die Belege und die Ausgabenabrechnungsposten.
-    3. Der Budgetinhaber genehmigt die Ausgabenabrechnung.
+    1. Der Manager des Mitarbeiters, der die Spesenabrechnung eingereicht hat, genehmigt sie.
+    2. Der Kreditorenbuchhalter überprüft die Belege und die Spesenabrechnungsposten.
+    3. Der Budgetbesitzer genehmigt die Spesenabrechnung.
 
 - Fügen Sie mehrere Genehmigungselemente hinzu, von denen jedes einen Schritt hat. Beispielsweise können Sie für jeden der folgenden Schritte ein separates Genehmigungselement hinzufügen:
 

@@ -2,19 +2,17 @@
 title: Preisdimensionen – Übersicht
 description: Dieses Thema enthält Informationen zum Einrichten der Preisdimensionen in Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275402"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004980"
 ---
 # <a name="pricing-dimensions-overview"></a>Preisdimensionen – Übersicht
 
@@ -61,16 +59,16 @@ Das folgende Beispiel zeigt Rechnungssätze, die basierend auf der Rolle und der
 
 | Rolle        | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ------------|-------------|----------|----------:|----------|
-| Entwickler   | Contoso US  |Hour | 200|USD     |
-| Entwickler   | Koch Indien |Hour|   112|USD     |
+| Developer   | Contoso (USA)  |Stunde | 200|US-Dollar     |
+| Developer   | Contoso Indien |Stunde|   112|US-Dollar     |
 
 
 **Beispielkostensätze**
 
 | Gehaltsspanne     | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ----------------|-------------|----------|----------:|----------|
-| Mein Unternehmen_Band1 | Contoso US  |Hour | 145|USD     |
-| Mein Unternehmen_Band2 | Koch Indien |Hour|   67|USD     |
+| Mein Unternehmen_Band1 | Contoso (USA)  |Stunde | 145|US-Dollar     |
+| Mein Unternehmen_Band2 | Contoso Indien |Stunde|   67|US-Dollar     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
