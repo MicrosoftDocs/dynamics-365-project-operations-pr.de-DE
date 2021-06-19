@@ -2,18 +2,16 @@
 title: Verwenden Sie Zeitplan-APIs, um Vorgänge mit Zeitplan-Entitäten auszuführen
 description: Dieses Thema enthält Informationen und Beispiele für die Verwendung von Zeitplan-APIs.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950803"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116796"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Verwenden Sie Zeitplan-APIs, um Vorgänge mit Zeitplan-Entitäten auszuführen
 
@@ -268,7 +266,6 @@ Das Folgende ist eine Liste von Einschränkungen und bekannten Problemen:
 - Jeder Benutzer kann nur maximal 10 offene **OperationSets** haben.
 - Project Operations unterstützt derzeit maximal 500 Gesamtaufgaben für ein Projekt.
 - **OperationSet**-Fehlerstatus und -Fehlerprotokolle sind derzeit nicht verfügbar.
-- Zeitplan-APIs befinden sich in der öffentlichen Vorschau. Die Verwendung dieser APIs in einer Produktionsumgebung wird von Microsoft nicht unterstützt.
 - [Grenzwerte und Beschränkungen von Projekten und Aufgaben](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Fehlerbehandlung

@@ -2,30 +2,29 @@
 title: Ein Projekt kopieren
 description: Dieses Thema enthält Informationen zum Kopieren von Projekten in Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479518"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091253"
 ---
 # <a name="copy-a-project"></a>Ein Projekt kopieren
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Mithilfe von Dynamics 365 Project Operations können Sie schnell neue Projekte erstellen, indem Sie **Projekt kopieren** im Formular **Projekte** auswählen. Um ein Projekt zu kopieren, öffnen Sie das zu kopierende Projekt, und wählen Sie dann **Projekt kopieren** aus. Die Aktion kopiert:
+Mithilfe von Dynamics 365 Project Operations können Sie schnell neue Projekte erstellen, indem Sie **Projekt kopieren** im Formular **Projekte** auswählen. Um ein Projekt zu kopieren, öffnen Sie das zu kopierende Projekt, und wählen Sie dann **Projekt kopieren** aus. Die Aktion kopiert Folgendes:
 
-- Projekteigenschaften (das geschätzte Startdatum wird aus dem Quellprojekt übernommen)
-- Die Projektstrukturplan
+- Projekteigenschaften 
+- Projektstrukturplan
 - Projektteammitglieder
 - Projektschätzungen
 - Projektausgabenschätzungen
+- Materialschätzungen Projekte
 
 ## <a name="project-properties"></a>Projekteigenschaften
 
@@ -42,11 +41,15 @@ Beim Kopieren des Projekts werden die Werte in den folgenden Feldern kopiert:
 - Gesamtprojektstatus
 - Kommentare
 - Schätzungen
-- Voraussichtliches Startdatum
-- Fertigstellungsdatum
+- Geschätztes Startdatum: Dies ist das Datum, an dem das Projekt aus der Kopie erstellt wird.
+- Voraussichtliches Enddatum: Dieses Datum wird basierend auf dem Startdatum des neuen Projekts angepasst, das aus der Kopie erstellt wurde.
 - Aufwand (Stunden)
 - Geschätzte Arbeitskosten
 - Geschätzte Ausgabenkosten
+- Geschätzte Materialkosten
+
+> [!NOTE]
+> Projekt kopieren ist ein lang andauernder Vorgang. Projektdatensätze, ihre relevanten Attribute und viele zugehörige Entitäten werden ebenfalls kopiert. Aufgrund der langen Laufzeit des Vorgangs wird die Zielprojektseite nach dem Start des Kopiervorgangs für die Bearbeitung gesperrt, bis der Kopiervorgang abgeschlossen ist.
 
 ## <a name="work-breakdown-structure"></a>Projektstrukturplan
 
@@ -58,7 +61,7 @@ Wenn ein Projektteam aus dem Quellprojekt kopiert wird, werden die generischen R
 
 ## <a name="estimates"></a>Schätzungen
 
-Wenn das Projekt kopiert wird, werden sowohl Ressourcen- als auch Ausgabenschätzungszeilen aus dem Quellprojekt kopiert. 
+Beim Kopieren des Projekts werden Ressourcen-, Aufwands- und Materialkalkulationszeilen aus dem Quellprojekt kopiert. 
 
 Informationen zum programmgesteuerten Zugriff auf „Projekt kopieren“ finden Sie unter [Projektvorlagen mit „Projekt kopieren“ entwickeln](dev-copy-project.md).
 

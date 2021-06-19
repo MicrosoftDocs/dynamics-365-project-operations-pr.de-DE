@@ -2,18 +2,16 @@
 title: Planungsmodi
 description: In diesem Thema werden Planungsmodi erläutert.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981434"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116706"
 ---
 # <a name="scheduling-modes"></a>Planungsmodi
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations bietet Organisationen die Möglichkeit zu defini
 In Project Operations stehen drei Planungsmodi zur Verfügung:
 
   - Feste Dauer (dies ist der Standardmodus)
-  - Feste Arbeit
+  - Fester Aufwand (*Arbeit)*
   - Feste Einheiten
 
 Die Werte, die von der Definition eines bestimmten Planungsmodus betroffen sind, werden durch die folgende Formel bestimmt:
 
-  Anstrengung (*Arbeit*) = Dauer x Einheiten
+  Anstrengung = Dauer x Einheiten
 
 Wenn Sie den Planungsmodus eines Projekts definieren, legen Sie einen dieser Werte fest, der dann nicht geändert werden kann. Wenn Sie diesen Wert als Konstante halten, wird diesem Wert Priorität eingeräumt. Dadurch wird das System benachrichtigt, ihn nicht zu ändern, wenn sich die beiden anderen Werte ändern. Die folgende Tabelle enthält Informationen zu den Auswirkungen der Auswahl eines bestimmten Modus.
 
