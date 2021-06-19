@@ -2,12 +2,10 @@
 title: Preis- und Nachkalkulationsdimensions-Homepage
 description: Dieses Thema enthält einen Überblick über Preisdimensionen.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284132"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009255"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Preis- und Nachkalkulationsdimensions-Homepage
 
@@ -67,16 +65,16 @@ Das folgende Beispiel zeigt Rechnungssätze, die basierend auf der Rolle und der
 
 | Rolle        | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ------------|-------------|----------|----------:|----------|
-| Entwickler   | Contoso US  |Hour | 200|USD     |
-| Entwickler   | Koch Indien |Hour|   112|USD     |
+| Developer   | Contoso (USA)  |Stunde | 200|US-Dollar     |
+| Developer   | Contoso Indien |Stunde|   112|US-Dollar     |
 
 
 **Beispielkostensätze**
 
 | Gehaltsspanne     | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ----------------|-------------|----------|----------:|----------|
-| Mein Unternehmen_Band1 | Contoso US  |Hour | 145|USD     |
-| Mein Unternehmen_Band2 | Koch Indien |Hour|   67|USD     |
+| Mein Unternehmen_Band1 | Contoso (USA)  |Stunde | 145|US-Dollar     |
+| Mein Unternehmen_Band2 | Contoso Indien |Stunde|   67|US-Dollar     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

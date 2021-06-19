@@ -2,12 +2,10 @@
 title: Einrichten von benutzerdefinierten Feldern als Preisdimensionen
 description: Dieses Thema enthält Informationen zum Einrichten von benutzerdefinierten Preisdimensionen.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282467"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008310"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Einrichten von benutzerdefinierten Feldern als Preisdimensionen 
 
@@ -73,12 +71,12 @@ Es gibt zwei Arten von Preisdimensionen:
   
 | Rolle        | Organisationseinheit    |Arbeitsstandort      |Standardtitel      |Arbeitszeiten der Ressource      |  Aufschlag|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Koch Indien|Vor Ort            |                    |Überstunden                 |15     |
-|             | Koch Indien|Lokal             |                    |Überstunden                 |10     |
-|             | Contoso US   |Lokal             |                    |Überstunden                 |20     |
+|             | Contoso Indien|Vor Ort            |                    |Überstunden                 |15     |
+|             | Contoso Indien|Lokal             |                    |Überstunden                 |10     |
+|             | Contoso (USA)   |Lokal             |                    |Überstunden                 |20     |
 
 
-Wenn eine Ressource von Koch, Indien, deren Basistarif 100 USD beträgt, vor Ort arbeitet, und sie 8 Stunden an regulärer Arbeitszeit und 2 Überstunden im Zeiteintrag protokolliert, verwendet die Project Service-Preis-Engine den Basistarif von 100 für die 8 Stunden, um 800 USD zu erfassen. Für die 2 Überstunden wird ein Aufschlag von 15 % auf den Basistarif von 100 angewendet, um einen Einheitspreis von 115 USD zu erhalten und Gesamtkosten von 230 USD zu erfassen.
+Wenn eine Ressource von Contoso Indien, deren Basistarif 100 USD beträgt, vor Ort arbeitet, und sie 8 Stunden an regulärer Arbeitszeit und 2 Überstunden im Zeiteintrag protokolliert, verwendet die Project Service-Preis-Engine den Basistarif von 100 für die 8 Stunden, um 800 USD zu erfassen. Für die 2 Überstunden wird ein Aufschlag von 15 % auf den Basistarif von 100 angewendet, um einen Einheitspreis von 115 USD zu erhalten und Gesamtkosten von 230 USD zu erfassen.
 
 ### <a name="applicable-to-cost"></a>Gilt für Kosten 
 Falls diese Option auf **Ja** eingestellt ist, gibt sie an, dass der Dimensionswert aus dem Eingabekontext verwendet werden sollte, um den **Rollenpreis** und den **Rollenpreisaufschlag** abzugleichen, wenn die Kosten und Aufschlagsraten abgerufen werden.

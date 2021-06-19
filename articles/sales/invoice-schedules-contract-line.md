@@ -2,18 +2,16 @@
 title: Einen Rechnungszeitplan für eine projektbasierte Vertragszeile erstellen
 description: Dieses Thema enthält Informationen zum Erstellen von Rechnungszeitplänen und Meilensteinen in Vertragszeilen.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0da3b3f8f14ecf9a4c4f057cd26c0ca9eb5ec2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3f84d9935eec13666e3eaaa675908e9bc3d2097c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278237"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010110"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Einen Rechnungszeitplan für eine projektbasierte Vertragszeile erstellen 
 
@@ -21,15 +19,15 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Sie können einer projektbasierten Vertragszeile einen Rechnungszeitplan hinzufügen. Die Rechnungsstellung ist erst zulässig, nachdem der Vertrag abgeschlossen wurde und Sie einen Projektvertrag erstellen. Mit einem Rechnungszeitplan können automatisch Rechnungsentwürfe für eine projektbasierte Vertragszeile erstellt werden. Wenn Sie jedoch nur manuell Rechnungen erstellen, können Sie das Erstellen von Rechnungszeitplänen in Vertragszeilen überspringen.
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Einen Zeitplan für Zeit- und Materialrechnungen für eine Vertragszeile erstellen
+## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Einen Zeit‑ und Materialrechnungsplan für eine Vertragszeile erstellen
 
-Wenn eine projektbasierte Vertragszeile eine Fakturierungsmethode für Zeit und Material enthält, können Sie einen datumsbasierten Rechnungszeitplan erstellen. Führen Sie die folgenden Schritte aus, um automatisch einen datumsbasierten Rechnungszeitplan zu erstellen.
+Wenn eine projektbasierte Vertragszeile über eine Zeit‑ und Materialabrechnungsmethode verfügt, können Sie einen datumsbasierten Rechnungsplan erstellen. Führen Sie die folgenden Schritte aus, um automatisch einen datumsbasierten Rechnungszeitplan zu erstellen.
 
 1. Navigieren Sie zu **Einstellungen** > **Rechnungshäufigkeiten**, und richten Sie eine Rechnungshäufigkeit ein.
 2. Navigieren Sie zum Projektvertragsdatensatz, und wählen Sie auf der Registerkarte **Zusammenfassung** im Feld **Gewünschtes Lieferdatum** ein Datum aus.
-3. Öffnen Sie die Vertragszeile **Zeit und Material**, für die Sie den datumsbasierten Rechnungszeitplan erstellen. 
-4. Wählen Sie auf der Registerkarte **Rechnungszeitplan** das Abrechnungsstartdatum und die Rechnungshäufigkeit aus.
-5. Wählen Sie im Unterraster **Rechnungszeitplan erstellen** aus. Der Rechnungszeitplan wird mit den Feldern **Rechnungsdurchlaufdatum**, **Transaktionsabschnittsdatum** und **Ausführungsstatus** wie folgt eingestellt:
+3. Öffnen Sie die Vertragszeile **Zeit und Material**, für die Sie den datumsbasierten Rechnungsplan erstellen. 
+4. Wählen Sie auf der Registerkarte **Rechnungszeitplan** das Rechnungsstartdatum und die Rechnungshäufigkeit aus.
+5. Wählen Sie im Unterraster die Option **Rechnungszeitplan generieren** aus. Der Rechnungszeitplan wird mit den Feldern **Rechnungsdurchlaufdatum**, **Transaktionsabschnittsdatum** und **Ausführungsstatus** wie folgt eingestellt:
 
     - **Rechnungsdurchlaufdatum**: Dieses Datum wird von der Rechnungshäufigkeit vorgegeben.
     - **Transaktionsabschnittsdatum**: Der Tag vor dem Rechnungsdurchlaufdatum
@@ -46,8 +44,8 @@ Führen Sie die folgenden Schritte aus, um einen meilensteinbasierten Rechnungsz
 
 1. Navigieren Sie zu **Einstellungen** > **Rechnungshäufigkeiten**, und richten Sie eine Rechnungshäufigkeit ein.
 2. Navigieren Sie zum Projektvertragsdatensatz, und wählen Sie auf der Registerkarte **Zusammenfassung** im Feld **Gewünschtes Lieferdatum** ein Datum aus.
-3. Öffnen Sie die Vertragszeile **Festpreis**, für die Sie den Meilensteinzeitplan erstellen. Wählen Sie auf der Registerkarte **Fakturierungsmeilensteine** das Abrechnungsstartdatum und die Rechnungshäufigkeit aus. 
-4. Wählen Sie im Unterraster **Periodische Meilensteine generieren** aus. Der Rechnungszeitplan wird mit den Feldern **Meilensteinname**, **Meilensteindatum** und **Meilensteinbetrag** wie folgt eingestellt:
+3. Öffnen Sie die Vertragszeile **Festpreis**, für die Sie den Meilensteinzeitplan erstellen. Wählen Sie auf der Registerkarte **Fakturierungsmeilensteine** das Rechnungsstartdatum und die Rechnungshäufigkeit aus. 
+4. Wählen Sie im Unterraster die Option **Periodische Meilensteine generieren** aus. Der Rechnungszeitplan wird mit den Feldern **Meilensteinname**, **Meilensteindatum** und **Meilensteinbetrag** wie folgt eingestellt:
 
     - **Meilensteinname**: Dieser Name wird durch die Rechnungshäufigkeit bestimmt.
     - **Meilensteindatum**: Dieses Datum wird von der Rechnungshäufigkeit vorgegeben.

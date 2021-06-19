@@ -2,8 +2,6 @@
 title: Organisationseinheiten
 description: Dieses Thema enthält Informationen zu Organisationseinheiten in Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291663"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009615"
 ---
 # <a name="organizational-units"></a>Organisationseinheiten 
 
@@ -79,7 +77,7 @@ Wenn Sie Dynamics 365 implementieren, optimieren Sie die Sicherheitsautorisierun
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Beispiel für Organisations- und Unternehmenseinheiten
 
-Contoso, Ltd. hat eine florierende Microsoft-Technologiepraxis. Falk und Emilia sind beides C\#-Entwickler, aber Emilia befindet sich in den USA, während Falk sich in Indien befindet. Die meisten Projektarbeiten erfordern Ressourcen aus Contoso Indien und Contoso USA. Falk und Emilia brauchen dieselbe Sicherheitszugriffsebene für Projekte in diesem Praxisbereich. Allerdings unterscheiden sich die Kosten für Entwickler von Contoso Indien erheblich von den Kosten für Entwickler von Contoso USA.
+Contoso Ltd. hat eine florierende Microsoft-Technologiepraxis. Falk und Emilia sind beides C\#-Entwickler, aber Emilia befindet sich in den USA, während Falk sich in Indien befindet. Die meisten Projektarbeiten erfordern Ressourcen aus Contoso Indien und Contoso USA. Falk und Emilia brauchen dieselbe Sicherheitszugriffsebene für Projekte in diesem Praxisbereich. Allerdings unterscheiden sich die Kosten für Entwickler von Contoso Indien erheblich von den Kosten für Entwickler von Contoso USA.
 
 Hier finden Sie eine optimale Methode zur Entwicklung dieses Szenarios unter Verwendung von Dynamics 365 und PSA.
 
@@ -96,7 +94,7 @@ Die Organisationseinheit ist eine interne Gruppe oder ein interner Geschäftsber
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Beispiel für Organisationseinheiten und Vertriebsgebiete
 
-Contoso, Ltd. hat zwei Entwicklungszentren: Contoso USA und Contoso Indien. Die Kosten für Ressourcen variieren zwischen diesen beiden Entwicklungszentren stark.
+Contoso Ltd. hat zwei Entwicklungszentren: Contoso USA und Contoso Indien. Die Kosten für Ressourcen variieren zwischen diesen beiden Entwicklungszentren stark.
 
 Contoso verkauft seine IT-Services in vielen internationalen Märkten, wie Lateinamerika, Nordamerika, Asien-Pazifik, Westeuropa und dem Mittleren Osten. Die Rechnungssätze für dieselben Projektrollen können in diesen Märkten stark variieren.
 
@@ -129,19 +127,19 @@ Im folgenden Beispiel wird eine typische Hierarchie dargestellt:
   - SAP-Praxis 
 
     - Technische Berater 
-    - Funktionale Berater 
+    - Fachberater 
     
   - Microsoft-Technologiepraxis 
 
     - Technische Berater
-    - Funktionale Berater 
+    - Fachberater 
     
-**Contoso US**
+**Contoso USA**
 
  - SAP-Praxis 
 
     - Technische Berater 
-    - Funktionale Berater 
+    - Fachberater 
     
  - Microsoft-Technologiepraxis 
 
@@ -150,13 +148,13 @@ Im folgenden Beispiel wird eine typische Hierarchie dargestellt:
  
 Wenn Ihre Hierarchie ähnlich ist, müssen Sie sie als flache Liste einrichten, wie hier angezeigt:
 - Contoso Indien – SAP-Praxis – Technische Berater 
-- Contoso Indien – SAP-Praxis – Funktionale Berater       
-- Contoso Indien – Microsoft-Technologiepraxis – Funktionale Berater 
-- Contoso Indien – Microsoft-Technologiepraxis – Funktionale Berater 
-- Contoso USA – SAP-Praxis – Technische Berater  
-- Contoso USA – SAP-Praxis – Funktionale Berater  
+- Contoso Indien – SAP-Praxis – Functional Consultants       
+- Contoso Indien – Microsoft-Technologiepraxis – Functional Consultants 
+- Contoso Indien – Microsoft-Technologiepraxis – Functional Consultants 
+- Contoso USAn – SAP-Praxis – Technische Berater  
+- Contoso USA – SAP-Praxis – Functional Consultants  
 - Contoso USA – Microsoft-Technologiepraxis – Technische Berater 
-- Contoso USA – Microsoft-Technologiepraxis – Funktionale Berater
+- Contoso USA – Microsoft-Technologiepraxis – Functional Consultants
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Wir sind ein kleines Unternehmen für professionelle Dienstleistungen, das lediglich über einen Geschäftsbereich verfügt. Wie können wir eine optimale Verwendung des Organisationseinheitkonzepts in der aktuellen Version von PSA sicherstellen?
 

@@ -2,18 +2,16 @@
 title: Projektaufwandsverfolgung
 description: Dieses Thema enthält Informationen zur Nachverfolgung des Projektaufwands und des Arbeitsfortschritts.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: 3fdf7787f0144dace84852a0442406085bdc1639
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5710939"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010875"
 ---
 # <a name="project-effort-tracking"></a>Projektaufwandsverfolgung
 
@@ -28,17 +26,17 @@ Die Ansicht **Aufwandsnachverfolgung** verfolgt den Fortschritt von Aufgaben im 
 - **Fortschritt in Prozent**: Tatsächlicher bisheriger Aufwand ÷ Schätzung bei Fertigstellung (EAC) 
 - **Verbleibender Aufwand**: geschätzter Aufwand bei Abschluss – tatsächlicher bisheriger Aufwand 
 - **EAC**: Verbleibender Aufwand + Tatsächlicher bisheriger Aufwand 
-- **Hochgerechnete Aufwandsabweichung**: Geplanter Aufwand – EAC
+- **Projizierte Aufwandsabweichung**: Geplanter Aufwand – EAC
 
-Project Operations zeigt eine Hochrechnung der Aufwandsabweichung für die Aufgabe an. Wenn die EAC größer als der geplante Aufwand ist, wird prognostiziert, dass die Aufgabe länger als ursprünglich geplant dauern wird und hinter dem Zeitplan zurückliegt. Wenn die EAC kleiner ist als der geplante Aufwand, wird prognostiziert, dass die Aufgabe kürzer als ursprünglich geplant dauern wird und vor dem Zeitplan liegt.
+Project Operations zeigt eine Projektion der Aufwandsabweichung für die Aufgabe. Wenn die EAC den geplanten Aufwand übersteigt, nimmt die Aufgabe voraussichtlich mehr Zeit in Anspruch als ursprünglich geplant und ihre Erfüllung liegt hinter dem Zeitplan zurück. Wenn die EAC kleiner ist als der geplante Aufwand, wird prognostiziert, dass die Aufgabe kürzer als ursprünglich geplant dauern wird und vor dem Zeitplan liegt.
 
 ## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Neuprojektion des Aufwands für Blattknotenaufgaben
 
-Projektmanager überprüfen häufig die ursprünglichen Vorkalkulationen für eine Aufgabe. Erneute Hochrechnungen für ein Projekt spiegeln die Wahrnehmung von Vorkalkulationen durch den Projektmanager angesichts des aktuellen Status eines Projekts wider. Wir empfehlen den Projektmanagern jedoch nicht, die geplanten Aufwandszahlen zu ändern. Dies liegt daran, dass der geplante Projektaufwand die etablierte Quelle der Wahrheit für den Projektplan und die Kostenschätzung darstellt und alle Projektbeteiligten dem zugestimmt haben.
+Projektmanager überprüfen häufig die ursprünglichen Vorkalkulationen für eine Aufgabe. Projektneuprojektionen sind die Wahrnehmung von Schätzungen durch den Projektmanager anhand des aktuellen Status eines Projekts. Wir empfehlen den Projektmanagern jedoch nicht, die geplanten Aufwandszahlen zu ändern. Dies liegt daran, dass der geplante Projektaufwand die etablierte Quelle der Wahrheit für den Projektplan und die Kostenschätzung darstellt und alle Projektbeteiligten dem zugestimmt haben.
 
-Ein Projektmanager kann den Aufwand für Aufgaben neu projizieren, indem er den Standardwert des **verbleibenden Aufwands** mit einer neuen Schätzung der Aufgabe aktualisiert. Durch diese Aktualisierung werden die Aufwandsschätzung der Aufgabe bei Abschluss (EAC), der Fortschrittsprozentsatz und die projizierte Aufwandsabweichung für eine Aufgabe neu berechnet. Die EAC, die ETC und der Fortschritt in Prozent für die Zusammenfassungsaufgaben werden ebenfalls neu berechnet. Hierdurch ergibt sich eine neue Hochrechnung der Aufwandsabweichung.
+Ein Projektmanager kann den Aufwand für Aufgaben neu projizieren, indem er den Standardwert des **verbleibenden Aufwands** mit einer neuen Schätzung der Aufgabe aktualisiert. Durch diese Aktualisierung werden die Aufwandsschätzung der Aufgabe bei Abschluss (EAC), der Fortschrittsprozentsatz und die projizierte Aufwandsabweichung für eine Aufgabe neu berechnet. Der EAC‑, ETC‑ und Fortschrittsprozentsatz für die Zusammenfassungsaufgaben werden ebenfalls neu berechnet und erzeugen eine neue Projektion der Aufwandsabweichung.
 
-## <a name="reprojection-of-effort-on-summary-tasks"></a>Erneute Hochrechnung des Aufwands für Zusammenfassungsaufgaben
+## <a name="reprojection-of-effort-on-summary-tasks"></a>Projektion des Aufwands für Zusammenfassungsaufgaben
 
 Der Aufwand für Zusammenfassungsaufgaben oder Containeraufgaben kann erneut hochgerechnet werden. Projektmanager können den verbleibenden Aufwand für die Zusammenfassungsaufgaben aktualisieren. Das Aktualisieren des verbleibenden Aufwands löst die folgenden Berechnungen in der Anwendung aus:
 
@@ -57,7 +55,7 @@ Die Nachverfolgung von Daten in den Feldern **Aufwandsnachverfolgung** und **Kos
 
 Das Feld **Gesamtprojektstatus** kann bearbeitet werden und zeigt den Gesamtstatus für das Projekt an. Es verwendet Farben (z. B. Grün, Gelb und Rot), um ein zunehmendes Risiko anzuzeigen. Im Feld **Kommentare** kann der Projektmanager bestimmte Kommentare zum Status eingeben. Das Feld **Status aktualisiert am** kann nicht bearbeitet und der Wert ist ein Zeitstempel der angibt, wann der Status zuletzt aktualisiert wurde.
 
-Die Felder **Zeitplanleistung** und **Kostenleistung** werden über das Nachverfolgungsdatum festgelegt. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten in der Ansicht **Aufwandsverfolgung** positiv sind, können Sie diese Felder auf **Vorsprung** festlegen. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten negativ sind, können Sie sie auf **Rückstand** festlegen.
+Die Felder **Zeitplanleistung** und **Kostenleistung** werden über das Nachverfolgungsdatum festgelegt. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten in der Ansicht **Aufwandsverfolgung** positiv sind, können Sie diese Felder auf **Vorsprung** festlegen. Wenn der Zeitplan und die Kostenabweichung für den Stammknoten negativ sind, können Sie sie als **Behind** festlegen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

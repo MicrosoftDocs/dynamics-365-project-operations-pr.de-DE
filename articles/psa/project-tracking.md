@@ -2,8 +2,6 @@
 title: Projektfortschritt und Kostenverbrauch
 description: Dieses Thema enthält Informationen zur Nachverfolgung des Projektfortschritts und des Kostenverbrauchs.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73b23aad2976c8ccbb542fc2dda1d96dd9f5714b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4fe6adf1a16c1eafc5e37dbd8878dda44cbca230
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283637"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009030"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projektfortschritt und Kostenverbrauch
 
@@ -52,16 +50,16 @@ Es ist üblich, das ein Projektmanager die ursprünglichen Vorkalkulationen für
 
 Es gibt zwei Möglichkeiten, mit denen ein Projektmanager eine erneute Hochrechnung des Aufwands für Aufgaben durchführen kann:
 
-- Er kann die standardmäßige ETC mit einer neuen Vorkalkulation des tatsächlichen verbleibenden Aufwands für die Aufgabe außer Kraft setzen. 
+- Überschreiben Sie die Standard-ETC (Schätzung bis zur Fertigstellung) mit einer neuen Schätzung des tatsächlich verbleibenden Aufwands für die Aufgabe. 
 - Er kann den standardmäßigen Fortschritt in Prozent mit einer neuen Vorkalkulation des tatsächlichen Fortschritts für die Aufgabe außer Kraft setzen.
 
 Jeder dieser Ansätze führt zu einer Neuberechnung der ETC, der EAC sowie des Fortschritts in Prozent und der hochgerechneten Aufwandsabweichung für eine Aufgabe. Die EAC, die ETC und der Fortschritt in Prozent für die Zusammenfassungsaufgaben werden ebenfalls neu berechnet. Hierdurch ergibt sich eine neue Hochrechnung der Aufwandsabweichung.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Erneute Hochrechnung des Aufwands für Zusammenfassungsaufgaben
 
-Der Aufwand für Zusammenfassungsaufgaben oder Containeraufgaben kann erneut hochgerechnet werden. Unabhängig davon, ob der Benutzer eine erneute Hochrechnung für die Zusammenfassungsaufgaben anhand des verbleibenden Aufwands oder des Fortschritts in Prozent durchführt, müssen folgende Berechnungen durchgeführt werden:
+Der Aufwand für Zusammenfassungs‑ oder Containeraufgaben kann neu projiziert werden. Unabhängig davon, ob der Benutzer unter Verwendung des verbleibenden Aufwands‑ oder des Fortschrittsprozentsatzes für die Zusammenfassungsaufgaben eine Neuprojektion durchführt, beginnt der folgende Berechnungssatz:
 
-- Die EAC, die ETC und der Fortschritt in Prozent werden für die Aufgabe berechnet.
+- EAC, ETC und der Fortschrittsprozentsatz für die Aufgabe werden berechnet.
 - Die neue EAC wird für die Aufgabe im selben Verhältnis auf die untergeordneten Aufgaben aufgeteilt wie ursprünglich auch.
 - Die neuen BK für jede der einzelnen Aufgaben bis hinunter zu den Blattknotenaufgaben wird berechnet. 
 - Für die betroffenen untergeordneten Aufgaben bis hinunter zu den Blattknoten werden die ETC und der Fortschritt in Prozent basierend auf dem Wert für die EAC neu berechnet. Hieraus ergibt sich eine neue hochgerechnete Aufwandsabweichung für die Aufgabe. 
@@ -89,15 +87,15 @@ Eine Hochrechnung der Kostenabweichung für die Aufgabe wird angezeigt. Wenn die
 
 Wenn für den Aufwand eine erneute Hochrechnung durchgeführt wird, werden die CTC, die geschätzten Kosten bei Abschluss, die verbrauchten Kosten in Prozent und die hochgerechnete Kostenabweichung in der Ansicht **Kostennachverfolgung** neu berechnet.
 
-## <a name="project-status-summary"></a>Zusammenfassung des Projektstatus
+## <a name="project-status-summary"></a>Projektstatuszusammenfassung
 
-Die Nachverfolgung von Daten in den Feldern **Aufwandsnachverfolgung** und **Kostennachverfolgung** zeigt den Fortschritt und den Kostenverbrauch für den Stammknoten des Projekts, die Zusammenfassungsaufgaben und die Blattknotenaufgaben an. Der Abschnitt **Status** auf der Seite **Projektentität** zeigt eine Zusammenfassung des Status auf Projekteben an.
+Nachverfolgungsdaten in den Ansichten **Aufwandsverfolgung** und **Kostenverfolgung** zeigen den Fortschritt und den Kostenverbrauch auf der Ebene des Projektstammknotens, der Zusammenfassungsaufgaben und der Blattknotenaufgaben an. Der Abschnitt **Status** auf der Seite **Projektentität** zeigt eine Zusammenfassung des Status auf Projekteben an.
 
 ## <a name="status-summary-fields"></a>Felder der Statuszusammenfassung
 
 Das Feld **Gesamtprojektstatus** kann bearbeitet werden und zeigt den Gesamtstatus für das Projekt an. Es verwendet Farben (z. B. Grün, Gelb und Rot), um ein zunehmendes Risiko anzuzeigen. Im Feld **Kommentare** kann der Projektmanager bestimmte Kommentare zum Status eingeben. Das Feld **Status aktualisiert am** kann nicht bearbeitet und der Wert ist ein Zeitstempel der angibt, wann der Status zuletzt aktualisiert wurde.
 
-Die Felder **Zeitplanleistung** und **Kostenleistung** werden über das Nachverfolgungsdatum festgelegt. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten in der Ansicht **Aufwandsverfolgung** positiv sind, können Sie diese Felder auf **Vorsprung** festlegen. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten negativ sind, können Sie sie auf **Rückstand** festlegen.
+Die Felder **Zeitplanleistung** und **Kostenleistung** werden über das Nachverfolgungsdatum festgelegt. Wenn die Zeitplan- und Kostenabweichung für den Stammknoten in der Ansicht **Aufwandsverfolgung** positiv sind, können Sie diese Felder auf **Vorsprung** festlegen. Wenn der Zeitplan und die Kostenabweichung für den Stammknoten negativ sind, können Sie sie als **Behind** festlegen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

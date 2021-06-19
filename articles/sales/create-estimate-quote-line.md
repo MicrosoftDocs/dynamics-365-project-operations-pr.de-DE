@@ -2,11 +2,9 @@
 title: Schätzungen in einer Angebotsposition erstellen
 description: Dieses Thema enthält Informationen zum Erstellen einer Schätzung in einer Angebotszeile für ein Projekt.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4010f7599b66c9ad9e49943c1c0d7d165493d60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278462"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010290"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Schätzungen in einer Angebotsposition erstellen
 
@@ -38,15 +36,15 @@ Zusätzlich zu den Transaktionsklassen enthalten Angebotspositionsdetails einen 
 
 Wenn Sie beim Erstellen eines projektbasierten Vertrags ein Project Operations Angebot verwendet haben, wird die Schätzung, die Sie im Angebot für jede Angebotsposition vorgenommen haben, in den Projektvertrag kopiert. Die Struktur eines Projektvertrags ähnelt der Struktur eines Projektangebots mit Positionen, Positionsdetails und Rechnungszeitplänen.
 
-Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragszeilen und Vertragszeilendetails vorgenommen. Vertragszeilendetails können auch aus einem Projektplan erstellt wurden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
+Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragszeilen und Vertragszeilendetails vorgenommen. Vertragspositionsdetails können auch aus einem Projektplan generiert werden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
 
-Vertragszeilendetails können zur Schätzung von Zeit, Ausgaben oder Gebühren verwendet werden. Geschätzte Steuerbeträge können ebenfalls bei den Vertragszeilendetails eingegeben werden.
+Vertragspositionsdetails können verwendet werden, um Zeit, Kosten oder Gebühren zu schätzen. Für Vertragspositionsdetails können auch geschätzte Steuerbeträge eingegeben werden.
 
-Materialschätzungen für Vertragszeilendetails sind nicht erlaubt.
+Materialschätzungen sind in Vertragspositionsdetails nicht zulässig.
 
 Die Prozesse, die bei einem Projektvertrag unterstützt werden sind Rechnungserstellung und -bestätigung. Rechnungserstellung erstellt einen Entwurf einer projektbasierten Rechnung, die alle nicht fakturierten vertrieblichen Ist-Werte bis zum aktuellen Datum enthält.
 
-Durch die Bestätigung wird der Vertrag schreibgeschützt und der Status von **Entwurf** in **Bestätigt** geändert. Nachdem Sie diese Aktion ausgeführt haben, können Sie sie nicht mehr rückgängig machen. Da es sich bei dieser Aktion um eine permanente Aktion handelt, empfiehlt es sich, den Vertrag im Status **Entwurf** zu belassen.
+Durch die Bestätigung wird der Vertrag schreibgeschützt und sein Status wird von **Entwurf** in **Bestätigt** geändert. Nachdem Sie diese Aktion ausgeführt haben, können Sie sie nicht mehr rückgängig machen. Da es sich bei dieser Aktion um eine permanente Aktion handelt, empfiehlt es sich, den Vertrag im Status **Entwurf** zu belassen.
 
 Die einzigen Unterschiede zwischen Vertragsentwürfen und bestätigten Verträgen sind ihr Status und die Tatsache, dass Vertragsentwürfe bearbeitet werden können, bestätigte Verträge hingegen nicht. Die Rechnungserstellung sowie die Nachverfolgung von Ist-Werten kann sowohl bei Vertragsentwürfen als auch bei bestätigten Verträgen erfolgen.
 
@@ -56,7 +54,7 @@ Die einzigen Unterschiede zwischen Vertragsentwürfen und bestätigten Verträge
 
 Sie können Zeit und Kosten für Projekte schätzen, jedoch keine Materialien oder Gebühren.
 
-Zeitschätzungen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitschätzungen werden aus Zeitplanaufgaben generiert. Zeitschätzungen werden nicht erstellt, wenn Sie allgemeine Teammitglieder außerhalb des Zeitplans erstellen.
+Zeitschätzungen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitschätzungen werden aus Zeitplanaufgaben generiert. Wenn Sie generische Teammitglieder außerhalb des Zeitplankontexts erstellen, werden keine Zeitschätzungen erstellt.
 
 Ausgabenschätzungen werden in das Raster auf der Seite **Schätzungen** eingegeben.
 
