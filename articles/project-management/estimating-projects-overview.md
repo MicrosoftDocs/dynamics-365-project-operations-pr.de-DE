@@ -2,18 +2,16 @@
 title: Konzepte für finanzielle Vorkalkulationen
 description: Dieses Thema enthält Informationen zu finanzielle Vorkalkulationen für Projekte in Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: 488b61ee1e81aac47fa92fff141f17b023e4f1c0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701735"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002595"
 ---
 # <a name="financial-estimation-concepts"></a>Konzepte für finanzielle Vorkalkulationen
 
@@ -29,19 +27,19 @@ Sie können eine finanzielle Vorkalkulation für projektbasierte Arbeit auf eine
 - Auf der Seite **Projekt** mit den Registerkartenseiten **Aufgaben** oder **Ausgabenschätzungen**.
 
 ## <a name="use-a-project-quote-to-create-an-estimate"></a>Verwenden Sie ein Projektangebot, um einen Kostenvoranschlag zu erstellen
-In einem projektbasierten Angebot können Sie die Entität **Detail zur Angebotsposition** verwenden, um die für die Lieferung eines Projekts erforderliche Arbeit abzuschätzen. Sie können diese Schätzung anschließend mit dem Kunden teilen.
+In einem projektbasierten Angebot können Sie die Entität **Detail zur Angebotsposition** verwenden, um die für die Lieferung eines Projekts erforderliche Arbeit abzuschätzen. Sie können dann den Kunden über diese Schätzung informieren.
 
-Projektbasierte Angebotszeilen müssen Null bis viele Angebotsposition enthalten. Angebotspositionsdetails werden verwendet, um Zeit, Ausgaben oder Gebühren zu schätzen. Microsoft Dynamics 365 Project Operations lässt keine Materialvorkalkulationen für Angebotspositionsdetails zu. Diese werden als Transaktionsklassen bezeichnet. Geschätzte Steuerbeträge können ebenfalls für eine Transaktionsklasse eingegeben werden.
+Projektbasierte Angebotspositionen können null bis viele Angebotspositionsdetails enthalten. Angebotspositionsdetails werden verwendet, um Zeit, Ausgaben oder Gebühren zu schätzen. Microsoft Dynamics 365 Project Operations lässt keine Materialvorkalkulationen für Angebotspositionsdetails zu. Diese werden als Transaktionsklassen bezeichnet. Geschätzte Steuerbeträge können ebenfalls für eine Transaktionsklasse eingegeben werden.
 
-Zusätzlich zu den Transaktionsklassen enthalten Angebotspositionsdetails einen Transaktionstyp. Zwei Transaktionstypen werden für Angebotspositionsdetails unterstützt: **Kosten** und **Projektvertrag**.
+Neben den Transaktionsklassen haben Angebotspositionsdetails einen Transaktionstyp. Zwei Transaktionstypen werden für Angebotspositionsdetails unterstützt: **Kosten** und **Projektvertrag**.
 
 ## <a name="use-a-project-contract-to-create-an-estimate"></a>Verwenden Sie einen Projektvertrag, um einen Kostenvoranschlag zu erstellen
 
 Wenn Sie beim Erstellen eines projektbasierten Vertrags ein Angebot verwendet haben, wird die Schätzung, die Sie im Angebot für jede Angebotsposition vorgenommen haben, in den Projektvertrag kopiert. Die Struktur eines Projektvertrags ähnelt der Struktur eines Projektangebots mit Positionen, Positionsdetails und Rechnungszeitplänen.
 
-Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragszeilen und Vertragszeilendetails vorgenommen. Vertragszeilendetails können auch aus einem Projektplan erstellt wurden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
+Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragszeilen und Vertragszeilendetails vorgenommen. Vertragspositionsdetails können auch aus einem Projektplan generiert werden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
 
-Vertragszeilendetails können zur Schätzung von Zeit, Ausgaben oder Gebühren verwendet werden. Geschätzte Steuerbeträge können ebenfalls bei den Vertragszeilendetails eingegeben werden.
+Vertragspositionsdetails können verwendet werden, um Zeit, Kosten oder Gebühren zu schätzen. Für Vertragspositionsdetails können auch geschätzte Steuerbeträge eingegeben werden.
 
 Materialvorkalkulationen für Vertragszeilendetails sind nicht erlaubt.
 
@@ -49,7 +47,7 @@ Materialvorkalkulationen für Vertragszeilendetails sind nicht erlaubt.
 
 Sie können Zeit und Ausgaben für Projekte schätzen. Project Operations unterstützt keine Schätzungen von Materialien oder Gebühren für Projekte.
 
-Zeitvorkalkulationen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitvorkalkulationen werden aus Zeitplanaufgaben generiert. Zeitvorkalkulationen werden nicht erstellt, wenn Sie allgemeine Teammitglieder außerhalb des Zeitplans erstellen.
+Zeitvorkalkulationen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitschätzungen werden aus Zeitplanaufgaben generiert. Zeitvorkalkulationen werden nicht erstellt, wenn Sie allgemeine Teammitglieder außerhalb des Zeitplans erstellen.
 
 Ausgabenschätzungen werden in das Raster auf der Seite **Ausgabenschätzungen** eingegeben.
 

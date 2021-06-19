@@ -2,18 +2,16 @@
 title: Automatische Rechnungserstellung einrichten
 description: Dieses Thema enthält Informationen zum Einrichten und Konfigurieren der automatischen Erstellung von Proforma-Rechnungen.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 2d212f2279b28d900e75d45386e343f95b8e825e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866816"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004170"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>Automatische Rechnungserstellung einrichten 
  
@@ -76,16 +74,16 @@ Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf z
 - UpdateRoleUtilization
 
 5. Wählen Sie **ProcessRunCaller** und dann **Hinzufügen** aus.
-6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep**-Workflow folgt ein **Process** -Workflow. 
+6. Wählen Sie im nächsten Dialogfeld die Option **OK** aus. Auf den Workflow **Ruhezustand** folgt der Workflow **Verarbeiten**. 
 
 > [!NOTE]
-> In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
+> Sie können auch **ProcessRunner** in Schritt 5 auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
 
-Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen tatsächlich erstellt. Der Workflow durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt Rechnungen für diese Zeilen. Zur Bestimmung der Vertragszeilen, für die Rechnungen erstellt werden sollen, überprüft der Job die Rechnungsdurchlaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungsdurchlaufdatum aufweisen, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, überspringt der Auftrag das Erstellen einer Rechnung.
+Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen tatsächlich erstellt. Der Workflow durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt Rechnungen für diese Zeilen. Zur Bestimmung der Vertragszeilen, für die Rechnungen erstellt werden sollen, überprüft der Job die Rechnungsdurchlaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungslaufdatum haben, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, überspringt der Auftrag das Erstellen einer Rechnung.
 
 Nachdem **ProcessRunner** ausgeführt wurde, ruft es **ProcessRunCaller** auf, gibt die Endzeit an und wird geschlossen. **ProcessRunCaller** startet dann einen Zeitgeber, der ab der angegebenen Endzeit 24 Stunden lang ausgeführt wird. Am Ende des Zeitgebers wird **ProcessRunCaller** geschlossen.
 
-Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um einen wiederkehrenden Job. Wenn diese Batchverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Auftrags erstellt, und es werden Fehler verursacht. Deshalb sollten Sie die Batchverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
+Der Batchverarbeitungsauftrag zum Erstellen von Rechnungen ist ein wiederkehrender Auftrag. Wenn diese Batchverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Auftrags erstellt, und es werden Fehler verursacht. Deshalb sollten Sie die Batchverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
 
 > [!NOTE]
 > Die Batchabrechnung wird nur für Projektvertragszeilen in Project Operations ausgeführt, die durch Rechnungszeitpläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden.

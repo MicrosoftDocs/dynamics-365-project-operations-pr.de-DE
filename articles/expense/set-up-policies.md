@@ -2,11 +2,9 @@
 title: Kostenrichtlinien definieren
 description: Sie können Ausgabenrichtlinien definieren, die Ihre Mitarbeiter beim Eingeben und Senden von Ausgabeabrechnungen und Reiseanforderungen befolgen müssen.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,21 +13,21 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 863d1e44dad9fa0d2174cf77582a1d820988e92d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa108db9aa0d2a22c35d2d046917ddae1f3842c1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276077"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001875"
 ---
 # <a name="define-expense-policies"></a>Kostenrichtlinien definieren
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Sie können Ausgabenrichtlinien definieren, denen Ihre Mitarbeiter beim Eingeben und Senden von Ausgabeabrechnungen und Reiseanforderungen folgen müssen.         
-Durch die Implementierung von Ausgabenrichtlinien können Sie Ausgaben effektiv verwalten.         
+Durch die Implementierung von Spesenrichtlinien können Sie Spesen effektiv verwalten.         
 
-Sie können beispielsweise eine Richtlinie für Hotelkosten in New York City festlegen, die besagt, dass die Kosten pro Nacht USD 250 nicht überschreiten dürfen.       
+Sie können beispielsweise eine Richtlinie für Hotelkosten in New York City festlegen, die besagt, dass die Spesen pro Nacht 250 USD nicht überschreiten dürfen.       
 Wenn ein Mitarbeiter eine Ausgabenabrechnung oder eine Reiseanforderung einreicht, bei der der Zimmerpreis diesen Betrag überschreitet, benachrichtigt das System den         
 Arbeitnehmer, dass der Richtlinienbetrag für die Ausgabe überschritten wurde. Sie können die Nachricht konfigurieren, die der Worker erhält        
 definieren der Richtlinie.      
@@ -43,12 +41,12 @@ Sie können drei Arten von Richtlinien definieren:
  
  - **Rechtfertigung**: Fordert den Arbeitnehmer oder einen Manager auf, vor dem Einreichen der Ausgabenabrechnung oder der Reiseanforderung eine Begründung für die Überschreitung des Richtlinienbetrags einzugeben.        
 
-## <a name="policy-tips"></a>Richtlinienhinweise
-Im Folgenden finden Sie einige Vorschläge, die Sie beim Erstellen neuer Richtlinien für das Ausgabenmanagement unterstützen können: 
+## <a name="policy-tips"></a>Richtlinientipps
+Im Folgenden finden Sie einige Vorschläge, die Sie beim Erstellen neuer Richtlinien für die Spesenverwaltung unterstützen können: 
 
-- Richtlinien haben das Datum des Inkrafttretens. Dies bedeutet, dass eine Richtlinie nicht wirksam wird, wenn sie mit einem Datum nach dem Datum erstellt wird, an dem die Ausgabe entstanden sind. Beispielsweise erstellen Sie heute eine neue Richtlinie, um eine maximale Essensausgabe von $50 durchzusetzen. Bestehende Ausgaben, die ab gestern eingegeben wurden, werden nicht mit dieser Richtlinie verglichen.
-- Wenn Sie eine Richtlinie für eine Ausgabenkategorie erstellen, die aufgelistet werden kann, sollten Sie eine Bedingung für den Ausgabenzeilentyp hinzufügen. Einige Richtlinien, z. B. das Erfordernis einer Quittung, sind für einzelne Zeilen möglicherweise nicht sinnvoll. In dieser Situation wird die Richtlinie nur auf die Kopfzeile oder eine nicht aufgeschlüsselte Zeile angewendet. 
-- Ausgabenverwaltungsrichtlinien werden standardmäßig anhand der Quellenentität bewertet. Für konzerninterne Szenarien können Sie stattdessen festlegen, dass die Richtlinie anhand der Zielentität (Kreditinstanz) bewertet wird. Aktivieren Sie die Funktion **Bewerten Sie die Ausgabenpolitik gegen die Aufnahme einer juristischen Person** im Arbeitsbereich **Funktionsverwaltung**, um die Richtlinien für die Zielentität auszuführen.
+- Für Richtlinien gilt das Datum des Inkrafttretens. Dies bedeutet, dass eine Richtlinie nicht wirksam wird, wenn sie mit einem Datum nach dem Datum erstellt wird, an dem die Spesen entstanden sind. Beispielsweise erstellen Sie heute eine neue Richtlinie, um maximale Essenskosten von 50 USD durchzusetzen. Bestehende Spesen, die ab gestern eingegeben wurden, werden nicht mit dieser Richtlinie verglichen.
+- Wenn Sie eine Richtlinie für eine Spesenkategorie erstellen, die aufgelistet werden kann, sollten Sie eine Bedingung für den Spesenzeilentyp hinzufügen. Einige Richtlinien, z. B. das Erfordernis eines Beleges, sind für einzelne Zeilen möglicherweise nicht sinnvoll. In dieser Situation wird die Richtlinie nur auf die Kopfzeile oder eine nicht aufgeschlüsselte Zeile angewendet. 
+- Spesenverwaltungsrichtlinien werden standardmäßig anhand der Quellenentität ausgewertet. Für konzerninterne Szenarien können Sie stattdessen festlegen, dass die Richtlinie für die Zielentität (Kreditinstanz) ausgewertet wird. Aktivieren Sie die Funktion **Bewerten Sie die Ausgabenpolitik gegen die Aufnahme einer juristischen Person** im Arbeitsbereich **Funktionsverwaltung**, um die Richtlinien für die Zielentität auszuführen.
 
 ## <a name="when-to-evaluate-policies"></a>Wann müssen die Richtlinien bewertet werden
 

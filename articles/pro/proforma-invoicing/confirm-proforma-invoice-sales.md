@@ -2,18 +2,16 @@
 title: Eine Proforma-Projektrechnung bestätigen
 description: Dieses Thema enthält Informationen zur Bestätigung von Proforma-Projektrechnungen in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 0ab40e38f221e57368949b7491578caa8ba88c02
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867085"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004125"
 ---
 # <a name="confirm-a-proforma-project-invoice"></a>Eine Proforma-Projektrechnung bestätigen 
 

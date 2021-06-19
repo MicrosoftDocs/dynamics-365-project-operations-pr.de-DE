@@ -2,19 +2,17 @@
 title: Proforma-Projektrechnungen
 description: Dieses Thema enthält Informationen zu Proforma-Projektrechnungen in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d08e2b0422a991aa4c98ae5d1e0f60aa0eb9daa6
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 1b839c3e40ddcfe1f07b0330a78c42851140d4bf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867175"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004035"
 ---
 # <a name="proforma-project-pnvoices"></a>Proforma-Projektrechnungen
 
@@ -45,7 +43,7 @@ Auf der Listenseite **Projektverträge** können Sie Projektrechnungen für jede
 Rechnungen in einem Massenvorgang erstellen:
 
 1. Wählen Sie auf der Listenseite **Projektverträge** einen oder mehrere Projektverträge aus, für den bzw. die Sie eine Rechnung erstellen möchten, und wählen Sie dann **Projektrechnungen erstellen** aus.
-2. Eine Warnmeldung weist Sie darauf hin, dass es zu Verzögerungen kommen kann, bevor Rechnungen erstellt werden. Der Prozess wird auch angezeigt. Wählen Sie **OK** aus, um das Meldungsfeld zu schließen.
+2. Eine Warnmeldung informiert Sie darüber, dass es zu Verzögerungen kommen kann, bevor Rechnungen erstellt werden. Der Vorgang wird ebenfalls angezeigt. Wählen Sie **OK** aus, um das Nachrichtenfeld zu schließen.
 
    Es wird eine Rechnung für alle Transaktionen einer Vertragszeile generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Kosten, Materialien, Meilensteine, produktbasierte Vertragslinien und andere nicht in Rechnung gestellte Verkaufsjournalzeilen, die möglicherweise bestätigt wurden.
 
@@ -65,15 +63,15 @@ Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf z
     - UpdateRoleUtilization
 
 5. Wählen Sie **ProcessRunCaller** und dann **Hinzufügen** aus.
-6. Wählen Sie im nächsten Dialogfeld **OK** aus. Einem **Sleep**-Workflow folgt ein **Process** -Workflow.
+6. Wählen Sie im nächsten Dialogfeld die Option **OK** aus. Auf den Workflow **Ruhezustand** folgt der Workflow **Verarbeiten**.
 
-    In Schritt 5 können Sie auch **ProcessRunner** auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
+    Sie können auch **ProcessRunner** in Schritt 5 auswählen. Wenn Sie dann **OK** auswählen, folgt auf einen **Process**-Workflow ein **Sleep**-Workflow.
 
 Die Workflows **ProcessRunCaller** und **ProcessRunner** erstellen Rechnungen. **ProcessRunCaller** ruft **ProcessRunner** auf. **ProcessRunner** ist der Workflow, der die Rechnungen erstellt. Dieser Workflow durchläuft alle Vertragszeilen, für die Rechnungen erstellt werden sollen, und erstellt die Rechnungen. Zur Bestimmung der Vertragszeilen, für die Rechnungen erstellt werden sollen, überprüft der Workflow die Rechnungsdurchlaufdaten für die Vertragszeilen. Wenn Vertragszeilen, die zu einem Vertrag gehören, dasselbe Rechnungsdurchlaufdatum aufweisen, werden die Transaktionen zu einer Rechnung mit zwei Rechnungszeilen zusammengefasst. Wenn keine Transaktionen zum Erstellen von Rechnungen vorhanden sind, werden keine Rechnungen erstellt.
 
-Nachdem **ProcessRunner** ausgeführt wurde, ruft es **ProcessRunCaller** auf, gibt die Endzeit an und wird geschlossen. **ProcessRunCaller** startet dann einen Zeitgeber, der ab der angegebenen Endzeit 24 Stunden lang ausgeführt wird. Am Ende des Zeitgebers wird **ProcessRunCaller** geschlossen.
+Nachdem **ProcessRunner** ausgeführt wurde, ruft es **ProcessRunCaller** auf, gibt die Endzeit an und wird geschlossen. **ProcessRunCaller** startet dann einen Timer, der ab der angegebenen Endzeit 24 Stunden lang läuft. Am Ende des Timers ist **ProcessRunCaller** geschlossen.
 
-Beim Stapelverarbeitungsjob zum Erstellen von Rechnungen handelt es sich um einen wiederkehrenden Job. Wenn diese Stapelverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Jobs erstellt und können Fehler verursachen. Um dieses Problem zu umgehen, sollten Sie die Stapelverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
+Der Batchverarbeitungsauftrag zum Erstellen von Rechnungen ist ein wiederkehrender Auftrag. Wenn diese Stapelverarbeitung mehrmals ausgeführt wird, werden mehrere Instanzen des Jobs erstellt und können Fehler verursachen. Um dieses Problem zu umgehen, sollten Sie die Stapelverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
 
 > [!NOTE]
 > Die Stapelabrechnung wird nur für Projektvertragszeilen ausgeführt, die durch Rechnungspläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden. Gleiches gilt für eine projektbasierte Vertragszeile.      

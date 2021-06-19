@@ -2,11 +2,9 @@
 title: Eine Preisdimension deaktivieren
 description: Dieses Thema enthält Informationen zum Deaktivieren von benutzerdefinierten Preisdimensionen.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274727"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004530"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Eine Preisdimension deaktivieren
 
@@ -40,11 +38,11 @@ Diese Fehlermeldung gibt an, dass es Preisdatensätze gibt, die zuvor für die D
 
 | Standardtitel         | Organisationseinheit    |Einheit   |Preis  |Währung  |
 | -----------------------|-------------|-------|-------|----------|
-| Systemtechniker|Contoso US|Hour| 100|USD|
-| Leitender Systemtechniker|Contoso US|Hour| 150| USD|
+| Systemtechniker|Contoso (USA)|Stunde| 100|US-Dollar|
+| Leitender Systemtechniker|Contoso (USA)|Stunde| 150| US-Dollar|
 
 
-Wenn Sie **Standardtitel** als Preisdimension deaktivieren und das Preismodul nach einem Preis sucht, verwendet es nur den Wert **Organisationseinheit** aus dem Eingabekontext. Wenn die **Organisationseinheit** des Eingabekontexts „Contoso US” ist, ist das Ergebnis nicht deterministisch, da beide Zeilen übereinstimmen werden. Um dieses Szenario zu vermeiden, wenn Sie **Rollenpreis**-Datensätze erstellen, überprüft das System, dass die Kombination der Dimensionen eindeutig ist. Wenn die Dimension deaktiviert wird, nachdem die **Rollenpreis**-Datensätze erstellt sind, kann gegen diese Einschränkung verstoßen werden. Daher ist es erforderlich, dass Sie, bevor Sie eine Dimension deaktivieren, alle **Rollenpreis**- und **Rollenpreisaufschlag**-Zeilen löschen, bei denen dieser Dimensionswert aufgefüllt ist.
+Wenn Sie **Standardtitel** als Preisdimension deaktivieren und das Preismodul nach einem Preis sucht, verwendet es nur den Wert **Organisationseinheit** aus dem Eingabekontext. Wenn die **Organisationseinheit** des Eingabekontexts Contoso USA ist, ist das Ergebnis nicht deterministisch, da beide Zeilen übereinstimmen werden. Um dieses Szenario zu vermeiden, wenn Sie **Rollenpreis**-Datensätze erstellen, überprüft das System, dass die Kombination der Dimensionen eindeutig ist. Wenn die Dimension deaktiviert wird, nachdem die **Rollenpreis**-Datensätze erstellt sind, kann gegen diese Einschränkung verstoßen werden. Daher ist es erforderlich, dass Sie, bevor Sie eine Dimension deaktivieren, alle **Rollenpreis**- und **Rollenpreisaufschlag**-Zeilen löschen, bei denen dieser Dimensionswert aufgefüllt ist.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
