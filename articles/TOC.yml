@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Umgebungen bereitstellen
           items:
+            - name: Manuelles Bereitstellen der Project Operations Dataverse-App mit Dual-Write-Unterstützung
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Eine neue Umgebung bereitstellen
               href: environment/resource-provision-new-environment.md
             - name: Sicherheitsmodell
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Neuigkeiten
       items:
+        - name: "Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: "Juni\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: "Mai\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: "April\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -282,7 +288,7 @@
           items:
             - name: Projektvorlagen mit Projekt kopieren erstellen
               href: project-management/dev-copy-project.md
-            - name: Zeitplan-APIs verwenden (Öffentliche Vorschau)
+            - name: Projektzeitplan-APIs verwenden (Öffentliche Vorschau)
               href: project-management/schedule-api-preview.md
     - name: Ressourcenverwaltung
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Rechnungsverarbeitung – Übersicht
           href: invoicing/post-project-invoices.md
-        - name: Projektrechnungsvorschläge verwalten
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma-Rechnung
           items:
             - name: Projektbasierten Abrechnungsstau verwalten
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektbasierte Rechnungsautomation konfigurieren
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projektrechnungsvorschläge verwalten
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Debitorenfakturierung
+          items:
+            - name: Projektrechnungsvorschläge verwalten
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Korrekte Buchhaltung beim Entwurf von Projektrechnungsvorschlägen
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Intercompany-Rechnungsstellung
+          items:
+            - name: Intercompany-Rechnungsstellung – Übersicht
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Intercompany-Rechnungsstellung konfigurieren
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Intercompany-Transaktionen erstellen
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projektbuchhaltung
       items:
         - name: Finanzdimensions-Standardeinstellungen
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integrationsjournal in Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Intercompany-Rechnungsstellung
-          items:
-            - name: Intercompany-Rechnungsstellung – Übersicht
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Intercompany-Rechnungsstellung konfigurieren
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Intercompany-Transaktionen erstellen
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Umsatzrealisierung
       items:
         - name: Umsatzrealisierungsübersicht
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
+        - name: "Neuigkeiten für Juli\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: "Neuigkeiten für Juni\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: "Neuigkeiten für Mai\_2021 – Lite-Bereitstellung"
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Neuigkeiten für April\_2021 – Lite-Bereitstellung"
@@ -762,7 +774,7 @@
           items:
             - name: Projektvorlagen mit Projekt kopieren erstellen
               href: project-management/dev-copy-project.md
-            - name: Zeitplan-APIs verwenden (Öffentliche Vorschau)
+            - name: Projektzeitplan-APIs verwenden (Öffentliche Vorschau)
               href: project-management/schedule-api-preview.md
     - name: Ressourcenverwaltung
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Neuigkeiten
       items:
+        - name: Neuigkeiten für Juli 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: "Neuigkeiten für Mai\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: "Neuigkeiten für April\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Neuigkeiten für März\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
@@ -1034,6 +1050,10 @@
       items:
         - name: "Update-Releasezeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 33, V3?'
+          href: psa/whats-new-ur-33.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 32.5, V3?'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 32, V3?'
           href: psa/whats-new-ur-32.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 31, V3?'
