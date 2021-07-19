@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007140"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304255"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal in Project Operations
 
@@ -26,7 +26,7 @@ Zeit- und Kosteneinträge erstellen **Tatsächliche** Transaktionen, die die ope
 Datensätze im Project Operations-Integrationsjournal werden in regelmäßigen Abständen per **Import aus Stagingtabelle** erstellt. Sie können diesen Vorgang ausführen, indem Sie auf **Dynamics 365 Finance** > **Projektmanagement und Buchhaltung** > **Periodisch** > **Project Operations-Integration** > **Import aus Stagingtabelle** gehen. Sie können den Prozess interaktiv ausführen oder den Prozess so konfigurieren, dass er nach Bedarf im Hintergrund ausgeführt wird.
 
 Wenn der periodische Prozess ausgeführt wird, werden alle Aktualisierungen gefunden, die noch nicht zum Project Operations-Integrationsjournal hinzugefügt wurden. Für jede tatsächliche Transaktion wird eine Buchungsblattzeile erstellt.
-Das System gruppiert Journalzeilen basierend auf dem im **Periodeneinheit im Project Operations Integration-Journal** ausgewählten Wert (**Finance** > **Projektmanagement und Buchhaltung** > **Einrichtung** > **Projektmanagement- und Buchhaltungsparameter**, **Project Operations in Dynamics 365 Customer Engagement**-Registerkarte) in separate Journale. Mögliche Werte für dieses Feld sind:
+Das System gruppiert Journalzeilen in getrennte Erfassungen, basierend auf dem Wert, der im Feld **Periodeneinheit auf Project Operations Integrationsjournal** ausgewählt wurde (**Finance** > **Projektmanagement und -buchhaltung** > **Setup** > **Parameter für Projektmanagement und -buchhaltung**, **Projektvorgänge auf Registerkarte Dynamics 365 Customer Engagement**). Mögliche Werte für dieses Feld umfassen:
 
   - **Tage**: Istwerte werden nach Transaktionsdatum gruppiert. Für jeden Tag wird ein separates Journal erstellt.
   - **Monate**: Istwerte werden nach Kalendermonaten gruppiert. Für jeden Monat wird ein separates Journal erstellt.

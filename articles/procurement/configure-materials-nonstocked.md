@@ -2,17 +2,17 @@
 title: Konfigurieren Sie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen
 description: In diesem Thema wird erläutert, wie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen aktiviert werden.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993910"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293046"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurieren Sie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen
 
@@ -59,11 +59,11 @@ Wenn Sie Standarddemodaten verwenden, müssen Sie möglicherweise auch die folge
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivieren Sie den Workflow, um Konten basierend auf der Zuliefererentität zu erstellen
 
-Die Dual Write Orchestration-Lösung biete t[ Anbieter-Masterintegration ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Voraussetzung für diese Funktion sind Lieferantendaten in der Entität **Konten**. Aktivieren Sie einen Vorlagen-Workflow-Prozess, um Hersteller in der Tabelle **Konten** zu erstellen, wie unter [Wechseln zwischen Herstellerentwürfen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type) beschrieben.
+Die Dual Write Orchestration-Lösung biete t[ Anbieter-Masterintegration ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Voraussetzung für diese Funktion sind Lieferantendaten in der Entität **Konten**. Aktivieren Sie einen Vorlagen-Workflow-Prozess, um Hersteller in der Tabelle **Konten** zu erstellen, wie unter [Wechseln zwischen Herstellerentwürfen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch) beschrieben.
 
 ### <a name="set-products-to-be-created-as-active"></a>Legen Sie fest, dass Produkte als aktiv erstellt werden sollen
 
-Nicht vorrätige Materialien müssen als **Freigegebene Produkte** in Finance konfiguriert sein. Die Dual Write Orchestration-Lösung bietet eine sofort einsatzbereite [Integration von freigegebenen Produkten im Dataverse-Produktkatalog](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Standardmäßig werden Produkte aus Finance mit Dataverse in einem Entwurfszustand synchronisiert. Um das Produkt in einen aktiven Status zu synchronisieren, damit es direkt in Materialverwendungsdokumenten oder ausstehenden Lieferantenrechnungen verwendet werden kann, gehen Sie zu **System** > **Verwaltung** > **Systemadministration** > **Systemeinstellungen** und setzen Sie auf der Registerkarte **Vertrieb** die Option **Produkte im aktiven Status erstellen** auf **Ja**.
+Nicht vorrätige Materialien müssen als **Freigegebene Produkte** in Finance konfiguriert sein. Die Dual Write Orchestration-Lösung bietet eine sofort einsatzbereite [Integration von freigegebenen Produkten im Dataverse-Produktkatalog](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Standardmäßig werden Produkte aus Finance mit Dataverse in einem Entwurfszustand synchronisiert. Um das Produkt in einen aktiven Status zu synchronisieren, damit es direkt in Materialverwendungsdokumenten oder ausstehenden Lieferantenrechnungen verwendet werden kann, gehen Sie zu **System** > **Verwaltung** > **Systemadministration** > **Systemeinstellungen** und setzen Sie auf der Registerkarte **Vertrieb** die Option **Produkte im aktiven Status erstellen** auf **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Voraussetzungen in Finance konfigurieren
 
@@ -88,7 +88,7 @@ In Project Operations können Sie Materialschätzungen und Nutzung für Katalogp
 2. Wählen Sie im Feld **Produktart** **Artikel** aus und im Feld **Produktuntertyp** die Option **Produkt**.
 3. Geben Sie die Produktnummer (WRITEIN) und den Produktnamen (Manuell einzutragendes Produkt) ein.
 4. Wählen Sie die Artikelmodelluppe aus. Stellen Sie sicher, dass in der ausgewählten Artikelmodellgruppe das Feld **Inventarpolitik Lagerware** auf **False** gesetzt ist.
-5. Wählen Sie Werte in den Feldern **Artikelgruppe**,**Speicherdimensionsgruppe** und **Verfolgungsdimensionsgruppe** aus. Verwenden Sie **Speicherdimension** nur für **Standort** und legen Sie keine Trackingdimensionen fest.
+5. Wählen Sie Werte in den Feldern **Artikelgruppe**,**Speicherdimensionsgruppe** und **Verfolgungsdimensionsgruppe** aus. Verwenden Sie die Dimension **Lagerung** nur für **Standort**, und wählen Sie im Feld **Verfolgungsdimensionen** die Option **Keine**.
 6. Wählen Sie Werte in den Feldern **Inventareinheit**,**Kaufeinheit** und **Verkaufseinheit**, und speichern Sie dann Ihre Änderungen.
 7. Auf der Registerkarte **Plan** setzen Sie die Standardbestellungseinstellungen fest und auf der Registerkarte **Inventar** legen Sie den Standardstandort und das Standardlager fest.
 8. Gehen Sie zu **Projektmanagement und Buchhaltung** > **Einrichten** > **Projektmanagement- und Buchhaltungsparameter** und öffnen Sie **Project Operations in Dynamics 365 Dataverse**. 

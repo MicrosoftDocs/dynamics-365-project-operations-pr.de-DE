@@ -10,18 +10,18 @@ ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 713e38f4218b980c4256e433e90c12adccd70e11
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: eddaf8a868845bde11c8bb7bc04f63777d628cf4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012225"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369420"
 ---
 # <a name="work-breakdown-structures-overview"></a>Projektstrukturplan Übersicht
 
@@ -100,8 +100,8 @@ Derzeit können Sie die PSP-Nummerierung nicht anpassen.
 
 ### <a name="schedule-estimation"></a>Zeitplanschätzung
 
-Die Zeitplanschätzung ist normalerweise der zweite Schritt beim Erstellen eines PSP. Als bewährte Methode sollten Sie die Zeitplanschätzung abschließen, nachdem Sie die Aufgaben erstellt haben. Die Seite **Projektstrukturplan** in Finance hat zwei Abschnitte. Der obere Bereich ist für die Zeitplanschätzung vorgesehen, und der untere Bereich enthält eine Registerkarte **Geschätzte Kosten und Einnahmen**, die Sie für die Kostenschätzung verwenden können. 
-**Aufgabenabhängigkeiten** In einem PSP können Sie eine Vorgängerbeziehung zwischen Aufgaben erstellen. Wenn Sie einer Aufgabe vorherige Aufgaben zuweisen, kann diese Aufgabe erst gestartet werden, nachdem alle vorherigen Aufgaben abgeschlossen wurden. Das geplante Startdatum der Aufgabe wird automatisch auf das späteste Datum aller Vorgänger festgelegt. 
+Die Zeitplanschätzung ist normalerweise der zweite Schritt beim Erstellen eines PSP. Als bewährte Methode sollten Sie die Zeitplanschätzung abschließen, nachdem Sie die Aufgaben erstellt haben. Die Seite **Projektstrukturplan** in Finance hat zwei Abschnitte. Der obere Bereich ist für die Zeitplanschätzung vorgesehen, und der untere Bereich enthält die Registerkarte **Vorkalkulierte Kosten und Einnahmen**, die Sie für die Kostenschätzung verwenden können. 
+**Aufgabenabhängigkeiten** In einem PSP können Sie eine Vorgängerbeziehung zwischen Aufgaben erstellen. Wenn Sie einer Aufgabe vorherige Aufgaben zuweisen, kann diese Aufgabe erst gestartet werden, nachdem alle vorherigen Aufgaben abgeschlossen wurden. Das geplante Startdatum der Aufgabe wird automatisch auf das späteste Datum aller vorherigen Aufgaben festgelegt. 
 
 **Aufgabenplanung** Die folgenden Faktoren bestimmen die Zeitplanung von Blattknotenaufgaben:
 
@@ -155,7 +155,7 @@ Ein Transaktionstyp **Auf Rechnung** wird verwendet, um den vertraglich vereinba
 
 Wenn Sie die Kosten für Arbeit, Material und Kosten für jede Aufgabe schätzen, müssen Sie den geschätzten Kosten eine Projektkategorie zuweisen. 
 
-**Schätzung der Arbeitskosten** Für jede Blattknotenaufgabe weisen Sie einen Arbeitsaufwand in Stunden und eine Standardkategorie zu. Wenn Sie einen Zeitplan für eine Aufgabe einrichten, wird daher die Arbeitskostenschätzung für diese Aufgabe automatisch in die Standardkategorie für Arbeit aufgenommen. Dieser Kostenvoranschlag wird auf der Registerkarte **Vorkalkulierte Kosten und Einnahmen** im Raster **Zeilendetails** für diese Aufgabe angezeigt. Wenn Sie weitere Arbeitskostenschätzungen benötigen, können Sie diese auf dieser Registerkarte hinzufügen. Wenn Sie die Arbeitskostenschätzung erhöhen oder verringern, wird der Zeitplan für die Aufgabe automatisch neu berechnet. 
+**Schätzung der Arbeitskosten** Für jede Blattknotenaufgabe weisen Sie einen Arbeitsaufwand in Stunden und eine Standardkategorie zu. Wenn Sie einen Zeitplan für eine Aufgabe einrichten, wird daher die Arbeitskostenschätzung für diese Aufgabe automatisch in die Standardkategorie für Arbeit aufgenommen. Dieser Kostenvoranschlag wird auf der Registerkarte **Vorkalkulierte Kosten und Einnahmen** im Raster **Zeilendetails** für diese Aufgabe angezeigt. Wenn Sie weitere Arbeitskostenschätzungen benötigen, können Sie sie auf dieser Registerkarte hinzufügen. Wenn Sie die Arbeitskostenschätzung erhöhen oder verringern, wird der Zeitplan für die Aufgabe automatisch neu berechnet. 
 
 **Schätzung der Kosten und Materialkosten** Die Registerkarte **Geschätzte Kosten und Einnahmen** ermöglicht es Ihnen auch, Kosten und Materialkosten für eine Aufgabe zu schätzen, wenn Sie Schätzungen benötigen. 
 

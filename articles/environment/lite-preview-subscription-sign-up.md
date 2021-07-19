@@ -2,58 +2,40 @@
 title: Für ein Vorschauabonnement anmelden – Lite
 description: Dieses Thema enthält Informationen zum Abonnieren und Bereitstellen der Project Operations Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997420"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334781"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Für ein Vorschauabonnement anmelden – Lite 
 
-In diesem Thema wird erläutert, wie Sie das Vorschauangebot für Partner abonnieren und die Dynamics 365 Project Operations Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung einsetzen.
+In diesem Thema wird erklärt, wie Sie das Test-Angebot abonnieren und Dynamics 365 Project Operations Lite-Bereitstellung - Deal zur Proforma-Rechnung bereitstellen.
 
 > [!NOTE]
 > Dieser Prozess wird sich in den kommenden Versionen von Project Operations ändern.
 
-## <a name="prerequisites"></a>Voraussetzungen
-
-- Sie erhalten eine E-Mail, in der Sie zur Teilnahme an der Vorschau eingeladen werden. Sie können eine Vorschau auf der [Project Operations-Website](https://dynamics.microsoft.com/en-us/project-operations/overview/) anfordern.
-- Der Benutzer, der die Vorschau bereitstellt, muss über die globalen Administratorrechte für den Azure-Mandanten verfügen.
-- Überprüfen Sie alle allgemeinen Geschäftsbedingungen.
-
-## <a name="subscribe"></a>Abonnieren
-
-Wenn Sie eine Genehmigung für die [Vorschauanforderung](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) erhalten, erhalten Sie zwei Angebote von Microsoft per E-Mail. Mit diesen Angeboten können Sie die Project Operations-Vorschau bereitstellen:
-
-- Dynamics 365 Project Operations (CRM)-Vorschautestversion
-- Office 365 Project Operations – Vorschau-Testversion
+## <a name="prerequisites"></a>Anforderungen
+- Der Benutzer, der die Vorschau bereitstellt, muss über die globalen Administratorrechte für den Azure-Mandanten verfügen. Sie können einen Mandanten während der ersten Angebotseinlösung erstellen.
 
 > [!IMPORTANT]
 > Nur eine Person in der Organisation, der Mandanten-Administrator, muss diese Aufgabe ausführen. Wenn Sie nicht Abonnent dieser Version sind, warten Sie, bis Ihre Organisation angemeldet wurde und Sie Ihre Benutzeranmeldeinformationen erhalten haben.
+> 
+> Tests sind im Mandanten nur einmal verwendbar. Sie können einen Test nur ein einziges Mal ausführen. Wir empfehlen, dass Sie für den Test einen neuen Mandanten erstellen.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM)-Vorschautestversion 
+### <a name="dynamics-365-project-operations-trial"></a>Dynamics 365 Project Operations-Testversion 
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie bei einem Browser mit dem Benutzerarbeitskonto im Mandanten angemeldet sind, in dem Sie die Vorschau des Projektvorgangs anzeigen möchten.
 
-1. Lösen Sie den ersten Angebotscode **Dynamics 365 Project Operations (CRM)-Vorschautestversion** durch Einfügen in die Browser-URL ein.
-
-![Angebot einlösen](./media/16RedeemFirstOfferNew.png)
-
+1. Gehen Sie zu [Project Operations Test](https://aka.ms/try-po), um den ersten Angebotscode einzulösen, **Dynamics 365 Project Operations**.
 2. Bestätigen Sie Ihre Bestellung.
-![Bestellung bestätigen](./media/17ConfirmOrderNew.png)
 
-Sie sehen, dass das Bestätigungsangebot erfolgreich eingelöst wurde.
-
-![Bestätigung](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Vorschau-Testversion
-
-Wiederholen Sie die gleichen Schritte wie beim ersten Angebotscode. Stellen Sie sicher, dass Sie den zweiten Angebotscode mit demselben Benutzerkonto hinzufügen, das mit dem ersten Angebotscode verwendet wurde.
+  Sie werden die Bestätigung sehen, dass das Angebot erfolgreich eingelöst wurde.
 
 ## <a name="assign-licenses"></a>Lizenzen zuweisen
 
@@ -62,25 +44,20 @@ Wiederholen Sie die gleichen Schritte wie beim ersten Angebotscode. Stellen Sie 
 
 
 1. Navigieren Sie zu [Microsoft 365 Admin Center](https://portal.office.com/), um Ihren Benutzern die Lizenzen zuzuweisen.
-
-![Startseite des Admin Center](./media/14AdminPortal.png)
-
 2. Wählen Sie auf der Seite **Aktive Benutzer** die Benutzer aus, denen Sie eine Lizenz zuweisen möchten.
-
-![Lizenzen zuweisen](./media/15AssignLicenses.png)
-
-3. Vergewissern Sie sich, dass die Lizenzen für **Dynamics 365 Project Operations (CRM)-Vorschau** sowie für **Office 365 Project Operations – Vorschau** ausgewählt sind. 
+3. Stellen Sie sicher, dass die **Dynamics 365 Project Operations** Lizenz ausgewählt ist. 
 4. Wählen Sie **Änderungen speichern**.
 
-## <a name="create-a-new-cds-environment"></a>Neue CDS-Umgebung erstellen
+## <a name="create-a-new-dataverse-environment"></a>Neue Dataverse-Umgebung erstellen
 
-1. Stellen Sie eine neue Project Operations CDS-Bereitstellungsumgebung bereit, indem Sie den Anweisungen im Thema [CDS-Bereitstellungsmodell](lite-deployment.md) folgen. Stellen Sie bei der Auswahl des Umgebungstyps sicher, dass Sie **Testversion (abonnementbasiert)** auswählen.
-![Neue Umgebung](./media/19CreateEnvironment.png)
+1. Stellen Sie eine neue Project Operations Dataverse-Umgebung bereit, indem Sie den Anweisungen im Thema [Dataverse-Bereitstellungsmodell](lite-deployment.md) folgen. Stellen Sie bei der Auswahl des Umgebungstyps sicher, dass Sie **Testversion (abonnementbasiert)** auswählen.
+
+  ![Neue Umgebung](./media/19CreateEnvironment.png)
 
 2. Wählen Sie die Einstellung **Dynamics 365-Apps aktivieren** aus, und lassen Sie **Diese Apps automatisch bereitstellen** leer.  
 3. Wählen Sie **Speichern** aus, um die Umgebung zu erstellen.
 
-![Datenbank hinzufügen](./media/20CreateEnvironment1.png)
+  ![Datenbank hinzufügen](./media/20CreateEnvironment1.png)
 
 4. Installieren Sie nach dem Erstellen der Umgebung die **Microsoft Dynamics 365 Project Operations**-Lösung. 
 
