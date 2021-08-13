@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368160"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992475"
 ---
 # <a name="actuals-overview"></a>Tatsächliche Transaktionen – Übersicht
 
@@ -32,7 +32,7 @@ ms.locfileid: "6368160"
 
 Ist-Werte sind der Arbeitsaufwand, der für ein Projekt erbracht wurde. Projekt-Istwerte können zu ihren Quelldokumenten zurückverfolgt werden. Diese Quelldokumente umfassen Zeit-, Ausgaben- und Journaleinträge und auch Rechnungen.
 
-![So werden Projekt-Istwerte zu den Quelldokumenten zurückverfolgt](media/basic-guide-18.png)
+![So werden Projekt-Istwerte zu den Quelldokumenten zurückverfolgt.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Übermitteln eines Zeiteintrags
 
@@ -40,7 +40,7 @@ Wenn in PSA ein Zeiteintrag für ein Projekt übermittelt wird, das einer Zeit- 
 
 Die Logik zur Eingabe von Standardpreisen befindet sich in der Journalposition. Alle Feldwerte eines Zeiteintrags werden in die Erfassungsposition kopiert. Diese Felder enthalten das Datum der Transaktion, die Vertragszeile, der das Projekt zugeordnet ist, sowie das Währungsergebnis in der entsprechenden Preisliste. 
 
-In den Feldern, die sich auf die Standardpreise wie etwa **Rolle** und **Organisationseinheit** auswirken, wird standardmäßig ein entsprechender Preis in die Erfassungsposition eingegeben. Wenn Sie dem Zeiteintrag ein benutzerdefiniertes Feld hinzufügen und möchten, dass der Feldwert an „Ist-Werte” weitergegeben wird, erstellen Sie das Feld in der Entität „Ist-Werte” und kopieren Sie das Feld mithilfe von Feldzuordnungen vom Zeiteintrag zum Ist-Wert.
+In den Feldern, die sich auf die Standardpreise wie etwa **Rolle** und **Organisationseinheit** auswirken, wird standardmäßig ein entsprechender Preis in die Erfassungsposition eingegeben. Wenn Sie dem Zeiteintrag ein benutzerdefiniertes Feld hinzufügen und möchten, dass der Feldwert an „Ist-Werte“ weitergegeben wird, erstellen Sie das Feld in der Entität „Ist-Werte“ und kopieren Sie das Feld mithilfe von Feldzuordnungen vom Zeiteintrag zum Ist-Wert.
 
 ## <a name="submitting-an-expense-entry"></a>Übermitteln eines Ausgabeneintrags
 
@@ -90,11 +90,11 @@ PSA erfasst die Finanztransaktionen, die während eines Projekts stattfinden. Di
 <tbody>
 <tr>
 <td>Ein Zeiteintrag wird erstellt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td>Ein Zeiteintrag wird übermittelt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td rowspan="2">Die Zeit wird genehmigt, wobei die abrechenbaren Stunden während der Genehmigung weder geändert noch erhöht werden.</td>
@@ -214,11 +214,11 @@ PSA erfasst die Finanztransaktionen, die während eines Projekts stattfinden. Di
 <tbody>
 <tr>
 <td>Ein Zeiteintrag wird erstellt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td>Ein Zeiteintrag wird übermittelt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td rowspan="4">Die Zeit wird genehmigt, wobei die abrechenbaren Stunden während der Genehmigung weder geändert noch erhöht werden.</td>

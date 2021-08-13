@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007590"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992385"
 ---
 # <a name="estimates"></a>Schätzungen
 
@@ -29,7 +29,7 @@ ms.locfileid: "6007590"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-In einem projektbasierten Angebot können Sie die Entität „Detail zur Angebotsposition” verwenden, um die für die Lieferung eines Projekts erforderliche Arbeit abzuschätzen. Sie können diese Schätzung anschließend mit dem Kunden teilen.
+In einem projektbasierten Angebot können Sie die Entität „Detail zur Angebotsposition“ verwenden, um die für die Lieferung eines Projekts erforderliche Arbeit abzuschätzen. Sie können diese Schätzung anschließend mit dem Kunden teilen.
 
 Projektbasierte Angebotszeilen müssen keine Detailinformationen zur Angebotsposition enthalten. Alternativ können sie viele Angebotspositionsdetails haben. Angebotspositionsdetails werden verwendet, um Zeit, Ausgaben oder Gebühren zu schätzen. PSA lässt keine Materialschätzungen für Angebotspositionsdetails zu. Diese werden als Transaktionsklassen bezeichnet. Geschätzte Steuerbeträge können ebenfalls für eine Transaktionsklasse eingegeben werden.
 
@@ -67,40 +67,40 @@ Verwenden Sie die folgende Tabelle als Leitfaden zum Verständnis der Geschäfts
 
 | Szenario                                                                                                                                                                                                                                                                                                                                          | Entitätsdatensatz                                                                                                                                                                                                       | Transaktionstyp | Transaktionsklasse | Weitere Informationen                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
-| Wenn Sie den Umsatzwert der Zeit für ein Angebot schätzen müssen                                                                                                                                                                                                                                                                                    | Datensatz „Detail zur Angebotsposition” (QLD, Quote Line Detail) wird erstellt                                                                                                                                                                               | Projektvertrag | Time        | Das Feld „Transaktionsursprung” in der Zeile „QLD” auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
-|                                                                                                                                                                                                                                                                                     | Ein zweiter QLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-QLD in die Kosten-QLD.                                                                                                                                                                               | Kosten | Time        | Das Feld „Transaktionsursprung” in der Zeile „Angebotspositionsdetails” (QLD) auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
-| Wenn Sie den Umsatzwert der Zeit für einen Vertrag schätzen müssen                                                                                                                                                                                                                                                                                 | Datensatz „Projektvertragsposition” (CLD, Contract Line Detail) wird erstellt                                                                                                                                                                    | Projektvertrag | Time        | Das Feld „Transaktionsursprung” in der Zeile „CLD” auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
-|                                                                                                                                                                                                                                                                                  | Ein zweiter CLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-CLD in die Kosten-CLD.                                                                                                                                                                    | Kosten | Time        | Das Feld „Transaktionsursprung” in der Zeile „CLD” auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
-| Wenn der Benutzer eine Ressource für eine Projektaufgabe beschreibt                                                                                                                                                                                                                                                                                            | Der Datensatz „Schätzungszeile” zeigt, dass der Umsatzwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Rolle und Organisationseinheiten sind die Preisdimensionen von OOB Project Service | Projektvertrag | Time        |                                                                                   |
-|     | Der Datensatz „Schätzungszeile” zeigt, dass der Kostenwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Das System kopiert sämtliche Nicht-Geld-Felder aus der Vertriebsvorkalkulationsposition in die Kostenvorkalkulationsposition. Rolle und Organisationseinheit sind die OOB PSA Preisdimensionen sowohl für Kosten als auch für Rechnungssätze.                                                                                                                                                                                                                | Kosten             | Zeit           |                                                                                   |
+| Wenn Sie den Umsatzwert der Zeit für ein Angebot schätzen müssen                                                                                                                                                                                                                                                                                    | Datensatz „Detail zur Angebotsposition“ (QLD, Quote Line Detail) wird erstellt                                                                                                                                                                               | Projektvertrag | Time        | Das Feld „Transaktionsursprung“ in der Zeile „QLD“ auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
+|                                                                                                                                                                                                                                                                                     | Ein zweiter QLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-QLD in die Kosten-QLD.                                                                                                                                                                               | Kosten | Time        | Das Feld „Transaktionsursprung“ in der Zeile „Angebotspositionsdetails“ (QLD) auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
+| Wenn Sie den Umsatzwert der Zeit für einen Vertrag schätzen müssen                                                                                                                                                                                                                                                                                 | Datensatz „Projektvertragsposition“ (CLD, Contract Line Detail) wird erstellt                                                                                                                                                                    | Projektvertrag | Time        | Das Feld „Transaktionsursprung“ in der Zeile „CLD“ auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
+|                                                                                                                                                                                                                                                                                  | Ein zweiter CLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-CLD in die Kosten-CLD.                                                                                                                                                                    | Kosten | Time        | Das Feld „Transaktionsursprung“ in der Zeile „CLD“ auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
+| Wenn der Benutzer eine Ressource für eine Projektaufgabe beschreibt                                                                                                                                                                                                                                                                                            | Der Datensatz „Schätzungszeile“ zeigt, dass der Umsatzwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Rolle und Organisationseinheiten sind die Preisdimensionen von OOB Project Service | Projektvertrag | Time        |                                                                                   |
+|     | Der Datensatz „Schätzungszeile“ zeigt, dass der Kostenwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Das System kopiert sämtliche Nicht-Geld-Felder aus der Vertriebsvorkalkulationsposition in die Kostenvorkalkulationsposition. Rolle und Organisationseinheit sind die OOB PSA Preisdimensionen sowohl für Kosten als auch für Rechnungssätze.                                                                                                                                                                                                                | Kosten             | Zeit           |                                                                                   |
 
 
 
-## <a name="customizing-the-quote-line-detail-and-contract-line-detail-entities"></a>Anpassen der Entitäten „Detail zur Angebotsposition” und „Detail zur Vertragszeile”
+## <a name="customizing-the-quote-line-detail-and-contract-line-detail-entities"></a>Anpassen der Entitäten „Detail zur Angebotsposition“ und „Detail zur Vertragszeile“
 
 Verwenden Sie die Plug-In-Registrierungswerkzeuge PreOperationContractLineDetailUpdate und PreOperationQuoteLineDetailUpdate, wenn Sie den Angebotspositionsdetails ein benutzerdefiniertes Feld hinzugefügt haben und möchten, dass das System den Wert des Felds als Standardwert für die von ihm erstellte zugehörige Kostenposition eingibt. Diese Plug-Ins müssen erneut registriert werden, nachdem das Angebotspositionsdetail oder das Vertragszeilendetail geändert wurde. Befolgen Sie diese Schritte, um den Vorgang abzuschließen.
 
 1. Öffnen Sie PluginRegistrationTool, und stellen Sie eine Verbindung mit Ihrer Online-Instanz her.
 2. Wählen Sie **Suchen** aus und suchen Sie nach dem zu aktualisierenden Plug-In.
 
-    ![Dialogfeld „Suchstruktur”](media/basic-guide-19.png)
+    ![Dialogfeld „Suchstruktur“.](media/basic-guide-19.png)
 
 3. Wählen Sie das Plug-In aus und wählen Sie dann auf der Hauptseite **Auswählen** aus.
 4. Wählen Sie den Schritt des zu aktualisierenden Plug-Ins aus, klicken Sie mit der rechten Maustaste, und wählen Sie dann **Aktualisieren** aus.
 
-    ![Auswählen eines Schritts im Plug-In](media/basic-guide-20.png)
+    ![Auswählen eines Schritts im Plug-In.](media/basic-guide-20.png)
 
 5. Wählen Sie im Dialogfeld **Vorhandenen Schritt aktualisieren** im Feld **Filterattribute** die Schaltfläche mit den Auslassungspunkten (**...**) aus:
  
-    ![Dialogfeld „Vorhandenen Schritt aktualisieren”](media/basic-guide-21.png)
+    ![Dialogfeld „Vorhandenen Schritt aktualisieren“.](media/basic-guide-21.png)
 
 6. Aktivieren Sie im Dialogfeld **Attribute auswählen** Kontrollkästchen für benutzerdefinierte Attribute.
 
-    ![Dialogfeld „Attribute auswählen”](media/basic-guide-22.png)
+    ![Dialogfeld „Attribute auswählen“.](media/basic-guide-22.png)
 
 7. Wählen Sie **OK** aus, um das Dialogfeld zu schließen, und wählen Sie dann **Schritt aktualisieren** aus.
  
-    ![Schaltfläche „Schritt aktualisieren”](media/basic-guide-23.png)
+    ![Schaltfläche „Schritt aktualisieren“.](media/basic-guide-23.png)
 
 8. Wiederholen Sie die Schritte 1 bis 7 für das zweite Plug-In.
 9. Schließen Sie das PluginRegistrationTool.

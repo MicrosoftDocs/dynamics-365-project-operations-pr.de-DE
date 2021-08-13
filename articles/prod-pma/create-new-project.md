@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006240"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985950"
 ---
 # <a name="create-a-new-project"></a>Neues Projekt erstellen
 
@@ -51,7 +51,7 @@ Sie können nach Bedarf auch Kategorien für eine Ressource zuweisen. Der Katego
 
 Ein Projektmanager kann die Projektresssourcen-Funktion verwenden, um die für das Projekt erforderlichen Rollen zu erstellen. Rollen können verwendet werden, wenn bestätigte Ressourcen noch unbekannt sind, wenn Ressourcen reserviert werden. Rollen können vorübergehend als geplante Ressourcen reserviert werden, sodass Sie die Projektplanungsphase fortsetzen können.
 
-[![Beispiel einer Rolle](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Beispiel einer Rolle.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Szenario:** Contoso wurde eingestellt, um ein Zeit- und Materialprojekt abzuschließen, das über eine genehmigte Projektcharta verfügt. Der Junior-Projektmanager schließt den Projektumfang noch ab. Der Ressourcenmanager identifiziert derzeit bestimmte Ressourcen, die für die Arbeit an dem neuen Projekt reserviert werden. Aufgrund der kritischen Natur des Projekts forderte der Projektsponsor den Senior-Projektmanager als eine der Rollen an. Der Ressourcenmanager muss die neue Ressource erwerben und die Rolle im System definieren, falls der Junior-Projektmanager die Ressourceninformationen während der Projektplanung benötigt.
 

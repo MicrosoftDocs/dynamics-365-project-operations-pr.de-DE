@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012810"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988785"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Plug-In-Attribute aktualisieren, damit sie neue Preisdimensionen enthalten
 
@@ -42,25 +42,25 @@ Die folgenden Schritte führen Sie durch den Prozess der Registrierung der Plug-
 1. Öffnen Sie das **PluginRegistrationTool**, und stellen Sie eine Verbindung mit Ihrer Online-Instanz her.
 2. Klicken Sie auf **Suchen**, und suchen Sie nach dem Plug-In, das aktualisiert werden soll.
 
- ![Screenshot der Suchstruktur](media/PRT-1.png)
+ ![Screenshot der Suchstruktur.](media/PRT-1.png)
 
 3. Nachdem das Plug-In gefunden wurde, wählen Sie es aus, und klicken Sie dann auf **Hauptformular auswählen**.
 
 4. Wählen Sie den Schritt des Plug-Ins, das aktualisiert werden soll, klicken Sie mit der rechten Maustaste, und wählen Sie dann **Aktualisieren** aus.
 
- ![Screenshot des Plug-Ins, das aktualisiert werden soll](media/PRT-2.png)
+ ![Screenshot des Plug-Ins, das aktualisiert werden soll.](media/PRT-2.png)
  
 5. Klicken Sie im Updatefenster auf die Auslassungspunkte (**...**) in den Filterattributen.
 
- ![Screenshot der Informationen zu „Vorhandene Schrittkonfiguration aktualisieren”](media/PRT-3.png)
+ ![Screenshot der Informationen zu „Vorhandene Schrittkonfiguration aktualisieren“.](media/PRT-3.png)
  
 6. Aktivieren Sie die Preisattribut-Kontrollkästchen.
 
- ![Screenshot, der die Kontrollkästchenauswahl für Preisattribute zeigt](media/PRT-4.png)
+ ![Screenshot, der die Kontrollkästchenauswahl für Preisattribute zeigt.](media/PRT-4.png)
 
 7. Klicken Sie auf **OK**, um die Seite zu schließen, und wählen Sie dann **Aktualisierungsschritt** aus.
 
- ![Screenshot, der die Schaltfläche „Aktualisierungsschritt” anzeigt](media/PRT-5.png)
+ ![Screenshot, der die Schaltfläche „Aktualisierungsschritt“ anzeigt.](media/PRT-5.png)
  
 8. Wiederholen Sie diesen Prozess für das zweite Plug-In, **PreOperationQuoteLineDetail – Update von msdyn_quotelinetransaction**.
 

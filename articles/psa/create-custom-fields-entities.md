@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998950"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992430"
 ---
 # <a name="create-custom-fields-and-entities"></a>Benutzerdefinierte Felder und Entitäten erstellen 
 
@@ -43,7 +43,7 @@ Eine Preisdimension kann ein Optionssatz oder eine Entität sein. Beide müssen 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten** aus.
 3. Klicken Sie auf **Neu**, um eine neue Entität namens **Standardtitel** zu erstellen. Geben Sie die verbleibenden erforderlichen Informationen ein und klicken Sie anschließend auf **Speichern**.
 
-> ![Definition der Entität „Standardtitel”](media/Standard-Title-entity-definition.png)
+> ![Definition der Entität „Standardtitel“.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Optionssatzbasierte Dimensionen 
@@ -54,9 +54,9 @@ Sie können zwei optionssatzbasierte Dimensionen erstellen. Verwenden Sie **Arbe
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Optionssätze** aus. 
 3. Klicken Sie auf **Neu**, um einen neuen Optionssatz zu erstellen, geben Sie die verbleibenden erforderlichen Informationen ein, und klicken Sie dann auf **Speichern**.
 
-> ![Optionssatzbasierte Preisdimension namens „Arbeitsstandort der Ressource” ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Optionssatzbasierte Preisdimension namens „Arbeitsstandort der Ressource“.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Optionssatzbasierte Preisdimension namens „Arbeitszeiten der Ressource” ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Optionssatzbasierte Preisdimension namens „Arbeitszeiten der Ressource“.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Erstellen von Daten für entitätsbasierte Dimensionen
@@ -64,11 +64,11 @@ Sie können zwei optionssatzbasierte Dimensionen erstellen. Verwenden Sie **Arbe
 Sie können Daten für entitätsbasierte Dimensionen manuell oder mithilfe von Microsoft Excel-Import- oder -Service-Aufrufen erstellen. Führen Sie die in diesem Verfahren beschriebenen Schritte aus, um zwei Standardtitel – **- Systemtechniker** und **Leitender Systemtechniker** – aus der entitätsbasierten Dimension **Standardtitel** zu erstellen. Wenn die Datenmenge, die Sie erstellen möchten, gering ist, wie im folgenden Beispiel gezeigt, können Sie ein Standardformular verwenden.
 
 1. Klicken Sie in PSA auf **Erweiterte Suche**. Wählen Sie die Entität **Standardtitel** aus und klicken Sie anschließend auf **Ergebnisse**. Alle Zeilen der Entität **Standardtitel** werden angezeigt.
-2. Klicken Sie auf **Neu**. Geben Sie im Feld **Name** „Systemtechniker” ein und klicken Sie dann auf **Speichern**.
+2. Klicken Sie auf **Neu**. Geben Sie im Feld **Name** „Systemtechniker“ ein und klicken Sie dann auf **Speichern**.
 3. Schließen Sie das Formular. 
-4. Wiederholen Sie die Schritte 1 - 3, um einen anderen Standardtitel für „Leitender Systemtechniker” zu erstellen.
+4. Wiederholen Sie die Schritte 1 - 3, um einen anderen Standardtitel für „Leitender Systemtechniker“ zu erstellen.
 
-> ![Beispieldaten für die Entität „Standardtitel” ](media/ST-data.png)
+> ![Beispieldaten für die Entität „Standardtitel“.](media/ST-data.png)
 
 
 

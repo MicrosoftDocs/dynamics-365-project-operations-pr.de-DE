@@ -14,12 +14,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9e046602a3005930c41ab8c50472d5b1a72303c6
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: a086fe0be67c21ed73793b6f3b58b47ad08eaa4e8a4c98870b4b2264562e3dce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368610"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991800"
 ---
 # <a name="actuals"></a>Tatsächliche Transaktionen 
 
@@ -119,11 +119,11 @@ Project Operations erfasst die Finanztransaktionen, die während eines Projekts 
 <tbody>
 <tr>
 <td>Ein Zeiteintrag wird erstellt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td>Ein Zeiteintrag wird übermittelt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td rowspan="2">Die Zeit wird genehmigt, wobei die abrechenbaren Stunden während der Genehmigung weder geändert noch erhöht werden.</td>
@@ -243,11 +243,11 @@ Project Operations erfasst die Finanztransaktionen, die während eines Projekts 
 <tbody>
 <tr>
 <td>Ein Zeiteintrag wird erstellt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td>Ein Zeiteintrag wird übermittelt.</td>
-<td colspan="6">Keine Aktivität in der Entität „Ist-Werte”</td>
+<td colspan="6">Keine Aktivität in der Entität „Ist-Werte“</td>
 </tr>
 <tr>
 <td rowspan="4">Die Zeit wird genehmigt, wobei die abrechenbaren Stunden während der Genehmigung weder geändert noch erhöht werden.</td>

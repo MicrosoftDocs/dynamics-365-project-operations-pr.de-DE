@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015060"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985500"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rechnungsstellung in Project Service Automation
 
@@ -50,17 +50,17 @@ Befolgen Sie diesen Schritt, um eine Rechnung für einen bestimmten Projektvertr
 
 - Öffnen Sie auf der Listenseite **Projektverträge** einen Projektvertrag und wählen Sie dann **Rechnung erstellen** aus.
 
-    ![Erstellen von Projektrechnungen für einen bestimmten Projektvertrag](media/CreateProjectInvoicesOneByOne.png)
+    ![Erstellen von Projektrechnungen für einen bestimmten Projektvertrag.](media/CreateProjectInvoicesOneByOne.png)
 
-    Es wird eine Rechnung für alle Transaktionen des ausgewählten Projektvertrags generiert, die den Status **Bereit für die Rechnungsstellung** aufweisen. Diese Transaktionen umfassen Zeit, Spesen, Meilensteine und produktbasierte Vertragszeilen.
+    Für alle Transaktionen des ausgewählten Projektvertrags mit dem Status **Bereit für die Rechnungsstellung** wird eine Rechnung erstellt. Diese Transaktionen umfassen Zeit, Spesen, Meilensteine und produktbasierte Vertragszeilen.
 
 Führen Sie die folgenden Schritte aus, um Rechnungen in großen Mengen zu erstellen.
 
-1. Wählen Sie auf der Listenseite **Projektverträge** einen oder mehrere Projektverträge aus, für den bzw. die Sie eine Rechnung erstellen müssen, und wählen Sie dann **Projektrechnungen erstellen** aus.
+1. Wählen Sie über die Listenseite **Projektverträge** einen oder mehrere Projektverträge aus, für die Sie eine Rechnung erstellen müssen, und klicken Sie dann auf **Projektrechnungen erstellen**.
 
-    ![Erstellen von Projektrechnungen mithilfe von Massendatensätzen](media/CreateProjectInvoicesBulk.png)
+    ![Erstellen von Projektrechnungen mithilfe von Massendatensätzen.](media/CreateProjectInvoicesBulk.png)
 
-    Eine Warnmeldung weist Sie darauf hin, dass es zu Verzögerungen kommen kann, bevor Rechnungen erstellt werden. Der Vorgang wird ebenfalls angezeigt.
+    Eine Warnmeldung informiert Sie darüber, dass es zu Verzögerungen kommen kann, bevor Rechnungen erstellt werden. Der Vorgang wird ebenfalls angezeigt.
 
 2. Wählen Sie **OK** aus, um das Nachrichtenfeld zu schließen.
 
@@ -73,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um Rechnungen in großen Mengen zu erste
 Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf in PSA zu konfigurieren.
 
 1. Wechseln Sie zu **Project Service** \> **Einstellungen** \> **Batchaufträge**.
-2. Erstellen Sie einen Batchauftrag und nennen Sie ihn **PSA Rechnungen erstellen**. Der Name des Batchauftrags muss den Wortlaut „Rechnungen erstellen” enthalten.
+2. Erstellen Sie einen Batchauftrag und nennen Sie ihn **PSA Rechnungen erstellen**. Der Name des Batchauftrags muss den Wortlaut „Rechnungen erstellen“ enthalten.
 3. Wählen Sie im Feld **Auftragstyp** **Keiner** aus. Standardmäßig sind die Optionen **Frequenz täglich** und **Ist aktiv** auf **Ja** festgelegt.
 4. Wählen Sie **Workflow ausführen** aus. Im Dialogfeld **Datensatz suchen** werden drei Workflows angezeigt:
 
@@ -103,7 +103,7 @@ Wenn Sie einen Projektrechnungsentwurf erstellen, werden sämtliche nicht faktur
 - Menge und Fakturierungstyp bearbeiten und anpassen.
 - Zeit, Ausgaben und Gebühren als Transaktionen direkt der Rechnung hinzufügen. Sie können diese Funktion verwenden, wenn die Rechnungszeile einer Vertragszeile zugeordnet ist, die diese Transaktionsklassen zulässt.
 
-Wählen Sie **Bestätigen** aus, um eine Rechnung zu bestätigen. Die Aktion „Bestätigen” ist eine unidirektionale Aktion. Wenn Sie **Bestätigen** auswählen, generiert das System eine schreibgeschützte Rechnung und erstellt zudem für jede Rechnungszeile abgerechnete vertriebliche Ist-Werte aus jedem Rechnungspositionsdetail. Wenn das Rechnungspositionsdetail auf einen nicht fakturierten vertrieblichen Ist-Wert verweist, kehrt das System auch den nicht fakturierten vertrieblichen Ist-Wert um. (Sämtliche Rechnungspositionsdetails, die aus einem Zeit- oder Ausgabeneintrag erstellt wurden, verweisen auf einen nicht fakturierten vertrieblichen Ist-Wert.) Allgemeine Hauptbuchintegrationssysteme können sich diese Umkehrung zunutze machen, um laufende Projektarbeit (WIP, Work In Progress) für Buchhaltungszwecke umzukehren.
+Wählen Sie **Bestätigen** aus, um eine Rechnung zu bestätigen. Die Aktion „Bestätigen“ ist eine unidirektionale Aktion. Wenn Sie **Bestätigen** auswählen, generiert das System eine schreibgeschützte Rechnung und erstellt zudem für jede Rechnungszeile abgerechnete vertriebliche Ist-Werte aus jedem Rechnungspositionsdetail. Wenn das Rechnungspositionsdetail auf einen nicht fakturierten vertrieblichen Ist-Wert verweist, kehrt das System auch den nicht fakturierten vertrieblichen Ist-Wert um. (Sämtliche Rechnungspositionsdetails, die aus einem Zeit- oder Ausgabeneintrag erstellt wurden, verweisen auf einen nicht fakturierten vertrieblichen Ist-Wert.) Allgemeine Hauptbuchintegrationssysteme können sich diese Umkehrung zunutze machen, um laufende Projektarbeit (WIP, Work In Progress) für Buchhaltungszwecke umzukehren.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Korrigieren einer bestätigten PSA-Rechnung
 

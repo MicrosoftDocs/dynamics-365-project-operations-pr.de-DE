@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001290"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986625"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurationsdaten in Common Data Service einrichten und anwenden 
 
@@ -35,24 +35,24 @@ Bevor Sie mit der Konfiguration von Daten im Common Data Service (CDS) beginnen,
 2. Navigieren Sie zum entpackten Ordner, und führen Sie die ausführbare Datei *DataMigrationUtility* aus.
 3. Auf Seite 1 des Assistenten für Common Data Service-Konfigurationsmigration (CMT) wählen Sie **Daten importieren** und dann **Fortsetzen** aus.
 
-![Konfigurationsmigration](./media/1ConfigurationMigration.png)
+![Konfigurationsmigration.](./media/1ConfigurationMigration.png)
 
 4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Microsoft 365** als **Bereitstellungstyp** aus.
 5. Aktivieren Sie die Kontrollkästchen **Eine Liste der verfügbaren Organisationen anzeigen** und **Erweitert anzeigen**.
 6. Wählen Sie die Region Ihres Mandanten aus, geben Sie Ihre Anmeldeinformationen ein, und wählen Sie **Anmelden** aus.
 
-![Konfigurations-Login](./media/2ConfigurationSignin.png)
+![Konfigurationsanmeldung.](./media/2ConfigurationSignin.png)
 
 7. Wählen Sie auf Seite 3 aus der Liste der Organisationen im Mandanten die Organisation aus, in die Sie die Demo-Daten importieren möchten, und dann **Anmelden**.
 8. Wählen Sie auf Seite 4 die Zip-Datei *SampleSetupAndConfigData* aus dem entpackten Ordner aus.
 
-![Auswahl der Zip-Datei](./media/3ZipFile.png)
+![Auswahl der Zip-Datei.](./media/3ZipFile.png)
 
-![Datei auswählen](./media/4SelectAFile.png)
+![Eine Datei auswählen.](./media/4SelectAFile.png)
 
 9. Nachdem die Zip-Datei ausgewählt wurde, wählen Sie **Daten importieren**.
 
-![Importdaten](./media/5ImportData.png)
+![Daten importieren.](./media/5ImportData.png)
 
 10. Der Import wird je nach Netzwerkgeschwindigkeit ungefähr zwei bis zehn Minuten lang ausgeführt. Beenden Sie nach Abschluss des Imports den CMT-Assistenten. 
 11. Überprüfen Sie Ihre Organisation auf Daten in den folgenden 26 Entitäten:
@@ -84,50 +84,50 @@ Bevor Sie mit der Konfiguration von Daten im Common Data Service (CDS) beginnen,
   - Zuordnung der buchbaren Ressourcenkategorie
   - Merkmal der buchbaren Ressource
 
-![Import abschließen](./media/6CompleteImport.png)
+![Import abschließen.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Project Operations-Konfigurationen aktualisieren
 
 1. Navigieren zur CE-Umgebung. Sie können sie finden, indem Sie das [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments) öffnen, die Umgebung und dann **Umgebung öffnen** auswählen. 
 
-![Umgebung öffnen](./media/7OpenEnvironment.png)
+![Umgebung öffnen.](./media/7OpenEnvironment.png)
 
 2. Navigieren Sie zu **Projekte** > **Ressourcen**, und wählen Sie dann **Neu** aus, um eine buchbare Ressource für Ihren Benutzer zu erstellen.
 
-![Buchbare Ressourcen](./media/8BookableResources.png)
+![Buchbare Ressourcen.](./media/8BookableResources.png)
 
 3. Wählen Sie auf der Registerkarte **Allgemein** Ihren Administrator-Benutzer aus. Stellen Sie sicher, dass die Zeitzone mit der übereinstimmt, in der Sie sich befinden. 
 
-![Neue buchbare Ressource](./media/9NewBookableResource.png)
+![Neue buchbare Ressource.](./media/9NewBookableResource.png)
 
 4. Wählen Sie auf der Registerkarte **Zeitplanung** im Feld **Unternehmen** das Unternehmen **USPM** und dann **Speichern** aus. 
 
-![Registerkarte „Planung“](./media/10SchedulingTab.png)
+![Registerkarte „Planung“.](./media/10SchedulingTab.png)
 
 5. Wählen Sie die Registerkarte **Arbeitsstunden** aus.  
 
-![Arbeitszeit](./media/11WorkHours.png)
+![Arbeitszeit.](./media/11WorkHours.png)
 
 6. Doppelklicken Sie auf einen beliebigen Wert im Kalender, und wählen Sie **Bearbeiten** > **Alle Ereignisse in der Serie** aus. 
 
-![Arbeitskalender](./media/12WorkCalendar.png)
+![Arbeitskalender.](./media/12WorkCalendar.png)
 
 7. Ändern Sie die Arbeitszeit in einen Arbeitstag von acht (8) Stunden, markieren Sie Wochenenden als arbeitsfreie Tage, und stellen Sie sicher, dass die Zeitzone mit Ihrer übereinstimmt. 
 8. Wählen Sie **Speichern und schließen** aus.
 
-![Kalender aktualisieren](./media/13UpdateCalendar.png)
+![Kalender aktualisieren.](./media/13UpdateCalendar.png)
 
 9. Navigieren Sie zu **Einstellungen** > **Kalendervorlagen**, und wählen Sie **Neu** aus.
  
- ![Kalendervorlagen](./media/14CalendarTemplates.png)
+ ![Kalendervorlagen.](./media/14CalendarTemplates.png)
  
  10. Geben Sie einen Namen ein, wählen Sie die von Ihnen erstellte Vorlagenressource und dann **Speichern** aus. 
  
- ![Kalendervorlage speichern](./media/15SaveCalendarTemplate.png)
+ ![Kalendervorlage speichern.](./media/15SaveCalendarTemplate.png)
  
  11. Navigieren Sie zu **Parameter**, und doppelklicken Sie auf den Datensatz. 
  
- ![Projektparameter](./media/16ProjectParameters.png)
+ ![Projektparameter.](./media/16ProjectParameters.png)
  
 12. Aktualisieren Sie die folgenden Felder:
 
@@ -138,7 +138,7 @@ Bevor Sie mit der Konfiguration von Daten im Common Data Service (CDS) beginnen,
 
 13. Wählen Sie **Speichern** aus. 
 
-![Aktualisierte Projektparameter](./media/17UpdatedProjectParameters.png)
+![Aktualisierte Projektparameter.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

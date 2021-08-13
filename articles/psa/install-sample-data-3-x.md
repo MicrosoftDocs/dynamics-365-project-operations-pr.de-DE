@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007275"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985545"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installation von Beispieldaten für die Project Service-Anwendung
 
@@ -86,7 +86,7 @@ Sie sollten einplanen, dass der Computer mit einem Netzwerk verknüpft bleibt, u
 Bei dem Computer muss die Bildschirmschonerfunktion deaktiviert sein. Andernfalls gehen die Sitzungsanmeldeinformationen für die Installation möglicherweise verloren, wenn der Bildschirmschoner aktiviert wird (es sei denn, Sie sorgen währenddessen dafür, dass die Sitzung aktiv bleibt).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot der Bildschirmschonereinstellungen bei deaktiviertem Bildschirmschoner](media/sample-data-1.png)
+> ![Screenshot der Bildschirmschonereinstellungen bei deaktiviertem Bildschirmschoner.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Herunterladen und entpacken
 
@@ -115,7 +115,7 @@ Das Paket **FPSMasterData** ist so konzipiert, dass es mit einem Benutzer names 
 
 Um Benutzer zu erstellen oder zu konfigurieren, wechseln Sie zu **Einstellungen** > **Sicherheit** > **Benutzer** und gehen Sie dann folgendermaßen vor:
 
-1. Legen Sie UserFullname=„Bernhard Anhalter” mit dem Benutzernamen „bernharda” (**Kleinschreibung**) für die Projektmanager- und Practice Manager-Rollen fest.
+1. Legen Sie UserFullname=„Bernhard Anhalter“ mit dem Benutzernamen „bernharda“ (**Kleinschreibung**) für die Projektmanager- und Practice Manager-Rollen fest.
 
 2. Wählen Sie den Benutzer **Bernhard Anhalter** und anschließend **Rollen verwalten** aus. Suchen Sie nach der Rolle **Systemadministrator** und wählen Sie aus. Wählen Sie anschließend **OK** aus, Bernhard Anhalter die vollständigen Administratorrechte zu erteilen. Dieser Schritt ist erforderlich, um sicherzustellen, dass Beispieldatensätze mit den korrekten Benutzerbesitzrechten erstellt werden, und somit Ansichten korrekt ausgefüllt werden.
 
@@ -130,23 +130,23 @@ Das Demodatenenpaket erfordert sechs Benutzer. Damit das Paket richtig eingerich
  1. Stellen Sie oder benennen Sie vorübergehend vorhandenen Benutzer, um eingehende Beispieldatenkonfiguration anzupassen, indem Sie zur Seite **Einstellungen**  > **Sicherheit** > **Benutzer** gehen.
  
     Diese Rollen werden nur für Persona-basierte Demos benötigt.  
-    - Benutzer vollständiger Name= „Johannes Meyer-Hartfeld” als Field Service Mechaniker   
-    - Benutzer vollständiger Name= „Kai Larenz” als Customer Service & Field Service Dispatcher   
-    - Benutzer vollständiger Name = „Ulla Graf” als Clark Kundenbetreuer   
-    - Benutzer vollständiger Name = „Karl Gäller” als Practice und Project Manager  
-    - Benutzer vollständige Name= „Leonie Simon” als Teammitglied   
-    - Benutzer vollständiger Name = „Bernhard Contoso”
+    - Benutzer vollständiger Name= „Johannes Meyer-Hartfeld“ als Field Service Mechaniker   
+    - Benutzer vollständiger Name= „Kai Larenz“ als Customer Service & Field Service Dispatcher   
+    - Benutzer vollständiger Name = „Ulla Graf“ als Clark Kundenbetreuer   
+    - Benutzer vollständiger Name = „Karl Gäller“ als Practice und Project Manager  
+    - Benutzer vollständige Name= „Leonie Simon“ als Teammitglied   
+    - Benutzer vollständiger Name = „Bernhard Contoso“
   
 2. Der Zweck des Demodatenimports ist es, die sechs Benutzer zur Administratorrolle zuzuweisen, um Beispieldatensätze ordnungsgemäß zu importieren. 
 
 3. Öffnen Sie **PkgFolder** und dann suchen und öffnen Sie **ImportUserMapFile.xml**. Aktualisieren der Felder **Neu=** zu den E-Mail-Adressen von entsprechenden Benutzern im System.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot von UserMapFile](media/sample-data-7.png)
+   > ![Screenshot von UserMapFile.](media/sample-data-7.png)
 
-4. Wenn „Karl Gäller” Benutzer vollständiger Name eine andere Benutzer-ID hat als  **„karlg"**, müssen Sie eine weitere Datei aktualisieren. Öffnen Sie die Datei **DemoDataPreImportConfig.xml** und suchen Sie dann nach dem Tag **userstocreateandconfigure**. Aktualisieren Sie das **\<login\>**-Tag mit dem loginId (Groß-/Kleinschreibung beachtet). 
+4. Wenn „Karl Gäller“ Benutzer vollständiger Name eine andere Benutzer-ID hat als  **„karlg"**, müssen Sie eine weitere Datei aktualisieren. Öffnen Sie die Datei **DemoDataPreImportConfig.xml** und suchen Sie dann nach dem Tag **userstocreateandconfigure**. Aktualisieren Sie das **\<login\>**-Tag mit dem loginId (Groß-/Kleinschreibung beachtet). 
 
-5. Der erste Kalender des Benutzers (im **userstocreateandconfigure**-Tag) wird verwendet, um die Arbeitszeiten für alle buchbaren Rssourcen für den Import von Demodaten aufzufüllen. Navigieren Sie zu **Einstellungen**  > **Sicherheit**  > **Benutzer** und succhen Sie Benutzer „Karl Gäller” und öffnen Sie die Option „Arbeitszeit”. Bearbeiten Sie die vorhandenen Arbeitszeiten und die Option **Gesamter wöchentlicher Serienzeitplan vom Beginn bis zum Ende**. Stellen Sie unter **Arbeitszeiten werden auf 8 - 5 Uhr morgens (9 Stunden), Montag bis Freitag und Stunden mit der Zeitzone festgelegt auf Pacific Time (USA und Kanada)** sicher. Dies ist erforderlich, um sicherzustellen, dass die Projekt- und Zeitplanübersicht wie erwartet dargestellt wird.
+5. Der erste Kalender des Benutzers (im **userstocreateandconfigure**-Tag) wird verwendet, um die Arbeitszeiten für alle buchbaren Rssourcen für den Import von Demodaten aufzufüllen. Navigieren Sie zu **Einstellungen**  > **Sicherheit**  > **Benutzer** und succhen Sie Benutzer „Karl Gäller“ und öffnen Sie die Option „Arbeitszeit“. Bearbeiten Sie die vorhandenen Arbeitszeiten und die Option **Gesamter wöchentlicher Serienzeitplan vom Beginn bis zum Ende**. Stellen Sie unter **Arbeitszeiten werden auf 8 - 5 Uhr morgens (9 Stunden), Montag bis Freitag und Stunden mit der Zeitzone festgelegt auf Pacific Time (USA und Kanada)** sicher. Dies ist erforderlich, um sicherzustellen, dass die Projekt- und Zeitplanübersicht wie erwartet dargestellt wird.
 
 **Empfehlung:** Sie sollten jetzt eine Sicherung für Ihre Organisation vornehmen, falls Sie während der Installation der Beispieldaten wieder alles zurücksetzen müssen, wenn etwas schiefgehen sollte. Weitere Informationen finden Sie unter [Sicherung und Wiederherstellung von Instanzen](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -160,19 +160,19 @@ Das Demodatenenpaket erfordert sechs Benutzer. Damit das Paket richtig eingerich
 
    a. Bereitstellungstyp **Office 365** auswählen.
 
-   b. Verwenden Sie den Benutzer und das Kennwort des Systemadministratorbenutzers, der unter „Benutzer erstellen oder konfigurieren” („Bernhard Anhalter” mit dem Benutzernamen „bernharda”) konfiguriert wurde.
+   b. Verwenden Sie den Benutzer und das Kennwort des Systemadministratorbenutzers, der unter „Benutzer erstellen oder konfigurieren“ („Bernhard Anhalter“ mit dem Benutzernamen „bernharda“) konfiguriert wurde.
 
    c. Stellen Sie sicher, dass **Liste der verfügbaren Organisationen anzeigen** ausgewählt ist.
 
       > [!div class="mx-imgBorder"]
-      > ![Screenshot des Package Deployer-Fensters mit aktivierter Option „Liste der verfügbaren Organisationen anzeigen”](media/sample-data-2.png)
+      > ![Screenshot des Package Deployer-Fensters mit aktivierter Option „Liste der verfügbaren Organisationen anzeigen“](media/sample-data-2.png)
 
 4. Wählen Sie die Organisation aus, in der Sie die Beispieldaten installieren möchten.
 
 5. Wählen Sie **Weiter** aus, bis Sie das Dialogfeld **Demodateneinrichtung** sehen.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot des Fensters für den Demodaten-Installationsprogrammstatus](media/sample-data-3.png)
+   > ![Screenshot des Fensters für den Demodaten-Installationsprogrammstatus.](media/sample-data-3.png)
 
 6. Beachten Sie, bevor Sie fortfahren, dass das Installieren der Beispieldaten bis zu eine Stunde (in der Regel ~10 Minuten) dauern kann. Sie müssen sicherstellen, dass der Computer während des Installationsprozesses eingeschaltet und mit einem Netzwerk verbunden bleibt, und dass Ihre Sitzung aktiv bleibt.   
 
@@ -191,10 +191,10 @@ Nachdem die Beispieldaten vollständig geladen sind, melden Sie sich als Benutze
 - Wenn die Field Service-Anwendung installiert ist, gehen Sie zu **Project Service** > **Einstellungen** > **Preislisten**. Überprüfen Sie, ob die Rechnungs- und Kostensätze vorhanden sind. Gehen Sie zu **Field Service** > **Einstellungen** > **Preislisten** und prüfen Sie, ob die Rechnungs- und Kostensätze vorhanden sind und ob die entsprechende Währung für jedes Land bzw. jede Region im Datensatz zugeordnet ist.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot aktiver Preislisten](media/sample-data-4.png)
+  > ![Screenshot aktiver Preislisten.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot aktiver Organisationseinheiten](media/sample-data-5.png)
+  > ![Screenshot aktiver Organisationseinheiten.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Technische Hinweise
 
@@ -206,7 +206,7 @@ Wenn Sie die Beispieldaten zusätzlich zu einer vorhandenen Field Service- oder 
 
 Gehen Sie dazu zum Ordner **PkgFolder**, um die Datei **DemoDataPreImportConfig.xml** in Notepad (oder einem anderen XML-Editor) zu finden und zu öffnen.
 
-Suchen Sie den folgenden Wert und ändern Sie dann die Einstellung von „true” in „false”:
+Suchen Sie den folgenden Wert und ändern Sie dann die Einstellung von „true“ in „false“:
 
 ```alias
 <TerminateOnPreCheckFailure>true</TerminateOnPreCheckFailure>
@@ -295,7 +295,7 @@ Wenn Sie die Arbeitszeit für buchbare Beispielressourcen ändern möchten, gehe
 Wählen Sie einen Benutzer (beispielsweise Bernhard Anhalter) aus und ändern Sie die Arbeitszeiten für Bernhard Anhalter auf die Stunden, die Sie auf mehrere Benutzer anwenden möchten. Gehen Sie zu **Universal Resource Scheduling** > **Einstellungen** > **Arbeitszeitvorlagen** und ändern Sie den Datensatz **Standardarbeitsvorlage**. Wählen Sie im Feld **Vorlagenressource** einen Benutzer mit einer Arbeitszeit aus, die Sie auf andere Ressourcen anwenden möchten. Gehen Sie zu **Universal Resource Scheduling** > **Planung** > **Ressourcen** > **Aktive buchbare Ressourcen**. Wählen Sie die Ressourcen aus, die Sie ändern möchten, und wählen Sie dann **Kalender festlegen** aus. Wählen Sie in der Dropdownliste **Arbeitsvorlage** die Vorlage **Standardarbeitszeit** oder eine andere Vorlage mit der richtigen Vorlagenenressource aus. Wenn Sie die Zeitplanübersicht öffnen, sollten Sie sehen, dass die Ressourcen jetzt aktualisierte Arbeitszeiten haben.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot aktiver buchbaren Ressourcen](media/sample-data-6.png)
+> ![Screenshot aktiver buchbaren Ressourcen.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

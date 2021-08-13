@@ -832,6 +832,16 @@
           items:
             - name: Ressourcennutzung – Übersicht
               href: resource-management/resource-utilization-overview.md
+    - name: Untervertragsverwaltung in Project Operations
+      items:
+        - name: Übersicht über die Verwaltung von Unterverträgen
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Schlüsselkonzepte bei der Fremdarbeit
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Kreditoren und Projektpreislisten verwalten
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Zulieferer als buchbare Ressourcen
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Zeit
       items:
         - name: Übersicht über Zeit
@@ -1048,11 +1058,13 @@
       href: psa/overview.md
     - name: Neuigkeiten
       items:
-        - name: "Update-Releasezeitplan für Project Service\_3.x"
+        - name: Update-Releasezeitplan für Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 33, V3?'
+        - name: 'Neuerungen oder Änderungen im Update-Release 34, V3'
+          href: psa/whats-new-ur-34.md
+        - name: 'Neuerungen oder Änderungen im Update-Release 33, V3'
           href: psa/whats-new-ur-33.md
-        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 32.5, V3?'
+        - name: 'Neuerungen oder Änderungen im Update-Release 32.5, V3'
           href: psa/whats-new-ur-32-5.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 32, V3?'
           href: psa/whats-new-ur-32.md

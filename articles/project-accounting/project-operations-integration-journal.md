@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304255"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987930"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal in Project Operations
 
@@ -19,7 +19,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Zeit- und Kosteneinträge erstellen **Tatsächliche** Transaktionen, die die operative Sicht auf Arbeiten darstellen, die für ein Projekt ausgeführt wurden. Dynamics 365 Project Operations bietet Buchhaltern ein Tool, mit dem sie Transaktionen überprüfen und die Buchhaltungsattribute nach Bedarf anpassen können. Nach Abschluss der Prüfung und Anpassungen werden die Transaktionen in das untergeordnete Sachkonto und die Finanzbuchhaltung des Projekts gebucht. Ein Buchhalter kann diese Aktivitäten mit dem ausführen **Project Operations-Integrationsjournal** (**Dynamics 365 Finance** > **Projektmanagement und Buchhaltung** > **Journale** > **Project Operations-Integrationsjournal**) ausführen.
 
-![Flow des Integrationsjournals](./media/IntegrationJournal.png)
+![Flow des Integrationsjournals.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Datensätze im Project Operations-Integrationsjournal erstellen
 
