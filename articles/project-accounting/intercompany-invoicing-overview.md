@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369375"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005390"
 ---
 # <a name="intercompany-invoicing-overview"></a>Intercompany-Rechnungsstellung – Übersicht
 
@@ -22,7 +22,7 @@ Ihre Organisation verfügt möglicherweise über mehrere Abteilungen, Tochterunt
 
 Die folgende Abbildung zeigt ein typisches Szenario, in dem zwei juristische Personen Contoso Robotics USA (die kreditnehmende juristische Person) und Contoso Robotics UK (die verleihende juristische Person) Ressourcen teilen, um ein Projekt für den Kunden zu liefern, Adventure works. Für dieses Szenario wird Contoso Robotics USA beauftragt, die Arbeit an Adventure Works zu liefern.
 
-![Intercompany-Rechnungsstellung](./media/IntercompanyScenario.png) 
+![Intercompany-Rechnungsstellung.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations verwendet den folgenden Ablauf, um Intercompany-Transaktionen zu verarbeiten:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations verwendet den folgenden Ablauf, um Intercompany-
 
 Das folgende Diagramm zeigt die Intercompany-Rechnungsstellung in Bezug auf Buchhaltungsereignisse und erwartete Buchungen im Hauptbuch.
 
-![Intercompany-Flow](./media/IntercompanyFlow.png)
+![Intercompany-Flow.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 

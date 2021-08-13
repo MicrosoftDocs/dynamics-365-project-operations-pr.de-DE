@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367890"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008225"
 ---
 # <a name="resource-management-modes-overview"></a>Ressourcenverwaltungsmodi – Übersicht
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations unterstützt zwei Modi, mit denen Sie den gesamt
 ## <a name="central-mode"></a>Zentraler Modus
 Für Organisationen, die die Zuweisung von Ressourcen zu Projekten zentralisieren, bietet der Zentralmodus eine Möglichkeit, um sicherzustellen, dass Projektmanager Ressourcenanforderungen auf Projektebene definieren können. Die Erfüllung der Ressourcenanforderungen wird an einen Ressourcenmanager delegiert. Projektmanager können Ressourcen akzeptieren oder ablehnen, die vom Ressourcenmanager vorgeschlagen werden.
 
-![Zentraler Modus](./media/resource-management-central.png)
+![Zentraler Modus.](./media/resource-management-central.png)
 
 Informationen zum Verwalten von Ressourcen im zentralen Modus finden Sie unter:
 
@@ -37,7 +37,7 @@ Informationen zum Verwalten von Ressourcen im zentralen Modus finden Sie unter:
 ## <a name="hybrid-mode"></a>Hybridmodus
 Für Organisationen, die Flexibilität bei der Zuweisung von Ressourcen benötigen, bietet der Hybridmodus sowohl Projektmanagern als auch Ressourcenmanagern die Möglichkeit, Ressourcen zu buchen.
 
-![Hybridmodus](./media/resource-management-hybrid.png)
+![Hybridmodus.](./media/resource-management-hybrid.png)
 
 Weitere Informationen zum Verwalten aller anderen unterstützten Buchungsabläufe im Hybridmodus finden Sie neben dem unterstützten Prozess im zentralen Modus in den folgenden Themen:
 

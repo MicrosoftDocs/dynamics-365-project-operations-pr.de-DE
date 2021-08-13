@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: da349924488fb62dc0b0bd8eaf4c48b02aa16d09
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996250"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003905"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Projektpreislisten in einem Angebot verwalten
 
@@ -117,7 +117,7 @@ Wie Rechnungssätze werden auch Kostensätze für Personal mithilfe von Preislis
 
     1. Die Einstandspreisliste, die der Organisationseinheit angefügt wird.
     2. Die Einstandspreisliste, die den Project Operations Parametern angefügt wird. Da Einstandspreislisten in vielen verschiedenen Währungen den Project Service-Parametern angefügt werden können, wird eine Währungsabstimmung zwischen der Währung der Vertragsorganisationseinheit des Projekts, Vertrags oder Angebots und der Währung der Einstandspreisliste durchgeführt.
-    3. Bei Ausgaben gelten die Preisberechnungsmethoden „Zum Einstandswert” und „Aufschlag auf Kosten” nicht für Einstandspreislisten. Selbst wenn diese Preisberechnungsmethoden bei Einstandspreislistenzeilen verwendet werden, um Transaktionskategoriekosten einzurichten, werden diese vom System ignoriert, und es wird kein Standardeinstandspreis angegeben.
+    3. Bei Ausgaben gelten die Preisberechnungsmethoden „Zum Einstandswert“ und „Aufschlag auf Kosten“ nicht für Einstandspreislisten. Selbst wenn diese Preisberechnungsmethoden bei Einstandspreislistenzeilen verwendet werden, um Transaktionskategoriekosten einzurichten, werden diese vom System ignoriert, und es wird kein Standardeinstandspreis angegeben.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

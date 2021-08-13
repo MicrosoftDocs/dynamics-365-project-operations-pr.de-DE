@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e85b3e0e13bb48aeb9eeb111c2f782f4d62505a7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014520"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005300"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Verwenden Sie das Project Service Automation-Add-In, um Ihre Arbeit in Microsoft Project planen
 
@@ -64,7 +64,7 @@ ms.locfileid: "6014520"
 2.  Wählen Sie eine Projektvorlage aus der Liste und klicken Sie dann auf **Öffnen**.  
 
     > [!NOTE]
-    >  Standardmäßig werden die Aufgaben, die aus der Vorlage in Projekt kopiert werden, als „manuell geplant” festgelegt.  
+    >  Standardmäßig werden die Aufgaben, die aus der Vorlage in Projekt kopiert werden, als „manuell geplant“ festgelegt.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>Zuweisen von [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Rollen an Projektressourcen  
 

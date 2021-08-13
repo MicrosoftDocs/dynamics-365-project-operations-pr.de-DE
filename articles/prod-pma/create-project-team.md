@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006195"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005795"
 ---
 # <a name="create-a-project-team"></a>Ein Projektteam erstellen
 
@@ -33,9 +33,9 @@ Die Ansichtseinstellungen können auch angepasst werden, um eine bessere Ansicht
 
 Der Projektmanager kann eine Rolle auf der Seite auswählen und dann, wenn eine Ressource verfügbar ist, die der Anforderung entspricht, eine Ressource reservieren, um die Rolle zu füllen. Beachten Sie, dass die Ressourcen zu diesem Zeitpunkt in der Planungsphase nicht reserviert werden müssen. Wenn Sie einen PSP erstellen, können Sie Rollen durch besetzte Ressourcen für das Projekt ersetzen. Wenn Rollen im PSP durch besetzte Ressourcen ersetzt werden, aktualisiert das Ressourcen-Setup automatisch die Liste und Planung des Projektteams.
 
-[![Projektteamliste, die sowohl Rollen als auch tatsächliche Ressourcen enthält](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Projektteamliste, die sowohl Rollen als auch tatsächliche Ressourcen enthält.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Der Projektmanager hat verschiedene Möglichkeiten, eine Ressource für ein Projekt zu buchen, wie **Verbleibende Kapazität**, **Volle Kapazität**, **Kapazitätsprozentsatz**, und **Stunden definieren**. Diese Buchungsoptionen können jederzeit storniert werden, wenn sich die Ressourcenzuweisungen ändern. Es werden zwei Buchungsarten unterstützt:
+Der Projekt-Manager hat verschiedene Möglichkeiten, eine Ressource für ein Projekt zu buchen, z. B. **Verbleibende Kapazität**, **Volle Kapazität**, **Kapazität in Prozent** und **Stunden angeben**. Diese Buchungsoptionen können jederzeit storniert werden, wenn sich die Ressourcenzuweisungen ändern. Es werden zwei Buchungsarten unterstützt:
 
 - **Verbindlich buchen** – Die Ressourcenreservierung wurde genehmigt und bestätigt, um für die angegebene Dauer an dem Auftrag zu arbeiten.
 - **Unverbindlich buchen** – Die Ressourcenreservierung wurde genehmigt und bestätigt, um für die angegebene Dauer an dem Auftrag zu arbeiten.

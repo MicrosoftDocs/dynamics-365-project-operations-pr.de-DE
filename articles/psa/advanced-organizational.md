@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009615"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005075"
 ---
 # <a name="organizational-units"></a>Organisationseinheiten 
 
@@ -53,7 +53,7 @@ Die Organisationseinheit hat in PSA zwei Rollen:
 - **Vertragseinheit** – Die Organisationseinheit, die die Unternehmensgruppe oder den Geschäftsbereich darstellt, die bzw. der hauptsächlich für den Verkaufsabschluss und die Verwaltung der Lieferung von Arbeit und Services an den Kunden verantwortlich ist. Die Vertragseinheit wird anhand des Felds **Vertragseinheit** im Kopfzeilenabschnitt der Seiten **Verkaufschance**, **Angebot**, **Projektvertrag** und **Projekt** ermittelt.
 - **Ressourceneinheit** – Die Organisationseinheit, zu der eine Ressource gehört oder der sie zugewiesen ist. Die Organisationseinheit kann ihre Ressourcen für bestimmte Rollen bei Leistungsbeschreibungen und Projekten bereitstellen, die der Vertragseinheit gehören.
 
-> ![Vertrags- und Ressourceneinheiten](media/advanced-1.png)
+> ![Vertrags- und Ressourceneinheiten.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organisationseinheit – FAQs
 

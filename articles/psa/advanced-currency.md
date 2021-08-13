@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014790"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005120"
 ---
 # <a name="multiple-currency-scenarios"></a>Mehrfachwährungsszenarien
 
@@ -34,7 +34,7 @@ Microsoft Dynamics 365 bietet zwei Konzepte für Währungen:
 - **Transaktionswährung** – Die Währung, in der eine Transaktion stattfindet. 
 - **Basiswährung** – Die Währung der Dynamics 365-Instanz. Diese Währung wird bei der Bereitstellung einer Dynamics 365-Instanz eingerichtet. Es kann nicht geändert werden.
 
-Beispielsweise verkaufte Contoso USA 100 T-Shirts für jeweils 15 Pfund Sterling (GBP) an einen Kunden im Vereinigten Königreich. Die folgende Tabelle gibt Aufschluss darüber, wie diese Transaktion in der Entität „Auftrag (Produkt)” erfasst wird.
+Beispielsweise verkaufte Contoso USA 100 T-Shirts für jeweils 15 Pfund Sterling (GBP) an einen Kunden im Vereinigten Königreich. Die folgende Tabelle gibt Aufschluss darüber, wie diese Transaktion in der Entität „Auftrag (Produkt)“ erfasst wird.
 
 | Produkt | Menge | Einzelpreis | Währung | Betrag | Wechselkurs | Einzelpreis (Basis)| Betrag (Basis)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|

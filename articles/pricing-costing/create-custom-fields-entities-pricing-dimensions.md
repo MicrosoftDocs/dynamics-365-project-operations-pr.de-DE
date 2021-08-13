@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000525"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003635"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Benutzerdefinierte Felder und Entitäten als Preisdimensionen erstellen
 
@@ -44,7 +44,7 @@ Führen Sie die folgenden Schritte aus, um entitätsbasierte Dimensionen zu erst
 3. Wählen Sie **Neu**, um eine neue Entität namens **Standardtitel** zu erstellen. 
 4. Geben Sie die verbleibenden erforderlichen Informationen ein und wählen Sie **Speichern**.
 
-> ![Definition der Entität „Standardtitel”](media/Standard-Title-entity-definition.png)
+> ![Definition der Entität „Standardtitel“.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Optionssatzbasierte Dimensionen 
 Sie können zwei optionssatzbasierte Dimensionen erstellen. 
@@ -54,11 +54,11 @@ Sie können zwei optionssatzbasierte Dimensionen erstellen.
 
 Die folgende Grafik bietet eine Ansicht der **Arbeitsort der Ressource**-Dimension. 
 
-> ![Optionssatzbasierte Preisdimension namens „Arbeitsstandort der Ressource”](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Optionssatzbasierte Preisdimension namens „Arbeitsstandort der Ressource“.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Die folgende Grafik bietet eine Ansicht der **Arbeitsstunden der Ressource**-Dimension. 
 
-> ![Optionssatzbasierte Preisdimension namens „Arbeitszeiten der Ressource”](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Optionssatzbasierte Preisdimension namens „Arbeitszeiten der Ressource“.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Gehen Sie zu **Einstellungen** > **Lösungen** und doppelklicken Sie auf  **\<your organization name> Preisdimensionen**. 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Optionssätze** aus. 
@@ -72,9 +72,9 @@ Sie können Daten für entitätsbasierte Dimensionen manuell oder mithilfe von M
 2. Wählen Sie die Entität **Standardtitel** aus und wählen Sie anschließend **Ergebnisse** aus. Alle Zeilen der Entität **Standardtitel** werden angezeigt.
 3. Wählen Sie **Neu** und im Feld **Name** geben Sie Systemtechniker ein und wählen dann **Speichern**.
 4. Schließen Sie die Seite. 
-5. Wiederholen Sie die Schritte 1 - 3, um einen anderen Standardtitel für „Leitender Systemtechniker” zu erstellen.
+5. Wiederholen Sie die Schritte 1 - 3, um einen anderen Standardtitel für „Leitender Systemtechniker“ zu erstellen.
 
-> ![Beispieldaten für die Entität „Standardtitel“](media/ST-data.png)
+> ![Beispieldaten für die Entität „Standardtitel“.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

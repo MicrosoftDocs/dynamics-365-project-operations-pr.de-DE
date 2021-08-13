@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433652"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009215"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Was ist neu Juli 2021 - Project Operations Lite-Bereitstellung
 
@@ -20,7 +20,7 @@ _Gilt für: Lite Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
-  - Project Operations in Dataverse Umgebungsversion 4.12.0.148.
+  - Project Operations auf Dataverse Umgebung Version 4.12.0.148 oder 4.12.0.152.
 
 ## <a name="quality-updates"></a>Qualitätsupdates
 | **Funktionsbereich**              | **Referenznummer** | **Qualitätsupdate**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | Allgemein                       | 2296857              | Fortschrittsverfolgung für lang ausgeführte Jobs.                                                                                                                                                                        |
 | Allgemein                       | 2253682              | Die Project Operations Dual-Write-Lösung sollte nicht installiert werden, wenn Dual-Write Core in einer Umgebung ohne die Dual-Write-Orchestrierungslösung installiert ist.                                                |
 | Allgemein                       | 2316420              | Die Bereitstellung von Project Service Core schlägt fehl, wenn die Einheit des Anwendungsbenutzers geändert wird.                                                                                                                     |
+| Allgemein                       | 2376405              | Problem mit vom Herausgeber gesteuerten Updates behoben (Qualitätsupdate ist in Version 4.12.0.152 verfügbar)                                                                                                                     |

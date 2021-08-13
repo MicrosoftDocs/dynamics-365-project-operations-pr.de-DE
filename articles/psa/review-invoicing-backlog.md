@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006965"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Rechnungsstellungsrückstand für Projekte und Projektverträge überprüfen
 
@@ -40,7 +40,7 @@ Nicht fakturierte Umsatz-Istwerte stehen für den Abrechnungsrückstand und ihr 
 
 Um den Abrechnungsrückstand für Zeit und Materialien zu überprüfen, navigieren Sie zu **Vertrieb** \> **Abrechnung** \> **Abrechnungsrückstand für Zeit und Material überprüfen**. Wählen Sie alle nicht fakturierten Umsatz-Istwerte aus, die abgerechnet werden können, und wählen Sie dann **Bereit für die Rechnungsstellung** aus. Der Fakturierungsstatus dieser Istwerte wird in **Bereit für die Rechnungsstellung** geändert.
 
-![Abrechnungsrückstand für Zeit- und Material](media/TMBacklog.png)
+![Rückstandsprotokoll über Zeit‑ und Materialberechnung.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Abrechnungsrückstand für das Produkt überprüfen
 
@@ -48,7 +48,7 @@ Wenn ein Projektvertrag über produktbasierte Vertragszeilen verfügt, werden di
 
 Um den Abrechnungsrückstand für Produkte zu überprüfen, navigieren Sie zu **Vertrieb** \> **Abrechnung** \> **Abrechnungsrückstand für Produkte**. Wählen Sie alle produktbasierten Vertragszeilen aus, die abgerechnet werden können, und wählen Sie dann **Bereit für die Rechnungsstellung** aus. Der Fakturierungsstatus dieser Zeilen wird in **Bereit für die Rechnungsstellung** geändert.
 
-![Abrechnungsrückstand für Produkte](media/ProductBacklog.png)
+![Rechnungsrückstandsprotokoll zu Produkten.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Abrechnungsmeilensteine für Festpreisverträge überprüfen
 
@@ -56,7 +56,7 @@ Jede Projektvertragszeile mit einer Festpreis-Fakturierungsmethode muss Vertrags
 
 Um Abrechnungsmeilensteine zu überprüfen, navigieren Sie zu **Vertrieb** \> **Abrechnung** \> **Festpreismeilensteine**. Wählen Sie die Meilensteine aus, die abgerechnet werden können, und wählen Sie dann **Bereit für die Rechnungsstellung** aus. Der Fakturierungsstatus dieser Meilensteine wird in **Bereit für die Rechnungsstellung** geändert.
 
-![Festpreismeilensteine](media/FPBacklog.png)
+![Festpreismeilensteine.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

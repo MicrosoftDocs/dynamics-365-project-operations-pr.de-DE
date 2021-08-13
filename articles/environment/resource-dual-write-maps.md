@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025773"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003815"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations – Duales Schreiben-Zuordnungsversionen
 
@@ -32,7 +32,7 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für die Project Op
 
 1. Wählen Sie aus der Liste der Zuordnungen Finanzbuchhaltung **(msdyn\_ledgers)** mit allen Voraussetzungen aus und wählen Sie das Kontrollkästchen **Erstsynchronisation** aus. Wählen Sie im Feld **Master für die Erstsynchronisation** **Finance and Operations Apps** sowohl für die Finanzbuchhaltungszuordnung als auch für alle erforderlichen Zuordnungen. **Ausführen** auswählen.
 
-![Synchronisation der Ledger Zuordnung](media/DW6.png)
+![Synchronisation der Ledger-Zuordnung.](media/DW6.png)
 
 2. Befolgen Sie die gleichen Schritte für alle verbleibenden Tabellenzuordnungen, die in der obigen Tabelle aufgeführt sind. Wählen Sie nicht **Erstsynchronisation** Kontrollkästchen beim Ausführen dieser Zuordnungen aus.
 
@@ -65,7 +65,7 @@ Schließen Sie die folgenden Schritte ab, um die aufgeführten Zuordnungen auszu
 
 1. Aktivieren Sie die Projektressourcenrollen für die Tabellenzuordnung **alle Unternehmen (bookableresourcecategories)**, da diese Zuordnung die anfängliche Synchronisierung erfordert. Wählen Sie im Feld **Master für die Erstsynchronisation** **Common Data Service**. 
 
- ![Synchronisierung der Zuordnung von Ressourcenrollentabellen](media/6ResourceInitialSync.jpg)
+ ![Synchronisierung der Zuordnung von Ressourcenrollentabellen.](media/6ResourceInitialSync.jpg)
 
  Warten Sie, bis der Status der Zuordnung **Wird ausgeführt** lautet, bevor Sie mit dem nächsten Schritt fortfahren.
 

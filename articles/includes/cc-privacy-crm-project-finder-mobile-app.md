@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069610"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004810"
 ---
 Durch Aktivieren der Project Finder Mobile-App können Benutzer in der Organisation Projektarbeiten anzeigen und sich für Aufgaben anmelden. Sie können mit dieser App auch ihre Qualifikationen anzeigen und aktualisieren. Die Project Finder Mobile-App wird über die Projekt-Service-Parametereinstellungen aktiviert. Legen Sie hierzu den Wert der Attribute „Ressourcenanforderungen für Ressourcen sichtbar” und „Qualifikationsaktualisierung durch Ressource zulassen” auf „Ja” fest. Wenn Sie den Wert dieser Attribute auf „Nein” ändern, wird diese Funktion deaktiviert.  
   

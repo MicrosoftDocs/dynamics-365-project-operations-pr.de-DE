@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008805"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002420"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeiten mit dem Project Service Automation-Datenmodell
 
@@ -53,7 +53,7 @@ PSA fügt auch neue Entitäten in Verbindung mit Angeboten zum Dynamics 365-Dat
 
 Andere Entitäten, die PSA zu Angeboten hinzufügt, sind **Projektpreisliste der Angebotsposition**, **Ressourcenkategorie für die Angebotsposition** und **Transaktionskategorie der Angebotsposition**.
 
-![Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen](media/PS-Reporting-image2.png "Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen")
+![Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen.](media/PS-Reporting-image2.png "Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen")
 
 ## <a name="reporting-on-project-contracts"></a>Berichte zu Projektverträgen
 
@@ -69,7 +69,7 @@ PSA fügt auch neue Entitäten hinzu, die für Projektverträge verwendet werden
 
 Andere Entitäten, die PSA zu Verträgen hinzufügt, sind **Projektpreisliste der Projektvertragsposition**, **Ressourcenkategorie für die Projektvertragsposition** und **Transaktionskategorie der Projektvertragsposition**.
 
-![Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen](media/PS-Reporting-image3.png "Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen")
+![Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen.](media/PS-Reporting-image3.png "Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen")
 
 ## <a name="reporting-on-projects"></a>Berichte zu Projekten
 
@@ -81,7 +81,7 @@ Die **Projekte**-Entität und verknüpfte Entitäten sind für PSA exklusiv. **P
 - **Ressourcenanforderung** – Diese Entität enthält die Voraussetzungen für alle allgemeinen Ressourcenteammitglieder.
 - **Schätzung** und **Vorkalkulationsposition** – Diese Entitäten besitzen eine Kopfzeilen-/Positionsbeziehung und enthalten Ausgabenschätzungen für das Projekt. Aufgabenschätzungen werden in der **Ressourcenbasierten Schätzung** gespeichert.
 
-![Diagramm mit Ressourcenanforderung und Projekt-Beziehungen](media/PS-Reporting-image4.png "Diagramm mit Ressourcenanforderung und Projekt-Beziehungen")
+![Diagramm mit Ressourcenanforderung und Projekt-Beziehungen.](media/PS-Reporting-image4.png "Diagramm mit Ressourcenanforderung und Projekt-Beziehungen")
 
 ## <a name="reporting-on-resources"></a>Berichte zu Ressourcen
 
@@ -92,7 +92,7 @@ Projektressourcen verwenden die Entität **Buchbare Ressource** aus der Universa
 - **Buchbare Ressourcenkategorie** – Diese Entität stellt die Rolle der buchbaren Ressource dar.
 - **Buchbare Ressourcenbuchungen** – Diese Entität enthält die Uhrzeit, die für die Ressource in Projekten gebucht wird. Jede Buchung ist eine Kopfzeilenentität und Positionsentität, und jede Position enthält den Status, der den Status der Buchung darstellt.
 
-![Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen](media/PS-Reporting-image5.png "Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen")
+![Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen.](media/PS-Reporting-image5.png "Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen")
 
 ## <a name="reporting-on-actual-transactions"></a>Berichte zu tatsächlichen Transaktionen
 
@@ -120,7 +120,7 @@ Wenn Sie die Entität **Tatsächlich** verwenden, ist es wichtig, zu verstehen, 
 
 Die Entität **Transaktionsursprung** zeichnet den Ursprung des Datensatzes **Tatsächlich** und die Entität **Transaktionsverbindung** zeichnet die zugehörigen Datensätze für den Datensatz **Tatsächlich** auf. Darüber hinaus enthält der Datensatz **Tatsächlich** Verweise auf das Projekt, den Projektvertrag (Auftrag), die buchbare Ressource und den Kunden.
 
-![Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen](media/PS-Reporting-image6.png "Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen")
+![Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen.](media/PS-Reporting-image6.png "Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

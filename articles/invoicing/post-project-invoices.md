@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369015"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003770"
 ---
 # <a name="invoicing-process-overview"></a>Rechnungsverarbeitung, Vorschau
 
@@ -20,7 +20,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Project Operations für ressourcen-/nicht vorrätige Szenarien bietet umfassende Funktionen, die auf die Anforderungen des Projektmanagers und des Debitorenbuchhalters/Projektbuchhalters zugeschnitten sind. Für den Rechnungsstellungsprozess verwaltet der Projektmanager den Projektabrechnungsstau und der Debitorenbuchhalter/Projektbuchhalter erstellt einen konformen und genauen kundenorientierten Rechnungsbeleg.
 
-![Rechnungsflussdiagramm](./media/invoicing-flow.png)
+![Rechnungsflussdiagramm.](./media/invoicing-flow.png)
 
 Die Projektvertragszeile definiert die Abrechnungsmethode für zugehörige Projekttransaktionen. Wenn der Projektmanager Zeit- und Kostentransaktionen genehmigt, zeichnet das System die Transaktionen in der Entität **Projekt-Istwerte** auf und sendet die Informationen an die Module **Projektmanagement und Buchhaltung** in Dynamics 365 Finance. Der Projektbuchhalter überprüft und veröffentlicht die Aufzeichnungen dann mit dem [Project Operations Integration-Journal](../project-accounting/project-operations-integration-journal.md). Dieses Journal enthält wichtige Buchhaltungsdetails für Projektdaten, wie z. B. Abrechnung, Umsatzsteuergruppe, Umsatzsteuergruppe für Abrechnungsposten und finanzielle Dimensionen.
 

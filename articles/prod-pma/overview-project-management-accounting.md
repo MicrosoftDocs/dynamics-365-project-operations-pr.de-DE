@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369690"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007505"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektmanagement und -buchhaltung – Übersicht
 
@@ -34,14 +34,14 @@ Ein Projekt ist eine Gruppe von Aktivitäten, mit denen eine Dienstleistung erbr
 ## <a name="projects-across-industries"></a>Branchenübergreifende Projekte
 Die Projektmanagement- und Buchhaltungsfunktionen können in mehreren Branchen verwendet werden, wie in der folgenden Abbildung dargestellt.
 
-[![Branchenübergreifende Projekte](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Branchenübergreifende Projekte.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In einem Callcenter kann ein Ticket verwendet werden, um die Aktionen zu beschreiben, die zum Beheben eines Supportanrufs erforderlich sind. Beratungsunternehmen wie Managementorganisationen, technische Beratungsunternehmen oder Werbeagenturen bezeichnen ihre Aktivitäten als Projekte. Im Marketing stellt eine Kampagne eine Reihe von Arbeiten dar, die erbracht werden müssen. In der projektbasierten Fertigung bezeichnet ein Fertigungsauftrag die unterschiedlichen Arbeiten, die ausgeführt werden müssen, um bestimmte Fertigerzeugnisse herzustellen. Wie auch immer diese Art von Aktivitäten diese Projekte genannt werden, sind sie stets mit Ressourcen, Zeitplänen und Kosten verbunden, und die Projektmanagement- und Buchhaltungsfunktionen können bei der Planung, Ausführung und Analyse dieser Projekte hilfreich sein.
 
 ## <a name="project-phases"></a>Projektphasen
 Obwohl der folgende Prozessablauf auf externe Projekte oder Projekte abzielt, die für einen oder mehrere Kunden abgeschlossen wurden, gilt die Funktionalität auch für interne Projekte, die nur Kosten verursachen. 
 
-![3 Projektphasen](./media/3-stages-of-a-project.png) 
+![3 Projektphasen.](./media/3-stages-of-a-project.png) 
 
 Wie in der vorhergehenden Abbildung gezeigt, können Projektmanagement und Buchhaltung in drei Phasen unterteilt werden:
 
@@ -50,7 +50,7 @@ Wie in der vorhergehenden Abbildung gezeigt, können Projektmanagement und Buchh
 3.  Analysieren
 
 ## <a name="initiate-the-project"></a>Initiieren des Projekts
-Während der Projektinitiierung treten mehrere Schlüsselprozesse auf. Sie können ein Projektangebot verwenden, um dem Kunden die geschätzten Arbeitskräfte, Kosten und Materialien mitzuteilen. Sie können die Abrechnungsbedingungen, -begrenzungen und -vereinbarungen in einem Projektvertrag festhalten. Sie können einen Projektstrukturplan (PSP) verwenden, um die Arbeit zu planen und zu schätzen. Sie können Prognosen und Budgets einrichten, um die Projektausführung zu steuern. Die folgende Abbildung zeigt den Aufbau eines Projekts.[![Projektstruktur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Während der Projektinitiierung treten mehrere Schlüsselprozesse auf. Sie können ein Projektangebot verwenden, um dem Kunden die geschätzten Arbeitskräfte, Kosten und Materialien mitzuteilen. Sie können die Abrechnungsbedingungen, -begrenzungen und -vereinbarungen in einem Projektvertrag festhalten. Sie können einen Projektstrukturplan (PSP) verwenden, um die Arbeit zu planen und zu schätzen. Sie können Prognosen und Budgets einrichten, um die Projektausführung zu steuern. Die folgende Abbildung zeigt den Aufbau eines Projekts.[![Projektstruktur.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Projektangebote erstellen
 

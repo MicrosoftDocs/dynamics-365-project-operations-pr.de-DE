@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992833"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007145"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Fakturierbare Nutzung für Ressourcen anzeigen
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992833"
  
 In der **Nutzungsansicht** auf der Seite **Project Service Ressourcennutzung** wird die fakturierbare Nutzung für jede buchbare Ressource angezeigt. Da die Ansicht auf der Zeitplanübersicht basiert, sehen Sie viele der gleichen Funktionen.
 
-> ![Screenshot der Nutzungsansicht](media/FAQ-utilization-1.png)
+> ![Screenshot der Nutzungsansicht.](media/FAQ-utilization-1.png)
  
 
 Anrechenbare Nutzungsberechnungsverwendung funktioniert wie folgt:
@@ -48,7 +48,7 @@ Die Zielnutzung kann auf die Standardrolle der Ressource oder auf die einzelne R
 2. Wählen Sie eine Ressource aus, um den Datensatz zu öffnen. 
 3. Auf der Registerkarte **Project Service** können Sie die Zielnutzung der Ressource festlegen.
 
-> ![Screenshot der Verwendung der Project Service Registerkarte, um die Zielnutzung festzulegen](media/FAQ-utilization-2.png)
+> ![Screenshot der Verwendung der Project Service Registerkarte, um die Zielnutzung festzulegen.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Festlegen der Zielnutzung für eine Rolle
 
@@ -56,7 +56,7 @@ Die Zielnutzung kann auf die Standardrolle der Ressource oder auf die einzelne R
 2. Wählen Sie eine Rolle aus und öffnen Sie den Datensatz. 
 3. Prozentsatz der Zielnutzung für die Rolle festlegen.
 
-> ![Screenshot der Verwendung der Project Service Registerkarte, um die Zielnutzung festzulegen](media/FAQ-utilization-3.png)
+> ![Screenshot der Verwendung der Project Service Registerkarte, um die Zielnutzung festzulegen.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Berechnen der fakturierbaren Nutzung für eine Ressourcen
 
@@ -93,7 +93,7 @@ Wenn Sie keine fakturierbare Nutzung finden, sind hier einige Dinge, die Sie üb
 
 - Die Ressourcen mit Arbeitszeit, die für Kapazität definiert sind.
 - Die Ressource hat entweder einzelne definierte Nutzungsziele oder eine zugewiesene Standardrolle. Die Rolle verfügt über ein Nutzungsziel, das dafür definiert ist.
-- Ist-Werte weisen für den Zeitraum, für den Sie eine Nutzungsberechnung erwarten, den Fakturierungstyp **Fakturierbar** auf. Überprüfen Sie Folgendes, wenn Ist-Werte mit Fakturierungstypen anders als „fakturierbar” angezeigt werden:
+- Ist-Werte weisen für den Zeitraum, für den Sie eine Nutzungsberechnung erwarten, den Fakturierungstyp **Fakturierbar** auf. Überprüfen Sie Folgendes, wenn Ist-Werte mit Fakturierungstypen anders als „fakturierbar“ angezeigt werden:
 
   - Die Rolle, die für die Ist-Werte verwendet wird, hat einen Standardfakturierungstyp, der nicht anrechenbar ist.
   - Die Rolle in der Projektvertragszeile, die das Projekt unterstützen, sind auf nicht verrechenbar festgelegt.

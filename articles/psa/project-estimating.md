@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009165"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002555"
 ---
 # <a name="project-costs-and-revenue"></a>Projektkosten und Umsatz
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009165"
 
 Projekteinschätzungen stellen die Finanzansicht für die Arbeit bereit, die im Projektplan geschätzt und geplant wird. Die Registerkarte **Schätzungen** auf der **Projekte** zeigt die Kosten- und Umsatzauswirkungen der Arbeit an, die Sie planen. Sie enthält auch Informationen zu vielen vordefinierten Dimensionen. 
 
-> ![Registerkarte „Schätzungen“](media/project-5.png)
+> ![Registerkarte „Schätzungen“.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Kosten- und Verkaufswerte des Projektes
 
@@ -66,13 +66,13 @@ Wenn das System keinen Preis für die Rolle findet, wird der Verkaufspreis in de
 
 Die Registerkarte **Schätzungen** hat eine Rasteransicht, in der die Vorkalkulationspositionen angezeigt werden. Das Raster enthält Spalten für die Einheit, den Gesamteinstandspreis und Gesamtverkaufspreis, wie in der folgenden Abbildung gezeigt. 
 
-> ![Rasteransicht auf der Registerkarte „Schätzungen“](media/project-6.png)
+> ![Rasteransicht auf der Registerkarte „Schätzungen“.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Zeitphasenansicht von Projektschätzungen
 
 Die Zeitphasenansicht der Projektschätzungen zeigt die Schätzungsdaten der Rasteransicht mit den Teitdaten in einer gewählten Zeitskala. Standardmäßig werden die Schätzungsdaten in der Dimension **Rolle** angezeigt.
 
-> ![Zeitphasenansicht für Projektschätzungen](media/project-7.png)
+> ![Zeitphasenansicht für Projektschätzungen.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Zuweisen des geschätzten Aufwands basierend auf dem Aufgabenmodus
 

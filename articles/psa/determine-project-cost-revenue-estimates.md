@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a81214baafc2017b3d67e6b8bb5b2de19025b10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015240"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002600"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Schätzungen bezüglich Arbeit, Kosten und Umsatz für ein Projekt bestimmen 
 
@@ -62,7 +62,7 @@ In der Zeitphasenansicht für Projektschätzungen werden die Schätzungsdaten vo
 In der Zeitphasenansicht wird der Gesamtaufwand, der für die Aufgabe geschätzt wird, zugewiesen, indem eine bestimmte Anzahl von Aufwandsstunden pro Einheitszeitraum des ausgesuchten Zeitraums zugewiesen wird. Im Project Service bestimmt der Aufgabenmodus, wie der Aufwand über die Dauer der Aufgabe zugeteilt wird. Die zwei Arten der Verteilung sind gleichmäßige Zuteilung und auf Arbeitsstunden basierte Zuteilung. 
   
 ## <a name="work-hours-based-allocation"></a>Arbeitsstunden basierte Zuteilung  
-Der automatische Aufgabenzeitplanmodus regelt den für die Anzahl von Ressourcen, die für die Aufgabe geschätzt werden, sie werden für die vollen Arbeitsstunden pro Tag geschätzt. Dies trifft auch zu, wenn die Zuweisung des Aufwands durch Aufteilung über der Dauer der Aufgaben in der Zeitphasenansicht erfolgt. Zum Beispiel: Bei einem ein „Tag”-Zeitraum für eine Aufgabe, die durch eine Ressource abgeschlossen werden soll, übersteigt der zugewiesene Aufwand pro Tag nicht die Arbeitsstunden pro Tag, die im Kalender des Projektes definiert werden. Deshalb garantiert die Aufwandszuweisung immer, dass die Ressourcen so geschätzt werden, dass sie den ganzen Tages verwendet werden.  
+Der automatische Aufgabenzeitplanmodus regelt den für die Anzahl von Ressourcen, die für die Aufgabe geschätzt werden, sie werden für die vollen Arbeitsstunden pro Tag geschätzt. Dies trifft auch zu, wenn die Zuweisung des Aufwands durch Aufteilung über der Dauer der Aufgaben in der Zeitphasenansicht erfolgt. Zum Beispiel: Bei einem ein „Tag“-Zeitraum für eine Aufgabe, die durch eine Ressource abgeschlossen werden soll, übersteigt der zugewiesene Aufwand pro Tag nicht die Arbeitsstunden pro Tag, die im Kalender des Projektes definiert werden. Deshalb garantiert die Aufwandszuweisung immer, dass die Ressourcen so geschätzt werden, dass sie den ganzen Tages verwendet werden.  
   
 ## <a name="even-distribution"></a>Gleichmäßige Verteilung  
 Manuell geplanter Aufgabenmodus zieht die Arbeitsstunden, den Projektkalender oder die Anzahl der Ressourcen, die für die Aufgabe definiert werden, nicht in Betracht. Der Arbeitsplan basiert auf Benutzereingaben. Für solche Aufgaben hat die Aufwandszuteilung pro Einheitszeitraum des ausgesuchten Zeitraums keine Begrenzungsfaktoren. Der Gesamtaufwand für die Aufgabe wird gleichmäßig auf jeden Einheitszeitraum im ausgesuchten Zeitraum aufgeteilt und zugeteilt.  
@@ -70,7 +70,7 @@ Manuell geplanter Aufgabenmodus zieht die Arbeitsstunden, den Projektkalender od
 Auf diese Art bestimmt der Aufgabenmodus für die Aufgabe die Aufwandsverteilung oder die Verteilung des Aufwands pro Einheitszeitraum in Zeitphasenschätzungen.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Gruppierung und Zeitphasenoptionen  
-Diese Ansicht hilft Ihnen, die Verteilung des Aufwands, der Kosten und der Vertriebsschätzungen auf Tages-, Wochen-, Monats- oder Jahresbasis zu verstehen. Die Option „Gruppieren nach” erlaubt das Kreuzfiltern der Schätzungsdaten auf zwei anderer Dimensionen: Kategorie und Ressource. Auf der Gitteransicht und der Zeitphasenansicht können Sie die Felder auswählen, die angezeigt werden sollen. Summen für jeden der Zeitblöcke werden unten angezeigt, und geben die Summe des geschätzten Aufwands und der Kosten an sowie die Verkäufe für den Tag, die Woche, den Monat oder das Jahr.  
+Diese Ansicht hilft Ihnen, die Verteilung des Aufwands, der Kosten und der Vertriebsschätzungen auf Tages-, Wochen-, Monats- oder Jahresbasis zu verstehen. Die Option „Gruppieren nach“ erlaubt das Kreuzfiltern der Schätzungsdaten auf zwei anderer Dimensionen: Kategorie und Ressource. Auf der Gitteransicht und der Zeitphasenansicht können Sie die Felder auswählen, die angezeigt werden sollen. Summen für jeden der Zeitblöcke werden unten angezeigt, und geben die Summe des geschätzten Aufwands und der Kosten an sowie die Verkäufe für den Tag, die Woche, den Monat oder das Jahr.  
   
 Der Standardeinstandspreis und der Verkaufspreis sind datumswirksam. Wenn sich die Sätze für die Rollen ändern, sind sie in der Zeitphasenansicht transparenter, wenn Schätzungsdaten, die auf Ressource gefiltert und mit wöchentlicher Zeitphase angezeigt werden.  
   
