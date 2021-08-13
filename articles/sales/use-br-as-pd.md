@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996255"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Eine buchbare Ressourcen als Preisdimension verwenden
 
@@ -64,18 +64,18 @@ Der Preisdimensionsdatensatz **msydn_bookableresource** muss diesen Unterschied 
 1. Doppelklicken Sie auf die Zeile im Raster **Preisdimensionen**, um die Dimensionsseite von **msdyn_bookableresource** zu öffnen.
 2. Klicken Sie auf der Dimensionsseite auf der Registerkarte **Verknüpft** auf **Preisdimensions-Feldnamen**.
 
-  ![Registerkarte „Preisdimensions-Feldnamen”](media/PD-fieldname.png)
+  ![Registerkarte „Preisdimensions-Feldnamen“.](media/PD-fieldname.png)
 
 3. Klicken Sie in der angezeigten Ansicht auf **Neuen Preisdimensions-Feldnamen hinzufügen**.
 
-  ![Neue Preisdimensions-Feldnamen hinzufügen](media/Add-NewPD-fieldname.png)
+  ![Neue Preisdimensions-Feldnamen hinzufügen.](media/Add-NewPD-fieldname.png)
 
   Dadurch wird die Seite **Neuer Preisdimensions-Feldnamen** für **msdyn_bookableresource** geöffnet. 
 
 4. Auf der **Neuen Preisdimensions-Feldnamen hinzufügen**-Seite fügen Sie **msdyn_projectteam** zu **Logischer Name der Entität** hinzu.
 5. Fügen Sie **msdyn_bookableresourceid** zu **Feldname** hinzu.
 
- ![Formular „Neuer Preisdimensions-Feldname”](media/PD-fieldname-Added.png)
+ ![Formular „Neuer Preisdimensions-Feldname“.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

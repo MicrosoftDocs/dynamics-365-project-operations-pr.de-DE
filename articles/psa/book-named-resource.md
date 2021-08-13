@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013395"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000485"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Buchen von benannten Ressourcen aus Ressourcenanforderungen
 
@@ -35,33 +35,33 @@ Sie können eine benannte Ressource buchen, um eine allgemeine Ressource zu erse
 2. Wählen Sie in der Liste die allgemeine Ressource aus, die eine Ressourcenanforderung enthält, und klicken Sie dann auf **Buchen**. Alternativ öffnen Sie die Ressourcenanforderungen und klicken Sie dann auf **Buchen**.
 
 
-![Buchen eines generischen Teammitglieds](media/RM-how-to-14.png)
+![Buchen eines generischen Teammitglieds.](media/RM-how-to-14.png)
 
 
 3. Wählen Sie auf der Seite **Zeitplan-Assistent** eine benannte Ressource aus, um sie für Ihr Projektteam zu buchen, und klicken Sie anschließend auf **Buchen**.
 
-![Buchen eines generischen Teammitglieds mithilfe des Zeitplan-Assistenten](media/RM-how-to-15.png)
+![Buchen eines generischen Teammitglieds mithilfe des Zeitplan-Assistenten.](media/RM-how-to-15.png)
 
 Wenn die Buchung abgeschlossen und von einer benannten Ressource ausgeführt wurde, wird die generische Ressource durch die benannte Ressource ersetzt.
 
-![Benanntes Teammitglied, das ein generisches Teammitglied ersetzt](media/RM-how-to-16.png)
+![Benanntes Teammitglied, das ein generisches Teammitglied ersetzt.](media/RM-how-to-16.png)
 
 Die Zuweisungen im Zeitplan werden mit der benannten Ressource ebenfalls aktualisiert.
 
-![Benanntes Teammitglied, das Projektaufgaben zugewiesen ist](media/RM-how-to-17.png)
+![Benanntes Teammitglied, das Projektaufgaben zugewiesen ist.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Erfüllen einer generischen Ressource mit mehreren benannten Ressourcen
 Das Erfüllen einer Anforderungen für eine generische Ressource mit mehreren benannten Ressourcen ähnelt dem Zuweisen einer einzelnen benannten Ressource. Zum Beispiel gibt es eine Aufgabe mit einer Dauer von fünf Tagen und einem Aufwand von 120 Stunden. Diese Aufgabe kann nicht von einer Ressource ausgeführt werden, die einen typischen Acht-Stunden-Tag über eine Fünf-Tage-Woche hat. 
 
-![Aufgabe, die einen Aufwand von 120 Stunden über fünf Tage erfordert](media/RM-how-to-21.png)
+![Aufgabe, die einen Aufwand von 120 Stunden über fünf Tage erfordert.](media/RM-how-to-21.png)
 
 Die Anforderung lautet 120 Stunden Robotertechnik an fünf Tagen, also 24 Stunden am Tag.
 
-![Anforderung pro Tag](media/RM-how-to-22.png)
+![Anforderung pro Tag.](media/RM-how-to-22.png)
 
 Dies ist ein Beispiel für den Fall, dass mehrere benannte Ressourcen benötigt werden, um eine generische Ressourcenanforderung zu erfüllen. Sie müssen mehrere Ressourcen buchen, um die Anforderung zu erfüllen.
 
-![Buchen von mehreren Ressourcen, um die Anforderung zu erfüllen](media/RM-how-to-23.png)
+![Buchen von mehreren Ressourcen, um die Anforderung zu erfüllen.](media/RM-how-to-23.png)
 
 Der Hauptunterschied in diesem Szenario besteht darin, dass die generische Ressource bei dem der Aufgabe zugewiesenen Team bleibt und die gebuchten Mitglieder des benannten Ressourcenteams nicht als Teil der Position zugewiesen werden. Der Projektmanager kann die Arbeit den genannten Ressourcen entsprechend zuweisen. Die Ansicht **Abstimmung** unterstützt einen Projektmanager bei der Aufteilung der Buchungen auf mehrere Ressourcen zu Aufgabenzuweisungen. Dies erfolgt nicht automatisch, da in jedem Szenario, das komplizierter ist als das obige einfache Beispiel, z. B. wenn Sie ein Bündel von Aufgaben haben, aus denen die Anforderung besteht, muss die Absicht, wie der Projektmanager sie zuweisen möchte, vom System angenommen werden. Da das System Absichten nicht verstehen kann, ist es wahrscheinlich, dass die Annahmen anders als beabsichtigt sind und ein falsches oder unvorhersagbares Ergebnis auftritt. Das vorhersagbare Ergebnis ist, dass die generische Ressource zugewiesen bleibt, bis der Projektmanager mit Hilfe der Ansicht **Abstimmung** willentlich Zuweisungen erstellt.
 

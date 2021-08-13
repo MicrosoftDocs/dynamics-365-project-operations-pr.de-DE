@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002775"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995805"
 ---
 # <a name="intercompany-invoicing"></a>Intercompany-Rechnungsstellung
 
@@ -33,7 +33,7 @@ Ihre Organisation verfügt möglicherweise über mehrere Abteilungen, Tochterunt
 
 Die folgende Abbildung zeigt ein typisches Szenario, in dem zwei juristische Personen, SI FR (die kreditnehmende juristische Person) und SI USA (die kreditgebende juristische Person), Ressourcen gemeinsam nutzen, um ein Projekt für Kunde A zu liefern. In diesem Szenario wird SI FR mit der Lieferung der Arbeit an Kunde A beauftragt. 
 
-[![Beispiel für Intercompany-Rechnungsstellung](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Beispiel für Intercompany-Rechnungsstellung.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Ziel ist es, die Kostenkontrolle, die Umsatzrealisierung, die Steuern und den Transferpreis für Intercompany-Projekttransaktionen flexibler und leistungsfähiger zu gestalten. Darüber hinaus stehen folgende Funktionen zur Verfügung:
 

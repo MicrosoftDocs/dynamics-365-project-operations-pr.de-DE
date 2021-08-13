@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b6bbb1b747cbf8ce9fa1ffd2bfec6b47ac877b60
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8a1b5152b76cbcdfb5160a0af78eceec2c42b9a13dfc76701b6ad935318c7ba8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996115"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997875"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Konzepte, die nur für projektbasierte Angebote gelten
 
@@ -61,7 +61,7 @@ Die Zeit und die Materialabrechnungsmethode basiert auf dem Verbrauch. Wenn Sie 
 
 ### <a name="fixed-price"></a>Festpreis
 
-Bei der Abrechnungmethode „Festpreis” verpflichtet sich ein Zulieferer dazu, das Projekt zu einem Festpreis an den Kunden zu liefern. Dem Kunden wird der Angebotswert der Angebotszeile mit dem Festpreis in Rechnung gestellt, unabhängig von den Kosten, die dem Zulieferer bei der Lieferung dieser Angebotszeile entstehen. Der Wert der Angebotszeile mit dem Festpreis wird auf eine der folgenden Arten in Rechnung gestellt: 
+Bei der Abrechnungmethode „Festpreis“ verpflichtet sich ein Zulieferer dazu, das Projekt zu einem Festpreis an den Kunden zu liefern. Dem Kunden wird der Angebotswert der Angebotszeile mit dem Festpreis in Rechnung gestellt, unabhängig von den Kosten, die dem Zulieferer bei der Lieferung dieser Angebotszeile entstehen. Der Wert der Angebotszeile mit dem Festpreis wird auf eine der folgenden Arten in Rechnung gestellt: 
 
 - Als Pauschalbetrag am Anfang oder Ende des Projekts, oder wenn ein Projektmeilenstein erreicht ist. 
 - In einer datumsbasierten Frequenz mit gleichen Raten des festen Wertes in der Angebotszeile. Diese Raten werden auch regelmäßige Meilensteine genannt.

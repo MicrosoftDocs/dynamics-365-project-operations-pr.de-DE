@@ -6,12 +6,12 @@ ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 02ed62c9ea27429b4b1d95d67d1607a090ab1dd2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995980"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993330"
 ---
 # <a name="extending-time-entries"></a>Zeiteinträge verlängern
 
@@ -115,7 +115,7 @@ Diese Ansicht sollte die Felder **Beschreibung** und **Externe Kommentare** enth
 > [!NOTE] 
 > Durch beide Optionen werden einige der standardmäßigen Filterungen bei den Entitäten **Projekt** und **Projektaufgabe** entfernt, sodass alle Suchansichten für die Entitäten sichtbar werden. Standardmäßig sind nur die relevanten Suchansichten sichtbar.
 
-Legen Sie den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld fest. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenflow „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten” verschoben werden.
+Legen Sie den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld fest. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenflow „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten“ verschoben werden.
 
 Um einem Aufgabenfluss ein benutzerdefiniertes Feld hinzuzufügen, ziehen Sie ein Element **Feld** an die geeignete Position auf der Seite, und legen Sie dann die Feldeigenschaften fest. Legen Sie die Eigenschaft **Quelle** auf **Zeiteintrag** und dann die Eigenschaft **Datenfeld** für das benutzerdefinierte Feld fest. Die Eigenschaft **Feld** gibt den Anzeigenamen auf der TBX-Seite an. Wählen Sie **Anwenden**, um Ihre Änderungen im Feld zu speichern, und wählen Sie dann **Aktualisieren**, um Ihre Änderungen an der Seite zu speichern.
 
@@ -124,8 +124,8 @@ Um stattdessen eine neue benutzerdefinierte TBX-Seite zu verwenden, erstellen Si
 ### <a name="add-new-option-set-values"></a>Hinzufügen neuer Optionssatzwerte
 Um Optionssatzwerte einem standardmäßigen Feld hinzuzufügen, öffnen Sie die Bearbeitungsseite des Felds und wählen Sie unter **Typ** die Option **Bearbeiten** neben dem Optionssatz aus. Fügen Sie eine neue Option hinzu, die eine benutzerdefinierte Beschriftung und Farbe hat. Wenn Sie einen neuen Zeiteintragsstatus hinzufügen möchten, wird das standardmäßige Feld **Eintragsstatus** und nicht **Status** genannt.
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Festlegen eines neuen Zeiteintragsstatus als „schreibgeschützt”
-Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt“ festlegen möchten, fügen Sie den neuen Zeiteintragswert der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Der bearbeitbare Teil des Zeiteintragsrasters wird für Zeilen mit dem Status „Neu” gesperrt.
+### <a name="designate-a-new-time-entry-status-as-read-only"></a>Festlegen eines neuen Zeiteintragsstatus als „schreibgeschützt“
+Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt“ festlegen möchten, fügen Sie den neuen Zeiteintragswert der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Der bearbeitbare Teil des Zeiteintragsrasters wird für Zeilen mit dem Status „Neu“ gesperrt.
 Fügen Sie dann Geschäftsregeln hinzu, um alle Felder auf den TBX-Seiten **Bearbeiten der Zeile mit Zeiteintrag** und **Bearbeiten von Zeiteinträgen** zu sperren. Sie können auf die Geschäftsregeln für diese Seiten zugreifen, indem Sie den Editor für den Geschäftsprozessfluss für die Seite öffnen und dann **Geschäftsregeln** auswählen. Sie können den neuen Status der Bedingung in vorhandenen Geschäftsregeln hinzufügen, oder Sie können eine neue Geschäftsregel für den neuen Status hinzufügen.
 
 ### <a name="add-custom-validation-rules"></a>Hinzufügen benutzerdefinierter Prüfungsregeln

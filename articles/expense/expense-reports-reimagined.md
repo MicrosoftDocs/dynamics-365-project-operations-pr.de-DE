@@ -2,7 +2,7 @@
 title: Neu gestaltete Spesenabrechnungen
 description: In diesem Thema wird die neu gestaltete Umgebung zur Erfassung von Spesenabrechnungen erläutert.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251003"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997830"
 ---
 # <a name="expense-reports-reimagined"></a>Neu gestaltete Spesenabrechnungen
 
@@ -57,12 +57,13 @@ Um die neue Funktion einzuschalten, verwenden Sie den **Arbeitsbereich Funktions
 | Wechselkursrechner | Es wurde ein Wechselkursrechner hinzugefügt, mit dem Sie den Wechselkurs für Transaktionen mit mehreren Währungen aus eigener Tasche berechnen können. |
 | Speichern und Hinzufügen neuer Ausgabenpositionen | Die Schaltflächen **Speichern** und **Neu** sind bei der Eingabe neuer Ausgaben verfügbar, mit denen Sie schnell Ausgabenpositionen eingeben können. |
 | Bessere Sichtbarkeit in geteilte und aufgeschlüsselte Positionen | Aufgeschlüsselte und geteilte Positionen werden direkt der Liste der Ausgaben hinzugefügt, um die Sichtbarkeit zu erhöhen und um leicht festzustellen, ob Fehler vorliegen. |
-| Anzeige von Unterkategorie-Details in Einzelposten-Zeilen | Einzelpostenzeilen einer übergeordneten Ausgabe zeigen die Labels der Unterkategorien in der Spesenabrechnung an, was Ihnen hilft, die detaillierten Details auf einen Blick zu sehen.|
+| Anzeige von Unterkategorie-Details in Einzelposten-Zeilen | Aufgelistete Positionen einer übergeordneten Ausgabe zeigen die Unterkategoriebezeichnungen in der Ausgabenabrechnung an. Mit der Aufstellung können Sie die granularen Details auf einen Blick überprüfen.|
 | Belege während der Auflistung anzeigen | Belege können während der Auflistung angezeigt werden. |
 | Barvorschussauswahl | Wählen Sie einen oder mehrere Barvorschüsse aus, um eine einzelne Ausgabentransaktion durchzuführen. |
 | Barvorschusssaldo | Überprüfen Sie den Barvorschusssaldo in Echtzeit, wenn Sie einen Speseneintrag für genehmigte und bezahlte Barvorschüsse erstellen. |
 
 Die erste Version konzentriert sich auf Ausgabenabrechnungsszenarien. In jedem Ausgabenabrechnungs- oder Genehmigungsszenario wird weiterhin die vorhandene Ausgabenabrechnung verwendet.
+
 
 Die folgenden Funktionen werden im Arbeitsbereich für neu gestaltete Spesenabrechnungen nicht unterstützt, sind aber für zukünftige Versionen geplant: 
 

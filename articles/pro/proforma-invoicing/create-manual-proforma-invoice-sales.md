@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1b839c3e40ddcfe1f07b0330a78c42851140d4bf
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d02728ce682781eb8816e0c2239cf62f88adfa8c5d2a0aab280be053c2a5ae6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992925"
 ---
 # <a name="proforma-project-pnvoices"></a>Proforma-Projektrechnungen
 
@@ -54,7 +54,7 @@ Rechnungen in einem Massenvorgang erstellen:
 Führen Sie die folgenden Schritte aus, um einen automatisierten Rechnungslauf zu konfigurieren.
 
 1. Gehen Sie zu **Einstellungen** \> **Batch-Auftrag**.
-2. Erstellen Sie einen Batchauftrag und nennen Sie ihn **Vorgang zum Erstellen von Rechnungen**. Der Name des Batchauftrags muss den Wortlaut „Rechnungen erstellen” enthalten.
+2. Erstellen Sie einen Batchauftrag und nennen Sie ihn **Vorgang zum Erstellen von Rechnungen**. Der Name des Batchauftrags muss den Wortlaut „Rechnungen erstellen“ enthalten.
 3. Wählen Sie im Feld **Auftragstyp** **Keiner** aus. Standardmäßig sind die Optionen **Frequenz täglich** und **Ist aktiv** auf **Ja** festgelegt.
 4. Wählen Sie **Workflow ausführen** aus. Im Dialogfeld **Datensatz suchen** werden die folgenden Workflows angezeigt:
 

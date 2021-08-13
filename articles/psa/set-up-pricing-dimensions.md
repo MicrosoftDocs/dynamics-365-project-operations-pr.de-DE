@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008310"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002330"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Einrichten von benutzerdefinierten Feldern als Preisdimensionen 
 
@@ -41,11 +41,11 @@ Damit ein Feld zu einer Preisdimension wird, muss es:
 - als Feld in den Entitäten **Rollenpreis** und **Rollenpreisaufschlag** erstellt werden. Weitere Informationen hierzu erhalten Sie unter [Hinzufügen benutzerdefinierter Felder zum Preis und zu Transaktionsentitäten](field-references.md).
 - als Zeile in der Tabelle **Preisdimension** erstellt worden sein. Beispielsweise können Sie Preisdimensionszeilen, wie in der folgenden Grafik dargestellt, hinzufügen. 
 
-![Betragsbasierte Preisdimensionszeilen](media/Amt-based-PD.png)
+![Betragsbasierte Preisdimensionszeilen.](media/Amt-based-PD.png)
 
 Beachten Sie, dass die Arbeitszeiten der Ressource (**msdyn_resourceworkhours**) als aufschlagsbasierte Dimension und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
 
-![Aufschlagsbasierte Preisdimensionszeilen](media/Markup-based-PD.png)
+![Aufschlagsbasierte Preisdimensionszeilen.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Jegliche Änderungen an Preisdimensionsdaten in der Tabelle, ob bei vorhandenen oder neuen Daten, werden erst an die Project Service-Geschäftslogik für Preise weitergegeben, wenn der Cache aktualisiert wird. Die Aktualisierungszeit des Cache kann bis zu 10 Minuten betragen. Warten Sie diese Zeit ab, um die Änderungen in der Preis-Standardlogik anzuzeigen, die aus Änderungen an den Preisdimensionsdaten resultieren müssen.

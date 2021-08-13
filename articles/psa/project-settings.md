@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998320"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996930"
 ---
 # <a name="project-settings"></a>Projekteinstellungen
 
@@ -47,7 +47,7 @@ Zur Erstellung eines Projektzeitplans erstellen Sie zuerst eine Projektkalenderv
   - Arbeitsplan für einen Tag
   - Arbeitsfreie Zeit
 
-> ![Festlegen von Optionen](media/project-13.png)
+> ![Festlegen von Optionen.](media/project-13.png)
 
 4. Wählen Sie **Neuer wöchentlicher Zeitplan** aus und legen Sie anschließend die Optionen für den Ressourcenzeitplan fest. Sie können einen wöchentlichen Serienzeitplan, tägliche Stundenparameter, Betriebsferien und mehr festlegen.
 5. Legen Sie den Datumsbereich fest, wählen Sie **Speichern** aus und klicken Sie dann auf **Schließen**. 

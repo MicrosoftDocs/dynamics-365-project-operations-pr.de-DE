@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998050"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998235"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Verwenden der Zeitplanübersicht zum Buchen von Projektressourcen
 
@@ -34,23 +34,23 @@ Bevor Buchungen über die Zeitplanübersicht möglich sind, müssen Sie Ressourc
 1. Falls der Bereich **Buchungsanforderungen** unten auf der Seite reduziert ist, erweitern Sie ihn mit dem Erweiterungssteuerelement.
 2. Wählen Sie im Bereich **Buchungsanforderungen** auf der Registerkarte **Projekt** die zu buchende Anforderung aus.
 
-    ![Auf der Registerkarte „Projekt“ ausgewählte Anforderung](media/Resource-Management-image73.png)
+    ![Auf der Registerkarte „Projekt“ ausgewählte Anforderung.](media/Resource-Management-image73.png)
 
 3. Wählen Sie **Verfügbarkeit suchen** aus, um die buchbaren Ressourcen zu filtern und die verfügbaren Ressourcen anzuzeigen. 
 4. Wählen Sie in der Zeitplanübersicht eine oder mehrere Ressourcen aus. 
 5. Geben Sie im Bereich **Ressourcenbuchung erstellen** rechts auf der Seite die Buchungsinformationen ein und wählen Sie dann **Buchen und beenden** aus.
 
-    ![Bereich „Ressourcenbuchung erstellen“ für die ausgewählte buchbare Ressource](media/Resource-Management-image74.png)
+    ![Bereich „Ressourcenbuchung erstellen“ für die ausgewählte buchbare Ressource.](media/Resource-Management-image74.png)
 
 6. Wählen Sie während dem Auswählen der Anforderung im Bereich **Ressourcenbuchung erstellen** eine oder mehrerer Zellen einer Ressource aus, um die Buchung zu erstellen.
 
-    ![Mehrere für eine Ressource ausgewählte Zellen](media/Resource-Management-image75.png)
+    ![Mehrere für eine Ressource ausgewählte Zellen.](media/Resource-Management-image75.png)
 
 7. Wählen Sie **Buchen** aus.
 
 Die Anforderung wird durch das Verwenden der ausgewählten Ressource erfüllt. Beachten Sie im Bereich **Buchungsanforderungen**, dass die Anforderung aktualisiert wurde und die Ressource als für das Projekt gebucht angezeigt wird.
 
-![Für das Projekt gebuchte Ressource](media/Resource-Management-image76.png)
+![Für das Projekt gebuchte Ressource.](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

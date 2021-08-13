@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996565"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993240"
 ---
 # <a name="project-invoice-integration"></a>Projektrechnungsintegration
 
@@ -20,7 +20,7 @@ Dieses Thema enthält Informationen zur Dual-Write-Integration von Project Opera
 
 Im Project Operations verwaltet der Projektmanager den Projektabrechnungsstau und erstellt eine Proforma-Rechnung für den Debitor in Microsoft Dataverse. Basierend auf dieser Proforma-Rechnung erstellt der Debitorenbuchhalter oder Projektbuchhalter eine kundenorientierte Rechnung. Durch die Dual-Write-Integration wird sichergestellt, dass die Proforma-Rechnungsdetails mit Finance and Operations Apps synchronisiert werden. Nachdem die kundenorientierte Rechnung gebucht wurde, aktualisiert das System die relevanten Projektdaten in Dataverse mit dem Buchhaltungsdetail. Die folgende Grafik bietet einen allgemeinen konzeptionellen Überblick über diese Integration.
 
-   ![Projektrechnungsintegration](./media/DW5Invoicing.png)
+   ![Projektrechnungsintegration.](./media/DW5Invoicing.png)
 
 Nachdem der Projektmanager die Proforma-Rechnung in Dataverse bestätigt hat, werden die Proforma-Rechnungskopfinformationen mit Finance and Operations Apps synchronisiert, die die Dual-Write-Tabellenzuordnung **Projektrechnungsvorschlag V2 (Rechnungen)** verwenden. Dies ist eine Einwegintegration von Dataverse zu Finance and Operations Apps. Erstellen oder Löschen von Projektrechnungsvorschlägen direkt in Finance and Operations Apps werden nicht unterstützt.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c117e06e7a5c57c7f9b70d1380f450c0ea97cd12
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002285"
 ---
 # <a name="customize-weekly-time-entry"></a>Wöchentlichen Zeiteintrag anpassen 
 
@@ -48,7 +48,7 @@ Der Abschnitt **Dimensionen** zeigt, wie Spaltenüberschriften, alle Dimensionen
 Im Abschnitt **Dimensionen** ist keine Inlinebearbeitung zulässig. Dieser Abschnitt wird durch eine Ansicht unterstützt, in der benutzerdefinierte Felder dem Raster für den wöchentlichen Zeiteintrag hinzugefügt werden können. Informationen dazu, wie benutzerdefinierte Felder hinzugefügt werden können, finden Sie im Abschnitt "Erweiterbarkeit" weiter unten in diesem Thema.
 
 ### <a name="duration"></a>Dauer
-Im Abschnitt „Dauer” werden die Wochentage als Spaltenüberschriften angezeigt. In diesem Abschnitt ist die Inlinebearbeitung zulässig. Nachdem eine Zeiteintragungszeile erstellt wurde, die über entsprechende Dimensionen verfügt, können Benutzer schnell inline die Zeit eingeben, die sie für die jeweiligen Dimensionen gebraucht haben.
+Im Abschnitt „Dauer“ werden die Wochentage als Spaltenüberschriften angezeigt. In diesem Abschnitt ist die Inlinebearbeitung zulässig. Nachdem eine Zeiteintragungszeile erstellt wurde, die über entsprechende Dimensionen verfügt, können Benutzer schnell inline die Zeit eingeben, die sie für die jeweiligen Dimensionen gebraucht haben.
 
 ## <a name="create-a-new-time-entry"></a>Erstellen eines neuen Zeiteintrags
 Um einen neuen Zeiteintrag im Raster für den Zeiteintrag zu erstellen, wählen Sie **Neu** aus. Das Dialogfeld **Schnellerfassung für Zeiteintrag** wird angezeigt. In diesem Dialogfeld können Benutzer das Zeiteintragungsdatum auswählen und dann Daten für die Dimensionen **Projekt**, **Projektaufgabe**, **Rolle** und **Dauer** in Minuten, Stunden oder Tagen angeben, indem sie **h**, **m** oder **d** zusammen mit der Zahl eingeben. Benutzer können auch eine Beschreibung und Kommentare eingeben, die extern für den Zeiteintrag freigegeben werden können. Wenn Benutzer ihre Änderungen speichern, erscheinen die Werte, die sie für die Dimensionen eingegeben haben, im Abschnitt **Dimensionen**. Informationen zur Dauer, die sie im Feld **Dauer** eingegeben haben, werden im Datum angezeigt, für das der Zeiteintrag erstellt wurde.
@@ -77,7 +77,7 @@ Neuen Zeiteinträgen wird automatisch der Status **Entwurf** zugewiesen. Wenn ei
 Wenn ein Zeiteintrag von einer genehmigenden Person abgelehnt wurde, kann diese Person Kommentare zur Ablehnung angeben, um der Ressource den Grund für die Ablehnung zu erklären. Um sich die Kommentare für die Ablehnung zu einem Zeiteintrag anzusehen, wählen Sie **Eintrag öffnen** aus. Die Kommentare zur Ablehnung werden in einer Zeitskala angezeigt. In der Zeitskala kann die Ressource auf die Kommentare zur Ablehnung antworten, bevor sie den Eintrag erneut übermittelt.
 
 ## <a name="copy-week"></a>Kopieren einer Woche
-Nachdem einige Zeiteinträge erstellt wurden, können Benutzer **Woche kopieren** auswählen, um eine Massenerstellung zusätzlicher Zeiteinträge vorzunehmen. Das Dialogfeld **Kopieren** wird angezeigt. Verwenden Sie im Abschnitt **Zeitraum von** die Felder **Startdatum** und **Enddatum**, um den Datumsbereich festzulegen, von dem Zeiteinträge kopiert werden sollen. Geben Sie im Abschnitt **Zeitraum bis** im Feld **Startdatum** das Datum ein, für das Zeiteinträge erstellt werden sollen. Wählen Sie dann **Kopieren** aus. Für das festgelegte Datum im Zeitraum „bis” wird eine Kopie der Zeiteinträge für den entsprechenden Wochentag im Zeitraum „von” erstellt. Beispielsweise wird der Zeiteintrag für Montag von letzter Woche in Montag dieser Woche kopiert, der als Zeitraum „bis” angegeben ist.
+Nachdem einige Zeiteinträge erstellt wurden, können Benutzer **Woche kopieren** auswählen, um eine Massenerstellung zusätzlicher Zeiteinträge vorzunehmen. Das Dialogfeld **Kopieren** wird angezeigt. Verwenden Sie im Abschnitt **Zeitraum von** die Felder **Startdatum** und **Enddatum**, um den Datumsbereich festzulegen, von dem Zeiteinträge kopiert werden sollen. Geben Sie im Abschnitt **Zeitraum bis** im Feld **Startdatum** das Datum ein, für das Zeiteinträge erstellt werden sollen. Wählen Sie dann **Kopieren** aus. Für das festgelegte Datum im Zeitraum „bis“ wird eine Kopie der Zeiteinträge für den entsprechenden Wochentag im Zeitraum „von“ erstellt. Beispielsweise wird der Zeiteintrag für Montag von letzter Woche in Montag dieser Woche kopiert, der als Zeitraum „bis“ angegeben ist.
 
 ## <a name="import"></a>Importieren
 Derselbe grundlegende Vorgang wird verwendet, um Elemente aus Buchungen, Arbeitsaufträgen und Austausch zu importieren. Benutzer können den Datumsbereich angeben, aus dem Buchungen importiert werden. Sie müssen Buchungen dann explizit auswählen, die in Entwurf-Zeiteintragungen kopiert werden sollen. In der vorherigen Version erschienen vorgeschlagene Zeiteinträge im Raster und im Kalender und gingen verloren, wenn die Sitzung aktualisiert wurde.
@@ -88,12 +88,12 @@ Es gibt drei Hauptschritte zum Hinzufügen eines benutzerdefinierten Felds zum R
 
 1.  Fügen Sie das benutzerdefinierte Feld dem Schnellerfassungs-Dialogfeld hinzu.
 2.  Konfigurieren Sie das Raster, um das benutzerdefinierte Feld anzuzeigen.
-3.  Fügen Sie das benutzerdefinierte Feld entweder dem Aufgabenfluss „Zeile bearbeiten” oder dem Aufgabenfluss „Zelle bearbeiten” hinzu.
+3.  Fügen Sie das benutzerdefinierte Feld entweder dem Aufgabenfluss „Zeile bearbeiten“ oder dem Aufgabenfluss „Zelle bearbeiten“ hinzu.
 
-Sie müssen auch sicherstellen, dass das neue Feld über die erforderlichen Prüfungen im Aufgabenfluss „Zeile bearbeiten” oder „Zelle bearbeiten” verfügt. Im Rahmen dieses Schritts müssen Sie das Feld basierend auf dem Status des Zeiteintrags sperren.
+Sie müssen auch sicherstellen, dass das neue Feld über die erforderlichen Prüfungen im Aufgabenfluss „Zeile bearbeiten“ oder „Zelle bearbeiten“ verfügt. Im Rahmen dieses Schritts müssen Sie das Feld basierend auf dem Status des Zeiteintrags sperren.
 
 #### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Hinzufügen des benutzerdefinierten Felds zum Schnellerfassungs-Dialogfeld
-Sie müssen das benutzerdefinierte Feld dem Dialogfeld „Schnellerfassung für Zeiteintrag” hinzufügen. damit Benutzer einen Wert für ihn eingeben können, wenn sie Zeiteinträge über die Schaltfläche **Neu** hinzufügen.
+Sie müssen das benutzerdefinierte Feld dem Dialogfeld „Schnellerfassung für Zeiteintrag“ hinzufügen. damit Benutzer einen Wert für ihn eingeben können, wenn sie Zeiteinträge über die Schaltfläche **Neu** hinzufügen.
 
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurieren des Rasters, um das benutzerdefinierte Feld anzuzeigen
 Es gibt zwei Möglichkeiten zum Hinzufügen eines benutzerdefinierten Felds zum Raster für den wöchentlichen Zeiteintrag. Die ersten Option besteht darin, die Ansicht **Meine wöchentlichen Zeiteinträge** anzupassen und ihr das benutzerdefinierte Feld hinzuzufügen. Sie können die Position und Größe des benutzerdefinierten Felds im Raster auswählen, indem Sie diese Eigenschaften in der Ansicht bearbeiten.
@@ -106,7 +106,7 @@ Die TBX-Seiten, die zum Bearbeiten verwendet werden, sind unter **Prozesse** zu 
 > [!NOTE] 
 > Durch beide Optionen werden einige der standardmäßigen Filterungen bei den Entitäten **Projekt** und **Projektaufgabe** entfernt, sodass alle Suchansichten für die Entitäten sichtbar werden. Standardmäßig sind nur die relevanten Suchansichten sichtbar.
 
-Sie müssen den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld festlegen. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenfluss „Zeile bearbeiten” verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten” verschoben werden.
+Sie müssen den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld festlegen. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenfluss „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten“ verschoben werden.
 
 Um einem Aufgabenfluss ein benutzerdefiniertes Feld hinzuzufügen, ziehen Sie ein Element **Feld** an die geeignete Position auf der Seite, und legen Sie dann die Eigenschaften fest. Legen Sie die Eigenschaft **Quelle** auf **Zeiteintrag** und dann die Eigenschaft **Datenfeld** für das benutzerdefinierte Feld fest. Die Eigenschaft **Feld** gibt den Anzeigenamen auf der TBX-Seite an. Wählen Sie **Anwenden** aus, um die Änderungen an dem Feld zu speichern. Wählen Sie dann **Aktualisieren** aus, um die Änderungen an der Seite zu speichern.
 
@@ -115,8 +115,8 @@ Um stattdessen eine neue benutzerdefinierte TBX-Seite zu verwenden, erstellen Si
 ### <a name="add-new-option-set-values"></a>Hinzufügen neuer Optionssatzwerte
 Um Optionssatzwerte einem standardmäßigen Feld hinzuzufügen, öffnen Sie die Bearbeitungsseite des Felds und wählen Sie dann unter **Typ** die Option **Bearbeiten** neben dem Optionssatz aus. Fügen Sie dann eine neue Option hinzu, die eine benutzerdefinierte Beschriftung und Farbe hat. Wenn Sie einen neuen Zeiteintragsstatus hinzufügen möchten, wird das standardmäßige Feld **Eintragsstatus** und nicht **Status** genannt.
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Festlegen eines neuen Zeiteintragsstatus als „schreibgeschützt”
-Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt” festlegen möchten, fügen Sie den neuen Zeiteintragswert (die Zahl, nicht die Beschriftung) der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Der bearbeitbare Teil des Zeiteintragsrasters wird für Zeilen mit dem Status „Neu” gesperrt.
+### <a name="designate-a-new-time-entry-status-as-read-only"></a>Festlegen eines neuen Zeiteintragsstatus als „schreibgeschützt“
+Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt“ festlegen möchten, fügen Sie den neuen Zeiteintragswert (die Zahl, nicht die Beschriftung) der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Der bearbeitbare Teil des Zeiteintragsrasters wird für Zeilen mit dem Status „Neu“ gesperrt.
 Fügen Sie dann Geschäftsregeln hinzu, um alle Felder auf den TBX-Seiten **Bearbeiten der Zeile mit Zeiteintrag** und **Bearbeiten von Zeiteinträgen** zu sperren. Sie können auf die Geschäftsregeln für diese Seiten zugreifen, indem Sie den Editor für den Geschäftsprozessfluss für die Seite öffnen und dann **Geschäftsregeln** auswählen. Sie können den neuen Status der Bedingung in vorhandenen Geschäftsregeln hinzufügen, oder Sie können eine neue Geschäftsregel für den neuen Status hinzufügen.
 
 ### <a name="add-custom-validation-rules"></a>Hinzufügen benutzerdefinierter Prüfungsregeln
@@ -129,7 +129,7 @@ Mithilfe von Geschäftsregeln können Sie Felder sperren und entsperren, Standar
 Sie sollten Plug-In-Prüfungen für alle Prüfungen, bei denen mehr Kontext erforderlich ist, als in einem einzelnen Zeiteintrags-Datensatz vorhanden ist, oder für alle Prüfungen verwenden, die Sie für Inline-Aktualisierungen im Raster ausführen möchten. Um die Prüfung abzuschließen, erstellen Sie ein benutzerdefiniertes Plug-In in der Entität **Zeiteintrag**.
 
 > [!IMPORTANT] 
-> Derzeit verhindert ein bekannter Issue auf den TBX-Seiten, dass Benutzer Informationen korrigieren und „Fertig” auswählen können, wenn eine Aktualisierung eine Plug-In-Prüfung nicht besteht. Als Problemumgehung können Sie Geschäftsregelprüfungen einrichten, um diese Situation so gut wie möglich zu verhindern.
+> Derzeit verhindert ein bekannter Issue auf den TBX-Seiten, dass Benutzer Informationen korrigieren und „Fertig“ auswählen können, wenn eine Aktualisierung eine Plug-In-Prüfung nicht besteht. Als Problemumgehung können Sie Geschäftsregelprüfungen einrichten, um diese Situation so gut wie möglich zu verhindern.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,20 +14,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995220"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Hinzufügen neuer Formulare der benutzerdefinierten Entität (Project Service Automation 2.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-## <a name="type-field"></a>Feld „Typ” 
+## <a name="type-field"></a>Feld „Typ“ 
 
-Dynamics 365 Project Service Automation verwendet das Feld **Typ** (**msdyn\_ordertype**) der Entitäten „Verkaufschance”, „Angebot”, „Bestellung” und „Rechnung”, um **arbeitsbasierte** Versionen dieser Entitäten von **elementbasierten** und **dienstbasierten** Versionen zu unterscheiden. Arbeitsbasierte Versionen dieser Entitäten werden von PSA verwaltet. Viele Geschäftslogiken auf der Kunden- und Serverseite der Lösung hängen vom Feld **Typ** ab. Daher ist es wichtig, dass das Feld beim Erstellen der Entitäten mit einem korrekten Wert initialisiert wird. Ein falscher Wert kann zu falschem Verhalten führen, und einige Geschäftslogiken werden möglicherweise nicht ordnungsgemäß ausgeführt.
+Dynamics 365 Project Service Automation verwendet das Feld **Typ** (**msdyn\_ordertype**) der Entitäten „Verkaufschance“, „Angebot“, „Bestellung“ und „Rechnung“, um **arbeitsbasierte** Versionen dieser Entitäten von **elementbasierten** und **dienstbasierten** Versionen zu unterscheiden. Arbeitsbasierte Versionen dieser Entitäten werden von PSA verwaltet. Viele Geschäftslogiken auf der Kunden- und Serverseite der Lösung hängen vom Feld **Typ** ab. Daher ist es wichtig, dass das Feld beim Erstellen der Entitäten mit einem korrekten Wert initialisiert wird. Ein falscher Wert kann zu falschem Verhalten führen, und einige Geschäftslogiken werden möglicherweise nicht ordnungsgemäß ausgeführt.
 
 ## <a name="automatic-form-switching"></a>Automatischer Formularwechsel
 
@@ -41,7 +41,7 @@ Das folgende Beispiel zeigt, wie ein benutzerdefiniertes Formular namens **Meine
 
 Gehen Sie folgendermaßen vor, um eine benutzerdefinierte Version des Formulars **Projektinformationen** zu erstellen.
 
-1. Öffnen Sie in der Entität „Verkaufschance” das Formular **Projektinformationen** und speichern Sie eine Kopie mit dem Namen **Meine Projektinformationen**.
+1. Öffnen Sie in der Entität „Verkaufschance“ das Formular **Projektinformationen** und speichern Sie eine Kopie mit dem Namen **Meine Projektinformationen**.
 2. Öffnen Sie das neue Formular, und stellen Sie dann in den Eigenschaften sicher, dass die Formularinitialisierungsskripten aus dem Formular **Projektinformationen** vorhanden sind. 
 
     > [!IMPORTANT]
@@ -57,7 +57,7 @@ Gehen Sie folgendermaßen vor, um eine benutzerdefinierte Version des Formulars 
     - Exportieren Sie das Formular **Meine Projektinformationen** als Teil einer nicht verwalteten Lösung, und suchen Sie dann den Wert **formId** in der Datei customization.xml der exportierten Lösung.
     - Öffnen Sie das Formular **Meine Projektinformationen** im Formular-Editor, und suchen Sie dann den Globally Unique Identifier (GUID) neben dem Parameter **fromId** in der URL, wie in der folgenden Abbildung gezeigt.
 
-    ![Der Wert „formID” des neuen Formulars in der URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Der Wert „formID“ des neuen Formulars in der URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Erstellen Sie eine Zuordnung **msdyn\_ordertype** für den Wert **formId**, indem Sie die Webressource msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js bearbeiten. Entfernen Sie den Code aus der Ressource und ersetzen Sie ihn durch den folgenden Code.
 

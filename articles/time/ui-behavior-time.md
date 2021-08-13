@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999450"
 ---
 # <a name="time-entry-ui-behavior"></a>Verhalten der Zeiteintrags-Benutzeroberfläche
 
@@ -45,7 +45,7 @@ Der Abschnitt **Dimensionen** zeigt die Dimensionen an, für die eine Zeit einge
 Im Abschnitt **Dimensionen** ist keine Inlinebearbeitung zulässig. Dieser Abschnitt wird durch eine Ansicht unterstützt, in der benutzerdefinierte Felder dem Raster für den wöchentlichen Zeiteintrag hinzugefügt werden können.
 
 ## <a name="duration"></a>Dauer
-Im Abschnitt „Dauer” werden die Wochentage als Spaltenüberschriften angezeigt. In diesem Abschnitt ist die Inlinebearbeitung zulässig. Nachdem eine Zeiteintragungszeile mit den entsprechenden Dimensionen erstellt wurde, können Benutzer schnell inline die Zeit eingeben, die sie für die jeweiligen Dimensionen gebraucht haben.
+Im Abschnitt „Dauer“ werden die Wochentage als Spaltenüberschriften angezeigt. In diesem Abschnitt ist die Inlinebearbeitung zulässig. Nachdem eine Zeiteintragungszeile mit den entsprechenden Dimensionen erstellt wurde, können Benutzer schnell inline die Zeit eingeben, die sie für die jeweiligen Dimensionen gebraucht haben.
 
 ## <a name="create-a-new-time-entry"></a>Erstellen eines neuen Zeiteintrags
 

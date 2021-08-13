@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998325"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Genehmigte Zeit- oder Ausgabeneinträge zurückrufen
 
@@ -90,7 +90,7 @@ Wenn eine Rückrufanforderung genehmigt wird, werden zunächst die entsprechende
 - Das Feld **Anpassungsstatus** wird zu **Angepasst** aktualisiert.
 - Das Feld **Fakturierungsstatus** wird zu **Storniert** aktualisiert.
 
-Als Nächstes werden Umkehrungseinträge in der Tabelle „Ist-Werte” erstellt. Zum Erstellen von Umkehrungseinträgen kopiert das System die Feldwerte aus den ursprünglichen Ist-Werten. Die einzigen Werte, die nicht übernommen werden, sind die Mengenwerte. Diese Werte werden stattdessen umgekehrt. Umgekehrte Ist-Werte werden sowohl für **Kosten** als auch für Ist-Werte von **Nicht fakturierten Umsätzen** erstellt. Das Feld **Anpassungsstatus** der umgekehrten Ist-Werte wird auf **Nicht anpassbar** festgelegt und das Feld **Fakturierungsstatus** auf **Storniert**. Aufgrund dieser Änderungen stellen die erfassten Ausgaben und das Umsatz-Rückstandsprotokoll des Projekts nicht länger die Ist-Werte dar.
+Als Nächstes werden Umkehrungseinträge in der Tabelle „Ist-Werte“ erstellt. Zum Erstellen von Umkehrungseinträgen kopiert das System die Feldwerte aus den ursprünglichen Ist-Werten. Die einzigen Werte, die nicht übernommen werden, sind die Mengenwerte. Diese Werte werden stattdessen umgekehrt. Umgekehrte Ist-Werte werden sowohl für **Kosten** als auch für Ist-Werte von **Nicht fakturierten Umsätzen** erstellt. Das Feld **Anpassungsstatus** der umgekehrten Ist-Werte wird auf **Nicht anpassbar** festgelegt und das Feld **Fakturierungsstatus** auf **Storniert**. Aufgrund dieser Änderungen stellen die erfassten Ausgaben und das Umsatz-Rückstandsprotokoll des Projekts nicht länger die Ist-Werte dar.
 
 Wenn eine Rückrufanforderung abgelehnt wird, hat dies keine finanziellen Auswirkungen auf das Projekt.
 
@@ -98,13 +98,13 @@ Wenn eine Rückrufanforderung abgelehnt wird, hat dies keine finanziellen Auswir
 
 Die folgende Abbildung zeigt die Änderungen, die für genehmigte Zeiteinträge auftreten, wenn sie zurückgerufen werden.
 
-![Statusübergänge für Zeiteinträge](media/TimeEntryStateTransitions.png)
+![Statusübergänge für Zeiteinträge.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Änderungen an Ausgabeneintragsdatensätzen
 
 Die folgende Abbildung zeigt die Änderungen, die für genehmigte Ausgabeneinträge auftreten, wenn sie zurückgerufen werden.
 
-![Statusübergänge für Ausgabeneinträge](media/ExpenseEntryStateTransitions.png)
+![Statusübergänge für Ausgabeneinträge.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

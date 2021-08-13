@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000120"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994590"
 ---
 # <a name="navigate-project-operations"></a>Project Operations navigieren
 
@@ -28,11 +28,11 @@ Nachdem Sie Project Operations wie in diesem Thema beschrieben bereitgestellt ha
 
 Verwenden Sie den Umgebungsnamen im Abschnitt **Common Data Service-Umgebungsname**, um in einer CDS-Umgebung zu Project Operations zu navigieren. 
 
-  ![Common Data Service-Umgebungsname](./media/environment-name.PNG)
+  ![Common Data Service-Umgebungsname.](./media/environment-name.PNG)
 
 Wählen Sie **Anmeldung** > **Bei Umgebung anmelden**, um zum **Projektmanagement und Buchhaltung**-Modul in Finance zu navigieren.  
 
-   ![Bei Finance anmelden](./media/environment-login.PNG)
+   ![Bei Finance anmelden.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Sie können über die Module Common Data Service und **Projektmanagement und Buchhaltung** direkt unter Verwendung der jeweiligen URLs auf Project Operations zugreifen. 

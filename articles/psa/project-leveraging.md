@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998410"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995175"
 ---
 # <a name="sales-estimates-and-projects"></a>Vertriebsvorkalkulationen und Projekte
 
@@ -35,11 +35,11 @@ Während des Vertriebsprozesses können Sie Vertriebsvorkalkulationen erstellen,
 
 Wenn Sie eine projektbasierte Angebotsposition erstellen, können Sie ein neues Projekt erstellen oder ein bestehendes Projekt auf der Seite **Angebotsposition** zuordnen. 
 
-> ![Formular für Angebotsposition](media/project-8.png)
+> ![Formular für Angebotsposition.](media/project-8.png)
  
 Wenn Sie ein neues Projekt aus Angebotspositionsdetails erstellen, können Sie Projektvorlagen nutzen. Projektvorlagen sind für ein Unternehmen typische Musterprojekte, die Standardprojektpläne und finanzielle Vorkalkulationen darstellen. Sie können außerdem Kopien von Projektplänen und Vorkalkulationen aus vergangenen Projekten darstellen.
 
-> ![Detailinformationen zur Angebotsposition](media/project-9.png)
+> ![Detailinformationen zur Angebotsposition.](media/project-9.png)
   
 Wenn Sie das Projekt vom Angebot aus erstellen, ist das Projekt automatisch mit der Angebotszeile verbunden.
 

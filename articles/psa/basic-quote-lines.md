@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014920"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995445"
 ---
 # <a name="quotes-and-quote-lines"></a>Angebote und Angebotszeilen
 
@@ -63,7 +63,7 @@ Die Zeit und die Materialabrechnungsmethode basiert auf dem Verbrauch. Wenn Sie 
 
 ### <a name="fixed-price"></a>Festpreis
 
-Bei der Abrechnungmethode „Festpreis” verpflichtet sich ein Zulieferer dazu, das Projekt zu einem Festpreis an den Kunden zu liefern. Dem Kunden wird der Angebotswert der Angebotszeile mit dem Festpreis in Rechnung gestellt, unabhängig von den Kosten, die dem Zulieferer bei der Lieferung dieser Angebotszeile entstehen. Der Wert der Angebotszeile mit dem Festpreis wird auf eine der folgenden Arten in Rechnung gestellt: 
+Bei der Abrechnungmethode „Festpreis“ verpflichtet sich ein Zulieferer dazu, das Projekt zu einem Festpreis an den Kunden zu liefern. Dem Kunden wird der Angebotswert der Angebotszeile mit dem Festpreis in Rechnung gestellt, unabhängig von den Kosten, die dem Zulieferer bei der Lieferung dieser Angebotszeile entstehen. Der Wert der Angebotszeile mit dem Festpreis wird auf eine der folgenden Arten in Rechnung gestellt: 
 
 - Als Pauschalbetrag am Anfang oder Ende des Projekts, oder wenn ein Projektmeilenstein erreicht ist. 
 - In einer datumsbasierten Frequenz mit gleichen Raten des festen Wertes in der Angebotszeile. Diese Raten werden auch regelmäßige Meilensteine genannt.
@@ -84,7 +84,7 @@ Organisationen für professionelle Services erstellen für ihre Kunden Angebote 
 
 Eine oder mehrere dieser Transaktionsklassifizierungen können den einzelnen Angebotszeilen zugeordnet werden. Nachdem ein Angebot gewonnen wurde, wird das Mapping zwischen der Transaktionsklassifizierung und der Angebotszeile an die Vertragszeile übertragen.
  
-> ![Screenshot der Mappings von Transaktionstypen zu Angeboten und Vertragszeilen](media/basic-guide-5.png)
+> ![Screenshot der Mappings von Transaktionstypen zu Angeboten und Vertragszeilen.](media/basic-guide-5.png)
   
 Beispielsweise könnte ein Angebot die folgenden zwei Angebotszeilen enthalten: 
 - Eine Beratung, bei der eine Abrechnungsmethode für Zeit und Materialien verwendet wird, wobei Zeit- und Gebührentransaktionsklassifizierungen gelten. Beispielsweise werden alle Zeit- und Gebührentransaktionen für das Beispielprojekt **Dynamics AX-Implementierung** dem Kunden basierend auf der eingesetzten Zeit und den verwendeten Materialien in Rechnung gestellt. 

@@ -1,8 +1,8 @@
 ---
 title: Intercompany-Ausgaben
 description: Dieses Thema enthält Informationen zur Nutzung von konzerninternen Ausgaben, um die Kosten des Arbeitnehmers der juristischen Person zuzuweisen, für die die Arbeit ausgeführt wurde.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005070"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001205"
 ---
 # <a name="intercompany-expenses"></a>Intercompany-Ausgaben
 
@@ -34,5 +34,17 @@ Bevor ein Mitarbeiter konzerninterne Ausgaben erstellen und einreichen kann, mü
 Bevor Sie Ihre Steuergruppen verwenden können, die der ausleihenden juristischen Person anstelle der ausleihenden juristischen Person zugeordnet sind, müssen Sie diese auf der Seite Hauptbuchparameter im Inforegister Mehrwertsteuer aktivieren. Wenn der Parameter **Juristische Person für konzerninterne-Steuerbuchungen** auf **Quelle** und das Feld **Mehrwertsteuerregeln anwenden** auf **Nein** festgelegt ist, wird die Steuerkombination für die ausleihende juristische Person verwendet. Wenn der gleiche Parameter auf **Ziel** eingestellt wird, wird die Steuerkombination für die ausleihende juristischen Person verwendet. Wenn der Parameter bei juristischen Personen in den USA auf **Quelle** festgelegt ist, muss das Feld **Vorsteuer** auch auf der neuen Seite **Sachkontobuchungsgruppen** konfiguriert sein. Das Buchhaltungsmodul verwendet die Informationen aus diesem Feld für steuerbezogene Buchhaltungseinträge.   
 Das Verhalten ist für Vorkalkulationspositionen konsistent, die mit oder ohne Projekt gebucht wurden.  
 
+## <a name="new-expense-expression-builder"></a>Neuer Builder für Ausgabenausdrücke
+
+Der neue Builder für Ausgabenausdrücke behebt Probleme mit konzerninternen Ausgabenszenarien, die Projekte verwenden. Diese Funktion stellt sicher, dass beim Erstellen einer konzerninternen Ausgabe die Ausgabenrichtlinie korrekt anhand des in der Ausgabenzeile ausgewählten Projekts validiert wird und die Ausgabenabrechnung erfolgreich übermittelt werden kann.
+
+Damit die Funktion zum Erstellen von Ausgabenausdrücken funktioniert, muss sie aktiviert sein. Außerdem sollte die Ausgabenrichtlinie mit einer Projekt-ID eingerichtet werden.
+
+Wenn Sie bereits Richtlinien konfiguriert haben, die die Projekt-ID in der Ausgabenzeile validieren, müssen diese Richtlinien zurückgezogen werden. Anschließend können Sie die Funktion aktivieren und die Richtlinien neu konfigurieren.
+
+Um diese Funktion einzuschalten, führen Sie die folgenden Schritte aus.
+
+1. Gehen Sie zu **Arbeitsbereiche** \> **Funktionenverwaltung**.
+2. Wählen Sie in der Liste **Der neue Builder für Ausgabenausdrücke behebt Probleme mit konzerninternen Ausgabenszenarien, die Projekte verwenden** aus. Wählen Sie dann **Jetzt aktivieren** aus.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
