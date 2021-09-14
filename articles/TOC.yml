@@ -4,6 +4,8 @@
   items:
     - name: Bereitstellungstyp festlegen
       href: environment/determine-deployment-type.md
+    - name: Für Testversionen von Project Operations anmelden
+      href: environment/admin-trials.md
     - name: Project Operations-Updates
       href: whats-new/project-operations-updates.md
 - name: Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Neuigkeiten
       items:
+        - name: "August\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: "Juni\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -348,7 +352,7 @@
               href: resource-management/resource-utilization-overview.md
     - name: Zeit
       items:
-        - name: Übersicht über Zeit
+        - name: Zeitübersicht
           href: time/time-entry-overview.md
         - name: Zeiteinträge erstellen
           items:
@@ -418,6 +422,8 @@
       items:
         - name: "Genehmigungen\_– Übersicht"
           href: approvals/approvals-overview.md
+        - name: Genehmigungssätze
+          href: approvals/approval-sets.md
         - name: Anmerkungen des Entwicklers
           items:
             - name: Entwickleranmerkungen für Genehmigungen
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
+        - name: "Neuigkeiten für den Vorabzugang für den 2. Veröffentlichungszyklus 2021\_– Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Neuigkeiten für August\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Neuigkeiten für Juli\_2021 – Lite-Bereitstellung"
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: "Neuigkeiten für Juni\_2021 – Lite-Bereitstellung"
@@ -834,17 +844,31 @@
               href: resource-management/resource-utilization-overview.md
     - name: Untervertragsverwaltung in Project Operations
       items:
-        - name: Übersicht über die Verwaltung von Unterverträgen
+        - name: Untervertragsverwaltung in Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Fremdarbeit im Vorabzugang für Oktober 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Schlüsselkonzepte bei der Fremdarbeit
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Kreditoren und Projektpreislisten verwalten
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Zulieferer als buchbare Ressourcen
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Kopfzeilendetails für Fremdarbeiten
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Fremdarbeitspositionen für Zeit
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Fremdarbeitspositionen für Ausgaben
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Fremdarbeitspositionen für Produkte
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressourcen für Fremdarbeitsposition
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Fremdarbeitspositionsmeilensteine
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Zeit
       items:
-        - name: Übersicht über Zeit
+        - name: Zeitübersicht
           href: time/time-entry-overview.md
         - name: Zeiteinträge erstellen
           items:
@@ -868,6 +892,8 @@
       items:
         - name: "Genehmigungen\_– Übersicht"
           href: approvals/approvals-overview.md
+        - name: Genehmigungssätze
+          href: approvals/approval-sets.md
         - name: Anmerkungen des Entwicklers
           items:
             - name: Entwickleranmerkungen für Genehmigungen
@@ -1058,11 +1084,13 @@
       href: psa/overview.md
     - name: Neuigkeiten
       items:
-        - name: Update-Releasezeitplan für Project Service 3.x
+        - name: Veröffentlichungszeitplan für Project Service 3.x aktualisieren
           href: psa/version-history-ps.md
-        - name: 'Neuerungen oder Änderungen im Update-Release 34, V3'
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 35, V3?'
+          href: psa/whats-new-ur-35.md
+        - name: 'Neuerungen oder Änderungen in der Updateversion 34, V3'
           href: psa/whats-new-ur-34.md
-        - name: 'Neuerungen oder Änderungen im Update-Release 33, V3'
+        - name: 'Neuerungen oder Änderungen in der Updateversion 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Neuerungen oder Änderungen im Update-Release 32.5, V3'
           href: psa/whats-new-ur-32-5.md
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Wöchentlichen Zeiteintrag anpassen
               href: psa/time-entry-extensibility-v3.md
-            - name: Genehmigungssätze
+            - name: Genehmigungssätze in Project Service Automation
               href: psa/approval-set.md
     - name: FAQ und Problembehandlung (3.x)
       items:
