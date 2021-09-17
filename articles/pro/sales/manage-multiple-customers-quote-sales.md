@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001655"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440776"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Mehrere Kunden in einem Projektangebot verwalten – Lite
 
@@ -37,7 +37,7 @@ Ein Angebotskunde kann in der **Angebotskunden**-Registerkarte auf der **Angebot
 
 | **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
-| Konto | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Führt alle aktiven Konten auf. Dieses Feld wird gesperrt, nachdem der Datensatz erstellt wurde. Wenn Sie ihn aktualisieren möchten, löschen Sie den Datensatz und erstellen Sie ihn neu. Wenn Sie Ist-Daten aufgezeichnet haben oder wenn der Angebotskundendatensatz ein Hauptkunde ist, können Sie den Datensatz löschen. | Angebotspositionskunden werden als Angebotspositionskunden kopiert, wenn eine Angebotsposition erstellt wird. Angebotskunden werden auch zu den Kunden der Projektvertrags kopiert, wenn ein Angebot gewonnen wird. |
+| Konto | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Führt alle aktiven Konten auf. Dieses Feld wird gesperrt, nachdem der Datensatz erstellt wurde. Wenn Sie ihn aktualisieren möchten, löschen Sie den Datensatz und erstellen Sie ihn neu. Wenn Sie Istwerte erfasst haben oder der Angebotskundendatensatz ein Hauptkunde ist, dürfen Sie den Datensatz nicht löschen. | Angebotspositionskunden werden als Angebotspositionskunden kopiert, wenn eine Angebotsposition erstellt wird. Angebotskunden werden auch zu den Kunden der Projektvertrags kopiert, wenn ein Angebot gewonnen wird. |
 | Prozentsatz der Abrechnungsteilung | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Stellen Sie den Prozentsatz jeder nicht in Rechnung gestellten Verkaufstransaktion dar, die diesem Angebotskunden zugeordnet wird. | Wird zu neuen Angebotspositionen und zu Projektvertragskunden kopiert. |
 | Kontaktname für Rechnungsadresse | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Dies ist ein Textfeld und sollte verwendet werden, um die Rechnungskontaktperson für diesen Kunden zu identifizieren. Diese werden standardmäßig aus dem zugehörigen Kontodatensatz übernommen | Wird zu Projektvertragskunden kopiert, wenn ein Angebot gewonnen wird, und anschließend in das Feld „Vertragsname für Rechnungsadresse“ auf der Rechnung kopiert, die für diesen Kunden erstellt wurde. |
 | Name für Rechnungsadresse | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Dieses Textfeld sollte verwendet werden, um die Rechnungskontaktperson für diesen Kunden zu identifizieren. | Wird zum Projektvertragskunden kopiert, wenn ein Angebot gewonnen wird, und anschließend in das Feld **Vertragsname für Rechnungsadresse** auf der Rechnung kopiert, die für diesen Kunden erstellt wurde. |

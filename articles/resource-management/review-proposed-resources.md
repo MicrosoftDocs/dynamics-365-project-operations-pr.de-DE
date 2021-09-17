@@ -2,7 +2,7 @@
 title: Vorgeschlagene Ressourcen überprüfen
 description: Dieses Thema enthält Informationen zum Vorschlagen von Projektressourcen.
 author: ruhercul
-ms.date: 11/05/2020
+ms.date: 08/18/2021
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,50 +15,56 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a9d3f7b9194b29859ee1479fea8158067e22e819e8f190ef1659e14b7c0cd6b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3077f98052fcac9989a81b2fab12fa30d65d970
+ms.sourcegitcommit: ebcaec7806ee8aee1323ef532d5b7735d27edd04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998010"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403794"
 ---
 # <a name="review-proposed-resources"></a>Vorgeschlagene Ressourcen überprüfen
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Ressourcenmanager können dem Projektmanager mithilfe einer Ressourcenanfrage eine Ressource vorschlagen.
+Ressourcenmanager können dem Projektmanager eine Ressource vorschlagen, indem sie eine Ressourcenanforderung verwenden.
 
-1. Wählen Sie im Anfrageraster oder in der Anfrage selbst **Ressourcen suchen** aus.
-2. Wählen Sie auf der Seite **Zeitplan-Assistent** die Ressource aus. Wählen Sie dann im Bereich **Ressourcenbuchung erstellen** im Feld **Buchungsstatus** die Option **Buchen** aus.
+Führen Sie die folgenden Schritte aus, um vorgeschlagene Ressourcen zu überprüfen:
 
-Die folgenden Statusaktualisierungen finden statt:
+1. Wählen Sie im Raster **Anfragen** oder in der Anfrage selbst **Ressourcen suchen** aus.
+2. Wählen Sie auf der **Zeitplan-Assistent**-Seite die Ressource aus und bestätigen Sie dann, dass alle vorgeschlagenen Stunden in der vorgeschlagenen Buchung enthalten sind.
+3. Stellen Sie im **Ressourcenbuchung erstellen**-Bereich das **Buchungsstatus**-Feld auf **Vorgeschlagen** und wählen Sie dann **Buchen**.
 
-- Auf der Seite **Planungsassistent** werden die Statusanzeigen aktualisiert, um anzuzeigen, dass die Buchung vorgeschlagen ist (nicht fest gebucht).
-- In der Ressourcenanforderung wird der Status auf **Überprüfung erforderlich** geändert.
-- Auf der Registerkarte **Team** des Projekts wird der Wert **Anforderungsstatus** für das generische Teammitglied in **Prüfung erforderlich** geändert.
+    > [!NOTE]
+    > Das Einstellen des **Buchungsstatus** auf **Vorgeschlagen** bucht die Ressource nicht fest und ersetzt die generische Ressource nicht durch das genannte Teammitglied.
+
+    Die folgenden Statusaktualisierungen finden statt:
+
+    - Auf der Seite **Planungsassistent** werden die Statusanzeigen aktualisiert, um anzuzeigen, dass die Buchung vorgeschlagen (nicht fest gebucht) ist.
+    - In der Ressourcenanforderung wird der Status auf **Überprüfung erforderlich** geändert.
+    - Auf der Registerkarte **Team** des Projekts wird der Wert **Anforderungsstatus** des generischen Teammitglieds auf **Überprüfung erforderlich** geändert.
 
 Der Projektmanager kann den Vorschlag annehmen oder ablehnen.
 
-Zum Verarbeiten von Ressourcenanfragen können Ressourcenmanager einen der folgenden Ansätze auswählen:
+Wenn Ressourcenmanager Ressourcenanfragen bearbeiten, können sie einen der folgenden Ansätze verwenden:
 
 - Mehrere Ressourcen vorschlagen, um den Bedarf zu decken, wenn keine einzelne Ressource verfügbar ist, um die geforderten Stunden zu erfüllen. Vorgeschlagene Stunden werden dann auf mehrere Ressourcen aufgeteilt, die für die erforderlichen Stunden ausreichend sind. In diesem Szenario können sich die Stunden nicht überschneiden.
-- Schlagen Sie weniger Ressourcen als erforderlich vor. In diesem Szenario ist die vorgeschlagene Ressourcenkapazität geringer als die erforderlichen Stunden, die vom Anforderer angegeben wurden. Wenn der Anfragende die vorgeschlagenen Ressourcen akzeptiert, wird daher eine nicht erfüllte Ressourcenanforderung erstellt, um den restlichen Bedarf zu erfassen.
+- Schlagen Sie weniger Ressourcen als erforderlich vor. In diesem Szenario ist die vorgeschlagene Ressourcenkapazität geringer als die erforderlichen Stunden, die der Anfragende angegeben hat. Wenn der Anfragende die vorgeschlagenen Ressourcen akzeptiert, wird eine nicht erfüllte Ressourcenanforderung erstellt, um den restlichen Bedarf zu erfassen.
 - Mehrere Ressourcen buchen, um den Bedarf zu decken, wenn keine einzelne Ressource verfügbar ist, um die Arbeit zu erledigen.
-- Weniger Ressourcen buchen als benötigt werden. In diesem Szenario sind die gebuchten Stunden geringer als die benötigten Stunden. Das System führt Sie durch das Vorschlagen von Ressourcen statt durch Buchungen, damit der Anforderer die verbleibende Nachfrage verifizieren und nachverfolgen kann.
+- Weniger Ressourcen buchen als benötigt. In diesem Szenario sind die gebuchten Stunden geringer als die benötigten Stunden. Das System gibt Ihnen eine Anleitung zum Vorschlagen von Ressourcen anstelle von Buchungen, sodass der Anfragende den verbleibenden Bedarf überprüfen und im Auge behalten kann.
 
 ## <a name="resource-availability"></a>Ressourcenverfügbarkeit
 
-Es ist wichtig, dass Ressourcenmanager die Verfügbarkeit von Ressourcen anzeigen and Buchungen aktualisieren können. In manchen Fällen besteht zwar keine formelle Nachfrage (Ressourcenanfrage), aber ein Ressourcenmanager muss auf eine ungeplante Nachfrage reagieren können, die über Kanäle wie E-Mails, Telefonanrufe oder Sofortnachrichten eingeht. Ressourcenmanager verwenden die Zeitplanübersicht, um Ressourcen und Buchungen zu aktualisieren.
+Ressourcenmanager müssen die Verfügbarkeit von Ressourcen anzeigen und Buchungen aktualisieren können. In einigen Fällen liegt keine formelle Nachfrage vor (Ressourcenanforderung). Ein Ressourcenmanager muss jedoch auf eine ungeplante Nachfrage reagieren, die über andere Kanäle wie E-Mails, Telefonanrufe oder Instant Messages eingeht. Ressourcenmanager verwenden die **Zeitplanübersicht**, um Ressourcen und Buchungen zu aktualisieren.
 
 Ressourcenarbeitszeiten werden als Grundlage für die Berechnung der Verfügbarkeit einer Ressource verwendet. Ressourcenbuchungen verbrauchen die Kapazität der Ressourcen.
 
-Die Zeitplanübersicht verwendet Farben und Schattierungen, um Buchungen, Verfügbarkeit und Überbuchungen sowie den Status von Buchungen anzuzeigen. Eine Einstellung für die Zeitplanübersicht ermöglicht das Anzeigen einer Legende.
+Die **Zeitplanübersicht** verwendet Farben und Schattierungen, um Buchungen, Verfügbarkeit und Überbuchungen sowie den Status von Buchungen anzuzeigen. Eine Einstellung auf der **Zeitplanübersicht** lässt Sie eine Legende anzeigen.
 
-Wenn neben einer einzelnen buchbaren Ressource in der Zeitplanübersicht ein nach rechts zeigender Pfeil angezeigt wird, kann die Ressource erweitert werden, um Details zur Arbeit anzuzeigen, für die die Ressource gebucht ist.
+Wenn neben einer einzelnen buchbaren Ressource in der **Zeitplanübersicht** ein nach rechts zeigender Pfeil angezeigt wird, kann die Ressource erweitert werden, um Details zur Arbeit anzuzeigen, für die die Ressource gebucht ist.
 
 Da Dynamics 365 Project Operations die Universal Resource Scheduling-Engine nutzt, können Sie für den Fall, dass Dynamics 365 Field Service ebenfalls installiert ist, die Details von Ressourcenbuchungen für Projekte, Arbeitsaufträge und jegliche anderen Entitäten anzeigen, auf die Sie die Zeitplanung erweitert haben.
 
-Um mehr Details zu einer individuellen Ressource anzuzeigen, klicken Sie mit der rechten Maustaste darauf, um die Ressourcenkarte zu öffnen.
+Um zusätzliche Details zu einer individuellen Ressource anzuzeigen, klicken Sie mit der rechten Maustaste darauf, um die Ressourcenkarte zu öffnen.
 
 
 

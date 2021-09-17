@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024782"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474492"
 ---
 # <a name="project-operations-updates"></a>Project Operations-Updates
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations besteht aus zwei Komponenten:
 - Projektmanagement und Buchhaltung in der Dynamics 365 Finance-Umgebung umfasst Funktionen für das Kostenmanagement, die Projektbuchhaltung und die Umsatzrealisierung. Die Finance and Operations-App-Umgebung wird in Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen und Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung genutzt.
 
 ## <a name="project-operations-release-notes"></a>Project Operations – Anmerkungen zu dieser Version
-- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien mit [vorrätigen/nicht-vorrätigen Ressourcen](whats-new-july-2021-resource-based.md).
-- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien zur [Lite-Bereitstellung](../pro/whats-new/whats-new-july-2021-lite.md).
+- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien mit [vorrätigen/nicht-vorrätigen Ressourcen](whats-new-august-2021-resource-based.md).
+- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien zur [Lite-Bereitstellung](../pro/whats-new/whats-new-august-2021-lite.md).
 - Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien zu [vorrätigen Ressourcen/Fertigung](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Project Operations neueste Version
 
 | Project Operations für Dataverse Umgebung | Projektmanagement und Buchhaltung in Finance and Operations-App-Umgebungen | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Für Project Operations-Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen empfehlen wir die Verwendung der Orchestrierungslösung für duales Schreiben in der Version 2.2.2.83 oder höher.
 
@@ -47,27 +47,24 @@ Updates für Project Operations in einer Dataverse Umgebung sind monatlich verf�
 | Station | Region | Aktuelle Versionennummer | Automatische Updates für die Lite-Bereitstellung | Automatische Updates für Ressourcen-/Nicht-Lager-Bereitstellung | Nächst Versionsnummer | Nächste Version allgemein verfügbar |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Erste Veröffentlichung         |  4.13.0.152     | Abschließen           | 13. August 2021     | TBD                 | 27. August 2021     |
+|   &nbsp;  | Erste Veröffentlichung         |  4.14.0.99      | Abschließen           | 10. September 2021  | TBD                 | 01. Oktober 2021    |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Südamerika         |  4.13.0.152     | 13. August 2021    | 20. August 2021     | TBD                 | 27. August 2021     |
-|    &nbsp; | Kanada                |  4.13.0.152     | 13. August 2021    | 20. August 2021     | TBD                 | 27. August 2021     |
-|   &nbsp;  | Indien                 |  4.13.0.152     | 13. August 2021    | 20. August 2021     | TBD                 | 27. August 2021     |
-|   &nbsp;  | Frankreich                |  4.13.0.152     | 13. August 2021    | 20. August 2021     | TBD                 | 27. August 2021     |
-|   &nbsp;  | Vereinigte Arabische Emirate  |  4.13.0.152     | 13. August 2021    | 20. August 2021     | TBD                 | 27. August 2021     |
-|   &nbsp;  | Südafrika          |  4.13.0.152     | 13. August 2021    | 20. August 2021     | TBD                 | 27. August 2021     |
+|   &nbsp;  | Südamerika         |  4.14.0.152     | 10. September 2021 | 17. September 2021  | TBD                 | 01. Oktober 2021    |
+|    &nbsp; | Kanada                |  4.14.0.152     | 10. September 2021 | 17. September 2021  | TBD                 | 01. Oktober 2021    |
+|   &nbsp;  | Indien                 |  4.14.0.152     | 10. September 2021 | 17. September 2021  | TBD                 | 01. Oktober 2021    |
+|   &nbsp;  | Frankreich                |  4.14.0.152     | 10. September 2021 | 17. September 2021  | TBD                 | 01. Oktober 2021    |
+|   &nbsp;  | Vereinigte Arabische Emirate  |  4.14.0.152     | 10. September 2021 | 17. September 2021  | TBD                 | 01. Oktober 2021    |
+|   &nbsp;  | Südafrika          |  4.14.0.152     | 10. September 2021 | 17. September 2021  | TBD                 | 01. Oktober 2021    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.12.0.152     | Abgeschlossen*          | Abschließen            | 4.13.0.152          | 13. August 2021     |
-|   &nbsp;  | Asien-Pazifik          |  4.12.0.152     | Abgeschlossen*          | Abschließen            | 4.13.0.152          | 13. August 2021     |
-|   &nbsp;  | Großbritannien         |  4.12.0.152     | Abgeschlossen*          | Abschließen            | 4.13.0.152          | 13. August 2021     |
-|   &nbsp;  | Ozeanien               |  4.12.0.152     | Abgeschlossen*          | Abschließen            | 4.13.0.152          | 13. August 2021     |
+|   &nbsp;  | Japan                 |  4.13.0.152     | Abschließen           | Abschließen            | 4.14.0.152          | 10. September 2021  |
+|   &nbsp;  | Asien-Pazifik          |  4.13.0.152     | Abschließen           | Abschließen            | 4.14.0.152          | 10. September 2021  |
+|   &nbsp;  | Großbritannien         |  4.13.0.152     | Abschließen           | Abschließen            | 4.14.0.152          | 10. September 2021  |
+|   &nbsp;  | Ozeanien               |  4.13.0.152     | Abschließen           | Abschließen            | 4.14.0.152          | 10. September 2021  |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Abschließen           | Abschließen            | 4.13.0.152          | 20. August 2021     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Abschließen           | 03. September 2021  | 4.14.0.152          | 17. September 2021  |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.12.0.152     | 13. August 2021    | 20. August 2021     | 4.13.0.152          | 27. August 2021     |
+|   &nbsp;  | Nordamerika         |  4.13.0.152     | 03. September 2021 | 10. September 2021  | 4.14.0.152          | 24. September 2021  |
 
-
-> [!NOTE]
-> Die automatische Bereitstellung ist für Version 4.12.0.148 abgeschlossen. Für die aktualisierte Version der Version vom Juli 2021 ist keine automatische Bereitstellung geplant.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Release-Zeitplan für Projektmanagement und Buchhaltung in der Finance and Operations-Apps-Umgebung
 
