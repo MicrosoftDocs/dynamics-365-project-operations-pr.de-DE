@@ -2,17 +2,17 @@
 title: Kaufen von nicht vorrätigen Materialien mithilfe einer ausstehenden Lieferantenrechnung
 description: In diesem Thema wird erläutert, wie ausstehende Lieferantenrechnungen erfasst werden.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009035"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547288"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Kaufen von nicht vorrätigen Materialien mithilfe einer ausstehenden Lieferantenrechnung
 
@@ -20,7 +20,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Wenn ein Unternehmen nicht vorrätige Materialien für ein Projekt beschafft, können die Kosten sofort gegen das Projekt erfasst werden. 
 
-Beispielsweise führt Contoso Robotics US ein Projekt zur Erneuerung der Ausrüstung durch und benötigt Softwarelizenzen. Diese Lizenzen werden von einem Drittanbieter bezogen.  Mithilfe von Dynamics 365 Finance zeichnet der Kreditorenbuchhalter einen ausstehenden Lieferantenrechnungsbeleg auf und ordnet die Lizenzkosten direkt dem Projekt zur Geräteerneuerung zu. 
+Contoso Robotics US führt beispielsweise ein Projekt zur Geräteerneuerung durch und benötigt Softwarelizenzen. Diese Lizenzen werden von einem Drittanbieter bezogen.  Mithilfe von Dynamics 365 Finance zeichnet der Kreditorenbuchhalter einen ausstehenden Lieferantenrechnungsbeleg auf und ordnet die Lizenzkosten direkt dem Projekt zur Geräteerneuerung zu. 
 
 > [!IMPORTANT]
 > Bevor Sie die in diesem Thema beschriebenen Funktionen verwenden, überprüfen Sie die erforderlichen Konfigurationen und wenden Sie sie an. Weitere Informationen finden Sie unter [Aktivieren von nicht vorrätigen Materialien und ausstehenden Lieferantenrechnungen](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Ausstehende Lieferantenrechnungen können auf der Seite **Ausstehende Lieferante
     - Saldobetrag des Lieferanten.
     - Der Umsatzsteuerbetrag
     - Die Kosten für das Projekt werden auf dem Konto für die Beschaffungsintegration erfasst.
-    - Die tatsächliche Projekttransaktion in Dataverse. Diese Transaktion wird mithilfe des  [Project Operations-Integrationsjournals](../project-accounting/project-operations-integration-journal.md) verarbeitet. Durch das Buchen dieses Journals wird der Betrag vom Beschaffungsintegrationskonto auf das Projektkostenkonto verschoben.
+    - Die Projekt-Ist-Kosten-Transaktion in Dataverse.  Diese Transaktion wird mithilfe des  [Project Operations-Integrationsjournals](../project-accounting/project-operations-integration-journal.md) verarbeitet. Durch das Buchen dieses Journals wird der Betrag vom Beschaffungsintegrationskonto auf das Projektkostenkonto verschoben. 
+    - Einkäufe, die dem Projektkunden nach der Zeit- und Materialabrechnungsmethode fakturiert werden. Zusätzlich werden noch nicht fakturierte Verkaufstransaktionen für die Einkäufe in Dataverse erstellt. Die Produktpreisliste in Dataverse wird für die Verkaufspreise und -beträge für den nicht fakturierten Verkaufsvorgang verwendet.

@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Neuigkeiten
       items:
+        - name: Oktober 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: "August\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -292,7 +296,7 @@
           items:
             - name: Projektvorlagen mit Projekt kopieren erstellen
               href: project-management/dev-copy-project.md
-            - name: Projektzeitplan-APIs verwenden (Öffentliche Vorschau)
+            - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
     - name: Ressourcenverwaltung
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Nicht vorrätige Materialien für Projekte mithilfe ausstehender Kreditorenrechnungen beschaffen
           href: procurement/pending-vendor-invoices.md
+        - name: Nicht vorrätige Materialien für Projekte über Projektbestellungen bestellen
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Zuliefererbindung
+          items:
+            - name: Übersicht zur Zuliefererbindung
+              href: procurement/vendor-retention-overview.md
+            - name: Zuliefereraufbewahrung einrichten
+              href: procurement/set-up-vendor-retention.md
     - name: Rechnungsstellung
       items:
         - name: Rechnungsverarbeitung – Übersicht
@@ -528,6 +540,10 @@
       items:
         - name: "Neuigkeiten für den Vorabzugang für den 2. Veröffentlichungszyklus 2021\_– Lite-Bereitstellung"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Neuigkeiten für Oktober 2021 – Lite-Bereitstellung
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Neuigkeiten für September 2021 – Lite-Bereitstellung
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: "Neuigkeiten für August\_2021 – Lite-Bereitstellung"
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Neuigkeiten für Juli\_2021 – Lite-Bereitstellung"
@@ -784,7 +800,7 @@
           items:
             - name: Projektvorlagen mit Projekt kopieren erstellen
               href: project-management/dev-copy-project.md
-            - name: Projektzeitplan-APIs verwenden (Öffentliche Vorschau)
+            - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
     - name: Ressourcenverwaltung
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Fremdarbeitspositionen für Zeit
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Fremdarbeitspositionen für Ausgaben
+        - name: Fremdarbeitspositionen für Ausgabenkategorien
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Fremdarbeitspositionen für Produkte
           href: pro/subcontracting/subcontract-line-products.md
@@ -1084,11 +1100,13 @@
       href: psa/overview.md
     - name: Neuigkeiten
       items:
-        - name: Veröffentlichungszeitplan für Project Service 3.x aktualisieren
+        - name: Aktualisierter Veröffentlichungszeitplan für Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 35, V3?'
+        - name: Neuerungen oder Änderungen in Updateversion 36 V3
+          href: psa/whats-new-ur-36.md
+        - name: Neuerungen oder Änderungen in Updateversion 35 V3
           href: psa/whats-new-ur-35.md
-        - name: 'Neuerungen oder Änderungen in der Updateversion 34, V3'
+        - name: Neuerungen oder Änderungen in Updateversion 34 V3
           href: psa/whats-new-ur-34.md
         - name: 'Neuerungen oder Änderungen in der Updateversion 33, V3'
           href: psa/whats-new-ur-33.md

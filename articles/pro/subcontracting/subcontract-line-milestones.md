@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323775"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558501"
 ---
 # <a name="subcontract-line-milestones"></a>Fremdarbeitspositionsmeilensteine
 
@@ -50,15 +50,15 @@ Festpreismeilensteine in einer Fremdarbeitsposition können manuell generiert we
 3. Auf der **Meilensteine für die Fremdarbeitspositions**-Registerkarte wählen Sie im Unterraster **+ Neuer Meilenstein für die Fremdarbeitsposition**.
 4. Auf der **Neuer Meilenstein für die Fremdarbeitsposition**-Seite geben Sie die erforderlichen Informationen basierend auf der folgenden Tabelle ein.
 
-    | Feld | Beschreibung |
-    | --- | --- |
-    | Meilensteinname | Der Namen des Meilensteins. |
-    | Beschreibung | Eine Beschreibung des Meilensteins.  |
-    | Meilensteindatum | Das Datum, an dem der automatische Rechnungserstellungsprozess nach dem Status dieses Meilensteins suchen soll, um ihn für die Rechnungsstellung zu berücksichtigen. Dieser Wert wird bei der Rechnungsstellung für diese Fremdbarbeit in die Kreditorenrechnungsposition aufgenommen. |
-    | Höhe | Der Betrag oder Wert des Meilensteins, der dem Kunden in Rechnung gestellt wird. Dieser Wert wird bei der Rechnungsstellung für diese Fremdbarbeit in die Kreditorenrechnungsposition aufgenommen. |
-    | Steuer | Der auf den Meilenstein angewendete Steuerbetrag. Dieser Wert wird bei der Rechnungsstellung für diese Fremdbarbeit in die Kreditorenrechnungsposition aufgenommen. |
-    | Betrag nach Steuer | Dieses schreibgeschützte Feld, das als Betrag + Steuern berechnet wird. Dieser Wert wird bei der Rechnungsstellung für diese Fremdbarbeit in die Kreditorenrechnungsposition aufgenommen. |
-    | Rechnungsstatus | Beim Anlegen des Meilensteins wird dieser Status immer auf **Nicht bereit für die Rechnungsstellung** festgelegt.  Wenn der Status **Bereit für Rechnung** ist, enthält die Kreditorenrechnungserstellung diesen Meilenstein in der Kreditorenrechnung. |
+    | Feld | Beschreibung |Funktionsauswirkung|
+    | --- | --- |----------------------|
+    | Meilensteinname | Der Namen des Meilensteins. |Dies wird als erste Spalte in allen Nachschlagevorgängen basierend auf Fremdauftragspositionsmeilensteinen angezeigt. Der auf Grundlage dieses Meilensteins erstellte Kreditorenrechnungsposten verwendet auch den Namen des Unterauftragsposten-Meilensteins als Standardnamen des Kreditorenrechnungspostens.|
+    | Beschreibung | Eine Beschreibung des Meilensteins. |Der auf Grundlage dieses Meilensteins erstellte Kreditorenrechnungsposten verwendet auch die Beschreibung des Unterauftragsposten-Meilensteins als Standardbeschreibung des Kreditorenrechnungspostens.|
+    | Meilensteindatum | Das Datum, an dem der automatische Rechnungserstellungsprozess nach dem Status dieses Meilensteins suchen soll, um ihn für die Rechnungsstellung zu berücksichtigen.| Dieser Wert wird als Standarddatum der Kreditorenrechnungsposition bei der Rechnungsstellung für diese Unterauftragsposition verwendet. |
+    | Höhe | Der Betrag oder Wert des Meilensteins, der dem Kunden in Rechnung gestellt wird. |Dieser Wert wird als Standardbetrag der Kreditorenrechnungsposition bei der Rechnungsstellung für diese Unterauftragsposition verwendet. |
+    | Steuer | Der auf den Meilenstein angewendete Steuerbetrag.| Dieser Wert wird als Standardsteuerbetrag der Kreditorenrechnungsposition bei der Rechnungsstellung für diese Unterauftragsposition verwendet. |
+    | Betrag nach Steuer | Dieses Feld ist schreibgeschützt und wird berechnet als Vertraglicher Betrag + Steuern.|Dieser Wert wird als Standardwert der Kreditorenrechnungsposition bei der Rechnungsstellung für diese Unterauftragsposition verwendet. |
+    | Rechnungsstatus | Beim Anlegen des Meilensteins wird dieser Status immer auf **Nicht bereit für die Rechnungsstellung** festgelegt.|  Wenn der Status **Bereit für Rechnung** ist, enthält die Kreditorenrechnungserstellung diesen Meilenstein in der Kreditorenrechnung. |
 
 5. Klicken Sie auf **Speichern und schließen**.
 

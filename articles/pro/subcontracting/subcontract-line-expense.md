@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323820"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506098"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Fremdarbeitspositionen für Ausgabenkategorien
 
@@ -29,23 +29,23 @@ Führen Sie die folgenden Schritte aus, um in Project Operations eine Fremdarbei
 
 Die folgende Tabelle enthält Informationen zu den Feldern auf der Detailseite **Fremdauftragsposition** und der Seite **Schnell erstellen**.
 
-| **Feld** |  **Beschreibung** |
-| ----------| ---------------- |
-| Name | Der Name der Fremdarbeitsposition. |
-| Beschreibung | Eine kurze Beschreibung der Service- und Produktkategorien, die in der Fremdarbeitsposition gekauft werden. |
-| Leitungstyp | Dieses Feld hat einen Standardwert von **Mengenbasiert**.  |
-| Fakturierungsmethode | Die Aberechnungsmethode der Fremdarbeitsposition. Basierend auf der Abrechnungsmethode der Position ist für die Abrechnungsmethode Festpreis ein meilensteinbasierter Rechnungsplan verfügbar.  |
-| Transaktionsklasse | Dieses Feld hat einen Standardwert von **Zeit**. Um Fremdarbeitspositionen für den Einkauf von Produkten anzulegen, legen Sie im Feld **Transaktionsklasse** **Ausgabe** fest. Dieser Feldwert gibt an, dass die Fremdarbeitsposition verwendet wird, um einen Einkauf einer Kategorie von Produkten oder Services zu erfassen, die in Projekten verwendet werden sollen. |
-| Transaktionskategorie | Wählen Sie die Transaktionskategorie aus. |
-| Gewünschter Start | Das Datum, an dem die Kaufkategorien beim Lieferanten verfügbar sein müssen. Der gewünschte Start wird verwendet, um eine Projektpreisliste aus den Projektpreislisten auszuwählen, die der Fremdarbeit beigefügt sind. Die Kosten der Kategorie in der Fremdarbeitsposition werden standardmäßig von dieser Preisliste übernommen. |
-| Gewünschtes Ende | Das Datum, an dem die Kaufkategorien nicht mehr benötigt werden. Dieses Datum ruft eine Warnung auf, wenn ein Projektmanager diese Fremdarbeitsposition mit bestimmten Kostenschätzungen für Projekte verknüpft, die nach diesem Datum datieren. |
-| Bestellte Menge | Die Menge der Kategorie, die vom Lieferanten gekauft wird. Wenn ein Projektmanager die gekaufte Menge überzieht, wird eine Warnung ausgegeben.  |
-| Einheitengruppe | Dieser Feldwert basiert auf der Standardeinheitengruppe, die für die ausgewählte Kategorie eingerichtet ist. |
-| Einheit | Dieser Feldwert basiert auf der Standardeinheit, die für die ausgewählte Kategorie eingerichtet ist. Die Kombination aus Kategorie und Einheit wird als Standardwert für den Einheitspreis für die Fremdarbeitsposition verwendet. |
-| Einheitenpreis | Der Einheitspreis-Feldwert wird standardmäßig aus der Kombination von Kategorie und Einheit aus den Kategoriepreisen in Bezug auf die Projektpreisliste verwendet, die für das angeforderte Startdatum der Fremdarbeitsposition gilt.  |
-| Zwischensumme | Dieses schreibgeschützte Feld, wird automatisch als Mengenstückpreis berechnet, wenn sowohl die Mengen- als auch die Einheitspreiswerte eingegeben werden. Wenn entweder eins der Felder leer ist oder beide leer sind, können Sie manuell einen Wert in dieses Feld eingeben.  |
-| Mehrwertsteuer | Geben Sie den Umsatzsteuerbetrag ein.  |
-| Gesamtbetrag | Der Gesamtbetrag der Fremdarbeitsposition einschließlich Steuern. Dieses Feld wird als Zwischensumme + Mehrwertsteuer berechnet.  |
+| **Feld** | **Beschreibung** | **Funktionsauswirkung** |
+| --- | --- | --- |
+| Name | Name der Unterauftragsposition, um bei der Identifizierung zu helfen. | Dies wird als erste Spalte in allen Nachschlagevorgängen basierend auf Fremdauftragspositionen angezeigt. |
+| Beschreibung | Eine kurze Beschreibung der Ausgabenkategorien, die in der Unterauftragsposition gekauft werden. | Kein Wert |
+|Leitungstyp | Dieses Feld hat einen Standardwert von **Mengenbasiert**. |Kein Wert |
+| Fakturierungsmethode | Dies ist ein Optionssatz, der die beiden wichtigsten Vertragsmodelle darstellt, die von Project Operations unterstützt werden: **Festpreis** und **Zeit und Material**. | Ein meilensteinbasierter Rechnungsplan wird für Unterauftragspositionen verfügbar gemacht, wenn die Fakturierungsmethode Festpreis ausgewählt ist. |
+| Transaktionsklasse | Dieses Feld hat einen Standardwert von **Zeit**. Um Fremdarbeitspositionen für den Einkauf von Produkten anzulegen, legen Sie im Feld **Transaktionsklasse** **Ausgabe** fest.  | Dies zeigt an, dass die Unterauftragsposition verwendet wird, um den Einkauf einer Ausgabenkategorie zu erfassen, die für Projekte verwendet werden soll. |
+| Transaktionskategorie | Zeigt eine Liste der aktiven Transaktionskategorien im System an. |Kein Wert |
+| Gewünschter Start | Geben Sie das Datum ein, an dem die Kaufkategorien beim Lieferanten verfügbar sein müssen. | Angeforderter Start wird verwendet, um eine Projektpreisliste aus den Projektpreislisten auszuwählen, die dem Unterauftrag beigefügt sind. Die Kosten der Kategorie in der Lohnbearbeitungsposition stammen aus dieser Preisliste. |
+| Gewünschtes Ende | Geben Sie das Datum ein, an dem die Kaufkategorien nicht mehr benötigt werden. | Dies wird verwendet, um Warnungen anzuzeigen, wenn ein Projektmanager diese Unterauftragsposition bestimmten Kostenschätzungen für das Projekt zuordnet, die nach diesem Datum erforderlich sind. |
+| Bestellte Menge | Menge der Kategorie, die vom Lieferanten gekauft wird. | Dies wird verwendet, um Warnungen anzuzeigen, wenn ein Projektmanager diese Menge überzieht.|
+| Einheitengruppe | Der Standardwert basiert auf der Standardeinheitengruppe, die für die ausgewählte Kategorie eingerichtet ist. |Kein Wert |
+| Einheit | Der Standardwert basiert auf der Standardeinheit, die für die ausgewählte Kategorie eingerichtet ist.  | Die Kombination von **Kategorie** und **Einheit** wird als Standardwert verwendet oder für den Einheitspreis für die Unterauftragsposition berechnet.  |
+| Einheitenpreis | Der Standardwert verwendet die Kombination der **Kategorie** und **Einheit** aus der Kategorie Preise bezogen auf die Projektpreisliste, die für den gewünschten Beginn der Unterauftragsposition gilt. |Kein Wert |
+| Zwischensumme | Dies ist ein schreibgeschütztes Feld, das als Menge X Stückpreis berechnet wird, wenn sowohl die Mengen- als auch die Stückpreiswerte eingegeben werden. Wenn eines oder beide Felder leer sind, können Sie in dieses Feld einen Wert eingeben. |Kein Wert |
+| Mehrwertsteuer | Geben Sie den Umsatzsteuerbetrag ein. |Kein Wert |
+| Gesamtbetrag | Der Gesamtbetrag der Fremdarbeitsposition einschließlich Steuern. Dieses Feld wird als Zwischensumme + Mehrwertsteuer berechnet. |Kein Wert |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

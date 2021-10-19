@@ -2,23 +2,22 @@
 title: Verwenden von Projektplanungs-APIs zur Durchführung von Vorgängen mit Entitäten der Zeitplanung
 description: Dieses Thema enthält Informationen und Beispiele für die Verwendung von Projektzeitplan-APIs.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008765"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487684"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Verwenden von Projektplanungs-APIs zur Durchführung von Vorgängen mit Entitäten der Zeitplanung
 
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-> [!IMPORTANT] 
-> Einige oder alle der in diesem Thema genannten Funktionen stehen im Rahmen einer Vorschauversion zur Verfügung. Inhalt und Funktionalität können sich ändern. 
+
 
 ## <a name="scheduling-entities"></a>Planungsentitäten
 

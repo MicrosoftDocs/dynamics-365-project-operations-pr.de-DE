@@ -2,16 +2,16 @@
 title: Für Testversionen von Project Operations anmelden
 description: Dieses Thema enthält Informationen zum Bereitstellen einer Testversion von Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418456"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599212"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Für Testversionen von Project Operations anmelden 
 
@@ -85,15 +85,9 @@ Bevor Sie beginnen, melden Sie sich bei einem Browser mit dem Arbeitskonto des B
 
    Nach dem Start der Bereitstellung werden Sie zur Umgebungsliste im Power Platform-Admin-Center weitergeleitet. Während der Bereitstellung ist der Status Ihrer Umgebung **PreparingInstance**.
  
-  Nach Abschluss der Bereitstellung ist der Status Ihrer Umgebung **Ready**.
+  Wenn die Bereitstellung abgeschlossen ist, ist der Status Ihrer Umgebung **Bereit**. Die Bereitstellung der Umgebung umfasst die Bereitstellung von Demodaten.
  
-4.  Wenn die Bereitstellung abgeschlossen ist, wählen Sie die entsprechenden Microsoft Dataverse-URL und die Finance and Operations-Apps-URLs, um die Bereitstellung zu überprüfen.
-
-## <a name="demo-data-installation"></a>Installation der Demodaten
-
-Verwenden Sie die folgenden Links, um auf Demodatenpakete für nicht vorrätige Materialien und Lite-Bereitstellungsszenarien zuzugreifen. 
-- [Demmodaten für nicht vorrätiger Materialien](resource-apply-pro-setup-config-data.md)
-- [Lite-Demodaten](lite-apply-demo-setup-config-data.md)
+4.  Wählen Sie die jeweilige Microsoft Dataverse-URL und die Finance and Operations-Apps-URLs, um die Bereitstellung zu überprüfen.
 
 ## <a name="configuring-dual-write"></a>Konfigurieren von dualem Schreiben
 Konfigurieren Sie Ihre Zuordnungen für duales Schreiben nur für Bereitstellungen von nicht vorrätigen Materialien. Weitere Informationen finden Sie unter [Project Operations-Zuordnungsversionen für duales Schreiben](resource-dual-write-maps.md).

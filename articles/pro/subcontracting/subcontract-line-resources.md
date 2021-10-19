@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48440f82170bde7f0a0a45f8f9849d688b232949
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 4a929b985a51ab49d3e34ce4a5c277af4c05c216
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323370"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558456"
 ---
 # <a name="subcontract-line-resources"></a>Ressourcen für Fremdarbeitsposition
 
@@ -28,18 +28,18 @@ Gehen Sie wie folgt vor, um Ressourcen für eine Fremdarbeitsposition zu erstell
 1. Wählen Sie im Navigationsbereich **Fremdarbeiten** aus, und öffnen Sie die Fremdarbeit, mit der Sie arbeiten möchten.
 2. Öffnen Sie die Fremdarbeitsposition für die Zeit, für die Sie Lieferantenressourcen angeben möchten.
 3. Auf der **Ressourcen für die Fremdarbeitsposition**-Registerkarte wählen Sie im Unterraster **+ Neue Ressource für die Fremdarbeitsposition**.
-4. Auf der **Neuer Meilenstein für die Fremdarbeitsposition**-Seite geben Sie die erforderlichen Informationen ein und wählen dann **Speichern und schließen** aus.
+4. Geben Sie auf der Seite **Neue Ressource für Fremdarbeitsposition** die erforderlichen Speseninformationen ein, und wählen Sie dann **Speichern und schließen** aus.
 
 In der folgenden Tabelle werden die Felder der Ressourcen für die Fremdbearbeitungsposition erläutert.
 
-| Feld |  Beschreibung |
-| ----- | ------------ |
-| Buchbare Ressource | Wählen Sie eine buchbare Ressource vom Typ „Fremdarbeiter“ aus, die Sie als Ressource in der Fremdarbeitsposition verwenden möchten. Wenn Sie noch keine buchbare Ressource für den Fremdarbeiter angelegt haben, lassen Sie dieses Feld leer. Beim Speichern des Datensatzes wird eine buchbare Ressource erstellt.  |
-| Kontakt | Wenn das **Buchbare Ressource**-Feld leer ist, können Sie Ihre Fremdarbeitsressource aus einem vorhandenen Kontakt erstellen. Verwenden Sie die Suche, um die Liste der aktiven Kontakte im System anzuzeigen. Wählen Sie einen Ansprechpartner für den Lieferanten dieses Fremdarbeiters aus. Der ausgewählte Kontakt wird beim Speichern des Datensatzes validiert. Wenn der von Ihnen ausgewählte Kontakt kein gültiger Kontakt ist, wird Ihr Datensatz nicht gespeichert. Wenn für den ausgewählten Kontakt keine buchbare Ressource vorhanden ist, erstellt das System eine buchbare Ressource für den ausgewählten Kontakt, bevor die Ressource für die Fremdarbeitsposition erstellt wird. |
-| User | Wenn das **Buchbare Ressource**-Feld leer ist, können Sie eine Fremdarbeitsressource erstellen, indem Sie einen aktiven Benutzer auswählen. Verwenden Sie die Suche, um die Liste der aktiven Benutzer im System anzuzeigen. Wenn für den ausgewählten Benutzer keine buchbare Ressource vorhanden ist, erstellt das System eine buchbare Ressource für den ausgewählten Benutzer, bevor die Ressource für die Fremdarbeitsposition erstellt wird. |
-| Startdatum | Das Datum, an dem der Einsatz des Fremdarbeiters beginnt. Wenn diese Ressource für einen Zeitraum gebucht wird, der vor diesem Datumsbereich liegt, wird eine Warnung ausgegeben. |
-| Enddatum | Das Datum, an dem der Einsatz des Fremdarbeiters beendet ist. Wenn diese Ressource für einen Zeitraum gebucht wird, der nach diesem Datumsbereich liegt, wird eine Warnung ausgegeben. |
-| Aufwand | Die Gesamtzahl der Arbeitsstunden, die die Fremdarbeitskraft für diese Fremdarbeitsposition aufwenden wird. Wenn diese Ressource über den Aufwand hinaus gebucht wird, der ihr in dieser Fremdarbeit zugewiesen ist, wird eine Warnung ausgegeben. |
+| Feld | Beschreibung | Funktionsauswirkung |
+| ----- | ----------- | ----------------- |
+| Buchbare Ressource | Wählen Sie eine buchbare Ressource vom Typ **Fremdarbeiter** aus, die Sie als Ressource in der Fremdarbeitsposition verwenden möchten.| Wenn Sie keine buchbare Ressource für den Leiharbeiter angelegt haben, lassen Sie dieses Feld leer. Beim Speichern des Datensatzes wird eine buchbare Ressource erstellt.  |
+| Kontakt | Sie können Ihre Fremdauftragszeilenressource aus einem vorhandenen Kontakt erstellen. Verwenden Sie die Suche, um die Liste der aktiven Kontakte im System anzuzeigen. Wählen Sie einen Ansprechpartner für den Lieferanten dieses Fremdarbeiters aus. Wenn der von Ihnen ausgewählte Kontakt kein gültiger Kontakt für den Kreditor im Unterauftrag ist, wird der Ressourcendatensatz der Fremdauftragsposition nicht gespeichert.| Wenn für den ausgewählten Kontakt keine buchbare Ressource vorhanden ist, erstellt das System eine buchbare Ressource für den ausgewählten Kontakt, bevor die Ressource für die Fremdarbeitsposition erstellt wird. |
+| User | Sie können eine Fremdauftragszeilenressource erstellen, indem Sie einen aktiven Benutzer auswählen. Verwenden Sie die Suche, um die Liste der aktiven Benutzer im System anzuzeigen.| Wenn für den ausgewählten Benutzer keine buchbare Ressource vorhanden ist, erstellt das System eine buchbare Ressource für den ausgewählten Benutzer, bevor die Ressource für die Fremdarbeitsposition erstellt wird. |
+| Startdatum | Das Datum, an dem der Einsatz des Fremdarbeiters beginnt.| Wenn diese Ressource für einen Zeitraum gebucht wird, der vor diesem Datumsbereich liegt, wird eine Warnung ausgegeben. |
+| Enddatum | Das Datum, an dem der Einsatz des Fremdarbeiters beendet ist.| Wenn diese Ressource für einen Zeitraum gebucht wird, der nach diesem Datumsbereich liegt, wird eine Warnung ausgegeben. |
+| Aufwand | Die Gesamtzahl der Arbeitsstunden, die die Vertragsarbeitskraft für diese Unterauftragsposition aufwenden wird.| Wenn diese Ressource über den Aufwand hinaus gebucht wird, der diesem Unterauftrag zugeordnet ist, erfolgt eine Warnung. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
