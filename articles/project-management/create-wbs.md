@@ -2,16 +2,16 @@
 title: Einen Projektstrukturplan erstellen
 description: In diesem Thema wird erläutert, wie Sie einen Projektstrukturplan (PSP) erstellen, der die grundlegenden Steuerelemente in der neuen Planungsschnittstelle enthält.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998730"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655416"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Einen Projektstrukturplan (PSP) erstellen
 
@@ -117,5 +117,26 @@ Der Aufgabenmodus hat keine Auswirkungen auf die Updates, die für das Start- un
 
 Auf das Raster **Zeitplan** kann vollständig zugegriffen werden, und es kann mit Bildschirmlesern wie Narrator, JAWS oder NVDA verwendet werden. Sie können durch den Rasterbereich navigieren, indem Sie die Pfeiltasten (wie in Microsoft Excel) verwenden. Sie können die TAB-TASTE verwenden, um über die interaktiven Benutzeroberflächenelemente zu navigieren, und Sie können den ABWÄRTSPFEIL, die EINGABETASTE oder LEERTASTE verwenden, um die Dropdownmenüs auszuwählen und zu öffnen.
 
+## <a name="project-limitations"></a>Projekteinschränkungen 
+Beachten Sie die folgenden Einschränkungen, wenn Sie den Projektstrukturplan in Project Operations verwenden. Diese Einschränkungen gelten für Projekte und Aufgaben. Weitere Informationen finden Sie unter [„Project for the web“-Einschränkungen und -Grenzen](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Feld**                                          |  **Grenze**           |
+|----------------------------------------------------|----------------------|
+| Maximale Gesamtanzahl an Aufgaben für ein Projekt                  | 500                  |
+| Maximale Gesamtdauer für ein Projekt               | 3650 Tage (10 Jahre) |
+| Maximale Gesamtressourcen für ein Projekt              | 150                  |
+| Maximale Gesamtzahl der Links (nur Nachfolger) für ein Projekt | 600                  |
+| Maximale Gesamtanzahl benutzerdefinierter Felder für ein Projekt          | 10                   |
+
+**Aufgabeneinschränkungen**
+
+| **Feld**                               |   **Grenze**           |
+|-----------------------------------------|-----------------------|
+| Maximale Hierarchieebene                 | 10 Ebenen             |
+| Maximale Links (Nachfolger + Vorgänger) | 20                    |
+| Maximale Dauer der Blattaufgabe           | 1250 Tage             |
+| Maximale Dauer einer Sammelaufgabe      | 3650 Tage (10 Jahre)  |
+| Maximale Ressourcen, die einer Aufgabe zugewiesen sind    | 20 Ressourcen          |
+| Unterstützter Datumsbereich für eine Aufgabe         | 1.1.2000 bis 31.12.2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

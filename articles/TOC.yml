@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Kreditorenrechnungsintegration
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dynamics 365 Project Operations deinstallieren
+          href: environment/uninstall-project-operations.md
     - name: Neuigkeiten
       items:
         - name: Oktober 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
+            - name: Projektzeitplan-API-Leistung
+              href: project-management/project-schedule-api-performance.md
     - name: Ressourcenverwaltung
       items:
         - name: Wichtige Konzepte
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
+            - name: Projektzeitplan-API-Leistung
+              href: project-management/project-schedule-api-performance.md
     - name: Ressourcenverwaltung
       items:
         - name: Wichtige Konzepte
@@ -1102,6 +1108,8 @@
       items:
         - name: Aktualisierter Veröffentlichungszeitplan für Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 37, V3?'
+          href: psa/whats-new-ur-37.md
         - name: Neuerungen oder Änderungen in Updateversion 36 V3
           href: psa/whats-new-ur-36.md
         - name: Neuerungen oder Änderungen in Updateversion 35 V3
