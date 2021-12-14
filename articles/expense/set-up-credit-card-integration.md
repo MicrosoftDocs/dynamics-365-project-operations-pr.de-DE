@@ -2,7 +2,7 @@
 title: Kreditkartenintegration einrichten
 description: In diesem Thema wird erläutert, wie Sie mit kostenbezogenen Kreditkartentransaktionen arbeiten.
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996210"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826255"
 ---
 # <a name="set-up-credit-card-integration"></a>Kreditkartenintegration einrichten
 
@@ -44,16 +44,24 @@ Gehen Sie folgendermaßen vor, um Kreditkartentransaktionen zu importieren:
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Ordnen Sie die Kreditkartentransaktionen für gekündigte Mitarbeiter neu zu
 
-Nach Beendigung eines Mitarbeiterdatensatzes ist das Active Directory Domain Services (AD DS) Konto des Mitarbeiters deaktiviert. Es kann jedoch aktive Kreditkartentransaktionen geben, die noch als Aufwand erfasst und erstattet werden müssen. Auf der Seite **Kreditkartentransaktionen** können Sie den Mitarbeiter für jede Kreditkartentransaktion neu zuweisen, bei der der zugehörige Mitarbeiter gekündigt wurde.
+Nach Beendigung eines Mitarbeiterdatensatzes ist das Active Directory Domain Services(AD DS)-Konto des Mitarbeiters deaktiviert. Es kann jedoch aktive Kreditkartentransaktionen geben, die noch als Aufwand erfasst und erstattet werden müssen. Auf der Seite **Kreditkartentransaktionen** können Sie den Mitarbeiter für jede Kreditkartentransaktion neu zuweisen, bei der der zugehörige Mitarbeiter gekündigt wurde.
 
 Wählen Sie eine oder mehrere Kreditkartentransaktionen aus und wählen Sie dann **Transaktionen neu zuweisen** aus. Sie können dann einen anderen Mitarbeiter auswählen, dem die Kreditkartentransaktionen zugewiesen werden sollen. Nachdem die Kreditkartentransaktionen neu zugewiesen wurden, können sie für eine Spesenabrechnung ausgewählt und nach dem üblichen Verfahren für die Erstattung von Spesenabrechnungen bezahlt werden.
 
 ## <a name="delete-credit-card-transactions"></a>Kreditkartentransaktionen löschen 
 
-Manchmal müssen nach dem Import von Kreditkartentransaktionen bestimmte Transaktionen gelöscht werden. Dies kann daran liegen, dass es sich bei den Transaktionen um Duplikate handelt oder dass die Daten möglicherweise nicht korrekt sind. Administratoren können die Funktion **Kreditkartentransaktionen löschen** zum Auswählen und Löschen von Kreditkartentransaktionen, die einer Spesenabrechnung **nicht angehängt** sind. 
+Manchmal müssen nach dem Import von Kreditkartentransaktionen bestimmte Transaktionen gelöscht werden. Dies kann daran liegen, dass es sich bei den Transaktionen um Duplikate handelt oder die Daten nicht korrekt sind. Administratoren können die Funktion **Kreditkartentransaktionen löschen** zum Auswählen und Löschen von Kreditkartentransaktionen, die einer Spesenabrechnung **nicht angehängt** sind. 
 
 1. Gehen Sie zu **Periodische Aufgaben** > **Kreditkartentransaktionen löschen**.
 2. Wählen Sie **Filter** und Informationen bereitstellen, um die einzuschließenden Datensätze zu identifizieren.
 3. Um die Datensätze zu löschen, wählen Sie **OK** aus. 
+
+## <a name="storing-credit-card-numbers"></a>Speichern von Kreditkartennummern
+
+Es stehen drei Optionen zum Speichern von Kreditkartennummern zur Verfügung. Kreditkartennummern werden auf der Seite **Ausgabenverwaltungsparameter** gespeichert.
+
+- **Eingabe der Kartennummer verhindern** – Kreditkartennummern werden nicht gespeichert.
+- **Hash-Kartennummern (die letzten vier Ziffern speichern)**  – Die letzten vier Ziffern der Kreditkartennummern werden verschlüsselt gespeichert.
+- **Kartennummern speichern** – Kreditkartennummern werden in einem unverschlüsselten Format gespeichert. Diese Option entspricht nicht dem Data Security Standard (DSS) der Payment Card Industry (PCI). Um die Einhaltung der PCI-DSS-Vorschriften zu gewährleisten, sollten Organisationsadministratoren daher entweder keine Kreditkartennummern oder Hash-Kartennummern speichern.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

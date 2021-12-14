@@ -52,13 +52,15 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Ausgabenverwaltungsintegration
               href: environment/resource-dual-write-expense.md
-            - name: Kreditorenrechnungsintegration
+            - name: Zuliefererrechnungsintegration
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Dynamics 365 Project Operations deinstallieren
           href: environment/uninstall-project-operations.md
     - name: Neuigkeiten
       items:
-        - name: Oktober 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+        - name: "November\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: "Oktober\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: September 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
           href: whats-new/whats-new-sept-2021-resource-based.md
@@ -300,8 +302,10 @@
               href: project-management/dev-copy-project.md
             - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
-            - name: Projektzeitplan-API-Leistung
+            - name: Leistung der Projektzeitplan-API
               href: project-management/project-schedule-api-performance.md
+            - name: Projektzeitplan-Protokolle
+              href: project-management/schedule-api-logs.md
     - name: Ressourcenverwaltung
       items:
         - name: Wichtige Konzepte
@@ -542,9 +546,11 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
-        - name: "Neuigkeiten für den Vorabzugang für den 2. Veröffentlichungszyklus 2021\_– Lite-Bereitstellung"
+        - name: "Neuigkeiten zum Vorabzugang für den 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Neuigkeiten für Oktober 2021 – Lite-Bereitstellung
+        - name: "Neuigkeiten für November\_2021\_– Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: "Neuigkeiten für Oktober\_2021\_– Lite-Bereitstellung"
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Neuigkeiten für September 2021 – Lite-Bereitstellung
           href: pro/whats-new/whats-new-sept-2021-lite.md
@@ -806,7 +812,7 @@
               href: project-management/dev-copy-project.md
             - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
-            - name: Projektzeitplan-API-Leistung
+            - name: Leistung der Projektzeitplan-API
               href: project-management/project-schedule-api-performance.md
     - name: Ressourcenverwaltung
       items:
@@ -952,7 +958,11 @@
   items:
     - name: Neuigkeiten
       items:
-        - name: Neuigkeiten für Juli 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+        - name: "Neuigkeiten für Oktober 2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: "Neuigkeiten für September\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+        - name: "Neuigkeiten für Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: "Neuigkeiten für Mai\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
           href: prod-pma/whats-new/whats-new-may-2021-stocked.md
@@ -1106,11 +1116,13 @@
       href: psa/overview.md
     - name: Neuigkeiten
       items:
-        - name: Aktualisierter Veröffentlichungszeitplan für Project Service 3.x
+        - name: "Aktualisierter Veröffentlichungszeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
-        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 37, V3?'
+        - name: "Neuerungen oder Änderungen in Updateversion\_37.5, V3"
+          href: psa/whats-new-ur-37-5.md
+        - name: "Neuerungen oder Änderungen in Updateversion\_37, V3"
           href: psa/whats-new-ur-37.md
-        - name: Neuerungen oder Änderungen in Updateversion 36 V3
+        - name: "Neuerungen oder Änderungen in Updateversion\_36, V3"
           href: psa/whats-new-ur-36.md
         - name: Neuerungen oder Änderungen in Updateversion 35 V3
           href: psa/whats-new-ur-35.md

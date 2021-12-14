@@ -2,7 +2,7 @@
 title: Mobile Ausgaben-App
 description: Dieses Thema bietet Informationen über die Ausgabenverwaltung im mobilen Arbeitsbereich.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993195"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818182"
 ---
 # <a name="mobile-expense-app"></a>Mobile Ausgaben-App
 
@@ -47,42 +47,9 @@ Sie können diese Funktionem auch für folgende Aufgaben verwenden:
 - Senden Sie eine Ausgabenabrechnung zur Genehmigung und Erstattung.
 - Genehmigen oder lehnen Sie Ausgabenabrechnungen ab, für die Sie ein zugeordneter Genehmiger sind.
 
-## <a name="prerequisites"></a>Voraussetzungen
-Die Voraussetzungen variieren je nach Version, die für Ihre Organisation bereitgestellt wurde.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Voraussetzungen, wenn Sie Dynamics 365 Finance verwenden
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Voraussetzungen, wenn Sie Dynamics 365 Finance verwenden 
 Wenn Finance für Ihre Organisation bereitgestellt wurde, muss der Systemadministrator den mobilen Arbeitsbereich der **Ausgabenverwaltung** veröffentlichen. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Voraussetzungen, wenn Sie Version 1611 mit Plattform Update 3 oder höher verwenden
-Wenn Version 1611 mit Plattform Update 3 oder höher für Ihre Organisation bereitgestellt wurde, muss der Systemadministrator auch die folgenden Voraussetzungen erfüllen. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Voraussetzung</th>
-<th>Rolle</th>
-<th>Beschreibung des Dataflows</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Wissensdatenbank 4019015 implementieren.</td>
-<td>Systemadministrator</td>
-<td>Wissensdatenbank 4019015 ist ein X ++ – Update oder ein Metadaten-Hotfix, der den mobilen Arbeitsbereich <strong>Ausgabenverwaltung</strong> enthält. Um Wissensdatenbank 4019015 zu implementieren, muss Ihr Systemadministrator diese Schritte ausführen.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Laden Sie Updates von Lifecycle Services herunter</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installieren Sie den Metadaten-Hotfix</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Erstellen Sie ein bereitstellbares Paket</a>, das die Modelle <strong>ApplicationSuite</strong> und <strong>ExpenseMobile</strong> enthält und laden Sie dann das bereitstellbare Paket auf LCS hoch.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Bereitstellbares Paket anwenden</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Veröffentlichen Sie den mobilen Arbeitsbereich <strong>Ausgabenmanagement</strong>.</td>
-<td>Systemadministrator</td>
-<td>Anweisungen finden Sie unter <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Einen mobilen Arbeitsbereich veröffentlichen</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie sie
 Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie sie:
@@ -103,11 +70,11 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 3. Wählen Sie **Foto machen** oder **Bild auswählen**.
 4. Folgen Sie einen der folgenden Schritte:
 
-   - Wenn Sie **Foto machen** ausgewählt haben, folgen Sie diesen Schritten:
+    - Wenn Sie **Foto machen** ausgewählt haben, folgen Sie diesen Schritten:
 
-      1. Sie werden auf Ihrem Mobilgerät zur Kamera geführt, damit Sie ein Foto von der Quittung machen können. 
-      2. Wenn Sie mit dem Aufnehmen eines Fotos fertig sind, wählen Sie **OK**, um das Foto anzunehmen.
-      3. Optional: Geben Sie einen Namen für das Foto ein und geben Sie Notizen ein.
+        1. Sie werden auf Ihrem Mobilgerät zur Kamera geführt, damit Sie ein Foto von der Quittung machen können. 
+        2. Wenn Sie mit dem Aufnehmen eines Fotos fertig sind, wählen Sie **OK**, um das Foto anzunehmen.
+        3. Optional: Geben Sie einen Namen für das Foto ein und geben Sie Notizen ein.
 
     - Wenn Sie **Bild auswählen** ausgewählt haben, folgen Sie diesen Schritten:
 
@@ -133,20 +100,20 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 
 10. Wählen Sie **Fertig** aus.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Genehmigen Sie eine Ausgabenabrechnung mithilfe des mobilen Arbeitsbereichs für die Ausgabenverwaltung (wenn Sie das Update vom Juli 2017 verwenden)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Einen Ausgabenbericht genehmigen unter Verwendung des mobilen Arbeitsbereichs für die Ausgabenverwaltung
 
 1. Öffnen Sie den Arbeitsbereich der **Ausgabenverwaltung** auf Ihrem mobilen Gerät.
 2. **Ausgabengenehmigungen** zeigt die Anzahl der Ausgabenabrechnungen an, die Ihnen zur Genehmigung zugewiesen wurden. Die Nummer wird ungefähr alle 30 Minuten aktualisiert. Wählen Sie **Ausgabengenehmigungen**.
 
     Die Liste der Ausgabengenehmigungen zeigt die Anzahl der Ausgabenabrechnungen an, die Ihnen zur Genehmigung zugewiesen wurden.
-    
+
 3. Wählen Sie eine Ausgabenabrechnung aus, um die Ausgabemabrechnungen anzuzeigen.
 4. Wählen Sie eine Ausgabe aus, um die Details anzuzeigen. Die Informationen, die für eine Ausgabe angezeigt werden, umfassen alle Beleg-, Gast- und Auflistungsdetails.
 5. Zurück auf der **Ausgabenabrechnung** wählen Sie auf dieser Seite aus, ob der Ausgabenbericht genehmigt oder abgelehnt werden soll.
 6. Geben Sie Kommentare für die Genehmigungsaktion ein.
 7. Wählen Sie **Fertig** aus.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Erstellen Sie einen neuen Ausgabenbericht und übermitteln Sie diesen zur Genehmigung mithilfe des mobilen Arbeitsbereichs für die Ausgabenverwaltung (wenn Sie das Update vom Juli 2017 verwenden)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Einen neuen Ausgabenbericht erstellen und unter Verwendung des mobilen Arbeitsbereichs für die Ausgabenverwaltung zur Genehmigung vorlegen
 
 1. Öffnen Sie den Arbeitsbereich der **Ausgabenverwaltung** auf Ihrem mobilen Gerät.
 2. Wählen Sie **Ausgabenerfassung**.
@@ -184,12 +151,12 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
                     1. Wählen Sie ein Bild auf der Liste aus.
                     2. Optional: Geben Sie einen Namen für das Bild ein und geben Sie Notizen ein.
 
-            3.  Wählen Sie **Fertig** aus.
+            3. Wählen Sie **Fertig** aus.
 
         - Wenn Sie **Quittung anhängen** ausgewählt haben, folgen Sie diesen Schritten:
 
-            1.  Wählen Sie in der Liste ein Bild oder mehrer Bilder aus.
-            2.  Wählen Sie **Fertig** aus.
+            1. Wählen Sie in der Liste ein Bild oder mehrer Bilder aus.
+            2. Wählen Sie **Fertig** aus.
 
     3. Wählen Sie die Schaltfläche **Zurück**, um zu den Ausgabendetails zurückzukehren.
 
@@ -235,5 +202,30 @@ Laden Sie die Dynamics 365 Unified Ops mobile App herunter und installieren Sie 
 23. Geben Sie Kommentare für die genehmigende Person ein.
 24. Wählen Sie **Fertig** aus.
 
+## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Warum wird bei der mobilen Ausgaben-App die Zahlungsmethode nicht standardmäßig eingegeben?
+
+Organisationen können die Einstellung **Standardzahlungsmethode** für jede Ausgabenkategorie bei ihrer Erstellung anpassen. Darüber hinaus können Sie beim Einrichten von Zahlungsmethoden das Feld **Standardzahlungsmethode** auf **Nur importieren** festlegen.
+
+Wenn **Nur importieren** für eine Zahlungsmethode aktiviert ist, wird die Zahlungsmethode nicht standardmäßig eingegeben. In Ausgabenkategorien, in denen diese Zahlungsmethode eingerichtet wird, ist sie leer. Dieses Verhalten ist sowohl im Web als auch in der mobilen Version konsistent.
+    
+Wenn **Nur importieren** für eine Zahlungsmethode nicht aktiviert ist, wird der eingestellte Wert standardmäßig für Ausgabenkategorien eingegeben, in denen diese Zahlungsmethode eingerichtet wird. Es gibt jedoch ein bekanntes Problem, bei dem der Standardwert nicht in die mobile Ausgaben-App eingegeben wird. Um dieses Problem zu umgehen, wählen Sie manuell eine Zahlungsmethode aus, bevor Sie den Ausgabenbericht speichern. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Warum kann ich in der mobilen Ausgaben-App keine Finanzdimensionen hinzufügen oder bearbeiten?
+
+Die Eingabe von Dimensionen und Verteilungen wird nicht unterstützt. Um diese Einschränkung zu umgehen, können Sie diese Felder standardmäßig in der mobilen App festlegen, indem Sie die Standardfinanzdimensionen für das entsprechende Projekt oder den entsprechenden Mitarbeiter einrichten.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Warum sehe ich manchmal einen Synchronisierungsfehler in der mobilen Ausgaben-App?
+
+Wenn die Ausgabenzeilen die Richtlinienanforderungen nicht erfüllen und der Benutzer den Ausgabenbericht sendet, ohne die Richtlinienwarnung zu berücksichtigen, werden die mobilen Daten nicht mit dem Server synchronisiert, und es kommt zu einem Synchronisierungsfehler. Alle Ausgabenberichte, die nach einem Synchronisierungsfehler eingereicht werden, verbleiben im Zustand „Fehlgeschlagen“ und verursachen weitere Synchronisierungsfehler. Die einzige Möglichkeit, diese Situation zu beheben, besteht darin, die Synchronisierungsbenachrichtigungen manuell zu löschen. Dieses Problem wurde behoben, indem die Übermittlung von Ausgabenberichten wurde, wenn Richtlinienwarnungen nicht behoben wurden, damit die Synchronisierungsfehler vermieden werden.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Warum wird die Projekt- und Kategorieprüfung in der mobilen Ausgaben-App nicht korrekt wiedergegeben?
+
+Diese Prüfung wird derzeit nicht unterstützt. Möglicherweise wird die Unterstützung jedoch in Zukunft hinzugefügt. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Welche Dokumenttypen werden in der mobilen Ausgaben-App unterstützt?
+
+Die mobile Ausgaben-App unterstützt nur Bilder. Sie unterstützt derzeit keine PDFs oder sonstigen Dokumente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,17 @@
 title: Project Operations-Updates
 description: Dieses Thema enthält Informationen zu den veröffentlichten Versionen von Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783422"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892186"
 ---
 # <a name="project-operations-updates"></a>Project Operations-Updates
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations besteht aus zwei Komponenten:
 - Projektmanagement und Buchhaltung in der Dynamics 365 Finance-Umgebung umfasst Funktionen für das Kostenmanagement, die Projektbuchhaltung und die Umsatzrealisierung. Die Finance and Operations-App-Umgebung wird in Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen und Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung genutzt.
 
 ## <a name="project-operations-release-notes"></a>Project Operations – Anmerkungen zu dieser Version
-- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien mit [vorrätigen/nicht-vorrätigen Ressourcen](whats-new-oct-2021-resource-based.md).
-- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien zur [Lite-Bereitstellung](../pro/whats-new/whats-new-oct-2021-lite.md).
-- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien zu [vorrätigen Ressourcen/Fertigung](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien mit [vorrätigen/nicht-vorrätigen Ressourcen](whats-new-nov-2021-resource-based.md).
+- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien zur [Lite-Bereitstellung](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Project Operations – neueste Anmerkungen zu dieser Version hinsichtlich Szenarien zu [vorrätigen Ressourcen/Fertigung](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Project Operations neueste Version
 
 | Project Operations für Dataverse Umgebung | Projektmanagement und Buchhaltung in Finance and Operations-App-Umgebungen | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Für Project Operations-Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen empfehlen wir die Verwendung der Orchestrierungslösung für duales Schreiben in der Version 2.2.2.83 oder höher.
+Für Project Operations-Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen empfehlen wir die Verwendung der Orchestrierungslösung für duales Schreiben in der Version 2.3.1.15 oder höher.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Release-Zeitplan für Project Operations in einer Dataverse Umgebung
 
@@ -47,23 +47,23 @@ Updates für Project Operations in einer Dataverse Umgebung sind monatlich verf�
 | Station | Region | Aktuelle Versionennummer | Automatische Updates für die Lite-Bereitstellung | Automatische Updates für Ressourcen-/Nicht-Lager-Bereitstellung | Nächst Versionsnummer | Nächste Version allgemein verfügbar |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Erste Veröffentlichung         |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 03. Dezember 2021   |
+|   &nbsp;  | Erste Veröffentlichung         |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 06. Dezember 2021   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Südamerika         |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 03. Dezember 2021   |
-|   &nbsp;  | Kanada                |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 03. Dezember 2021   |
-|   &nbsp;  | Indien                 |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 03. Dezember 2021   |
-|   &nbsp;  | Frankreich                |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 03. Dezember 2021   |
-|   &nbsp;  | Südafrika          |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 03. Dezember 2021   |
+|   &nbsp;  | Südamerika         |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 06. Dezember 2021   |
+|   &nbsp;  | Kanada                |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 06. Dezember 2021   |
+|   &nbsp;  | Indien                 |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 06. Dezember 2021   |
+|   &nbsp;  | Frankreich                |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 06. Dezember 2021   |
+|   &nbsp;  | Südafrika          |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 06. Dezember 2021   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 10. Dezember 2021   |
-|   &nbsp;  | Asien-Pazifik          |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 10. Dezember 2021   |
-|   &nbsp;  | Großbritannien         |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 10. Dezember 2021   |
-|   &nbsp;  | Ozeanien               |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 10. Dezember 2021   |
-|   &nbsp;  | Vereinigte Arabische Emirate  |  4.26.0.145     | 12. November 2021  | 19. November 2021   | TBD                 | 10. Dezember 2021   |
+|   &nbsp;  | Japan                 |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 10. Dezember 2021   |
+|   &nbsp;  | Asien-Pazifik          |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 10. Dezember 2021   |
+|   &nbsp;  | Großbritannien         |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 10. Dezember 2021   |
+|   &nbsp;  | Ozeanien               |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 10. Dezember 2021   |
+|   &nbsp;  | Vereinigte Arabische Emirate  |  4.26.0.150     | Abgeschlossen           | Abgeschlossen            | TBD                 | 10. Dezember 2021   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.25.0.91      | Abschließen           | Abschließen            | 4.26.0.145          | 12. November 2021   |
+|   &nbsp;  | Europa                |  4.26.0.150     | Abgeschlossen           | 10. Dezember 2021   | TBD                 | 17. Dezember 2021   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Nordamerika         |  4.25.0.91      | Abschließen           | Abschließen            | 4.26.0.145          | 19. November 2021   |
+|   &nbsp;  | Nordamerika         |  4.26.0.150     | 10. Dezember 2021  | 17. Dezember 2021   | TBD                 | 07. Jan. 2022    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Release-Zeitplan für Projektmanagement und Buchhaltung in der Finance and Operations-Apps-Umgebung

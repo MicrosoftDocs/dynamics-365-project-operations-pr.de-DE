@@ -2,7 +2,7 @@
 title: Eine Quittung mit OCR erfassen
 description: Dieses Thema enthält Informationen zur optischen Zeichenerkennung (OCR) für Quittungen.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007730"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798039"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Eine Quittung mit OCR erfassen
 
@@ -85,7 +85,18 @@ Nein, Microsoft hat ein allgemeines Maschinelles Lernen-Modell für seinen Beleg
 
 **Wo ist diese Funktion verfügbar und wird sie verarbeitet?**
 
-Derzeit werden die USA unterstützt.
+Die Verfügbarkeit dieser Funktion in verschiedenen Regionen ist in der folgenden Tabelle aufgeführt. Wenn Ihre Region derzeit nicht unterstützt wird, senden Sie eine Anfrage, um die Verfügbarkeit des OCR-Dienstes in Ihrer Region zu priorisieren. 
+
+| Region | Unterstützt                         |
+|--------|-----------------------------------|
+| USA    | Ja                               |
+| CAN    | Ja                               |
+| UK     | Ja                               |
+| AUS    | Ja                               |
+| EU     | Teilweise. Nur englische Belege. |
+| Asien   | Nr.                                |
+| Japan  | Nr.                                |
+| Afrika | Nr.                                |
 
 **Wohin gehen meine Quittungen?**
 
