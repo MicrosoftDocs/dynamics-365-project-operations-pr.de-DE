@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Project Operations-Updates
       href: whats-new/project-operations-updates.md
+    - name: Entfernte oder veraltete Funktionen
+      items:
+        - name: Entfernte oder veraltete Funktionen in Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
   items:
     - name: Erste Schritte
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Neuigkeiten
       items:
+        - name: Dezember 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: "November\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Oktober\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Kilometerleistung mithilfe von Kilometertarifstufen einrichten
               href: expense/set-up-mileage.md
+        - name: Ausgabenaufschlüsselung
+          href: prod-exp/expense-itemization.md
         - name: Persönliche Ausgaben
           href: expense/personal-expenses-expense-report.md
         - name: Intercompany-Ausgaben
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Umsatzschätzungen verwalten
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Problembehandlung
+      items:
+        - name: Projektvertriebsprozess
+          items:
+            - name: 'Währungskonfliktfehler beim Erstellen von Projekt, Vertrag, Angebot oder buchbarer Ressource'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: "Lite-Bereitstellung\_– Abschluss zur Proforma-Rechnungsstellung"
   items:
     - name: Erste Schritte
@@ -548,6 +562,8 @@
       items:
         - name: "Neuigkeiten zum Vorabzugang für den 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Neuigkeiten für Dezember 2021 – Lite-Bereitstellung
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: "Neuigkeiten für November\_2021\_– Lite-Bereitstellung"
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Neuigkeiten für Oktober\_2021\_– Lite-Bereitstellung"
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Fremdarbeitspositionsmeilensteine
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Fremdarbeitsprojektteammitglieder
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Fremdarbeitsoptionen für Projektteammitglieder
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostenschätzung von Fremdarbeitsressourcenzuweisungen
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Zeitplanübersicht konfigurieren für die Anzeige von Vertragsmitarbeitern und Fremdarbeitskapazität
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Besetzung eines Projekts mit Vertragsmitarbeitern und Fremdarbeitskapazität
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Erfassung von Zeit, Ausgaben und Materialverbrauch für Fremdarbeitskomponenten'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Statusübergänge bei Fremdarbeit
+          href: pro/subcontracting/subcon-states.md
     - name: Zeit
       items:
         - name: Zeitübersicht
@@ -1118,9 +1148,11 @@
       items:
         - name: "Aktualisierter Veröffentlichungszeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
-        - name: "Neuerungen oder Änderungen in Updateversion\_37.5, V3"
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 38, V3?'
+          href: psa/whats-new-ur-38.md
+        - name: "Welche Neuerungen oder Änderungen bietet die Updateversion\_37.5, V3?"
           href: psa/whats-new-ur-37-5.md
-        - name: "Neuerungen oder Änderungen in Updateversion\_37, V3"
+        - name: "Welche Neuerungen oder Änderungen bietet die Updateversion\_37, V3?"
           href: psa/whats-new-ur-37.md
         - name: "Neuerungen oder Änderungen in Updateversion\_36, V3"
           href: psa/whats-new-ur-36.md
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Handbuch zur Berichterstattung
           href: psa/implementation-guides/reporting-guide.md
+    - name: Upgrade von Project Service Automation auf Project Operations – Lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation-Upgrade (App-Version 3.x)
       items:
         - name: Project Service Automation-Upgrade
