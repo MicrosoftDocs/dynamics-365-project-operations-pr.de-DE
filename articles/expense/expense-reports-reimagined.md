@@ -1,8 +1,8 @@
 ---
-title: Neu gestaltete Spesenabrechnungen
+title: Neu gestaltete Spesenabrechnungen (enthält Video)
 description: In diesem Thema wird die neu gestaltete Umgebung zur Erfassung von Spesenabrechnungen erläutert.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997830"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941028"
 ---
 # <a name="expense-reports-reimagined"></a>Neu gestaltete Spesenabrechnungen
 
@@ -58,6 +58,7 @@ Um die neue Funktion einzuschalten, verwenden Sie den **Arbeitsbereich Funktions
 | Speichern und Hinzufügen neuer Ausgabenpositionen | Die Schaltflächen **Speichern** und **Neu** sind bei der Eingabe neuer Ausgaben verfügbar, mit denen Sie schnell Ausgabenpositionen eingeben können. |
 | Bessere Sichtbarkeit in geteilte und aufgeschlüsselte Positionen | Aufgeschlüsselte und geteilte Positionen werden direkt der Liste der Ausgaben hinzugefügt, um die Sichtbarkeit zu erhöhen und um leicht festzustellen, ob Fehler vorliegen. |
 | Anzeige von Unterkategorie-Details in Einzelposten-Zeilen | Aufgelistete Positionen einer übergeordneten Ausgabe zeigen die Unterkategoriebezeichnungen in der Ausgabenabrechnung an. Mit der Aufstellung können Sie die granularen Details auf einen Blick überprüfen.|
+|Wiederkehrende Ausgaben schnell aufschlüsseln | Der neu gestaltete Spesenarbeitsbereich bietet die Möglichkeit, wiederkehrende Ausgaben schnell aufzuschlüsseln, indem Unterkategorie, Startdatum und Menge hinzugefügt werden. Die Menge bezieht sich auf die Häufigkeit, mit der die Gebühr über einen kontinuierlichen Zeitraum wiederholt wird. |
 | Belege während der Auflistung anzeigen | Belege können während der Auflistung angezeigt werden. |
 | Barvorschussauswahl | Wählen Sie einen oder mehrere Barvorschüsse aus, um eine einzelne Ausgabentransaktion durchzuführen. |
 | Barvorschusssaldo | Überprüfen Sie den Barvorschusssaldo in Echtzeit, wenn Sie einen Speseneintrag für genehmigte und bezahlte Barvorschüsse erstellen. |

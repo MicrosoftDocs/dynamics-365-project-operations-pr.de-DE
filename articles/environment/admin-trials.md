@@ -2,16 +2,16 @@
 title: Für Testversionen von Project Operations anmelden
 description: Dieses Thema enthält Informationen zum Bereitstellen einer Testversion von Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599212"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901616"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Für Testversionen von Project Operations anmelden 
 
@@ -90,7 +90,8 @@ Bevor Sie beginnen, melden Sie sich bei einem Browser mit dem Arbeitskonto des B
 4.  Wählen Sie die jeweilige Microsoft Dataverse-URL und die Finance and Operations-Apps-URLs, um die Bereitstellung zu überprüfen.
 
 ## <a name="configuring-dual-write"></a>Konfigurieren von dualem Schreiben
-Konfigurieren Sie Ihre Zuordnungen für duales Schreiben nur für Bereitstellungen von nicht vorrätigen Materialien. Weitere Informationen finden Sie unter [Project Operations-Zuordnungsversionen für duales Schreiben](resource-dual-write-maps.md).
+- Informationen zum Konfigurieren von Sicherheitsrollen für duales Schreiben finden Sie unter [Sicherheitseinstellungen in Project Operations in Dataverse aktualisieren](resource-provision-new-environment.md).
+- Informationen zum Konfigurieren von Zuordnungen für duales Schreiben finden Sie unter [Zuordnungen für duales Schreiben in Project Operations ausführen](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Lizenzen zuweisen
 

@@ -2,16 +2,16 @@
 title: Einen Projektstrukturplan erstellen
 description: In diesem Thema wird erläutert, wie Sie einen Projektstrukturplan (PSP) erstellen, der die grundlegenden Steuerelemente in der neuen Planungsschnittstelle enthält.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655416"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928614"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Einen Projektstrukturplan (PSP) erstellen
 
@@ -95,7 +95,7 @@ Als Administrator können Sie benutzerdefinierte Felder in der Aufgabenentität 
 
 ## <a name="staffing-attributes"></a>Personalattributen.
 
-Attribute der Personalbesetzung werden durch das Feld **Ressourcen** im Zeitplan angezeigt. Sie können entweder nach einer bestehenden Ressource suchen oder auf **Erstellen** klicken und im Bereich **Schnellerfassung** ein Projektteammitglied als neue Ressourcen hinzufügen.
+Attribute der Personalbesetzung werden durch das Feld **Ressourcen** im Zeitplan angezeigt. Sie können entweder nach einer bestehenden Ressource suchen oder auf **Erstellen** klicken und im Bereich **Schnellerfassung** ein Projektteammitglied als neue Ressourcen hinzufügen.  Wenn Sie mit der Ressourcenauswahl im Aufgabenraster, in der Übersichtsansicht oder im Gantt nach einer Ressource suchen, gibt die Suche entweder vorhandene Projektteammitglieder oder aktive buchbare Ressourcen zurück.
 
 Die Felder **Rolle**, **Ressourcenzuordnungseinheit** und **Positionsname** werden verwendet, um die Personalanforderungen für die Aufgabe zu beschreiben. Diese Stellenbesetzungsattribute zusammen mit dem Aufgabenplan werden verwendet, um die verfügbare Ressourcen zu finden, um diese Aufgabe auszuführen.
 
@@ -127,6 +127,7 @@ Beachten Sie die folgenden Einschränkungen, wenn Sie den Projektstrukturplan in
 | Maximale Gesamtressourcen für ein Projekt              | 150                  |
 | Maximale Gesamtzahl der Links (nur Nachfolger) für ein Projekt | 600                  |
 | Maximale Gesamtanzahl benutzerdefinierter Felder für ein Projekt          | 10                   |
+| Maximale Checklistenpunkte pro Aufgabe                   | 20                   |
 
 **Aufgabeneinschränkungen**
 
