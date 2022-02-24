@@ -2,6 +2,8 @@
 title: Planen Sie Ressourcen für ein Projekt.
 description: Ressourcen für ein Projekt planen (Project Service)
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998145"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150442"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Ressourcen für ein Projekt planen (Project Service)
 
@@ -33,7 +35,7 @@ Sie können die Verfügbarkeit von Ressourcen überprüfen, um einen Gesamtüber
   
 Die Zeitplanübersicht zeigt eine Ressourcenliste und deren Verfügbarkeit an. Wählen Sie einen Anzeigemodus aus, um die Verfügbarkeiten nach **Stunden**, **Tag**, **Woche** und **Monat** anzuzeigen.  
   
-Bevor Sie die Zeitplanübersicht verwenden, müssen Sie diese einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Zeitplanübersicht (Field Service oder Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Bevor Sie die Zeitplanübersicht verwenden, müssen Sie diese einrichten. Weitere Informationen finden Sie unter [Konfigurieren der Zeitplanübersicht (Field Service oder Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Wenn Sie eine ältere Version verwenden, lesen Sie für die Ressourcenverfügbarkeit [Ressourcenverfügbarkeit anzeigen (Project Service Automation)](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Wenn Sie eine ältere Version verwenden, lesen Sie für die Ressourcenverfügbar
   
 ### <a name="additional-resources"></a>Zusätzliche Ressourcen  
  [Ressourcenmanagerhandbuch](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

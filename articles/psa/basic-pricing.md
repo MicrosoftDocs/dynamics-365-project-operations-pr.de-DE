@@ -2,6 +2,8 @@
 title: Projektpreise
 description: Dieses Thema enthält Informationen zu den Preisen in Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000575"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148912"
 ---
 # <a name="project-pricing"></a>Projektpreise 
 
@@ -46,7 +48,7 @@ Mit der Preislistenentität sind drei Tabellen verbunden, bei denen Preise gespe
   - **Transaktionskategoriepreis** – Diese Tabelle enthält Preise nach Transaktionskategorie und wird verwendet, um Ausgabenkategoriepreise einzurichten.
   - **Preislistenelemente** – Diese Tabelle enthält Preise für Katalogprodukte.
 
-> ![Konfigurieren von Preisen mithilfe einer Preisliste.](media/basic-guide-12.png)
+> ![Konfigurieren von Preisen mithilfe einer Preisliste](media/basic-guide-12.png)
  
 Die Preisliste ist eine Gebührenkarte. Eine Gebührenkarte ist eine Kombination aus der Preislistenentität und verknüpften Zeilen bei den Tabellen Rollenpreis, Transaktionskategoriepreis und Preislistenelemente.
 
@@ -58,7 +60,7 @@ Die Personalzeit wird normalerweise basierend auf der Rolle angeboten, die eine 
 
 Die Einheitengruppe **Zeit** wird erstellt, wenn PSA installiert ist. Es hat die Standardeinheit **Stunde**. Sie können die Attribute für die Einheitengruppe **Zeit** oder die Einheit **Stunde** nicht löschen, umbenennen oder bearbeiten. Sie können der Einheitengruppe **Zeit** jedoch andere Einheiten hinzufügen. Wenn Sie versuchen, entweder die Einheitengruppe **Zeit** oder die Einheit **Stunde** zu löschen, kann dies unter Umständen zu Fehlern in der PSA-Geschäftslogik führen.
 
-> ![Konfigurieren von Preisen nach Rolle.](media/basic-guide-13.png)
+> ![Konfigurieren von Preisen nach Rolle](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transaktions- und Ausgabenkategorien
 
@@ -68,7 +70,7 @@ Reise- und sonstige Ausgaben, die Projektberater verursachen, werden in der Rege
 - **Aufschlagsprozentsatz** – Den Prozentsatz für die tatsächlichen Kosten wird dem Kunden in Rechnung gestellt. 
 - **Einzelpreis** – Ein Abrechnungspreis wird für jede Einheit der Ausgabenkategorie festgelegt. Der Betrag, der dem Kunden berechnet wird, wird basierend auf der Anzahl der Ausgabeneinheiten berechnet, die der Berater meldet. Bei der Kilometerangabe wird die Preis-pro-Einheit-Preisberechnungsmethode verwendet. Beispielsweise kann die Kilometerangaben-Ausgabenkategorie mit 30 US-Dollar (USD) pro Tag oder 2 USD pro Meile konfiguriert werden. Wenn ein Berater die Kilometerangabe bei einem Projekt meldet, wird der Abrechnungsbetrag basierend auf der Anzahl der Meilen berechnet, die der Berater gemeldet hat.
 
-> ![Konfigurieren der Preisberechnung für Ausgabenkategorien.](media/basic-guide-14.png)
+> ![Konfigurieren der Preisberechnung für Ausgabenkategorien](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Projektvertriebspreisberechnung und -Außerkraftsetzungen
 
@@ -114,7 +116,7 @@ Bei einem Angebot können Sie jedoch eine Masterpreisliste verwenden. Sie könne
 
 Wenn Sie eine benutzerdefinierte Projektpreisliste erstellen, werden nur die Projektkomponenten der Preisliste kopiert. Das bedeutet, eine neue Preisliste, die als Kopie der vorhandenen Projektpreisliste erstellt wurde, wird dem Angebot angefügt, und diese neue Preisliste hat nur verknüpfte Rollenpreise und Transaktionskategoriepreise.
 
-> ![Anzeigen und Konfigurieren benutzerdefinierter Preisberechnungen für einen Projektvertrag.](media/basic-guide-15.png)
+> ![Anzeigen und Konfigurieren benutzerdefinierter Preisberechnungen für einen Projektvertrag](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Nachverfolgung von Kosten
 
@@ -128,7 +130,4 @@ Wie Rechnungssätze werden auch Kostensätze für Personal mithilfe von Preislis
 
     1. Die Einstandspreisliste, die der Organisationseinheit angefügt wird.
     2. Die Einstandspreisliste, die den Project Service-Parametern angefügt wird. Da Einstandspreislisten in vielen verschiedenen Währungen den Project Service-Parametern angefügt werden können, führt PSA eine Währungsabstimmtung zwischen der Währung der Vertragsorganisationseinheit des Projekts, Vertrags oder Angebots und der Währung der Einstandspreisliste durch.
-    3. Bei Ausgaben gelten die Preisberechnungsmethoden „Zum Einstandswert“ und „Aufschlag auf Kosten“ nicht für Einstandspreislisten. Selbst wenn diese Preisberechnungsmethoden bei Einstandspreislistenzeilen verwendet werden, um Transaktionskategoriekosten einzurichten, werden diese vom System ignoriert, und es wird kein Standardeinstandspreis angegeben.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    3. Bei Ausgaben gelten die Preisberechnungsmethoden „Zum Einstandswert” und „Aufschlag auf Kosten” nicht für Einstandspreislisten. Selbst wenn diese Preisberechnungsmethoden bei Einstandspreislistenzeilen verwendet werden, um Transaktionskategoriekosten einzurichten, werden diese vom System ignoriert, und es wird kein Standardeinstandspreis angegeben.

@@ -2,6 +2,8 @@
 title: Genehmigte Zeit- oder Ausgabeneinträge zurückrufen
 description: Dieses Thema enthält Informationen zum Zurückrufen einer zuvor genehmigten Zeit- oder -Ausgabentransaktion.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998325"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147833"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Genehmigte Zeit- oder Ausgabeneinträge zurückrufen
 
@@ -90,7 +92,7 @@ Wenn eine Rückrufanforderung genehmigt wird, werden zunächst die entsprechende
 - Das Feld **Anpassungsstatus** wird zu **Angepasst** aktualisiert.
 - Das Feld **Fakturierungsstatus** wird zu **Storniert** aktualisiert.
 
-Als Nächstes werden Umkehrungseinträge in der Tabelle „Ist-Werte“ erstellt. Zum Erstellen von Umkehrungseinträgen kopiert das System die Feldwerte aus den ursprünglichen Ist-Werten. Die einzigen Werte, die nicht übernommen werden, sind die Mengenwerte. Diese Werte werden stattdessen umgekehrt. Umgekehrte Ist-Werte werden sowohl für **Kosten** als auch für Ist-Werte von **Nicht fakturierten Umsätzen** erstellt. Das Feld **Anpassungsstatus** der umgekehrten Ist-Werte wird auf **Nicht anpassbar** festgelegt und das Feld **Fakturierungsstatus** auf **Storniert**. Aufgrund dieser Änderungen stellen die erfassten Ausgaben und das Umsatz-Rückstandsprotokoll des Projekts nicht länger die Ist-Werte dar.
+Als Nächstes werden Umkehrungseinträge in der Tabelle „Ist-Werte” erstellt. Zum Erstellen von Umkehrungseinträgen kopiert das System die Feldwerte aus den ursprünglichen Ist-Werten. Die einzigen Werte, die nicht übernommen werden, sind die Mengenwerte. Diese Werte werden stattdessen umgekehrt. Umgekehrte Ist-Werte werden sowohl für **Kosten** als auch für Ist-Werte von **Nicht fakturierten Umsätzen** erstellt. Das Feld **Anpassungsstatus** der umgekehrten Ist-Werte wird auf **Nicht anpassbar** festgelegt und das Feld **Fakturierungsstatus** auf **Storniert**. Aufgrund dieser Änderungen stellen die erfassten Ausgaben und das Umsatz-Rückstandsprotokoll des Projekts nicht länger die Ist-Werte dar.
 
 Wenn eine Rückrufanforderung abgelehnt wird, hat dies keine finanziellen Auswirkungen auf das Projekt.
 
@@ -98,13 +100,10 @@ Wenn eine Rückrufanforderung abgelehnt wird, hat dies keine finanziellen Auswir
 
 Die folgende Abbildung zeigt die Änderungen, die für genehmigte Zeiteinträge auftreten, wenn sie zurückgerufen werden.
 
-![Statusübergänge für Zeiteinträge.](media/TimeEntryStateTransitions.png)
+![Statusübergänge für Zeiteinträge](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Änderungen an Ausgabeneintragsdatensätzen
 
 Die folgende Abbildung zeigt die Änderungen, die für genehmigte Ausgabeneinträge auftreten, wenn sie zurückgerufen werden.
 
-![Statusübergänge für Ausgabeneinträge.](media/ExpenseEntryStateTransitions.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Statusübergänge für Ausgabeneinträge](media/ExpenseEntryStateTransitions.png)

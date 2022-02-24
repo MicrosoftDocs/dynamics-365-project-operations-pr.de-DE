@@ -2,9 +2,11 @@
 title: Microsoft Project Client-Integration
 description: Das Planen und Verwalten eines Projektplans kann komplex sein. Daher müssen Projektmanager Tools verwenden, mit denen sie diese Aufgabe verwalten können. Die Integration mit Microsoft Project Client bietet Unterstützung beim Öffnen und Verwalten einer Projektstrukturplan.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988020"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076585"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client-Integration
 
@@ -124,14 +126,4 @@ Gehen Sie folgendermaßen vor, um mit Microsoft Project Client einen neuen Proje
 
 8.  Wählen Sie den **Kalender** aus, der für die Beschaffung verwendet werden soll.
 
-11. Wählen Sie **OK** aus.
-
-> [!NOTE]
-> Das Project Client Add-In unterstützt die folgenden Zeichen im Projekt-ID-Format nicht:
-> 
->   - Unterstrich
->   - Punkt
->   - Leer
->   - Schrägstrich
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+11. Klicken Sie auf **OK**.

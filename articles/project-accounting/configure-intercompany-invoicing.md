@@ -2,16 +2,18 @@
 title: Intercompany-Rechnungsstellung konfigurieren
 description: Dieses Thema enthält Informationen und Beispiele zum Konfigurieren der Intercompany-Rechnungsstellung für Projekte.
 author: sigitac
-ms.date: 04/12/2021
+manager: tfehr
+ms.date: 11/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994050"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595474"
 ---
 # <a name="configure-intercompany-invoicing"></a>Intercompany-Rechnungsstellung konfigurieren
 
@@ -21,9 +23,9 @@ Führen Sie die folgenden Schritte aus, um die Intercompany-Rechnungsstellung f�
 
 ## <a name="example-configure-intercompany-invoicing"></a>Beispiel: Intercompany-Rechnungsstellung konfigurieren
 
-Im folgenden Beispiel ist Contoso Robotics USA (USPM) die leihende juristische Person und Contoso Robotics UK (GBPM) die kreditgebende juristische Person. 
+Im folgenden Beispiel ist Contoso Robotics USA (USPM) die kreditnehmende juristische Person und Contoso Robotics UK (GBPM) die kreditgebende juristische Person. 
 
-1. **Konfigurieren Sie die Intercompany-Buchhaltung zwischen juristischen Personen**. Jedes Paar juristischer Personen, die Kredite aufnehmen oder geben, muss auf der Hauptbuchseite [Intercompany-Buchhaltung](/dynamics365/finance/general-ledger/intercompany-accounting-setup) konfiguriert werden.
+1. **Konfigurieren Sie die Intercompany-Buchhaltung zwischen juristischen Personen**. Jedes Paar juristischer Personen, die Kredite aufnehmen oder geben, muss auf der Hauptbuchseite [Intercompany-Buchhaltung](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup) konfiguriert werden.
     
     1. Navigieren Sie in Dynamics 365 Finance zu **Finanzbuchhaltung** > **Buchungseinstellungen** > **Intercompany-Verrechnung**. Erstellen Sie einen Datensatz mit den folgenden Informationen:
 
@@ -35,17 +37,17 @@ Im folgenden Beispiel ist Contoso Robotics USA (USPM) die leihende juristische P
      1. Wählen Sie in Finance die juristische Person **GBPM** aus.
      2. Wechseln Sie zu **Debitorenkonten** > **Debitor** > **Alle Debitoren**. Erstellen Sie einen neuen Datensatz für die juristische Person **USPM**.
      3. Erweitern Sie **Name**, filtern Sie die Datensätze nach **Typ** und wählen Sie **Juristische Personen**. 
-     4. Suchen Sie den Kundendatensatz für **Contoso Robotics USA (USPM)** und wählen Sie ihn aus.
+     4. Suchen Sie den Debitorendatensatz für **Contoso Robotics USA (USPM)** und wählen Sie ihn aus.
      5. Wählen Sie **Übereinstimmung verwenden** aus. 
-     6. Wählen Sie die Kundengruppe **50 – Konzerninterne Kunden** und speichern Sie dann den Datensatz.
+     6. Wählen Sie die Debitorengruppe aus und speichern Sie den Datensatz.
      7. Wählen Sie die juristische Person **USPM** aus.
      8. Wechseln Sie zu **Kreditorenkonten** > **Kreditoren** > **Alle Kreditoren**. Erstellen Sie einen neuen Datensatz für die juristische Person **GBPM**.
      9. Erweitern Sie **Name**, filtern Sie die Datensätze nach **Typ** und wählen Sie **Juristische Personen**. 
-     10. Suchen Sie den Kundendatensatz für **Contoso Robotics UK (GBPM)** und wählen Sie ihn aus.
+     10. Suchen Sie den Debitorendatensatz für **Contoso Robotics UK (GBPM)** und wählen Sie ihn aus.
      11. Wählen Sie **Übereinstimmung verwenden**, wählen Sie die Kreditorengruppe aus und speichern Sie den Datensatz.
      12. Wählen Sie im Kreditorendatensatz **Allgemein** > **Einrichten** > **Intercompany** aus.
      13. Auf der **Handelsbeziehung**-Registerkarte legen Sie **Aktiv** auf **Ja** fest.
-     14. Setzen Sie das Feld **Kundenfirma** auf **GBPM** und wählen Sie in **Mein Kontodatensatz** den Kundendatensatz aus, den Sie zuvor in der Prozedur erstellt haben.
+     14. Wählen Sie die Kreditorenfirma **GBPM** aus und in **Mein Kontodatensatz** den Debitorendatensatz aus, den Sie zuvor in der Prozedur erstellt haben.
 
 3. **Konfigurieren Sie Intercompany-Einstellungen in den Projektmanagement- und Buchhaltungsparametern**. 
 
@@ -57,7 +59,7 @@ Im folgenden Beispiel ist Contoso Robotics USA (USPM) die leihende juristische P
     6. Wählen Sie in der Gruppe **Beim Ausleihen von Ressourcen** **...** > **Neu** aus. 
     7. Wählen Sie im Raster die folgenden Informationen aus:
 
-          - **Kreditnehmende juristische Person** = **USPM**
+          - **Kreditnehmende juristische Person** = **GBPM**
           - **Einnahmen erzielen** = **Ja**
           - **Standardkategorie der Arbeitszeittabelle** = **Standard – Stunde**
           - **Standardkostenkategorie** = **Standard – Aufwand**
@@ -69,36 +71,33 @@ Im folgenden Beispiel ist Contoso Robotics USA (USPM) die leihende juristische P
      3. Wählen Sie auf der **Kostenkonten**-Registerkarte in **Sachkontenart** **Intercompany-Kosten** aus. Erstellen Sie einen neuen Datensatz mit den folgenden Informationen:
       
         - **Kreditgebende juristische Person** = **GBPM**
-        - **Hauptkonto** = Wählen Sie das Hauptkonto für die konzerninternen Kosten aus. Diese Einrichtung ist erforderlich. Das Setup wird für konzerninterne Flows im Finanzwesen verwendet, nicht jedoch für projektbezogene konzerninterne Flows. Diese Auswahl hat keine nachgelagerten Auswirkungen. 
+        - **Hauptkonto** = Wählen Sie das Hauptkonto für die konzerninternen Kosten aus
         
      4. Wählen Sie die kreditgebende juristische Person **GBPM** aus. 
      5. Wechseln Sie zu **Projektmanagement und Buchhaltung** > **Einrichten** > **Buchung** > **Sachkontobuchungseinstellungen**. 
      6. Wählen Sie auf der **Umsatzerlöskonten**-Registerkarte in **Sachkontenart** **Intercompany-Einnahmen** aus. Erstellen Sie einen neuen Datensatz mit den folgenden Informationen:
 
         - **Kreditnehmende juristische Person** = **USPM**
-        - **Hauptkonto** = Wählen Sie das Hauptkonto für die konzerninternen Umsätze .aus Diese Einrichtung ist erforderlich. Das Setup wird für konzerninterne Flows im Finanzwesen verwendet, nicht jedoch für projektbezogene konzerninterne Flows. Diese Auswahl hat keine nachgelagerten Auswirkungen. 
+        - **Hauptkonto** = Wählen Sie das Hauptkonto für die konzerninternen Umsätze aus 
 
 5. **Richten Sie Verrechnungspreise für Arbeitskräfte ein**. Die Intercompany-Verrechnungspreisgestaltung wird in Project Operations auf Dataverse konfiguriert. Konfigurieren Sie [Arbeitskostensätze](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) und [Lohnkosten](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) für die Intercompany-Rechnungsstellung. Verrechnungspreise werden für Intercompany-Aufwandsbuchungen nicht unterstützt. Der organisationsübergreifende Einheitspreis wird immer auf den gleichen Wert wie der Ressourcenstückkostenpreis festgelegt.
 
-      Die Entwicklerressourcenkosten in Contoso Robotics UK betragen 88 GBP pro Stunde. Contoso Robotics UK wird Contoso Robotics USA 120 USD für jede Stunde in Rechnung stellen, die diese Ressource an US-Projekten arbeitete. Contoso Robotics USA wird dem Kunden Adventure Works 200 USD für die von der Contoso Robotics UK Entwicklerressource in Rechnung stellen.
+      Die Kosten für Entwicklerressourcen in Contoso Robotics UK betragen 88 GBP pro Stunde. Contoso Robotics UK berechnet Contoso Robotics USA 120 USD für jede Stunde, in der diese Ressource an US-Projekten gearbeitet hat. Contoso Robotics USA wird dem Kunden Adventure Works 200 USD die von der Entwicklerressource Contoso Robotics UK geleistete Arbeit in Rechnung stellen.
 
-      1. In Project Operations auf Dataverse gehen Sie zu **Verkauf** > **Preisliste**. Erstellen Sie eine neue Kostenpreisliste mit dem Namen **Contoso Robotics UK Kostensätze**. 
+      1. In Project Operations auf Dataverse gehen Sie zu **Verkauf** > **Preisliste**. Erstellen Sie eine neue Kostenpreisliste mit dem Namen **Kosten für Contoso Robotics UK.** 
       2. Erstellen Sie in der Kostenpreisliste einen Datensatz mit den folgenden Informationen:
          - **Rolle** = **Entwickler**
          - **Kosten** = **88 GBP**
-      3. Gehen Sie zu **Einstellungen** > **Organisationseinheiten** und fügen Sie diese Kostenpreisliste der Organisationseinheit **Contoso Robotics UK** hinzu.
-      4. Gehen Sie zu **Vertrieb** > **Preisliste**. Erstellen Sie eine neue Kostenpreisliste mit dem Namen **Contoso Robotics USA Kostensätze**. 
+      3. Gehen Sie zu **Einstellungen** > **Organisationseinheiten** und fügen Sie diese Kostenpreisliste der **Contoso Robotics UK**-Organisationseinheit hinzu.
+      4. Gehen Sie zu **Vertrieb** > **Preisliste**. Erstellen Sie eine neue Kostenpreisliste mit dem Namen **Kosten für Contoso Robotics USA.** 
       5. Erstellen Sie in der Kostenpreisliste einen Datensatz mit den folgenden Informationen:
           - **Rolle** = **Entwickler**
-          - **Resourcing-Unternehmen** = **Contoso Robotics UK**
+          - **Ressourcenzuordnungsunternehmen** = **Contoso Robotics UK**
           - **Kosten** = **120 USD**
-      6. Gehen Sie zu **Einstellungen** > **Organisationseinheiten** und fügen Sie diese Kostenpreisliste **Contoso Robotics USA Kosten** der Organisationseinheit **Contoso Robotics USA** hinzu.
+      6. Gehen Sie zu **Einstellungen** > **Organisationseinheiten** und fügen Sie die Kostenpreisliste **Kosten für Contoso Robotics USA** der **Contoso Robotics USA**-Organisationseinheit hinzu.
       7. Gehen Sie zu **Vertrieb** > **Preisliste**. Erstellen Sie eine Verkaufspreisliste mit dem Namen **Rechnungssätze für Adventure Works**. 
       8. Erstellen Sie in der Verkaufspreisliste einen Datensatz mit den folgenden Informationen:
           - **Rolle** = **Entwickler**
-          - **Resourcing-Unternehmen** = **Contoso Robotics UK**
+          - **Ressourcenzuordnungsunternehmen** = **Contoso Robotics UK**
           - **Fakturierungsrate** = **200 USD**
       9. Gehen Sie zu **Vertrieb** > **Projektverträge** und hängen Sie die **Rechnungssätze für Adventure Works**-Preisliste an die Adventure Works-Projektpreisliste des Projektvertrags an.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

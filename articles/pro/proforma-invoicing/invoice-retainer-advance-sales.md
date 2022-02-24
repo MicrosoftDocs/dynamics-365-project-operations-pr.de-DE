@@ -2,16 +2,18 @@
 title: Eine Vorauszahlung oder einen Vorschuss abrechnen
 description: Dieses Thema enthält Informationen zum Fakturieren einer Vorauszahlung oder eines Vorschusses in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997470"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596191"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Eine Vorauszahlung oder einen Vorschuss abrechnen
 
@@ -49,6 +51,3 @@ Dies ist im Raster **Angewendete Vorauszahlungen und Vorschüsse** auf der Seite
 | Verwendeter Betrag | Das Raster **Angewendete Vorauszahlungen und Vorschüsse** auf der Seite **Projektrechnung**  | Dieses schreibgeschützte Feld enthält den berechneten Wert, der zusammenfasst, wie viel der Vorauszahlung oder des Vorschusses verwendet wurde. | Dieses Feld kann dem Kunden auf der gedruckten Rechnung angezeigt werden, um den Betrag dieser Vorauszahlung oder des Vorschusses anzugeben, der bereits verwendet wurde. |
 | Erweiterter Betrag | Das Raster **Angewendete Vorauszahlungen und Vorschüsse** auf der Seite **Projektrechnung**  | Dieses bearbeitbare Feld enthält den Betrag der auf dieser Projektrechnung verwendeten Vorauszahlung oder des Vorschusses. Dieser Betrag kann nicht höher sein als der im Vorschuss verfügbare Betrag. Das System berechnet dies automatisch als Differenz zwischen den Feldern **Menge** und **Verwendeter Betrag** im Raster. Sie können diesen Betrag verringern, um weniger zu verwenden als verfügbar ist, aber Sie können den Betrag nicht erhöhen, um mehr zu verwenden als verfügbar ist. | Dieses Feld kann dem Kunden auf der gedruckten Rechnung angezeigt werden, um den Betrag dieser Vorauszahlung oder des Vorschusses anzugeben, der in der Rechnung verwendet wurde. |
 | Saldovorschussbetrag | Das Raster **Angewendete Vorauszahlungen und Vorschüsse** auf der Seite **Projektrechnung**  | Dieses schreibgeschützte Feld gibt den Wert an, der aussagt, wie viel von der Vorauszahlung oder des Vorschusses nach dem Bestätigen der Rechnung übrig bleibt. | Dieses Feld kann dem Kunden auf der gedruckten Rechnung angezeigt werden, um den Betrag anzugeben, der aus dieser Vorauszahlung oder aus diesem Vorschuss noch übrig bleibt, nachdem die Rechnung bestätigt und bezahlt wurde. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

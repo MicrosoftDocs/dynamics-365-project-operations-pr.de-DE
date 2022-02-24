@@ -2,9 +2,11 @@
 title: Delegierung verwalten
 description: Dieses Thema enthält Informationen darüber, wie eine Ausgabenstellvertretung Ausgabenabrechnungen für einen anderen Mitarbeiter erstellen und verwalten kann.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997785"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122702"
 ---
 # <a name="manage-delegation"></a>Delegierung verwalten
 Eine Ausgabenstellvertretung kann Ausgabenabrechnungen für einen anderen Mitarbeiter erstellen und verwalten.
@@ -34,9 +36,6 @@ Führen Sie die folgenden Schritte aus, um einen Benutzer als Ausgabenstellvertr
 
 Wenn der Funktionsverwaltungsschlüssel **Listenseite für Kostenstellvertretung aktivieren** aktiviert ist, ist die **An mich delegierte Ausgaben**-Listenseite verfügbar. Wechseln Sie zu **Ausgabenmanagement** > **Meine Ausgaben** > **An mich delegierte Ausgaben**.
 
-Eine Stellvertretung kann vorhandene Ausgabenabrechnungen, die an ihn delegiert wurden, schnell filtern und durchsuchen. Der Delegat kann durch Auswahl von **Neue Spesenabrechnung** auch schnell eine neue Spesenabrechnung für andere Benutzer erstellen.
+Eine Stellvertretung kann vorhandene Ausgabenabrechnungen, die an ihn delegiert wurden, schnell filtern und durchsuchen. Die Stellvertretung kann durch Auswahl von **Neue Ausgabenabrechnung** auch schnell eine neue Ausgabenabrechnung für andere Benutzer erstellen.
 
 Die Stellvertretung kann Ausgabenabrechnungen für andere Mitarbeiter erstellen und verwalten, indem sie zu **Ausgabenmanagement** > **Meine Kosten** > **Ausgabenabrechnungen** wechseln und **Ausgaben anderer Benutzer öffnen** auswählen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

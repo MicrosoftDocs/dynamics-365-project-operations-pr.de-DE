@@ -2,17 +2,18 @@
 title: Intercompany-Rechnungsstellung – Übersicht
 description: Dieses Thema enthält Informationen und Beispiele zur Intercompany-Rechnungsstellung für Projekte.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005390"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595471"
 ---
 # <a name="intercompany-invoicing-overview"></a>Intercompany-Rechnungsstellung – Übersicht
 
@@ -20,9 +21,9 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Ihre Organisation verfügt möglicherweise über mehrere Abteilungen, Tochterunternehmen und andere juristische Personen, die Produkte und Dienstleistungen für Projekte untereinander übertragen. Die juristische Person, die die Dienstleistung oder das Produkt erbringt, wird als *kreditgebende juristische Person* bezeichnet. Die juristische Person, die die Dienstleistung oder das Produkt erhält, wird als *kreditnehmende juristische Person* bezeichnet.
 
-Die folgende Abbildung zeigt ein typisches Szenario, in dem zwei juristische Personen Contoso Robotics USA (die kreditnehmende juristische Person) und Contoso Robotics UK (die verleihende juristische Person) Ressourcen teilen, um ein Projekt für den Kunden zu liefern, Adventure works. Für dieses Szenario wird Contoso Robotics USA beauftragt, die Arbeit an Adventure Works zu liefern.
+Die folgende Abbildung zeigt ein typisches Szenario, in dem zwei juristische Personen, Contoso Robotics USA (die kreditnehmende juristische Person) und Contoso Robotics UK (die kreditgebende juristische Person), Ressourcen gemeinsam nutzen, um ein Projekt für den Kunden Adventure Works zu liefern. Für dieses Szenario wird Contoso Robotics USA beauftragt, die Arbeiten an Adventure Works zu liefern.
 
-![Intercompany-Rechnungsstellung.](./media/IntercompanyScenario.png) 
+![Intercompany-Rechnungsstellung](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations verwendet den folgenden Ablauf, um Intercompany-Transaktionen zu verarbeiten:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations verwendet den folgenden Ablauf, um Intercompany-
 
 Das folgende Diagramm zeigt die Intercompany-Rechnungsstellung in Bezug auf Buchhaltungsereignisse und erwartete Buchungen im Hauptbuch.
 
-![Intercompany-Flow.](./media/IntercompanyFlow.png)
+![Intercompany-Flow](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
 - [Intercompany-Rechnungsstellung konfigurieren](configure-intercompany-invoicing.md)
 - [Intercompany-Transaktionen aufzeichnen](create-intercompany-transactions.md)
 - [Intercompany-Debitoren- und -Kreditorenrechnungen erstellen](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

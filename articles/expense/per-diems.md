@@ -2,16 +2,18 @@
 title: Pro Tag
 description: Dieses Thema enthält Informationen zu den Tagessatzregeln, die in der Ausgabenverwaltung verwendet werden.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986400"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128507"
 ---
 # <a name="per-diems"></a>Pro Tag
 
@@ -29,6 +31,3 @@ Ein Tagessatz ist eine Zulage, die an einen Arbeitnehmer gezahlt wird, der zur A
     
 ## <a name="submit-expenses-using-per-diem"></a>Ausgaben mit „Pro Tag“ einreichen
 Um Ausgaben mit Tagessätzen einzureichen, verwenden Sie die Ausgabenkategorie **Pro Tag**, wenn Sie eine Spesenabrechnung erstellen. Geben Sie **Tagessatz von Datum**, **Tagessatz bis Datum** und **Tagessatz (Lagerplätze)** ein. Der Betrag wird basierend auf den Tagessätzen für den ausgewählten Standort berechnet, und die Reduzierung der Mahlzeiten wird basierend auf den Tagessätzen berechnet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

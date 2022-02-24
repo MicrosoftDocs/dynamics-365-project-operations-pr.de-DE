@@ -2,9 +2,11 @@
 title: Leistung von Projektrechnungsvorschlägen
 description: Dieses Thema enthält Informationen zu Leistungsverbesserungen bei Projektrechnungsvorschlägen.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005705"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920301"
 ---
 # <a name="project-invoice-proposal-performance"></a>Leistung von Projektrechnungsvorschlägen
 
@@ -44,6 +46,4 @@ Führen Sie die folgenden Schritte aus, um die Leistungsverbesserungsfunktion f�
 3.  Aktualisieren Sie Ihren Browser.
 
 > [!NOTE]
-> Die Leistung von Rechnungsvorschlägen kann nicht angewendet werden, wenn Abrechnungsregeln aktiviert sind.
-> 
-> Während des Batch-Prozesses zum Erstellen von Rechnungsvorschlägen wird die Anzahl der Teilaufgaben auf eine maximale Anzahl basierend auf der Anzahl der Verträge mit abrechenbaren Transaktionen aufgeteilt, unabhängig davon, was Sie eingegeben haben. Wenn Sie z.B. **3** für die Anzahl der Teilaufgaben für die Erstellung von Rechnungsvorschlägen im Batch eingeben und es nur zwei Verträge mit abrechenbaren Transaktionen gibt, werden nur zwei Teilaufgaben erstellt.
+> Die Leistung von Rechnungsvorschlägen kann nicht angewendet werden, wenn Abrechnungsregeln aktiviert sind oder Stapelprozesse ausgeführt werden.

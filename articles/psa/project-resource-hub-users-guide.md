@@ -2,6 +2,8 @@
 title: Benutzerhandbuch für den Projektressourcen-Hub
 description: Ein Endbenutzerhandbuch für den Projektressourcen-Hub für Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987255"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948140"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Benutzerhandbuch für Projektressourcen-Hub
 
@@ -52,28 +54,28 @@ Bevor Sie die Projektressourcen-Hub-App verwenden können, müssen Sie die mobil
 1.  Wenn Sie sich bei der mobilen App anmelden, wird die MyApps-Seite mit einer Liste von Apps angezeigt, auf die Sie zugreifen. 
 2.  Wählen Sie **Project Resource-Hub**.
 
-![Wählen Sie eine App aus.](media/chooseApp_1.png "App auswählen")
+![App auswählen](media/chooseApp_1.png "App auswählen")
 
 **Die Navigationsleiste**
 
-Über die Navigationsleiste können Sie Ihren Arbeitsbereich aufrufen, neue Datensätze erstellen oder suchen usw. Um auf weitere Befehle zuzugreifen, tippen Sie auf ![Weitere Schaltflächen](media/MoreButton.png "Schaltfläche &quot;Mehr&quot;")
+Über die Navigationsleiste können Sie Ihren Arbeitsbereich aufrufen, neue Datensätze erstellen oder suchen usw. Um auf weitere Befehle zuzugreifen, tippen Sie auf ![Weitere Schaltflächen](media/MoreButton.png "Schaltfläche &quot;Mehr&quot;").
 
-![Navigationsleiste.](media/NavBar_2.png "Navigationsleiste")
+![Navigationsleiste](media/NavBar_2.png "Navigationsleiste")
 
 **Favoriten und zuletzt verwendete Datensätze**
 
 Die Abschnitte „Favoriten“ und „Zuletzt verwendet“ bieten schnellen Zugriff auf Ihre Datensätze, Ansichten und Dashboards. 
 
-- Um auf diese Abschnitte zuzugreifen, tippen Sie auf das **Menü** ![Menüschaltfläche.](media/MenuButton.png "Menüschaltfläche") auf der Navigationsleiste und dann auf die Schaltfläche **Favoriten und zuletzt verwendet** ![Favoritenschaltfläche](media/FavButton.png "Favoriten-Schaltfläche").
+- Um die Abschnitte zu verwenden, tippen Sie auf **Menü** ![Menü-Schaltfläche](media/MenuButton.png "Menüschaltfläche") auf der Navigationsleiste, und dann auf **Favoriten und kürzlich** ![Favoriten-Schaltfläche](media/FavButton.png "Favoriten-Schaltfläche").
 
 - Wenn Sie ein Element als Favorit anheften möchten, tippen Sie in der Liste der **Zuletzt verwendet** auf den Stift. Dieses heftet das Element auf Favoriten an und verschiebt es dorthin.
 
-  ![Favoriten und zuletzt verwendete Elemente.](media/Favs_3.png "Favoriten und zuletzt verwendete Elemente")
+  ![Favoriten und zuletzt verwendete Elemente](media/Favs_3.png "Favoriten und zuletzt verwendete Elemente")
  
 ## <a name="enter-time"></a>Zeit eingeben
 Tragen Sie Ihre Stunden mindestens wöchentlich ein (oder mit der Häufigkeit, die von Ihren Managern gefordert wird), um sicherzustellen, dass Ihre Kunden fakturiert werden und Sie richtig gutgeschrieben werden.
 
-1. Tippen Sie auf das Menü ![Menüschaltfläche.](media/MenuButton.png "Menüschaltfläche") und dann auf **Zeiteinträge**. Dieses öffnet den Kalender.
+1. Tippen Sie auf das Menü ![Menüschaltfläche](media/MenuButton.png "Menüschaltfläche") und dann tippen Sie auf **Zeiteinträge**. Dieses öffnet den Kalender.
 
 2. Um Ihren Kalender für die vorhergehende oder nächste Woche anzuzeigen, tippen Sie auf **Vorherige** oder **Nächste**. Tippen Sie auf **Heute**, um zurück zur laufenden Woche zu gelangen.
 

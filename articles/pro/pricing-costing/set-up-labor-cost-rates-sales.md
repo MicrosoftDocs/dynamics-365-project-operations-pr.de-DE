@@ -2,16 +2,18 @@
 title: Arbeitskostensätze einrichten – Lite
 description: Dieses Thema enthält Informationen zum Einrichten von Kostensätzen für Arbeit in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006110"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180712"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Arbeitskostensätze einrichten – Lite
 
@@ -36,7 +38,7 @@ Die folgende Tabelle enthält einige der Felder, die beim Erstellen von Arbeitss
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Verrechnungspreise und Kosten für Ressourcen außerhalb Ihres Geschäftsbereichs oder Ihrer juristischen Person
 
-In projektbasierten Unternehmen ist es üblich, Mitarbeiter aus unterschiedlichen legalen Entitäten oder Abteilungen in Projekten einzusetzen. Ein Projekt kann von einer juristischen Person ausgeführt werden, aber die Mitarbeiter oder Berater, die an dem Projekt arbeiten, können von derselben oder einer anderen juristischen Person stammen, oder es kann eine Kombination aus beiden geben. In Dynamics 365 Project Operations ist die juristische Person, der die Lieferung des Projekts obliegt, das **Zuständige Unternehmen** und die Abteilung, der die Lieferung obliegt, die **Vertragseinheit**. Andere juristische Personen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungsunternehmen** und Abteilungen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungseinheiten**. In den meisten Ländern müssen Unternehmen sicherstellen, dass die juristische Person oder Abteilung das zuständige Unternehmen und die Vertragseinheit für die Verwendung der Ressourcen belasten.
+In projektbasierten Unternehmen ist es üblich, Mitarbeiter aus unterschiedlichen legalen Entitäten oder Abteilungen in Projekten einzusetzen. Ein Projekt kann von einer juristischen Person ausgeführt werden, aber die Mitarbeiter oder Berater, die an dem Projekt arbeiten, können von derselben oder einer anderen juristischen Person stammen, oder es kann eine Kombination aus beiden geben. In Dynamics 365 Project Operations ist die juristische Person, die für die Bereitstellung des Projekts verantwortlich ist, das **zuständige Unternehmen** und die Abteilung, die für die Bereitstellung verantwortlich ist, die **Vertragseinheit**. Andere juristische Personen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungsunternehmen** und Abteilungen, die Ressourcen bereitstellen, sind die **Ressourcenzuordnungseinheiten**. In den meisten Ländern müssen Unternehmen sicherstellen, dass die juristische Person oder Abteilung das zuständige Unternehmen und die Vertragseinheit für die Verwendung der Ressourcen belasten.
 
 Beispielsweise muss die Fabrikam Corporation sicherstellen, dass Fabrikam India-Robotics eine Kostensatzkarte mit Fabrikam US-Robotics oder Fabrikam UK-Robotics ausgehandelt hat.
 
@@ -80,6 +82,3 @@ In der Einstandspreisliste für Fabrikam UK-Robotics können die Kostensätze wi
 | Developer | Fabrikam UK | 115 GBP |
 
 Die Einstandspreisliste kann Arbeitssätze in mehreren Währungen enthalten. Bei der Erstellung eines Kostenvoranschlags für das Projekt konvertiert Project Operations diese Kostensätze in die Projektwährung und zeigt sie dem Benutzer an. Wenn ein Zeiteintrag genehmigt und ein tatsächlicher Kostenaufwand erstellt wird, werden die tatsächlichen Kosten in der Währung der entsprechenden Preiszeile für die Rolle in der Einstandspreisliste berechnet. Die tatsächlichen Kosten für die Zeit eines einzelnen Projekts können in mehreren Währungen erfasst werden. Wenn Sie jedoch die tatsächlichen Arbeitskosten auf Projektebene zusammenfassen, konvertiert Project Operations alle Arbeitskostenbeträge in die Projektwährung, die der Benutzer anzeigen kann.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

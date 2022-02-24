@@ -2,16 +2,18 @@
 title: Schließen einer Verkaufschance
 description: Dieses Thema enthält Informationen zum Schließen einer Projektverkaufschance.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 59a4cd96a4fd24987179f0ab17f1379efc22bbbe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006380"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128726"
 ---
 # <a name="close-an-opportunity"></a>Schließen einer Verkaufschance
 
@@ -21,7 +23,4 @@ Projektverkaufschancen können als gewonnen oder verloren geschlossen werden. Im
 
 Sie dürfen die Verkaufschance nicht schließen, wenn damit aktive Angebote verknüpft sind. Sie können alle aktiven Angebote und Angebotsentwürfe, die einer Verkaufschance zugeordnet sind, gleichzeitig schließen. Dann dürfen Sie die Verkaufschance schließen.
 
-Weitere allgemeine Informationen zum Schließen von Verkaufschancen finden Sie unter [Schließen von Verkaufschancen als gewonnen oder verloren](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Weitere allgemeine Informationen zum Schließen von Verkaufschancen finden Sie unter [Schließen von Verkaufschancen als gewonnen oder verloren](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).

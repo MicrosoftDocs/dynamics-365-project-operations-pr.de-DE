@@ -2,6 +2,8 @@
 title: Produktbasierte Angebotspositionen
 description: Dieses Thema enthält Informationen zu produktbasierten Angebotspositionen.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008585"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151252"
 ---
 # <a name="product-based-quote-lines"></a>Produktbasierte Angebotspositionen
 
@@ -58,7 +60,7 @@ Wenn Sie dieses Feld auf **Preise überschreiben** festlegen, setzt Dynamics 365
 
 Nachdem Sie PSA installiert haben, werden die Verkaufspreise in den produktbasierten Positionen in einem Angebot eingegeben. Das Feld **Preise** wird dann auf **Preise überschreiben** festgelegt, damit Sie den Standardpreis in den Angebotspositionen bearbeiten können.
 
-> ![Festlegen der Preisüberschreibung.](media/basic-guide-10.png)
+> ![Festlegen der Preisüberschreibung](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Mengenfaktoren für Produkte
 
@@ -78,8 +80,5 @@ Beispielsweise kann Dynamics 365 die folgenden Eigenschaften aufweisen:
 
 Die Eigenschaften **Anzahl der Benutzer** und **Anzahl der Monate** können durch Bearbeitung der Produktposition als Mengenfaktoren gekennzeichnet werden. 
 
-> ![Kennzeichnen von Anzahl der Benutzer und Anzahl der Monate als Mengenfaktoren.](media/basic-guide-11.png)
+> ![Kennzeichnen von Anzahl der Benutzer und Anzahl der Monate als Mengenfaktoren](media/basic-guide-11.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

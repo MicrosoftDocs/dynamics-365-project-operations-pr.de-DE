@@ -2,9 +2,11 @@
 title: Währung
 description: Dieses Thema enthält Informationen zum Hinzufügen und Entfernen von Währungstypen in Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999585"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642272"
 ---
 # <a name="currency"></a>Währung
 
@@ -69,6 +71,3 @@ Bevor Sie diesen Vorgang starten prüfen Sie, dass die Sicherheitsrollen die Sys
 
 > [!IMPORTANT]
 >  Sie können keine Währungen löschen, die von anderen Datensätzen verwendet werden, sondern diese nur deaktivieren. Durch Deaktivieren der Währungsdatensätze werden die Währungsinformationen, die in vorhandenen Datensätzen wie Verkaufschancen oder Aufträgen gespeichert sind, nicht entfernt. Sie können jedoch die deaktivierte Währung nicht für neue Transaktionen auswählen.  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

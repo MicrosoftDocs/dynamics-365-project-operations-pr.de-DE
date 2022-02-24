@@ -2,16 +2,18 @@
 title: Mehrere Kunden in projektbasierten Angebotspositionen verwalten – Lite
 description: Dieses Thema beschreibt, wie mehrere Kunden in projektbasierten Angebotspositionen verwaltet werden.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001700"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176475"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Mehrere Kunden in projektbasierten Angebotspositionen verwalten – Lite
 
@@ -41,6 +43,3 @@ Die folgenden Tabelle zeigt die Felder im Angebotspositionskundendatensatz einer
 Sie können Abrechnungsaufteilungsprozentsätze inline bearbeiten. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 % betragen, tritt ein Fehler auf. Aktualisieren Sie die Angebotspositionnseite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung bearbeitet haben, um den Fehler zu beheben.
 
 Verwenden Sie die Aktion „Gleichmäßig verteilen“ im Unterraster „Angebotspositionskunde“, um allen Angebotspositionskunden Abrechnungsaufteilungen zuzuweisen. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Kunden der Angebotsposition wird immer als Rundungskunde gekennzeichnet. Dies bedeutet, dass für den Kundendatensatz der Angebotsposition das Rundungsflag auf **Ja** festgelegt ist. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

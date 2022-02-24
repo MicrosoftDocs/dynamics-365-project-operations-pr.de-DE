@@ -2,16 +2,18 @@
 title: Project Operations bereitstellen – Lite
 description: Dieses Thema enthält Informationen zur Installation der Project Operations Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung.
 author: stsporen
+manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991575"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642182"
 ---
 # <a name="deploy-project-operations---lite"></a>Project Operations bereitstellen – Lite
 
@@ -32,16 +34,13 @@ Project Operations unterstützt mehrere Bereitstellungsmodelle. Informationen zu
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Project Operations in einer neuen CDS-Umgebung installieren
 
-1. Als der [Globale oder Power Platform-Administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) mit einer Project Operations-Lizenz erstellen Sie eine neue CDS-Umgebung im [PowerPlatform-Admin Center](https://admin.powerplatform.com). Stellen Sie sicher das **CDS-Datenbank** und **Dynamics 365-Apps** aktiviert sind. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Umgebungen im Power Platform-Admin Center](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Als der [Globale oder Power Platform-Administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) mit einer Project Operations-Lizenz erstellen Sie eine neue CDS-Umgebung im [PowerPlatform-Admin Center](https://admin.powerplatform.com). Stellen Sie sicher das **CDS-Datenbank** und **Dynamics 365-Apps** aktiviert sind. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Umgebungen im Power Platform-Admin Center](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Wählen Sie **Microsoft Dynamics 365 Project Operations** aus der Bereitstellungsliste der Dynamics 365-Apps.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations in einer vorhandenen CDS-Umgebung installieren
 
-1. Als der [globale oder Power Platform-Administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) mit einer Project Operations-Lizenz suchen Sie die Umgebung im [PowerPlatform-Admin Center](https://admin.powerplatform.com), wo Sie Project Operations installieren möchten.
-2. Installieren Sie **Microsoft Dynamics 365 Project Operations** aus der Bereitstellungsliste der Dynamics 365-Apps. Weitere Informationen finden Sie unter [Verwalten von Dynamics 365-Apps](/power-platform/admin/manage-apps).
+1. Als der [globale oder Power Platform-Administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) mit einer Project Operations-Lizenz suchen Sie die Umgebung im [PowerPlatform-Admin Center](https://admin.powerplatform.com), wo Sie Project Operations installieren möchten.
+2. Installieren Sie **Microsoft Dynamics 365 Project Operations** aus der Bereitstellungsliste der Dynamics 365-Apps. Weitere Informationen finden Sie unter [Verwalten von Dynamics 365-Apps](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Bedingungen für die Einbehaltung von Kreditorenzahlungen erstellen und anwenden
 description: Dieses Thema enthält Informationen zum Einrichten und Verwalten von Bedingungen für die Einbehaltung von Kreditorenzahlungen.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 4ff725512aa0bcc87ff4670d6bb072f3bf780786c1f71b332914887f4d4ccf13
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270947"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Bedingungen für die Einbehaltung von Kreditorenzahlungen erstellen und anwenden
 

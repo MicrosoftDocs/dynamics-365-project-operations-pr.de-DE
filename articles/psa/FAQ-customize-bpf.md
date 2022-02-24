@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002960"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993145"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Wie passe ich den Projektphasegeschäftsprozessfluss an?
 
@@ -60,11 +60,11 @@ Wenn Aktualisieren keine Option ist, können Sie den Projektphasegeschäftsproze
 1. Hinzufügen von zusätzlichen Phasen der Standardkonfiguration, unter Beibehaltung der englischen Phasenamen für, **Quote** und **Plan** und **Close**
 
 
-![Screenshot des Hinzufügens von Phasen der Standard konfiguration.](media/FAQ-Customize-BPF-1.png)
+![Screenshot des Hinzufügens von Phasen der Standard konfiguration](media/FAQ-Customize-BPF-1.png)
  
 2. Erstellen Sie einen eigenen Geschäftsprozessfluss und erstellen Sie den primären Geschäftsprozessfluss für die Projektentität, mit der Sie alle Phasennamen haben, die Sie verwenden möchten. Wenn Sie dieselben Standardprojektphasen **Quote**, **Plan** und **Close** verwenden möchten, müssen Sie einige Schritte anpassen, die die benutzerdefinierten Phasennamen treiben werden. Je komplexer die Logik im Schließen des Projektumfangs ist, den Sie immer noch auslösen können durch Deaktivieren des Projektdatensatzes.
 
-![BPF-Anpassung.](media/FAQ-Customize-BPF-2.png)
+![BPF-Anpassung](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Zusätzliche Überlegungen für Project Service-App-Version 2.4.4.30 oder älter auf und 9,0
 
@@ -80,11 +80,11 @@ Um den eigenen Geschäftsprozessflusses für die Projektentität zu erstellen, g
 
 1. Gehen Sie zu **Einstellungen** > **Prozesscenter**. Kopieren Sie nicht den Projektphasegeschäftsprozessfluss, da dies auch die Project Service-Geschäftslogik kopiert.
 
-  ![Prozess erstellen.](media/FAQ-Customize-BPF-3.png)
+  ![Prozess erstellen](media/FAQ-Customize-BPF-3.png)
 
 2. Verwenden Sie den Prozessdesigner, um die Bühnennamen zu erstellen, die angezeigt werden sollen. Wenn Sie die gleichen Funktionen wie die Standardphasen für **Quote**, **Plan** und **Close** wünschen, müssen Sie das anhand der Phasennamen des benutzerdefinierten Geschäftsprozessflusses erstellen.
 
-   ![Screenshot des Prozessdesigners wird verwendet, um BPF anzupassen.](media/FAQ-Customize-BPF-4.png) 
+   ![Screenshot des Prozessdesigners wird verwendet, um BPF anzupassen](media/FAQ-Customize-BPF-4.png) 
 
 3. Im Prozessdesigner klicken sie auf **Auftragsprozessfluss**, um die benutzerdefinierten Geschäftsprozessflusse des primären Geschäftsprozessflusses für die Projektentität zu machen, indem Sie den Projektphasegeschäftsprozessfluss an den Anfang der Liste verschieben.
 
@@ -95,15 +95,15 @@ Um den eigenen Geschäftsprozessflusses für die Projektentität zu erstellen, g
 
 4. Hinzufügen eines neuen benutzerdefinierten Feld der Projektentität, um die benutzerdefinierten Phasen im angepassten Geschäftsprozessfluss aufzuzeichnen. Sie müssen die Geschäftslogik (Plug-In/Workflow) hinzufügen, um das Feld zu aktualisieren, wenn die aktuelle Phase im angepassten Geschäftsprozessfluss aktualisiert wird.
 
-   ![Screenshot zum Anpassen der Projektentität.](media/FAQ-Customize-BPF-6-720.png)
+   ![Screenshot zum Anpassen der Projektentität](media/FAQ-Customize-BPF-6-720.png)
 
 5. **Projekt nach Phase** Ändern Sie das Diagramm, um Ihr neues benutzerdefiniertes Feld für Phasen zu verwenden.
 
-   ![Screenshot des Projektumfangs der Anwendung durch Phasendiagramm.](media/FAQ-Customize-BPF-7-720.png)
+   ![Screenshot des Projektumfangs der Anwendung durch Phasendiagramm](media/FAQ-Customize-BPF-7-720.png)
 
 6. Ändern Sie alle Ansichten, damit die Projektentität Ihr neues benutzerdefiniertes Feld für Phasen können.
 
-   ![Screenshot der Änderung von Ansichten auf der Projektentität.](media/FAQ-Customize-BPF-8-720.png)
+   ![Screenshot der Änderung von Ansichten auf der Projektentität](media/FAQ-Customize-BPF-8-720.png)
 
 
 

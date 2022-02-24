@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3f96344b917f088f1d5782c5cee1d84f1aff47bc1bad7c8f6b33307d1df340fa
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a348130ee5760196b2f008ea811e7a81758dd73e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987660"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993235"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Eine Ressource einer Aufgabe zuweisen
 
@@ -72,7 +72,7 @@ Wenn Sie ein generisches Teammitglied durch Aufgabenzuweisung erstellen, erstell
 
 Sie können das Suchfeld in der **Ressourcenauswahl** verwenden, um alle buchbaren Ressourcen zu durchsuchen und einer Aufgabe zuzuweisen.
 
-Auf diese Weise zugewiesene Ressourcen werden dem Team ohne Buchungen hinzugefügt. Dies ist dem Hinzufügen eines Teammitglieds und dem Auswählen von „Keine“ als Zuweisungsmethode ähnlich. Die Ressource wird auf den Registerkarten **Team** und **Abstimmung** als Ressource mit nur Zuweisungen und einem Buchungsdefizit angezeigt. Buchen Sie sie, wenn Sie die Verfügbarkeit verwenden möchten.
+Auf diese Weise zugewiesene Ressourcen werden dem Team ohne Buchungen hinzugefügt. Dies ist dem Hinzufügen eines Teammitglieds und dem Auswählen von „Keine” als Zuweisungsmethode ähnlich. Die Ressource wird auf den Registerkarten **Team** und **Abstimmung** als Ressource mit nur Zuweisungen und einem Buchungsdefizit angezeigt. Buchen Sie sie, wenn Sie die Verfügbarkeit verwenden möchten.
 
 1. Wählen Sie im **Zeitplanraster** für eine Aufgabe das **Ressourcen**-Symbol in der Ressourcenzelle aus.
 

@@ -2,9 +2,11 @@
 title: Produkte
 description: Dieses Thema enthält Informationen zum Produktkatalog, mit denen Sie Kunden Informationen zu den Produkten und Preisen Ihres Unternehmens bereitstellen können.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986850"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121262"
 ---
 # <a name="products"></a>Produkte
 
@@ -38,7 +40,7 @@ Produkte sind das Rückgrat Ihres Unternehmens. Der Produktkatalog in Dynamics 3
     -  **Produkt-ID**
     -  **Übergeordnetes Element**: Wählen Sie eine übergeordnete Produktfamilie für das Produktpaket aus. Wenn Sie ein untergeordnetes Produkt in einer Produktfamilie erstellen, wird der Name der übergeordneten Produktfamilie hier aufgefüllt. Dieser kann nicht geändert werden, nachdem der Datensatz gespeichert ist.
     -  **Gültig ab**/**Gültig bis**: Definieren Sie die Periode, während der das Produktpaket gültig ist, indem sie ein Datum **Gültig ab** und **Gültig bis** auswählen.
-    -  **Einheitengruppe**: Wählen Sie eine Einheitengruppe aus. Eine Einheitengruppe ist eine Sammlung verschiedener Einheiten, in der ein Produkt vertrieben wird, und es definiert, wie individuelle Elemente in größere Mengen gruppiert werden. Wenn Sie z. B. Saaten als Produkt hinzufügen, haben Sie möglicherweise eine Einheitengruppe „Saaten“ erstellt, und deren primäre Einheit wird als „Paket“ definiert.
+    -  **Einheitengruppe**: Wählen Sie eine Einheitengruppe aus. Eine Einheitengruppe ist eine Sammlung verschiedener Einheiten, in der ein Produkt vertrieben wird, und es definiert, wie individuelle Elemente in größere Mengen gruppiert werden. Wenn Sie z. B. Saaten als Produkt hinzufügen, haben Sie möglicherweise eine Einheitengruppe „Saaten” erstellt, und deren primäre Einheit wird als „Paket” definiert.
     -  **Standardseinheit**: Wählen Sie die häufigste Einheit aus, in der das Produkt berechnet wird. Einheiten sind die Mengen oder die Maße, in denen Sie Ihre Produkte verkaufen. Wenn Sie zum Beispiel Saat als Produkt hinzufügen, können Sie sie in Paketen, Kästen oder in Paletten verkaufen. Jedes davon wird eine Einheit des Produkts. Wenn Saaten meist in Paketen verkauft werden, wählen Sie dies als Einheit aus.
     -  **Standardpreisliste** Bei einem neuen Produkt ist dieses Feld schreibgeschützt. Bevor Sie eine Standardpreisliste auswählen können, müssen Sie alle Pflichtfelder ausfüllen und den Datensatz speichern. Die Standardpreisliste ist zwar nicht erforderlich, es kann sich jedoch als nützlich erweisen, nach dem Speichern des Produktdatensatzes für jedes Produkt eine Standardpreisliste festzulegen. Falls dann ein Kundendatensatz keine Preisliste enthält, kann der Vertrieb die Standardpreisliste zum Erstellen von Angeboten, Aufträgen oder Rechnungen verwenden.
     -  **Dezimalzahlen unterstützt**: Geben Sie eine ganze Zahl zwischen 0 und 5 ein. Wenn das Produkt nicht in Teilmengen unterteilt werden kann, geben Sie 0 ein. Die Anzahl der Stellen des Felds **Menge** im Angebots-, Auftrags- oder Rechnungsproduktdatensatz wird mit dem Wert in diesem Feld verglichen, wenn dem Produkt keine Preisliste zugeordnet ist.
@@ -122,6 +124,3 @@ Zum Beispiel, wenn es die folgenden Eigenschaften gibt:
 - **Produkt-SKU** 
 
 Die Eigenschaften **Anzahl der Benutzer** und **Anzahl der Monate** können durch Bearbeitung der Produktposition als Mengenfaktoren gekennzeichnet werden. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

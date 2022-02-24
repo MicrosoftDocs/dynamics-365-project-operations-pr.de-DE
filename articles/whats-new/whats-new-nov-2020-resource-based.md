@@ -2,16 +2,18 @@
 title: Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations vom November 2020 für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen verfügbar sind.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007955"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367264"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -28,7 +30,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 
 | Funktionsbereich                 | Referenznummer | Qualitätsupdate                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Verkaufschancenmanagement       | 2036993          | Die Vertragszeilen für die geschätzte Zeilen- und Ressourcenzuweisung werden bei Gewinnangeboten aktualisiert, wenn der Angebotszeilentyp **Alle Aufgaben** lautet.                                                 |
+|   Verkaufschancenmanagement       | 2036993          | Die Vertragszeilen für die geschätzte Zeilen- und Ressourcenzuweisung werden bei Gewinnangeboten aktualisiert, wenn der Angebotszeilentyp **Alle Aufgaben** lautet.                                                 |
 | Preise und Abrechnung          | 2070392          | Die Projektvertragszeilen auf der Rechnung erhöhen sich jedes Mal, wenn **Transaktionen für Rechnung aktualisieren** ausgewählt wird.                                                                         |
 | Projektplanung             | 2043336          | Ein Projektteammitgliedsdatensatz kann nicht gelöscht werden.                                                                                                                                  |
 | Projektplanung             | 2046013          | Inkonsistentes Verhalten für Schätzungen von Tag-Spalten während des Ladens im Vergleich zur Änderung des Zeitphasentyps.                                                                                   |
@@ -65,7 +67,4 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | Projektbuchhaltung  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Durch Aktivieren der Funktion sind mehrere Vertragszeilen ohne CDS-Integration nicht möglich.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.

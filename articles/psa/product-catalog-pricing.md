@@ -2,6 +2,8 @@
 title: Produktkatalogpreise
 description: In diesem Thema finden Sie Informationen dazu, wie Produktkatalogpreisberechnung in PSA ( Dynamics 365 Project Service Automation ) funktionieren.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000170"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151207"
 ---
 # <a name="product-catalog-pricing"></a>Produktkatalogpreise 
 
@@ -62,6 +64,3 @@ Die Verkaufschance, das Angebot und die Entitäten des Projektvertrags verwenden
 Standardmäßig werden im Feld **Produkt** auf der Angebotszeile alle aktiven Produkte in der Produktpreisliste des Angebots aufgeführt. Wenn ein Produkt inaktiviert wurde oder wenn es ein Entwurfsprodukt wurde, wird es nicht angezeigt, wenn es in der Preisliste ist. 
 
 Produktkatalogzeilen werden auf der ersten Rechnung, die für einen Projektvertrag erstellt wird, als Rechnungszeilen hinzugefügt. Auf einer Entwurfsrechnung können diese Rechnungszeilen gelöscht werden. In diesem Fall erscheinen die Zeilen auf einer nachfolgenden Rechnung, bis sie in Rechnung gestellt werden oder die Rechnung an den Kunden gesendet wird. In PSA können Sie keine Teilmenge einer Produktrechnungszeile in Rechnung stellen. Wenn die Produktlinien aus dem Projektvertrag in Rechnung gestellt werden, werden Ist-Werte erstellt. Allerdings werden diese Ist-Werte nicht mit der zugehörigen Projektentität verknüpft. Das bedeutet, produktbasierte Projektvertragszeilen sind unabhängig von jeglicher projektbasierten Verwendung. PSA verfolgt keinen Materialverbrauch für Projekte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

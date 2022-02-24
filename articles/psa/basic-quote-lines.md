@@ -2,6 +2,8 @@
 title: Angebote und Angebotszeilen
 description: Dieses Thema enthält Informationen zu Angeboten und Angebotszeilen.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995445"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145120"
 ---
 # <a name="quotes-and-quote-lines"></a>Angebote und Angebotszeilen
 
@@ -63,7 +65,7 @@ Die Zeit und die Materialabrechnungsmethode basiert auf dem Verbrauch. Wenn Sie 
 
 ### <a name="fixed-price"></a>Festpreis
 
-Bei der Abrechnungmethode „Festpreis“ verpflichtet sich ein Zulieferer dazu, das Projekt zu einem Festpreis an den Kunden zu liefern. Dem Kunden wird der Angebotswert der Angebotszeile mit dem Festpreis in Rechnung gestellt, unabhängig von den Kosten, die dem Zulieferer bei der Lieferung dieser Angebotszeile entstehen. Der Wert der Angebotszeile mit dem Festpreis wird auf eine der folgenden Arten in Rechnung gestellt: 
+Bei der Abrechnungmethode „Festpreis” verpflichtet sich ein Zulieferer dazu, das Projekt zu einem Festpreis an den Kunden zu liefern. Dem Kunden wird der Angebotswert der Angebotszeile mit dem Festpreis in Rechnung gestellt, unabhängig von den Kosten, die dem Zulieferer bei der Lieferung dieser Angebotszeile entstehen. Der Wert der Angebotszeile mit dem Festpreis wird auf eine der folgenden Arten in Rechnung gestellt: 
 
 - Als Pauschalbetrag am Anfang oder Ende des Projekts, oder wenn ein Projektmeilenstein erreicht ist. 
 - In einer datumsbasierten Frequenz mit gleichen Raten des festen Wertes in der Angebotszeile. Diese Raten werden auch regelmäßige Meilensteine genannt.
@@ -84,7 +86,7 @@ Organisationen für professionelle Services erstellen für ihre Kunden Angebote 
 
 Eine oder mehrere dieser Transaktionsklassifizierungen können den einzelnen Angebotszeilen zugeordnet werden. Nachdem ein Angebot gewonnen wurde, wird das Mapping zwischen der Transaktionsklassifizierung und der Angebotszeile an die Vertragszeile übertragen.
  
-> ![Screenshot der Mappings von Transaktionstypen zu Angeboten und Vertragszeilen.](media/basic-guide-5.png)
+> ![Screenshot der Mappings von Transaktionstypen zu Angeboten und Vertragszeilen](media/basic-guide-5.png)
   
 Beispielsweise könnte ein Angebot die folgenden zwei Angebotszeilen enthalten: 
 - Eine Beratung, bei der eine Abrechnungsmethode für Zeit und Materialien verwendet wird, wobei Zeit- und Gebührentransaktionsklassifizierungen gelten. Beispielsweise werden alle Zeit- und Gebührentransaktionen für das Beispielprojekt **Dynamics AX-Implementierung** dem Kunden basierend auf der eingesetzten Zeit und den verwendeten Materialien in Rechnung gestellt. 
@@ -129,6 +131,3 @@ Für eine-Angebotszeile mit Festpreis können Sie das Raster **Rechnungszeitplan
 - Um Abrechnungsmeilensteine zu erstellen, die gleichmäßig aufgeteilt werden, wählen Sie eine Rechnungshäufigkeit aus, geben Sie das Startdatum für die Abrechnung in die Angebotszeile ein, und wählen Sie **Angefordertes Abschlussdatum** für das Angebot im Abschnitt **Zusammenfassung** der Angebotskopfzeile aus. Wählen Sie dann **Periodische Meilensteine generieren** aus, um gleichmäßig aufgeteilte Meilensteine basierend auf der ausgewählten Rechnungsfrequenz zu erstellen. 
 - Um einen Meilenstein mit Pauschalabrechnung zu erstellen, erstellen Sie einen Meilenstein und geben Sie den Wert der Angebotszeile als Meilensteinbetrag ein.
 - Um Abrechnungsmeilensteine zu erstellen, die auf bestimmten Aufgaben im Projektplan basieren, erstellen Sie einen Meilenstein und ordnen Sie ihn dem Zeitplanelement in der Abrechnungsmeilenstein-Benutzeroberfläche zu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

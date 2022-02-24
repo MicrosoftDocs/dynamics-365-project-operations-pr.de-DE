@@ -2,9 +2,11 @@
 title: Synchronisieren Sie Projektkostenkategorien zwischen Finance and Operations und Project Service Automation
 description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektkostenkategorien zwischen Microsoft Dynamics 365 Finance und Dynamics 365 Project Service Automation verwendet werden.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001115"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076663"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronisieren Sie Projektkostenkategorien zwischen Finance and Operations und Project Service Automation
 
@@ -56,7 +58,7 @@ Wenn die Projektausgabenkategorien in Project Service Automation beherrscht werd
 
 Die folgende Abbildung zeigt, wie die Daten zwischen Project Service Automation und Finance synchronisiert werden.
 
-[![Datenfluss für Project Service Automation Integration mit Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Datenfluss für Project Service Automation Integration mit Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Synchronisieren Sie Projektausgabenkategorien von Finance zu Project Service Automation
 
@@ -93,7 +95,7 @@ Wenn Sie mit Project Service Automation synchronisieren, müssen Sie Microsoft P
 
 Die folgende Abbildung zeigt ein Beispiel für die Zuordnung von Vorlagenaufgaben in der Datenintegration. Das Mapping zeigt die Feldinformationen an, die von Finance zu Project Service Automation synchronisiert werden.
 
-[![Projektausgabenkategorie zu Project Service Automation-Vorlagenzuordnung.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Projektausgabenkategorie zu Project Service Automation-Vorlagenzuordnung](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Synchronisieren Sie Projektausgabenkategorien von Project Service Automation zu Finance
 
@@ -121,7 +123,4 @@ Die folgende Abbildung zeigt ein Beispiel für die Zuordnung von Vorlagenaufgabe
 > [!NOTE]
 > Das Mapping zeigt die Feldinformationen an, die von Project Service Automation zu Finance synchronisiert werden.
 
-[![Project Service Automation zu Finance-Vorlagenzuordnung.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Project Service Automation zu Finance-Vorlagenzuordnung](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)

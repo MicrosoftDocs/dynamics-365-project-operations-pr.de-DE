@@ -2,6 +2,8 @@
 title: Organisationseinheiten
 description: Dieses Thema enthält Informationen zu Organisationseinheiten in Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005075"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145628"
 ---
 # <a name="organizational-units"></a>Organisationseinheiten 
 
@@ -53,7 +55,7 @@ Die Organisationseinheit hat in PSA zwei Rollen:
 - **Vertragseinheit** – Die Organisationseinheit, die die Unternehmensgruppe oder den Geschäftsbereich darstellt, die bzw. der hauptsächlich für den Verkaufsabschluss und die Verwaltung der Lieferung von Arbeit und Services an den Kunden verantwortlich ist. Die Vertragseinheit wird anhand des Felds **Vertragseinheit** im Kopfzeilenabschnitt der Seiten **Verkaufschance**, **Angebot**, **Projektvertrag** und **Projekt** ermittelt.
 - **Ressourceneinheit** – Die Organisationseinheit, zu der eine Ressource gehört oder der sie zugewiesen ist. Die Organisationseinheit kann ihre Ressourcen für bestimmte Rollen bei Leistungsbeschreibungen und Projekten bereitstellen, die der Vertragseinheit gehören.
 
-> ![Vertrags- und Ressourceneinheiten.](media/advanced-1.png)
+> ![Vertrags- und Ressourceneinheiten](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Organisationseinheit – FAQs
 
@@ -77,7 +79,7 @@ Wenn Sie Dynamics 365 implementieren, optimieren Sie die Sicherheitsautorisierun
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Beispiel für Organisations- und Unternehmenseinheiten
 
-Contoso Ltd. hat eine florierende Microsoft-Technologiepraxis. Falk und Emilia sind beides C\#-Entwickler, aber Emilia befindet sich in den USA, während Falk sich in Indien befindet. Die meisten Projektarbeiten erfordern Ressourcen aus Contoso Indien und Contoso USA. Falk und Emilia brauchen dieselbe Sicherheitszugriffsebene für Projekte in diesem Praxisbereich. Allerdings unterscheiden sich die Kosten für Entwickler von Contoso Indien erheblich von den Kosten für Entwickler von Contoso USA.
+Contoso, Ltd. hat eine florierende Microsoft-Technologiepraxis. Falk und Emilia sind beides C\#-Entwickler, aber Emilia befindet sich in den USA, während Falk sich in Indien befindet. Die meisten Projektarbeiten erfordern Ressourcen aus Contoso Indien und Contoso USA. Falk und Emilia brauchen dieselbe Sicherheitszugriffsebene für Projekte in diesem Praxisbereich. Allerdings unterscheiden sich die Kosten für Entwickler von Contoso Indien erheblich von den Kosten für Entwickler von Contoso USA.
 
 Hier finden Sie eine optimale Methode zur Entwicklung dieses Szenarios unter Verwendung von Dynamics 365 und PSA.
 
@@ -94,7 +96,7 @@ Die Organisationseinheit ist eine interne Gruppe oder ein interner Geschäftsber
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Beispiel für Organisationseinheiten und Vertriebsgebiete
 
-Contoso Ltd. hat zwei Entwicklungszentren: Contoso USA und Contoso Indien. Die Kosten für Ressourcen variieren zwischen diesen beiden Entwicklungszentren stark.
+Contoso, Ltd. hat zwei Entwicklungszentren: Contoso USA und Contoso Indien. Die Kosten für Ressourcen variieren zwischen diesen beiden Entwicklungszentren stark.
 
 Contoso verkauft seine IT-Services in vielen internationalen Märkten, wie Lateinamerika, Nordamerika, Asien-Pazifik, Westeuropa und dem Mittleren Osten. Die Rechnungssätze für dieselben Projektrollen können in diesen Märkten stark variieren.
 
@@ -127,19 +129,19 @@ Im folgenden Beispiel wird eine typische Hierarchie dargestellt:
   - SAP-Praxis 
 
     - Technische Berater 
-    - Fachberater 
+    - Funktionale Berater 
     
   - Microsoft-Technologiepraxis 
 
     - Technische Berater
-    - Fachberater 
+    - Funktionale Berater 
     
-**Contoso USA**
+**Contoso US**
 
  - SAP-Praxis 
 
     - Technische Berater 
-    - Fachberater 
+    - Funktionale Berater 
     
  - Microsoft-Technologiepraxis 
 
@@ -148,13 +150,13 @@ Im folgenden Beispiel wird eine typische Hierarchie dargestellt:
  
 Wenn Ihre Hierarchie ähnlich ist, müssen Sie sie als flache Liste einrichten, wie hier angezeigt:
 - Contoso Indien – SAP-Praxis – Technische Berater 
-- Contoso Indien – SAP-Praxis – Functional Consultants       
-- Contoso Indien – Microsoft-Technologiepraxis – Functional Consultants 
-- Contoso Indien – Microsoft-Technologiepraxis – Functional Consultants 
-- Contoso USAn – SAP-Praxis – Technische Berater  
-- Contoso USA – SAP-Praxis – Functional Consultants  
+- Contoso Indien – SAP-Praxis – Funktionale Berater       
+- Contoso Indien – Microsoft-Technologiepraxis – Funktionale Berater 
+- Contoso Indien – Microsoft-Technologiepraxis – Funktionale Berater 
+- Contoso USA – SAP-Praxis – Technische Berater  
+- Contoso USA – SAP-Praxis – Funktionale Berater  
 - Contoso USA – Microsoft-Technologiepraxis – Technische Berater 
-- Contoso USA – Microsoft-Technologiepraxis – Functional Consultants
+- Contoso USA – Microsoft-Technologiepraxis – Funktionale Berater
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Wir sind ein kleines Unternehmen für professionelle Dienstleistungen, das lediglich über einen Geschäftsbereich verfügt. Wie können wir eine optimale Verwendung des Organisationseinheitkonzepts in der aktuellen Version von PSA sicherstellen?
 
@@ -165,6 +167,3 @@ Wenn Ihr Unternehmen als eine Einheit mit einer Einstandspreisliste tätig ist, 
 Wenn ein Projekt eigenständig erstellt wird, basiert die standardmäßige Vertragseinheit des Projekts auf dem Benutzer, der sie erstellt. Dieser Benutzer ist auch der Standardprojektmanager. Wenn das Projekt einer Vertriebsentität wie einem Angebot oder einem Projektvertrag zugeordnet ist, basiert die Vertragseinheit im Projekt stattdessen auf der Vertriebsentität. In diesem Fall werden Projektschätzungen möglicherweise neu berechnet, da die Einstandspreisliste verwendet wird, um Änderungen der Kostenschätzung zu berechnen, wenn die Vertragseinheit geändert wird. Die Vertriebspreisliste wird verwendet, um die Vertriebsschätzungen zu berechnen, die geändert werden, damit sie mit der Projektpreisliste im Angebot konsistent sind.
 
 Die Felder **Vertragseinheit** und **Währung** im Projekt sind zum Bearbeiten gesperrt, da sie mit den Werten in der Vertriebsentität konsistent sein müssen (Angebot oder Projektvertrag), der das Projekt zugeordnet ist.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

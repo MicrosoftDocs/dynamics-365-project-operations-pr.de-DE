@@ -2,16 +2,18 @@
 title: Transaktionskategorie als Preisdimension verwenden
 description: Dieses Thema bietet Informationen über das Verwenden des Transaktionskategoriefelds als Preisdimension.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996120"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513984"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Transaktionskategorie als Preisdimension verwenden
 
@@ -48,6 +50,3 @@ In der folgenden Tabelle sind alle sofort einsatzbereiten Formulare und Ansichte
 2. Auf der Seite **Parameter** in der Registerkarte **Betragsbasierte Preisdimensionen** stellen Sie sicher, dass das Raster in der Registerkarte die Datensätze in der Entität **Preisdimensionen** anzeigt.
 3. Fügen Sie **Transaktionskategorie** zu dieser Liste hinzu, und legen Sie die Felder **Gilt für Kosten** und **Gilt für Vertrieb** auf **Ja** fest.
 4. Wählen Sie im Feld **Dimensionstyp** die Option **Betragsbasiert** aus, und wählen Sie anschließend die Priorität für **Transaktionskategorie** in Bezug auf Kosten und Vertrieb fest.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

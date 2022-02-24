@@ -2,9 +2,11 @@
 title: Projektkalender definieren
 description: Dieses Thema enthält Informationen zum Anwenden einer Kalendervorlage auf ein Projekt, um den Projektplan zu verfolgen.
 author: ruhercul
+manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487639"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981299"
 ---
 # <a name="define-project-calendars"></a>Projektkalender definieren
 
@@ -29,7 +31,7 @@ _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, L
 Um ein Projekt zu erstellen und zu verwalten, müssen Sie eine Kalendervorlage auf das Projekt anwenden. Die Kalendervorlage definiert die folgenden Projektattribute:
 
 - Arbeitszeit einschließlich Start- und Endzeit
-- Werktags
+- Arbeitstage
 - Kalenderausnahmen wie arbeitsfreie Tage
 
 Die Kalendervorlage, die auf ein Projekt angewendet wird, ist eine Kopie der Kalendervorlage, die in den Einstellungen Ihrer Organisation definiert ist.
@@ -46,7 +48,7 @@ Um eine Kalendervorlage für Ihre Organisation zu erstellen, gibt es zwei Haupta
 
 1. Navigieren Sie zu **Ressourcen** \> **Ressourcen**.
 2. Erstellen Sie eine neue Ressource, auf die in der Kalendervorlage verwiesen werden soll, oder wählen Sie eine vorhandene Ressource aus.
-3. Wählen Sie die Registerkarte **Arbeitsstunden** der Ressource und vervollständigen Sie die Anweisungen in [Arbeitszeiten für eine Ressource festlegen](/dynamics365/field-service/set-work-hours-resource) um die Kalenderregeln zu konfigurieren.
+3. Wählen Sie die Registerkarte **Arbeitsstunden** der Ressource und vervollständigen Sie die Anweisungen in [Arbeitszeiten für eine Ressource festlegen](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) um die Kalenderregeln zu konfigurieren.
 
 **Erstellen einer neuen Kalendervorlage.**
 

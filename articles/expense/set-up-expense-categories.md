@@ -2,16 +2,18 @@
 title: Ausgabenkategorien einrichten
 description: Dieses Thema enthält Informationen zum Einrichten von Ausgabenkategorien und freigegebenen Kategorien für Spesenabrechnungen.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993105"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123782"
 ---
 # <a name="set-up-expense-categories"></a>Ausgabenkategorien einrichten
 
@@ -42,9 +44,9 @@ Bevor Sie mit dem Einrichtungsprozess beginnen können, müssen für jede Ausgab
         - Rechnungsumsatz
         - Antizipierter Umsatzerlös - Verkaufswert
         - WIP - Verkaufswert
-        - Antizipierter Umsatzerlös – Produktion
-        - RIF – Fertigung
-        - Antizipierter Umsatzerlös – Gewinn
+        - Antizipierter Umsatzerlös - Produktion
+        - WIP - Produktion
+        - Antizipierter Umsatzerlös - Gewinn
         - WIP - Gewinn
         - Antizipierter Umsatz - Dauerauftrag
         - WIP - Dauerauftrag
@@ -59,6 +61,3 @@ Bevor Sie mit dem Einrichtungsprozess beginnen können, müssen für jede Ausgab
 
     - Sind einige der Unterkategorien von der Steuerrückerstattung ausgeschlossen?
     - Was ist die Artikel-Mehrwertsteuergruppe der Unterkategorien?
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

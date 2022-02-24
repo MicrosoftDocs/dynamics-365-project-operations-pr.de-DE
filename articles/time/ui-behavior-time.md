@@ -2,16 +2,18 @@
 title: Verhalten der Zeiteintrags-Benutzeroberfläche
 description: Dieses Thema bietet Informationen über das Verhalten der Benutzeroberfläche bei Zeiteinträgen.
 author: stsporen
+manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999450"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499613"
 ---
 # <a name="time-entry-ui-behavior"></a>Verhalten der Zeiteintrags-Benutzeroberfläche
 
@@ -45,7 +47,7 @@ Der Abschnitt **Dimensionen** zeigt die Dimensionen an, für die eine Zeit einge
 Im Abschnitt **Dimensionen** ist keine Inlinebearbeitung zulässig. Dieser Abschnitt wird durch eine Ansicht unterstützt, in der benutzerdefinierte Felder dem Raster für den wöchentlichen Zeiteintrag hinzugefügt werden können.
 
 ## <a name="duration"></a>Dauer
-Im Abschnitt „Dauer“ werden die Wochentage als Spaltenüberschriften angezeigt. In diesem Abschnitt ist die Inlinebearbeitung zulässig. Nachdem eine Zeiteintragungszeile mit den entsprechenden Dimensionen erstellt wurde, können Benutzer schnell inline die Zeit eingeben, die sie für die jeweiligen Dimensionen gebraucht haben.
+Im Abschnitt „Dauer” werden die Wochentage als Spaltenüberschriften angezeigt. In diesem Abschnitt ist die Inlinebearbeitung zulässig. Nachdem eine Zeiteintragungszeile mit den entsprechenden Dimensionen erstellt wurde, können Benutzer schnell inline die Zeit eingeben, die sie für die jeweiligen Dimensionen gebraucht haben.
 
 ## <a name="create-a-new-time-entry"></a>Erstellen eines neuen Zeiteintrags
 
@@ -54,9 +56,9 @@ Im Abschnitt „Dauer“ werden die Wochentage als Spaltenüberschriften angezei
 3. Geben Sie Daten für die Dimensionen **Projekt**, **Projektaufgabe**, **Rolle** und **Dauer** ein. Geben Sie diese Informationen in Minuten, Stunden oder Tagen an, indem Sie **h**, **m** oder **t** zusammen mit der Zahl eingeben. 
 4. Geben Sie eine Beschreibung für den Eintrag und Kommentare ein, die extern für den Zeiteintrag freigegeben werden können. 
 
-Wenn Sie den Eintrag speichern, erscheinen die eingegebenen Werte im Abschnitt **Dimensionen**. Die Informationen, die im Feld **Dauer** eingegeben wurden, erscheinen an dem Datum, für das der Zeiteintrag erstellt wurde.
+Wenn Sie den Eintrag speichern, werden die eingegebenen Werte im Abschnitt **Dimensionen** angezeigt. Die im Feld **Dauer** eingegebenen Informationen werden im Datum angezeigt, für das der Zeiteintrag erstellt wurde.
 
-Suchfelder werden von Systemansichten unterstützt. Nachdem ein Benutzer beispielsweise ein Projekt eingegeben hat, wird das Feld **Projektaufgabe** standardmäßig auf die Ansicht **Kopieren** gesetzt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die keinem Benutzer zugewiesen sind, wählen Sie im Dialogfeld für die Suche die Option **Ansicht ändern** und dann die Ansicht **Alle aktiven Projektaufgaben** aus.
+Suchfelder werden von Systemansichten unterstützt. Wenn ein Benutzer beispielsweise ein Projekt eingibt, wird das Feld **Projektaufgabe** standardmäßig auf die Ansicht **Kopieren** eingestellt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die keinem Benutzer zugewiesen sind, wählen Sie im Dialogfeld für die Suche die Option **Ansicht ändern** und dann die Ansicht **Alle aktiven Projektaufgaben** aus.
 
 ## <a name="edit-a-time-entry"></a>Bearbeiten eines Zeiteintrags 
 Informationen aus einigen Feldern auf der Seite für den Zeiteintrag, wie **Beschreibung** und **Externe Kommentare**, werden nicht im Raster für den wöchentlichen Zeiteintrag angezeigt. Stattdessen erscheint eine kleine dreieckige Anzeige in den Zellen für die **Dauer**, die über zusätzliche Details verfügen. 

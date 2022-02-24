@@ -2,21 +2,23 @@
 title: Finanzielle Vorkalkulationen für die Ausgaben von Projekten
 description: Dieses Thema enthält Informationen zum Definieren oder Kalkulieren projektbasierter Ausgaben.
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987840"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701781"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Finanzielle Vorkalkulationen für die Ausgaben von Projekten
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations ermöglicht es Projektmanagern, projektbasierte Ausgaben für jedes Projekt oder jede Aufgabe zu definieren. Jeder Ausgabenartikel kann einer bestimmten Projektaufgabe zugeordnet werden. Ausgaben werden in verschiedene Ausgabenkategorien eingeteilt, die auf organisatorischer Ebene definiert werden. Die Preisgestaltung und Schätzung für jede Spesenkategorie ist in der Preisliste definiert. 
+Dynamics 365 Project Operations ermöglicht es Projektmanagern, projektbasierte Ausgaben für jedes Projekt oder jede Aufgabe zu definieren. Jeder Ausgabenartikel kann einer bestimmten Projektaufgabe zugeordnet werden. Ausgaben werden in verschiedene Ausgabenkategorien eingeteilt, die auf organisatorischer Ebene definiert werden. Die Preisgestaltung und Kalkulation für jede Ausgabenkategorie ist in der Preisliste definiert. 
 
 Führen Sie die folgenden Schritte aus, um Projektkosten anzuzeigen, hinzuzufügen oder zu löschen.
 

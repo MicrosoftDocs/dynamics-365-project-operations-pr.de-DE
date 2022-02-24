@@ -2,9 +2,11 @@
 title: Einheiten und Einheitengruppen
 description: Dieses Thema enthält Informationen zum Erstellen von Einheiten und Einheitengruppen in Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999540"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131027"
 ---
 # <a name="units-and-unit-groups"></a>Einheiten und Einheitengruppen
 
@@ -44,6 +46,3 @@ Stellen Sie zum Ausführen der Schritte in diesem Thema sicher, dass Sie der Sys
 3. Geben Sie im Feld **Menge** die Menge ein, die die Einheit enthält. Wenn eine Kiste z. B. zwei Stück enthält, würden Sie 2 eingeben. 
 4. In dem Feld **Grundeinheit** wählen Sie im Feld eine Basiseinheit aus, um die niedrigste Maßeinheit für die Einheit festzulegen. Zum Beispiel könnten Sie Stück auswählen.
 5. Wählen Sie **Speichern**:
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

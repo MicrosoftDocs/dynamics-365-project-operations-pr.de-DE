@@ -2,16 +2,18 @@
 title: Einen Projektstrukturplan erstellen
 description: In diesem Thema wird erläutert, wie Sie einen Projektstrukturplan (PSP) erstellen, der die grundlegenden Steuerelemente in der neuen Planungsschnittstelle enthält.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928614"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841340"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Einen Projektstrukturplan (PSP) erstellen
 
@@ -91,11 +93,9 @@ Die folgende Tabelle zeigt zusätzliche Zeitplanattribute.
 | Name des Dataflows | Der Name der Projektaufgabe. |
 | ID | Die ID der Aufgabe im Projektstrukturplan. |
 
-Als Administrator können Sie benutzerdefinierte Felder in der Aufgabenentität definieren. Die Felder können jedoch nicht im Zeitplanraster angezeigt werden. Fügen Sie diese zum Anzeigen Ihrer benutzerdefinierten Felder der Detailseite **Projektaufgabe** hinzu.
-
 ## <a name="staffing-attributes"></a>Personalattributen.
 
-Attribute der Personalbesetzung werden durch das Feld **Ressourcen** im Zeitplan angezeigt. Sie können entweder nach einer bestehenden Ressource suchen oder auf **Erstellen** klicken und im Bereich **Schnellerfassung** ein Projektteammitglied als neue Ressourcen hinzufügen.  Wenn Sie mit der Ressourcenauswahl im Aufgabenraster, in der Übersichtsansicht oder im Gantt nach einer Ressource suchen, gibt die Suche entweder vorhandene Projektteammitglieder oder aktive buchbare Ressourcen zurück.
+Attribute der Personalbesetzung werden durch das Feld **Ressourcen** im Zeitplan angezeigt. Sie können entweder nach einer bestehenden Ressource suchen oder auf **Erstellen** klicken und im Bereich **Schnellerfassung** ein Projektteammitglied als neue Ressourcen hinzufügen.
 
 Die Felder **Rolle**, **Ressourcenzuordnungseinheit** und **Positionsname** werden verwendet, um die Personalanforderungen für die Aufgabe zu beschreiben. Diese Stellenbesetzungsattribute zusammen mit dem Aufgabenplan werden verwendet, um die verfügbare Ressourcen zu finden, um diese Aufgabe auszuführen.
 
@@ -116,28 +116,3 @@ Der Aufgabenmodus hat keine Auswirkungen auf die Updates, die für das Start- un
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Barrierefreiheit und Tastenkombinationen
 
 Auf das Raster **Zeitplan** kann vollständig zugegriffen werden, und es kann mit Bildschirmlesern wie Narrator, JAWS oder NVDA verwendet werden. Sie können durch den Rasterbereich navigieren, indem Sie die Pfeiltasten (wie in Microsoft Excel) verwenden. Sie können die TAB-TASTE verwenden, um über die interaktiven Benutzeroberflächenelemente zu navigieren, und Sie können den ABWÄRTSPFEIL, die EINGABETASTE oder LEERTASTE verwenden, um die Dropdownmenüs auszuwählen und zu öffnen.
-
-## <a name="project-limitations"></a>Projekteinschränkungen 
-Beachten Sie die folgenden Einschränkungen, wenn Sie den Projektstrukturplan in Project Operations verwenden. Diese Einschränkungen gelten für Projekte und Aufgaben. Weitere Informationen finden Sie unter [„Project for the web“-Einschränkungen und -Grenzen](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Feld**                                          |  **Grenze**           |
-|----------------------------------------------------|----------------------|
-| Maximale Gesamtanzahl an Aufgaben für ein Projekt                  | 500                  |
-| Maximale Gesamtdauer für ein Projekt               | 3650 Tage (10 Jahre) |
-| Maximale Gesamtressourcen für ein Projekt              | 150                  |
-| Maximale Gesamtzahl der Links (nur Nachfolger) für ein Projekt | 600                  |
-| Maximale Gesamtanzahl benutzerdefinierter Felder für ein Projekt          | 10                   |
-| Maximale Checklistenpunkte pro Aufgabe                   | 20                   |
-
-**Aufgabeneinschränkungen**
-
-| **Feld**                               |   **Grenze**           |
-|-----------------------------------------|-----------------------|
-| Maximale Hierarchieebene                 | 10 Ebenen             |
-| Maximale Links (Nachfolger + Vorgänger) | 20                    |
-| Maximale Dauer der Blattaufgabe           | 1250 Tage             |
-| Maximale Dauer einer Sammelaufgabe      | 3650 Tage (10 Jahre)  |
-| Maximale Ressourcen, die einer Aufgabe zugewiesen sind    | 20 Ressourcen          |
-| Unterstützter Datumsbereich für eine Aufgabe         | 1.1.2000 bis 31.12.2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

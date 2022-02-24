@@ -2,9 +2,11 @@
 title: Projektverträge
 description: Dieses Thema enthält Beispiele für die Projektverträge, die Sie für verschiedene Arten von Projekten und Finanzierungsquellen erstellen können, sowie für die Verwaltung von Verträgen und die Rechnungsstellung von Projektkunden.
 author: Yowelle
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001025"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076655"
 ---
 # <a name="project-contracts"></a>Projektverträge
 
@@ -43,9 +45,9 @@ In einigen Projektverträgen ist festgelegt, dass mehrere Parteien die Verantwor
 -   Ein großer Kunde mit mehreren Abteilungen verlangt, dass die Finanzierung eines Projekts nach Abteilungen aufgeteilt wird.
 -   Ihr Unternehmen teilt die Kosten eines Großprojekts mit einer externen Organisation.
 -   Ein Straßenprojekt wird von zwei Gemeinden kofinanziert.
--   Ein Brückenprojekt wird durch einen staatlichen Zuschuss und ein privates Unternehmen finanziert.
+-   Ein Brückenprojekt wird durch einen staatlichen Zuschuss und eine private Gesellschaft finanziert.
 
-In Dynamics 365 Finance können Sie die Abrechnung für eine einzelne Transaktion oder ein gesamtes Projekt auf mehrere Kunden, Zuschüsse oder Organisationen aufteilen. 
+Im Dynamics 365 Finance können Sie die Abrechnung für eine einzelne Transaktion oder ein gesamtes Projekt auf mehrere Kunden, Zuschüsse oder Organisationen aufteilen. 
 
 In Projekten mit mehreren Geldgebern werden alle Parteien, die zur Finanzierung eines fortgeschrittenen Finanzierungsprojekts beitragen, als Finanzierungsquellen bezeichnet. Nachdem ein Kunde, eine Organisation oder ein Zuschuss als Finanzierungsquelle definiert wurde, kann er einer oder mehreren Finanzierungsregeln zugewiesen werden. Die Finanzierungsregeln enthalten die Kriterien, die bestimmen, wie die Gebühren den verschiedenen Finanzierungsquellen für ein Projekt zugeordnet werden. 
 
@@ -55,11 +57,11 @@ Hier sind einige Schritte, die Sie unternehmen können, um die Aufteilung auf me
 
 -   Geben Sie an, dass alle Transaktionen, die für ein Projekt eingegeben werden, dieselbe Verkaufswährung wie der Projektvertrag verwenden.
 -   Richten Sie Finanzierungslimits ein, damit einer Finanzierungsquelle nicht mehr als ein bestimmter Betrag für ein Projekt in Rechnung gestellt wird.
--   Konfigurieren Sie Finanzierungsregeln und Finanzierungslimits für jeden Mitarbeiter, Artikel, Kategorie, Kategoriegruppe und Transaktionstyp (oder für alle Transaktionstypen).
+-   Konfigurieren Sie Finanzierungsgrenzwerte und Finanzierungsregeln für jeden Worker, Artikel, Kategorie, Kategoriegruppe und Transaktionstyp (oder für alle Transaktionstypen).
 -   Wählen Sie optionale Start- und Enddaten aus, um den Zeitraum zu definieren, in dem jede Finanzierungsregel gültig ist.
 -   Geben Sie den Prozentsatz an, für den jede Finanzierungsquelle verantwortlich ist.
 -   Geben Sie an, welche Finanzierungsquelle für Rundungsdifferenzen verantwortlich ist, die durch Berechnungen der Mittelzuweisung verursacht werden.
--   Richten Sie Regeln ein, die festlegen, wie Projektkosten externen Kunden und internen Organisationen in Rechnung gestellt werden.
+-   Richten Sie Regeln ein, die festlegen, wie Projektkosten externen Kunden in Rechnung gestellt und internen Organisationen in Rechnung gestellt werden.
 -   Erfassen Sie Transaktionen auf einem gehaltenen Finanzierungskonto, bis zusätzliche Mittel verfügbar sind oder bis Sie sich entscheiden, die Kosten intern zu tragen.
 
 Um zu bestimmen, welche Steuergruppe einer Transaktion zugeordnet werden soll, wird das Projekt nach einer Steuergruppenzuordnung durchsucht. Wenn auf Projektebene keine Steuergruppenzuordnung vorgenommen wurde, wird der Projektvertrag durchsucht.
@@ -165,22 +167,22 @@ Die folgende Tabelle enthält Szenarien zum Verwalten der Mittelzuweisung auf me
 Sie haben drei Finanzierungsquellen, die Sie in der folgenden Reihenfolge verwenden möchten:
 
 1.  Verwenden Sie Finanzierungsquelle 2 und Finanzierungsquelle 3 gleichermaßen, bis die Finanzierungsquelle 2 erschöpft ist.
-2.  Verwenden Sie weiterhin Finanzierungsquelle 3, bis diese erschöpft ist.
+2.  Verwenden Sie die Finanzierungsquelle 3 weiter, bis sie erschöpft ist.
 3.  Verwenden Sie die Finanzierungsquelle 1, nachdem die Finanzierungsquelle 3 erschöpft ist.
 
-Um dieses Ziel zu erreichen, müssen Sie Folgendes ausführen:
+Um dieses Ziel zu erreichen, müssen Sie zunächst folgende Schritte ausführen:
 
 -   Legen Sie Finanzierungslimits für Finanzierungsquelle 2 und Finanzierungsquelle 3 für ihre jeweiligen Beträge fest.
--   Erstellen Sie die folgenden Finanzierungsregeln:
+-   Erstellen Sie die folgende Finanzierungsregeln:
     -   Regel 1 (Priorität 1): Ordnen Sie 50 Prozent der Transaktionen der Finanzierungsquelle 2 und 50 Prozent der Finanzierungsquelle 3 zu.
     -   Regel 2 (Priorität 2): Ordnen Sie 100 Prozent der Transaktionen der Finanzierungsquelle 3 zu.
     -   Regel 3 (Priorität 3): Ordnen Sie 100 Prozent der Transaktionen der Finanzierungsquelle 1 zu.
 
-Dieses Setup funktioniert, da Transaktionen anhand von Regeln und Grenzwerten überprüft werden, um festzustellen, ob sie für die Transaktion gelten. Wenn für die Transaktion keine spezifischen Regeln oder Beschränkungen gelten, gilt die Regel „Alle Transaktionen“. Die Regel „Alle Transaktionen“ stimmt mit allen Transaktionen überein. 
+Dieses Setup funktioniert, da Transaktionen anhand von Regeln und Grenzwerten überprüft werden, um festzustellen, ob sie für die Transaktion gelten. Wenn für die Transaktion keine spezifischen Regeln oder Beschränkungen gelten, gilt die Regel Alle Transaktionen. Die Regel Alle Transaktionen stimmt mit allen Transaktionen überein. 
 
 Wenn eine Regel gefunden wird, die mit einer Transaktion übereinstimmt, wird der Prozentsatz, der in dieser Regel zugewiesen wurde, zuerst angewendet, jedoch erst, nachdem die Übereinstimmungen mit den festgelegten Grenzwerten verglichen wurden. Wenn ein Limit erreicht wurde und die Mittel einer Finanzierungsquelle erschöpft sind, wird die mit dem Finanzierungslimit verbundene Finanzierungsregel nicht berücksichtigt und das Programm prüft, ob die nächste Regel gilt. 
 
-In einigen Fällen kann nur ein Teil einer Transaktion unter einer Regel zugeordnet werden. Dies kann passieren, weil bei der Zuweisung der Transaktion ein Limit erreicht wird. In diesem Fall wird nach dieser Regel nur ein bestimmter Betrag zugewiesen, z. B. 50 Prozent für jede Finanzierungsquelle. Dies ist in Regel 1 der Fall, die weiter oben in diesem Abschnitt beschrieben wird. Der Rest wird gemäß der nächsten Regel in der Sequenz zugewiesen. 
+In einigen Fällen kann nur ein Teil einer Transaktion unter einer Regel zugeordnet werden. Dies kann passieren, weil bei der Zuweisung der Transaktion ein Limit erreicht wird. In diesem Fall wird nach dieser Regel nur ein bestimmter Betrag zugewiesen, z. B. 50 Prozent für jede Finanzierungsquelle. Dies ist in Regel 1 der Fall, die weiter oben in diesem Abschnitt beschrieben wird. Der Rest wird gemäß der nächsten Regel in der Sequenz zugewiesen. 
 
 Die Tabelle unten überprüft dieses Szenario genauer.
 
@@ -197,9 +199,9 @@ Die Tabelle unten überprüft dieses Szenario genauer.
 <tr class="even">
 <td>Finanzierungsregeln</td>
 <td><ul>
-<li>Regel 1 (Priorität 1): Alle Transaktionen. Weisen Sie Finanzierungsquelle 2 zu 50 % und Finanzierungsquelle 3 zu 50 % zu.</li>
-<li>Regel 2 (Priorität 2): Alle Transaktionen. Weisen Sie die Finanzierungsquelle 3 zu 100 % zu.</li>
-<li>Regel 3 (Priorität 2): Alle Transaktionen. Weisen Sie die Finanzierungsquelle 1 zu 100 % zu.</li>
+<li>Regel 1 (Priorität 1): Alle Transaktionen. Weisen Sie Finanzierungsquelle 2 zu 50% und Finanzierungsquelle 3 zu 50% zu.</li>
+<li>Regel 2 (Priorität 2): Alle Transaktionen. Weisen Sie die Finanzierungsquelle 3 zu 100% zu.</li>
+<li>Regel 3 (Priorität 2): Alle Transaktionen. Weisen Sie die Finanzierungsquelle 1 zu 100% zu.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -246,19 +248,19 @@ Die Tabelle unten überprüft dieses Szenario genauer.
 </table>
 
 ## <a name="billing-rules"></a>Abrechnungsregeln
-Wenn Sie einen Projektvertrag mit einem Kunden aushandeln, legen Sie fest, wie und wann Sie dem Kunden die Arbeit an einem Projekt in Rechnung stellen können. Nachdem Sie den Projektvertrag und das Projekt eingerichtet haben, können Sie Abrechnungsregeln für das Projekt einrichten. Die Abrechnungsregeln basieren auf den im Projektvertrag festgelegten Projektbedingungen. Die Abrechnungsregeln, die Sie erstellen können, hängen von den Bedingungen des Projektvertrags und der Projektart ab, z. B. Zeit und Material oder Festpreis, die Sie der Abrechnungsregel zuordnen. Sie können mehr als eine Abrechnungsregel für einen Projektvertrag erstellen. Sie können auch mehreren Projekten, die demselben Projektvertrag zugeordnet sind und ähnliche Abrechnungsbedingungen haben, eine Abrechnungsregel zuweisen. 
+Wenn Sie einen Projektvertrag mit einem Kunden aushandeln, legen Sie fest, wie und wann Sie dem Kunden die Arbeit an einem Projekt in Rechnung stellen können. Nachdem Sie den Projektvertrag und das Projekt eingerichtet haben, können Sie Abrechnungsregeln für das Projekt einrichten. Die Abrechnungsregeln basieren auf den im Projektvertrag festgelegten Projektbedingungen. Die Abrechnungsregeln, die Sie erstellen können, hängen von den Bedingungen des Projektvertrags und der Projektart ab, z. B. Zeit und Material oder Festpreis, die Sie der Abrechnungsregel zuordnen. Sie können mehr als eine Abrechnungsregel für einen Projektvertrag erstellen. Sie können auch mehreren Projekten, die demselben Projektvertrag zugeordnet sind und ähnliche Abrechnungsbedingungen haben, eine Abrechnungsregel zuweisen. 
 
-Sie können die folgenden Typen der Abrechnungsregeln einrichten:
+Sie können die folgenden Arten von Abrechnungsregeln einrichten:
 
 -   **Liefereinheit** – Stellen Sie einem Kunden eine Rechnung, wenn Sie eine Liefereinheit fertiggestellt haben. Die Liefereinheiten definieren Sie im Vertrag.
 -   **Fortschritt** – Stellen Sie einem Kunden eine Rechnung, wenn Sie einen bestimmten Prozentsatz des Projekts abgeschlossen haben. Sie können eine Abrechnungsregel einrichten, um den Prozentsatz der abgeschlossenen Arbeit automatisch zu berechnen, oder Sie können den Prozentsatz der abgeschlossenen Arbeit und den Rechnungsbetrag für den Kunden manuell berechnen.
 -   **Meilenstein** – Rechnungsstellung eines Kunden über den vollen Betrag eines Projektmeilensteins, wenn der Meilenstein erreicht ist.
 -   **Gebühr** – Rechnungsstellung eines Kunden für Ihre Dienstleistungen zuzüglich einer Verwaltungsgebühr, die in der Regel einen Prozentsatz der Kosten für Dienstleistungen ausmacht.
--   **Aufwand** – Berechnen Sie einem Kunden den Wert des Aufwands, der für ein Projekt verwendet wird.
+-   **Zeit und Material** – Berechnen Sie einem Kunden den Wert der Zeit und der Materialien, die für ein Projekt verwendet werden.
 
 Für alle Arten von Abrechnungsregeln können Sie einen Aufbewahrungsprozentsatz angeben, der von den Kundenrechnungen abgezogen wird, bis ein Projekt eine vereinbarte Phase erreicht. Der Prozentsatz der Zahlungsaufbewahrung ist im Projektvertrag festgelegt. Der Betrag wird basierend auf dem Gesamtwert der Zeilen in einer Kundenrechnung berechnet und von diesem abgezogen. 
 
-Für die Abrechnungsregeln **Aufwand** und **Fortschritt** können Sie kostenpflichtige Kategorien zuweisen. Kostenpflichtige Kategorien geben die Transaktionen an, die in Kundenrechnungen enthalten sein sollen. 
+Zu den Abrechnungsregeln **Zeit und Material** und **Fortschritt** können Sie kostenpflichtige Kategorien zuweisen. Gebührenpflichtige Kategorien geben die Transaktionen an, die in Kundenrechnungen enthalten sein sollen. 
 
 Wenn Sie bereit sind, dem Kunden eine Rechnung zu stellen, wird der Rechnungsbetrag für das Projekt basierend auf den Abrechnungsregeln berechnet und ein Projektrechnungsvorschlag generiert. 
 
@@ -342,6 +344,3 @@ Im ersten Monat werden von den Beratern des Projekts insgesamt 800 Stunden aufge
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

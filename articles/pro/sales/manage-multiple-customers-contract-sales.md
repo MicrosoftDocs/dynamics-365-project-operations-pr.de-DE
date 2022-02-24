@@ -2,22 +2,24 @@
 title: Mehrere Kunden in Projektverträgen verwalten – Lite
 description: Dieses Thema enthält Informationen zum Verwalten von mehreren Kunden für Projektverträge.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001745"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181316"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Mehrere Kunden in Projektverträgen verwalten – Lite
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Projektverträge in Dynamics 365 Project Operations unterstützen das Szenario, in dem eine vertragliche Vereinbarung mehrere Kunden umfasst, die ein Geschäft finanzieren. Die **Zusammenfassung**-Registerkarte auf der **Projektvertrag**-Seite enthält das **Kunde**-Feld. Dieses Feld identifiziert den Hauptkunden des Geschäfts. Andere Kunden für das Geschäft können auf der **Kunden**-Registerkarte der **Projektvertrag**-Seite eingerichtet werden.
+Projektverträge in Dynamics 365 Project Operations unterstützen das Szenario, in dem eine vertragliche Vereinbarung mehrere Kunden umfasst, die einen Deal finanzieren. Die **Zusammenfassung**-Registerkarte auf der **Projektvertrag**-Seite enthält das **Kunde**-Feld. Dieses Feld identifiziert den Hauptkunden des Geschäfts. Andere Kunden für das Geschäft können auf der **Kunden**-Registerkarte der **Projektvertrag**-Seite eingerichtet werden.
 
 Alle Vertragskunden, die im Projektvertrag aufgeführt sind, werden standardmäßig als Vertragszeilenkunden in allen neuen projektbasierten Vertragszeilen aufgeführt, die für den Projektvertrag erstellt wurden. Bestehende projektbasierte Vertragszeilen erben keine neuen Vertragskunden, wenn neue Datensätze erstellt werden.
 
@@ -50,6 +52,3 @@ Ein Vertragskunde kann über die **Kunden**-Registerkarte auf der **Projektvertr
 Fakturierungs-Aufteilungsprozentsätze können mithilfe der Inline-Rasterbearbeitungserfahrung bearbeitet werden. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 Prozent betragen, wird eine Fehlermeldung angezeigt. Aktualisieren Sie die Seite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung bearbeitet haben, um den Fehler zu beheben.
 
 Sie können auch **Gleichmäßig verteilen** auf dem **Vertragskunden**-Unterraster auswählen, um Zuordnungen von Abrechnungssplits auf alle Vertragskunden gleichmäßig zu verteilen. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Vertragskunden ist immer als **Rundungs**-Kunde gekennzeichnet, was bedeutet, dass für den Vertragskundendatensatz das Rundungsflag **Ja** gesetzt ist. In der Regel ist dies der Hauptkunde des Vertrags, er kann jedoch auch geändert werden.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

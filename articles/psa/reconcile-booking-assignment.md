@@ -2,6 +2,8 @@
 title: Buchungen und Arbeitsaufträge abstimmen
 description: Dieses Thema enthält Informationen zu Ist-Werten.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995130"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147922"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Buchungen und Arbeitsaufträge abstimmen
 
@@ -51,11 +53,11 @@ In manchen Fällen, wenn das Feld **Zeitskala** auf eine höhere Ebene als **Tag
 
 Wenn Sie höhere Zeitebenen anzeigen, zeigen die Zellen auf der Registerkarte **Abstimmung** einen Indikator an, um Sie darüber zu informieren, dass es Unterschiede auf tieferen Zeitebenen gibt. In der folgenden Abbildung beispielsweise wird in der Zelle für den Oktober 2018 für die Ressource mit dem Namen Karoline Kärchner ein Zellenindikator angezeigt. So können Sie sehen, dass für die Ressource auf tieferen Ebenen die Anzahl der Buchungen nicht mit der Anzahl der Zuweisungen übereinstimmt, obwohl dies bei einer Aggregierung auf der Ebene **Monat** der Fall ist
 
-![Nicht übereinstimmende Buchungen und Zuordnungen auf monatlicher Ebene.](media/reconcile-assignments-01.JPG)
+![Nicht übereinstimmende Buchungen und Zuordnungen auf monatlicher Ebene](media/reconcile-assignments-01.JPG)
 
 Doppelklicken Sie auf eine Zelle, um die nächstniedrigere Ebene zu vergrößern und den Unterschied anzuzeigen. Wenn Sie beispielsweise auf den Unterschied im Oktober 2018 für Karoline Kärchner doppelklicken, zeigen Sie Detailinformationen für die Ebene **Woche** an. Sie sehen, dass für die Ressource in den ersten zwei Oktoberwochen zwar Buchungen für 16 Stunden, aber keine Zuweisungen vorhanden sind. Für die dritte Oktoberwoche hingegen sind Zuweisungen für 16 Stunden, aber keine Buchungen vorhanden.
 
-![Nicht übereinstimmende Buchungen und Zuordnungen auf wöchentlicher Ebene.](media/reconcile-assignments-02.JPG)
+![Nicht übereinstimmende Buchungen und Zuordnungen auf wöchentlicher Ebene](media/reconcile-assignments-02.JPG)
 
 Klicken Sie mit der rechten Maustaste auf eine Zelle, um die nächsthöhere Ebene zu verkleinern. Sie können den Zellenindikator auch deaktivieren, indem Sie die Schaltfläche **Einstellungen** auswählen. 
 
@@ -68,13 +70,13 @@ Um bei der Verwendung von Buchung erweitern genaue und vorhersehbare Ergebnisse 
 
 - Der Benutzer muss die Zeitzone seines Geräts so konfigurieren, dass sie mit der Zeitzone übereinstimmt, die in den Personalisierungseinstellungen Ihres Systems definiert ist.
  
-  ![Zeitzoneneinstellungen in Windows 10.](media/reconcile-assignments-03.png)
+  ![Zeitzoneneinstellungen in Windows 10](media/reconcile-assignments-03.png)
 
-  ![Zeitzoneneinstellungen in den Personalisierungseinstellungen.](media/reconcile-assignments-04.png)
+  ![Zeitzoneneinstellungen in den Personalisierungseinstellungen](media/reconcile-assignments-04.png)
  
 - Die buchbare Ressource muss mindestens eine Minute Arbeitszeit haben, die sich mit den Konturen überschneidet, die zum Definieren der angeforderten Erweiterung verwendet werden. Das folgende Beispiel zeigt beispielsweise Ressourcen zur Überprüfung mit Arbeitszeiten zwischen 9:00 und 19:00 Uhr. 
 
-  ![Vergleich der Ressourcenkonturen.](media/reconcile-assignments-05.png)
+  ![Vergleich der Ressourcenkonturen](media/reconcile-assignments-05.png)
 
 Die folgende Tabelle zeigt:
 
@@ -83,22 +85,19 @@ Die folgende Tabelle zeigt:
 - Ressourcen B: Diese Ressource befindet sich in einer anderen Zeitzone als das Projekt und beginnt daher um 7:00 Uhr in ihrer Zeitzone. Die Buchungen beginnen jedoch um 9:00 Uhr, da dies der früheste Startzeitpunkt der Zuordnungskontur ist.
 - Ressourcen C und D: Die Ressourcen befinden sich auch in unterschiedlichen Zeitzonen, die sich voneinander und vom Projekt unterscheiden, und ihre Buchungen beginnen frühestens zu den jeweils verfügbaren Startzeiten.
 
-|Entity  |Kalender  |
+|Entität  |Kalender  |
 |-|-|
-|Projektkalendervorlage   | ![Projektkalender.](media/reconcile-assignments-06.png) |
-|Ressource A  | ![Kalender Ressource A.](media/reconcile-assignments-06.png) |
-|Ressource B  |  ![Kalender Ressource B.](media/reconcile-assignments-07.png) |
-|Ressource C  |  ![Kalender Ressource C.](media/reconcile-assignments-08.png) |
-|Ressource D  | ![Kalender Ressource D.](media/reconcile-assignments-09.png)  |
+|Projektkalendervorlage   | ![Projektkalender](media/reconcile-assignments-06.png) |
+|Ressource A  | ![Kalender Ressource A](media/reconcile-assignments-06.png) |
+|Ressource B  |  ![Kalender Ressource B](media/reconcile-assignments-07.png) |
+|Ressource C  |  ![Kalender Ressource C](media/reconcile-assignments-08.png) |
+|Ressource D  | ![Kalender Ressource D](media/reconcile-assignments-09.png)  |
  
 Wenn Sie zur Abstimmungssicht navigieren, werden die Ressourcenzuordnungen und die damit verbundenen Buchungsengpässe angezeigt.
- ![Abstimmungssicht vor Erweiterung.](media/reconcile-assignments-10.png)
+ ![Abstimmungssicht vor Erweiterung](media/reconcile-assignments-10.png)
 
 Nachdem die Funktion Buchung verlängern für jede Ressource ausgeführt wurde, werden Buchungen für jede Ressource erfolgreich verlängert. Dies liegt daran, dass sich die Arbeitsstunden jeder Ressource mit den Konturen des Mangels überschneiden.
- ![Abstimmungssicht nach Buchungsverlängerung.](media/reconcile-assignments-11.png) 
+ ![Abstimmungssicht nach Buchungsverlängerung](media/reconcile-assignments-11.png) 
 
 Ein genauerer Blick auf die Details der Buchungen zeigt jedoch Unterschiede in der Startzeit der Buchungen. Die Buchungen beginnen frühestens zum Startzeitpunkt der Zuordnungskontur und frühestens zum verfügbaren Startzeitpunkt der Ressource.
- ![Neue Buchungen der Ressourcen in der Zeitplantafel.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Neue Buchungen der Ressourcen in der Zeitplantafel](media/reconcile-assignments-12.png)

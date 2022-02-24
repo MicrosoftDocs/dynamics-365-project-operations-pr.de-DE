@@ -2,9 +2,10 @@
 title: Projektplanungs-Homepage
 description: Dieses Thema enthält Informationen zur Projektplanung.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990585"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148237"
 ---
 # <a name="project-planning-home-page"></a>Projektplanungs-Homepage
 
@@ -39,7 +40,7 @@ Die Projektmanagementtools in PSA unterstützen Sie bei der problemlosen Ausfüh
 - Planung von Projekten mithilfe von Arbeitszeitplänen und -kulationen
 - Kalkulation und Verfolgung von Projektkosten und -erlösen
 - Projektschätzungen während des Verkaufsprozesses nutzen
-- Ressourcenbedarf für Projekte in der Pipeline prognostizieren
+- Prognose des Ressourcenbedarfss für Projekte, die sich in der Vorbereitung befinden
 - Erfolgreiche Durchführung von Projekten durch Verfolgung von Fortschritt und Kostenverbrauch
 
 Die folgende Themen enthalten Informationen, mit deren Hilfe Projektmanager den Arbeitsaufwand abschätzen, die Projektkosten kalkulieren und die Ressourcenanforderungen prognostizieren können, indem sie die in PSA unterstützten Tools verwenden:
@@ -51,6 +52,3 @@ Die folgende Themen enthalten Informationen, mit deren Hilfe Projektmanager den 
 - [Projektvorlagen](project-templates.md)
 - [Projektphasen](project-stages.md)
 - [Projekteinstellungen](project-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

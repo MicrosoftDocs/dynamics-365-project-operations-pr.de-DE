@@ -2,16 +2,18 @@
 title: Mehrere Kunden in projektbasierten Vertragszeilen verwalten – Lite
 description: Dieses Thema enthält Informationen zum Verwalten von mehreren Kunden für projektbasierte Vertragszeilen.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001790"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181612"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Mehrere Kunden in projektbasierten Vertragszeilen verwalten – Lite
 
@@ -41,6 +43,3 @@ Unten sind die Felder im **Vertragszeilen**-Kundendatensatz einer projektbasiert
 Fakturierungs-Aufteilungsprozentsätze können im Raster bearbeitet werden. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 Prozent betragen, wird eine Fehlermeldung angezeigt. Aktualisieren Sie die Seite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung bearbeitet haben, um den Fehler zu entfernen.
 
 Sie können auch **Gleichmäßig verteilen** im Vertragszeilenkunden-Unterraster auswählen. Durch diese Aktion werden allen Vertragszeilenkunden gleichmäßig Abrechnungssplits zugewiesen. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Ein Vertragszeilenkunde wird immer als **Rundungs**-Kunde gekennzeichnet, bei dem das **Rundungs**-Flag auf **Ja** gesetzt ist.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Zeitzonen verwalten
 description: Wenn ein Projekt erstellt wird, basiert dessen Zeitzone auf der Zeitzone, die in der angewendeten Arbeitszeitvorlage definiert ist.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988695"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119822"
 ---
 # <a name="manage-time-zones"></a>Zeitzonen verwalten
 
@@ -32,13 +34,13 @@ Um genaue und vorhersehbare Ergebnisse bei der Verwendung von **Buchung erweiter
 
 - Der Benutzer muss die Zeitzone seines Geräts so konfigurieren, dass sie mit den Zeitzonen überinstimmt, die in den **Personalisierungseinstellungen** des Systems definiert sind.
  
-  ![Zeitzoneneinstellungen in Windows 10.](media/reconcile-assignments-03.png)
+  ![Zeitzoneneinstellungen in Windows 10](media/reconcile-assignments-03.png)
 
-  ![Zeitzoneneinstellungen in den Personalisierungseinstellungen.](media/reconcile-assignments-04.png)
+  ![Zeitzoneneinstellungen in den Personalisierungseinstellungen](media/reconcile-assignments-04.png)
  
 - Die buchbare Ressource muss mindestens eine Minute Arbeitszeit haben, die sich mit den Konturen überschneidet, die zum Definieren der angeforderten Erweiterung verwendet werden. Nehmen wir als Beispiel die folgenden Ressourcen mit Arbeitszeiten, die zwischen 9:00 und 19:00 Uhr liegen. 
 
-  ![Vergleich der Ressourcenkonturen.](media/reconcile-assignments-05.png)
+  ![Vergleich der Ressourcenkonturen](media/reconcile-assignments-05.png)
 
 Die folgende Tabelle zeigt:
 
@@ -47,25 +49,22 @@ Die folgende Tabelle zeigt:
 - Ressource B: Diese Ressource befindet sich in einer anderen Zeitzone als das Projekt und beginnt um 7:00 Uhr in ihrer Zeitzone. Die Buchungen beginnen jedoch um 9:00 Uhr, da dies der früheste Startzeitpunkt der Zuordnungskontur ist.
 - Ressourcen C und D: Die Ressourcen befinden sich in unterschiedlichen Zeitzonen, die sich voneinander und vom Projekt unterscheiden, und ihre Buchungen beginnen nicht früher als die jeweils verfügbaren Startzeiten.
 
-|Entity  |Kalender  |
+|Entität  |Kalender  |
 |-|-|
-|Projektkalendervorlage   | ![Projektkalender.](media/reconcile-assignments-06.png) |
-|Ressource A  | ![Kalender Ressource A.](media/reconcile-assignments-06.png) |
-|Ressource B  |  ![Kalender Ressource B.](media/reconcile-assignments-07.png) |
-|Ressource C  |  ![Kalender Ressource C.](media/reconcile-assignments-08.png) |
-|Ressource D  | ![Kalender Ressource D.](media/reconcile-assignments-09.png)  |
+|Projektkalendervorlage   | ![Projektkalender](media/reconcile-assignments-06.png) |
+|Ressource A  | ![Kalender Ressource A](media/reconcile-assignments-06.png) |
+|Ressource B  |  ![Kalender Ressource B](media/reconcile-assignments-07.png) |
+|Ressource C  |  ![Kalender Ressource C](media/reconcile-assignments-08.png) |
+|Ressource D  | ![Kalender Ressource D](media/reconcile-assignments-09.png)  |
  
 Wenn Sie zur Ansicht **Abstimmung** navigieren, werden die Ressourcenzuweisungen und die damit verbundenen Buchungsverluste angezeigt.
 
-![Abstimmungssicht vor Erweiterung.](media/reconcile-assignments-10.png)
+![Abstimmungssicht vor Erweiterung](media/reconcile-assignments-10.png)
 
 Nachdem die Funktion zum Erweitern der Buchung für jede Ressource verwendet wurde, werden die Buchungen für jede Ressource erfolgreich erweitert, da sich die Arbeitszeiten jeder Ressource mit den Konturen des Verlusts überschneiden.
 
-![Abstimmungssicht nach Buchungsverlängerung.](media/reconcile-assignments-11.png) 
+![Abstimmungssicht nach Buchungsverlängerung](media/reconcile-assignments-11.png) 
 
 Beachten Sie, dass ein genauerer Blick auf die Details der Buchungen Unterschiede in der Startzeit der Buchungen zeigt. Die Buchungen beginnen frühestens zur Startzeit der Zuordnungskontur und frühestens zur verfügbaren Startzeit der Ressource.
 
-![Neue Buchungen der Ressourcen in der Zeitplantafel.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Neue Buchungen der Ressourcen in der Zeitplantafel](media/reconcile-assignments-12.png)

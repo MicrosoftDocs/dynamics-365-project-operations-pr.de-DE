@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 413783d2386cccd98cfe216a7c7300a5b7f771ab
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993915"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992894"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Wie buche ich Ressourcen vorläufig in der Web (Project Service-App v2.x)?
 
@@ -29,7 +29,7 @@ ms.locfileid: "6993915"
 
 [!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Sie können vorläufig planen oder eine Ressource für ein Projektteam „unverbindlich buchen“, um zu zeigen, dass Sie eine Ressource dem Projekt zuweisen möchten. Vorläufige Buchungen nutzen die verfügbare Kapazität einer Ressource nicht. Vorläufig gebuchte Teammitglieder können nicht für die Projektaufgaben zugewiesen werden. Nur Ressourcen mit dem Status definitiv gebucht und bestätigte Typen können Aufgaben zugewiesen werden (vorausgesetzt, sie haben genügend definitive Stunden, um den Zuweisungsaufwand auch wirklich abzudecken).
+Sie können vorläufig planen oder eine Ressource für ein Projektteam „unverbindlich buchen”, um zu zeigen, dass Sie eine Ressource dem Projekt zuweisen möchten. Vorläufige Buchungen nutzen die verfügbare Kapazität einer Ressource nicht. Vorläufig gebuchte Teammitglieder können nicht für die Projektaufgaben zugewiesen werden. Nur Ressourcen mit dem Status definitiv gebucht und bestätigte Typen können Aufgaben zugewiesen werden (vorausgesetzt, sie haben genügend definitive Stunden, um den Zuweisungsaufwand auch wirklich abzudecken).
 
 Vorläufig gebuchte Projektteammitglieder werden im Teammitgliedsraster mit ihren vorläufig gebuchten Stunden in der vorläufigen Buchungsspalte angezeigt. Sie werden auch in der Zeitplanübersicht angezeigt. Sie geben wieder keinen Verbrauch der Kapazität an, da vorläufige Buchungen keine Kapazität einer Ressource brauchen.
 
@@ -58,7 +58,7 @@ Für vorläufige Buchungen mit der Wartungsbuchung folgen Sie diesem Prozess:
 - Kapazität in Prozent
 - Nach Stunden gleichmäßig verteilen
 - Nach Stunden von vorn nach hinten verteilen
-4. Klicken Sie auf „Speichern“. Sie sehen die Ressource für den Teamraster und die Zeiten, die als definitiv angegeben werden.
+4. Klicken Sie auf „Speichern”. Sie sehen die Ressource für den Teamraster und die Zeiten, die als definitiv angegeben werden.
 5. Sie können die Ressourcen der Anmeldungen verwalten, indem Sie auf Buchungen verwalten klicken.
 6. Wenn der Zeitplanübersicht geöffnet wird, erweitern Sie die Ressource, um ihre Anmeldungen anzuzeigen. Sie sehen die Buchung als definitiv.
 7. Klicken Sie auf die Buchung unter Änderungsstatus und wählen Sie vorläufige Buchung und dann vorläufig. Der Buchungsstatus ist nun vorläufig.

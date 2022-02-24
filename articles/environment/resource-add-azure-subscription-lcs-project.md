@@ -2,16 +2,18 @@
 title: Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 description: Dieses Thema enthält Informationen zum Verbinden Ihres Azure-Abonnements mit einem LCS-Projekt.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986670"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880537"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 
@@ -23,35 +25,35 @@ In der Cloud gehostete Umgebungen müssen mit einem vorhandenen Azure-Abonnement
 
 1. Wählen Sie im Abschnitt **Umgebungen** in Ihrem LCS-Projekt die **Microsoft Azure-Einstellungen** aus.
 
-![Microsoft Azure-Einstellungen.](./media/1MicrosoftAzureSettings.png)
+![Einstellungen für die Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
 2. Wählen Sie auf der Seite **Projekteinstellungen** auf der Registerkarte **Azure-Abonnements** die Option **Autorisieren** aus. Dadurch können Umgebungen für dieses Projekt bereitgestellt werden.
 
-![Azure-Konnektoren.](./media/2AzureConnectors.png)
+![Azure-Konnektoren](./media/2AzureConnectors.png)
 
 3. Wählen Sie erneut **Autorisieren** aus, um die Administratoreinwilligung zu erteilen.
 
-![Administratoreinwilligung erteilen.](./media/3GrantAdminConsent.png)
+![Administratoreinwilligung erteilen](./media/3GrantAdminConsent.png)
 
 4. Die Berechtigungsanforderung akzeptieren
 
-![Die Berechtigungsanforderung akzeptieren.](./media/4AcceptPermissionRequest.png)
+![Die Berechtigungsanforderung akzeptieren](./media/4AcceptPermissionRequest.png)
 
 Die Autorisierung ist jetzt abgeschlossen. 
 
-![Autorisierung erfolgreich.](./media/5AuthorizationComplete.png)
+![Autorisierung erfolgreich](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Dynamics Deployment Services den Zugriff auf Ihr Azure-Abonnement ermöglichen
 
 1. Navigieren Sie zur [Microsoft Azure-Fakturierung](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade), und wählen Sie Ihr Abonnement aus. Dynamics Deployment Services muss auf dieses Abonnement zugreifen, um Umgebungen bereitstellen zu können.
 
-![Azure-Abonnementdetails.](./media/6AzureSubscription.png)
+![Azure-Abonnementdetails](./media/6AzureSubscription.png)
 
 2. Wählen Sie **Access Control (IAM)** im Navigationsbereich und dann **Rollenzuweisung hinzufügen** aus.
 3. Wählen Sie im Schieberegler auf der rechten Seite **Rolle als Beitragender** aus. Suchen Sie **Dynamics Deployment Services**, und wählen Sie es aus. 
 4. Wählen Sie **Speichern** aus.
 
-![Abonnementzugriff.](./media/7SubscriptionAccess.png)
+![Abonnementzugriff](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Einem LCS-Projekt einen Azure-Konnektor hinzufügen
 

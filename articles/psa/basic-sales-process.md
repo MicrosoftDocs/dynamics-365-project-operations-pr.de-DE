@@ -2,6 +2,8 @@
 title: Vertriebsprozesse
 description: Dieses Thema enthält Informationen zu den grundlegenden Vertriebsprozessen.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000530"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145177"
 ---
 # <a name="sales-processes"></a>Vertriebsprozesse
 
@@ -39,7 +41,7 @@ Die Vertriebsprozesse, die in einer projektbasierten Organisation verwendet werd
 
 Die folgende Abbildung zeigt einen typischen Vertriebsprozess in einer projektbasierten Organisation.
 
-> ![Vertriebsprozess in einer projektbasierten Organisation.](media/basic-guide-1.png)
+> ![Vertriebsprozess in einer projektbasierten Organisation](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Einschätzung eines Verkaufs
 Der Wert eines Verkaufs kann auf der Grundlage von zuvor gelieferten Projekten und der Komplexität von Projekten geschätzt werden. Für Projekte, bei denen es sich um Erweiterungen von vorherigen Projekten handelt, oder Projekte, bei denen der Zulieferer über hohe Fachkenntnisse verfügt und bekannte Arbeitsvorlagen verwendet werden, können Sie einen einfacheren Schätzungsprozess verwenden. Komplexere Projekte haben normalerweise einen längeren Kaufvorgang. Daher gibt es mehr Phasen in der Vertriebsvorkalkulation. Zu Beginn des Prozesses verwendet das Vertriebsteam die Beiträge von Account Managern und Fachleuten (SMEs – Subject Matter Experts), um eine allgemeine Schätzung für jede einzelne angebotene Arbeitskomponente zu erstellen. Diese Arbeitskomponenten werden durch Angebotszeilen dargestellt. 
@@ -50,7 +52,7 @@ Sie können für ein Projekt mehrere Angebote erstellen und sie unter einem Verk
 
 Sie können auch andere Angebote unter einem Verkaufschancen-Entitätstyp erstellen oder das System so konfigurieren, dass ein Projektvertrag erstellt wird, wenn ein Angebot gewonnen wird. In diesem Fall können Sie dem Projektvertragsdatensatz ein Word-Dokument anfügen, das die Leistungsbeschreibung darstellt.
 
-![Schließen eines Angebots, um einen Projektvertrag zu erstellen.](media/basic-guide-2.png)
+![Schließen eines Angebots, um einen Projektvertrag zu erstellen](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Konfigurieren des Vertriebsprozesses
 Sie können Geschäftsprozessflüsse (BPFs, Business Process Flows) in Microsoft Dynamics 365 verwenden, um Ihren Vertriebsprozess zu konfigurieren. BPFs bieten dem Vertriebspersonal eine intuitive visuelle Sichtschnittstelle, mit der sie Geschäftsabschlüsse durch die für Ihr Unternehmen typischen Phasen vorantreiben können.
@@ -66,7 +68,7 @@ Beispielsweise verfügt Ihr Unternehmen über die folgenden sechs Phasen im Vert
 
 Diese sechs Phasen werden durch Doppelpfeile (\>) dargestellt, die Sie auswählen, um sie in jedem von Ihnen erstellten Verkaufschancen-Entitätstyp zu erweitern.
 
-![Konfigurieren eines Geschäftsprozesses in Dynamics 365.](media/basic-guide-3.png)
+![Konfigurieren eines Geschäftsprozesses in Dynamics 365](media/basic-guide-3.png)
  
 Ihre Organisation verwendet möglicherweise verschiedene Entitäten zur Darstellung des gleichen Auftrags, wie er sich entwickelt. Zu Beginn des Vertriebsprozesses wird ein Auftrag durch die Verkaufschancenentität dargestellt. Im Laufe der Zeit und wenn weitere Details bekannt werden, können Sie allgemeine Schätzungen verwenden, um ein oder mehrere Angebote zu erstellen. Wenn eines dieser Angebote von den internen und kundenseitigen Stakeholdern überprüft wird, stellt die Angebotsentität den Auftrag dar. Nachdem der Kunde das Angebot angenommen hat, wird der Auftrag durch einen Projektvertrag oder eine Leistungsbeschreibung repräsentiert. Um dieses Verhalten zu unterstützen, sind BPFs so strukturiert, dass jede Phase des Prozesses mit einer anderen Datenbanktabelle verknüpft ist.
 
@@ -77,7 +79,7 @@ Beim Vorantreiben der Geschäfte durch die Phasen werden Sie aufgefordert, den e
 > [!NOTE]
 > PSA bietet spezifische Seiten für die Entitäten Verkaufschance, Angebot, Auftrag und Rechnung. Sie müssen für diese Entitäten mithilfe der Projektinformationsseiten Project Service-Verkaufschancen, Angebote, Aufträge und Rechnungen erstellen. Wenn Sie zum Erstellen eines Datensatzes eine andere Seite verwenden, können Sie den Datensatz nicht über die Seite **Projektinformationen** öffnen. Wenn Sie einen Datensatz über die Seite **Projektinformationen** öffnen möchten, müssen Sie den Datensatz löschen und über die Seite **Projektinformationen** neu erstellen. Auf der Seite **Projektinformationen** sorgt die Geschäftslogik für jeden dieser Entitätstypen dafür, dass das Feld **Typ** des Datensatzes korrekt festgelegt ist und alle erforderlichen Konzepte ordnungsgemäß initialisiert werden.
 
-> ![Projektinformationen für einen neuen Auftrag.](media/basic-guide-4.png)
+> ![Projektinformationen für einen neuen Auftrag](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Unterschiede zwischen Project Service Automation und Vertrieb
 Der Vertriebsprozess in PSA nutzt zwar die grundlegenden Funktionen des Vertriebsprozesses in Sales, weist jedoch einige wesentliche Unterschiede auf, da die Geschäftspraktiken projektbasierter Organisationen unterschiedlich sind. Im Folgenden finden Sie einige Beispiele hierfür:
@@ -91,6 +93,3 @@ In PSA ist es nicht möglich, Überarbeitungen an einem Angebot nachzuverfolgen.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Nachverfolgungskommentare und Genehmigungen von Angeboten und Projektverträgen
 Sie können die Überprüfung und Genehmigung von Angeboten und Projektverträgen mithilfe der Datensatzpinnwand und Beiträge verwalten. Ihre Organisation kann benutzerdefinierte Workflows und Plug-Ins erstellen, um Benachrichtigungen zu Überprüfungs- und Genehmigungsarbeitselementen zuzuweisen, umzuleiten, zu eskalieren und zu verwalten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Buchungen bearbeiten
 description: Dieses Thema enthält Informationen zum Aktualisieren und Ändern von Buchungen.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008315"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841339"
 ---
 # <a name="edit-bookings"></a>Buchungen bearbeiten
 
@@ -31,6 +33,3 @@ Vom Raster **Teammitglied** kann ein Projektmanager eine bestimmte Ressource mar
 ## <a name="schedule-board"></a>Zeitplanübersicht
 
 Von der **Zeitplanübersicht** hat der Ressourcenmanager eine Portfolioansicht aller Buchungen innerhalb eines Unternehmens. In dieser Ansicht kann der Ressourcenmanager vorhandene Buchungen erweitern, verkürzen oder verschieben, ähnlich wie in **Buchungen verwalten**. Der Ressourcenmanager kann auch vorhandene Ressourcen ersetzen, die einer bestimmten Buchung zugeordnet sind, indem er mit der rechten Maustaste auf die Buchung klickt und **Ersatzressource** auswählt. Ressourcenmanager können auch die Konturen vorhandener Buchungen bearbeiten, indem sie mit der rechten Maustaste auf die Buchung klicken und **Bearbeiten** auswählen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Projekteinstellungen
 description: Dieses Thema enthält Informationen zu den Einstellungen für das Projektmanagement.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996930"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148147"
 ---
 # <a name="project-settings"></a>Projekteinstellungen
 
@@ -47,7 +49,7 @@ Zur Erstellung eines Projektzeitplans erstellen Sie zuerst eine Projektkalenderv
   - Arbeitsplan für einen Tag
   - Arbeitsfreie Zeit
 
-> ![Festlegen von Optionen.](media/project-13.png)
+> ![Festlegen von Optionen](media/project-13.png)
 
 4. Wählen Sie **Neuer wöchentlicher Zeitplan** aus und legen Sie anschließend die Optionen für den Ressourcenzeitplan fest. Sie können einen wöchentlichen Serienzeitplan, tägliche Stundenparameter, Betriebsferien und mehr festlegen.
 5. Legen Sie den Datumsbereich fest, wählen Sie **Speichern** aus und klicken Sie dann auf **Schließen**. 
@@ -66,6 +68,3 @@ Jede Organisation muss diese Rollen auf der Seite **Aktive Ressourcenkategorien*
 ## <a name="price-lists"></a>Preislisten
 
 Mithilfe von Preislisten können Sie Einkaufs- und Verkaufspreise für Ressourcenrollen, Ausgabenkategorien, Produkte und andere Elemente in einer Organisation festlegen. Bevor Sie finanzielle Vorkalkulationen für die im Rahmen eines Projekts zu leistende Arbeit erstellen, sollten Sie eine unterstützende Kosten- und Verkaufspreisliste erstellen. Im Parameterbereich sollten Sie außerdem eine standardmäßige Kosten- und Verkaufspreisliste festlegen, die für alle in der Organisation erstellten Projekte gilt. Achten Sie auf der Seite **Aktive Projektparameter** darauf, eine standardmäßige Kosten- und Verkaufspreisliste festzulegen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

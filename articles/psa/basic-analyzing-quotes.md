@@ -2,6 +2,8 @@
 title: Analyse von Projektangeboten
 description: Dieses Thema enthält Informationen zur Analyse von Projektangeboten.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002825"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145222"
 ---
 # <a name="analysis-of-project-quotes"></a>Analyse von Projektangeboten
 
@@ -58,6 +60,3 @@ Sie können Angebote analysieren und Diagramme für Kundenerwartungen zu Zeitpla
 Die Analyse der Kundenerwartungen bezüglich des Zeitplans erfolgt durch Vergleichen des letzten Enddatums des Angebotszeilendetails mit dem angeforderten Lieferdatum über alle Angebotszeilen im Angebot.
 
 Die Analyse der Kundenerwartungen zum Budget erfolgt durch Vergleich der Summe des gesamten Kundenbudgets mit dem Angebotsbetrag über alle Angebotszeilen hinweg.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

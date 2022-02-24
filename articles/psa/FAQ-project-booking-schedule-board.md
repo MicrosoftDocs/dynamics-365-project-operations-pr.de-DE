@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987615"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992965"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Erstellen einer Projektbuchung aus der Zeitplanübersicht
 
@@ -43,7 +43,7 @@ Sie können eine allgemeine Ressource erstellen und diesen einer oder mehreren A
 
 1.  Auf der Zeitplanübersicht wird diese Ressource auf der Registerkarte **Offene Anforderungen** angezeigt. Gegebenenfalls muss der Spaltenfilter im Raster verwendet werden, wenn Sie viele geöffnete Anforderungen haben. 
 
-    ![Registerkarte Anforderungen auf der Zeitplanübersicht.](media/FAQ-Project-Booking-Schedule-Board-1.png "Screenshot der Anmeldungen und Zuweisungstabellen")
+    ![Registerkarte Anforderungen auf der Zeitplanübersicht](media/FAQ-Project-Booking-Schedule-Board-1.png "Screenshot der Anmeldungen und Zuweisungstabellen")
 
 2. Wählen Sie die erforderliche Anforderung aus. Die Registerkarte **Verfügbarkeit durchsuchen** wird oben in der ausgewählten Zeile angezeigt.
  
@@ -53,7 +53,7 @@ Sie können eine allgemeine Ressource erstellen und diesen einer oder mehreren A
 
     **Buchen** auswählen, um die Ressource im Projektteam zu buchen.
 
-![Bereich „Ressourcenbuchung erstellen“.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Ressourcen-Anmeldungsbereich erstellen](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Buch der primären Anforderung
@@ -62,7 +62,7 @@ Ein Projekt in Project Service erstellen erstellt automatisch eine Ressourcenanf
 
 1. Um eine Ressource mit einer primären Anforderung zu buchen, wählen Sie auf der Zeitplanübersicht die Registerkarte **Projekt** aus. Möglicherweise müssen Sie den Spaltenfilter auf der Spalte **Projekt** verwenden, wenn Sie viele Projekte haben.
 
-   ![Spaltenfilter auf der Zeitplanübersicht anzeigen.](media/FAQ-Project-Booking-Schedule-Board-2.png "Screenshot der Anmeldungen und Zuweisungstabellen")
+   ![Spaltenfilter auf der Zeitplanübersicht anzeigen](media/FAQ-Project-Booking-Schedule-Board-2.png "Screenshot der Anmeldungen und Zuweisungstabellen")
 
 2. Wählen Sie die Anforderung aus, die nur den Projektnamen als Namen und eine Dauer von Null (0) hat.
 

@@ -1,6 +1,8 @@
 ---
 title: Neuigkeiten und Änderungen in Project Service Automation, Version 3
 description: Dieses Thema enthält Informationen über Neuigkeiten und Änderungen in Project Service Automation, Version 3.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987075"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150667"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Neuigkeiten und Änderungen in Project Service Automation, Version 3
 
@@ -36,7 +38,7 @@ Dieses Thema enthält Informationen zu den Änderungen an der Benutzeroberfläch
 ## <a name="project-scheduling"></a>Projektzeitpläne
 Der Projektzeitplan, der als Projektstrukturplan (WBS) in früheren Versionen bekannt war, wurde in Zeitplan umbenannt und ist verfügbar, indem Sie auf die Registerkarte **Zeitplan** klicken. 
 
-![Projektzeitplan.](media/psa-schedule-01.png)
+![Projektzeitpläne](media/psa-schedule-01.png)
 
 Der Zeitplan hat jetzt eine neue Oberfläche für die Interaktion, die sowohl modern als auch zugänglich ist. Das zugrunde liegende Project Service Automation Planungsmodul wurde jedoch nicht geändert. Mit den Steuerschaltflächen im Menüband des Zeitplanrasters können Sie mit dem Zeitplan interagieren wie in der früheren Version von Project Service Automation. Zusätzliche Änderungen am Zeitplan:
 
@@ -95,22 +97,22 @@ Wenn Sie den Zeitplan des vorhandenen Projekts verchieben, passiert Folgendes:
 ## <a name="estimates"></a>Schätzungen
 Schätzungen sind in zwei Registerkarten **Ressourcen-Zuweisung** und **Schätzungen** unterteilt. Die Registerkarte **Ressourcen-Zuweisung** enthält die Aufwandsschätzungen und die Ressourcen-Zuweisungen für die Aufgaben in einer Zeitphasenansicht. Sie können die Schätzungen basierend auf den generierten Werten des Planungsmoduls bearbeiten.
 
-![Ressourcen-Zuweisungsregisterkarte mit Aufwandsschätzungen und Ressourcen-Zuweisungen für Aufgaben.](media/resource-assignments-tab-02.png)
+![Ressourcen-Zuweisungsregisterkarte mit Aufwandsschätzungen und Ressourcen-Zuweisungen für Aufgaben](media/resource-assignments-tab-02.png)
 
 Die Registerkarte **Schätzungen** zeigt die Kosten und Umsätze für Ressourcen-Zuweisungen an. Die Beträge sind schreibgeschützt. Die Kosten- und Vertriebspreisberechnungen werden nun von Teammitglieds-Zuweisungen im Zeitplan abgeleitet. Das bedeutet, dass bei einer Aufgabe ohne jegliche Zuweisung die Aufgabe unter dem nicht zugewiesenen Bucket dargestellt wird. Dies bedeutet auch, dass ohne **Rolle**, was eine Standardpreisberechnungsdimension ist, keine geschätzten Kosten oder Verkäufe existieren, wenn Sie einen Kunden oder einen Vertrag/ein Angebot haben, dem das Projekt zugeordnet ist. 
 
-![Schätzungsregisterkarte mit Kosten und Verkaufsbeträgen.](media/estimates-tab-03.png)
+![Schätzungsregisterkarte mit Kosten und Verkaufsbeträgen](media/estimates-tab-03.png)
   
 Kategorie wird in Aufgaben in der Zeitplanansicht unterstützt. Eine Gruppierung nach Kategorie auf der Zeitphasenansicht der Schätzungen bietet eine verbesserte Erfahrung, insbesondere wenn Sie auch Ausgabenschätzungen in einem Projekt haben. Ausgabenschätzungen werden mithilfe eines Rasters auf einer separaten Registerkarte eingegeben. 
 
 Ausgabenschätzungen können in das Raster auf der Registerkarte **Ausgabenschätzungen** eingegeben werden. 
 
-![Ausgabenschätzungsregisterkarten mit Ausgabenschätzungsraster.](media/expense-estimates-tab-04.png)
+![Ausgabenschätzungsregisterkarten mit Ausgabenschätzungsraster](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Ressourcenverwaltung
 In Project Service Automation Version 3 mit der neuen einheitlichen Clientbenutzeroberfläche und den Änderungen in der Beziehung zwischen Buchungen und Zuweisungen hat die Stellenbesetzung eines Projekts mit allgemeinen oder realen Ressourcen von Version 2 und Version 1 stark geändert. Allerdings bleiben die Konzepte buchbarer Ressourcen bei **real** und **generisch** identisch, wie auch Teammitglieder, Anforderungen, Zuweisungen und Buchungen.   
 
-![Verwenden der Ressourcenauswahl.](media/resource-management-05.png)
+![Verwenden der Ressourcenauswahl](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Zuweisen einer realen buchbaren Ressource 
 In Project Service Automation Version 3 sind Buchungen und Aufgabenzuweisungen nicht so eng miteinander verknüpft wie in früheren Versionen von Project Service Automation. Sie können das Teamraster verwenden, um ein **reales** Team wie auf dem Markt zu buchen.
@@ -151,19 +153,19 @@ Dieser Abschnitt enthält Informationen zu den Änderungen an Zeitplanung, Ausga
 ### <a name="landing-page"></a>Angebotsseite
 Die nicht erweiterbare benutzerdefinierte Zeiteintragungsumgebung wurde in Version 3 eingestellt. Stattdessen gibt es jetzt eine erweiterbare und zugreifbare systemeigene Rastererfahrung. Sie können auf die Zeiteintragsfunktion zugreifen, indem Sie die Siteübersicht auf der linken Seite verwenden. Mit dieser Änderung können Sie die Zeit für eine Woche nicht gleichzeitig eingeben. Stattdessen müssen Sie eine Zeiteintragung für jeden Tag im Raster erstellen. Wenn einige Zeiteintragungen erstellt wurden, können Benutzer Zeiteintragungen per **Kopieren** in Massen erstellen, wie später in diesem Thema beschrieben wird. 
 
-![Zeiteintragungs-Angebotsseite.](media/time-entry-landing-page-07.png)
+![Zeiteintragungs-Angebotsseite](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Neue Zeiteinträge erstellen 
 Klicken Sie im Menüband auf **Neu**, um eine Schnellerstellungsseite für die Zeiteintragung zu öffnen, in der Sie die Minuten, Stunden und Tage eingeben. Geben Sie hierzu nur h, m oder d zusammen mit der Menge ein.  
 
-![Schnellerfassung für Zeiteintrag.](media/quick-create-time-entry-08.png)
+![Schnellerfassung für Zeiteintrag](media/quick-create-time-entry-08.png)
 
 Suchfelder werden von Systemansichten unterstützt. Wenn Sie beispielsweise Projektinformationen eingeben, ist das Feld **Projektaufgabe** standardmäßig auf **Meine offenen Projektaufgaben** festgelegt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die dem Benutzer nicht zugewiesen werden, klicken Sie auf **Ansicht ändern** ind er Suche und wählen **Alle aktiven Projektaufgaben**. Nachdem die Zeiteintragung erstellt wurde und im Raster angezeigt wird, können Sie direkt alle Zeilenwerte im Raster bearbeiten.  
 
 ### <a name="bulk-createcopy"></a>Massenerstellen/-kopieren 
 Nachdem einige Zeiteinträge erstellt wurden, können Sie diese kopieren, um eine Massenerstellung zusätzlicher Zeiteinträge vorzunehmen. Klicken Sie auf **Kopieren**, um das Dialogfeld **Kopieren** zu öffnen. In **Zeitraum von: Startdatum** legen Sie den Datumsbereich fest, aus dem andere Buchhaltungsperioden kopiert werden müssen. Geben Sie in **Zeitraum bis: Startdatum** das Datum an, für das Zeiteintragungen erstellt werden müssen. Klicken Sie auf **Kopieren**, um die Zeiteintragungen zum entsprechenden Wochentag zu kopieren, der in **Zeitraum bis** angegeben ist. So wird z. B. der Zeiteintrag für Montag der vergangenen Woche in den Montag für die Woche kopiert, die in **Zeitraum bis** angegeben ist. 
 
-![Zeiteinträge massenkopieren.](media/bulk-copy-time-entry-09.png)
+![Zeiteinträge massenkopieren](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Daten importieren 
 Zuweisung und Austausch folgen demselben Benutzeroberflächenmuster, mit dem Benutzer den Datumsbereich angeben können, wenn Buchungen importiert werden müssen. Sie müssen Buchungen dann explizit auswählen, die in **Entwurf**-Zeiteintragungen kopiert werden sollen. In Version 3 werden **Vorgeschlagen**-Zeiteintragungen im Raster und Kalender nicht mehr angezeigt.  
@@ -179,7 +181,7 @@ In Version 3 sind wir vom benutzerdefinierten Kalendersteuerelement abgewichen u
 
 **Daten in benutzerdefinierten Feldern in Zeit- und Ausgabeneinträgen erfassen und über Entitäten übertragen, die den Übertragungs- und Genehmigungsfluss unterstützen** - Das normale Verarbeiten von Zeiteintragungen wird im folgenden Diagramm angezeigt.
 
-![Flow zum Prozess der Zeiteingabe.](media/process-time-entries-10.png)
+![Flow zum Prozess der Zeiteingabe](media/process-time-entries-10.png)
 
 Wenn geschäftliche Anforderungen festlegen, dass Zeit- und Ausgabenentitäten benutzerdefinierte Preisberechnungsdimensionen erfassen und die Werte verbreiten müssen, die durch eine Zeit- und Eintragsressource in der benutzerdefinierten Preisberechnungsdimension für alle Entitäten aus der vorherigen Grafik festgelegt wurden, lesen Sie die Informationen unter [Einrichten von benutzerdefinierten Feldern als Preisdimensionen](set-up-pricing-dimensions.md)
 
@@ -236,7 +238,7 @@ In den Versionen 1 und 2 wurde das Fakturierbarkeitssetup für Rollen und Katego
 
 Ab Version 3 werden die Fakturierbarkeitsoptionen nach Rolle und Ausgabenkategorie auf der Angebots- oder Vertragszeilenebene ausgeführt. Das Preisberechnungssetup ist getrennt vom Fakturierbarkeitssetup. Sie finden **Fakturierbare Rollen** und **Fakturierbare Kategorie** als Registerkarten auf den Seiten **Angebotszeile** und **Vertragszeile**, ohne dafür die obere Navigation verwenden zu müssen.
 
-![Fakturierbare Rollen.](media/chargeable-12.png)
+![Fakturierbare Rollen](media/chargeable-12.png)
  
 Die Einrichtung der fakturierbaren Rollen und fakturierbaren Kategorien nutzt auch das vordefinierte bearbeitbare Rastersteuerelement. Für jede Rolle und Kategorie bleiben die unterstützten Optionen zum Berechnen des Typs der Veranschlagung und der Vertragsphase unverändert zu früheren Versionen mit **Fakturierbar** und **Nicht fakturierbar**. **Kostenlos** ist kein unterstützter Typ während der Veranschlagungs- oder Vertragsphase. **Kostenlos** wird nur bei der Zeit- und Ausgabengenehmigung unterstützt.  
  
@@ -247,14 +249,11 @@ Ab Version 3 ist das Erstellen und Verwenden einer benutzerdefinierten Projektpr
   
 Die folgende Grafik stellt den Zeitpunkt dar, bevor Listen des benutzerdefinierten Preises erstellt wurden.
 
-![Vor benutzerdefinierten Preislisten.](media/before-custom-price-lists-13.png)
+![Vor benutzerdefinierten Preislisten](media/before-custom-price-lists-13.png)
 
 Die folgende Grafik stellt den Zeitpunkt dar, nachdem Listen des benutzerdefinierten Preises erstellt wurden.
 
-![Nach benutzerdefinierten Preislisten.](media/after-custom-price-lists-14.png)
+![Nach benutzerdefinierten Preislisten](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Eine kurze Verzögerung zwischen dem Klicken auf **Benutzerdefinierte Preisberechnung erstellen** kann auftreten, wenn die Liste des benutzerdefinierten Preises erstellt wird. Es ist empfehlenswert, das Raster zu aktualisieren, anstatt mehrmals zu klicken. Eine Liste von benutzerdefinierten Preises wird erstellt, wenn dem Preislistenname der Angebotsname oder der Projektvertragsname angefügt wurde.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

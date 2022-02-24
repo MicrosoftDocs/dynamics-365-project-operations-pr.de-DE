@@ -2,9 +2,11 @@
 title: Zeitplan der Ausgaben für Bundeszuschüsse
 description: Diese Thema enthält Informationen zum Zeitplan der Ausgaben der Federal Awards-Anfrage.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007235"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076508"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Zeitplan der Ausgaben für Bundeszuschüsse
 
@@ -60,7 +62,7 @@ Sie müssen die CFDA-Nummern einrichten, die Zuschüssen hinzugefügt werden kö
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Zuschüsse einrichten, um diese der Anfrage „Plan der Ausgaben der Bundeszuschüsse“ zu melden
 
 1. Navigieren Sie zu **Projektmanagement und -buchhaltung \> Zuschüsse \> Zuschüsse**, und wählen Sie einen vorhandenen Zuschuss aus.
-2. Weisen Sie im Inforegister **Einrichtung** im Feld **Catalog of Federal Domestic Assistance** die CFDA-Nummer zu. Die CFDA-Nummer auf dem Zuschuss bestimmt den CFDA-Cluster für die Meldung.
+2. Weisen Sie im Inforegister **Einrichtung** im Feld **Catalog of Federal Domestic Assistance** die CFDA-Nummer zu. Die CFDA-Nummer auf dem Zuschuss bestimmt den CFDA-Cluster für die Meldung.
 3. Geben Sie im Inforegister **Kontaktinformationen** die Informationen des Gebers ein, indem Sie diese Schritte befolgen:
 
     1. Geben Sie im Feld **Zuschusskunde** den Kunden ein, der für den Zuschuss verantwortlich ist. Bei einem vorhandenen Zuschuss sind diese Informationen möglicherweise bereits eingegeben.
@@ -77,8 +79,8 @@ Die Bundesregierung hat ein Infrastrukturprojekt für einen Staat finanziert. Di
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Zuschüsse von der SEFA-Meldung basierend auf der Zuschussart ausschließen
 
-1. Navigieren Sie zu **Projektmanagement und -buchhaltung \> Einrichtung \> Zuschüsse \> Zuschusstypen**.
-2. Aktivieren Sie im Inforegister **Standardinformationen** das Kontrollkästchen **Vom Plan der Ausgaben für Bundeszuschüsse ausschließen**.
+1. Navigieren Sie zu **Projektmanagement und -buchhaltung \> Einrichtung \> Zuschüsse \> Zuschusstypen**.
+2. Aktivieren Sie im Inforegister **Standardinformationen** das Kontrollkästchen **Vom Plan der Ausgaben für Bundeszuschüsse ausschließen**.
 3. Wählen Sie **Speichern** aus, um die Änderungen zu speichern.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Den Plan für die Ausgaben der Bundeszuschüsse ausführen
@@ -102,6 +104,3 @@ Die Abfrage des Zeitplans der Ausgaben für Bundeszuschüsse umfasst die folgend
 - Catalog of Federal Domestic Assistance
 - Quittungen
 - Ausgaben
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

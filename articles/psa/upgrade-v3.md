@@ -1,7 +1,9 @@
 ---
-title: Überlegungen zum Upgrade – Microsoft Dynamics 365 Project Service Automation Version 2.x oder 1.x auf Version 3
+title: Überlegungen zum Upgrade von Microsoft Dynamics 365 Project Service Automation Version 2.x oder 1.x auf Version 3.x
 description: Dieses Thema enthält Informationen zu Überlegungen, die Sie vornehmen müssen, wenn Sie von Project Service Automation Version 2.x oder 1.x auf Version 3 aktualisieren.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000080"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144160"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Überlegungen zum Upgrade von PSA-Version 2.x oder 1.x auf Version 3.x
 
@@ -35,7 +37,7 @@ Sowohl Dynamics 365 Project Service Automation wie auch Dynamics 365 Field Servi
 ## <a name="resource-assignments"></a>Ressourcenzuweisungen
 In Project Service Automation Version 2 und Version 1 wurden Aufgabenzuordnungen als untergeordnete Aufgaben (auch Positionsaufgaben genannt) in der **Aufgabenentität** gespeichert und indirekt mit der Entität **Ressourcenzuweisung** verknüpft. Die Positionsaufgabe wurde im Zuweisungspopupfenster im Projektstrukturplan (PSP) angezeigt.
 
-![Linienaufgaben auf dem PSP in Project Service Automation Version 2 und Version 1.](media/upgrade-line-task-01.png)
+![Linienaufgaben auf dem PSP in Project Service Automation Version 2 und Version 1](media/upgrade-line-task-01.png)
 
 In Version 3 von Project Service Automation wurde das zugrunde liegende Schema bei der Zuweisung von buchbaren Ressourcen zu Aufgaben geändert. Die Positionsaufgabe ist veraltet und es gibt eine direkte 1:1-Beziehung zwischen der Aufgabe in der **Aufgabenentität** und dem Teammitglied in der Entität **Ressourcenzuweisung**. Aufgaben, die einem Projektteammitglied zugeordnet sind, werden jetzt direkt in der Ressourcenzuweisungsentität gespeichert.  
 
@@ -46,26 +48,26 @@ Mithilfe der zugrunde liegenden Aufgabenentität konnten Teammitglieder in und V
 
 Wenn Sie eine Ressource zu einer Aufgabe außerhalb der Standardrolle in Version 2 und Version 1 zugewiesen haben, wird der benannten Ressource nach einem Upgrade die Standardrolle für alle Aufgabenzuordnungen zugewiesen, unabhängig von der Rollenzuweisung in Version 2. Durch diese Arbeitsauftragsergebnisse entstehen Unterschiede der berechneten Schätzungen von Version 2 oder Version 1 zu Version 3, da Schätzungen anhand der Rolle der Ressource und nicht der Positionsaufgabenzuordnung berechnet werden. In Version 2 wurden Bruna Schöffer beispielsweise zwei Aufgaben zugewiesen. Die Rolle in der Positionsaufgabe für Aufgabe 1 ist Entwickler und für Aufgabe 2 Projektleiter. Bruna Schöffer hat die Standardrolle Projektleiterin.
 
-![Mehrere Rollen sind einer Ressource zugeordnet.](media/upgrade-multiple-roles-02.png)
+![Mehrere Rollen sind einer Ressource zugeordnet](media/upgrade-multiple-roles-02.png)
 
 Da die Rollen Entwickler und Projektleiter sich unterscheiden, lauten die Kosten- und Verkaufsschätzungen wie folgt:
 
-![Kostenvorkalkulationen für Ressourcenrollen.](media/upggrade-cost-estimates-03.png)
+![Kostenvorkalkulationen für Ressourcenrollen](media/upggrade-cost-estimates-03.png)
 
-![Verkausschätzungen für Ressourcenrollen.](media/upgrade-sales-estimates-04.png)
+![Verkausschätzungen für Ressourcenrollen](media/upgrade-sales-estimates-04.png)
 
 Wenn Sie ein Upgrade auf Version 3 ausführen, werden Positionsaufgaben in der Aufgabe des buchbaren Ressourcenteammitglieds durch Ressourcenzuweisungen ersetzt. Die Zuweisung nutzt die Standardrolle der buchbaren Ressource. In der folgenden Grafik ist Bruna Schöffer, die die Rolle der Projektleiterin hat, die Ressource.
 
-![Ressourcenzuweisungen.](media/resource-assignment-v2-05.png)
+![Ressourcenzuweisungen](media/resource-assignment-v2-05.png)
 
 Da die Schätzungen auf der Standardrolle für die Ressource basieren, können sich Vertriebs- und die Kostenvoranschläge ändern. Beachten Sie in der folgenden Grafik, dass die Rolle **Entwickler** nicht mehr angezeigt wird, da die Rolle jetzt aus der Standardrolle der buchbaren Ressource entfernt wurde.
 
-![Kostenvoranschläge für Standardrollen.](media/resource-assignment-cost-estimate-06.png)
-![Verkaufsschätzungen für Standardrollen.](media/resource-assignment-sales-estimate-07.png)
+![Kostenvoranschläge für Standardrollen](media/resource-assignment-cost-estimate-06.png)
+![Verkaufsschätzungen für Standardrollen](media/resource-assignment-sales-estimate-07.png)
 
 Nach Abschluss des Upgrades können Sie die Rolle eines Teammitglieds bearbeiten, um eine andere als die Standardrolle anzunehmen. Wenn Sie eine Teammitgliedsrolle ändern, wird sie in allen zugeteilten Aufgaben geändert, da in Version 3 Teammitgliedern nicht mehrere Rollen zugewiesen werden können.
 
-![Aktualisieren einer Ressourcenrolle.](media/resource-role-assignment-08.png)
+![Aktualisieren einer Ressourcenrolle](media/resource-role-assignment-08.png)
 
 Dies gilt auch für Positionsaufgaben, die benannten Ressourcen zugewiesen wurden, wenn Sie die Organisationseinheit von der Standardeinstellung in eine andere Organisationseinheit ändern. Nach dem Upgrade auf Version 3 verwendet die Zuweisung die Standardorganisationseinheit Ressource anstatt des eines Satzes in der Positionsaufgabe.
 
@@ -81,33 +83,30 @@ Bevor Sie mit dem Upgrade beginnen, wird empfohlen, das Projekt für jedes Team 
 
 Bei Aufgaben, die generischen Teammitgliedern zugeordnet sind, die mit **Team erstellen** erstellt wurden, wird beim Upgrade die allgemeine Ressource im Team und die Zuweisung beim allgemeinen Teammitglied belassen. Es wird empfohlen, dass Sie die Ressourcenanforderungen für das allgemeine Teammitglied nach der Aktualisierung erstellen, jedoch bevor Sie eine Ressourcenanforderung buchen oder senden. Dies erhält alle Organisationseinheiten-Zuweisungen der generischen Teammitglieder, die sich von der Organisationseinheit des Projektvertrags unterscheiden.
 
-Im Projekt Z-Projekt ist die Vertragsorganisation beispielsweise Contoso USA. Testaufgaben in der Implementierung wurden im Projektplan der Rolle des technischen Beraters zugewiesen und zugewiesene Organisationseinheit ist Contoso Indien.
+Im Projekt Z-Projekt ist die Vertragsorganisation beispielsweise Contoso US. Testaufgaben in der Implementierung wurden im Projektplan der Rolle des technischen Beraters zugewiesen und zugewiesene Organisationseinheit ist Contoso India.
 
-![Zuweisung der Implementierungsphasenorganisation.](media/org-unit-assignment-09.png)
+![Zuweisung der Implementierungsphasenorganisation](media/org-unit-assignment-09.png)
 
-Nach der Implementierungsphase wird die Integrationstestaufgabe der Rolle des technischen Beraters zugewiesen, die Organisation ist jedoch auf Contoso USA festgelegt.  
+Nach der Implementierungsphase wird die Integrationstestaufgabe der Rolle des technischen Beraters zugewiesen, die Organisation ist jedoch auf Contoso US festgelegt.  
 
-![Zuweisung der Integrationstestaufgabenorganisation.](media/org-unit-generate-team-10.png)
+![Zuweisung der Integrationstestaufgabenorganisation](media/org-unit-generate-team-10.png)
 
-Wenn Sie ein Team für das Projekt erstellen, werden aufgrund der zwei unterschiedlichen Organisationseinheiten der Aufgaben zwei allgemeine Teammitglieder erstellt. Der technische Berater 1 erhält die Aufgaben von Contoso Indien und der technische Berater 2 die Aufgaben von Contoso USA.  
+Wenn Sie ein Team für das Projekt erstellen, werden aufgrund der zwei unterschiedlichen Organisationseinheiten der Aufgaben zwei allgemeine Teammitglieder erstellt. Der technische Berater 1 erhält die Aufgaben von Contoso India und der technische Berater 2 die Aufgaben von Contoso US.  
 
-![Erstellte Generische Teammitglieder.](media/org-unit-assignments-multiple-resources-11.png)
+![Erstellte Generische Teammitglieder](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > In Project Service Automation Version 2 und Version 1 hat das Teammitglied nicht die Organisationseinheit, die in der Positionsaufgabe verwaltet wird.
 
-![Linienaufgaben in Project Service Automation Version 2 und Version 1.](media/line-tasks-12.png)
+![Linienaufgaben in Project Service Automation Version 2 und Version 1](media/line-tasks-12.png)
 
 Sie sehen die Organisationseinheit in der Schätzungsansicht. 
 
-![Organisationseinheitenschätzungen.](media/org-unit-estimates-view-13.png)
+![Organisationseinheitenschätzungen](media/org-unit-estimates-view-13.png)
  
 Wenn das Upgrade abgeschlossen ist, wird die Organisationseinheit in der Positionsaufgabe, die dem generischen Teammitglied entspricht, dem generischen Teammitglied hinzugefügt und die Positionsaufgabe wird entfernt. Aus diesem Grund wird empfohlen, dass vor dem Upgrade die Teams in den Projekten, die allgemeine Ressourcen enthalten, zu erstellen oder erneut zu generieren.
 
-Bei Aufgaben, die einer Rolle in einer Organisationseinheit zugewiesen sind, die sich von der Organisationseinheit des Vertragsprojekts unterscheidet, und für die kein Team erstellt wurde, erstellt das Upgrade ein allgemeines Teammitglied für die Rolle, verwendet jedoch auch die Vertragseinheit des Projekts für die Organisationseinheit des Teammitglieds. Im Beispiel von Projekt Z nehmen bedeutet dies, dass die Vertragsorganisationseinheit Contoso USA ist und die Projektplantestaufgaben in der Implementierungsphase der Rolle des technischen Beraters mit der Organisationseinheit Contoso Indien zugewiesen wurden. Die Integrationstestaufgabe, die nach der Implementierungsphase abgeschlossen wird, wurde der Rolle des technischen Beraters zugewiesen. Die Organisationseinheit ist Contoso USA und es wurde kein Team erstellt. Das Upgrade erstellt ein allgemeines Teammitglied, einen technischen Berater, dem Stunden für drei Aufgaben zugewiesen sind, und eine Organisationseinheit Contoso USA, die Vertragsorganisationseinheit des Projekts.   
+Bei Aufgaben, die einer Rolle in einer Organisationseinheit zugewiesen sind, die sich von der Organisationseinheit des Vertragsprojekts unterscheidet, und für die kein Team erstellt wurde, erstellt das Upgrade ein allgemeines Teammitglied für die Rolle, verwendet jedoch auch die Vertragseinheit des Projekts für die Organisationseinheit des Teammitglieds. Im Beispiel von Projekt Z bedeutet dies, dass die Vertragsorganisationseinheit Contoso US ist und die Projektplantestaufgaben in der Implementierungsphase der Rolle des technischen Beraters mit der Organisationseinheit Contoso India zugewiesen wurden. Die Integrationstestaufgabe, die nach der Implementierungsphase abgeschlossen wird, wurde der Rolle des technischen Beraters zugewiesen. Die Organisationsheit ist Contoso US und es wurde kein Team erstellt. Das Upgrade erstellt ein allgemeines Teammitglied, einen technischen Berater, dem Stunden für drei Aufgaben zugewiesen sind, und eine Organisationseinheit Contoso US, die Vertragsorganisationseinheit des Projekts.   
  
 Das Ändern der standardmäßigen Ressourcenorganisationseinheit für nicht erneut generierte Teammitglieder ist der Grund dafür, dass wir empfehlen, dass Sie die Teams in den Projekten vor dem Upgrade erstellen oder erneut generieren, sodass die Organisationseinheitenzuweisungen nicht verloren gehen.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

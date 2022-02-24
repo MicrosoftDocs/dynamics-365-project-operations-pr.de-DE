@@ -1,6 +1,8 @@
 ---
 title: Eine vorgeschlagene Projektressource annehmen oder ablehnen
 description: Dieses Thema enthält Informationen zum Genehmigen oder Ablehnen einer vorgeschlagenen Projektressource.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992520"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146167"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Eine vorgeschlagene Projektressource annehmen oder ablehnen
 
@@ -33,16 +35,13 @@ Dieses Thema enthält Informationen zum Genehmigen oder Ablehnen einer vorgeschl
 
 Wenn ein Ressourcen-Manager eine benannte Ressource vorschlägt, um die allgemeine Ressourcenanforderung für ein Projekt zu erfüllen, wird das Feld **Anforderungsstatus** für das allgemeine Teammitglied auf **Prüfung erforderlich** aktualisiert. Die Anfrage wird dem Projektmanager zur Genehmigung oder Ablehnung übermittelt.
 
-![Generisches Teammitglied mit einem Vorschlag.](media/RM-how-to-19.png)
+![Generisches Teammitglied mit einem Vorschlag](media/RM-how-to-19.png)
 
 Im Raster auf der Registerkarte **Vorgeschlagene Ressourcen** auf der Seite **Projektteammitglied** werden die aktuellen Buchungen der vorgeschlagenen Ressource angezeigt. Nachdem der Vorschlag angenommen wurde, wird das Raster aktualisiert, um diese Buchung widerzuspiegeln. 
 
 Klicken Sie auf **Vorschläge annehmen**, um die vorgeschlagene Ressource zu akzeptieren und diese Ressource für Ihr Team zu buchen.  
 Klicken Sie auf **Ressource ablehnen**, um den Vorschlag abzulehnen.
 
-![Annehmen eines Ressourcenvorschlags.](media/RM-how-to-20.png) 
+![Annehmen eines Ressourcenvorschlags](media/RM-how-to-20.png) 
 
 Ähnlich wie bei der direkten Erfüllung einer generischen Ressourcenanforderung mit einer benannten Ressource wird die generische Ressource ersetzt und die zugewiesenen Aufgaben werden mit dem benannten Teammitglied aktualisiert.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

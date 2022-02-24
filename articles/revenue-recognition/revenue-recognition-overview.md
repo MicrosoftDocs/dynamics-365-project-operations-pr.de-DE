@@ -2,17 +2,18 @@
 title: Umsatzrealisierungsübersicht
 description: Dieses Thema enthält Informationen zur Umsatzrealisierung in Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988650"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531428"
 ---
 # <a name="revenue-recognition-overview"></a>Umsatzrealisierungsübersicht
 
@@ -23,14 +24,14 @@ In Dynamics 365 Project Operations variieren die Grundsätze für die Umsatzreal
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Zugeordnete Transaktionen mit Zeit- und Materialabrechnungsmethode
 
 - Kosten- und Ertragsrealisierung sind miteinander verbunden. Transaktionskosten und nicht abgerechnete Verkäufe werden mit dem [Project Operations-Integrationsjournal](../project-accounting/project-operations-integration-journal.md) gebucht.
-- Das Projektkosten- und Ertragsprofil bestimmt, ob nicht in Rechnung gestellte Verkaufstransaktionen in das Hauptbuch gebucht werden. Wenn **Einnahmen erzielen** ausgewählt ist, verwendet das System den **WIP-Verkaufswert** und die **Aufgelaufene Umsatzerlös**-Konten während der Buchung. Folgend sehen Sie ein Beispiel für diese Methode.  
+- Das Projektkosten- und Ertragsprofil bestimmt, ob nicht in Rechnung gestellte Verkaufstransaktionen in das Hauptbuch gebucht werden. Wenn **Einnahmen erzielen** ausgewählt ist, verwendet das System den **WIP-Verkaufswert** und die **Aufgelaufene Umsatzerlös**-Konten während der Buchung. Nachfolgend ist ein Beispiel für diese Methode aufgeführt.  
 
   | Transaktionstyp | Soll/Haben | Betrag |
   | --- | --- | --- |
-  | WIP-Verkaufswert | Soll | 100 |
-  | Antizipierter Umsatzerlös - Verkaufswert | Haben | 100 |
+  | WIP-Verkaufswert | Belastung | 100 |
+  | Antizipierter Umsatzerlös - Verkaufswert | Gutschrift | 100 |
 
-- Umsatzerlöse werden bei der Rechnungsstellung erfasst. Das System verwendet das **Abgerechnete Einnahmen**-Konto während der Buchung. Folgend sehen Sie ein Beispiel für diese Methode.  
+- Der Umsatz wird bei Rechnungsstellung erfasst. Das System verwendet das **Abgerechnete Einnahmen**-Konto während der Buchung. Nachfolgend ist ein Beispiel für diese Methode aufgeführt.  
 
   | Transaktionstyp | Soll/Haben | Betrag |
   | --- | --- | --- |
@@ -59,6 +60,3 @@ In Dynamics 365 Project Operations variieren die Grundsätze für die Umsatzreal
 [Umsatzschätzungen verwalten](rev-rec-completed-contract-method.md)
 
 [Methoden für die Kosten zur Fertigstellung](cost-complete-methods.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

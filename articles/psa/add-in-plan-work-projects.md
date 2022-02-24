@@ -2,6 +2,8 @@
 title: Arbeit in Microsoft Project mit dem Project Service-Add-In planen
 description: Dieses Thema enthält Informationen zum Hinzufügen, Konfigurieren und Verwenden des Microsoft Project-Add-Ins für Microsoft Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 01/07/2021
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993870"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145942"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Arbeit in Microsoft Project mit dem Project Service-Add-In planen
 
@@ -64,7 +66,7 @@ Sie können [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-36
 2.  Wählen Sie eine Projektvorlage aus der Liste und wählen Sie dann **Öffnen**.  
 
     > [!NOTE]
-    >  Standardmäßig werden die Aufgaben, die aus der Vorlage in Projekt kopiert werden, als „manuell geplant“ festgelegt.  
+    >  Standardmäßig werden die Aufgaben, die aus der Vorlage in Projekt kopiert werden, als „manuell geplant” festgelegt.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>Zuweisen von [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Rollen an Projektressourcen  
 
@@ -240,6 +242,3 @@ In der folgenden Tabelle wird beschrieben, wie Entitätsdaten von Projektaufgabe
 
 ### <a name="additional-resources"></a>Zusätzliche Ressourcen
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

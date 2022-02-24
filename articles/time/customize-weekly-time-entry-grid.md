@@ -2,22 +2,24 @@
 title: Zeiteinträge verlängern
 description: Dieses Thema enthält Informationen darüber, wie Entwickler die Zeiteintragssteuerung erweitern können.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993330"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124637"
 ---
 # <a name="extending-time-entries"></a>Zeiteinträge verlängern
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations enthält ein benutzerdefinierbares Steuerelement für die erweiterbare Zeiteingabe. Dieses Steuerelement bietet die folgenden neuen Funktionen:
+Dynamics 365 Project Operations enthält ein erweiterbares benutzerdefiniertes Steuerelement für den Zeiteintrag. Dieses Steuerelement bietet die folgenden neuen Funktionen:
 
 - Die Zeit horizontal über eine Woche eingeben
 - Summen nach Tag, Zeile oder Woche
@@ -115,7 +117,7 @@ Diese Ansicht sollte die Felder **Beschreibung** und **Externe Kommentare** enth
 > [!NOTE] 
 > Durch beide Optionen werden einige der standardmäßigen Filterungen bei den Entitäten **Projekt** und **Projektaufgabe** entfernt, sodass alle Suchansichten für die Entitäten sichtbar werden. Standardmäßig sind nur die relevanten Suchansichten sichtbar.
 
-Legen Sie den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld fest. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenflow „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten“ verschoben werden.
+Legen Sie den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld fest. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenflow „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten” verschoben werden.
 
 Um einem Aufgabenfluss ein benutzerdefiniertes Feld hinzuzufügen, ziehen Sie ein Element **Feld** an die geeignete Position auf der Seite, und legen Sie dann die Feldeigenschaften fest. Legen Sie die Eigenschaft **Quelle** auf **Zeiteintrag** und dann die Eigenschaft **Datenfeld** für das benutzerdefinierte Feld fest. Die Eigenschaft **Feld** gibt den Anzeigenamen auf der TBX-Seite an. Wählen Sie **Anwenden**, um Ihre Änderungen im Feld zu speichern, und wählen Sie dann **Aktualisieren**, um Ihre Änderungen an der Seite zu speichern.
 
@@ -124,8 +126,8 @@ Um stattdessen eine neue benutzerdefinierte TBX-Seite zu verwenden, erstellen Si
 ### <a name="add-new-option-set-values"></a>Hinzufügen neuer Optionssatzwerte
 Um Optionssatzwerte einem standardmäßigen Feld hinzuzufügen, öffnen Sie die Bearbeitungsseite des Felds und wählen Sie unter **Typ** die Option **Bearbeiten** neben dem Optionssatz aus. Fügen Sie eine neue Option hinzu, die eine benutzerdefinierte Beschriftung und Farbe hat. Wenn Sie einen neuen Zeiteintragsstatus hinzufügen möchten, wird das standardmäßige Feld **Eintragsstatus** und nicht **Status** genannt.
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Festlegen eines neuen Zeiteintragsstatus als „schreibgeschützt“
-Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt“ festlegen möchten, fügen Sie den neuen Zeiteintragswert der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Der bearbeitbare Teil des Zeiteintragsrasters wird für Zeilen mit dem Status „Neu“ gesperrt.
+### <a name="designate-a-new-time-entry-status-as-read-only"></a>Festlegen eines neuen Zeiteintragsstatus als „schreibgeschützt”
+Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt“ festlegen möchten, fügen Sie den neuen Zeiteintragswert der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Der bearbeitbare Teil des Zeiteintragsrasters wird für Zeilen mit dem Status „Neu” gesperrt.
 Fügen Sie dann Geschäftsregeln hinzu, um alle Felder auf den TBX-Seiten **Bearbeiten der Zeile mit Zeiteintrag** und **Bearbeiten von Zeiteinträgen** zu sperren. Sie können auf die Geschäftsregeln für diese Seiten zugreifen, indem Sie den Editor für den Geschäftsprozessfluss für die Seite öffnen und dann **Geschäftsregeln** auswählen. Sie können den neuen Status der Bedingung in vorhandenen Geschäftsregeln hinzufügen, oder Sie können eine neue Geschäftsregel für den neuen Status hinzufügen.
 
 ### <a name="add-custom-validation-rules"></a>Hinzufügen benutzerdefinierter Prüfungsregeln
@@ -142,6 +144,3 @@ Verwenden Sie Plug-In-Prüfungen für alle Prüfungen, bei denen mehr Kontext er
 
 ### <a name="copying-time-entries"></a>Kopieren von Zeiteinträgen
 Verwenden Sie die Ansicht **Zeiteintragsspalten kopieren**, um die Liste der Felder zu definieren, die während der Zeiteingabe kopiert werden sollen. **Datum** und **Dauer** sind Pflichtfelder und sollten nicht aus der Ansicht entfernt werden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

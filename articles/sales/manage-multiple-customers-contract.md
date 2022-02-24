@@ -2,16 +2,18 @@
 title: Mehrere Kunden in Projektverträgen verwalten
 description: Dieses Thema enthält Informationen zum Verwalten von mehreren Kunden für einen Projektvertrag.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992070"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643169"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mehrere Kunden in Projektverträgen verwalten
 
@@ -45,6 +47,3 @@ Ein Vertragskunde kann über die **Vertragskunden**-Registerkarte auf der **Vert
 Sie können Fakturierungs-Aufteilungsprozentsätze im Raster bearbeiten. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 Prozent betragen, wird eine Fehlermeldung angezeigt. Aktualisieren Sie die Seite **Projektvertrag**, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung bearbeitet haben, um den Fehler zu entfernen.
 
 Sie können auch **Gleichmäßig verteilen** im Projektvertragskunden-Unterraster auswählen. Die Abrechnung wird gleichmäßig auf alle Kunden in der Projektvertragszeile verteilt. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Vertragskunden hat immer das **Rundung**-Flag auf **Ja** gesetzt. Dieser Kunde ist der Rundungskunde. In der Regel ist der Rundungskunde auch der Hauptkunde des Vertrags, dies ist jedoch nicht erforderlich.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

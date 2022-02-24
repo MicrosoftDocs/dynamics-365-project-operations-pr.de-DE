@@ -2,6 +2,8 @@
 title: Grundlagenhandbuch für Angebote, Preisberechnung und Fakturierung
 description: In diesem Thema finden Sie Links zu Informationen zu Grundlagen von Angeboten, Preisen und Abrechnungen in Project Service Automation.
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985590"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149137"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Grundlagenhandbuch für Angebote, Preisberechnung und Fakturierung
 
@@ -50,6 +52,3 @@ Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in d
 
 > [!NOTE]
 > Dieses Thema wird in einem zukünftigen Dokumentationsupdate entfernt. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

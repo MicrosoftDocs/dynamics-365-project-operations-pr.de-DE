@@ -2,26 +2,27 @@
 title: Projektbasierte Vertragszeilen – Übersicht
 description: Dieses Thema enthält Informationen zur Arbeit mit projektbasierten Vertragszeilen.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 7da8a7f898e6f0bb46d4cf6de65812e3aabb7416a2fdf2f9d9c8bad07e77cd85
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999045"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858157"
 ---
 # <a name="project-based-contract-lines-overview"></a>Projektbasierte Vertragszeilen – Übersicht
 
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Projektbasierte Vertragszeilen in Dynamics 365 Project Operations dienen dazu, die Kostenvoranschlags- und Abrechnungsvereinbarungen für bestimmte Komponenten der Projektarbeit an einem Auftrag zu speichern. Die Struktur einer projektbasierten Vertragszeile wird für Projektschätzungen und Abrechnungsszenarien um folgende Konzepte erweitert:
+Projektbasierte Vertragszeilen in Dynamics 365 Project Operations dienen dazu, die Kostenvoranschlags- und Abrechnungsvereinbarungen für bestimmte Komponenten der Projektarbeit an einem Auftrag zu speichern. Die Struktur einer projektbasierten Vertragszeile wird für Projektvorkalkulationen und Abrechnungsszenarien um folgende Konzepte erweitert:
 
-- Abrechnungsmethode
-- Projekt‑ und Aufgabenzuordnung
+- Fakturierungsmethode
+- Projekt- und Aufgabenzuordnung
 - Eingeschlossene Transaktionsklassen
 - Nicht zu überschreitender Grenzwert
 - Fakturierbarkeitseinrichtung

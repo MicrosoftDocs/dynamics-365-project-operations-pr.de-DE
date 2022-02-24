@@ -2,18 +2,19 @@
 title: Preisdimensionen – Übersicht
 description: Dieses Thema enthält Informationen zum Einrichten der Preisdimensionen in Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001970"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650189"
 ---
 # <a name="pricing-dimensions-overview"></a>Preisdimensionen – Übersicht
 
@@ -33,7 +34,7 @@ Aus diesem Grund stehen zwei Arten von Preisdimensionswerten zur Verfügung:
 
 Dynamics 365 Project Operations wird mit einem Standardsatz an Preisdimensionen bereitgestellt. Sie können diese Preisdimensionen anzeigen, indem Sie zu **Project Operations** > **Parameter** navigieren. Prüfen Sie im Parameterdatensatz auf der Registerkarte **Betragsbasierte Preisdimensionen**, dass bei der Rolle **msdyn_resourcecategory** und der Organisationseinheit der Ressource **msdyn_organizationalunit** die Felder **Gilt für Vertrieb** und **Gilt für Kosten** auf **Ja** festgelegt sind. Wenn diese Felder aktiviert sind, können Sie den Preis und die Kosten für jede Kombination aus Rolle und Organisationseinheit einrichten.
 
-![Screenshot der Project Service-Parameter mit Markierung von „Gilt für Vertrieb“.](media/PS-OOB-parameters.png)
+![Screenshot der Project Service-Parameter mit Markierung von „Gilt für Vertrieb”](media/PS-OOB-parameters.png)
 
 Wenn Sie einen Preis oder Kosten für Ihre Ressourcen mit zusätzlichen Attributen festlegen müssen, können Sie benutzerdefinierte Felder, Entitäten und Dimensionen einrichten. Weitere Informationen finden Sie in den folgenden Themen. 
   
@@ -60,16 +61,13 @@ Das folgende Beispiel zeigt Rechnungssätze, die basierend auf der Rolle und der
 
 | Rolle        | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ------------|-------------|----------|----------:|----------|
-| Developer   | Contoso (USA)  |Stunde | 200|US-Dollar     |
-| Developer   | Contoso Indien |Stunde|   112|US-Dollar     |
+| Entwickler   | Contoso US  |Hour | 200|USD     |
+| Entwickler   | Koch Indien |Hour|   112|USD     |
 
 
 **Beispielkostensätze**
 
 | Gehaltsspanne     | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ----------------|-------------|----------|----------:|----------|
-| Mein Unternehmen_Band1 | Contoso (USA)  |Stunde | 145|US-Dollar     |
-| Mein Unternehmen_Band2 | Contoso Indien |Stunde|   67|US-Dollar     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Mein Unternehmen_Band1 | Contoso US  |Hour | 145|USD     |
+| Mein Unternehmen_Band2 | Koch Indien |Hour|   67|USD     |

@@ -2,9 +2,11 @@
 title: Spesenabrechnungen buchen
 description: In diesem Thema wird erläutert, wie Spesenabrechnungen gebucht werden.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007685"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124277"
 ---
 # <a name="post-expense-reports"></a>Spesenabrechnungen buchen
 
@@ -29,6 +31,3 @@ Wenn Ausgaben in einer Spesenabrechnung einem anderen Unternehmen als dem Untern
 Um eine Spesenabrechnung zu erstellen, wählen Sie auf der Seite **Genehmigte Spesenabrechnungen** die Spesenanbrechnung und im Aktionsbereich **Buchen** aus.
 
 Sie können auch alle Spesenabrechnungen gleichzeitig in der Liste buchen. Wählen Sie alle Spesenabrechnungen und dann **Buchen** aus.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

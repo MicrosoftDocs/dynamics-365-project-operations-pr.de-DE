@@ -2,16 +2,18 @@
 title: Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations vom November 2020 für Szenarien basierend auf auf vorrätigen Ressourcen/Fertigung verfügbar sind.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003185"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365477"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
@@ -23,7 +25,4 @@ Informationen zu den in diesem Update enthaltenen Korrekturen erhalten Sie in de
 
 ## <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
 
-Informationen zu behördlichen Aktualisierungen für Dynamics 365 Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Informationen zu behördlichen Aktualisierungen für Dynamics 365 Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.

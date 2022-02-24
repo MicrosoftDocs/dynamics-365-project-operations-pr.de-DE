@@ -2,6 +2,8 @@
 title: Projektdokumente einem Projekt hinzufügen
 description: Fügen Sie Dokumente einem Projekt hinzu (Project Service)
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 874174a14d3973bf8aae6c329caf58b90d671ad2be26105ecd721825b92c0f7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 373e6e6f41b8877c6a8a69f56c22edc9499d0c1a
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989010"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146032"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>Fügen Sie Dokumente einem Projekt hinzu (Project Service)
 
@@ -43,6 +45,3 @@ Halten Sie projektbezogene Dokumente organisiert, indem Sie sie Ihrem Projekt hi
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

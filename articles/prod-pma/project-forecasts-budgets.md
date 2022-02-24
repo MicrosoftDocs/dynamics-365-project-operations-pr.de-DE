@@ -2,9 +2,11 @@
 title: Projektprognosen und Budgets
 description: Microsoft Dynamics 365 Finance stellt Projektprognosen und Projektbudgets bereit, um Ihre Projekte zu verwalten und zu steuern.
 author: Yowelle
+manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ea4c49a76a2bb0a1855fce2e9a874b4044e429d963c08392ec0ab471f89329
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988065"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076637"
 ---
 # <a name="project-forecasts-and-budgets"></a>Projektprognosen und Budgets
 
@@ -49,9 +51,9 @@ Jede Methode hat ihre Vorteile. Sie sollten die folgenden Punkte berücksichtige
 ## <a name="project-forecasts"></a>Projektprognosen
 Wenn Sie die Projektprognose verwenden, können Sie für jeden Transaktionstyp Prognosetransaktionen eingeben. Jedes Attribut, das für eine tatsächliche Transaktion verfügbar ist, kann für eine Prognosetransaktion verwendet werden, z. B. Zeilenrentabilität, Zeilenattribute, Mitarbeiter oder Beschreibungen. Sie können auch projizieren, wie lange Sie nach dem Entstehen von Kosten einem Kunden eine Rechnung stellen. 
 
-Projektplanungstransaktionen basieren auf Einheiten und Beträgen. 
+Projektprognosetransaktionen basieren auf Einheiten und Beträgen. 
 
-Sie müssen jeder Projektplanung einem Planungsmodell zuordnen. Wenn Sie eine Planungstransaktion eingeben, wird automatisch ein Planungsmodell vorgeschlagen. Das Prognosemodell fungiert als Behältnis für die Prognosetransaktionen. 
+Sie müssen jede Projektprognose einem Prognosemodell zuordnen. Wenn Sie eine Prognosetransaktion eingeben, wird automatisch ein Prognosemodell vorgeschlagen. Das Prognosemodell fungiert als Behältnis für die Prognosetransaktionen. 
 
 Sie können Prognosemodelle als Untermodelle für ein Modell festlegen. Auf diese Weise können Sie Prognosen nach Region, Zeitraum oder Abteilung erstellen. Sie können die Prognosetransaktionen in ein Modell kopieren, um ein neues Modell zu erstellen, und Sie können die Transaktionen auch in das Hauptbuch übertragen. Da zwischen einer Prognose und einem Modell eine Eins-zu-Eins-Beziehung besteht, bildet jedes Prognosemodell ein separates Budget für ein Projekt. 
 
@@ -60,8 +62,8 @@ Prognosemodelle können die Prognosereduzierung als Kontrollmechanismus für Pro
 Sie können Projektprognosen überarbeiten, kopieren, löschen oder in ein Hauptbuchbudget übertragen. Es gibt jedoch keine Prozesssteuerung. Jeder Mitarbeiter, der über Berechtigung für ein Prognoseformular verfügt, kann Überarbeitungen ohne Bewertung machen.
 
 -   **Überarbeitungen** – Sie können eine Prognosetransaktion in denselben Formen überarbeiten, in denen die ursprünglichen Einträge vorgenommen wurden.
--   **Kopieren oder löschen** – Wenn Sie Planungstransaktionen kopieren, kopieren Sie die Transaktionszeilen eines Planungsmodells in ein anderes Planungsmodell. Wenn Sie eine Planung löschen, löschen Sie die Planungstransaktionen aus einem Planungsmodell. Wählen Sie bestimmte Transaktionstypen und -daten aus, um die geplanten Transaktionen zu begrenzen, die kopiert oder gelöscht werden. Auf diese Weise können Sie nur bestimmte Teile einer Planung kopieren oder löschen.
--   **Übertragen** – Wenn Sie eine Projektplanung in ein Sachkonto-Budget übertragen, übertragen Sie die Planungstransaktionen eines Planungsmodells in ein Sachkonto-Budget. Sie können alle zuvor übertragenen Transaktionen im Sachkonto-Budget überschreiben, in das Sie Ihre Projektplanung übertragen.
+-   **Kopieren oder löschen** – Wenn Sie Prognosetransaktionen kopieren, kopieren Sie die Transaktionszeilen eines Prognosemodells in ein anderes Prognosemodell. Wenn Sie eine Prognose löschen, löschen Sie die Prognosetransaktionen aus einem Prognosemodell. Wählen Sie bestimmte Transaktionstypen und -daten aus, um die prognostizierten Transaktionen zu begrenzen, die kopiert oder gelöscht werden. Auf diese Weise können Sie nur bestimmte Teile einer Prognose kopieren oder löschen.
+-   **Übertragung** – Wenn Sie eine Projektprognose in ein Hauptbuchbudget übertragen, übertragen Sie die Prognosetransaktionen eines Prognosemodells in ein Hauptbuchbudget. Sie können alle zuvor übertragenen Transaktionen im Hauptbuchbudget überschreiben, in das Sie Ihre Projektprognose übertragen.
 
 ## <a name="project-budgets"></a>Projektbudgets
 Die Projektbudgetierung ist eine einfachere Methode als die Prognose, obwohl sie in Prognosemodelle integriert ist. Es verwendet ein einzelnes Eingabeformular für ursprüngliche Budgetdetails und -Revisionen und ermöglicht Projektionen, die nur auf Betrag, Kategorie oder Aktivität basieren. 
@@ -75,10 +77,7 @@ Projektbudgets werden automatisch zwei Prognosemodellen zugeordnet, eines für d
 ## <a name="forecast-models"></a>Prognosemodelle
 Prognosemodelle haben eine einschichtige Hierarchie. Dies bedeutet, dass eine Projektprognose einem Prognosemodell zugeordnet werden muss.
 
-Wenn Sie die Projektplanung verwenden, können Sie Modelle als Untermodelle identifizieren. Sie können dann Planungen nach Abteilung, Zeitraum oder Region erstellen. Sie können beispielsweise ein Planungsmodell für ein Jahr erstellen und dann Untermodelle für die regionalen Planungen für Nordosten, Südosten, Nordwesten und Südwesten erstellen, die von regionalen Leitern übermittelt werden. Durch Auswahl verschiedener Optionen in den verfügbaren Berichten können Sie Informationen nach Gesamtprognose oder nach Untermodell anzeigen.
+Wenn Sie die Projektprognose verwenden, können Sie Modelle als Untermodelle identifizieren. So können Sie Prognosen nach Region, Zeitraum oder Abteilung erstellen. Sie können beispielsweise ein Prognosemodell für ein Jahr erstellen und anschließend Untermodelle für die regionalen Prognosen für Nordosten, Südosten, Nordwesten und Südwesten erstellen, die von regionalen Leitern übermittelt werden. Durch Auswahl verschiedener Optionen in den verfügbaren Berichten können Sie Informationen nach Gesamtprognose oder nach Untermodell anzeigen.
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

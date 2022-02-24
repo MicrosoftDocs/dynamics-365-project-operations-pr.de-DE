@@ -2,9 +2,11 @@
 title: Eine Preisdimension deaktivieren
 description: Dieses Thema enthält Informationen zum Deaktivieren von benutzerdefinierten Preisdimensionen.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994500"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650048"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Eine Preisdimension deaktivieren
 
@@ -32,17 +34,14 @@ Das Deaktivieren einer Preisdimension, unabhängig davon, ob sie vorkonfiguriert
 
 Wenn Sie dies jedoch tun, erhalten Sie möglicherweise die Fehlermeldung: **Die Preisdimension kann nicht aktualisiert oder gelöscht werden, wenn Preisdatensätze zugeordnet sind.**
 
-![Geschäftsprozessfehler wahrscheinlich, wenn eine Preisdimension deaktiviert wird.](media/Business-Process-Error.png)
+![Geschäftsprozessfehler wahrscheinlich, wenn eine Preisdimension deaktiviert wird](media/Business-Process-Error.png)
 
 Diese Fehlermeldung gibt an, dass es Preisdatensätze gibt, die zuvor für die Dimension eingerichtet wurden, die gerade deaktiviert wird. Alle **Rollenpreis**- und **Rollenpreisaufschlag**-Datensätze, die auf eine Dimension verweisen, müssen gelöscht werden, bevor die Anwendbarkeit der Dimension auf **Nein** festgelegt werden kann. Diese Regel gilt sowohl für vorkonfigurierte Preisdimensionen als auch für sämtliche benutzerdefinierten Preisdimensionen, die Sie möglicherweise erstellt haben. Der Grund für diese Überprüfung liegt darin, dass jeder **Rollenpreis**-Datensatz eine eindeutige Kombination von Dimensionen haben muss. Für eine Preisliste mit der Bezeichnung **US-Kostensätze 2018** haben Sie die folgenden **Rollenpreis**-Zeilen. 
 
 | Standardtitel         | Organisationseinheit    |Einheit   |Preis  |Währung  |
 | -----------------------|-------------|-------|-------|----------|
-| Systemtechniker|Contoso (USA)|Stunde| 100|US-Dollar|
-| Leitender Systemtechniker|Contoso (USA)|Stunde| 150| US-Dollar|
+| Systemtechniker|Contoso US|Hour| 100|USD|
+| Leitender Systemtechniker|Contoso US|Hour| 150| USD|
 
 
-Wenn Sie **Standardtitel** als Preisdimension deaktivieren und das Preismodul nach einem Preis sucht, verwendet es nur den Wert **Organisationseinheit** aus dem Eingabekontext. Wenn die **Organisationseinheit** des Eingabekontexts Contoso USA ist, ist das Ergebnis nicht deterministisch, da beide Zeilen übereinstimmen werden. Um dieses Szenario zu vermeiden, wenn Sie **Rollenpreis**-Datensätze erstellen, überprüft das System, dass die Kombination der Dimensionen eindeutig ist. Wenn die Dimension deaktiviert wird, nachdem die **Rollenpreis**-Datensätze erstellt sind, kann gegen diese Einschränkung verstoßen werden. Daher ist es erforderlich, dass Sie, bevor Sie eine Dimension deaktivieren, alle **Rollenpreis**- und **Rollenpreisaufschlag**-Zeilen löschen, bei denen dieser Dimensionswert aufgefüllt ist.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Wenn Sie **Standardtitel** als Preisdimension deaktivieren und das Preismodul nach einem Preis sucht, verwendet es nur den Wert **Organisationseinheit** aus dem Eingabekontext. Wenn die **Organisationseinheit** des Eingabekontexts „Contoso US” ist, ist das Ergebnis nicht deterministisch, da beide Zeilen übereinstimmen werden. Um dieses Szenario zu vermeiden, wenn Sie **Rollenpreis**-Datensätze erstellen, überprüft das System, dass die Kombination der Dimensionen eindeutig ist. Wenn die Dimension deaktiviert wird, nachdem die **Rollenpreis**-Datensätze erstellt sind, kann gegen diese Einschränkung verstoßen werden. Daher ist es erforderlich, dass Sie, bevor Sie eine Dimension deaktivieren, alle **Rollenpreis**- und **Rollenpreisaufschlag**-Zeilen löschen, bei denen dieser Dimensionswert aufgefüllt ist.

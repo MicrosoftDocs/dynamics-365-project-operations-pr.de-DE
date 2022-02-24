@@ -2,31 +2,33 @@
 title: Ressourcenabstimmung – Übersicht
 description: Dieses Thema enthält Informationen, mit denen Sie sicherstellen können, dass Ressourcenbuchungen und Zuweisungen für Projekte aufeinander abgestimmt sind.
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994770"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849623"
 ---
 # <a name="resource-reconciliation-overview"></a>Ressourcenabstimmung – Übersicht
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, aber keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Die Buchungen können jedoch von der Verfügbarkeit abhängen, und die Aufgabenzeiten können sich im Verlauf des Projekts ändern. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
+Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, aber keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Unter Umständen basieren die Buchungen auf der Verfügbarkeit, und die Aufgabenzeitplanung wird im Laufe des Projekts geändert. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
 
 Die Registerkarte **Abstimmung** auf der Seite **Projekte** ermöglicht es den Projektmanagern, die Buchungen und Zuweisungen der Teammitglieder für die Projektteams abzustimmen.
 
@@ -46,6 +48,3 @@ Wenn Sie Aufgabenzuordnungen für eine Ressource, jedoch keine Buchungen haben, 
 Buchungen, die über die Aktionen **Buchung verlängern** erstellt werden sind mit der primären Projektanforderung verbunden. Wenn eine Erweiterung initiiert wird, kann die spezifische Anforderung, die erweitert werden muss, nicht bestimmt werden, da die Ressource möglicherweise mehr als einer Anforderung für das Projekt zugeordnet ist.
 
 Der Projektmanager oder der Ressourcenmanager kann dann die Zeitplanansicht verwenden, um alle Situationen zu verwalten, in denen eine Ressource über die Kapazität überbucht wird.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

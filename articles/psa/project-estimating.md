@@ -2,6 +2,8 @@
 title: Projektkosten und Umsatz
 description: Dieses Thema enthält Informationen zum Schätzen der Projektkosten und des Umsatzes.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002555"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148327"
 ---
 # <a name="project-costs-and-revenue"></a>Projektkosten und Umsatz
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002555"
 
 Projekteinschätzungen stellen die Finanzansicht für die Arbeit bereit, die im Projektplan geschätzt und geplant wird. Die Registerkarte **Schätzungen** auf der **Projekte** zeigt die Kosten- und Umsatzauswirkungen der Arbeit an, die Sie planen. Sie enthält auch Informationen zu vielen vordefinierten Dimensionen. 
 
-> ![Registerkarte „Schätzungen“.](media/project-5.png)
+> ![Registerkarte „Schätzungen“](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Kosten- und Verkaufswerte des Projektes
 
@@ -66,13 +68,13 @@ Wenn das System keinen Preis für die Rolle findet, wird der Verkaufspreis in de
 
 Die Registerkarte **Schätzungen** hat eine Rasteransicht, in der die Vorkalkulationspositionen angezeigt werden. Das Raster enthält Spalten für die Einheit, den Gesamteinstandspreis und Gesamtverkaufspreis, wie in der folgenden Abbildung gezeigt. 
 
-> ![Rasteransicht auf der Registerkarte „Schätzungen“.](media/project-6.png)
+> ![Rasteransicht auf der Registerkarte „Schätzungen“](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Zeitphasenansicht von Projektschätzungen
 
 Die Zeitphasenansicht der Projektschätzungen zeigt die Schätzungsdaten der Rasteransicht mit den Teitdaten in einer gewählten Zeitskala. Standardmäßig werden die Schätzungsdaten in der Dimension **Rolle** angezeigt.
 
-> ![Zeitphasenansicht für Projektschätzungen.](media/project-7.png)
+> ![Zeitphasenansicht für Projektschätzungen](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Zuweisen des geschätzten Aufwands basierend auf dem Aufgabenmodus
 
@@ -95,6 +97,3 @@ In der Rasteransicht und der Zeitphasenansicht können Sie auswählen, welche Fe
 ## <a name="expense-estimates"></a>Ausgabenschätzungen
 
 Mit der Schaltfläche **Neue Ausgabenvorkalkulation hinzufügen** können Sie in der Rasteransicht alle Ausgaben des Projekts aufzeichnen, die nicht direkt der Arbeit zugeordnet sind. Sie können die Ausgabenschätzungen für eine bestimmte Aufgabe oder für das gesamte Projekt aufzeichnen. Wählen Sie die Ausgabenkategorien und das vorläufige Datum, an dem Sie die Ausgabe erwarten. Wenn die verbundene Einstandspreisliste und die Verkaufspreisliste Standardpreise haben (oder Aufschlagprozentsätze für Ausgabenkategorien definiert wurden), werden sie automatisch bei der Zuweisung in die Vorkalkulationsposition einbezogen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Planungsleistung für Projektressourcen
 description: Dieses Thema enthält Informationen zur Verbesserung der Leistung der Ressourcenplanung für eine große Anzahl von Projekten.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076507"
 ---
 # <a name="project-resource-scheduling-performance"></a>Planungsleistung für Projektressourcen
 
@@ -67,6 +69,3 @@ Führen Sie die folgenden Schritte aus, um die Leistungsverbesserung bei der Res
 
 > [!NOTE]
 > Dadurch werden allgemeine Daten an die Tabelle **ResRollup** für alle Unternehmen in Ihrer Umgebung verteilt, sodass der Batchauftrag nur in einer juristischen Person ausgeführt werden muss. Dieser Batchauftrag ist für alle **Ressourcenverfügbarkeits**-Ansichten erforderlich. Wenn dieser Batchauftrag nicht ausgeführt wird, werden die **ResRollup**-Daten während der Bearbeitung generiert, was einige Zeit dauern kann.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

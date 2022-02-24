@@ -2,9 +2,11 @@
 title: Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation bis Finance
 description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Verträgen und Projekten direkt zwischen Microsoft Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001070"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764818"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation bis Finance 
 
@@ -42,7 +44,7 @@ Die Integrationslösung für Project Service Automation zu Finance verwendet die
 
 Die folgende Abbildung zeigt, wie die Daten zwischen Project Service Automation und Finance synchronisiert werden.
 
-[![Datenfluss für Project Service Automation Integration mit Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Datenfluss für Project Service Automation Integration mit Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Vorlagen und Aufgaben
 
@@ -107,8 +109,8 @@ Wenn die Integrationslösung Project Service Automation zu Finance angewendet wi
 ## <a name="prerequisites-and-mapping-setup"></a>Voraussetzungen und Mappingeinrichtung
 
 - Bevor die Synchronisierung von Projektaufgaben erfolgen kann, müssen Sie Konten synchronisieren.
-- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdy\_Organisationseinheiten** zu **msdyn\_Name \[Name\]** hinzu. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](/powerapps/administrator/data-integrator).
-- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdyn\_Projekte** zu **msdynce\_projectnumber \[Projektnummer\]**. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](/powerapps/administrator/data-integrator).
+- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdy\_Organisationseinheiten** zu **msdyn\_Name \[Name\]** hinzu. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdyn\_Projekte** zu **msdynce\_projectnumber \[Projektnummer\]**. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** für Projektverträge und Projekte können auf einen anderen Wert aktualisiert oder aus dem Mapping entfernt werden. Der Standardvorlagenwert ist **Project Service Automation**.
 - Das **Zahlungsbedingungen**-Mapping muss aktualisiert werden, damit es die gültigen Zahlungsbedingungen in Finance widerspiegelt. Sie können das Mapping auch aus der Projektaufgabe entfernen. Die Standardwertzuordnung enthält Standardwerte für Demodaten. Die folgende Tabelle zeigt die Werte in Project Service Automation.
 
@@ -129,7 +131,7 @@ Verwenden Sie Microsoft Power Query für Excel, um Daten zu filtern, wenn die fo
 Wenn Sie Power Query verwenden müssen, folgen Sie diesen Richtlinien:
 
 - Die Vorlage Projekte und Verträge (PSA zu Fin und Ops) verfügt über einen Standardfilter, der nur Vertriebsaufträge des Typs **Arbeitselement (msdyn\_ordertype = 192350001)**. Mit diesem Filter können Sie sicherstellen, dass keine Projektverträge für Vertriebsaufträge in Finance erstellt werden. Wenn Sie eine eigene Vorlage erstellen, müssen Sie diesen Filter hinzufügen.
-- Erstellen Sie einen Filter Power Query, der nur die Vertragsorganisationen enthält, die mit der juristischen Person des Integrationsverbindungssatzes synchronisiert werden sollen. Zum Beispiel Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso US haben, sollten mit der juristischen Person der USSI synchronisiert sein, aber Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso Global sollten mit der juristischen Person der USMF synchronisiert werden. Wenn Sie diesen Filter nicht zu Ihrer Aufgabenzuordnung hinzufügen, werden alle Projektverträge unabhängig von der Vertragsorganisationseinheit mit der für den Verbindungssatz definierten juristischen Person synchronisiert.
+- Erstellen Sie einen Filter Power Query, der nur die Vertragsorganisationen enthält, die mit der juristischen Person des Integrationsverbindungssatzes synchronisiert werden sollen. Beispielsweise sollten Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso US haben, mit der juristischen Person USSI synchronisiert werden, Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso Global haben, sollten jedoch mit der juristischen Person USMF synchronisiert werden. Wenn Sie diesen Filter nicht zu Ihrer Aufgabenzuordnung hinzufügen, werden alle Projektverträge unabhängig von der Vertragsorganisationseinheit mit der für den Verbindungssatz definierten juristischen Person synchronisiert.
 
 ## <a name="template-mapping-in-data-integration"></a>Vorlagenzuordnung in der Datenintegration
 
@@ -140,17 +142,14 @@ Wenn Sie Power Query verwenden müssen, folgen Sie diesen Richtlinien:
 
 Die folgende Abbildung zeigt Beispiele für die Zuordnung von Vorlagenaufgaben in der Datenintegration. Das Mapping zeigt die Feldinformationen an, die von Project Service Automation zu Finance synchronisiert werden.
 
-[![Zuordnung von Projektvertragsvorlagen.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Zuordnung von Projektvertragsvorlagen](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Zuordnung von Projektvorlagen.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Zuordnung von Projektvorlagen](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Zuordnung von Vertragszeilenvorlagen.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Zuordnung von Vertragszeilenvorlagen](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Zuordnung von Vorlagen für Meilensteine in Projektvertragszeilen.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Zuordnung von Vorlagen für Meilensteine in Projektvertragszeilen](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Meilensteinzuordnung für Projektvertragszeilen in der Vorlage Projekte und Verträge (PSA 3.x zu Dynamics) – v2 Vorlage:
 
-[![Zuordnung von Vorlagen der Version 2 für Meilensteine in Projektvertragszeilen.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Zuordnung von Vorlagen der Version 2 für Meilensteine in Projektvertragszeilen](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

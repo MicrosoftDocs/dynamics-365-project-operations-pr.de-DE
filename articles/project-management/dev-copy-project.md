@@ -2,16 +2,18 @@
 title: Projektvorlagen mit Projekt kopieren erstellen
 description: Dieses Thema enthält Informationen zum Erstellen von Projektvorlagen mithilfe der benutzerdefinierten Aktion „Projekt kopieren“.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989251"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045008"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projektvorlagen mit Projekt kopieren erstellen
 
@@ -42,7 +44,7 @@ Es gibt drei Eingabeparameter:
 - **{"clearTeamsAndAssignments":true}**: Das Standardverhalten für Project für das Web. Dadurch werden alle Arbeitsaufträge und Teammitglieder entfernt.
 - **{"removeNamedResources":true}** Das Standardverhalten für Project Operations, bei dem Zuweisungen zu generischen Ressourcen zurückgesetzt werden.
 
-Weitere Standardinformationen über Aktionen finden Sie unter [Nutzen von Web-API-Aktionen](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Weitere Standardinformationen über Aktionen finden Sie unter [Nutzen von Web-API-Aktionen](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ## <a name="specify-fields-to-copy"></a>Zu kopierende Felder angeben 
 Wenn die Aktion aufgerufen wird, wird mit **Projekt kopieren** die Ansicht **Projektspalten kopieren** betrachtet, um zu bestimmen, welche Felder kopiert werden sollen, wenn das Projekt kopiert wird.
@@ -110,6 +112,3 @@ Das folgende Beispiel zeigt, wie Sie die benutzerdefiniert Aktion **Projekt kopi
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

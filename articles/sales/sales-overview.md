@@ -2,27 +2,28 @@
 title: Vertriebsprozess – Übersicht
 description: Dieses Thema enthält Informationen zu den grundlegenden Vertriebsprozessen.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991845"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177600"
 ---
 # <a name="sales-process-overview"></a>Vertriebsprozess – Übersicht
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Die Vertriebsprozesse, die in einer projektbasierten Organisation verwendet werden, unterscheiden sich von jenen, die in einer produktbasierten Organisation verwendet werden. Der Grund für diesen Unterschied ist, dass die Vertriebszyklen für projektbasierte Organisationen länger sind und zum Analysieren und Erstellen von Angeboten für jeden Auftrag benutzerdefinierter Schätzungstechniken erfordern. Dynamics 365 Project Operations nutzt einige der folgenden Funktionen, die in einem Vertriebsprozess verwendet werden:
+Die Vertriebsprozesse, die in einer projektbasierten Organisation verwendet werden, unterscheiden sich von jenen, die in einer produktbasierten Organisation verwendet werden. Der Grund für diesen Unterschied ist, dass die Vertriebszyklen für projektbasierte Organisationen länger sind und zum Analysieren und Erstellen von Angeboten für jeden Auftrag benutzerdefinierter Schätzungstechniken erfordern. Dynamics 365 Project Operations verwendet zum Teil die gleichen Funktionen, die in einem Vertriebsprozess verwendet werden.
 
 - Ein Lead-Datensatz wird zur Nachverfolgung des Vertriebsprozesses verwendet.
 - Qualifizierte Leads werden als Verkaufschancen nachverfolgt.
-- Alle zugehörigen Artefakte für eine Verkaufschance sind zugänglich. Diese Artefakte umfassen das Verkaufsteam, die Stakeholder, die Wahrscheinlichkeit, das Rating, die Verkaufsphasen und die Geschäftsprozesse.
+- Es wird auf alle zugehörigen Artefakte von einer Verkaufschance zugegriffen. Diese Artefakte umfassen das Vertriebsteam, die Stakeholder, die Wahrscheinlichkeit, die Bewertung, die Vertriebsphasen und Geschäftsprozesse.
 - Für eine Verkaufschance werden mehrere Angebote erstellt.
 - Ein Angebot erhält den Status **Als gewonnen geschlossen**, um einen Vertriebsauftrag zu erstellen. In Project Operations wird der Vertriebsauftrag angepasst und als Projektvertrag bezeichnet.
 
@@ -62,6 +63,3 @@ In Project Operations ist es nicht möglich, Überarbeitungen an einem Angebot n
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Nachverfolgungskommentare und Genehmigungen von Angeboten und Projektverträgen
 Sie können die Überprüfung und Genehmigung von Angeboten und Projektverträgen mithilfe der Datensatzpinnwand und Beiträge verwalten. Ihre Organisation kann benutzerdefinierte Workflows und Plug-Ins erstellen, um die Benachrichtigungen zu Überprüfungs- und Genehmigungsarbeitselementen zuzuweisen, umzuleiten, zu eskalieren und zu verwalten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

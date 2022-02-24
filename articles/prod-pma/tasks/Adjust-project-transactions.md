@@ -2,9 +2,11 @@
 title: Passen Sie die Projekttransaktionen an
 description: Dieser Aufgabenleitfaden zeigt Ihnen, wie Sie eine Transaktion für ein Projekt anpassen.
 author: Yowelle
+manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92f5f998d7ecaed724298be16ff8680e56ee77d77a4ee3b7ba83fa5a8a1a4787
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7432dcdaa520c4eebb657f436575d017a7fd07cc
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076584"
 ---
 # <a name="adjust-project-transactions"></a>Passen Sie die Projekttransaktionen an
 
@@ -42,6 +44,3 @@ Dieser Aufgabenleitfaden zeigt Ihnen, wie Sie eine Transaktion für ein Projekt 
 13. Markieren Sie in der Liste die ausgewählte Zeile. 
 14. Geben Sie in das Feld „Einstandspreis“ eine Zahl ein. 
 15. Klicken Sie auf Buchen. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Projektbasierte Angebote kopieren
 description: Dieses Thema bietet Informationen zum Kopieren von projektbasierten Angeboten in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992160"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181811"
 ---
 # <a name="copy-project-based-quotes"></a>Projektbasierte Angebote kopieren
 
@@ -43,6 +45,3 @@ Wenn Sie **OK** auf der Dialogseite auswählen, erstellt das System eine Kopie d
 > - Projektreferenz zu den projektbasierten Angebotspositionen – Informationen zum Kundenbudget
 >
 >Da diese Informationen für jedes Angebot sehr spezifisch sind, werden diese Felder und Datensätze nicht kopiert. Angebotspositionen für Projekte und Produkte, Schätzungen zu Angebotspositionsdetails und nicht zu überschreitende Werte auf Angebotsebene werden kopiert. Die Standardeinstellungen für Preis und Kostensatz hängen von der **Preise kopieren**-Option ab, die auf der **Parameter kopieren**-Dialogseite ausgewählt sind.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

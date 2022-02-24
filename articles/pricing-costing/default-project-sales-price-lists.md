@@ -2,16 +2,18 @@
 title: Standardpreislisten
 description: Dieses Thema bietet Informationen zu Standard-Verkaufs- und Einstandspreislisten in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989865"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130937"
 ---
 # <a name="default-price-lists"></a>Standardpreislisten
 
@@ -19,7 +21,7 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 ## <a name="sales-price-lists"></a>Verkaufspreislisten
 
-Jedes Projektangebot und jeder Vertrag in Dynamics 365 Project Operations enthält eine Standardvertriebspreisliste. 
+Jedes Projektangebot und jeder Vertrag in Dynamics 365 Project Operations enthält eine Standardverkaufspreisliste. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Standardpreislisten in Projektangeboten
 Das System führt den folgenden Vorgang aus, um zu bestimmen, welche Preisliste für ein Projektangebot standardmäßig verwendet werden soll:
@@ -55,6 +57,3 @@ Einstandspreislisten sind standardmäßig keine Entität in Project Operations. 
 5. Das System prüft als Nächstes die Datumseffektivität der Preislisten, die mit dem Datum der Zeile der eingehenden Vorkalkulation oder der tatsächlichen Transaktionen übereinstimmen. 
 6. Wenn mehrere Preislisten vorhanden sind, die für das Datum der eingehenden Vorkalkulation oder der tatsächlichen Transaktionen gültig sind, wird die zuletzt erstellte Preisliste ausgewählt.
 7. Wenn den Projektparametern keine Einstandspreislisten zugeordnet sind, die der Währung und dem Datum des Inkrafttretens entsprechen, setzt das System den Kostensatz in der Zeile der eingehenden Vorkalkulation oder der tatsächlichen Transaktionen auf Null (0).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Ressourcenzuweisungen erstellen
 description: Dieses Thema enthält Informationen zum Erstellen generischer und benannter Ressourcenzuweisungen.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987885"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131747"
 ---
 # <a name="create-resource-assignments"></a>Ressourcenzuweisungen erstellen
 
@@ -40,6 +42,3 @@ Sie können das Suchfeld in der **Ressourcenauswahl** verwenden, um alle aktiven
 1. Navigieren Sie im Aufgabenraster, der Übersicht oder der Zeitskala zur **Zugewiesen zu**-Zelle.
 2. Geben Sie im Suchfeld einen Namen ein. Die Suchergebnisse für den Namen werden in die **Ressourcenauswahl** unter **Weitere Ressourcen** angezeigt.
 3. Wählen Sie die Ressource aus, die Sie der Aufgabe zuweisen möchten, oder wählen Sie den Ressourcennamen unter **Andere Teamressourcen**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

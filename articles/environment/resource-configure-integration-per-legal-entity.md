@@ -2,22 +2,24 @@
 title: Project Operations-Integration pro juristische Person konfigurieren
 description: Dieses Thema enthält Informationen zum Einrichten einer Integration durch eine juristische Person in Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999405"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122882"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations-Integration pro juristische Person konfigurieren 
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Dieses Thema führt Sie durch die erforderlichen Schritte zur Konfiguration von Dynamics 365 Project Operations pro juristischer Person.
+Dieses Thema führt Sie durch die Schritte, die zum Konfigurieren von Dynamics 365 Project Operations pro juristischer Person erforderlich sind.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Wichtige Funktionen in Dynamics 365 Finance aktivieren
 
@@ -49,6 +51,3 @@ Jede juristische Person, die Project Operations in Dynamics 365 Customer Engagem
   - **Standards Fakturierungstyp**: Project Operations verwendet einen festen Satz von Standardeinstellungen für Fakturierungstypen, die den Zeileneigenschaften in Finance zugeordnet werden müssen. Erstellen Sie für jeden Fakturierungstyp einen Datensatz: **Unbestimmt**, **Fakturierbar**, **Nicht fakturierbar**, **Kostenlos** und **Nicht verfügbar**.
   - **Standardeinstellungen für Projektkategorien** : Wählen Sie die Standardprojektkategorien aus, die für jeden Transaktionstyp verwendet werden sollen. Diese Standardeinstellungen werden in **Project Operations-Integrationsjournal** und in Vorkalkulationen, in denen keine Transaktionskategorie für die Istwerte des Projekts angegeben ist.
   - **Prognosen**: Wählen Sie das Prognosemodell aus, das für Zeit- und Ausgabenvorkalkulationen verwendet werden soll.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

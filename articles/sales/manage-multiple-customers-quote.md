@@ -2,16 +2,18 @@
 title: Mehrere Kunden in einem Projektangebot verwalten
 description: Dieses Thema enthält Informationen zur Bearbeitung von Angeboten, an denen mehrere Kunden beteiligt sind, die das Projekt finanzieren.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991980"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181991"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mehrere Kunden in einem Projektangebot verwalten
 
@@ -21,7 +23,7 @@ Projektangebote unterstützen das Szenario, in dem mehrere Kunden an dem Angebot
 
 Alle Angebotskunden auf der **Kunden**-Registerkarte des Projektangebots werden auf beliebigen **neuen** projektbasierten Angebotspositionen, die für das Angebot erstellt wurden, standardmäßig als Angebotspositionskunden angegeben. Vorhandene projektbasierte Angebotspositionen erben keine neuen Angebotskundendatensätze, die nach ihnen erstellt wurden.
 
-Angebotskunden und Angebotspositionskunden können jederzeit hinzugefügt, aktualisiert oder gelöscht werden, bevor das Angebot gewonnen wird. Ein gültiger Kunde auf dem Angebot muss als Kunde im zuständigen Unternehmen oder der juristischen Person auf der **Kunden**-Seite eingerichtet sein. Juristische Personen sind im Modul **Projektmanagement und -buchhaltung** von Dynamics 365 Project Operations festgelegt und als Unternehmen in den Modulen **Projektvertrieb und Lieferung** von Project Operations verfügbar.
+Angebotskunden und Angebotspositionskunden können jederzeit hinzugefügt, aktualisiert oder gelöscht werden, bevor das Angebot gewonnen wird. Ein gültiger Kunde auf dem Angebot muss als Kunde im zuständigen Unternehmen oder der juristischen Person auf der **Kunden**-Seite eingerichtet sein. Juristische Personen werden im **Projektmanagement und -buchhaltung**-Modul von Dynamics 365 Project Operations eingerichtet und werden als Unternehmen in den **Projektverkauf und Lieferung**-Module von Project Operations verfügbar gemacht.
 
 ## <a name="concept-of-a-primary-customer"></a>Konzept eines Hauptkunden
 
@@ -49,6 +51,3 @@ Ein Angebotskunde kann in der **Angebotskunden**-Registerkarte auf der **Angebot
 Sie können die Prozentsätze für die Aufteilung der Abrechnung mithilfe der Inline-Rasterbearbeitung bearbeiten. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 % betragen, tritt ein Fehler auf. Aktualisieren Sie die Seite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung aktualisiert haben, um den Fehler zu beheben.
 
 Sie können auch **Gleichmäßig verteilen** im Angebotskunden-Unterraster auswählen. Diese Aktion weist allen Angebotskunden Abrechnungssplits zu. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Angebotskunden wird immer als Rundungskunde gekennzeichnet. Dies bedeutet, dass der Angebotskundendatensatz das **Rundung**-Flag auf **Ja** festgelegt hat. In der Regel ist dies der Hauptkunde des Angebots, dies kann jedoch geändert werden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

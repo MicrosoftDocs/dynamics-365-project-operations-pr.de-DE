@@ -2,17 +2,19 @@
 title: Aktualisieren Sie Project Operations in Ihrer Finance Umgebung
 description: Dieses Thema enthält Informationen zum Aktualisieren von Project Operations in Ihrer Dynamics 365 Finance Umgebung.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986760"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816624"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualisieren Sie Project Operations in Ihrer Finance Umgebung
 
@@ -33,7 +35,7 @@ Dieses Thema enthält Informationen zum Aktualisieren von Dynamics 365 Project O
 4. Überprüfen Sie, ob die Umgebung ausgeführt wird. Wenn sie nicht gestartet wird, starten Sie die Umgebung.
 5. In dem Abschnitt **Neuer Release** unter **Verfügbare Updates** wählen Sie **Update anzeigen** für 10.0.15.
 
-![Schaltfläche aktualisieren anzeigen.](media/view-update.png)
+![Schaltfläche aktualisieren anzeigen](media/view-update.png)
 
 6. Wählen Sie auf der Seite **Binäre Updates** die Option **Paket speichern** aus.
 7. Wählen Sie auf der Seite **Updates überprüfen und speichern** die Option **Paket speichern** aus.
@@ -47,11 +49,11 @@ Dieses Thema enthält Informationen zum Aktualisieren von Dynamics 365 Project O
 2. Wählen Sie aus der Liste das Paket aus, das Sie zuvor gespeichert haben, und wählen Sie dann **Anwenden** aus.
 3. Klicken Sie auf **Ja**, um zu bestätigen, dass Sie das Paket bereitstellen möchten.
 
-![Bestätigen Sie das Dialogfeld für die Paketbereitstellung.](media/confirm-package-deployment.png)
+![Bestätigen Sie das Dialogfeld für die Paketbereitstellung](media/confirm-package-deployment.png)
 
 4. Klicken Sie auf **Ja**, um zu bestätigen, dass Sie die Anwendung aktualisieren möchten.
 
-![Bestätigen Sie das Dialogfeld Anwendungsaktualisierung.](media/confirm-application-update.png)
+![Bestätigen Sie das Dialogfeld Anwendungsaktualisierung](media/confirm-application-update.png)
 
 Die Bereitstellung und die Aktualisierung der Anwendung werden gestartet. 
 
@@ -84,7 +86,7 @@ Die folgenden Aktualisierungen der Sicherheitsberechtigungen für Entitäten sin
 
 1. In Ihrer Dataverse Umgebung gehen Sie zu **Einstellungen** und in der **System** Gruppe wählen Sie **Sicherheit** aus.
 
-![Dataverse-Umgebungseinstellungen.](media/Picture21.png)
+![Dataverse Umgebungseinstellungen](media/Picture21.png)
 
 2. Wählen Sie **Sicherheitsrollen** aus.
 3. In der Liste der Rollen wählen Sie **App-Benutzer duales Schreiben** und wählen Sie die Registerkarte **Benutzerdefinierte Entitäten** aus. 
@@ -121,8 +123,5 @@ Die folgenden Aktualisierungen der Sicherheitsberechtigungen für Entitäten sin
 6. Wählen Sie aus der Liste der Zuordnungen **Ledger (msdyn_ledgers)** mit allen Voraussetzungen aus und wählen Sie das Kontrollkästchen **Erstsynchronisation** aus. 
 7. In dem Feld **Master für die Erstsynchronisation** wählen Sie **Finance and Operations Apps** und dann **Ausführen** aus.
  
- ![Synchronisation der Ledger-Zuordnung.](media/DW6.png)
+ ![Synchronisation der Ledger Zuordnung](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,8 @@
 ---
 title: Übermitteln einer Ressourcenanforderung
 description: Dieses Thema enthält Informationen zum Übermitteln einer Anforderung für eine Projektressource.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985005"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149722"
 ---
 # <a name="submitting-a-resource-request"></a>Übermitteln einer Ressourcenanforderung
 
@@ -34,11 +36,8 @@ Sie können eine generierte Ressourcenanfrage als Ressourcenanforderung übermit
 1. Klicken Sie in Project Service Automation (PSA) auf der Seite **Projekte** auf die Registerkarte **Team**, um eine Liste der buchbaren Ressourcen anzuzeigen. 
 2. Wählen Sie die allgemeine Ressource aus, die eine Ressourcenanfrage aus der Liste enthält, und klicken Sie dann auf **Anforderung übermitteln**.
 
-![Übermitteln einer Ressourcenanforderung.](media/RM-how-to-18.png)
+![Übermitteln einer Ressourcenanforderung](media/RM-how-to-18.png)
 
-Der Anforderungsstatus des generischen Teammitglieds ändert sich auf **Gesendet**.
+Der Anforderungsstatus des allgemeinen Teammitglieds wird in **Übermittelt** geändert.
 
 Nachdem die Anforderung vom Resource Manager erfüllt wurde, wird die allgemeine Ressource durch eine benannte Ressource ersetzt, falls der Resource Manager die Anforderung durch die Buchung einer benannten Ressource erfüllt. Andernfalls verbleibt die allgemeine Ressource im Team und der Anforderungsstatus wird in **Prüfung erforderlich** geändert, falls der Resource Manager eine benannte Ressource vorschlägt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

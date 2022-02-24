@@ -2,6 +2,8 @@
 title: Arbeiten mit dem Project Service Automation-Datenmodell
 description: In diesem Thema finden Sie Informationen dazu, wie Sie mit dem Datenmodell arbeiten.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002420"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147652"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Arbeiten mit dem Project Service Automation-Datenmodell
 
@@ -53,7 +55,7 @@ PSA fügt auch neue Entitäten in Verbindung mit Angeboten zum Dynamics 365-Dat
 
 Andere Entitäten, die PSA zu Angeboten hinzufügt, sind **Projektpreisliste der Angebotsposition**, **Ressourcenkategorie für die Angebotsposition** und **Transaktionskategorie der Angebotsposition**.
 
-![Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen.](media/PS-Reporting-image2.png "Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen")
+![Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen](media/PS-Reporting-image2.png "Diagramm mit Angebot, Angebotzeile und Projekt-Beziehungen")
 
 ## <a name="reporting-on-project-contracts"></a>Berichte zu Projektverträgen
 
@@ -69,7 +71,7 @@ PSA fügt auch neue Entitäten hinzu, die für Projektverträge verwendet werden
 
 Andere Entitäten, die PSA zu Verträgen hinzufügt, sind **Projektpreisliste der Projektvertragsposition**, **Ressourcenkategorie für die Projektvertragsposition** und **Transaktionskategorie der Projektvertragsposition**.
 
-![Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen.](media/PS-Reporting-image3.png "Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen")
+![Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen](media/PS-Reporting-image3.png "Diagramm mit Bestellung, Bestellungszeile und Projekt-Beziehungen")
 
 ## <a name="reporting-on-projects"></a>Berichte zu Projekten
 
@@ -81,7 +83,7 @@ Die **Projekte**-Entität und verknüpfte Entitäten sind für PSA exklusiv. **P
 - **Ressourcenanforderung** – Diese Entität enthält die Voraussetzungen für alle allgemeinen Ressourcenteammitglieder.
 - **Schätzung** und **Vorkalkulationsposition** – Diese Entitäten besitzen eine Kopfzeilen-/Positionsbeziehung und enthalten Ausgabenschätzungen für das Projekt. Aufgabenschätzungen werden in der **Ressourcenbasierten Schätzung** gespeichert.
 
-![Diagramm mit Ressourcenanforderung und Projekt-Beziehungen.](media/PS-Reporting-image4.png "Diagramm mit Ressourcenanforderung und Projekt-Beziehungen")
+![Diagramm mit Ressourcenanforderung und Projekt-Beziehungen](media/PS-Reporting-image4.png "Diagramm mit Ressourcenanforderung und Projekt-Beziehungen")
 
 ## <a name="reporting-on-resources"></a>Berichte zu Ressourcen
 
@@ -92,7 +94,7 @@ Projektressourcen verwenden die Entität **Buchbare Ressource** aus der Universa
 - **Buchbare Ressourcenkategorie** – Diese Entität stellt die Rolle der buchbaren Ressource dar.
 - **Buchbare Ressourcenbuchungen** – Diese Entität enthält die Uhrzeit, die für die Ressource in Projekten gebucht wird. Jede Buchung ist eine Kopfzeilenentität und Positionsentität, und jede Position enthält den Status, der den Status der Buchung darstellt.
 
-![Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen.](media/PS-Reporting-image5.png "Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen")
+![Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen](media/PS-Reporting-image5.png "Diagramm mit buchbaren Ressourcenmerkmalen-Beziehungen")
 
 ## <a name="reporting-on-actual-transactions"></a>Berichte zu tatsächlichen Transaktionen
 
@@ -120,7 +122,4 @@ Wenn Sie die Entität **Tatsächlich** verwenden, ist es wichtig, zu verstehen, 
 
 Die Entität **Transaktionsursprung** zeichnet den Ursprung des Datensatzes **Tatsächlich** und die Entität **Transaktionsverbindung** zeichnet die zugehörigen Datensätze für den Datensatz **Tatsächlich** auf. Darüber hinaus enthält der Datensatz **Tatsächlich** Verweise auf das Projekt, den Projektvertrag (Auftrag), die buchbare Ressource und den Kunden.
 
-![Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen.](media/PS-Reporting-image6.png "Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen](media/PS-Reporting-image6.png "Diagramm mit Transaktionsverbindung, Ursprung und tatsächlichem Beziehungen")

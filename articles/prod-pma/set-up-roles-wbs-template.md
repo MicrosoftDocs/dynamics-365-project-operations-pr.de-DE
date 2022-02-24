@@ -2,9 +2,11 @@
 title: Rollen in Vorlagen für Projektstrukturpläne einrichten
 description: Dieses Thema enthält Informationen zum Einrichten von Rolleninformationen in Vorlagen für Projektstrukturpläne.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008900"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076504"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Rollen in Vorlagen für Projektstrukturpläne einrichten
 
@@ -89,7 +91,7 @@ Im PSP wurden zusätzliche Optionen hinzugefügt, um so die Ressourcing-Funktion
 
 4. Stellen Sie die Daten und den Aufwand (Stunden) wie in der folgenden Abbildung gezeigt ein.
 
-    [![Festlegen der Daten und des Aufwands.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Festlegen der Daten und des Aufwands](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Wählen Sie Aufgabenzeile **Initiieren** und dann im Feld **Rolle** wählen Sie **Senior Projektmanager** aus.
 6. Wählen Sie **Veröffentlichen** aus.
@@ -105,6 +107,3 @@ Im PSP wurden zusätzliche Optionen hinzugefügt, um so die Ressourcing-Funktion
     > Sie erhalten keine Warnung, dass die angegebene Ressource jetzt 2 ist, da die Anzahl der Ressourcen 1 bleibt.
 
 14. Auf der Seite **Projektstrukturplan** überprüfen Sie die Ressourcenzuweisung im PSP und wählen Sie dann **Speichern**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

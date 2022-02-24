@@ -2,17 +2,19 @@
 title: Standardeinstellungen für Projektvertriebs-Preislisten außer Kraft setzen
 description: Dieses Thema enthält Informationen zum Erstellen benutzerdefinierter Verkaufspreislisten.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009575"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672230"
 ---
 # <a name="override-project-sales-price-lists"></a>Standardeinstellungen für Projektvertriebs-Preislisten außer Kraft setzen
 
@@ -50,6 +52,3 @@ Sie können jede dieser Preislisten verwenden und die Preise für Arbeit (Rollen
 Bei einem Projektvertrag wird die Projektpreisgestaltung standardmäßig immer als benutzerdefinierte Preisliste mit dem Namen des Vertrags und dem an den Namen angehängten erstellten Datums- und Zeitstempel verwendet. Dies gilt unabhängig davon, ob der Vertrag zum Zeitpunkt des Gewinns des Angebots erstellt wurde oder ob der Vertrag von Grund auf neu erstellt wurde. Bei Bedarf können Sie diese Zuordnung zur benutzerdefinierten Preisliste entfernen und stattdessen dem Projektvertrag eine Standardpreisliste zuordnen.
 
 Wenn Sie den Projektpreislisten auf Angebot oder Vertrag eine Standardpreisliste zuordnen, wirken sich Änderungen an den Preisen in der Preisliste auf alle Angebote und Verträge aus, die die Preisliste verwenden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

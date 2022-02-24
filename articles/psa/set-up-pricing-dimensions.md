@@ -2,10 +2,12 @@
 title: Einrichten von benutzerdefinierten Feldern als Preisdimensionen
 description: Dieses Thema enthält Informationen zum Einrichten von benutzerdefinierten Preisdimensionen.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002330"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150352"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Einrichten von benutzerdefinierten Feldern als Preisdimensionen 
 
@@ -41,11 +43,11 @@ Damit ein Feld zu einer Preisdimension wird, muss es:
 - als Feld in den Entitäten **Rollenpreis** und **Rollenpreisaufschlag** erstellt werden. Weitere Informationen hierzu erhalten Sie unter [Hinzufügen benutzerdefinierter Felder zum Preis und zu Transaktionsentitäten](field-references.md).
 - als Zeile in der Tabelle **Preisdimension** erstellt worden sein. Beispielsweise können Sie Preisdimensionszeilen, wie in der folgenden Grafik dargestellt, hinzufügen. 
 
-![Betragsbasierte Preisdimensionszeilen.](media/Amt-based-PD.png)
+![Betragsbasierte Preisdimensionszeilen](media/Amt-based-PD.png)
 
 Beachten Sie, dass die Arbeitszeiten der Ressource (**msdyn_resourceworkhours**) als aufschlagsbasierte Dimension und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
 
-![Aufschlagsbasierte Preisdimensionszeilen.](media/Markup-based-PD.png)
+![Aufschlagsbasierte Preisdimensionszeilen](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Jegliche Änderungen an Preisdimensionsdaten in der Tabelle, ob bei vorhandenen oder neuen Daten, werden erst an die Project Service-Geschäftslogik für Preise weitergegeben, wenn der Cache aktualisiert wird. Die Aktualisierungszeit des Cache kann bis zu 10 Minuten betragen. Warten Sie diese Zeit ab, um die Änderungen in der Preis-Standardlogik anzuzeigen, die aus Änderungen an den Preisdimensionsdaten resultieren müssen.
@@ -71,12 +73,12 @@ Es gibt zwei Arten von Preisdimensionen:
   
 | Rolle        | Organisationseinheit    |Arbeitsstandort      |Standardtitel      |Arbeitszeiten der Ressource      |  Aufschlag|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Indien|Vor Ort            |                    |Überstunden                 |15     |
-|             | Contoso Indien|Lokal             |                    |Überstunden                 |10     |
-|             | Contoso (USA)   |Lokal             |                    |Überstunden                 |20     |
+|             | Koch Indien|Vor Ort            |                    |Überstunden                 |15     |
+|             | Koch Indien|Lokal             |                    |Überstunden                 |10     |
+|             | Contoso US   |Lokal             |                    |Überstunden                 |20     |
 
 
-Wenn eine Ressource von Contoso Indien, deren Basistarif 100 USD beträgt, vor Ort arbeitet, und sie 8 Stunden an regulärer Arbeitszeit und 2 Überstunden im Zeiteintrag protokolliert, verwendet die Project Service-Preis-Engine den Basistarif von 100 für die 8 Stunden, um 800 USD zu erfassen. Für die 2 Überstunden wird ein Aufschlag von 15 % auf den Basistarif von 100 angewendet, um einen Einheitspreis von 115 USD zu erhalten und Gesamtkosten von 230 USD zu erfassen.
+Wenn eine Ressource von Koch, Indien, deren Basistarif 100 USD beträgt, vor Ort arbeitet, und sie 8 Stunden an regulärer Arbeitszeit und 2 Überstunden im Zeiteintrag protokolliert, verwendet die Project Service-Preis-Engine den Basistarif von 100 für die 8 Stunden, um 800 USD zu erfassen. Für die 2 Überstunden wird ein Aufschlag von 15 % auf den Basistarif von 100 angewendet, um einen Einheitspreis von 115 USD zu erhalten und Gesamtkosten von 230 USD zu erfassen.
 
 ### <a name="applicable-to-cost"></a>Gilt für Kosten 
 Falls diese Option auf **Ja** eingestellt ist, gibt sie an, dass der Dimensionswert aus dem Eingabekontext verwendet werden sollte, um den **Rollenpreis** und den **Rollenpreisaufschlag** abzugleichen, wenn die Kosten und Aufschlagsraten abgerufen werden.
@@ -92,6 +94,3 @@ Das Festlegen der Dimensionspriorität unterstützt Project Service dabei, einen
 
 - **Kostenpriorität**: Der Wert der Kostenpriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Einstandspreise an. Der Wert der **Kostenpriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Kosten** aufweisen.
 - **Vertriebspriorität**: Der Wert der Vertriebspriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Verkaufspreise oder Rechnungssätze an. Der Wert der **Vertriebspriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Vertrieb** aufweisen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
