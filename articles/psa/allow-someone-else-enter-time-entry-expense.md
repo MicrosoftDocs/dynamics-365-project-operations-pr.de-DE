@@ -3,7 +3,7 @@ title: Zulassen, dass eine andere Person Ihre Ausgaben eingeben oder Zeiteintrag
 description: Zulassen, dass eine andere Person Ihre Zeiteintragung oder Ausgaben eingibt (Project Service)
 author: revathiMuthiah
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076497"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Zulassen, dass eine andere Person Ihre Zeiteintragung oder Ausgaben eingibt (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

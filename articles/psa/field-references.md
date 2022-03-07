@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e1a8d6319788ee73e0e2837a47cba89108c32572
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148462"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275312"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Hinzufügen von benutzerdefinierten Feldern zum Preis und zu Transaktionsentitäten 
 
@@ -150,3 +150,6 @@ Die folgende Tabelle enthält eine umfassende Liste vorkonfigurierter Formulare 
 |  Tatsächlich|• Informationen<br>• Aktive Ist-Werte|• Zugeordnete Ansicht: Ist-Werte|
 
 Je nach Ihrer Definition müssen möglicherweise auch benutzerdefinierte Felder zu Geschäftsregeln hinzugefügt werden. Ein OOB-Beispiel für die Geschäftsregel ist **Bearbeitbarkeit des Zeiteintrags auf Grundlage des Status**. Diese Regel definiert, welche Felder gesperrt werden müssen, wenn sich der Zeiteintrag in einem nicht bearbeitbaren Status wie etwa **Genehmigt** befindet. Fügen Sie dieser Geschäftsregel Felder hinzu, damit die Felder für die Bearbeitung gesperrt sind, wenn sich der Zeiteintrag in einem anderen Status als **Entwurf** oder **Zurückgegeben** befindet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

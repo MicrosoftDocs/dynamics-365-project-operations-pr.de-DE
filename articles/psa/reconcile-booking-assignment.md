@@ -2,8 +2,6 @@
 title: Buchungen und Arbeitsaufträge abstimmen
 description: Dieses Thema enthält Informationen zu Ist-Werten.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147922"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008895"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Buchungen und Arbeitsaufträge abstimmen
 
@@ -101,3 +99,6 @@ Nachdem die Funktion Buchung verlängern für jede Ressource ausgeführt wurde, 
 
 Ein genauerer Blick auf die Details der Buchungen zeigt jedoch Unterschiede in der Startzeit der Buchungen. Die Buchungen beginnen frühestens zum Startzeitpunkt der Zuordnungskontur und frühestens zum verfügbaren Startzeitpunkt der Ressource.
  ![Neue Buchungen der Ressourcen in der Zeitplantafel](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

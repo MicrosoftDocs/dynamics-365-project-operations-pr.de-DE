@@ -2,18 +2,16 @@
 title: Mehrere Kunden in einem Projektangebot verwalten – Lite
 description: Dieses Thema enthält Informationen zur Bearbeitung von Angeboten, mit mehreren Kunden, die das Projekt finanzieren. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181597"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440776"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Mehrere Kunden in einem Projektangebot verwalten – Lite
 
@@ -39,7 +37,7 @@ Ein Angebotskunde kann in der **Angebotskunden**-Registerkarte auf der **Angebot
 
 | **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
-| Konto | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Führt alle aktiven Konten auf. Dieses Feld wird gesperrt, nachdem der Datensatz erstellt wurde. Wenn Sie ihn aktualisieren möchten, löschen Sie den Datensatz und erstellen Sie ihn neu. Wenn Sie Ist-Daten aufgezeichnet haben oder wenn der Angebotskundendatensatz ein Hauptkunde ist, können Sie den Datensatz löschen. | Angebotspositionskunden werden als Angebotspositionskunden kopiert, wenn eine Angebotsposition erstellt wird. Angebotskunden werden auch zu den Kunden der Projektvertrags kopiert, wenn ein Angebot gewonnen wird. |
+| Konto | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Führt alle aktiven Konten auf. Dieses Feld wird gesperrt, nachdem der Datensatz erstellt wurde. Wenn Sie ihn aktualisieren möchten, löschen Sie den Datensatz und erstellen Sie ihn neu. Wenn Sie Istwerte erfasst haben oder der Angebotskundendatensatz ein Hauptkunde ist, dürfen Sie den Datensatz nicht löschen. | Angebotspositionskunden werden als Angebotspositionskunden kopiert, wenn eine Angebotsposition erstellt wird. Angebotskunden werden auch zu den Kunden der Projektvertrags kopiert, wenn ein Angebot gewonnen wird. |
 | Prozentsatz der Abrechnungsteilung | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Stellen Sie den Prozentsatz jeder nicht in Rechnung gestellten Verkaufstransaktion dar, die diesem Angebotskunden zugeordnet wird. | Wird zu neuen Angebotspositionen und zu Projektvertragskunden kopiert. |
 | Kontaktname für Rechnungsadresse | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Dies ist ein Textfeld und sollte verwendet werden, um die Rechnungskontaktperson für diesen Kunden zu identifizieren. Diese werden standardmäßig aus dem zugehörigen Kontodatensatz übernommen | Wird zu Projektvertragskunden kopiert, wenn ein Angebot gewonnen wird, und anschließend in das Feld „Vertragsname für Rechnungsadresse“ auf der Rechnung kopiert, die für diesen Kunden erstellt wurde. |
 | Name für Rechnungsadresse | Bearbeitbares Raster auf der **Angebotspositionnkunden**-Registerkarte und die Formulare **Haupt** und **Schnellerfassung** für einen Angebotspositionskunden. | Dieses Textfeld sollte verwendet werden, um die Rechnungskontaktperson für diesen Kunden zu identifizieren. | Wird zum Projektvertragskunden kopiert, wenn ein Angebot gewonnen wird, und anschließend in das Feld **Vertragsname für Rechnungsadresse** auf der Rechnung kopiert, die für diesen Kunden erstellt wurde. |
@@ -52,3 +50,6 @@ Ein Angebotskunde kann in der **Angebotskunden**-Registerkarte auf der **Angebot
 Sie können die Prozentsätze für die Aufteilung der Abrechnung mithilfe der Inline-Rasterbearbeitung bearbeiten. Wenn die Prozentsätze für die Aufteilung der Abrechnung nicht 100 % betragen, tritt ein Fehler auf. Aktualisieren Sie die Seite, nachdem Sie die Prozentsätze für die Aufteilung der Abrechnung aktualisiert haben, um den Fehler zu beheben.
 
 Sie können auch **Gleichmäßig verteilen** im Angebotskunden-Unterraster auswählen. Diese Aktion weist allen Angebotskunden Abrechnungssplits zu. Wenn es einen Rundungsfaktor gibt, wird dieser dem Rundungskunden hinzugefügt. Einer der Angebotskunden wird immer als Rundungskunde gekennzeichnet. Dies bedeutet, dass der Angebotskundendatensatz das **Rundung**-Flag auf **Ja** festgelegt hat. In der Regel ist dies der Hauptkunde des Angebots, dies kann jedoch geändert werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Fähigkeiten und Kompetenzstufenmodelle
 description: Dieses Thema enthält Informationen zur Verwendung der Fähigkeiten und Kompetenzstufenmodelle.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147472"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008670"
 ---
 # <a name="skills-and-proficiency-models"></a>Fähigkeiten und Kompetenzstufenmodelle
 
@@ -48,3 +46,6 @@ Fähigkeiten für Ressourcen werden durch Kompetenzstufenmodelle bewertet. Die e
 > ![Definierte Mindest- und Höchstbewertungswerte](media/Resource-Management-image85.png)
 
 Diese Bewertungswerte werden in den Filtern **Ressourcenanforderungen**, **Zeitplanübersicht** und **Zeitplan-Assistent** angezeigt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

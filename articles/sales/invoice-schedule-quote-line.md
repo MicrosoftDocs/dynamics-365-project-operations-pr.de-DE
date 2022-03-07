@@ -2,18 +2,16 @@
 title: Rechnungszeitpläne für projektbasierte Angebotspositionen
 description: Dieses Thema enthält Informationen zum Erstellen von Rechnungszeitplänen und Meilensteinen für Angebotspositionen.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180821"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988605"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rechnungszeitpläne für projektbasierte Angebotspositionen
 
@@ -68,3 +66,6 @@ Festpreismeilensteine können auch manuell generiert werden, wenn sie nicht rege
 | Rechnungsstatus | Schnellerfassung | Wenn ein Meilenstein erstellt wird, wird dieser Status immer auf **Nicht bereit für die Rechnungsstellung** festgelegt. | Dies wird auf den Meilenstein der Projektvertragszeile und auf die Rechnung übertragen. |
 | Zeilenbetrag | Schnellerfassung | Betrag oder Wert des Meilensteins, der dem Kunden in Rechnung gestellt wird. | Dies wird auf den Meilenstein der Projektvertragszeile und auf die Rechnung übertragen. |
 | Steuer | Schnellerfassung | Steuerbetrag, der auf den Meilenstein angewendet wird. | Dies wird auf den Meilenstein der Projektvertragszeile und auf die Rechnung übertragen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projektzeitpläne
 description: Dieses Thema bietet Informationen zur Vorgehensweise beim Erstellen von Zeitplänen.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148417"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998415"
 ---
 # <a name="project-schedules"></a>Projektzeitpläne 
 
@@ -96,7 +94,7 @@ Auf das Raster **Zeitplan** kann vollständig zugegriffen werden, und es kann mi
 
 Ein Aufgabenname beschreibt die Arbeit, die abgeschlossen werden muss. In PSA beschreiben die Attribute, die einer Aufgabe zugeordnet sein, den Zeitplan der Aufgabe und das erforderliche Personal.
 
-> ![Aufgabenattribute](media/project-2.png)
+> ![Aufgabenattribute.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Zeitplanattribute.
 
@@ -149,3 +147,6 @@ Wenn eine Blattknotenaufgabe keine Vorgänger hat, wird ihr Startdatum standardm
 ### <a name="manual-scheduling"></a>Manuelle Terminierung
 
 Wenn die Regeln zur automatischen Zeitplanung Ihre Bedingungen nicht erfüllen, können Sie den Aufgabenmodus der Aufgabe auf **Manuell geplant** setzen. Diese Einstellung stoppt die Zeitplanungsengine an der Berechnung der Werte anderer Zeitplanungsattribute. Wenn Sie unabhängig vom Aufgabenmodus die Vorgänger auf Aufgaben einstellen, beeinflussen Sie immer das Startdatum der abhängigen Aufgabe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

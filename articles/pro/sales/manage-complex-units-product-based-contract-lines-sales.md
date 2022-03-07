@@ -2,18 +2,16 @@
 title: Komplexe Einheiten für produktbasierte Vertragszeilen verwalten – Lite
 description: Dieses Thema enthält Informationen zur Unterstützung des Verkaufs von abonnementbasierten Produkten.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177375"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003365"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Komplexe Einheiten für produktbasierte Vertragszeilen verwalten – Lite
 
@@ -46,3 +44,6 @@ Führen Sie die folgenden Schritte aus, um Mengenfaktoren aus Produkteigenschaft
 7. Wiederholen Sie die Schritte 2 bis 6 für alle Eigenschaften, die zusammen die Menge für die produktbasierte Vertragszeile bilden.
 
 Wenn Mengenfaktoren eingerichtet sind und der Benutzer eine Vertragszeile für dieses Produkt erstellt, wird die Menge der Vertragszeile gesperrt. Die Menge wird dann als Produkt der Eigenschaftswerte für diese Vertragszeile berechnet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

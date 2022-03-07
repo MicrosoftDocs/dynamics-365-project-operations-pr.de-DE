@@ -2,6 +2,8 @@
 title: Buchungszuordnungsmethoden in Project Service Automation
 description: Dieses Thema enthält Informationen zu den verschiedenen Möglichkeiten, wie Sie Zuordnungen buchen können.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,21 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993300"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131354"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Buchungszuordnungsmethoden in Project Service Automation
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Unabhängig davon, ob Sie ein Teammitglied direkt zu einem Projekt auf der Registerkarte **Team** hinzufügen oder eine Ressource für ein Projekt oder eine Anforderung über die Zeitplanübersicht buchen, können Sie verschiedene Buchungszuweisungsmethoden verwenden. In diesem Thema wird erläutert, wie die einzelnen Methoden funktionieren und welche Methoden zu einer Überbuchung von Ressourcen führen können.
 
 ## <a name="full-capacity"></a>Volle Kapazität 
-Die Methode „Volle Kapazität” bucht die volle Kapazität der Ressource für das angegebene Start- und Enddatum. Wenn für eine Ressource beispielsweise ein Kalender für acht Stunden pro Tag an fünf Tagen in der Woche festgelegt ist und ein Start- und Enddatum festgelegt wird, das fünf Arbeitstage umfasst, wird die Ressource für 40 Stunden gebucht. Die Buchung erfolgt unabhängig von der verbleibenden Kapazität der Ressource. Wenn in diesem Zeitraum eine Ressource bereits für andere Projekte gebucht wurde, werden die 40 Stunden als zusätzliche Stunden gebucht, was möglicherweise zu Überbuchungen führt.
+Die Methode „Volle Kapazität” bucht die volle Kapazität der Ressource für das angegebene Start- und Enddatum. Wenn für eine Ressource beispielsweise ein Kalender für acht Stunden pro Tag an fünf Tagen in der Woche festgelegt ist und ein Start- und Enddatum festgelegt wird, das fünf Arbeitstage umfasst, wird die Ressource für 40 Stunden gebucht. Die Anmeldung wird ohne Rücksicht auf die verbleibende Ressourcenrestkapazität ausgeführt. Wenn in diesem Zeitraum eine Ressource bereits für andere Projekte gebucht wurde, werden die 40 Stunden als zusätzliche Stunden gebucht, was möglicherweise zu Überbuchungen führt.
 
 ## <a name="remaining-capacity"></a>Verbleibende Kapazität
 Die Methode „Verbleibende Kapazität” ist nur verfügbar, wenn Sie mithilfe der Zeitplanübersicht direkt für ein Projekt buchen. Die Ressource verfügt nicht über ausreichende Kapazität innerhalb des angegebenen Datumsbereichs. Wenn eine Ressource beispielsweise eine Kapazität von 40 Stunden pro Woche hat und bereits für 10 Stunden gebucht wurde, führt die Buchung für dieselbe Woche zur Buchung der verbleibenden Kapazität von 30 Stunden für diese Woche.
@@ -69,6 +69,3 @@ Zusammenfassend die folgenden Zuordnungsmethoden führen zu Überbuchen, wenn di
 - Stunden gleichmäßig verteilen
 
 Wenn Sie eine dieser drei Möglichkeiten für Zuordnungen nutzen, werden Sie nicht darauf hingewiesen, dass die Ressource überbucht wird. Um die Überbuchung zu korrigieren, müssen Sie die Zeitplanübersicht verwenden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

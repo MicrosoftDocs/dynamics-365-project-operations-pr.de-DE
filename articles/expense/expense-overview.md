@@ -2,19 +2,17 @@
 title: Ausgaben – Übersicht
 description: Dieses Thema enthält Informationen zu den Ausgaben-Funktionen in Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764908"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995395"
 ---
 # <a name="expense-home-page"></a>Ausgaben-Homepage
 
@@ -44,3 +42,6 @@ Weitere Informationen finden Sie unter [Ausgabeneintrag (lite)](basic-expense.md
 
 ## <a name="determine-your-expense-deployment"></a>Feststellen Ihrer Ausgabenbereitstellung
 Um festzustellen, bo Sie die Basic Expense-Verwaltungbereitstellung ausführen, stellen Sie sicher, dass die Adress-URL mit **.crm.dynamics.com** endet. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

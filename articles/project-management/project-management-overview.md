@@ -1,28 +1,30 @@
 ---
 title: Projektmanagement – Übersicht
-description: Dieses Thema enthält Informationen zur Projektverwaltung in Dynamics 365 Project Operations.
+description: Dieses Thema enthält Informationen zum Projektmanagement in Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127562"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990990"
 ---
 # <a name="project-management-overview"></a>Projektmanagement – Übersicht
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Die Projektmanagementtools in Dynamics 365 Project Operations unterstützen Sie bei der problemlosen Ausführung von Projekten. Die Zeitplanungstools sorgen dafür, dass Projektmanager und -teams produktiv bleiben. Die Tools unterstützen unter anderem bei folgenden Aufgaben:
+Die Projektmanagementtools in Dynamics 365 Project Operations unterstützen Sie bei der problemlosen Ausführung von Projekten. Die Planungstools helfen Projektmanagern und Teams, produktiv zu bleiben. Einige der Aufgaben, bei denen die Tools helfen, sind:
 
-- Planung von Projekten mithilfe von Arbeitszeitplänen und -kulationen
-- Kalkulation und Verfolgung von Projektkosten und -erlösen
-- Verwendung von Projektvorkalkulationen während des Vertriebsprozesses
-- Prognose des Ressourcenbedarfss für Projekte, die sich in der Vorbereitung befinden
+- Projekte mit Hilfe eines Arbeitsplans und Schätzungen planen
+- Projektkosten und -einnahmen schätzen und verfolgen
+- Projektschätzungen während des Verkaufsprozesses nutzen
+- Ressourcenbedarf für Projekte in der Pipeline prognostizieren
 - Erfolgreiche Durchführung von Projekten durch Verfolgung von Fortschritt und Kostenverbrauch
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

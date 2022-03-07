@@ -2,8 +2,6 @@
 title: Einheitengruppen und Einheiten
 description: Dieses Thema enthält Informationen zu Einheitengruppen und Einheiten.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145582"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987570"
 ---
 # <a name="unit-groups-and-units"></a>Einheitengruppen und Einheiten
 
@@ -46,7 +44,7 @@ Wenn Sie beispielsweise in einer Einheitengruppe **Zeit** **Stunde** als die ers
 
 Das folgende Bild zeigt eine Beispielkonfiguration der Einheit **Tag**, bei der das Feld **Menge** die Anzahl Stunden pro Tag und **Woche**, wobei das Feld **Menge** die Anzahl Tage in einer Woche enthält.
 
-> ![Einheitengruppe: Informationsseite](media/advanced-2.png)
+> ![Einheitengruppe: Informationsseite.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Verwenden von Einheiten und Einheitengruppen
 
@@ -86,9 +84,9 @@ Im folgenden Beispiel wird veranschaulicht, wie PSA die Einheitengruppe, die Ein
     - **Standardzeiteinheit**: Tag 
     - **Währung**: GBP
 
-| Rolle      | Einheitengruppe | Einheit | Organisationseinheit: | Preis   |
+| Rolle      | Einheitengruppe | Einheit | Organisationseinheit | Preis   |
 |-----------|------------|------|---------------------|---------|
-| Entwickler | Time       | Day  | Koch UK          | 800 GBP |
+| Developer | Zeit       | Tag  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Zeiteintrag
 
@@ -112,3 +110,6 @@ Nr. Die Zeitplanschätzung ist derzeit auf Stunden begrenzt und kann nicht geän
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Können Einheiten und Einheitengruppen bearbeitet, gelöscht hinzugefügt werden?
 Ja. Mit Ausnahme der Einheitengruppe **Zeit** und der Einheit **Stunde** können alle Einheiten gelöscht oder bearbeitet und neue Einheiten hinzugefügt werden. In PSA können die Einheitengruppe **Zeit** und die Einheit **Stunde** nicht gelöscht werden. Sie können jedoch mit einem übersetzten Text für das Feld **Name** aktualisiert werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

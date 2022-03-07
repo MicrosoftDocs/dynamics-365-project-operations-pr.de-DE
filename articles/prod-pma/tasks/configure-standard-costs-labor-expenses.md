@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b16ed50584b2b4535d1c61fe7069708182a4820e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288333"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigurieren Sie die Standardkosten für Arbeit und Ausgaben
 
@@ -54,3 +54,6 @@ In diesem Thema wird erläutert, wie Standardkosten für Arbeitskräfte und Kost
 22. Geben Sie im Feld **Preisberechnung** eine Zahl ein. Der tatsächliche Verkaufspreis, der angewendet wird, wenn ein Mitarbeiter Transaktionen in die Ausgabenerfassung eingibt, ist der Verkaufspreis mit dem höchsten Detaillierungsgrad. Wenn beispielsweise sowohl ein allgemeiner Verkaufspreis als auch ein arbeiterspezifischer Verkaufspreis festgelegt sind, wird der arbeiterspezifische Verkaufspreis verwendet.  
 23. Wählen Sie **Speichern** aus.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

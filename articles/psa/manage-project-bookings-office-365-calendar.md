@@ -2,8 +2,6 @@
 title: Verwalten von Projekten und Buchungen in Ihrem Office 365-Kalender
 description: So verwalten Sie Projekte und Buchungen in Ihrem Office 365-Kalender
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144457"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985321"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Verwalten von Projekten und Anmeldungen in Ihrem Kalender (Project Service)
 
@@ -52,7 +50,7 @@ Anzeigen der persönlichen Terminen, Projektarbeitbuchungen und Außendienst-Arb
   
 - Sie benötigen Anmeldeinformationen für den Globalen Administrator oder den [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Systemadministrator.  
   
-- Ihr Administrator muss das E-Mail-Serverprofil konfigurieren jeder Benutzer muss sein Postfach konfigurieren. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Einrichten der E-Mail-Verarbeitung durch serverseitige Synchronisierung](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Ihr Administrator muss das E-Mail-Serverprofil konfigurieren jeder Benutzer muss sein Postfach konfigurieren. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Einrichten der E-Mail-Verarbeitung durch serverseitige Synchronisierung](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Aktivieren der Synchronisierung für Ihre Organisation (Administratoraufgabe)  
   
@@ -91,3 +89,6 @@ Anzeigen der persönlichen Terminen, Projektarbeitbuchungen und Außendienst-Arb
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

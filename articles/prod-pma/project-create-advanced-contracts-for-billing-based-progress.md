@@ -2,11 +2,9 @@
 title: Erweiterte Verträge für die Abrechnung basierend auf dem Fortschritt erstellen
 description: In diesem Thema wird erläutert, wie Sie Projektverträge erstellen, damit Sie Rechnungen für Kunden basierend auf einem Prozentsatz der abgeschlossenen Arbeit erstellen können.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b445488100e0a8335a05505405953b173ff836c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076653"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999670"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Erweiterte Verträge für die Abrechnung basierend auf dem Fortschritt erstellen
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Budgetkategorien werden verwendet, um automatisch die Rechnungsbeträge für den
 8. Optional: Weisen Sie weiteren Projekten Fakturierungsregeln zu. Wählen Sie im Inforegister **Projekt** im Abschnitt **Verfügbare Projekte** ein Projekt aus. Wählen Sie dann die Schaltfläche mit dem Rechtspfeil aus, um das Projekt dem Abschnitt **Ausgewählte Projekte** hinzuzufügen.
 9. Optional: Berechnen Sie den Prozentsatz, den der Kunde von Zahlungen auf einer Rechnung einbehält. Wählen Sie im Inforegister **Bedingungen für Einbehaltung der Zahlung** die Finanzierungsquelle aus, und geben Sie dann im Feld **Prozentsatz der Einbehaltung** den Prozentsatz der Einbehaltung ein.
 10. Wiederholen Sie diese Schritte, um zusätzliche Fakturierungsregeln für den Projektvertrag zu erstellen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

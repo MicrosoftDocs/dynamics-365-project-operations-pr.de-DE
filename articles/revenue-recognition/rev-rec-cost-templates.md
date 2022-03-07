@@ -2,18 +2,16 @@
 title: Kostenvorlagen einrichten
 description: Dieses Thema enthält Informationen zum Erstellen und Verwenden von Kostenvorlagen in Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: f4a515db31a31028af4a60927ab360be6c261a3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642722"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013890"
 ---
 # <a name="set-up-cost-templates"></a>Kostenvorlagen einrichten
 
@@ -79,3 +77,6 @@ Gehen Sie wie folgt vor, um eine Kostenvorlagen zu erstellen:
 7. Auf der **Kategorien**-Registerkarte wählen Sie die Projektkategorien aus, die in die Kostenvorlagenzeile aufgenommen werden sollen.
 8. Auf der **Allgemein**-Registerkarte wählen Sie aus, ob diese Zeile in die Berechnung des Prozentsatzes der Fertigstellung einbezogen werden soll.
 9. Wählen Sie die Methode zum Abschluss der Kosten aus, die bei der Berechnung des Fertigstellungsgrads verwendet werden soll.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

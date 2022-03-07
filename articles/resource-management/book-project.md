@@ -2,18 +2,16 @@
 title: Zu einem Projekt buchen
 description: Dieses Thema enthält Informationen zum Buchen einer Ressource für ein Projekt.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131072"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994905"
 ---
 # <a name="book-to-a-project"></a>Zu einem Projekt buchen
 
@@ -31,11 +29,11 @@ Wenn Ihre Organisation im hybriden Ressourcenzuweisungsmodus arbeitet, kann der 
 
 1. Gehen Sie im Projekt zum Teammitgliedsraster und wählen Sie **Neu**.
 2. Definieren Sie den Positionsnamen und die Rolle der Ressource.
-3. Wählen Sie die buchbare Ressourcen aus der verfügbaren Suche.
-4. Definieren Sie nach Auswahl der Ressource die folgenden Feldinformationen, um die Ressource zu buchen:
+3. Wählen Sie in der verfügbaren Suche die entsprechende buchbare Ressource aus.
+4. Legen Sie die folgenden Feldinformationen fest, um die Ressource zu buchen, nachdem Sie die Ressource ausgewählt haben:
 
     - Startdatum
-    - Fertigstellungsdatum
+    - Abschlussdatum
     - Zuordnungsmethode
     - Stunden, falls zutreffend
     - Projektgenehmiger
@@ -66,3 +64,6 @@ Als Projektmanager müssen Sie möglicherweise eine Ressource für ein Projekt b
 
 > [!NOTE]
 > Diese Methode erstellt keine Buchungen für die Ressource. Stattdessen wird die Ressource dem Team hinzugefügt. Nachdem das Teammitglied dem Projekt hinzugefügt wurde, kann der Projektmanager Buchungen verwalten oder Buchungen erweitern, um die erforderlichen Buchungen zur Ressource hinzuzufügen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

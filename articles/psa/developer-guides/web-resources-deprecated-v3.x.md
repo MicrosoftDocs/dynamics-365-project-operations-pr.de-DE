@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b60c5cf8d5b7cd891218faf71de6187a3b8ea85e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284717"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Veraltete Webressourcen in Project Service Automation 3.x
 
@@ -538,3 +538,6 @@ Aufgrund der neuen Clientschnittstelle und anderen Änderungen an der Dynamics 3
 - msdyn\_\\Time\\App\\Scripts\\Views\\SubmitDialog.js
 - msdyn\_\\Time\\App\\Scripts\\Views\\TimeEntryView.js
 - msdyn\_\\Time\\Moca\\Scripts\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

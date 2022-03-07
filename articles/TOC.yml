@@ -4,8 +4,14 @@
   items:
     - name: Bereitstellungstyp festlegen
       href: environment/determine-deployment-type.md
+    - name: Für Testversionen von Project Operations anmelden
+      href: environment/admin-trials.md
     - name: Project Operations-Updates
       href: whats-new/project-operations-updates.md
+    - name: Entfernte oder veraltete Funktionen
+      items:
+        - name: Entfernte oder veraltete Funktionen in Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
   items:
     - name: Erste Schritte
@@ -28,6 +34,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Umgebungen bereitstellen
           items:
+            - name: Manuelles Bereitstellen der Project Operations Dataverse-App mit Dual-Write-Unterstützung
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Eine neue Umgebung bereitstellen
               href: environment/resource-provision-new-environment.md
             - name: Sicherheitsmodell
@@ -48,10 +56,28 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Ausgabenverwaltungsintegration
               href: environment/resource-dual-write-expense.md
-            - name: Kreditorenrechnungsintegration
+            - name: Zuliefererrechnungsintegration
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dynamics 365 Project Operations deinstallieren
+          href: environment/uninstall-project-operations.md
     - name: Neuigkeiten
       items:
+        - name: Dezember 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: "November\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: "Oktober\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: "August\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: "Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: "Juni\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: "Mai\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: "April\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "März\_2021\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -280,8 +306,12 @@
           items:
             - name: Projektvorlagen mit Projekt kopieren erstellen
               href: project-management/dev-copy-project.md
-            - name: Zeitplan-APIs verwenden (Öffentliche Vorschau)
+            - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
+            - name: Leistung der Projektzeitplan-API
+              href: project-management/project-schedule-api-performance.md
+            - name: Projektzeitplan-Protokolle
+              href: project-management/schedule-api-logs.md
     - name: Ressourcenverwaltung
       items:
         - name: Wichtige Konzepte
@@ -340,7 +370,7 @@
               href: resource-management/resource-utilization-overview.md
     - name: Zeit
       items:
-        - name: Übersicht über Zeit
+        - name: Zeitübersicht
           href: time/time-entry-overview.md
         - name: Zeiteinträge erstellen
           items:
@@ -374,11 +404,15 @@
               href: expense/set-up-credit-card-integration.md
             - name: Ausgabenkategorien einrichten
               href: expense/set-up-expense-categories.md
-        - name: Persönliche Spesen
+            - name: Kilometerleistung mithilfe von Kilometertarifstufen einrichten
+              href: expense/set-up-mileage.md
+        - name: Ausgabenaufschlüsselung
+          href: prod-exp/expense-itemization.md
+        - name: Persönliche Ausgaben
           href: expense/personal-expenses-expense-report.md
         - name: Intercompany-Ausgaben
           href: prod-exp/intercompany-expense.md
-        - name: Spesenabrechnungen erstellen
+        - name: Ausgabenabrechnungen erstellen
           items:
             - name: Verteilungen auf einer Spesenabrechnung
               href: expense/distributions-expense-report.md
@@ -408,6 +442,8 @@
       items:
         - name: "Genehmigungen\_– Übersicht"
           href: approvals/approvals-overview.md
+        - name: Genehmigungssätze
+          href: approvals/approval-sets.md
         - name: Anmerkungen des Entwicklers
           items:
             - name: Entwickleranmerkungen für Genehmigungen
@@ -428,12 +464,18 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Nicht vorrätige Materialien für Projekte mithilfe ausstehender Kreditorenrechnungen beschaffen
           href: procurement/pending-vendor-invoices.md
+        - name: Nicht vorrätige Materialien für Projekte über Projektbestellungen bestellen
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Zuliefererbindung
+          items:
+            - name: Übersicht zur Zuliefererbindung
+              href: procurement/vendor-retention-overview.md
+            - name: Zuliefereraufbewahrung einrichten
+              href: procurement/set-up-vendor-retention.md
     - name: Rechnungsstellung
       items:
         - name: Rechnungsverarbeitung – Übersicht
           href: invoicing/post-project-invoices.md
-        - name: Projektrechnungsvorschläge verwalten
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma-Rechnung
           items:
             - name: Projektbasierten Abrechnungsstau verwalten
@@ -452,8 +494,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Projektbasierte Rechnungsautomation konfigurieren
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projektrechnungsvorschläge verwalten
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Debitorenfakturierung
+          items:
+            - name: Projektrechnungsvorschläge verwalten
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Korrekte Buchhaltung beim Entwurf von Projektrechnungsvorschlägen
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Intercompany-Rechnungsstellung
+          items:
+            - name: Intercompany-Rechnungsstellung – Übersicht
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Intercompany-Rechnungsstellung konfigurieren
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Intercompany-Transaktionen erstellen
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projektbuchhaltung
       items:
         - name: Finanzdimensions-Standardeinstellungen
@@ -466,16 +522,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integrationsjournal in Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Intercompany-Rechnungsstellung
-          items:
-            - name: Intercompany-Rechnungsstellung – Übersicht
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Intercompany-Rechnungsstellung konfigurieren
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Intercompany-Transaktionen erstellen
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Umsatzrealisierung
       items:
         - name: Umsatzrealisierungsübersicht
@@ -492,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Umsatzschätzungen verwalten
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Problembehandlung
+      items:
+        - name: Projektvertriebsprozess
+          items:
+            - name: 'Währungskonfliktfehler beim Erstellen von Projekt, Vertrag, Angebot oder buchbarer Ressource'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: "Lite-Bereitstellung\_– Abschluss zur Proforma-Rechnungsstellung"
   items:
     - name: Erste Schritte
@@ -508,6 +560,24 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
+        - name: "Neuigkeiten zum Vorabzugang für den 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Neuigkeiten für Dezember 2021 – Lite-Bereitstellung
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: "Neuigkeiten für November\_2021\_– Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: "Neuigkeiten für Oktober\_2021\_– Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Neuigkeiten für September 2021 – Lite-Bereitstellung
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: "Neuigkeiten für August\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: "Neuigkeiten für Juli\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: "Neuigkeiten für Juni\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: "Neuigkeiten für Mai\_2021 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Neuigkeiten für April\_2021 – Lite-Bereitstellung"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "Neuigkeiten für März\_2021 – Lite-Bereitstellung"
@@ -756,8 +826,10 @@
           items:
             - name: Projektvorlagen mit Projekt kopieren erstellen
               href: project-management/dev-copy-project.md
-            - name: Zeitplan-APIs verwenden (Öffentliche Vorschau)
+            - name: Projektzeitplan-APIs verwenden
               href: project-management/schedule-api-preview.md
+            - name: Leistung der Projektzeitplan-API
+              href: project-management/project-schedule-api-performance.md
     - name: Ressourcenverwaltung
       items:
         - name: Wichtige Konzepte
@@ -814,9 +886,47 @@
           items:
             - name: Ressourcennutzung – Übersicht
               href: resource-management/resource-utilization-overview.md
+    - name: Untervertragsverwaltung in Project Operations
+      items:
+        - name: Untervertragsverwaltung in Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Fremdarbeit im Vorabzugang für Oktober 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Schlüsselkonzepte bei der Fremdarbeit
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Kreditoren und Projektpreislisten verwalten
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Zulieferer als buchbare Ressourcen
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Kopfzeilendetails für Fremdarbeiten
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Fremdarbeitspositionen für Zeit
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Fremdarbeitspositionen für Ausgabenkategorien
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Fremdarbeitspositionen für Produkte
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressourcen für Fremdarbeitsposition
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Fremdarbeitspositionsmeilensteine
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Fremdarbeitsprojektteammitglieder
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Fremdarbeitsoptionen für Projektteammitglieder
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostenschätzung von Fremdarbeitsressourcenzuweisungen
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Zeitplanübersicht konfigurieren für die Anzeige von Vertragsmitarbeitern und Fremdarbeitskapazität
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Besetzung eines Projekts mit Vertragsmitarbeitern und Fremdarbeitskapazität
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Erfassung von Zeit, Ausgaben und Materialverbrauch für Fremdarbeitskomponenten'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Statusübergänge bei Fremdarbeit
+          href: pro/subcontracting/subcon-states.md
     - name: Zeit
       items:
-        - name: Übersicht über Zeit
+        - name: Zeitübersicht
           href: time/time-entry-overview.md
         - name: Zeiteinträge erstellen
           items:
@@ -840,6 +950,8 @@
       items:
         - name: "Genehmigungen\_– Übersicht"
           href: approvals/approvals-overview.md
+        - name: Genehmigungssätze
+          href: approvals/approval-sets.md
         - name: Anmerkungen des Entwicklers
           items:
             - name: Entwickleranmerkungen für Genehmigungen
@@ -876,6 +988,14 @@
   items:
     - name: Neuigkeiten
       items:
+        - name: "Neuigkeiten für Oktober 2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: "Neuigkeiten für September\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+        - name: "Neuigkeiten für Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: "Neuigkeiten für Mai\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: "Neuigkeiten für April\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Neuigkeiten für März\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
@@ -994,11 +1114,11 @@
           href: expense/set-up-credit-card-integration.md
         - name: Ausgabenkategorien einrichten
           href: expense/set-up-expense-categories.md
-    - name: Persönliche Spesen
+    - name: Persönliche Ausgaben
       href: expense/personal-expenses-expense-report.md
     - name: Intercompany-Ausgaben
       href: prod-exp/intercompany-expense.md
-    - name: Spesenabrechnungen erstellen
+    - name: Ausgabenabrechnungen erstellen
       items:
         - name: Verteilungen auf einer Spesenabrechnung
           href: expense/distributions-expense-report.md
@@ -1026,8 +1146,26 @@
       href: psa/overview.md
     - name: Neuigkeiten
       items:
-        - name: "Update-Releasezeitplan für Project Service\_3.x"
+        - name: "Aktualisierter Veröffentlichungszeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 38, V3?'
+          href: psa/whats-new-ur-38.md
+        - name: "Welche Neuerungen oder Änderungen bietet die Updateversion\_37.5, V3?"
+          href: psa/whats-new-ur-37-5.md
+        - name: "Welche Neuerungen oder Änderungen bietet die Updateversion\_37, V3?"
+          href: psa/whats-new-ur-37.md
+        - name: "Neuerungen oder Änderungen in Updateversion\_36, V3"
+          href: psa/whats-new-ur-36.md
+        - name: Neuerungen oder Änderungen in Updateversion 35 V3
+          href: psa/whats-new-ur-35.md
+        - name: Neuerungen oder Änderungen in Updateversion 34 V3
+          href: psa/whats-new-ur-34.md
+        - name: 'Neuerungen oder Änderungen in der Updateversion 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Neuerungen oder Änderungen im Update-Release 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 32, V3?'
+          href: psa/whats-new-ur-32.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 31, V3?'
           href: psa/whats-new-ur-31.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 30, V3?'
@@ -1098,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Handbuch zur Berichterstattung
           href: psa/implementation-guides/reporting-guide.md
+    - name: Upgrade von Project Service Automation auf Project Operations – Lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation-Upgrade (App-Version 3.x)
       items:
         - name: Project Service Automation-Upgrade
@@ -1266,6 +1406,8 @@
               href: psa/time-entry-calendar.md
             - name: Wöchentlichen Zeiteintrag anpassen
               href: psa/time-entry-extensibility-v3.md
+            - name: Genehmigungssätze in Project Service Automation
+              href: psa/approval-set.md
     - name: FAQ und Problembehandlung (3.x)
       items:
         - name: Warum ist der Standardpreis bei tatsächlichen Transaktionen für Ausgabenkosten null?

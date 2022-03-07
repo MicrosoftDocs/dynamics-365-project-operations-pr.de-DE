@@ -2,8 +2,6 @@
 title: Stornieren zuvor genehmigter Zeit- bzw. Ausgabeneinträge
 description: Dieses Thema enthält Informationen zum Stornieren einer genehmigten Projektzeit- und -Ausgabentransaktion.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987435"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Stornieren zuvor genehmigter Zeit- bzw. Ausgabeneinträge
 
@@ -59,6 +57,9 @@ Das Stornieren einer Genehmigung wirkt sich auch finanziell auf das Projekt aus.
 - Der Anpassungsstatus wird auf **Angepasst** festgelegt.
 - Der Fakturierungsstatus wird auf **Storniert** festgelegt.
 
-Als Nächstes werden Umkehrungseinträge in der Tabelle „Ist-Werte” erstellt. Zum Erstellen von Umkehrungseinträgen kopiert das System die Feldwerte aus den ursprünglichen Ist-Werten. Die einzigen Werte, die nicht übernommen werden, sind die Mengenwerte. Diese Werte werden stattdessen umgekehrt. Umgekehrte Ist-Werte werden sowohl für **Kosten** als auch für Ist-Werte von **Nicht fakturierten Umsätzen** erstellt. Das Feld **Anpassungsstatus** des umgekehrten Ist-Werts wird auf **Nicht anpassbar** festgelegt, und der Fakturierungsstatus wird auf **Storniert** festgelegt.
+Als Nächstes werden Umkehrungseinträge in der Tabelle „Ist-Werte“ erstellt. Zum Erstellen von Umkehrungseinträgen kopiert das System die Feldwerte aus den ursprünglichen Ist-Werten. Die einzigen Werte, die nicht übernommen werden, sind die Mengenwerte. Diese Werte werden stattdessen umgekehrt. Umgekehrte Ist-Werte werden sowohl für **Kosten** als auch für Ist-Werte von **Nicht fakturierten Umsätzen** erstellt. Das Feld **Anpassungsstatus** des umgekehrten Ist-Werts wird auf **Nicht anpassbar** festgelegt, und der Fakturierungsstatus wird auf **Storniert** festgelegt.
 
 Nachdem diese Änderungen vorgenommen wurden, stellen der Betrag, der als für das Projekt ausgegeben erfasst wurde, und das Umsatz-Rückstandsprotokoll des Projekts nicht mehr die Ist-Werte dar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

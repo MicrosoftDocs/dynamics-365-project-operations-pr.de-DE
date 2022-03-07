@@ -2,8 +2,6 @@
 title: Ressourcenanfragen verwalten
 description: Ressourcenanfragen verwalten (Project Service)
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149857"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985140"
 ---
 # <a name="manage-resource-requests-project-service"></a>Ressourcenanfragen verwalten (Project Service)
 
@@ -45,9 +43,12 @@ Konto-Manager und Projektleiter fordern regelmäßig Ressourcen für ihre Projek
   
    -   Klicken Sie auf **Filter**, um den **Filter**-Fensterbereich anzuzeigen. So können Sie Ihre Ergebnisse nach Organisationseinheit, Rolle, Qualifikation oder anderen Attributen filtern.  
   
-       Wechseln Sie zu ![Project Service Ressourcenanfrage-Bildschirm](../psa/media/project-service-resource-request-screen.png "Wechseln Sie zu Project Service Ressourcenanfrage-Bildschirm")  
+       Wechseln Sie zu ![Project Service Ressourcenanfrage-Bildschirm.](../psa/media/project-service-resource-request-screen.png "Wechseln Sie zu Project Service Ressourcenanfrage-Bildschirm")  
   
 3. Wählen Sie im Kalender für die Ressource, die Sie buchen möchten, den Zeitraum für die Buchung der Ressource, und klicken Sie entweder auf **Buchen**, um die Ressource zu buchen oder auf **Buchung vorgeschlagen**, um die Buchung vorzuschlagen und vom Anforderer genehmigen zu lassen. Wenn Sie eine Ressource buchen, können Sie verbindlich und unverbindlich buchen.  
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Ressourcen Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

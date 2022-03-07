@@ -1,9 +1,7 @@
 ---
-title: Überlegungen zum Upgrade von Microsoft Dynamics 365 Project Service Automation Version 2.x oder 1.x auf Version 3.x
+title: Überlegungen zum Upgrade – Microsoft Dynamics 365 Project Service Automation Version 2.x oder 1.x auf Version 3
 description: Dieses Thema enthält Informationen zu Überlegungen, die Sie vornehmen müssen, wenn Sie von Project Service Automation Version 2.x oder 1.x auf Version 3 aktualisieren.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144160"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014880"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Überlegungen zum Upgrade von PSA-Version 2.x oder 1.x auf Version 3.x
 
@@ -83,15 +81,15 @@ Bevor Sie mit dem Upgrade beginnen, wird empfohlen, das Projekt für jedes Team 
 
 Bei Aufgaben, die generischen Teammitgliedern zugeordnet sind, die mit **Team erstellen** erstellt wurden, wird beim Upgrade die allgemeine Ressource im Team und die Zuweisung beim allgemeinen Teammitglied belassen. Es wird empfohlen, dass Sie die Ressourcenanforderungen für das allgemeine Teammitglied nach der Aktualisierung erstellen, jedoch bevor Sie eine Ressourcenanforderung buchen oder senden. Dies erhält alle Organisationseinheiten-Zuweisungen der generischen Teammitglieder, die sich von der Organisationseinheit des Projektvertrags unterscheiden.
 
-Im Projekt Z-Projekt ist die Vertragsorganisation beispielsweise Contoso US. Testaufgaben in der Implementierung wurden im Projektplan der Rolle des technischen Beraters zugewiesen und zugewiesene Organisationseinheit ist Contoso India.
+Im Projekt Z-Projekt ist die Vertragsorganisation beispielsweise Contoso USA. Testaufgaben in der Implementierung wurden im Projektplan der Rolle des technischen Beraters zugewiesen und zugewiesene Organisationseinheit ist Contoso Indien.
 
 ![Zuweisung der Implementierungsphasenorganisation](media/org-unit-assignment-09.png)
 
-Nach der Implementierungsphase wird die Integrationstestaufgabe der Rolle des technischen Beraters zugewiesen, die Organisation ist jedoch auf Contoso US festgelegt.  
+Nach der Implementierungsphase wird die Integrationstestaufgabe der Rolle des technischen Beraters zugewiesen, die Organisation ist jedoch auf Contoso USA festgelegt.  
 
 ![Zuweisung der Integrationstestaufgabenorganisation](media/org-unit-generate-team-10.png)
 
-Wenn Sie ein Team für das Projekt erstellen, werden aufgrund der zwei unterschiedlichen Organisationseinheiten der Aufgaben zwei allgemeine Teammitglieder erstellt. Der technische Berater 1 erhält die Aufgaben von Contoso India und der technische Berater 2 die Aufgaben von Contoso US.  
+Wenn Sie ein Team für das Projekt erstellen, werden aufgrund der zwei unterschiedlichen Organisationseinheiten der Aufgaben zwei allgemeine Teammitglieder erstellt. Der technische Berater 1 erhält die Aufgaben von Contoso Indien und der technische Berater 2 die Aufgaben von Contoso USA.  
 
 ![Erstellte Generische Teammitglieder](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -106,7 +104,10 @@ Sie sehen die Organisationseinheit in der Schätzungsansicht.
  
 Wenn das Upgrade abgeschlossen ist, wird die Organisationseinheit in der Positionsaufgabe, die dem generischen Teammitglied entspricht, dem generischen Teammitglied hinzugefügt und die Positionsaufgabe wird entfernt. Aus diesem Grund wird empfohlen, dass vor dem Upgrade die Teams in den Projekten, die allgemeine Ressourcen enthalten, zu erstellen oder erneut zu generieren.
 
-Bei Aufgaben, die einer Rolle in einer Organisationseinheit zugewiesen sind, die sich von der Organisationseinheit des Vertragsprojekts unterscheidet, und für die kein Team erstellt wurde, erstellt das Upgrade ein allgemeines Teammitglied für die Rolle, verwendet jedoch auch die Vertragseinheit des Projekts für die Organisationseinheit des Teammitglieds. Im Beispiel von Projekt Z bedeutet dies, dass die Vertragsorganisationseinheit Contoso US ist und die Projektplantestaufgaben in der Implementierungsphase der Rolle des technischen Beraters mit der Organisationseinheit Contoso India zugewiesen wurden. Die Integrationstestaufgabe, die nach der Implementierungsphase abgeschlossen wird, wurde der Rolle des technischen Beraters zugewiesen. Die Organisationsheit ist Contoso US und es wurde kein Team erstellt. Das Upgrade erstellt ein allgemeines Teammitglied, einen technischen Berater, dem Stunden für drei Aufgaben zugewiesen sind, und eine Organisationseinheit Contoso US, die Vertragsorganisationseinheit des Projekts.   
+Bei Aufgaben, die einer Rolle in einer Organisationseinheit zugewiesen sind, die sich von der Organisationseinheit des Vertragsprojekts unterscheidet, und für die kein Team erstellt wurde, erstellt das Upgrade ein allgemeines Teammitglied für die Rolle, verwendet jedoch auch die Vertragseinheit des Projekts für die Organisationseinheit des Teammitglieds. Im Beispiel von Projekt Z nehmen bedeutet dies, dass die Vertragsorganisationseinheit Contoso USA ist und die Projektplantestaufgaben in der Implementierungsphase der Rolle des technischen Beraters mit der Organisationseinheit Contoso Indien zugewiesen wurden. Die Integrationstestaufgabe, die nach der Implementierungsphase abgeschlossen wird, wurde der Rolle des technischen Beraters zugewiesen. Die Organisationseinheit ist Contoso USA und es wurde kein Team erstellt. Das Upgrade erstellt ein allgemeines Teammitglied, einen technischen Berater, dem Stunden für drei Aufgaben zugewiesen sind, und eine Organisationseinheit Contoso USA, die Vertragsorganisationseinheit des Projekts.   
  
 Das Ändern der standardmäßigen Ressourcenorganisationseinheit für nicht erneut generierte Teammitglieder ist der Grund dafür, dass wir empfehlen, dass Sie die Teams in den Projekten vor dem Upgrade erstellen oder erneut generieren, sodass die Organisationseinheitenzuweisungen nicht verloren gehen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

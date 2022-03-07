@@ -2,8 +2,6 @@
 title: Neuigkeiten und Änderungen in Project Service Automation, Update Release 15, V3
 description: Diese Thema enthält Informationen zu den Neuerungen in Project Service Automation Release 15, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143962"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004445"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation Update Release 15, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Wir freuen uns, das neueste Update für die Dynamics 365 Project Service Automation (PSA) Anwendung bekanntzugeben. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit. Diese Version ist mit Dynamics 365 9.x kompatibel. Um auf diese Version zu aktualisieren, besuchen Sie das Admin Center für Dynamics 365 online und rufen Sie die Lösungsseite auf, um das Update zu installieren. Weitere Informationen: [Installieren, Aktualisieren oder Entfernen einer bevorzugten Lösung](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Wir freuen uns, das neueste Update für die Dynamics 365 Project Service Automation (PSA) Anwendung bekanntzugeben. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit. Diese Version ist mit Dynamics 365 9.x kompatibel. Um auf diese Version zu aktualisieren, besuchen Sie das Admin Center für Dynamics 365 online und rufen Sie die Lösungsseite auf, um das Update zu installieren. Weitere Informationen: [Installieren, Aktualisieren oder Entfernen einer bevorzugten Lösung](/power-platform/admin/install-remove-preferred-solution).
 
 In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen für PSA V3, Update Release 15 aufgeführt. Diese Version hat eine Build-Nummer von V3.10.5.28 und ist im durch ein Selbst-Update im Januar 2020 verfügbar.
 
@@ -63,3 +61,6 @@ In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen 
   - Behoben: Es wird keine Fehlermeldung mehr angezeigt in **Projektsuche** in der **Angebotszeile**, wenn es mehr als 1000 Projekte gibt.
   - Behoben: Raster **Schätzungen** für Arbeitsschätzungen und Ausgabenschätzungen zeigt jetzt das richtige Währungssymbol an.
   - Behoben: Nachdem eine Organisation PSA von Update Release 14 auf Update Release 15 aktualisiert hat, wird die **Zeitplan** Registerkarte nicht mehr als leer auf dem Formular **Projekt** angezeigt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

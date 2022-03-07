@@ -1,9 +1,9 @@
 ---
 title: Ressourcenabstimmung – Übersicht
-description: Dieses Thema enthält Informationen, mit denen Sie sicherstellen können, dass Ressourcenbuchungen und Zuweisungen für Projekte aufeinander abgestimmt sind.
+description: Diese Thema enthält Informationen, um sicherzustellen, dass Ressourcenbuchungen und Arbeitsaufträge zu Projekten abgestimmt sind.
 author: ruhercul
 manager: AnnBe
-ms.date: 01/08/2021
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,34 +17,36 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849623"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125717"
 ---
 # <a name="resource-reconciliation-overview"></a>Ressourcenabstimmung – Übersicht
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, aber keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Unter Umständen basieren die Buchungen auf der Verfügbarkeit, und die Aufgabenzeitplanung wird im Laufe des Projekts geändert. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
+Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, jedoch keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Unter Umständen basieren die Buchungen auf der Verfügbarkeit, und die Aufgabenzeitplanung wird im Laufe des Projekts geändert. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
 
-Die Registerkarte **Abstimmung** auf der Seite **Projekte** ermöglicht es den Projektmanagern, die Buchungen und Zuweisungen der Teammitglieder für die Projektteams abzustimmen.
+Mit der Registerkarte **Abstimmung** auf dem Formular **Projekt** können Projektmanager Buchungen und Zuweisungen der Teammitglieder für die Projektteams abstimmen.
 
-Auf der Registerkarte **Abstimmung** werden Buchungen und Zuweisungen bis zu Ebene der einzelnen Aufgabenzuordnungen für jedes Teammitglied angezeigt. Stunden werden in Zellen angezeigt, die für Zeitperioden von Monaten bis Tagen stehen können. Auf der Registerkarte wird auch die allgemeine Nettosumme für das Projekt zusammen mit einer der Spalte **Total** angezeigt.
+Auf der Registerkarte **Abstimmung** werden auch Buchungen und Zuweisungen bis zu Ebene der einzelnen Aufgabenzuordnungen für jedes Teammitglied angezeigt. Stunden werden in Zellen angezeigt, was für Zeitperioden von Monaten bis Tagen stehen kann.
 
-Für jede Ressource berechnet die Registerkarte **Abstimmung** den Unterschied zwischen den Buchungen des Teammitglieds und einem Rollup der Aufgabenzuordnungen des Teammitglieds. Idealerweise sollte der Unterschied 0 (null) sein. Das bedeutet, dass es keinen Unterschied zwischen Buchungen und Zuweisungen geben sollte. Die Unterschiede werden farbig und schattiert angezeigt, um auf zwei Bedingungen hinzuweisen:
+Auf der Registerkarte wird auch die allgemeine Nettosumme für das Projekt zusammen mit einer der Spalte **Total** angezeigt.
 
-- **Verlust der Buchung** – Ein Buchungsverlust tritt auf, wenn eine Ressource mehr Zuweisungen als Buchungen hat. Da die Kapazität nicht reserviert wurde, kann ein Projektmanager diesen Zustand korrigieren, indem er die Ressourcenbuchungen erweitert, um das Defizit abzudecken.
-- **Überzählige Buchungen** – Überzählige Buchungen treten auf, wenn eine Ressource für das Projekt zwar gebucht, aber keinen Aufgaben zugewiesen wurde. Dieser Zustand kann akzeptabel sein, wenn die Ressource im Projekt gebucht wurde, bevor die Aufgabenzuordnung erfolgt ist. In anderen Fällen, in denen nicht geplant ist, der Ressource Aufgaben zuzuweisen, sollte der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren. Auf diese Weise kann die Kapazität für ein anderes Projekt verwendet werden.
+Für jede Ressource berechnet die Registerkarte den Unterschied zwischen den Buchungen des Teammitglieds und einem Rollup der Aufgabenzuordnungen des Teammitglieds. Idealerweise sollte der Unterschied 0 (null) sein. Das bedeutet, dass es keinen Unterschied zwischen Buchungen und Zuweisungen geben sollte. Die Unterschiede werden farbig und schattiert angezeigt, um auf zwei Bedingungen hinzuweisen:
 
-Wenn Sie die Zeit in einigen Fällen auf einer höheren als der Tagsebene (z. B. auf Monatsebene) anzeigen, sehen Sie einen Nettounterschied von null für eine Ressource (d. h.: Buchungen entsprechen Zuweisungen). Wenn Sie die Zeit jedoch auf Wochenebene anzeigen, sehen Sie, dass es Zuweisungen mit null Stunden und Buchungen mit 40 Stunden in der ersten Woche gibt, aber Zuweisungen von 40 Stunden und Buchungen von null Stunden in der zweiten Woche. Die Buchungen und Zuweisungen werden insgesamt abgestimmt, sie unterscheiden sich jedoch von einer Woche zur nächsten.
+- **Verlust der Buchung** – Ein Buchungsverlust tritt auf, wenn eine Ressource mehr Zuweisungen als Buchungen hat. Da diese Kapazität nicht reserviert wurde, kann ein Projektmanager diesen Zustand korrigieren, indem er die Ressourcenbuchungen erweitert, um das Defizit abzudecken.
+- **Überzählige Buchungen** – Überzählige Buchungen treten auf, wenn eine Ressource für das Projekt zwar gebucht, aber keinen Aufgaben zugewiesen wurde. Dieser Zustand kann akzeptabel sein, wenn die Ressource im Projekt gebucht wurde, bevor die Aufgabenzuordnung erfolgt ist. In anderen Fällen wird die Ressource jedoch nicht eingeplant, um Aufgaben zugewiesen zu werden. In diesen Fällen sollte es der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren, sodass die Kapazität für ein anderes Projekt verwendet werden kann.
 
-Wenn Sie Zeit auf höheren Ebenen anzeigen, haben die Zellen auf der Registerkarte **Abstimmung** einen Indikator, um Sie darüber zu informieren, dass es Unterschiede auf tieferen Ebenen gibt. Wenn Sie in einer Zelle doppelklicken, können Sie die Ansicht vergrößern, um so die Unterschiede anzuzeigen. Wählen und halten Sie (oder mit rechten Maustaste klicken), um die Ansicht wieder zu verkleinern. Sie können eine Ressource auswählen und dann mithilfe des **Nächster Unterschied**-Steuerelements auf der Rastersymbolleiste zu den folgenden Unterschieden zwischen Buchungen und Zuweisungen für die Ressource wechseln. Das Steuerelement **Vorheriger Unterschied** navigiert zurück. Sie können den Unterschiedindikator und das Navigationsverhalten unter **Einstellungen** deaktivieren.
+Wenn Sie die Zeit in einigen Fällen auf einer höheren als der Tagsebene (z. B. auf Monatsebene) anzeigen, sehen Sie einen Nettounterschied von null für eine Ressource (d. h.: Buchungen =Zuweisungen). Wenn Sie die Zeit jedoch auf Wochenebene anzeigen, sehen Sie, dass es Zuweisungen mit null Stunden und Buchungen mit 40 Stunden in der ersten Woche gibt, aber Zuweisungen von 40 Stunden und Buchungen von null Stunden in der zweiten Woche. Die Buchungen und Zuweisungen werden insgesamt abgestimmt, sie unterscheiden sich jedoch von einer Woche zur nächsten.
 
-Wenn Sie Aufgabenzuordnungen für eine Ressource, jedoch keine Buchungen haben, wählen Sie auf der **Projekte**-Seite, auf der Registerkarte **Abstimmung** den Buchungsverlust aus, und wählen Sie **Buchung erweitern** aus. Das Dialogfeld **Buchung erweitern** zeigt die Buchung an, die benötigt wird, um einen Ressourcenmangel zu beheben. Das Dialogfeld enthält außerdem die vorhandenen Buchungen der Ressource in allen Projekten oder anderen planbaren Entitäten. Wenn Sie **OK** auswählen, um die Buchung für die Ressource zu erstellen, entsteht ungeachtet der Verfügbarkeit der Ressource möglicherweise eine Überbuchung.
+Wenn Sie Zeit auf höheren Ebenen anzeigen, haben die Zellen auf der Registerkarte **Abstimmung** einen Indikator, um Sie darüber zu informieren, dass es Unterschiede auf tieferen Ebenen gibt. Wenn Sie in einer Zelle doppelklicken, können Sie die Ansicht vergrößern, um die Unterschiede anzuzeigen. Sie können dann mit der rechten Maustaste klicken, um die Ansicht wieder zu verkleinern. Sie können eine Ressource auswählen und dann mithilfe des **Nächster Unterschied**-Steuerelements auf der Rastersymbolleiste zu den folgenden Unterschieden zwischen Buchungen und Zuweisungen für die Ressource wechseln. Das Steuerelement **Vorheriger Unterschied** navigiert zurück. Sie können den Unterschiedindikator und das Navigationsverhalten unter **Einstellungen** deaktivieren.
 
-Buchungen, die über die Aktionen **Buchung verlängern** erstellt werden sind mit der primären Projektanforderung verbunden. Wenn eine Erweiterung initiiert wird, kann die spezifische Anforderung, die erweitert werden muss, nicht bestimmt werden, da die Ressource möglicherweise mehr als einer Anforderung für das Projekt zugeordnet ist.
 
-Der Projektmanager oder der Ressourcenmanager kann dann die Zeitplanansicht verwenden, um alle Situationen zu verwalten, in denen eine Ressource über die Kapazität überbucht wird.
+Wenn Sie Aufgabenzuordnungen für eine Ressource, jedoch keine Buchungen haben, wählen Sie auf der **Projekte**-Seite, auf der Registerkarte **Abstimmung** den Buchungsverlust aus, und wählen Sie dann **Buchung erweitern** aus. Das Dialogfeld **Buchung erweitern** wird mit der Buchung angezeigt, die benötigt wird, um einen Ressourcenmangel zu beheben. Es enthält außerdem die vorhandenen Buchungen der Ressource in allen Projekten oder anderen planbaren Entitäten. Wenn Sie **OK** auswählen, um die Buchung für die Ressource zu erstellen, entsteht ungeachtet der Verfügbarkeit der Ressource möglicherweise eine Überbuchung.
+
+Der Projektmanager oder der Ressourcenmanager kann dann die Zeitplanübersicht verwenden, um alle Situationen zu verwalten, in denen eine Ressource über die Kapazität überbucht wird.
+

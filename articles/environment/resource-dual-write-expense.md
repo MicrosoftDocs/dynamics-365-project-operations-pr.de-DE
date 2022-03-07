@@ -5,14 +5,15 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c347f14f3a479eb4aec951cfe4094c5581bce32
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986580"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955753"
 ---
 # <a name="expense-management-integration"></a>Ausgabenverwaltungsintegration
 
@@ -28,7 +29,7 @@ Bei einer vollständigen Kostenbereitstellung werden Kostenkategorien in Finance
 2. Gehen Sie in Finance zu **Ausgabenmanagement** > **Einrichten** > **Gemeinsame Kategorien** und wählen Sie eine gemeinsame Kategorie mit einer **Ausgaben** Transaktionsklasse. Stellen Sie den Parameter **Kann in Ausgaben verwendet werden** auf **True** und definieren Sie die zu verwendende Aufwandsart.
 3. Erstellen Sie mithilfe dieses Datensatzes für gemeinsam genutzte Kategorien eine neue Ausgabenkategorie, indem Sie zu **Ausgabenmanagement** > **Einrichten** > **Ausgabenkategorien** gehen und **Neu** auswählen. Wenn der Datensatz gespeichert wird, verwendet Dual-Write die Tabellenzuordnung **Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn\_expensecategories)**, um diesen Datensatz zu mit Dataverse synchronisieren.
 
-  ![Ausgabenkategorienintegration.](./media/DW6ExpenseCategories.png)
+  ![Ausgabenkategorienintegration](./media/DW6ExpenseCategories.png)
 
 Ausgabenkategorien in Finance and Operations-Apps sind unternehmensspezifisch oder juristische Person-spezifisch. Es gibt separate, zugehörige juristische Person-spezifische Datensätze in Dataverse. Wenn ein Projektmanager Ausgaben schätzt, kann er keine Ausgabenkategorien auswählen, die für ein Projekt erstellt wurden, das einem anderen Unternehmen gehört als dem Unternehmen, dem das Projekt gehört, an dem er arbeitet. 
 
@@ -40,7 +41,7 @@ Ausgabenberichte werden in Finance and Operations Apps erstellt und genehmigt. W
   - Dual-Write synchronisiert mit Dataverse mithilfe der Tabellenzuordnung **Project Operations-Integration Projektkosten-Exportentität (msdyn\_expenses)**.
   - Steuer-Untersachkonto, Lieferanten-Untersachkonto und andere Finanzbuchungen werden erfasst, wenn der Ausgabenbericht gebucht wird.
 
-  ![Integration der Ausgabenabrechnungen.](./media/DW6ExpenseReports.png)
+  ![Integration der Spesenabrechnungen](./media/DW6ExpenseReports.png)
 
 Wenn ein Datensatz in die Entität **Ausgaben** in Dataverse geschrieben wird, löst das System den automatisierten Genehmigungsprozess des Datensatzes aus. Bei Bedarf kann der Status des automatisierten Genehmigungsprozesses in Dataverse überprüft werden unter **Erweiterte Einstellungen** > **System** > **Systemjobs**. Nach Abschluss der Genehmigung werden die Ausgabenbuchungsklasse-Datensätze in der **Istwerte** Entität erstellt.
 

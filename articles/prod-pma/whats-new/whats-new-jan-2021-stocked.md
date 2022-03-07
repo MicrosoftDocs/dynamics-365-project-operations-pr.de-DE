@@ -2,19 +2,17 @@
 title: Neuigkeiten oder Änderungen für Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations vom Januar 2021 für Szenarien basierend auf vorrätigen Ressourcen/Fertigung verfügbar sind.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958647"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992745"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Neuigkeiten oder Änderungen für Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
@@ -144,4 +142,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | Reisekosten und Ausgaben                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | In Project Operations kann die Zeit mit konzerninternen Aufgaben in Dataverse nicht erstellt oder genehmigt werden.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

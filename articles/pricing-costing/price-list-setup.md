@@ -2,28 +2,26 @@
 title: Preislisten einrichten
 description: Dieses Thema bietet Informationen zum Einrichten von Kosten- und Verkaufspreislisten.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180191"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009485"
 ---
 # <a name="set-up-price-lists"></a>Preislisten einrichten
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Preislisten in Dynamics 365 Project Operations stellen einen Katalog von Tarifen dar. Die Preise drücken Kosten-, Umsatz- und Rechnungssätze aus. Abhängig davon, ob die Preisliste Kostensätze oder Verkaufs- und Rechnungssätze ausdrückt, lautet der Kontext der Preisliste **Umsatz** oder **Kosten**.
+In Dynamics 365 Project Operations stellen Preislisten einen Katalog von Preisen dar. Die Preise drücken Kosten-, Umsatz- und Rechnungssätze aus. Abhängig davon, ob die Preisliste Kostensätze oder Verkaufs- und Rechnungssätze ausdrückt, lautet der Kontext der Preisliste **Umsatz** oder **Kosten**.
 
 Die folgenden Erweiterungen gelten speziell für Project Operations und werden auf Preislisten von Dynamics 365 Sales angewendet.
 
-- **Kontext**: Dieses Feld enthält die unterstützten Werte **Kosten** und **Umsatz**. Der Wert **Kauf** wird nicht unterstützt. Legen Sie den Kontext auf **Kosten** fest, um eine Einstandspreisliste zu erstellen, oder den Kontext für eine Verkaufspreisliste auf **Verkauf** festzulegen. Einstandspreislisten lösen den Preis für die Kostenart in Datensätzen zu Kostenvoranschlägen und Istwerten auf. Verkaufspreislisten lösen den Preis für Datensätze zu Kostenvoranschlägen und Istwerten von nicht fakturierte und fakturierten Umsatztypen auf.
+- **Kontext**: Dieses Feld enthält die unterstützten Werte **Kosten** und **Umsatz**. Der Wert **Kauf** wird nicht unterstützt. Legen Sie den Kontext auf **Kosten** fest, um eine Einstandspreisliste zu erstellen, oder den Kontext für eine Verkaufspreisliste auf **Verkauf** festzulegen. Einstandspreislisten lösen Sie den Preis für die Kostenart anhand von Kostenvoranschlägen und Datensätze für Istwerte auf. Verkaufspreislisten lösen den Preis für Datensätze zu Kostenvoranschlägen und Istwerten von nicht fakturierte und fakturierten Umsatztypen auf.
 - **Zeiteinheit**: Dies ist die Standardzeiteinheit, für die der Preis in der entsprechenden Tabelle **Rollenpreis** für diese Preisliste eingerichtet ist.
 - **Preislistenentität**: Dieses ausgeblendete Feld wird von Project Operations verwendet, um Preislisten, die angebots- oder vertragsspezifisch sind, von Standardlisten zu unterscheiden, die standardmäßig und global anwendbar sind.
 
@@ -40,3 +38,6 @@ Die folgende Tabelle enthält die Felder auf der Registerkarte **Allgemein** ein
 | Währung | Die Registerkarte **Allgemein** und **Schnellerfassungs**-Formulare | In diesem Feld wird die Währung für jede Rollen-, Kategorie- oder Preislisten-Artikelzeile festgelegt, die sich auf diese Preisliste bezieht. | In den Preislisten **Verkauf** können Zeilen für Preislisten, Rollen, Kategorien oder Preislistenelemente nicht in einer anderen Währung als in dieser Währung erstellt werden. In den Preislisten **Kosten** können Sie eine Rollenpreislinie in jeder Währung erstellen. Die hier definierte Währung wird standardmäßig verwendet. Das Benutzer-Setup, das sich auf die Rollenpreise bezieht, kann diesen Wert überschreiben, um das Einrichten des Arbeitskostensatzes in jeder Währung zu ermöglichen. Kategoriekostensätze und Preislistenelementkosten können nur in der hier definierten Währung eingerichtet werden. |
 | Zeiteinheit | Die Registerkarte **Allgemein** und **Schnellerfassungs**-Formulare | In diesem Feld wird die Zeiteinheit für jede Rollenzeile verwendet, die sich auf diese Preisliste bezieht. | Dieser Feldwert wird nur für die Einrichtung des zugehörigen Rollenpreises verwendet. In den Preislisten **Kosten** und **Verkauf** können Sie eine Rollenpreiszeile in jeder Zeiteinheit erstellen. Die hier definierte Zeiteinheit wird standardmäßig verwendet. Das Benutzer-Setup, das sich auf die Rollenpreise bezieht, kann diesen Wert überschreiben, um das Einrichten des Arbeitskosten- und Abrechnungssatzes in jeder Zeiteinheit zu ermöglichen. |
 | Beschreibung des Dataflows | Die Registerkarte **Allgemein** und **Schnellerfassungs**-Formulare | In diesem Textfeld können Sie eine mehrzeilige Beschreibung der Preisliste bereitstellen. | Dieses Feld wird in den Ansichten **Zugeordnet** in der Preisliste in verschiedenen Entitäten angezeigt, die zugehörige Preislisten haben. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

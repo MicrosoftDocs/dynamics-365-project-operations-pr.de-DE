@@ -1,41 +1,31 @@
 ---
-title: Konzepte für finanzielle Vorkalkulationen
-description: Dieses Thema enthält Informationen zu finanzielle Vorkalkulationen für Projekte in Project Operations.
-author: rumant
+title: Projekte kalkulieren – Übersicht
+description: Dieses Thema enthält Informationen zu Vorkalkulationen in Dynamics 365 Project Operations.
+author: ruhercul
 manager: AnnBe
-ms.date: 03/22/2021
+ms.date: 10/06/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.author: ruhercul
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701735"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286877"
 ---
-# <a name="financial-estimation-concepts"></a>Konzepte für finanzielle Vorkalkulationen
+# <a name="estimate-projects-overview"></a>Projekte kalkulieren – Übersicht
 
-_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-In Dynamics 365 Project Operations können Sie Ihre Projekte in zwei Schritten finanziell abschätzen: 
-1. Während der Vorverkaufsphase, bevor der Deal gewonnen wird. 
-2. Während der Ausführungsphase nach dem Erstellen des Projektvertrags. 
-
-Sie können eine finanzielle Vorkalkulation für projektbasierte Arbeit auf einer der folgenden 3 Seiten erstellen:
-- Auf der Seite **Angebotszeile** unter Verwendung der Angebotszeilendetails.  
-- Auf der Seite **Projektvertragszeile** unter Verwendung der Vertragszeilendetails. 
-- Auf der Seite **Projekt** mit den Registerkartenseiten **Aufgaben** oder **Ausgabenschätzungen**.
-
-## <a name="use-a-project-quote-to-create-an-estimate"></a>Verwenden Sie ein Projektangebot, um einen Kostenvoranschlag zu erstellen
 In einem projektbasierten Angebot können Sie die Entität **Detail zur Angebotsposition** verwenden, um die für die Lieferung eines Projekts erforderliche Arbeit abzuschätzen. Sie können diese Schätzung anschließend mit dem Kunden teilen.
 
-Projektbasierte Angebotszeilen müssen Null bis viele Angebotsposition enthalten. Angebotspositionsdetails werden verwendet, um Zeit, Ausgaben oder Gebühren zu schätzen. Microsoft Dynamics 365 Project Operations lässt keine Materialvorkalkulationen für Angebotspositionsdetails zu. Diese werden als Transaktionsklassen bezeichnet. Geschätzte Steuerbeträge können ebenfalls für eine Transaktionsklasse eingegeben werden.
+Projektbasierte Angebotszeilen müssen Null bis viele Angebotsposition enthalten. Angebotspositionsdetails werden verwendet, um Zeit, Ausgaben oder Gebühren zu schätzen. Microsoft Dynamics 365 Project Operations lässt keine Materialschätzungen für Angebotspositionsdetails zu. Diese werden als Transaktionsklassen bezeichnet. Geschätzte Steuerbeträge können ebenfalls für eine Transaktionsklasse eingegeben werden.
 
 Zusätzlich zu den Transaktionsklassen enthalten Angebotspositionsdetails einen Transaktionstyp. Zwei Transaktionstypen werden für Angebotspositionsdetails unterstützt: **Kosten** und **Projektvertrag**.
 
-## <a name="use-a-project-contract-to-create-an-estimate"></a>Verwenden Sie einen Projektvertrag, um einen Kostenvoranschlag zu erstellen
+## <a name="estimate-by-using-a-contract"></a>Schätzung mithilfe eines Vertrags
 
 Wenn Sie beim Erstellen eines projektbasierten Vertrags ein Angebot verwendet haben, wird die Schätzung, die Sie im Angebot für jede Angebotsposition vorgenommen haben, in den Projektvertrag kopiert. Die Struktur eines Projektvertrags ähnelt der Struktur eines Projektangebots mit Positionen, Positionsdetails und Rechnungszeitplänen.
 
@@ -43,19 +33,25 @@ Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot 
 
 Vertragszeilendetails können zur Schätzung von Zeit, Ausgaben oder Gebühren verwendet werden. Geschätzte Steuerbeträge können ebenfalls bei den Vertragszeilendetails eingegeben werden.
 
-Materialvorkalkulationen für Vertragszeilendetails sind nicht erlaubt.
+Materialschätzungen für Vertragszeilendetails sind nicht erlaubt.
 
-## <a name="use-a-project-to-create-an-estimate"></a>Verwenden Sie ein Projekt, um einen Kostenvoranschlag zu erstellen 
+Die Prozesse, die bei einem Projektvertrag unterstützt werden sind Rechnungserstellung und -bestätigung. Rechnungserstellung erstellt einen Entwurf einer projektbasierten Rechnung, die alle nicht fakturierten vertrieblichen Ist-Werte bis zum aktuellen Datum enthält.
 
-Sie können Zeit und Ausgaben für Projekte schätzen. Project Operations unterstützt keine Schätzungen von Materialien oder Gebühren für Projekte.
+Durch die Bestätigung wird der Vertrag schreibgeschützt und der Status von **Entwurf** in **Bestätigt** geändert. Nachdem Sie diese Aktion ausgeführt haben, können Sie sie nicht mehr rückgängig machen. Da es sich bei dieser Aktion um eine permanente Aktion handelt, empfiehlt es sich, den Vertrag im Status **Entwurf** zu belassen.
 
-Zeitvorkalkulationen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitvorkalkulationen werden aus Zeitplanaufgaben generiert. Zeitvorkalkulationen werden nicht erstellt, wenn Sie allgemeine Teammitglieder außerhalb des Zeitplans erstellen.
+Die einzigen Unterschiede zwischen Vertragsentwürfen und bestätigten Verträgen sind ihr Status und die Tatsache, dass Vertragsentwürfe bearbeitet werden können, bestätigte Verträge hingegen nicht. Die Rechnungserstellung sowie die Nachverfolgung von Ist-Werten kann sowohl bei Vertragsentwürfen als auch bei bestätigten Verträgen erfolgen.
 
-Ausgabenschätzungen werden in das Raster auf der Seite **Ausgabenschätzungen** eingegeben.
+Projektvorgänge unterstützen keine Änderungsaufträge bei Verträgen bzw. Projekten.
 
-Das Erstellen einer Schätzung für ein Projekt wird als bewährte Methode angesehen, da Sie für jede Aufgabe im Projektplan detaillierte Bottom-up-Schätzungen für Arbeit oder Zeit und Kosten erstellen können. Mit dieser detaillierten Schätzung können Sie dann Schätzungen für jede Angebotszeile erstellen und ein glaubwürdigeres Angebot für den Kunden erstellen. Wenn Sie mithilfe des Projektplans eine detaillierte Schätzung in die Angebotszeile importieren oder erstellen, importiert Project Operations die Verkaufswerte und die Kostenwerte dieser Schätzungen. Nach dem Import können Sie die Rentabilitäts-, Margen- und Durchführbarkeitsmetriken im Projektangebot anzeigen.
+## <a name="estimating-projects"></a>Einschätzen von Projekten
 
-## <a name="understanding-estimates"></a>Grundlegendes zur Vorkalkulation
+Sie können Zeit und Ausgaben für Projekte schätzen. Projektvorgänge lässt keine Material- bzw. Gebührenschätzungen für Projekte zu.
+
+Zeitschätzungen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitschätzungen werden aus Zeitplanaufgaben generiert. Zeitschätzungen werden nicht erstellt, wenn Sie allgemeine Teammitglieder außerhalb des Zeitplans erstellen.
+
+Ausgabenschätzungen werden in das Raster auf der Seite **Schätzungen** eingegeben.
+
+## <a name="understanding-estimation"></a>Grundlegendes zur Vorkalkulation
 
 Verwenden Sie die folgende Tabelle als Leitfaden zum Verständnis der Geschäftslogik in der Vorkalkulationsphase.
 

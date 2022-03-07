@@ -2,25 +2,23 @@
 title: Mit projektbasierten Vertragszeilen arbeiten
 description: Dieses Thema enthält Informationen zu projektbasierten Vertragszeilen.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181717"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011505"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Mit projektbasierten Vertragszeilen arbeiten
 
 Projektbasierte Vertragszeilen in Dynamics 365 Project Operations dienen dazu, die Kostenvoranschlags- und Abrechnungsvereinbarungen für bestimmte Komponenten der Projektarbeit an einem Auftrag zu speichern. Die Struktur einer projektbasierten Vertragszeile wird für Projektschätzungen und Abrechnungsszenarien um folgende Konzepte erweitert:
 
-- Fakturierungsmethode
-- Projekt- und Aufgabenzuordnung
+- Abrechnungsmethode
+- Projekt‑ und Aufgabenzuordnung
 - Eingeschlossene Transaktionsklassen
 - Nicht zu überschreitender Grenzwert
 - Fakturierbarkeitseinrichtung
@@ -57,3 +55,6 @@ Regel: Ein Projekt und eine bestimmte Transaktionsklasse können nur in einer pr
 | C1       | CL2           | P1      | Nr.           | Ja             | Nr.          | Gültig           | Zeit und Gebühren für Projekt P1 sind im CL1 enthalten. Die Kosten für das P1-Projekt sind in CL2 enthalten. </br>   Es gibt keine Überschneidungen in dem, was in jeder Vertragszeile enthalten ist, und ist daher gültig.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Nicht gültig       | Verstößt gegen die Regel. Zeit, Kosten und Gebühren für Projekt P1 sind in den Zeilen von zwei Verträgen enthalten.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Nicht gültig       | Verstößt gegen die Regel. Zeit, Kosten und Gebühren für Projekt P1 sind in den Zeilen von zwei Verträgen enthalten.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

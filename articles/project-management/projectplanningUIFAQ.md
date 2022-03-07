@@ -2,19 +2,17 @@
 title: Problembehandlung für die Arbeit im Aufgabenraster
 description: Dieses Thema enthält Informationen zur Fehlerbehebung, die beim Arbeiten im Aufgabenraster erforderlich sind.
 author: ruhercul
-manager: tfehr
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031536"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989100"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problembehandlung für die Arbeit im Aufgabenraster 
 
@@ -26,7 +24,7 @@ In diesem Thema wird beschrieben, wie Sie Probleme beheben, die bei der Arbeit m
 
 Für Project Operations müssen Cookies von Drittanbietern aktiviert sein, um den Projektstrukturplan zu rendern. Wenn Cookies von Drittanbietern nicht aktiviert sind, wird anstelle von Aufgaben eine leere Seite angezeigt, wenn Sie die Registerkarte **Aufgaben** auf der Seite **Projekt** auswählen.
 
-![Leere Registerkarte, wenn Cookies von Drittanbietern nicht aktiviert sind](media/blankschedule.png)
+![Leere Registerkarte, wenn Cookies von Drittanbietern nicht aktiviert sind.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Problemumgehung
@@ -54,11 +52,22 @@ Für Microsoft Edge oder Google Chrome Browser beschreiben die folgenden Verfahr
 Für Project Operations muss ein Projektparameter auf PEX Endpunkt verweisen. Dieser Endpunkt ist erforderlich, um mit dem Dienst zu kommunizieren, der zum Rendern des Projektstrukturplans verwendet wird. Wenn der Parameter nicht aktiviert ist, wird die Fehlermeldung der Projektparameter ist ungültig angezeigt. 
 
 ### <a name="workaround"></a>Problemumgehung
- ![PEX Endpunkt Feld im Projektparameter](media/projectparameter.png)
 
 1. Ergänzen Sie das Feld **PEX Endpunkt** auf der Seite **Projektparameter**.
-2. Aktualisieren Sie das Feld mit dem folgenden Wert: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
-3. Entfernen Sie das Feld aus der Seite **Projektparameter**.
+2. Identifizieren Sie den Produkttyp, den Sie verwenden. Dieser Wert wird verwendet, wenn der PEX-Endpunkt gesetzt ist. Beim Abruf ist der Produkttyp bereits im PEX Endpunkt definiert. Behalten Sie diesen Wert bei. 
+   
+    ![PEX-Endpunkt-Feld im Projektparameter.](media/pex-endpoint.png)
+
+3. Aktualisieren Sie das Feld mit dem folgenden Wert: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Produkttyp                         | Typenparameter |
+   |--------------------------------------|----------------|
+   | Project for the Web der Standardorganisation   | Typ=0         |
+   | Project for the Web der benannten CDS-Organisation | Typ=1         |
+   | Project Operations                   | Typ=2         |
+   
+4. Entfernen Sie das Feld aus der Seite **Projektparameter**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Berechtigungen für Project für das Web
 
@@ -69,7 +78,7 @@ Project Operations ist auf einen externen Planungsservice angewiesen. Der Dienst
 
 1. Gehen Sie zu **Einstellung > Sicherheit > Benutzer > Anwendungsbenutzer**.  
 
-   ![Anwendungsleser](media/applicationuser.jpg)
+   ![Anwendungsleser.](media/applicationuser.jpg)
    
 2. Doppelklicken Sie auf den Anwendungsbenutzerdatensatz, um Folgendes zu überprüfen:
 
@@ -78,7 +87,7 @@ Project Operations ist auf einen externen Planungsservice angewiesen. Der Dienst
  
 3. Wenn dieser Benutzer nicht vorhanden ist, können Sie einen neuen Benutzerdatensatz erstellen. Wählen Sie **Neuer Benutzer** aus. Ändern Sie das Anmeldeformular in **Anwendungsbenutzer** und fügen Sie dann die **Anwendungs-ID** hinzu.
 
-   ![Anwendungsbenutzer-Details](media/applicationuserdetails.jpg)
+   ![Anwendungsbenutzer-Details.](media/applicationuserdetails.jpg)
 
 4. Stellen Sie sicher, dass dem Benutzer die richtige Lizenz zugewiesen wurde und dass der Dienst in den Serviceplandetails der Lizenz aktiviert ist.
 5. Stellen Sie sicher, dass der Benutzer project.microsoft.com öffnen kann.
@@ -106,3 +115,6 @@ Wenn eine oder mehrere Aktualisierungen am Projektstrukturplan vorgenommen werde
   - Project Operations System
   - Projektsystem
   - System duales Schreiben für Project Operations (Diese Rolle ist erforderlich, wenn Sie das Szenario ressourcen/nicht vorrätig von Project Operations bereitstellen.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

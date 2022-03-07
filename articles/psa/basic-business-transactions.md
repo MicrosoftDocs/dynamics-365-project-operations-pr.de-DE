@@ -2,8 +2,6 @@
 title: Geschäftstransaktionen
 description: Dieses Thema enthält Informationen zu Geschäftstransaktionen.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149902"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987525"
 ---
 # <a name="business-transactions"></a>Geschäftstransaktionen
 
@@ -39,7 +37,7 @@ In Dynamics 365 Project Service Automation ist *Geschäftstransaktion* ein abstr
 - Erfassungspositionen
 - Ist-Werte
 
-Von diesen Entitäten werden Angebotspositions- und Vertragszeilendetails sowie Vorkalkulationszeilen im Projektlebenszyklus der Vorkalkulationsphase zugeordnet. Die Entitäten „Erfassungspositionen” und „Ist-Werte” werden im Projektlebenszyklus der Ausführungsphase zugeordnet.
+Von diesen Entitäten werden Angebotspositions- und Vertragszeilendetails sowie Vorkalkulationszeilen im Projektlebenszyklus der Vorkalkulationsphase zugeordnet. Die Entitäten „Erfassungspositionen“ und „Ist-Werte“ werden im Projektlebenszyklus der Ausführungsphase zugeordnet.
 
 PSA behandelt Datensätze in diesen fünf Entitäten als Geschäftstransaktionen. Die einzige Unterscheidung besteht darin, dass Datensätze in den Entitäten, die zur Vorkalkulationsphase zugeordnet werden, als Finanzprognosen gelten, wohingegen die Datensätze in den Entitäten, die zur Ausführungsphase zugeordnet werden, als bereits eingetretene Finanztatsachen gelten.
 
@@ -90,54 +88,54 @@ Mithilfe von Transaktionsursprung und Transaktionsverbindung können Sie Beziehu
 
 Im folgenden Beispiel wird die typische Verarbeitung von Zeiteinträgen im Lebenszyklus eines PSA-Projekts veranschaulicht.
 
-> ![Verarbeitung von Zeiteinträgen in einem Project Service-Lebenszyklus](media/basic-guide-17.png)
+> ![Verarbeitung von Zeiteinträgen in einem Project Service-Lebenszyklus.](media/basic-guide-17.png)
  
 1. Die Übermittlung eines Zeiteintrags führt zur Erstellung von zwei Erfassungspositionen: eine für die Kosten und eine für den nicht fakturierten Vertrieb.
 2. Die spätere Genehmigung des Zeiteintrags führt zur Erstellung von zwei Ist-Werten: einer für die Kosten und einer für den nicht fakturierten Vertrieb.
 3. Wenn der Benutzer eine Projektrechnung erstellt, wird die Rechnungszeilentransaktion unter Verwendung der Daten aus dem nicht fakturiertem vertrieblichen Ist-Wert erstellt. 
 4. Wenn die Rechnung bestätigt wird, werden zwei neue Ist-Werte erstellt: eine nicht fakturierte Umsatzumkehrung und ein fakturierter Umsatz-Istwert.
 
-Jedes dieser Ereignisse löst die Erstellung von Datensätzen in den Entitäten „Transaktionsursprung” und „Transaktionsverbindung” aus, damit die Beziehungen zwischen diesen Datensätzen, die über Zeiteinträge, Erfassungspositionen, Ist-Werte und Rechnungspositionsdetails erstellt werden, überwacht werden können.
+Jedes dieser Ereignisse löst die Erstellung von Datensätzen in den Entitäten „Transaktionsursprung“ und „Transaktionsverbindung“ aus, damit die Beziehungen zwischen diesen Datensätzen, die über Zeiteinträge, Erfassungspositionen, Ist-Werte und Rechnungspositionsdetails erstellt werden, überwacht werden können.
 
-Die folgende Tabelle enthält die Datensätze in der Entität „Transaktionsursprung” für den vorangehenden Workflow.
+Die folgende Tabelle enthält die Datensätze in der Entität „Transaktionsursprung“ für den vorangehenden Workflow.
 
 | Ereignis                        | Ursprung                   | Ursprungstyp                       | Transaktion                       | Transaktionstyp         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
-| Übermittlung des Zeiteintrags        | GUID des Datensatzes „Zeiteintrag”   | Zeiteintrag                        | GUID des Datensatzes „Erfassungsposition (Kosten)”   | Erfassungsposition             |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID des Datensatzes „Erfassungsposition (Vertrieb)”  | Erfassungsposition                      |                          |
-| Genehmigung der Zeit                | GUID des Datensatzes „Erfassungsposition” | Erfassungsposition                      | GUID des Datensatzes „Nicht fakturierte Umsätze”        | Tatsächlich                   |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID des Datensatzes „Nicht fakturierte Umsätze”        | Tatsächlich                            |                          |
-| GUID des Datensatzes „Erfassungsposition”     | Erfassungsposition             | GUID des Datensatzes „Kosten-Istwert”           | Tatsächlich                            |                          |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID des Datensatzes „Kosten-Istwert”           | Tatsächlich                            |                          |
-| Rechnungserstellung             | GUID des Datensatzes „Zeiteintrag”   | Zeiteintrag                        | GUID der Rechnungszeilentransaktion     | Rechnungszeilentransaktion |
-| GUID des Datensatzes „Erfassungsposition”     | Erfassungsposition             | GUID der Rechnungszeilentransaktion     | Rechnungszeilentransaktion          |                          |
-| Rechnungsbestätigung         | GUID der Rechnungsposition        | Rechnungsposition                      | GUID des Datensatzes „Fakturierte Umsätze”          | Tatsächlich                   |
-| GUID der Rechnung                 | Rechnung                  | GUID des Datensatzes „Fakturierte Umsätze”          | Tatsächlich                            |                          |
-| GUID der Rechnungsposition     | Rechnungsposition      | GUID des Datensatzes „Fakturierte Umsätze”          | Tatsächlich                            |                          |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID des Datensatzes „Fakturierte Umsätze”          | Tatsächlich                            |                          |
-| GUID des Datensatzes „Erfassungsposition”     | Erfassungsposition             | GUID des Datensatzes „Fakturierte Umsätze”          | Tatsächlich                            |                          |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID der Nicht fakturierten Umsatzumkehrung      | Tatsächlich                            |                          |
-| GUID des Datensatzes „Erfassungsposition”     | Erfassungsposition             | GUID der Nicht fakturierten Umsatzumkehrung      | Tatsächlich                            |                          |
+| Übermittlung des Zeiteintrags        | GUID des Datensatzes „Zeiteintrag“   | Zeiteintrag                        | GUID des Datensatzes „Erfassungsposition (Kosten)“   | Erfassungsposition             |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID des Datensatzes „Erfassungsposition (Vertrieb)“  | Erfassungsposition                      |                          |
+| Genehmigung der Zeit                | GUID des Datensatzes „Erfassungsposition“ | Erfassungsposition                      | GUID des Datensatzes „Nicht fakturierte Umsätze“        | Tatsächlich                   |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID des Datensatzes „Nicht fakturierte Umsätze“        | Tatsächlich                            |                          |
+| GUID des Datensatzes „Erfassungsposition“     | Erfassungsposition             | GUID des Datensatzes „Kosten-Istwert“           | Tatsächlich                            |                          |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID des Datensatzes „Kosten-Istwert“           | Tatsächlich                            |                          |
+| Rechnungserstellung             | GUID des Datensatzes „Zeiteintrag“   | Zeiteintrag                        | GUID der Rechnungszeilentransaktion     | Rechnungszeilentransaktion |
+| GUID des Datensatzes „Erfassungsposition“     | Erfassungsposition             | GUID der Rechnungszeilentransaktion     | Rechnungszeilentransaktion          |                          |
+| Rechnungsbestätigung         | GUID der Rechnungsposition        | Rechnungsposition                      | GUID des Datensatzes „Fakturierte Umsätze“          | Tatsächlich                   |
+| GUID der Rechnung                 | Rechnung                  | GUID des Datensatzes „Fakturierte Umsätze“          | Tatsächlich                            |                          |
+| GUID der Rechnungsposition     | Rechnungsposition      | GUID des Datensatzes „Fakturierte Umsätze“          | Tatsächlich                            |                          |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID des Datensatzes „Fakturierte Umsätze“          | Tatsächlich                            |                          |
+| GUID des Datensatzes „Erfassungsposition“     | Erfassungsposition             | GUID des Datensatzes „Fakturierte Umsätze“          | Tatsächlich                            |                          |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID der Nicht fakturierten Umsatzumkehrung      | Tatsächlich                            |                          |
+| GUID des Datensatzes „Erfassungsposition“     | Erfassungsposition             | GUID der Nicht fakturierten Umsatzumkehrung      | Tatsächlich                            |                          |
 | Korrektur des Rechnungsentwurfs     | GUID der alten ILD (Rechnungsposition)             | Rechnungszeilentransaktion          | GUID der Korrektur der ILD (Rechnungsposition)               | Rechnungszeilentransaktion |
 | GUID der alten IL (Rechnungszeile)                  | Rechnungsposition             | GUID der Korrektur der ILD (Rechnungsposition)               | Rechnungszeilentransaktion          |                          |
 | GUID der alten Rechnung             | Rechnung                  | GUID der Korrektur der ILD (Rechnungsposition)               | Rechnungszeilentransaktion          |                          |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID der Korrektur der ILD (Rechnungsposition)               | Rechnungszeilentransaktion          |                          |
-| GUID des Datensatzes „Erfassungsposition”     | Erfassungsposition             | GUID der Korrektur der ILD (Rechnungsposition)               | Rechnungszeilentransaktion          |                          |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID der Korrektur der ILD (Rechnungsposition)               | Rechnungszeilentransaktion          |                          |
+| GUID des Datensatzes „Erfassungsposition“     | Erfassungsposition             | GUID der Korrektur der ILD (Rechnungsposition)               | Rechnungszeilentransaktion          |                          |
 | Bestätigte Rechnungskorrektur | GUID der alten ILD (Rechnungsposition)             | Rechnungszeilentransaktion          | GUID des umgekehrten, abgerechneten vertrieblichen Ist-Werts | Tatsächlich                   |
 | GUID der alten IL (Rechnungszeile)                  | Rechnungsposition             | GUID des umgekehrten, abgerechneten vertrieblichen Ist-Werts | Tatsächlich                            |                          |
 | GUID der alten Rechnung             | Rechnung                  | GUID des umgekehrten, abgerechneten vertrieblichen Ist-Werts | Tatsächlich                            |                          |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID des umgekehrten, abgerechneten vertrieblichen Ist-Werts | Tatsächlich                            |                          |
-| GUID des Datensatzes „Erfassungsposition”     | Erfassungsposition             | GUID des umgekehrten, abgerechneten vertrieblichen Ist-Werts | Tatsächlich                            |                          |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID des umgekehrten, abgerechneten vertrieblichen Ist-Werts | Tatsächlich                            |                          |
+| GUID des Datensatzes „Erfassungsposition“     | Erfassungsposition             | GUID des umgekehrten, abgerechneten vertrieblichen Ist-Werts | Tatsächlich                            |                          |
 | GUID der alten ILD (Rechnungsposition)                 | Rechnungszeilentransaktion | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
 | GUID der alten IL (Rechnungszeile)                  | Rechnungsposition             | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
 | GUID der alten Rechnung             | Rechnung                  | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
-| GUID des Datensatzes „Zeiteintrag”       | Zeiteintrag               | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
-| GUID des Datensatzes „Erfassungsposition”     | Erfassungsposition             | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
+| GUID des Datensatzes „Zeiteintrag“       | Zeiteintrag               | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
+| GUID des Datensatzes „Erfassungsposition“     | Erfassungsposition             | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
 | GUID der Korrektur der ILD (Rechnungsposition)          | Rechnungszeilentransaktion | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
 | GUID der IL (Rechnungszeilen)-Korrektur           | Rechnungsposition             | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
 | GUID der Korrekturrechnung      | Rechnung                  | GUID des Neuen nicht fakturierten Umsatz-Istwerts    | Tatsächlich                            |                          |
 
-Die folgende Tabelle enthält die Datensätze in der Entität „Transaktionsverbindung” für den vorangehenden Workflow.
+Die folgende Tabelle enthält die Datensätze in der Entität „Transaktionsverbindung“ für den vorangehenden Workflow.
 
 | Ereignis                          | Transaktion 1                 | Rolle Transaktion 1 | Typ Transaktion 1           | Transaktion 2                | Rolle Transaktion 2 | Typ Transaktion 2 |
 |--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
@@ -149,3 +147,6 @@ Die folgende Tabelle enthält die Datensätze in der Entität „Transaktionsver
 | Korrektur des Rechnungsentwurfs       | GUID der Rechnungszeilentransaktion | Ersetzen          | msdyn_invoicelinetransaction | GUID der Fakturierten Umsätze            | Original           | msdyn_actual       |
 | Bestätigen der Rechnungskorrektur     | GUID der Umkehrung der fakturierten Umsätze    | Umkehren          | msdyn_actual                 | GUID der Fakturierten Umsätze            | Original           | msdyn_actual       |
 | GUID des Neuen nicht fakturierten Umsatz-Istwerts | Ersetzen                     | msdyn_actual       | GUID der Fakturierten Umsätze            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

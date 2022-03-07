@@ -2,18 +2,16 @@
 title: Verhalten der Zeiteintrags-Benutzeroberfläche
 description: Dieses Thema bietet Informationen über das Verhalten der Benutzeroberfläche bei Zeiteinträgen.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499613"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995890"
 ---
 # <a name="time-entry-ui-behavior"></a>Verhalten der Zeiteintrags-Benutzeroberfläche
 
@@ -56,9 +54,9 @@ Im Abschnitt „Dauer” werden die Wochentage als Spaltenüberschriften angezei
 3. Geben Sie Daten für die Dimensionen **Projekt**, **Projektaufgabe**, **Rolle** und **Dauer** ein. Geben Sie diese Informationen in Minuten, Stunden oder Tagen an, indem Sie **h**, **m** oder **t** zusammen mit der Zahl eingeben. 
 4. Geben Sie eine Beschreibung für den Eintrag und Kommentare ein, die extern für den Zeiteintrag freigegeben werden können. 
 
-Wenn Sie den Eintrag speichern, werden die eingegebenen Werte im Abschnitt **Dimensionen** angezeigt. Die im Feld **Dauer** eingegebenen Informationen werden im Datum angezeigt, für das der Zeiteintrag erstellt wurde.
+Wenn Sie den Eintrag speichern, erscheinen die eingegebenen Werte im Abschnitt **Dimensionen**. Die Informationen, die im Feld **Dauer** eingegeben wurden, erscheinen an dem Datum, für das der Zeiteintrag erstellt wurde.
 
-Suchfelder werden von Systemansichten unterstützt. Wenn ein Benutzer beispielsweise ein Projekt eingibt, wird das Feld **Projektaufgabe** standardmäßig auf die Ansicht **Kopieren** eingestellt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die keinem Benutzer zugewiesen sind, wählen Sie im Dialogfeld für die Suche die Option **Ansicht ändern** und dann die Ansicht **Alle aktiven Projektaufgaben** aus.
+Suchfelder werden von Systemansichten unterstützt. Nachdem ein Benutzer beispielsweise ein Projekt eingegeben hat, wird das Feld **Projektaufgabe** standardmäßig auf die Ansicht **Kopieren** gesetzt. Wenn Sie Zeiteinträge für Aufgaben erstellen möchten, die keinem Benutzer zugewiesen sind, wählen Sie im Dialogfeld für die Suche die Option **Ansicht ändern** und dann die Ansicht **Alle aktiven Projektaufgaben** aus.
 
 ## <a name="edit-a-time-entry"></a>Bearbeiten eines Zeiteintrags 
 Informationen aus einigen Feldern auf der Seite für den Zeiteintrag, wie **Beschreibung** und **Externe Kommentare**, werden nicht im Raster für den wöchentlichen Zeiteintrag angezeigt. Stattdessen erscheint eine kleine dreieckige Anzeige in den Zellen für die **Dauer**, die über zusätzliche Details verfügen. 

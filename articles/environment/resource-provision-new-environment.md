@@ -3,18 +3,17 @@ title: Eine neue Umgebung bereitstellen
 description: Dieses Thema enthält Informationen zum Bereitstellen einer neuen Project Operations-Umgebung.
 author: sigitac
 manager: Annbe
-ms.date: 12/11/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727789"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642969"
 ---
 # <a name="provision-a-new-environment"></a>Eine neue Umgebung bereitstellen
 
@@ -61,15 +60,17 @@ Führen Sie die folgenden Schritte aus, um den automatisierten Project Operation
 
 ![Bereitstellungseinwilligung](./media/2DeploymentConsent.png)
 
-7. Optional – Wenden Sie Demodaten auf die Umgebung an. Gehen Sie zu **Erweiterte Einstellungen**, wählen Sie **Passen Sie die SQL-Datenbankkonfiguration an** und setzen **Geben Sie ein DataSet für die Anwendungsdatenbank an** auf **Demo**.
-
-8. Füllen Sie die verbleibenden erforderlichen Felder im Assistenten aus, und bestätigen Sie die Bereitstellung. Die Zeit zum Bereitstellen der Umgebung hängt vom Umgebungstyp ab. Die Bereitstellung kann bis zu sechs Stunden dauern.
+7. Füllen Sie die verbleibenden erforderlichen Felder im Assistenten aus, und bestätigen Sie die Bereitstellung. Die Zeit für die Umgebungsbereitstellung hängt vom Umgebungstyp ab. Die Bereitstellung kann bis zu sechs Stunden dauern.
 
   Nach erfolgreichem Abschluss der Bereitstellung wird die Umgebung als **Bereitgestellt** angezeigt.
 
-9. Um zu bestätigen, dass die Umgebung erfolgreich bereitgestellt wurde, wählen Sie **Anmeldung** und melden Sie sich zur Bestätigung bei der Umgebung an.
+8. Um zu bestätigen, dass die Umgebung erfolgreich bereitgestellt wurde, wählen Sie **Anmelden** aus, und melden Sie sich zur Bestätigung bei der Umgebung an.
 
 ![-Umgebungsdetails](./media/3EnvironmentDetails.png)
+
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operations Finance-Demodaten anwenden (optionaler Schritt)
+
+Wenden Sie die Project Operations Finance-Demodaten auf die in der Cloud gehostete Umgebung Servicerelease 10.0.13, wie in [diesem Artikel](resource-apply-finance-demo-data.md) beschrieben, an.
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aktualisierungen auf die Finance-Umgebung anwenden
 
@@ -150,21 +151,6 @@ Nachdem die Entitäten angewendet wurden, werden alle verfügbaren Zuordnungen i
 Die Aktualisierung dauert ungefähr 20 Minuten. Sie erhalten eine Benachrichtigung, wenn der Vorgang abgeschlossen ist.
 
 ![Bestätigung aktualisieren](./media/19RefreshConfirmation.png)
-
-## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aktualisieren Sie die Sicherheitseinstellungen für Project Operations in Dataverse
-
-1. Gehen sie Project Operations in Ihrer Dataverse Umgebung. 
-2. Gehen Sie zu **Einstellungen** > **Sicherheit** > **Sicherheitsrollen**. 
-3. Auf der Seite **Sicherheitsrollen** in der Liste der Rollen wählen Sie **Dual-Write-App-Benutzer** und wählen Sie die Registerkarte **Benutzerdefinierte Entitäten**.  
-4. Stellen Sie sicher, dass die Rolle Berechtigung für **Lesen** und **Anfürgen** hat:
-      
-      - **Währungswechselkurstyp eingeben**
-      - **Kontenplan**
-      - **Steuerkalender**
-      - **Sachkonto**
-
-5. Nachdem die Sicherheitsrolle aktualisiert wurde, gehen Sie zu **Einstellungen** > **Sicherheit** > **Teams** und wählen Sie das Standardteam in der Teamansicht **Lokaler Geschäftsinhaber** aus.
-6. Wählen Sie **Rollen verwalten** und überprüfen Sie, ob die **Dual-Write-App-Benutzer** Sicherheitsberechtigung auf dieses Team angewendet wird.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Duales Schreiben für Project Operations-Zuordnungen ausführen
 

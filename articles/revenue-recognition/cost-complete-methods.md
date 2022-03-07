@@ -2,18 +2,16 @@
 title: Methoden für die Kosten zur Fertigstellung
 description: Dieses Thema enthält Informationen zu den Methoden zur Berechnung der Kosten für die Fertigstellung eines Projekts.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531430"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997965"
 ---
 # <a name="cost-to-complete-methods"></a>Methoden für die Kosten zur Fertigstellung
 
@@ -30,3 +28,6 @@ Wenn Sie einen Kostenvoranschlag für ein Projekt erstellen, können Sie auf der
 | Als vorherige Schätzung         | Hier werden die gleichen Schätzmethoden verwendet, die in der Vorperiode verwendet wurden. Diese Methode erfordert ein Prognosemodell, wenn für die vorherige Periode ein Prognosemodell erforderlich war.                                                                                                                                                                                                                                                                                                                           |
 | Setzen Sie die Kosten auf Null | Diese Methode wird normalerweise verwendet, bevor das Schätzprojekt eliminiert wird. Sie vergleicht die Gesamtschätzungen mit den gebuchten tatsächlichen Transaktionen und löscht die **Kosten für die Fertigstellung**-Spalte. Nach Abschluss ist das Ergebnis immer 100 Prozent. Für jede von Ihnen erstellte Kostenzeile wird das **Prognose**-Kontrollkästchen deaktiviert und die Gesamtschätzung wird aus der vorherigen Kostenschätzung kopiert. Der tatsächliche Verbrauch für den geschätzten Zeitraum wird von den Kosten für die Fertigstellung des Projekts abgezogen.              |
 | Aus der Kostenvorlage           | Die Methode zum Abschließen der Kosten, die in der Kostenvorlage festgelegt ist, die dem ausgewählten Schätzprojekt zugeordnet ist.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

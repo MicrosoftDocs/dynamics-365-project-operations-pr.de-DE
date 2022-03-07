@@ -2,8 +2,6 @@
 title: Zeiteinträge erstellen
 description: Dieses Thema bietet Informationen zur Vorgehensweise beim Erstellen von Zeiteinträgen.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149677"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990405"
 ---
 # <a name="create-time-entries"></a>Zeiteinträge erstellen
 
@@ -70,3 +68,6 @@ Sie können Daten aus Projektbuchungen und Arbeitsaufträgen importieren. Wenn S
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Funktionen zum Gruppieren nach, Sortieren, Suchen und Filtern
 
 Sie können Zeiteinträge nach den Dimensionen gruppieren und filtern, die in den Spalten angegeben sind. Wählen Sie im Feld **Gruppieren nach** die Dimension aus, mithilfe der Zeiteinträge gefiltert werden sollen. Sie können auch die Zeiteintragdatensätze in aufsteigender oder absteigender Reihenfolge sortieren, indem Sie den Sortierpfeil in den Spaltenüberschriften verwenden. Zudem können Sie durch Auswahl der Schaltfläche **Filtern** in den Spaltenüberschriften Einträge ein- oder ausblenden. Dann können Sie im Feld **Suchen** den Text eingeben, der für die Suche von Zeiteinträgen anhand von Projektname, Projektaufgabe, Zeiteintrag oder Ressource verwendet werden soll.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Eine buchbare Ressourcen als Preisdimension verwenden
 description: Dieses Thema bietet Informationen über das Verwenden von buchbaren Ressourcen als Preisdimension.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643082"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996255"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Eine buchbare Ressourcen als Preisdimension verwenden
 
@@ -66,15 +64,18 @@ Der Preisdimensionsdatensatz **msydn_bookableresource** muss diesen Unterschied 
 1. Doppelklicken Sie auf die Zeile im Raster **Preisdimensionen**, um die Dimensionsseite von **msdyn_bookableresource** zu öffnen.
 2. Klicken Sie auf der Dimensionsseite auf der Registerkarte **Verknüpft** auf **Preisdimensions-Feldnamen**.
 
-  ![Registerkarte „Preisdimensions-Feldnamen”](media/PD-fieldname.png)
+  ![Registerkarte „Preisdimensions-Feldnamen“.](media/PD-fieldname.png)
 
 3. Klicken Sie in der angezeigten Ansicht auf **Neuen Preisdimensions-Feldnamen hinzufügen**.
 
-  ![Neue Preisdimensions-Feldnamen hinzufügen](media/Add-NewPD-fieldname.png)
+  ![Neue Preisdimensions-Feldnamen hinzufügen.](media/Add-NewPD-fieldname.png)
 
   Dadurch wird die Seite **Neuer Preisdimensions-Feldnamen** für **msdyn_bookableresource** geöffnet. 
 
 4. Auf der **Neuen Preisdimensions-Feldnamen hinzufügen**-Seite fügen Sie **msdyn_projectteam** zu **Logischer Name der Entität** hinzu.
 5. Fügen Sie **msdyn_bookableresourceid** zu **Feldname** hinzu.
 
- ![Formular „Neuer Preisdimensions-Feldname”](media/PD-fieldname-Added.png)
+ ![Formular „Neuer Preisdimensions-Feldname“.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

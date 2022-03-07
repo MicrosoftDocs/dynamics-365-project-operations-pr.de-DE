@@ -2,19 +2,17 @@
 title: Project Operations-Einrichtung und Konfigurationsdatenintegration
 description: Dieses Thema enthält Informationen zum Einrichten und Konfigurieren von Dual-Write-Zuordnungen für Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986535"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations-Einrichtung und Konfigurationsdatenintegration
 
@@ -26,7 +24,7 @@ Dieses Thema enthält Informationen zu den Einrichtungs- und Konfigurationsentit
 
 Projektverträge, Vertragszeilen und Projekte werden in Dataverse erstellt und mit Finance and Operations Apps für zusätzliche Buchhaltung synchronisiert. Die Datensätze in diesen Entitäten können nur in Dataverse erstellt und gelöscht werden. Buchhaltungsattribute wie Standardwerte für Umsatzsteuergruppen und finanzielle Dimensionen können diesen Datensätzen jedoch in Finance and Operations Apps hinzugefügt werden.
 
-  ![Integrationskonzepte für Projektverträge](./media/1ProjectContract.jpg)
+  ![Integrationskonzepte für Projektverträge.](./media/1ProjectContract.jpg)
 
 Leads, Verkaufschancen und Angebote für Vertriebsaktivitäten werden in Dataverse nachverfolgt und werden nicht mit Finance and Operations-Apps synchronisiert, da dieser Aktivität keine nachgelagerte Buchhaltung zugeordnet ist.
 
@@ -53,7 +51,7 @@ Projektvertragslinien können vom Projektbuchhalter in Finance and Operations Ap
 
 Projektvertragszeilen nach der Festpreis-Abrechnungsmethode werden über Abrechnungsmeilensteine in Rechnung gestellt. Abrechnungsmeilensteine werden synchronisiert, um Buchungen auf dem Konto in Finance and Operations-Apps mit der Tabellenzuordnung **Vertragszeilen-Meilensteine der Project Operations-Integration (msdyn\_ contractlinescheduleofvalues)**.
 
-  ![Integration der Fakturierungsmeilensteine](./media/2Milestones.jpg)
+  ![Integration der Fakturierungsmeilensteine.](./media/2Milestones.jpg)
 
 Der Buchhalter kann Transaktionen auf dem Konto überprüfen und die Buchhaltungsattribute für diese Transaktionen anpassen, indem er zu **Projektmanagement und Buchhaltung** > **Projektverträge** > **Pflegen** > **Transaktionen auf Rechnung** oder **Projektmanagement und Buchhaltung** > **Alle Projekte** > **Pflegen** > **Transaktionen auf Rechnung** geht.
 
@@ -63,13 +61,13 @@ Wenn Sie zum ersten Mal einen Abrechnungsmeilenstein für eine bestimmte Projekt
 
 Projektaufgaben werden mit Finance and Operations Apps durch die Tabellenzuordnung **Projektaufgaben (msdyn\_ Projektaufgaben)** nur zu Referenzzwecken synchronisiert. Das Erstellen, Aktualisieren und Löschen von Vorgängen durch Finance and Operations-Apps wird nicht unterstützt.
 
-  ![Projektaufgabenintegration](./media/3Tasks.jpg)
+  ![Projektaufgabenintegration.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektressourcen
 
 Die Entität **Projektressourcenrollen** wird mit Finance and Operations Apps mit der Tabellenzuordnung **Projektressourcenrollen für alle Unternehmen (bookableresourcecategories)** nur zu Referenzzwecken synchronisiert. Weil Ressourcenrollen in Dataverse nicht unternehmensspezifisch sind, erstellt das System automatisch entsprechende unternehmensspezifische Ressourcenrollendatensätze in Finance and Operations Apps für alle juristischen Personen, die in den Dual-Write-Integrationsbereich aufgenommen wurden.
 
-![Ressourcenrollenintegration](./media/5Resources.jpg)
+![Ressourcenrollenintegration.](./media/5Resources.jpg)
 
 Projektressourcen im Project Operations werden in Dataverse verwaltet und sind nicht mit Finance and Operations Apps synchronisiert.
 
@@ -77,6 +75,6 @@ Projektressourcen im Project Operations werden in Dataverse verwaltet und sind n
 
 Transaktionskategorien werden in Dataverse gepflegt und mit Finance and Operations Apps mit der Tabellenzuordnung **Projekttransaktionskategorien (msdyn\_transactioncategories)** synchronisiert. Nachdem der Transaktionskategoriedatensatz synchronisiert wurde, erstellt das System automatisch vier gemeinsam genutzte Kategoriedatensätze. Jeder Datensatz entspricht einem Transaktionstyp in Finance and Operations Apps und verknüpft sie mit dem Transaktionskategoriedatensatz.
 
-![Transaktionskategorienintegration](./media/4TransactionCategories.jpg)
+![Transaktionskategorienintegration.](./media/4TransactionCategories.jpg)
 
 Für die Verwendung von Transaktionskategorien für Schätzungen und Istwerte muss der Projektbuchhalter oder das System Administrator in jeder juristischen Person entsprechende Projektkategorien erstellen. Weitere Informationen finden Sie unter [Produktkategorien konfigurieren](../project-accounting/configure-project-categories.md).

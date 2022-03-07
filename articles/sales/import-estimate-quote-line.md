@@ -1,21 +1,21 @@
 ---
-title: Vorkalkulationen für ein Projekt in eine Projektangebotsposition importieren
-description: Dieses Thema enthält Informationen zum Importieren von Schätzungen aus einem Projekt in eine Projektangebotszeile.
+title: Schätzungen für ein Projekt in eine projektbasierte Angebotsposition importieren
+description: Dieses Thema enthält Informationen zum Importieren von Schätzungen aus einem Projekt in eine Angebotsposition.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858742"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076440"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Vorkalkulationen für ein Projekt in eine Projektangebotsposition importieren
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Schätzungen für ein Projekt in eine projektbasierte Angebotsposition importieren
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
@@ -23,7 +23,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 Wenn ein Projekt in der Vorverkaufsphase erstellt wird, können Sie den Finanzvoranschlag aus dem Projekt in die projektbasierte Angebotsposition importieren.
 
 1. Stellen Sie sicher, dass die projektbasierte Angebotsposition die Projektinformationen im **Projekt**-Feld enthält.
-2. Wählen Sie auf der **Detailinformationen zur Angebotsposition**-Registerkarte **Import aus Projektvorkalkulation**.
+2. Wählen Sie auf der **Detailinformationen zur Angebotsposition**-Registerkarte **Import aus Projektschätzung**.
 3. Die Dialogseite wird geöffnet, wählen Sie eine der folgenden Optionen zur Zusammenfassung aus:
 
   - **Transaktionsklasse**
@@ -67,6 +67,3 @@ Wenn der Benutzer die Aggregation nach Transaktionsklasse, Kategorie und Blattkn
 | Aufgabe A | Flugpreis | 1.10.2020 | 4 | 400 | 1600 |
 | Aufgabe B | Hotel | 1.10.2020 | 4 | 200 | 800 |
 | Aufgabe C | Hotel | 1.11.2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

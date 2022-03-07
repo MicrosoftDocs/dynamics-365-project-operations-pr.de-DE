@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076705"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289368"
 ---
 # <a name="project-grants"></a>Projektzuschüsse
 
@@ -79,3 +79,6 @@ Sie können einen Zuschuss erstellen, indem Sie alle Details in einen neuen Date
 2. Wählen Sie den zu ändernden Zuschuss aus.
 3. Wählen Sie im Aktionsbereich auf der Registerkarte **Zuschuss** in der Gruppe **Verwalten** die Option **Bearbeiten** aus.
 4. Überprüfen Sie die Zuschussdetails, und nehmen Sie die erforderlichen Änderungen vor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Projekt-Zeittabelle mobile Anwendung
 description: Diese Thema bietet Informationen über die Microsoft Dynamics 365 Project Timesheet mobile Anwendung. Mit der mobilen App Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076697"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997200"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekt-Zeittabelle mobile Anwendung
 
@@ -96,3 +94,6 @@ Klicken Sie auf **übermitteln**, um die Arbeitszeittabelle an den Genehmigungsw
 ## <a name="review-timesheets"></a>Arbeitszeittabellen überprüfen
 
 Eine Liste der Arbeitszeittabellen, die überprüft werden müssen, ist im Menü verfügbar. Diese Option ist nur verfügbar, wenn Sie als die den Workflow genehmigende Person festgelegt wurden. Sowohl die Header- als auch die Zeilengenehmigung werden unterstützt. Die Genehmigung auf Zeilenebene bietet die Möglichkeit, eine oder mehrere Zeilen zur Genehmigung zu markieren. Klicken Sie nach dem Überprüfen der Arbeitszeittabelleninformationen auf **Genehmigen**, **Delegieren**, oder **Rückgabe**, um den Workflow fortzusetzen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

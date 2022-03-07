@@ -2,30 +2,28 @@
 title: Finanzielle Vorkalkulationen für die Materialien von Projekten
 description: Dieses Thema enthält Informationen zum Definieren oder Schätzen von projektbasierten Materialien.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 98e3611b2b3948aab09a3eadeac7b95b893812e9
-ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
+ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788855"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992610"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Finanzielle Vorkalkulationen für die Materialien von Projekten
 
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations ermöglicht es Projektmanagern, projektbasierte Materialkosten für jedes Projekt oder jede Aufgabe zu definieren. Jeder Materialvoranschlag kann einer bestimmten Projektaufgabe zugeordnet werden. Ausgaben werden in verschiedene Ausgabenkategorien eingeteilt, die auf organisatorischer Ebene definiert werden. Die Preisgestaltung und Kalkulation für jede Ausgabenkategorie ist in der Preisliste definiert. 
+Dynamics 365 Project Operations ermöglicht es Projektmanagern, projektbasierte Materialkosten für jedes Projekt oder jede Aufgabe zu definieren. Jede Materialschätzung kann einer bestimmten Projektaufgabe zugeordnet werden. Spesen werden in verschiedene Spesenkategorien eingeteilt, die auf organisatorischer Ebene definiert werden. Die Preisgestaltung und Schätzung für jede Spesenkategorie ist in der Preisliste definiert. 
 
-Führen Sie die folgenden Schritte aus, um eine Projektmaterialvorkalkulation anzuzeigen, hinzuzufügen oder zu löschen.
+Führen Sie die folgenden Schritte aus, um Materialschätzungen für ein Projekt anzuzeigen, hinzuzufügen oder zu löschen:
 
-1. Gehen Sie zu **Projekte**, und wählen Sie das Projekt aus, das Sie aktualisieren möchten.
-2. Auf der **Materialvorkalkulationen**-Registerkarte zeigen Sie die Liste der Projektmaterialvorkalkulation an.
-3. Wählen Sie **Neue Materialvorkalkulation** aus, um eine neue Materialvorkalkulation zu erstellen. Oder wählen Sie eine Materialvorkalkulation aus, die gelöscht werden soll, und wählen Sie dann **Materialvorkalkulation löschen** aus.
+1. Wechseln Sie zu **Projekte**, und wählen Sie das Projekt aus, das Sie aktualisieren möchten.
+2. Zeigen Sie auf der Registerkarte **Materialvorkalkulationen** die Liste der Projektmaterialschätzungen an.
+3. Wählen Sie **Neue Materialschätzung** aus, um eine neue Materialschätzung zu erstellen. Oder wählen Sie eine Materialvorkalkulation aus, die gelöscht werden soll, und wählen Sie dann **Materialvorkalkulation löschen** aus.
 
 Die folgende Tabelle enthält Informationen zu den Feldern auf der **Materialvorkalkulationszeile** in einem Projekt. 
 

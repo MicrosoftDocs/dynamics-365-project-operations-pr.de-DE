@@ -2,24 +2,22 @@
 title: Teammitglieder aus dem Teammitgliedsraster hinzufügen
 description: In diesem Thema finden Sie Informationen dazu, wie Sie Teammitglied-Ressourcen verwalten.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121532"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008405"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Teammitglieder aus dem Teammitgliedsraster hinzufügen
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations enthält ein Ressourcen-Manager-Dashboard, das eine visuelle Übersicht zur Ressourcennachfrage und -nutzung in der Organisation bereitstellt. Sie können die Diagramme im Dashboard verwenden, um die folgenden Informationen visuell darzustellen:
+Dynamics 365 Project Operations enthält ein Ressource Manager-Dashboard, das eine visuelle Übersicht zur Ressourcennachfrage und -nutzung in der Organisation bereitstellt. Sie können die Diagramme im Dashboard verwenden, um die folgenden Informationen visuell darzustellen:
 
 - **Ressourcennachfrage**: Das Diagramm **Aktive Ressourcenanfragen** zeigt Ressourcen an, die übermittelt wurden. Die Ressourcen werden entweder nach Rolle oder Projekt zusammengefasst.
 - **Nicht gesendeter Ressourcenbedarf**: Das Diagramm **Nicht zugewiesener Ressourcenbedarf** zeigt alle Ressourcenanforderungen an, die nicht gesendet wurden. Mit diesem Diagramm können Ressourcen-Manager die Nachfrage anzeigen, die nicht fest ist und durch eine Ressourcenanforderung gesendet werden kann.
@@ -36,13 +34,13 @@ Projektmanager können das Ressourcen-Manager-Dashboard verwenden, um Ressourcen
 
 Um ein Teammitglied direkt einem Projekt hinzuzufügen, wählen Sie im Formular **Projekte**, auf der Registerkarte **Team** **Neu** aus. Das Dialogfeld **Quick Create:Projektteammitglied** wird angezeigt. In diesem Dialogfeld können Sie die folgenden Aufgaben ausführen:
 
-- **Eine benannte Ressource buchen**: Wählen Sie im Feld **Buchbare Ressource** den Namen der Ressource aus. Wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie eine Zuordnungsmethode aus. Die die ausgewählte benannte Ressource wird zum Projekt hinzufügt, indem Sie die ausgewählte Zuordnungsmethode und den Ressourcenkalender verwenden.
-- **Eine allgemeine Ressource hinzufügen**: Lassen Sie das Feld **Buchbare Ressource** leer, und wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie die bevorzugte Zuordnungsmethode aus. Eine generische Ressource wird dem Team als Platzhalter hinzugefügt. Der Platzhalter enthält das Nachfragemuster, mit dem benannte Ressourcen im Team gebucht werden. Die Anforderung wird gemäß dem Projektkalender gemacht.
+- **Eine benannte Ressource buchen**: Wählen Sie im Feld **Buchbare Ressource** den Namen der Ressource aus. Wählen Sie dann die Rolle, den Zeitraum und eine Zuordnungsmethode aus. Die die ausgewählte benannte Ressource wird zum Projekt hinzufügt, indem Sie die ausgewählte Zuordnungsmethode und den Ressourcenkalender verwenden.
+- **Eine allgemeine Ressource hinzufügen**: Lassen Sie das Feld **Buchbare Ressource** leer, und wählen Sie die Rolle aus, legen Sie den Zeitraum fest und wählen Sie die bevorzugte Zuordnungsmethode aus. Dem Team wird eine generische Ressource als Platzhalter hinzugefügt. Der Platzhalter umfasst das Nachfragemuster, mit dem benannte Ressourcen im Team gebucht werden. Die Anforderung richtet sich nach dem Projektkalender.
 - **Eine benannte Ressource zum Team hinzufügen, ohne Ressourcenkapazität zu nutzen**: Wählen Sie im Feld **Buchbare Ressource** eine Ressource aus. Wählen Sie den Zeitraum und dann **Keine** als Zuordnungsmethode aus. Die Ressource wird dem Team hinzugefügt, aber die Kapazität der Ressource wird von einer Buchung genutzt.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Buchen Sie ein Teammitglied, um Ressourcenanforderungen für eine allgemeine Ressource zu erfüllen
 
-In Project Operations können Sie eine allgemeine Ressource für ein Projektteam buchen. Sie können auch die Rolle, die erforderliche Kapazität und die Verteilung dieser Kapazität angeben. Sie können als Ressourcenanforderung Attribute angeben, die der generischen Ressource zugeordnet sind. Diese Attribute enthalten erforderliche Qualifikationen, die bevorzugte Organisationseinheit und bevorzugte Ressourcen.
+In Project Operations können Sie eine allgemeine Ressource für ein Projektteam buchen. Sie können auch die Rolle, die erforderliche Kapazität und die Verteilung dieser Kapazität angeben. Für die Ressourcenanforderung können Sie Attribute angeben, die der generischen Ressource zugeordnet sind. Diese Attribute enthalten erforderliche Qualifikationen, die bevorzugte Organisationseinheit und bevorzugte Ressourcen.
 
 Führen Sie die folgenden Schritte aus, um die Fähigkeiten einer allgemeinen Ressource für einen Entwickler anzugeben.
 
@@ -75,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um die Fähigkeiten einer allgemeinen Re
 
 ## <a name="assign-generic-resources-to-tasks-and-generate-resource-requirements"></a>Weisen Sie allgemeine Ressourcen zu den Aufgaben zu und erstellen Sie Ressourcenanforderungen
 
-In Project Operations können Sie Aufgaben erstellen und anschließend zu allgemeinen Ressourcen zuweisen. Die Ressourcennachfrage kann dann durch Platzhalter dargestellt werden, während Sie Ihren Zeitplan und Finanzzahlen schätzen. Sie können für allgemeine Ressourcenanforderungen Ressourcen generieren und erfüllen.
+In Project Operations können Sie Aufgaben erstellen und anschließend zu allgemeinen Ressourcen zuweisen. Der Ressourcenbedarf kann dann durch Platzhalter dargestellt werden, während Sie Ihren Zeitplan und die wirtschaftlichen Zahlen schätzen. Sie können für allgemeine Ressourcenanforderungen Ressourcen generieren und erfüllen.
 
 1. Wählen Sie im Formular **Projekte** auf der Registerkarte **Zeitplan** **Hinzufügen** aus, um eine Aufgabe zu erstellen.
 2. Wählen Sie im Feld **Ressourcen** das Symbol **Ressourcenauswahl** aus. Die Ressourcenauswahl wird mit vorhandenen Teammitgliedern für das Projekt angezeigt.
@@ -180,7 +178,7 @@ Oder. wenn Sie nach einer Ressource suchen müssen, führen Sie die folgenden Sc
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Abgleichen der Teammitgliedsbuchungen und -zuweisungen
 
-Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, jedoch keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Unter Umständen basieren die Buchungen auf der Verfügbarkeit, und die Aufgabenzeitplanung wird im Laufe des Projekts geändert. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
+Teammitglieder werden für Buchungen und Zuweisungen lose verbunden. Das bedeutet, Ressourcen können Zuweisungen haben, jedoch keine Buchungen, oder sie können Buchungen, jedoch keine Zuweisungen haben. Idealerweise sollten Buchungen und Zuweisungen angepasst werden, sodass die Ressourcen ihre Kapazität für die Aufgabenzuordnungen festgelegt haben. Die Buchungen können jedoch von der Verfügbarkeit abhängen, und die Aufgabenzeiten können sich im Verlauf des Projekts ändern. Daher bietet die lose Verbindung von Buchungen und Zuweisungen Flexibilität.
 
 Project Operations hat eine Registerkarte **Abstimmung**, die es dem Projektmanager ermöglicht, die Buchungen und Zuweisungen der Teammitglieder für die Projektteams abzustimmen.
 
@@ -191,7 +189,7 @@ Auf der Registerkarte wird auch die allgemeine Nettosumme für das Projekt zusam
 Für jede Ressource berechnet die Registerkarte den Unterschied zwischen den Buchungen des Teammitglieds und einem Rollup der Aufgabenzuordnungen des Teammitglieds. Idealerweise sollte der Unterschied 0 (null) sein. Das bedeutet, dass es keinen Unterschied zwischen Buchungen und Zuweisungen geben sollte. Die Unterschiede werden farbig und schattiert angezeigt, um auf zwei Bedingungen hinzuweisen:
 
 - **Verlust der Buchung**: Tritt auf, wenn eine Ressource mehr Zuweisungen als Buchungen hat. Da diese Kapazität nicht reserviert wurde, kann ein Projektmanager diesen Zustand korrigieren, indem er die Ressourcenbuchungen erweitert, um das Defizit abzudecken.
-- **Überzählige Buchungen**: Treten auf, wenn eine Ressource für das Projekt zwar gebucht, aber keinen Aufgaben zugewiesen wurde. Dieser Zustand kann akzeptabel sein, wenn die Ressource im Projekt gebucht wurde, bevor die Aufgabenzuordnung erfolgt ist. In anderen Fällen wird die Ressource jedoch nicht eingeplant, um Aufgaben zugewiesen zu werden. In diesen Fällen sollte es der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren, sodass die Kapazität für ein anderes Projekt verwendet werden kann.
+- **Überzählige Buchungen**: Treten auf, wenn eine Ressource für das Projekt zwar gebucht, aber keinen Aufgaben zugewiesen wurde. Diese Bedingung kann in den Fällen akzeptabel sein, in denen die Ressource vor der Aufgabenzuordnung für das Projekt gebucht wurde. In anderen Fällen wird die Ressource jedoch nicht eingeplant, um Aufgaben zugewiesen zu werden. In diesen Fällen sollte es der Projektmanager in Betracht ziehen, die Buchungen der Ressource zu stornieren, sodass die Kapazität für ein anderes Projekt verwendet werden kann.
 
 Wenn Sie die Zeit in einigen Fällen auf einer höheren als der Tagsebene (z. B. auf Monatsebene) anzeigen, sehen Sie einen Nettounterschied von null für eine Ressource. Mit anderen Worten, Buchungen = Aufgaben. Wenn Sie die Zeit jedoch auf Wochenebene anzeigen, sehen Sie, dass es Zuweisungen mit null Stunden und Buchungen mit 40 Stunden in der ersten Woche gibt, aber Zuweisungen von 40 Stunden und Buchungen von null Stunden in der zweiten Woche. Die Buchungen und Zuweisungen werden insgesamt abgestimmt, sie unterscheiden sich jedoch von einer Woche zur nächsten.
 
@@ -200,3 +198,6 @@ Wenn Sie Zeit auf höheren Ebenen anzeigen, haben die Zellen auf der Registerkar
 Wenn Sie Aufgabenzuordnungen für eine Ressource, jedoch keine Buchungen haben, wählen Sie im Formular **Projekte**, auf der Registerkarte **Abstimmung** den Buchungsverlust aus, und wählen Sie dann **Buchung erweitern** aus. Das Dialogfeld **Buchung erweitern** wird mit der Buchung angezeigt, die benötigt wird, um einen Ressourcenmangel zu beheben. Das Dialogfeld enthält außerdem die vorhandenen Buchungen der Ressource in allen Projekten oder anderen planbaren Entitäten. Wenn Sie **OK** auswählen, um die Buchung für die Ressource zu erstellen, entsteht ungeachtet der Verfügbarkeit der Ressource möglicherweise eine Überbuchung.
 
 Der Projektmanager oder der Ressourcenmanager kann dann die Zeitplanübersicht verwenden, um alle Situationen zu verwalten, in denen eine Ressource über die Kapazität überbucht wird.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

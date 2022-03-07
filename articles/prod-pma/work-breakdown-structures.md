@@ -2,28 +2,26 @@
 title: Projektstrukturplan Übersicht
 description: Ein Projektstrukturplan (PSP) ist eine Beschreibung der Arbeit, die für ein Projekt ausgeführt wird. Es ist eine Hierarchie von Aufgaben, die das Verständnis des Projektteams für die Zusammensetzung der Arbeit sowie für die Größe, die Kosten und die Dauer jeder Komponente oder Aufgabe darstellt.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076499"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998820"
 ---
 # <a name="work-breakdown-structures-overview"></a>Projektstrukturplan Übersicht
 
@@ -31,9 +29,9 @@ ms.locfileid: "4076499"
 
 Ein Projektstrukturplan (PSP) ist eine Beschreibung der Arbeit, die für ein Projekt ausgeführt wird. Es ist eine Hierarchie von Aufgaben, die das Verständnis des Projektteams für die Zusammensetzung der Arbeit sowie für die Größe, die Kosten und die Dauer jeder Komponente oder Aufgabe darstellt. Ein PSP hat drei Hauptziele:
 
--   Beschreibt die Aufteilung oder Zusammensetzung der Arbeit in Aufgaben.
--   Legt den Projektzeitplan fest.
--   Schätzen Sie die Kosten für jede Aufgabe.
+-   Die Aufschlüsselung oder Zusammensetzung der Arbeit in den Aufgaben beschreiben
+-   Projektarbeit planen
+-   Die Kosten für jede Aufgabe schätzen
 
 Der Detaillierungsgrad in einem PSP hängt von der Genauigkeit ab, die für Schätzungen erforderlich ist, und von der Nachverfolgung, die für diese Schätzungen erforderlich ist. Projekte mit einer sehr geringen Toleranz für Abweichungen im Zeitplan oder in den Kosten erfordern normalerweise einen detaillierteren PSP und eine sorgfältige Verfolgung des Arbeitsfortschritts und der Kosten gegenüber dem PSP. Diese Art von Projekt ist in der Bau- und Maschinenbauindustrie üblich. 
 
@@ -102,8 +100,8 @@ Derzeit können Sie die PSP-Nummerierung nicht anpassen.
 
 ### <a name="schedule-estimation"></a>Zeitplanschätzung
 
-Die Zeitplanschätzung ist normalerweise der zweite Schritt beim Erstellen eines PSP. Als bewährte Methode sollten Sie die Zeitplanschätzung abschließen, nachdem Sie die Aufgaben erstellt haben. Die Seite **Projektstrukturplan** in Finance hat zwei Abschnitte. Der obere Bereich ist für die Zeitplanschätzung vorgesehen, und der untere Bereich enthält eine Registerkarte **Geschätzte Kosten und Einnahmen**, die Sie für die Kostenschätzung verwenden können. 
-**Aufgabenabhängigkeiten** In einem PSP können Sie eine Vorgängerbeziehung zwischen Aufgaben erstellen. Wenn Sie Vorgängerwerte einer Aufgabe zuweisen, kann die Aufgabe nur beginnen, nachdem alle vorherigen Aufgaben abgeschlossen wurden. Das geplante Startdatum der Aufgabe wird automatisch auf das späteste Datum aller Vorgänger festgelegt. 
+Die Zeitplanschätzung ist normalerweise der zweite Schritt beim Erstellen eines PSP. Als bewährte Methode sollten Sie die Zeitplanschätzung abschließen, nachdem Sie die Aufgaben erstellt haben. Die Seite **Projektstrukturplan** in Finance hat zwei Abschnitte. Der obere Bereich ist für die Zeitplanschätzung vorgesehen, und der untere Bereich enthält die Registerkarte **Vorkalkulierte Kosten und Einnahmen**, die Sie für die Kostenschätzung verwenden können. 
+**Aufgabenabhängigkeiten** In einem PSP können Sie eine Vorgängerbeziehung zwischen Aufgaben erstellen. Wenn Sie einer Aufgabe vorherige Aufgaben zuweisen, kann diese Aufgabe erst gestartet werden, nachdem alle vorherigen Aufgaben abgeschlossen wurden. Das geplante Startdatum der Aufgabe wird automatisch auf das späteste Datum aller vorherigen Aufgaben festgelegt. 
 
 **Aufgabenplanung** Die folgenden Faktoren bestimmen die Zeitplanung von Blattknotenaufgaben:
 
@@ -112,17 +110,17 @@ Die Zeitplanschätzung ist normalerweise der zweite Schritt beim Erstellen eines
 -   Die Anzahl der Ressourcen
 -   Start- und Enddatum
 
-Das Startdatum der Blattknotenaufgabe ohne vorherige Aktivitäten ist standardmäßig das geplante Anfangsdatum vom Projekt. Die Dauer einer Blattknotenaufgabe wird immer als die Anzahl der Werktage zwischen seinem Anfangs- und Enddaten berechnet. 
+Das Startdatum der Blattknotenaufgabe ohne vorherige Aktivitäten ist standardmäßig das geplante Anfangsdatum vom Projekt. Die Dauer einer Blattknotenaufgabe wird immer als Anzahl der Arbeitstage zwischen ihrem Start- und Enddatum berechnet. 
 
 *<strong><em>Zeitplanregeln</em></strong>* Wenn die automatische Zeitplanunterstützung aktiviert ist, gelten die folgenden Regeln für die Aufgabenplanung für Blattknotenaufgaben:
 
--   Start- und Enddaten einer Aufgabe müssen Werktage entsprechend dem Terminplanungskalender des Projektes sein.
--   Das Startdatum einer Aufgabe mit vorherigen Aktivitäten entspricht standardmäßig automatisch dem spätesten Enddatum seiner vorherigen Aktivitäten.
+-   Das Start- und Enddatum einer Aufgabe muss gemäß dem Planungskalender des Projekts ein Arbeitstag sein.
+-   Das Startdatum einer Aufgabe mit vorherigen Aktivitäten wird automatisch auf das späteste Enddatum seiner vorherigen Aktivitäten festgelegt.
 -   Der Aufwand für eine Aufgabe wird automatisch wie folgt berechnet:
 
 Anzahl der Menschen x Dauer x Anzahl der Stunden an einem Standardwerktag im Projektkalender. 
 
-In einigen Fällen sollten Sie von diesen Regeln abweichen. Sie können die automatische Planung deaktivieren, um zu verhindern, dass Finance Eigenschaften von Blattknotenaufgaben automatisch festlegt oder korrigiert. Wenn Sie Informationen für eine Aufgabe eingeben, die einen Verstoß gegen Planungsregeln verursachen, wird ein Planungsfehlersymbol für die Aufgabe angezeigt. Wenn Sie nicht möchten, dass Planungsfehler angezeigt werden, klicken Sie auf **Planungsfehler werden angezeigt**, um die Funktion auszuschalten. 
+In einigen Fällen möchten Sie möglicherweise von diesen Regeln abweichen. Sie können die automatische Planung deaktivieren, um zu verhindern, dass Finance Eigenschaften von Blattknotenaufgaben automatisch festlegt oder korrigiert. Wenn Sie Informationen für eine Aufgabe eingeben, die einen Verstoß gegen Planungsregeln verursachen, wird ein Planungsfehlersymbol für die Aufgabe angezeigt. Wenn Sie nicht möchten, dass Planungsfehler angezeigt werden, klicken Sie auf **Planungsfehler werden angezeigt**, um die Funktion auszuschalten. 
 
 > [!NOTE] 
 > Die Werte für eine Zusammenfassungs- oder Containeraufgabe werden weiterhin als Summe der Werte der einzelnen Aufgaben berechnet, unabhängig davon, ob die automatische Planungsunterstützung aktiviert oder deaktiviert ist. 
@@ -145,10 +143,10 @@ In einigen Fällen sollten Sie von diesen Regeln abweichen. Sie können die auto
 Wie bereits in diesem Dokument erwähnt, geben Sie die Kostenschätzung für jede Blattknotenaufgabe mithilfe der Registerkarte **Geschätzte Kosten und Einnahmen** im unteren Bereich der Seite **Projektstrukturplan** ein. 
 
 > [!NOTE] 
-> Sie können die Kostenschätzung für eine Zusammenfassung oder Containeraufgabe nicht ändern. Die Kostenschätzung für eine zusammenfassende Aufgabe ist gleich der Summe der Kostenschätzung ihrer Blattknotenaufgaben. Die geschätzten Gesamtkosten für jede Aufgabe werden als Summe der geschätzten Kostenbeträge für die folgenden Transaktionstypen berechnet:
+> Sie können die Kostenvorkalkulation für eine Zusammenfassung oder Containeraufgabe nicht ändern. Die Kostenvorkalkulation für eine Zusammenfassungsaufgabe ist gleich der Summe der Kostenvorkalkulation ihrer Blattknotenaufgaben. Die geschätzten Gesamtkosten für jede Aufgabe werden als Summe der vorkalkulierten Kostenbeträge für die folgenden Transaktionstypen berechnet:
 
 -   Arbeit
--   Gegenstand oder Material
+-   Artikel oder Material
 -   Ausgaben
 
 Eine Transaktionstyp-**Gebühr** wird zur Schätzung der gebührenpflichtigen Einnahmen verwendet. Dieser Transaktionstyp hat keine Kostenkomponente und wird daher bei der Kostenschätzung nicht berücksichtigt. 
@@ -157,7 +155,7 @@ Ein Transaktionstyp **Auf Rechnung** wird verwendet, um den vertraglich vereinba
 
 Wenn Sie die Kosten für Arbeit, Material und Kosten für jede Aufgabe schätzen, müssen Sie den geschätzten Kosten eine Projektkategorie zuweisen. 
 
-**Schätzung der Arbeitskosten** Für jede Blattknotenaufgabe weisen Sie einen Arbeitsaufwand in Stunden und eine Standardkategorie zu. Wenn Sie einen Zeitplan für eine Aufgabe einrichten, wird daher die Arbeitskostenschätzung für diese Aufgabe automatisch in die Standardkategorie für Arbeit aufgenommen. Dieser Kostenvoranschlag wird auf der Registerkarte **Geschätzte Kosten und Einnahmen** im Raster **Zeilendetails** für diese Aufgabe angezeigt. Wenn Sie weitere Arbeitskostenschätzungen benötigen, können Sie diese auf dieser Registerkarte hinzufügen. Wenn Sie die Arbeitskostenschätzung erhöhen oder verringern, wird der Zeitplan für die Aufgabe automatisch neu berechnet. 
+**Schätzung der Arbeitskosten** Für jede Blattknotenaufgabe weisen Sie einen Arbeitsaufwand in Stunden und eine Standardkategorie zu. Wenn Sie einen Zeitplan für eine Aufgabe einrichten, wird daher die Arbeitskostenschätzung für diese Aufgabe automatisch in die Standardkategorie für Arbeit aufgenommen. Dieser Kostenvoranschlag wird auf der Registerkarte **Vorkalkulierte Kosten und Einnahmen** im Raster **Zeilendetails** für diese Aufgabe angezeigt. Wenn Sie weitere Arbeitskostenschätzungen benötigen, können Sie sie auf dieser Registerkarte hinzufügen. Wenn Sie die Arbeitskostenschätzung erhöhen oder verringern, wird der Zeitplan für die Aufgabe automatisch neu berechnet. 
 
 **Schätzung der Kosten und Materialkosten** Die Registerkarte **Geschätzte Kosten und Einnahmen** ermöglicht es Ihnen auch, Kosten und Materialkosten für eine Aufgabe zu schätzen, wenn Sie Schätzungen benötigen. 
 
@@ -174,7 +172,7 @@ In der Planungsansicht wird die geplante oder Basisschätzung der Zeitplan- und 
 
 ### <a name="effort-tracking-view"></a>Aufwandsnachverfolgungsansicht
 
-Die Ansicht Aufwandsnachverfolgung zeigt den Fortschritt der Nachverfolgung in PSP an. Es vergleicht die kumulierten tatsächlichen Arbeitsstunden für eine Aufgabe mit den geplanten Arbeitsstunden. Die folgenden Formeln enthalten die Werte in der Ansicht Aufwandnachverfolgung:
+Die Ansicht Aufwandsnachverfolgung zeigt den Fortschritt der Nachverfolgung in PSP an. Es vergleicht die kumulierten tatsächlichen Arbeitsstunden für eine Aufgabe mit den geplanten Arbeitsstunden. Die folgenden Formeln enthalten die Werte in der Aufwandsverfolgungsansicht:
 
 -   Fortschritt in Prozent = tatsächlicher bisheriger Aufwand ÷ geplanter Aufwand für die Aufgabe
 -   Verbleibender Aufwand (auch als Schätzung bis zum Abschluss bezeichnet \[ETC\]) = Geplanter Aufwand – Tatsächlicher Aufwand bis heute
@@ -207,7 +205,7 @@ Klicken Sie auf **Auf Ebene erweitern** in der Ansicht Aufwandnachverfolgung, um
 
 ### <a name="cost-tracking-view"></a>Die Ansicht „Kostennachverfolgung“
 
-In der Ansicht Kostenverfolgung wird die Verfolgung des Kostenverbrauchs für eine Aufgabe angezeigt. In dieser Ansicht werden die tatsächlichen Kosten, die bisher für eine Aufgabe ausgegeben wurden, mit den geplanten Kosten für die Aufgabe verglichen. Die folgenden Formeln enthalten die Werte in der Ansicht Kostenverfolgungsansicht:
+In der Ansicht Kostenverfolgung wird die Verfolgung des Kostenverbrauchs für eine Aufgabe angezeigt. In dieser Ansicht werden die tatsächlichen Kosten, die bisher für eine Aufgabe ausgegeben wurden, mit den geplanten Kosten für die Aufgabe verglichen. Die folgenden Formeln enthalten die Werte in der Kostenverfolgungsansicht:
 
 -   Verbrauchte Kosten in Prozent = tatsächliche bisherige Kosten ÷ geplante Kosten für die Aufgabe
 -   Kosten bis Abschluss (CTC) = geplante Kosten – tatsächliche bisherige Kosten
@@ -316,3 +314,6 @@ Alternativ können Sie Zeitplanungsfehler einzeln korrigieren, indem Sie für je
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

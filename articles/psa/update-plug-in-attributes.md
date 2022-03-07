@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,16 +16,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147067"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076607"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Plug-In-Attribute aktualisieren, damit sie neue Preisdimensionen enthalten
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
 > Wenn Sie die Funktionen zu Angebotserstellung und Vertragsabschluss der Project Service Automation (PSA) nicht verwenden, können Sie dieses Thema überspringen.

@@ -2,11 +2,9 @@
 title: Implementieren Sie benutzerdefinierte Felder für die mobile Microsoft Dynamics 365 Project Timesheet-App auf iOS und Android
 description: Dieses Thema bietet allgemeine Muster für die Verwendung von Erweiterungen zum Implementieren benutzerdefinierter Felder.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005750"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementieren Sie benutzerdefinierte Felder für die mobile Microsoft Dynamics 365 Project Timesheet-App auf iOS und Android
 
@@ -155,13 +153,13 @@ Für Felder des Typs **Date** übergibt diese Eigenschaft den Datumswert des Fel
 
 Unten sehen Sie einen Screenshot der mobilen App bei der Erstellung eines Arbeitszeittabelleneintrags. Es werden die Out-of-Box-Felder und ein benutzerdefiniertes Feld im Abschnitt „Zeiteintrag“ mit dem Namen „Testzeichenfolge“ mit dem bereits festgelegten Aufzählungswert „Zweite Option“ angezeigt.
 
-![Benutzerdefiniertes Feld für Testzeichenfolgen in der App](media/timesheet-entry.jpg)
+![Benutzerdefiniertes Feld für Testzeichenfolgen in der App.](media/timesheet-entry.jpg)
 
 
 
 Unten sehen Sie einen Screenshot der mobilen App des Benutzers, der eine der für das benutzerdefinierte Feld „Testzeichenfolge“ verfügbaren Aufzählungsoptionen auswählt.  Die beiden Optionen sind „Erste Option“ und „Zweite Option“, die als Optionsfelder angezeigt werden. Die zweite Option ist derzeit ausgewählt.
 
-![Optionsfelder für das benutzerdefinierte Testzeichenfolgenfeld](media/enum-option.jpg)
+![Optionsfelder für das benutzerdefinierte Testzeichenfolgenfeld.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ Beachten Sie, dass benutzerdefinierte Felder keine Sicherungsdatenbankdatensätz
 
 Unten ist ein Screenshot des Anwendungsobjektbaums von Visual Studio zu sehen. Er zeigt eine Erweiterung der TSTimesheetLine-Tabelle, wobei das TestLineString-Feld als benutzerdefiniertes Feld hinzugefügt wurde.
 
-![Positionszeichenfolge](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Positionszeichenfolge.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Verwenden Sie die Befehlskette für die buildCustomFieldList-Methode der TSTimesheetSettings-Klasse, um ein Feld im Abschnitt zur Eingabe der Arbeitszeittabelle anzuzeigen
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Unten sehen Sie einen Screenshot der mobilen App bei der Benutzeranzeige einer Zeittabelle. Die Schaltfläche „Weitere Informationen“ wurde in der oberen rechten Ecke ausgewählt, um die Option „Weitere Details anzeigen“ anzuzeigen.  
 
-![Befehl „Weitere Details“ anzeigen](media/show-more.png)
+![Befehl „Weitere Details“ anzeigen.](media/show-more.png)
 
 Unten sehen Sie einen Screenshot der mobilen App mit der Anzeige „Mehr“ der Zeittabelle. Ein benutzerdefiniertes Feld mit dem Namen „Auslastungsrate dieser Arbeitszeittabelle (berechnetes benutzerdefiniertes Feld)“ wurde dem Arbeitszeittabellenkopf-Abschnitt hinzugefügt. Im benutzerdefinierten Feld wird ein schreibgeschützter Wert von „0,667“ festgelegt.
 
-![Abschnitt „Mehr“](media/more-section.jpg)
+![Abschnitt „Mehr“.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Erweitern Sie die TSTimesheetTable-Tabelle so, dass sie ein benutzerdefiniertes Feld enthält
 
@@ -416,7 +414,7 @@ Die vorhandene Logik für die Arbeitszeittabellenfunktionalität auf Datenbankeb
 
 Über die Projektparameter können Sie sofort einsatzbereite Felder schreibgeschützt oder in der mobilen App ausgeblendet machen. Legen Sie die Optionen im **Mobile Arbeitszeittabellen**-Abschnitt auf der **Arbeitszeittabelle**-Registerkarte der **Projektmanagement- und Buchhaltungsparameter**-Seite fest.
 
-![Projektparameter](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projektparameter.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Ändern der Aktivitäten, die über Erweiterungen zur Auswahl stehen
 

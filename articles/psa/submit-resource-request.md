@@ -1,8 +1,6 @@
 ---
 title: Übermitteln einer Ressourcenanforderung
 description: Dieses Thema enthält Informationen zum Übermitteln einer Anforderung für eine Projektressource.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149722"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013170"
 ---
 # <a name="submitting-a-resource-request"></a>Übermitteln einer Ressourcenanforderung
 
@@ -41,3 +39,6 @@ Sie können eine generierte Ressourcenanfrage als Ressourcenanforderung übermit
 Der Anforderungsstatus des allgemeinen Teammitglieds wird in **Übermittelt** geändert.
 
 Nachdem die Anforderung vom Resource Manager erfüllt wurde, wird die allgemeine Ressource durch eine benannte Ressource ersetzt, falls der Resource Manager die Anforderung durch die Buchung einer benannten Ressource erfüllt. Andernfalls verbleibt die allgemeine Ressource im Team und der Anforderungsstatus wird in **Prüfung erforderlich** geändert, falls der Resource Manager eine benannte Ressource vorschlägt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

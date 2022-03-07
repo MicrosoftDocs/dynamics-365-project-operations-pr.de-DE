@@ -2,18 +2,16 @@
 title: Ausgabenverwaltungsparameter konfigurieren
 description: Dieses Thema beschreibt die Parameter, die das allgemeine Verhalten in der Ausgabenverwaltung steuern.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121037"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007775"
 ---
 # <a name="configure-expense-management-parameters"></a>Ausgabenverwaltungsparameter konfigurieren
 
@@ -83,3 +81,6 @@ Dieses Thema beschreibt die Parameter, die das allgemeine Verhalten in der Ausga
 | Anzeige der Korruptionsbekämpfung   | Wählen Sie diese Option, um den Antikorruptionstext anzuzeigen, wenn eine Ausgabenabrechnung erstellt wird. Anschließend können bestimmte Ausgabenkategorien aktiviert werden, für die die Antikorruptionsbescheinigung in der Ausgabenabrechnung ausgewählt werden muss. Beispielsweise kann eine Geschenkkategorie, die sich auf Ausgaben eines Regierungsbeamten bezieht, erfordern, dass der Mitarbeiter bestätigt, dass die Kosten den Unternehmensrichtlinien entsprechen, die sich auf Regierungsbeamte beziehen. |
 | Korruptionsbekämpfungsnachricht für den Einsender | Geben Sie den Text ein, der einem Mitarbeiter angezeigt werden soll, der eine Ausgabenabrechnung erstellt. Um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird, wählen Sie **Übersetzungen** aus. |
 | Korruptionsbekämpfungsnachricht für den Genehmiger  | Geben Sie den Text ein, der dem Genehmiger angezeigt werden soll, wenn eine Ausgabenabrechnung erstellt wird. Um sprachspezifischen Text einzugeben, der basierend auf der Benutzersprache angezeigt wird, wählen Sie **Übersetzungen** aus. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

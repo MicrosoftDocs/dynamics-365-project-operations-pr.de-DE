@@ -2,18 +2,16 @@
 title: Mehrwertsteuerrückerstattung in der Ausgabenverwaltung
 description: In diesem Thema wird erläutert, wie Sie Rückerstattungen für berechtigte Mehrwertsteuertransaktionen erhalten.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: a840c808a76c96dd5f9dfb863c230801718c203c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076392"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001695"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Mehrwertsteuerrückerstattung in der Ausgabenverwaltung
 
@@ -33,27 +31,27 @@ Nachdem die Voraussetzungen erfüllt sind, müssen die folgenden Schritte ausgef
 2. Stellen Sie sicher, dass alle Steuerinformationen vollständig sind, und buchen Sie dann die Spesenabrechnung.
 3. Verarbeiten Sie Ausgaben, die für eine internationale Mehrwertsteuerrückerstattung in Frage kommen.
 4. Senden Sie Mehrwertsteuer-Erstattungsdaten an den Drittanbieter, um internationale Rückforderungserklärungen einzureichen.
-5. Prozesskosten für die inländische Mehrwertsteuerrückerstattung.
+5. Spesen für die inländische Mehrwertsteuerrückerstattung verarbeiten
 
-Die folgenden Abschnitte enthalten Beispiele, die zeigen, wie Contoso-Mitarbeiter die einzelnen Schritte ausführen.
+Die folgenden Abschnitte enthalten Beispiele, die zeigen, wie Contoso Mitarbeiter jeden Schritt durchführen.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Geben Sie in einer Spesenabrechnung Steuerinformationen zu Kreditkartentransaktionen ein, um berechtigte Mehrwertsteuerrückerstattungen zu ermitteln.
 
-Nancy, eine in den Vereinigten Staaten ansässige Vertriebsmitarbeiterin von Contoso, ist kürzlich von einer Verkaufsreise in das Vereinigte Königreich zurückgekehrt. Während der Reise sind bei Nancy einige persönliche Kreditkartenkosten für Mahlzeiten entstanden. Nancy muss jetzt eine Spesenabrechnung erstellen, um die Spesen abzustimmen.
+Nancy, eine Contoso Vertriebsmitarbeiterin mit Arbeitsort in den Vereinigten Staaten, ist vor kurzem von einer Verkaufsreise in das Vereinigte Königreich zurückgekehrt. Während der Reise sind bei Nancy einige persönliche Kreditkartenkosten für Mahlzeiten entstanden. Nancy muss jetzt eine Spesenabrechnung erstellen, um die Spesen abzustimmen.
 
 Wenn Nancy Informationen in die Spesenabrechnung eingibt, wählt Sie **Vereinigtes Königreich** im Feld **Land/Region** auf der Seite **Spesenabrechnung bearbeiten** aus. Die Liste der Umsatzsteuergruppen wird dann gefiltert, sodass nur die Gruppen angezeigt werden, die für das Vereinigte Königreich gelten. Nancy wählt die Mehrwertsteuergruppe **Vereinigtes Königreich 001** und dann die Artikel-Mehrwertsteuergruppe **Mahlzeiten** aus. Als Nächstes fügt Nancy eine neue Transaktion für die Unterbringung hinzu. Da es im Vereinigten Königreich nur eine Mehrwertsteuergruppe und eine Artikel-Mehrwertsteuergruppe für Unterkünfte gibt, werden diese Informationen automatisch in die Spesenabrechnung von Nancy eingetragen.
 
-Gemäß der Contoso-Richtlinie müssen alle Ausgaben mit einer entsprechenden Quittung versehen sein. Wenn Nancy die Spesenabrechnung speichert, erhält sie daher eine Nachricht, dass sie für jede Transaktion, die sie in ihrer Spesenabrechnung aufgeführt hat, eine Quittung anhängen muss. Nancy überprüft, ob sie ihrer Spesenabrechnung ein digitales Bild jedes Transaktionsbelegs beigefügt hat, und legt ihren Bericht dann zur Genehmigung vor. Anschließend sendet sie die Papierbelege an das Back-Office-Verarbeitungsteam. Dieses Team sendet die Mehrwertsteuer-Erstattungsdaten an den Drittanbieter, der die internationalen Mehrwertsteuer-Erstattungserklärungen für Contoso einreicht.
+Per Contoso Richtlinie muss für alle Ausgaben ein entsprechender Beleg vorliegen. Wenn Nancy die Spesenabrechnung speichert, erhält sie daher eine Nachricht, dass sie für jede Transaktion, die sie in ihrer Spesenabrechnung aufgeführt hat, eine Quittung anhängen muss. Nancy überprüft, ob sie ihrer Spesenabrechnung ein digitales Bild jedes Transaktionsbelegs beigefügt hat, und legt ihren Bericht dann zur Genehmigung vor. Anschließend sendet sie die Papierbelege an das Back-Office-Verarbeitungsteam. Dieses Team sendet die Umsatzsteuerrückerstattungsdaten an den Drittanbieter, der internationale Umsatzsteuerrückerstattungserklärungen für Contoso einreicht.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Die Steuerinformationen überprüfen und eine Spesenabrechnung veröffentlichen
 
-Vor April kann die Kreditorenkoordinatorin für Contoso eine Spesenabrechnung erstellen. Sie muss alle darin fehlenden Steuerinformationen eingeben. Sie öffnet die Seite **Spesenabrechnungsdetails** und sieht Nancys genehmigte Spesenabrechnung. April öffnet dann die Spesenabrechnung, um die Details der Transaktionen anzuzeigen. Sie sieht, dass Nancy für eine der Transaktionen keine Artikel-Mehrwertsteuergruppe eingegeben hat. Da diese Informationen nicht bereitgestellt werden, kann April die Spesenabrechnung nicht buchen. Deshalb schaut sie auf die Seite **Steuerkonfigurationen** in der Ausgabenverwaltung und findet die entsprechende Artikel-Mehrwertsteuergruppe für das Land/die Region und den Transaktionstyp. April kann nun die Spesenabrechnung in der Finanzbuchhaltung buchen.
+Bevor April, die Kreditorenkoordinatorin für Contoso einen Ausgabenbericht buchen kann, muss sie alle fehlenden Steuerinformationen eingeben. Sie öffnet die Seite **Spesenabrechnungsdetails** und sieht Nancys genehmigte Spesenabrechnung. April öffnet dann die Spesenabrechnung, um die Details der Transaktionen anzuzeigen. Sie sieht, dass Nancy für eine der Transaktionen keine Artikel-Mehrwertsteuergruppe eingegeben hat. Da diese Informationen nicht bereitgestellt werden, kann April die Spesenabrechnung nicht buchen. Deshalb schaut sie auf die Seite **Steuerkonfigurationen** in der Ausgabenverwaltung und findet die entsprechende Artikel-Mehrwertsteuergruppe für das Land/die Region und den Transaktionstyp. April kann nun die Spesenabrechnung in der Finanzbuchhaltung buchen.
 
 Wenn April die Spesenabrechnung bucht, wird ein Arbeitsposten mit erstattungsfähiger Mehrwertsteuer erstellt. Dieses Arbeitselement wird einem Mitglied des Backoffice-Verarbeitungsteams zugewiesen. April erhält eine Nachricht, die bestätigt, dass die Buchung erfolgreich war. In dieser Nachricht wird auch die Anzahl der Mehrwertsteuertransaktionen aufgeführt, die für die Rückforderung identifiziert wurden.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Ausgaben verarbeiten, die für eine internationale Mehrwertsteuerrückerstattung in Frage kommen
 
-Arnie, Mitglied des Back-Office-Verarbeitungsteams von Contoso, ist dafür verantwortlich, zu überprüfen, ob alle erforderlichen Informationen für die Mehrwertsteuerrückerstattung in den Spesenabrechnungen enthalten sind. Er öffnet die Seite **Steuerrückerstattung** und wählt die Spesenabrechnung aus, die Nancy eingereicht hat. Arnie überprüft dann, ob alle erforderlichen Belege beigefügt sind und ob die richtigen Mehrwertsteuergruppen und Artikel-Mehrwertsteuercodes eingegeben wurden.
+Arnie, ein Mitglied vom Contoso Backoffice-Verarbeitungsteam, ist dafür verantwortlich, zu überprüfen, ob alle erforderlichen Informationen für die Mehrwertsteuerrückerstattung in den Spesenabrechnungen enthalten sind. Er öffnet die Seite **Steuerrückerstattung** und wählt die Spesenabrechnung aus, die Nancy eingereicht hat. Arnie überprüft dann, ob alle erforderlichen Belege beigefügt sind und ob die richtigen Mehrwertsteuergruppen und Artikel-Mehrwertsteuercodes eingegeben wurden.
 
 Wenn Arnie die Papierbelege von Nancy erhält, überprüft er sie anhand der digitalen Belege und ändert dann den Status der Spesenabrechnung in **Bereit für Beitreibung**.
 
@@ -66,3 +64,6 @@ Wenn Arnie bereit ist, die Spesenabrechnungsdaten an den Drittanbieter zu senden
 Arnie muss überprüfen, ob die Spesenabrechnungstransaktionen für die Erstattung der Mehrwertsteuer in Frage kommen und ob die digitalen Belege den Berichten beigefügt sind. Um gültige Ausgaben für die inländische Rückforderung zu verarbeiten, öffnet Arnie die Seite **Steuerrückerstattung** und wählt die Spesenabrechnung aus, die überprüft werden muss. Er überprüft, ob die Belege auf den Namen des Unternehmens und nicht auf den des Mitarbeiters lauten. (Für die Mehrwertsteuerrückerstattung müssen die Belege im Namen des Unternehmens ausgestellt sein). Arnie überprüft dann, ob alle erforderlichen Belege beigefügt sind und ob die richtigen Mehrwertsteuergruppen und Artikel-Mehrwertsteuercodes eingegeben wurden.
 
 Wenn Arnie die Papierbelege erhält, ändert er den Status der Spesenabrechnung in **Bereit für Beitreibung**. Er kann die Steuererklärung dann bei der zuständigen Steuerbehörde einreichen. In diesem Fall ist die entsprechende Steuerbehörde in den Vereinigten Staaten der Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

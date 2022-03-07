@@ -2,18 +2,16 @@
 title: Einen Projektstrukturplan erstellen
 description: In diesem Thema wird erläutert, wie Sie einen Projektstrukturplan (PSP) erstellen, der die grundlegenden Steuerelemente in der neuen Planungsschnittstelle enthält.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841340"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005700"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Einen Projektstrukturplan (PSP) erstellen
 
@@ -93,6 +91,8 @@ Die folgende Tabelle zeigt zusätzliche Zeitplanattribute.
 | Name des Dataflows | Der Name der Projektaufgabe. |
 | ID | Die ID der Aufgabe im Projektstrukturplan. |
 
+Als Administrator können Sie benutzerdefinierte Felder in der Aufgabenentität definieren. Die Felder können jedoch nicht im Zeitplanraster angezeigt werden. Fügen Sie diese zum Anzeigen Ihrer benutzerdefinierten Felder der Detailseite **Projektaufgabe** hinzu.
+
 ## <a name="staffing-attributes"></a>Personalattributen.
 
 Attribute der Personalbesetzung werden durch das Feld **Ressourcen** im Zeitplan angezeigt. Sie können entweder nach einer bestehenden Ressource suchen oder auf **Erstellen** klicken und im Bereich **Schnellerfassung** ein Projektteammitglied als neue Ressourcen hinzufügen.
@@ -116,3 +116,6 @@ Der Aufgabenmodus hat keine Auswirkungen auf die Updates, die für das Start- un
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Barrierefreiheit und Tastenkombinationen
 
 Auf das Raster **Zeitplan** kann vollständig zugegriffen werden, und es kann mit Bildschirmlesern wie Narrator, JAWS oder NVDA verwendet werden. Sie können durch den Rasterbereich navigieren, indem Sie die Pfeiltasten (wie in Microsoft Excel) verwenden. Sie können die TAB-TASTE verwenden, um über die interaktiven Benutzeroberflächenelemente zu navigieren, und Sie können den ABWÄRTSPFEIL, die EINGABETASTE oder LEERTASTE verwenden, um die Dropdownmenüs auszuwählen und zu öffnen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

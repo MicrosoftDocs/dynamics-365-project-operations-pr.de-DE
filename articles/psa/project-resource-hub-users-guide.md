@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948140"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123152"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Benutzerhandbuch für Projektressourcen-Hub
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -48,7 +46,7 @@ Es gibt zwei Arten von [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn
 ## <a name="install-the-mobile-app"></a>Installation der mobilen App
 Bevor Sie die Projektressourcen-Hub-App verwenden können, müssen Sie die mobile App auf Ihrem Gerät installieren. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installieren von Dynamics 365 für Smartphones und Tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installieren von Dynamics 365 für Smartphones und Tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Grundlegende Navigation
 1.  Wenn Sie sich bei der mobilen App anmelden, wird die MyApps-Seite mit einer Liste von Apps angezeigt, auf die Sie zugreifen. 
@@ -99,12 +97,9 @@ Tragen Sie Ihre Ausgaben mindestens wöchentlich ein (oder mit der Häufigkeit, 
 5. Geben Sie dann Ihre Ausgaben für die Woche ein. Wenn Sie fertig sind und alles korrekt ausschaut, tippen Sie auf **Senden**. Ein Manager wird Ihre Ausgaben überprüfen und genehmigen.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Allgemeine Informationen dazu, wie die mobile App verwendet wird 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grundlagenhandbuch für mobile Benutzer](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Grundlagenhandbuch für mobile Benutzer](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Siehe auch  
  [Überblick über Project Service](../psa/overview.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)   
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

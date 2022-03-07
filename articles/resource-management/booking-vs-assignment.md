@@ -2,18 +2,16 @@
 title: Buchungen gegenüber Arbeitsaufträge
 description: Dieses Thema enthält Informationen zu den Unterschieden zwischen Ressourcenbuchungen und Ressourcenarbeitsaufträgen.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 3c1a1003af0b23c4be44fefac0b3c4ea725f96b2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841171"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012765"
 ---
 # <a name="bookings-vs-assignments"></a>Buchungen gegenüber Arbeitsaufträge
 
@@ -26,3 +24,6 @@ Im Gegensatz zu Buchungen sind Zuweisungen die Bindung von Ressourcen an Projekt
 Normalerweise entspricht die Summe der Buchungen für eine Ressource der Summe der Zuweisungen der Ressource für eine oder mehrere Aufgaben. Project Operations erzwingt diese Vereinbarung jedoch nicht. Die **Abstimmungsansicht** zeigt einem Projektmanager an, wo die Buchungen und Zuweisungen einer Ressource nicht übereinstimmen.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

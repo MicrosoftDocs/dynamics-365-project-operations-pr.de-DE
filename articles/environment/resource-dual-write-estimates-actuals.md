@@ -2,17 +2,19 @@
 title: Integration der Projektvorkalkulationen und Istwerte
 description: Dieses Thema enthält Informationen zur Project Operations Dual-Write-Integration für Projektvorkalkulationen und Istwerte.
 author: sigitac
+manager: Annbe
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88df3385fac0a78a827d65a77d3b04c9d6499536
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006290"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955752"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integration der Projektvorkalkulationen und Istwerte
 
@@ -30,7 +32,7 @@ Das Erstellen von Schätzungen erfordert eine gültige Buchhaltungskonfiguration
 
 Arbeitsschätzungen werden vom Projektmanager oder Ressourcenmanager erstellt, der der Projektaufgabe auch eine generische oder benannte Ressource zuweist. Die Ressourcenzuweisungsdatensätze können auf der Registerkarte **Ressourcenzuweisungen** auf der Seite **Projektdetails** in Dataverse angezeigt werden. Ressourcenzuweisungsdatensätze in Dataverse erstellen Stundenprognosedatensätze in Finance and Operations Apps mit **Project Operations-Integrationsentität für Stundenschätzungen (msdyn\_resourceassignments)**.
 
-   ![Integration der Arbeitsvorkalkulationen.](./Media/DW4LaborEstimates.png)
+   ![Integration der Arbeitsvorkalkulationen](./Media/DW4LaborEstimates.png)
 
 Dual-Write synchronisiert Ressourcenzuweisungsdatensätze mit der Staging-Tabelle (**ProjCDSEstimateHoursImport**) und verwendet dann Geschäftslogik, um Stundenprognosedatensätze zu erstellen und zu aktualisieren (**ProjForecastEmpl**).
 
@@ -40,7 +42,7 @@ Der Projektbuchhalter überprüft die Prognosestundendatensätze in Finance and 
 
 Kostenvoranschläge werden vom Projektmanager auf der Registerkarte **Kostenvoranschläge** auf der Seite **Projektdetails** in Dataverse erstellt. Kostenvoranschlagsdatensätze werden in der Entität **Schätzungszeile** in Dataverse gespeichert. Diese Schätzungsdatensätze haben die Transaktionsklasse: **Ausgabe** und werden mit Ausgabenprognosedatensätzen in Finance and Operations Apps mit der **Project Operations-Integrationsentität für Kostenvoranschläge (msdyn\_estimatelines)** synchronisiert.
 
-   ![Integration der Kostenvoranschläge.](./Media/DW4ExpenseEstimates.png)
+   ![Integration der Kostenvoranschläge](./Media/DW4ExpenseEstimates.png)
 
 Dual-Write synchronisiert Kostenvoranschlagsdatensätze mit der Staging-Tabelle (**ProjCDSEstimateExpenseImport**) und verwendet dann Geschäftslogik, um Ausgabenprognosedatensätze zu erstellen und zu aktualisieren (**ProjForecastCost**). In den Schätzzeilen werden Umsatzschätzungs- und Kostenvoranschlagsdatensätze getrennt gespeichert. Die Geschäftslogik in Finance and Operations Apps füllt einen einzelnen Ausgabenprognosedatensatz mit diesem Detail in der Staging-Tabelle.
 
@@ -50,7 +52,7 @@ Der Projektbuchhalter überprüft die Ausgabenprognosendatensätze in Finance an
 
 Materialvorkalkulationen werden vom Projektmanager auf der Registerkarte **Materialvorkalkulationen** auf der Seite **Projektdetails** in Dataverse erstellt. Materialvorkalkulationsdatensätze werden in der Entität **Schätzungszeile** in Dataverse gespeichert. Diese Schätzungsdatensätze haben die Transaktionsklasse: **Material** und werden mit Artikelprognosedatensätzen in Finance and Operations Apps mit der **Project Operations-Integrationstabelle für Materialvorkalkulationen (msdyn\_estimatelines)** synchronisiert.
 
-   ![Integration der Materialvorkalkulationen.](./Media/DW4MaterialEstimates.png)
+   ![Integration der Materialvorkalkulationen](./Media/DW4MaterialEstimates.png)
 
 Dual-Write synchronisiert Materialvorkalkulationsdatensätze mit der Staging-Tabelle (**ProjForecastSalesImpor**) und verwendet dann Geschäftslogik, um Artikelprognosedatensätze zu erstellen und zu aktualisieren (**ForecastSales**). In den Schätzzeilen werden Umsatzschätzungs- und Kostenvoranschlagsdatensätze getrennt gespeichert. Die Geschäftslogik in Finance and Operations Apps füllt einen einzelnen Elementprognosedatensatz mit diesem Detail in der Staging-Tabelle.
 
@@ -60,7 +62,7 @@ Der Projektbuchhalter überprüft die Elementprognosendatensätze in Finance and
 
 Projekt-Istwerte werden in Dataverse erstellt, basierend auf Zeit, Kosten, Material und Abrechnungsaktivität. Alle operativen Attribute dieser Transaktionen, einschließlich Menge, Selbstkostenpreis, Verkaufspreis und Projekt, werden hier in dieser Dataverse-Entität erfasst. Weitere Informationen finden Sie unter [Istwerte](../actuals/actuals-overview.md). Istwert-Datensätze werden mit Finance and Operations-Apps mithilfe der Dual-Write-Zuordnung **Project Operations Integrationsistwerte (msdyn\_actuals) für nachgelagerte Buchhaltung synchronisiert.**
 
-   ![Istwerteintegration.](./Media/DW4Actuals.png)
+   ![Istwerteintegration](./Media/DW4Actuals.png)
 
 Die Tabellenzuordnung **Project Operations-Integration Istwerte** synchronisiert alle Datensätze aus der Entität **Istwerte** in Dataverse, wobei das Attribut **Synchronisierung überspringen (nur für den internen Gebrauch)** auf **False** gesetzt ist. Dieser Attributwert wird in Dataverse automatisch festgelegt, wenn der Datensatz erstellt wird. Beispiele, bei denen dieses Attribut auf **True** festgelegt ist, sind:
 

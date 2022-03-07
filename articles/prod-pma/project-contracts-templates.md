@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764818"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950398"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation bis Finance 
 
@@ -109,8 +109,8 @@ Wenn die Integrationslösung Project Service Automation zu Finance angewendet wi
 ## <a name="prerequisites-and-mapping-setup"></a>Voraussetzungen und Mappingeinrichtung
 
 - Bevor die Synchronisierung von Projektaufgaben erfolgen kann, müssen Sie Konten synchronisieren.
-- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdy\_Organisationseinheiten** zu **msdyn\_Name \[Name\]** hinzu. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdyn\_Projekte** zu **msdynce\_projectnumber \[Projektnummer\]**. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdy\_Organisationseinheiten** zu **msdyn\_Name \[Name\]** hinzu. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](/powerapps/administrator/data-integrator).
+- Fügen Sie in Ihrem Verbindungssatz eine Integrationsschlüsselfeldzuordnung für **msdyn\_Projekte** zu **msdynce\_projectnumber \[Projektnummer\]**. Möglicherweise müssen Sie zuerst ein Projekt zum Verbindungssatz hinzufügen. Weitere Informationen finden Sie unter [Daten integrieren in Common Data Service für Apps](/powerapps/administrator/data-integrator).
 - **SourceDataID** für Projektverträge und Projekte können auf einen anderen Wert aktualisiert oder aus dem Mapping entfernt werden. Der Standardvorlagenwert ist **Project Service Automation**.
 - Das **Zahlungsbedingungen**-Mapping muss aktualisiert werden, damit es die gültigen Zahlungsbedingungen in Finance widerspiegelt. Sie können das Mapping auch aus der Projektaufgabe entfernen. Die Standardwertzuordnung enthält Standardwerte für Demodaten. Die folgende Tabelle zeigt die Werte in Project Service Automation.
 
@@ -131,7 +131,7 @@ Verwenden Sie Microsoft Power Query für Excel, um Daten zu filtern, wenn die fo
 Wenn Sie Power Query verwenden müssen, folgen Sie diesen Richtlinien:
 
 - Die Vorlage Projekte und Verträge (PSA zu Fin und Ops) verfügt über einen Standardfilter, der nur Vertriebsaufträge des Typs **Arbeitselement (msdyn\_ordertype = 192350001)**. Mit diesem Filter können Sie sicherstellen, dass keine Projektverträge für Vertriebsaufträge in Finance erstellt werden. Wenn Sie eine eigene Vorlage erstellen, müssen Sie diesen Filter hinzufügen.
-- Erstellen Sie einen Filter Power Query, der nur die Vertragsorganisationen enthält, die mit der juristischen Person des Integrationsverbindungssatzes synchronisiert werden sollen. Beispielsweise sollten Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso US haben, mit der juristischen Person USSI synchronisiert werden, Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso Global haben, sollten jedoch mit der juristischen Person USMF synchronisiert werden. Wenn Sie diesen Filter nicht zu Ihrer Aufgabenzuordnung hinzufügen, werden alle Projektverträge unabhängig von der Vertragsorganisationseinheit mit der für den Verbindungssatz definierten juristischen Person synchronisiert.
+- Erstellen Sie einen Filter Power Query, der nur die Vertragsorganisationen enthält, die mit der juristischen Person des Integrationsverbindungssatzes synchronisiert werden sollen. Zum Beispiel Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso US haben, sollten mit der juristischen Person der USSI synchronisiert sein, aber Projektverträge, die Sie mit der Vertragsorganisationseinheit von Contoso Global sollten mit der juristischen Person der USMF synchronisiert werden. Wenn Sie diesen Filter nicht zu Ihrer Aufgabenzuordnung hinzufügen, werden alle Projektverträge unabhängig von der Vertragsorganisationseinheit mit der für den Verbindungssatz definierten juristischen Person synchronisiert.
 
 ## <a name="template-mapping-in-data-integration"></a>Vorlagenzuordnung in der Datenintegration
 
@@ -153,3 +153,6 @@ Die folgende Abbildung zeigt Beispiele für die Zuordnung von Vorlagenaufgaben i
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Meilensteinzuordnung für Projektvertragszeilen in der Vorlage Projekte und Verträge (PSA 3.x zu Dynamics) – v2 Vorlage:
 
 [![Zuordnung von Vorlagen der Version 2 für Meilensteine in Projektvertragszeilen](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

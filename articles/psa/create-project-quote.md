@@ -2,8 +2,6 @@
 title: Ein Projektangebot erstellen
 description: Erstellen eines Projektangebots (Project Service)
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cdf3a9cbc1df0b2c4630f142fb1643b35919b21e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8a7907ee4c85c2993e86abec11fc11d2fe82a3e0ca435b25c7a213bbce931e73
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149407"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000350"
 ---
 # <a name="create-a-project-quote-project-service"></a>Erstellen eines Projektangebots (Project Service)
 
@@ -55,3 +53,6 @@ Das Erstellen eines Angebots gleicht dem Erstellen einer Verkaufschance. Eine Ve
   
 ### <a name="see-also"></a>Siehe auch  
  [Konto-Manager Handbuch](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

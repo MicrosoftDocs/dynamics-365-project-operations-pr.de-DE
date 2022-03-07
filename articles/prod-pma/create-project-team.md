@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270857"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076689"
 ---
 # <a name="create-a-project-team"></a>Ein Projektteam erstellen
 
@@ -37,7 +37,7 @@ Der Projektmanager kann eine Rolle auf der Seite auswählen und dann, wenn eine 
 
 [![Projektteamliste, die sowohl Rollen als auch tatsächliche Ressourcen enthält](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-Der Projektmanager hat verschiedene Möglichkeiten, eine Ressource für ein Projekt zu buchen, wie **Verbleibende Kapazität**, **Volle Kapazität**, **Kapazitätsprozentsatz**, und **Stunden definieren**. Diese Buchungsoptionen können jederzeit storniert werden, wenn sich die Ressourcenzuweisungen ändern. Es werden zwei Buchungsarten unterstützt:
+Der Projektmanager hat verschiedene Möglichkeiten, eine Ressource für ein Projekt zu buchen, wie **Verbleibende Kapazität**, **Volle Kapazität**, **Kapazitätsprozentsatz**, und **Stunden definieren**. Diese Buchungsoptionen können jederzeit storniert werden, wenn sich die Ressourcenzuweisungen ändern. Es werden zwei Arten der Buchung unterstützt:
 
 - **Verbindlich buchen** – Die Ressourcenreservierung wurde genehmigt und bestätigt, um für die angegebene Dauer an dem Auftrag zu arbeiten.
 - **Unverbindlich buchen** – Die Ressourcenreservierung wurde genehmigt und bestätigt, um für die angegebene Dauer an dem Auftrag zu arbeiten.
@@ -62,6 +62,3 @@ Der folgende Prozess erläutert, wie Sie ein Projektteam erstellen.
 ## <a name="monitor-project-teams"></a>Projektteams überwachen
 1. Auf der Seite **Alle Projekte** wählen Sie die Verknüpfung **Projekt-ID** für das Projekt **XYZ Aktualisierung Phase 2**.
 2. Auf der Registerkarte **Projektteam und Terminplanung** überprüfen Sie, ob die aufgelisteten Projektressourcen korrekt sind.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

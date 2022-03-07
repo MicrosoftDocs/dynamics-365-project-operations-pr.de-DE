@@ -2,11 +2,9 @@
 title: Benutzerdefinierte Felder als Preisdimensionen einrichten
 description: Dieses Thema enthält Informationen zum Einrichten von Preisdimensionen mit benutzerdefinierten Feldern.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003590"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Benutzerdefinierte Felder als Preisdimensionen einrichten
 
@@ -44,11 +42,11 @@ Damit ein Feld zu einer Preisdimension wird, muss es:
 
 - als Zeile in der Tabelle **Preisdimension** erstellt worden sein. Beispielsweise können Sie Preisdimensionszeilen, wie in der folgenden Grafik dargestellt, hinzufügen. 
 
-![Betragsbasierte Preisdimensionszeilen](media/Amt-based-PD.png)
+![Betragsbasierte Preisdimensionszeilen.](media/Amt-based-PD.png)
 
 Beachten Sie, dass die Arbeitszeiten (**msdyn_resourceworkhours**) als aufschlagsbasierte Dimension hinzugefügt wurde und zum Raster auf der Registerkarte **Aufschlagsbasierte Preisdimension** hinzugefügt wurden.
 
-![Aufschlagsbasierte Preisdimensionszeilen](media/Markup-based-PD.png)
+![Aufschlagsbasierte Preisdimensionszeilen.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,12 +73,12 @@ Es gibt zwei Arten von Preisdimensionen:
   
 | Rolle        | Organisationseinheit    |Arbeitsstandort      |Standardtitel      |Arbeitszeiten der Ressource      |  Aufschlag|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Koch Indien|Vor Ort            |                    |Überstunden                 |15     |
-|             | Koch Indien|Lokal             |                    |Überstunden                 |10     |
-|             | Contoso US   |Lokal             |                    |Überstunden                 |20     |
+|             | Contoso Indien|Vor Ort            |                    |Überstunden                 |15     |
+|             | Contoso Indien|Lokal             |                    |Überstunden                 |10     |
+|             | Contoso (USA)   |Lokal             |                    |Überstunden                 |20     |
 
 
-Wenn eine Ressource von Contoso Indien, deren Basistarif 100 USD beträgt, vor Ort arbeitet, und sie 8 Stunden an regulärer Arbeitszeit und 2 Überstunden im Zeiteintrag protokolliert, verwendet die Preis-Engine den Basistarif von 100 für die 8 Stunden, um 800 USD zu erfassen. Für die 2 Überstunden wird ein Aufschlag von 15 % auf den Basistarif von 100 angewendet, um einen Einheitspreis von 115 USD zu erhalten und Gesamtkosten von 230 USD zu erfassen.
+Wenn eine Ressource von Contoso Indien, deren Basistarif 100 USD beträgt, vor Ort arbeitet, und sie 8 Stunden an regulärer Arbeitszeit und 2 Überstunden im Zeiteintrag protokolliert, verwendet die Project Service-Preis-Engine den Basistarif von 100 für die 8 Stunden, um 800 USD zu erfassen. Für die 2 Überstunden wird ein Aufschlag von 15 % auf den Basistarif von 100 angewendet, um einen Einheitspreis von 115 USD zu erhalten und Gesamtkosten von 230 USD zu erfassen.
 
 ### <a name="applicable-to-cost"></a>Gilt für Kosten 
 Falls diese Option auf **Ja** eingestellt ist, gibt sie an, dass der Dimensionswert aus dem Eingabekontext verwendet werden sollte, um den **Rollenpreis** und den **Rollenpreisaufschlag** abzugleichen, wenn die Kosten und Aufschlagsraten abgerufen werden.
@@ -96,3 +94,6 @@ Das Festlegen der Dimensionspriorität hilfte einen Preis auch dann zu bestimmen
 
 - **Kostenpriorität**: Der Wert der Kostenpriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Einstandspreise an. Der Wert der **Kostenpriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Kosten** aufweisen.
 - **Vertriebspriorität**: Der Wert der Vertriebspriorität der Dimension gibt die Gewichtung dieser Dimension beim Abgleich mit dem Setup der Verkaufspreise oder Rechnungssätze an. Der Wert der **Vertriebspriorität** muss über alle Dimensionen hinweg einheitlich sein, die den Status **Gilt für Vertrieb** aufweisen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

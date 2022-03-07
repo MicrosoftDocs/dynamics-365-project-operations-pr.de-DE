@@ -2,11 +2,9 @@
 title: Pay-When-Paid-Kreditorenzahlungen einrichten und verwenden
 description: In diesem Thema wird erläutert, wie Sie Pay-When-Paid-Bedingungen (PWP) erstellen, damit Sie teilweise Kreditorenzahlungen basierend auf Kundenzahlungen freigeben können.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008855"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Pay-When-Paid-Kreditorenzahlungen einrichten und verwenden
 
@@ -80,3 +78,6 @@ Wenn ein Kreditor seine Arbeit an einem Projekt abgeschlossen hat und Ihnen eine
 2. Geben Sie auf der Seite **Kreditorenrechnungen mit Pay When Paid** im Suchfeld die Werte ein, um die Kreditorenrechnung zu finden, die Sie überprüfen möchten, und wählen Sie dann **Suchen** aus.
 3. Wählen Sie im Inforegister **Kreditorenrechnungspositionen** die Zeilen aus, die Sie ändern möchten.
 4. Wenn die **Pay When Paid**-Bedingungen für die Rechnungszeile erfüllt sind, wählen Sie **Kreditorenzahlung freigeben** aus. Die Option **Pay When Paid** wird gelöscht, und der Wert für das Feld **Bereit für Zahlung** wird in **Ja** geändert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

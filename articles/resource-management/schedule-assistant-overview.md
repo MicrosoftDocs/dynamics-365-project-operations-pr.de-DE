@@ -2,18 +2,17 @@
 title: Ansicht für Zeitplan-Assistent
 description: Dieses Thema enthält Informationen zur Arbeit mit dem Zeitplan-Assistenten zum Buchen von Ressourcen.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 83583c97e4ecb5f1fdc0d8d98098afe8e12d27e4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076380"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368115"
 ---
 # <a name="schedule-assistant-overview"></a>Ansicht für Zeitplan-Assistent
 
@@ -25,7 +24,7 @@ Nachdem geeignete Ressourcen identifiziert wurden, kann der Ressourcen- oder Pro
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Der Zeitplan-Assistent ist Teil der Universal Resource Scheduling-Lösung. Diese Lösung ist in Dynamics 365 Project Operations, Dynamics 365 Field Service und Dynamics 365 Customer Service enthalten und installiert.
+Der Zeitplan-Assistent ist Teil der Universal Resource Scheduling-Lösung. Diese Lösung ist im Lieferumfang enthalten und wird mit Dynamics 365 Project Operations, Dynamics 365 Field Service und Dynamics 365 Customer Service installiert.
 
 ## <a name="matching-requirements-and-resources"></a>Übereinsteimmende Anforderungen und Ressourcen
 
@@ -57,3 +56,6 @@ Im Filterbereich werden arbeitsbezogene Optionen angezeigt, darunter:
 -   Ressourcenzuordnungsunternehmen
 -   Ressourcentypen
 -   Bevorzugte Ressourcen
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

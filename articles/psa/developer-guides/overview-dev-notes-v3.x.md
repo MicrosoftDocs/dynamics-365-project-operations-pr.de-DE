@@ -2,12 +2,10 @@
 title: Entwicklungs-Homepage (Project Service Automation 3.x)
 description: Dieses Thema enthält Links zu Themen, die Entwicklungsinformationen für Dynamics 365 Project Service Automation (PSA) Version 3.x bereitstellen.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/26/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7548f588b492cd4c8cf19c0c88ce5ea1b34cc76
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a9db51ea8e29420f2258dff4febd7d638a6c0267
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148687"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007860"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Entwicklungs-Homepage (Project Service Automation 3.x)
 
@@ -33,3 +31,6 @@ Dynamics 365 Project Service Automation 3.x bietet neue Funktionen, die Implemen
 - [Änderungen bei Zeit und Ausgaben (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Änderungen bei der Ressourcenverwaltung (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Veraltete Webressourcen in Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,19 +3,19 @@ title: Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 description: Dieses Thema enthält Informationen zum Verbinden Ihres Azure-Abonnements mit einem LCS-Projekt.
 author: sigitac
 manager: Annbe
-ms.date: 04/12/2021
+ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076395"
 ---
-# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Einem LCS-Projekt ein Azure-Abonnement hinzufügen
+# <a name="add-an-azure-subscription-to-lcs-project"></a>Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
@@ -62,7 +62,7 @@ Die Autorisierung ist jetzt abgeschlossen.
 3. Wählen Sie im Feld **Zur Verwendung von Azure Resource Manager konfigurieren** **Ja** aus.
 4. Stellen Sie sicher, dass die AAD-Mandantendomäne des Azure-Abonnements mit dem Azure-Abonnement der Domäne, die Sie verwenden, übereinstimmt, und wählen Sie **Weiter** aus.
 5. Wählen Sie im Bildschirm **Microsoft Azure-Einrichtung** zur Bestätigung **Weiter** aus. Wenn auf diesem Bildschirm eine Fehlermeldung angezeigt wird, kehren Sie zum Abschnitt [Dynamics Deployment Services den Zugriff auf Ihr Azure-Abonnement ermöglichen](#provide) in diesem Thema zurück, und stellen Sie sicher, dass Sie alle Schritte abgeschlossen haben.
-6. Laden Sie das Azure-Verwaltungszertifikat in einen lokalen Ordner auf Ihrem Computer herunter. Bitten Sie Ihr Azure-Abonnement Administrator, das Zertifikat in das Azure-Verwaltungsportal hochzuladen, indem Sie das Abonnement auswählen und zu **Einstellungen** > **Verwaltungszertifikate** gehen. Mit diesem Zertifikat kann LCS in Ihrem Namen mit Azure kommunizieren. Sie können diesen Schritt überspringen, wenn Ihr Benutzer Zugriff auf das Abonnement hat.
+6. Laden Sie das Azure-Verwaltungszertifikat in einen lokalen Ordner auf Ihrem Computer herunter, und laden Sie es anschließend in das Azure-Verwaltungsportal hoch, indem Sie zu **Einstellungen** > **Verwaltungszertifikate** navigieren. Mit diesem Zertifikat kann LCS in Ihrem Namen mit Azure kommunizieren. Sie können diesen Schritt überspringen, wenn Ihr Benutzer Zugriff auf das Abonnement hat.
 7. Wählen Sie **Weiter** aus.
 8. Wählen Sie die Azure-Region aus, in der die Bereitstellung erfolgen soll, und wählen Sie ein Rechenzentrum aus, das sich in der Nähe des Ortes befindet, an dem Sie dieses System verwenden möchten.
 9.  Wählen Sie **Verbinden** aus.
@@ -70,6 +70,3 @@ Die Autorisierung ist jetzt abgeschlossen.
 Sie haben Ihr Azure-Abonnement erfolgreich verbunden. Sie können nun Cloud-gehostete Dynamics 365 Finance-Umgebungen bereitstellen.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

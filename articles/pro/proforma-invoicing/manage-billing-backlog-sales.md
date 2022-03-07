@@ -1,21 +1,19 @@
 ---
-title: Den Abrechnungsstau verwalten – Lite
-description: Dieses Thema enthält Informationen zu den verschiedenen Ansichten, die beim Verwalten des Abrechnungsstaus verwendet werden können.
+title: Projektabrechnungsrückstand verwalten
+description: Dieses Thema enthält Informationen zu den verschiedenen Ansichten, die beim Verwalten des Abrechnungsstaus für Projekte verwendet werden können.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176970"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988290"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Den Abrechnungsstau verwalten – Lite
+# <a name="manage-project-billing-backlog"></a>Projektabrechnungsrückstand verwalten 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -39,7 +37,7 @@ Die Ansicht **Verfügbare Vorschüsse und Vorauszahlungen** listet alle verfügb
 
 ## <a name="fixed-price-milestones"></a>Festpreismeilensteine
 
-Die Ansicht **Festpreismeilensteine** listet alle Meilensteine des Festpreises über alle Projektvertragslinien im System auf. Einzelne oder mehrere Meilensteine können als **Bereit für die Rechnungsstellung** oder als **Nicht bereit für die Rechnungsstellung** über diese Ansicht markiert werden. Durch die Markierung eines Meilensteins als **Bereit für die Rechnungsstellung** kann dieser in einem Rechnungsentwurf verwendet werden.
+Die Ansicht **Festpreismeilensteine** listet alle Meilensteine des Festpreises über alle Projektvertragslinien im System auf. Einzelne oder mehrere Meilensteine können über diese Ansicht als **Bereit für die Rechnungsstellung** oder **Nicht bereit für die Rechnungsstellung** markiert werden. Durch die Markierung eines Meilensteins als **Bereit für die Rechnungsstellung** kann dieser in einem Rechnungsentwurf verwendet werden.
 
 Wenn Vertragszeilen mit mehreren Kunden eine Festpreisabrechnungsmethode haben, wird für jeden Kunden in der Vertragszeile ein Meilenstein erstellt. Ein Meilenstein kann erstellt und dann in einzelne kundenspezifische Meilensteindatensätze aufgeteilt werden. Diese Aufteilung erfolgt intern und entspricht der für jeden Kunden in der Vertragszeile definierten Aufteilung des Abrechnungsprozentsatzes. In der **Festpreismeilensteine**-Ansicht sehen Sie die einzelnen kundenspezifischen Meilensteindatensätze. Jeder dieser Meilensteindatensätze kann als **Bereit für die Rechnungsstellung** getrennt von dieser Ansicht markiert werden. Wenn eine oder mehrere der zugehörigen Meilensteinaufteilungen als **Bereit für die Rechnungsstellung** markiert sind, wird der Header-Status von **Nicht gestartet** auf **In Bearbeitung** aktualisiert. Wenn alle Meilensteinaufteilungen in Rechnung gestellt wurden, wird der Status des Header-Meilensteins auf **Abgeschlossen** aktualisiert.
 
@@ -47,9 +45,9 @@ In dieser Ansicht wird ein Meilenstein auf einem Rechnungsentwurf mit dem Rechnu
 
 ## <a name="product-billing-backlog"></a>Rechnungsrückstandsprotokoll zu Produkten
 
-Die Ansicht **Rechnungsrückstandsprotokoll zu Produkten** listet alle produktbasierten Vertragszeilen über alle Projektverträge im System auf. Einzelne oder mehrere produktbasierte Vertragszeilen können als **Bereit für die Rechnungsstellung** oder als **Nicht bereit für die Rechnungsstellung** über diese Ansicht markiert werden. Durch die Markierung einer produktbasierten Vertragszeile als **Bereit für die Rechnungsstellung** kann diese in einem Rechnungsentwurf verwendet werden.
+Die Ansicht **Rechnungsrückstandsprotokoll zu Produkten** listet alle produktbasierten Vertragszeilen über alle Projektverträge im System auf. Einzelne oder mehrere produktbasierte Vertragszeilen können über diese Ansicht als **Bereit für die Rechnungsstellung** oder **Nicht bereit für die Rechnungsstellung** markiert werden. Durch das Markieren einer produktbasierten Vertragszeile als **Bereit für die Rechnungsstellung** kann sie in einem Rechnungsentwurf verwendet werden.
 
-In dieser Ansicht wird eine produktbasierte Vertragszeile mit dem Abrechnungsstatus **Erstellte Kundenrechnung** angezeigt, die sich in einem Rechnungsentwurf befindet. Wenn der Rechnungsentwurf bestätigt wird, wird der Fakturierungsstatus in diesem Datensatz auf **Gebuchte Kundenrechnung** aktualisiert. Aktualisieren Sie diesen Statuswert nicht mithilfe von benutzerdefiniertem Code. Project Operations funktioniert nicht ordnungsgemäß, wenn diese Statuswerte mit benutzerdefiniertem Code aktualisiert werden.
+In dieser Ansicht wird eine produktbasierte Vertragszeile, die sich in einem Rechnungsentwurf befindet, mit dem Abrechnungsstatus **Erstellte Kundenrechnung** angezeigt. Wenn der Rechnungsentwurf bestätigt wird, wird der Fakturierungsstatus in diesem Datensatz auf **Gebuchte Kundenrechnung** aktualisiert. Aktualisieren Sie diesen Statuswert nicht mithilfe von benutzerdefiniertem Code. Project Operations funktioniert nicht ordnungsgemäß, wenn diese Statuswerte mit benutzerdefiniertem Code aktualisiert werden.
 
 ## <a name="time-and-material-billing-backlog"></a>Rückstandsprotokoll über Zeit- und Materialberechnung
 
@@ -60,3 +58,6 @@ Nicht in Rechnung gestellte Vertriebs-Istwerte mit einem **Nicht zu überschreit
 Wenn Vertragszeilen mit mehreren Kunden über eine Zeit- und Materialabrechnungsmethode verfügen und Zeit und Kosten genehmigt werden, wird für jeden Kunden in der Vertragszeile ein nicht abgerechneter tatsächlicher Umsatz gemäß der für jeden Kunden definierten Aufteilung des Abrechnungsprozentsatzes erstellt. In der Ansicht **Rückstandsprotokoll über Zeit- und Materialberechnung** sehen Sie diese einzelnen kundenspezifischen, nicht in Rechnung gestellten Verkaufsdaten. Jeder dieser Datensätze an nicht fakturierten Umsatz-Istwerten kann separat von dieser Ansicht als **Bereit für die Rechnungsstellung** markiert werden.
 
 In dieser Ansicht wird ein nicht abgerechneter vertrieblicher Ist-Wert mit dem Abrechnungsstatus **Erstellte Kundenrechnung** angezeigt, der sich in einem Rechnungsentwurf befindet. Wenn der Rechnungsentwurf bestätigt wird, wird der Fakturierungsstatus in diesem Datensatz auf **Gebuchte Kundenrechnung** aktualisiert. Aktualisieren Sie diesen Statuswert nicht mithilfe von benutzerdefiniertem Code. Project Operations funktioniert nicht ordnungsgemäß, wenn diese Statuswerte mit benutzerdefiniertem Code aktualisiert werden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

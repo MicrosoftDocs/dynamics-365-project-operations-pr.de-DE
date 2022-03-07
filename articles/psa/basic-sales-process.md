@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ad32757821a4cf966abd0b98cc4632dece613bc4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145177"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291078"
 ---
 # <a name="sales-processes"></a>Vertriebsprozesse
 
@@ -93,3 +93,6 @@ In PSA ist es nicht möglich, Überarbeitungen an einem Angebot nachzuverfolgen.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Nachverfolgungskommentare und Genehmigungen von Angeboten und Projektverträgen
 Sie können die Überprüfung und Genehmigung von Angeboten und Projektverträgen mithilfe der Datensatzpinnwand und Beiträge verwalten. Ihre Organisation kann benutzerdefinierte Workflows und Plug-Ins erstellen, um Benachrichtigungen zu Überprüfungs- und Genehmigungsarbeitselementen zuzuweisen, umzuleiten, zu eskalieren und zu verwalten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

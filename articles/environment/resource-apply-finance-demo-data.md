@@ -2,18 +2,16 @@
 title: Demodaten auf eine in der Cloud gehostete Finance-Umgebung anwenden
 description: In diesem Thema wird erläutert, wie Demodaten aus Project Operations auf eine Cloud-gehostete Dynamics 365 Finance-Umgebung angewendet werden.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365237"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009665"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demodaten auf eine in der Cloud gehostete Finance-Umgebung anwenden
 
@@ -24,40 +22,40 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 1. Öffnen Sie in Ihrem LCS-Projekt die Seite **Umgebungsdetails**. Beachten Sie, dass es die Details enthält, die für die Verbindung mit der Umgebung mithilfe des RDP (Remote Desktop Protocol) erforderlich sind.
 
-![-Umgebungsdetails](./media/1EnvironmentDetails.png)
+![Umgebungsdetails.](./media/1EnvironmentDetails.png)
 
 Die ersten hervorgehobenen Anmeldeinformationen sind die Anmeldeinformationen des lokalen Kontos und enthalten einen Hyperlink zur Remotedesktopverbindung. Zu den Anmeldeinformationen gehören der Benutzername und das Kennwort des Umgebungsadministrators. Der zweite Satz von Anmeldeinformationen wird verwendet, um sich in dieser Umgebung beim SQL Server anzumelden.
 
 2. Stellen Sie über den Hyperlink in **Lokale Konten** eine Verbindung her, und verwenden Sie die **Anmeldeinformationen für das lokale Konto**, um sich zu authentifizieren.
 3. Navigieren Sie zu **Internetinformationsdienste** > **Anwendungspools** > **AOSService**, und beenden Sie den Dienst. Sie beenden den Dienst an dieser Stelle, damit Sie die SQL-Datenbank weiterhin ersetzen können.
 
-![AOS beenden](./media/2StopAOS.png)
+![AOS beenden.](./media/2StopAOS.png)
 
 4. Navigieren Sie zu **Dienste**, und beenden Sie die folgenden zwei Elemente:
 
 - Microsoft Dynamics 365 Unified Operations: Batchverwaltungsdienst
 - Microsoft Dynamics 365 Unified Operations: Datenimport/-export-Framework
 
-![Dienste anhalten](./media/3StopServices.png)
+![Dienste anhalten.](./media/3StopServices.png)
 
 5. Öffnen Sie Microsoft SQL Server Management Studio. Melden Sie sich mit SQL Server-Anmeldeinformationen an, und verwenden Sie den Benutzer axdbadmin und das Kennwort von der LCS-Seite **Umgebungsdetails**.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. Suchen Sie in den **Datenbanken** von Object Explorer **AXDB**. Sie ersetzen die Datenbank durch eine neue Datenbank, die sich im [Download-Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip) befindet. 
 7. Kopieren Sie die Zip-Datei in die VM, mit der Sie remote verbunden sind, und extrahieren Sie die Zip-Inhalte.
 8. Klicken Sie in SQL Server Management Studio mit der rechten Maustaste auf **AxDB**, und wählen Sie dann **Aufgaben** > **Wiederherstellen** > **Datenbank** aus.
 
-![Datenbank wiederherstellen](./media/5RestoreDatabase.png)
+![Datenbank wiederherstellen.](./media/5RestoreDatabase.png)
 
 9. Wählen Sie **Quellgerät** aus, und navigieren Sie zu der Datei, die aus der von Ihnen kopierten Zip-Datei extrahiert wurde.
 
-![Quellgeräte](./media/6SourceDevice.png)
+![Quellgeräte.](./media/6SourceDevice.png)
 
 10. Wählen Sie **Optionen** und dann **Vorhandene Datenbank überschreiben** sowie **Vorhandene Verbindungen zur Zieldatenbank schließen** aus. 
 11. Klicken Sie auf **OK**.
 
-![Einstellungen wiederherstellen](./media/7RestoreSetting.png)
+![Einstellungen wiederherstellen.](./media/7RestoreSetting.png)
 
 Sie erhalten eine Bestätigung, dass die AXDB-Wiederherstellung erfolgreich war. Nachdem Sie diese Bestätigung erhalten haben, können Sie SQL Services Management Studio schließen.
 
@@ -68,14 +66,17 @@ Sie erhalten eine Bestätigung, dass die AXDB-Wiederherstellung erfolgreich war.
 15. Führen Sie die .ext-Datei mit Ihrer Benutzeradresse im Feld **E-Mail-Adresse** aus. 
 16. Wählen Sie **Übermitteln** aus.
 
-![Administratorbenutzerbereitstellung](./media/8AdminUserProvisioning.png)
+![Administratorbenutzerbereitstellung.](./media/8AdminUserProvisioning.png)
 
 Dies kann einige Minuten dauern. Sie sollten eine Bestätigungsnachricht erhalten, dass der Administratorbenutzer erfolgreich aktualisiert wurde.
 
 17. Führen Sie abschließend die Eingabeaufforderung als Administrator aus, und führen Sie iisreset durch.
 
-![IIS-Neustart](./media/9IISReset.png)
+![IIS zurücksetzen.](./media/9IISReset.png)
 
 18. Schließen Sie die Remotedesktopsitzung, und verwenden Sie die LCS-Seite **Umgebungsdetails**, um sich bei der Umgebung anzumelden und zu bestätigen, dass sie wie erwartet funktioniert.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

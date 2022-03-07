@@ -1,8 +1,6 @@
 ---
 title: Upgrade-Überlegungen für den Projektstrukturplan
 description: Dieses Thema enthält Informationen zum Aktualisieren des Projektstrukturplans von Project Service Automation 2.x auf 3.x.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149542"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992340"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Upgrade-Überlegungen für den Projektstrukturplan
 
@@ -34,20 +32,20 @@ Dieses Thema enthält Informationen zum Aktualisieren des Projektstrukturplans v
 ## <a name="key-entities"></a>Schlüsselentitäten
 Für einen akkuraten Projektstrukturplan, für den bereits Ressourcen geladen sind, sind die folgenden Entitäten erforderlich:
 
-- [Projekt](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektaufgabe](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Ressourcenzuweisungen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Abhängigkeit der Projektaufgaben](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Buchbare Ressourcen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekt](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektaufgabe](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Ressourcenzuweisungen](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Abhängigkeit der Projektaufgaben](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Buchbare Ressourcen](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Um eine Ressource zu definieren, die in einen Projektstrukturplan geladen wird, müssen Sie die folgenden Schritte ausführen:
 
-1. Erstellen Sie ein neues Projekt. Weitere Informationen darüber, wie ein neues Projekt erstellt wird, finden Sie unter [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Erstellen Sie mindestens eine Aufgabe. Weitere Informationen darüber, wie Sie eine Aufgabe erstellen, finden Sie unter [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definieren Sie die Aufgabenabhängigkeiten. Weitere Informationen finden Sie unter [Projektaufgabenabhängigkeit](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Weisen Sie dem Projekt Projektteam-Mitglieder zu. Weitere Informationen finden Sie unter [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Weisen Sie den Aufgaben Projektteam-Mitglieder zu. Weitere Informationen finden Sie unter [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Erstellen Sie ein neues Projekt. Weitere Informationen darüber, wie ein neues Projekt erstellt wird, finden Sie unter [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Erstellen Sie mindestens eine Aufgabe. Weitere Informationen darüber, wie Sie eine Aufgabe erstellen, finden Sie unter [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definieren Sie die Aufgabenabhängigkeiten. Weitere Informationen finden Sie unter [Projektaufgabenabhängigkeit](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Weisen Sie dem Projekt Projektteam-Mitglieder zu. Weitere Informationen finden Sie unter [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Weisen Sie den Aufgaben Projektteam-Mitglieder zu. Weitere Informationen finden Sie unter [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Projektteambeziehungen
 
@@ -96,3 +94,6 @@ Um ein erfolgreiches Upgrade zu gewährleisten, müssen die folgenden Beziehunge
 
 - Alle Projektaufgabenabhängigkeiten müssen mit demselben Projekt verknüpft sein.
 - Auf eine Aufgabe kann nicht mehrmals dieselbe Abhängigkeit verwiesen werden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

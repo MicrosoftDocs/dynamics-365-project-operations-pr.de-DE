@@ -2,18 +2,16 @@
 title: Projektrechnungsvorschläge verwalten
 description: Dieses Thema bietet Details zur Verarbeitung von kundenspezifischen Rechnungen für Project Operations für ressourcen /nicht vorrätige Szenarien.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 7e6d060c1cca08f86e2d04ca96c9315a17316d11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089242"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001470"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projektrechnungsvorschläge verwalten
 
@@ -80,7 +78,8 @@ Die Werte **Umsatzsteuergruppe** und **Artikel Umsatzsteuergruppe** stammen stan
     - **Kunde**: Wird standardmäßig immer die Abrechnungsumsatzsteuergruppe vom Kunden verwendet.
     - **Suche**: Wird in allen oben genannten Entitäten in dieser Liste suchen und wählt den ersten verfügbaren Wert aus. Die Suche beginnt mit der Entität **Projekt**, gefolgt von der Entiät **Projektvertrag** und dann von der Entität **Kunde**.
 
-- **Festpreis Meilenstein Artikel Umsatzsteuergruppe** wird verwendet, um den Wert standardmäßig auf den Wert im Feld **Artikel Umsatzsteuergruppe** zu setzen.
+- **Festpreis Meilenstein Artikel Umsatzsteuergruppe** wird als Standardwert im Feld **Artikel Umsatzsteuergruppe** für den Abrechnungsmeilenstein verwendet. Der Buchhalter kann diesen Wert auf der Seite **Transaktionen auf Rechnung** überprüfen und ändern. Das System verwendet den Wert aus der On-Account-Transaktion beim Erstellen einer Projektrechnungsvorschlagszeile.
+ 
 
 ### <a name="financial-dimensions"></a>Finanzielle Dimensionen
 
@@ -132,7 +131,7 @@ Die Seite **Rechnungsvorschläge formatieren** ermöglicht es, benutzerdefiniert
 
 Die Druckverwaltung verwendet verschiedene Berichtsdateien, um bestimmte Ziele zu drucken und den Fußzeilentext für die Rechnung anzupassen. Die Druckverwaltung kann auf Modulebene eingerichtet werden. Diese Einstellungen können jedoch für einen bestimmten Kunden-, Vertrags- oder Rechnungsvorschlag überschrieben werden. Um auf diese Funktion zuzugreifen, klicken Sie auf die Seite **Projektrechnungsvorschlag** und wählen **Drucken** > **Druckverwaltung**.
 
-Das Einrichten der Druckverwaltung wird als Baumansicht angezeigt, in der auf jeder Knotenebene die verfügbaren Dokumente zum Anpassen angezeigt werden. Sie können benutzerdefinierte Ausdrucke auf Modul-, Kunden-, Vertrags- oder Rechnungsvorschlagsdokumentebene zuweisen. Erweitern Sie zum Ändern des Originaldokumentausdrucks den gewünschten Knoten und wählen Sie **Originalartikel**. In dem Feld **Berichtsformat** wählen Sie das Berichtsformat aus, das zum Drucken verwendet werden soll. Sie können benutzerdefinierte Berichtsformate verwenden, indem Sie [das Gechäftsdokumenten-Framework](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) verwenden.
+Das Einrichten der Druckverwaltung wird als Baumansicht angezeigt, in der auf jeder Knotenebene die verfügbaren Dokumente zum Anpassen angezeigt werden. Sie können benutzerdefinierte Ausdrucke auf Modul-, Kunden-, Vertrags- oder Rechnungsvorschlagsdokumentebene zuweisen. Erweitern Sie zum Ändern des Originaldokumentausdrucks den gewünschten Knoten und wählen Sie **Originalartikel**. In dem Feld **Berichtsformat** wählen Sie das Berichtsformat aus, das zum Drucken verwendet werden soll. Sie können benutzerdefinierte Berichtsformate verwenden, indem Sie [das Gechäftsdokumenten-Framework](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management) verwenden.
 
 ## <a name="post-invoice-proposals"></a>Projektrechnungsvorschläge buchen
 
@@ -143,3 +142,6 @@ Deaktivieren Sie das Kontrollkästchen, um die Rechnung vor dem **Buchen** anzuz
 Zusätzlich zur Seite **Rechnungsvorschlag** können Rechnungsvorschläge auch durch Ausführen des periodischen Auftrags **Rechnungsvorschläge buchen** gebucht werden. Um diesen Auftrag zu finden, gehen Sie zu **Projektverwaltung und Buchhaltung** > **Periodisch** > **Projektrechnungen** > **Rechnungsvorschläge buchen**.
 
 Diese Seite zeigt alle Rechnungsvorschläge, die zur Buchung bereit sind. Sie können die Buchung von Rechnungsvorschlägen durch Auswahl von **Batch** planen. Stellen Sie die **Batchverarbeitungsparameter** auf **Ja** und legen Sie die Batchverarbeitung auf **Serie** fest.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

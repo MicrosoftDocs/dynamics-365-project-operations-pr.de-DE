@@ -2,11 +2,9 @@
 title: Intercompany-Rechnungsstellung
 description: Dieser Artikel enthält Informationen und Beispiele zur Intercompany-Rechnungsstellung für Projekte.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270767"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995805"
 ---
 # <a name="intercompany-invoicing"></a>Intercompany-Rechnungsstellung
 
@@ -35,7 +33,7 @@ Ihre Organisation verfügt möglicherweise über mehrere Abteilungen, Tochterunt
 
 Die folgende Abbildung zeigt ein typisches Szenario, in dem zwei juristische Personen, SI FR (die kreditnehmende juristische Person) und SI USA (die kreditgebende juristische Person), Ressourcen gemeinsam nutzen, um ein Projekt für Kunde A zu liefern. In diesem Szenario wird SI FR mit der Lieferung der Arbeit an Kunde A beauftragt. 
 
-[![Beispiel für Intercompany-Rechnungsstellung](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Beispiel für Intercompany-Rechnungsstellung.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Ziel ist es, die Kostenkontrolle, die Umsatzrealisierung, die Steuern und den Transferpreis für Intercompany-Projekttransaktionen flexibler und leistungsfähiger zu gestalten. Darüber hinaus stehen folgende Funktionen zur Verfügung:
 

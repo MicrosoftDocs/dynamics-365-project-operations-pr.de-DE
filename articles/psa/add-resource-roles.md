@@ -2,8 +2,6 @@
 title: Ressourcenrollen hinzufügen
 description: Zuweisen einer Rolle zu Project Service-Ressourcen
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 737c36cc7a31b5fa10524e13709ae99751aa1771
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: caced5b5acc06d33d7345a73789cf8a768a1f89200eb1c8185909acece47b38f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005210"
 ---
 # <a name="add-resource-roles-project-service"></a>Ressourcenrollen hinzufügen (Project Service)
 
@@ -47,3 +45,6 @@ Legen Sie Zielnutzungsraten für jede Rolle fest. Diese Einstellungen bestimmen 
   
 ### <a name="see-also"></a>Siehe auch  
  [Ressourcen einrichten](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

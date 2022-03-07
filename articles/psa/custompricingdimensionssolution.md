@@ -2,12 +2,10 @@
 title: Erstellen von benutzerdefinierten Lösungen für Preisdimensionen
 description: In diesem Thema wird erläutert, wie Sie eine benutzerdefinierte Lösung erstellen, wenn Sie benutzerdefinierte Preisdimensionen erstellen.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144638"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995265"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Erstellen von benutzerdefinierten Lösungen für Preisdimensionen
 
@@ -34,7 +32,7 @@ ms.locfileid: "5144638"
 1. Wählen Sie **Einstellungen** > **Lösungen** und dann **Neu** aus. 
 2. Geben Sie der Lösung einen Namen, **\<your organization name> Preisdimensionen**, geben die verbleibenden erforderlichen Informationen ein und wählen dann **Speichern**.
 
-> ![Erstellen einer benutzerdefinierten Lösung für Preisdimensionen](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Erstellen einer benutzerdefinierten Lösung für Preisdimensionen.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Hinzufügen aller erforderlichen Entitäten und zugehörigen Komponenten zur Preisdimensionslösung
 Sie müssen Ihrer Preisberechnungslösung die folgenden Project Service-Entitäten hinzufügen. Schließen Sie die Schritte in diesem Verfahren ab, um einige wichtige Schemaänderungen in der Preisberechnungslösung vorzunehmen, damit die Entitäten die neuen Preisberechnungsdimensionen kennen.
@@ -56,7 +54,7 @@ Sie müssen Ihrer Preisberechnungslösung die folgenden Project Service-Entität
 - Rollenpreis 
 - Zeiteintrag 
 
-> ![Hinzufügen vorhandener Entitäten zur Lösung für Preisdimensionen](media/Existing-entities-to-PD-solution.png)
+> ![Hinzufügen vorhandener Entitäten zur Lösung für Preisdimensionen.](media/Existing-entities-to-PD-solution.png)
 
 > ![Lösungskomponenten auswählen](media/Dimension-Components.png)
 
@@ -68,3 +66,6 @@ Sie müssen Ihrer Preisberechnungslösung die folgenden Project Service-Entität
 > ![Schließen Sie nicht alle zugehörigen Komponenten ein.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

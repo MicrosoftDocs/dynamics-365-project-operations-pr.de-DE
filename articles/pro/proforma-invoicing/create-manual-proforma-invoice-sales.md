@@ -1,22 +1,21 @@
 ---
-title: Eine manuelle Proforma-Rechnung erstellen – Lite
+title: Erstellen einer manuellen Proforma-Rechnung
 description: Dieses Thema bietet Informationen zum Erstellen einer manuellen Proforma-Rechnung in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: d5e93206737507bf6698a9746815c790d3dfc904
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764502"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4076753"
 ---
-# <a name="create-a-manual-proforma-invoice---lite"></a>Eine manuelle Proforma-Rechnung erstellen – Lite
+# <a name="creating-a-manual-proforma-invoice"></a>Erstellen einer manuellen Proforma-Rechnung
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
@@ -30,8 +29,8 @@ Das System prüft, um zu erkennen, welcher der ausgewählten Projektverträge ei
 
 Alle erstellten Projektrechnungen sind auf der Seite **Rechnung** im Abschnitt **Abrechnung** des Bereichs **Umsatz** verfügbar.
 
-## <a name="project-contract-details-page"></a>Seite „Projektvertragsdetails“
+## <a name="project-contract-details-page"></a>Detailseite zu Projektverträgen
 
-Eine Proforma-Rechnung kann auch aus der **Projektvertrag** Detailseite erstellt werden. Das System prüft, ob der Projektvertrag das Rechnungsrückstandsprotokoll **Bereit für die Rechnungsstellung** aufweist, der vor dem heutigen Datum datiert ist. Aus diesen Verträgen erstellt das System Entwürfe von Proforma-Rechnungen basierend auf der Anzahl der Kunden in jeder Vertragszeile.
+Eine Proforma-Rechnung kann auch über die Detailseite **Projektvertrag** erstellt werden, auf der die Rechnung für diesen bestimmten Projektvertrag erstellt wird. Das System prüft, ob der Projektvertrag einen Rückstand für **Bereit für die Rechnungsstellung** aufweist, der vor dem heutigen Datum liegt. Aus diesen Verträgen erstellt das System Entwürfe von Proforma-Rechnungen basierend auf der Anzahl der Kunden in jeder Vertragszeile.
 
 Wenn eine einzelne Proforma-Rechnung erstellt wird, wird die Seite **Rechnung** geöffnet. Wenn für diesen Projektvertrag mehrere Rechnungen erstellt wurden, wird die Listenseite **Rechnungen** geöffnet, um alle erstellten Rechnungen anzuzeigen.
