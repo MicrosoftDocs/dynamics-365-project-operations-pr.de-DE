@@ -2,16 +2,16 @@
 title: Finanzdimensions-Standardeinstellungen
 description: Dieses Thema enthält Informationen zum Einrichten von Standardeinstellungen für Finanzdimensionen.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013305"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922937"
 ---
 # <a name="financial-dimension-defaults"></a>Finanzdimensions-Standardeinstellungen
 
@@ -60,6 +60,15 @@ Projekte werden in CDS erstellt und gepflegt. Buchhaltungsattribute für Projekt
 4. Richten Sie die Standardeinstellungen für die Finanzdimension ein. Beachten Sie, dass Finanzdimensionen standardmäßig vom Debitorenkonto ausgehen. Wenn das Projekt einer Vertragszeile mehreren Projektvertragsdebitoren zugeordnet ist, wird der primäre Debitor verwendet, um Finanzdimensionen als Standard festzulegen.
 
 Die standardmäßigen Finanzdimensionen des Projekts werden verwendet, um die Standardeinstellungen für Buch.-Blattzeilen für Zeit‑, Spesen‑ und Gebührentransaktionen in der **Project Operations-Integrationserfassung** und auf verwandten Projektrechnungszeilen festzulegen.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Anwenden von Finanzdimensionen für projektbezogene Zeiteintragungen
+Beachten Sie beim Anwenden von Finanzdimensionen auf projektbezogene Zeiteintragungen, dass der Vorgabedimensionswert auf der folgenden Reihenfolge basiert:
+
+1. Ressource
+2. Project
+3. Finanzierungsquelle
+
+Wenn beispielsweise die Vorgabedimension für eine Ressource angegeben ist, wird sie über eine Vorgabe angewendet, die im Projekt angegeben ist. In ähnlicher Weise wird eine Vorgabeprojektdimension über die Vorgabe angewendet, die in der Finanzierungsquelle angegeben ist.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

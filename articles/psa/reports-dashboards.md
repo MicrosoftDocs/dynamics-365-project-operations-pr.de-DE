@@ -2,8 +2,6 @@
 title: Dashboards
 description: Dieses Thema enthält Informationen zu den Dashboards für die Berichterstellung, die in Dynamics 365 Project Service Automation enthalten sind.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 975f88b671f1ce46888731cc2aef4ea07228a71abe8e7c520d4c4a6e7be3b537
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951523"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990540"
 ---
 # <a name="dashboards"></a>Dashboards
 

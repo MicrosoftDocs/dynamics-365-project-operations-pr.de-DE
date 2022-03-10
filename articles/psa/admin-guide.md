@@ -2,8 +2,6 @@
 title: Administratoranleitung
 description: schrittweise Anweisungen für die Project Service-Administration
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6e591bd9b00bb39efaf4bb2893329a1c853573f03cb2d51a7564e3a8fc8efa56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005164"
 ---
 # <a name="administrator-guide-project-service"></a>Administratorhandbuch (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -50,3 +50,6 @@ In diesem Handbuch werden Sie durch den Prozess zum Einrichten und der Konfiguri
  [Kundenbetreuer-Handbuch](../psa/account-manager-guide.md) [Projekt-Manager-Handbuch](../psa/project-manager-guide.md)   
  [Handbuch Resource Manager](../psa/resource-manager-guide.md)   
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

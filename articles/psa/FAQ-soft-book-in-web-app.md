@@ -2,8 +2,6 @@
 title: Wie mache ich eine vorläufige Buchung in der App Version 2.x?
 description: In diesem Artikel wird beschrieben, wie Projektteammitglieder provisorisch mit Project Service gebucht werden.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bd13c448f4ce16fb93843df54f26cdd9bb884f4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146482"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993915"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Wie buche ich Ressourcen vorläufig in der Web (Project Service-App v2.x)?
 
@@ -31,7 +29,7 @@ ms.locfileid: "5146482"
 
 [!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Sie können vorläufig planen oder eine Ressource für ein Projektteam „unverbindlich buchen”, um zu zeigen, dass Sie eine Ressource dem Projekt zuweisen möchten. Vorläufige Buchungen nutzen die verfügbare Kapazität einer Ressource nicht. Vorläufig gebuchte Teammitglieder können nicht für die Projektaufgaben zugewiesen werden. Nur Ressourcen mit dem Status definitiv gebucht und bestätigte Typen können Aufgaben zugewiesen werden (vorausgesetzt, sie haben genügend definitive Stunden, um den Zuweisungsaufwand auch wirklich abzudecken).
+Sie können vorläufig planen oder eine Ressource für ein Projektteam „unverbindlich buchen“, um zu zeigen, dass Sie eine Ressource dem Projekt zuweisen möchten. Vorläufige Buchungen nutzen die verfügbare Kapazität einer Ressource nicht. Vorläufig gebuchte Teammitglieder können nicht für die Projektaufgaben zugewiesen werden. Nur Ressourcen mit dem Status definitiv gebucht und bestätigte Typen können Aufgaben zugewiesen werden (vorausgesetzt, sie haben genügend definitive Stunden, um den Zuweisungsaufwand auch wirklich abzudecken).
 
 Vorläufig gebuchte Projektteammitglieder werden im Teammitgliedsraster mit ihren vorläufig gebuchten Stunden in der vorläufigen Buchungsspalte angezeigt. Sie werden auch in der Zeitplanübersicht angezeigt. Sie geben wieder keinen Verbrauch der Kapazität an, da vorläufige Buchungen keine Kapazität einer Ressource brauchen.
 
@@ -60,7 +58,7 @@ Für vorläufige Buchungen mit der Wartungsbuchung folgen Sie diesem Prozess:
 - Kapazität in Prozent
 - Nach Stunden gleichmäßig verteilen
 - Nach Stunden von vorn nach hinten verteilen
-4. Klicken Sie auf „Speichern”. Sie sehen die Ressource für den Teamraster und die Zeiten, die als definitiv angegeben werden.
+4. Klicken Sie auf „Speichern“. Sie sehen die Ressource für den Teamraster und die Zeiten, die als definitiv angegeben werden.
 5. Sie können die Ressourcen der Anmeldungen verwalten, indem Sie auf Buchungen verwalten klicken.
 6. Wenn der Zeitplanübersicht geöffnet wird, erweitern Sie die Ressource, um ihre Anmeldungen anzuzeigen. Sie sehen die Buchung als definitiv.
 7. Klicken Sie auf die Buchung unter Änderungsstatus und wählen Sie vorläufige Buchung und dann vorläufig. Der Buchungsstatus ist nun vorläufig.
@@ -87,3 +85,6 @@ Wenn Sie bereit sind, vorläufig gebuchte Teammitgliedsressource in ein definiti
 2. Wenn der Zeitplanübersicht geöffnet wird, erweitern Sie die Ressource, um ihre Anmeldungen anzuzeigen. Sie sehen die Buchung als vorläufig markiert.
 3. Klicken Sie auf die Buchung unter Änderungsstatus und wählen Sie definitive Buchung und dann definitiv. Der Buchungsstatus ist nun definitiv.
 4. Nachdem die Zeitplanübersicht geschlossen wurde, sehen Sie, dass die Stunden für die Ressource von vorläufig auf definitiv im Teammitgliedsraster gewechselt hat. Sie können nun die Ressource den Aufgaben zuweisen (sofern eine Ausrichtung zwischen den definitiven gebuchten Stunden und den Aufwandsstunden der Aufgabe besteht). Beachten Sie, dass Sie den Ressourcenerfüllungsschritten im Element #3 oben folgen, wenn Sie den Status der vorläufig gebuchten, buchbaren Ressource auf definitiv buche. Das allgemeine Teammitglied wird vom Team entfernt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

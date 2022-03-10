@@ -2,18 +2,16 @@
 title: Sich für Szenarien bei Project Operations-Vorschauabonnements für vorrätige/nicht vorrätige Ressourcen anmelden
 description: Dieses Thema enthält Informationen zum Abonnieren und Bereitstellen von Project Operations für Szenarien mit vorrätigen/nicht vorrätigen Ressourcen.
 author: sigitac
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642956"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323415"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Sich für Szenarien bei Project Operations-Vorschauabonnements für vorrätige/nicht vorrätige Ressourcen anmelden
 
@@ -21,48 +19,30 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-In diesem Thema wird erläutert, wie Sie das Vorschau-/Partnerangebot abonnieren und die Project Operations-Umgebung bei Szenarien für vorrätige/nicht vorrätige Ressourcen bereitstellen.
+Dieses Thema erklärt, wie Sie das Test-Angebot abonnieren und die Project Operations Umgebung für ressourcenbasierte/nicht vorrätige Szenarien bereitstellen.
 
-## <a name="prerequisites"></a>Voraussetzungen
-
-- Sie erhalten eine E-Mail, in der Sie zur Teilnahme an der Vorschau eingeladen werden. Sie können eine Vorschau auf der [Project Operations-Website](https://dynamics.microsoft.com/en-us/project-operations/overview/) anfordern.
-- Der Benutzer, der die Vorschau bereitstellt, muss über die globalen Administratorrechte für den Azure-Mandanten verfügen.
-- Für die Bereitstellung einer Finance-Umgebung ist ein gültiges Azure-Abonnement erforderlich, das pro Umgebung in Rechnung gestellt wird. Sie können das vorhandene Abonnement Ihrer Organisation oder eine [Azure-Testversion](https://azure.microsoft.com/en-us/free/) verwenden, um zu starten. Die CDS-Umgebung wird für einen begrenzten Zeitraum von 30 Tagen kostenlos zur Verfügung gestellt.
-
-## <a name="subscribe"></a>Abonnieren
-
-Wenn Ihre [Vorschauanforderung](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) genehmigt wird, erhalten Sie drei Angebote von Microsoft per E-Mail. Mit diesen Angeboten können Sie die Project Operations-Vorschau bereitstellen:
-
-- Dynamics 365 Project Operations (CRM)-Vorschautestversion
-- Office 365 Project Operations – Vorschau-Testversion
-- Dynamics 365 Finance – Vorschautestversion
+## <a name="prerequisites"></a>Anforderungen
+- Der Benutzer, der die Vorschau bereitstellt, muss über die globalen Administratorrechte für den Azure-Mandanten verfügen. Sie können einen Mandanten während der ersten Angebotseinlösung erstellen. 
+- Für die Bereitstellung einer Finance-Umgebung ist ein gültiges Azure-Abonnement erforderlich, das pro Umgebung in Rechnung gestellt wird. Sie können das vorhandene Abonnement Ihrer Organisation oder eine [Azure-Testversion](https://azure.microsoft.com/free/) verwenden, um zu starten. Die CDS-Umgebung wird für einen begrenzten Zeitraum von 30 Tagen kostenlos zur Verfügung gestellt.
 
 > [!IMPORTANT]
 > Nur eine Person in der Organisation, der Mandanten-Administrator, muss diese Aufgabe ausführen. Wenn Sie nicht Abonnent dieser Version sind, warten Sie, bis Ihre Organisation angemeldet wurde und Sie Ihre Benutzeranmeldeinformationen erhalten haben.
+> 
+> Tests sind im Mandanten nur einmal verwendbar. Sie können einen Test nur ein einziges Mal ausführen. Wir empfehlen, dass Sie für den Test einen neuen Mandanten erstellen.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM)-Vorschautestversion 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - Vorschau Test 
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie bei einem Browser mit dem Benutzerarbeitskonto im Mandanten angemeldet sind, in dem Sie die Vorschau des Projektvorgangs anzeigen möchten.
 
-1. Lösen Sie den ersten Angebotscode **Dynamics 365 Project Operations (CRM)-Vorschautestversion** durch Einfügen in die Browser-URL ein.
-
-![Angebot einlösen](./media/16RedeemFirstOfferNew.png)
-
+1. Lösen Sie den ersten Angebotscode ein, **Dynamics 365 Project Operations** hier [Project Operations Test](https://aka.ms/try-po).
 2. Bestätigen Sie Ihre Bestellung.
 
-![Bestellung bestätigen](./media/17ConfirmOrderNew.png)
-
-Sie sehen, dass das Bestätigungsangebot erfolgreich eingelöst wurde.
-
-![Bestätigung](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Vorschau-Testversion
-
-Wiederholen Sie die gleichen Schritte wie beim ersten Angebotscode. Stellen Sie sicher, dass Sie den zweiten Angebotscode mit demselben Benutzerkonto hinzufügen, das mit dem ersten Angebotscode verwendet wurde.
+  Sie sehen, dass das Bestätigungsangebot erfolgreich eingelöst wurde.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance-Vorschautestversion
 
-Wiederholen Sie dieselben Schritte mit dem letzten Angebot aus der Begrüßungs-E-Mail.
+Gehen Sie zu [Dynamics 365 for Finance Vorschau Test](https://aka.ms/trypoche) und wiederholen Sie die Schritte aus dem vorherigen Abschnitt mit dem Angebot, Melden Sie sich für die Cloud Hosted Umgebung an.  
 
 ## <a name="assign-licenses"></a>Lizenzen zuweisen
 
@@ -71,13 +51,9 @@ Wiederholen Sie dieselben Schritte mit dem letzten Angebot aus der Begrüßungs-
 
 1. Navigieren Sie zu [Microsoft 365 Admin Center](https://portal.office.com/), um Ihren Benutzern die Lizenzen zuzuweisen.
 
-![Startseite des Admin Center](./media/14AdminPortal.png)
-
 2. Wählen Sie auf der Seite **Aktive Benutzer** die Benutzer aus, denen Sie eine Lizenz zuweisen möchten.
 
-![Lizenzen zuweisen](./media/15AssignLicenses.png)
-
-3. Stellen Sie sicher, dass die **Dynamics 365 Project Operations (CRM)-Vorschau**- und **Office 365 Project Operations – Vorschau**-Lizenz ausgewählt sind und wählen Sie **Änderungen speichern**.
+3. Vergewissern Sie sich, dass die **Dynamics 365 Project Operations** Lizenz ausgewählt wurde und wählen Sie **Änderungen speichern**.
 
 > [!NOTE]
 > Das Finance-Testangebot muss keinem Benutzer zugewiesen werden.
@@ -92,9 +68,12 @@ Befolgen Sie zum Ausführen dieser Aufgabe die Schritte im Thema [Einem LCS-Proj
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Stellen Sie die Finance-Demoumgebung mit Project Operations für Szenarien mit vorrätigen/nicht vorrätigen Ressourcen bereit
 
-Befolgen Sie die Anweisungen im Thema [Eine neue Umgebung bereitstellen](resource-provision-new-environment.md), um die Bereitstellung abzuschließen. Verwenden Sie den Bereitstellungstyp [Demo-Umgebung](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) für die Vorschau. 
+Befolgen Sie die Anweisungen im Thema [Eine neue Umgebung bereitstellen](resource-provision-new-environment.md), um die Bereitstellung abzuschließen. Verwenden Sie den Bereitstellungstyp [Demo-Umgebung](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) für die Vorschau. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS-Einrichtungs- und Konfigurationsdaten installieren
 
 Installieren Sie CDS-Einrichtungs- und Konfigurationsdaten wie im Thema [Konfigurationsdaten in Common Data Service einrichten und anwenden](resource-apply-pro-setup-config-data.md) beschrieben.
-Führen Sie diesen Schritt erst aus, nachdem die Finance-Demo-Umgebung bereitgestellt und die Demo-Daten in FO bereit sind.
+Schließen Sie diesen Schritt erst ab, wenn die Finance-Demo-Umgebung bereitgestellt ist und die Demo-Daten bereitstehen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

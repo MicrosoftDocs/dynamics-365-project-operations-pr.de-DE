@@ -2,12 +2,10 @@
 title: Hinzufügen von benutzerdefinierten Feldern zum Preis und zu Transaktionsentitäten
 description: Dieses Thema enthält Informationen zum Hinzufügen benutzerdefinierter Felder zum Preis und zu Transaktionsentitäten.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1a8d6319788ee73e0e2837a47cba89108c32572
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275312"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985770"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Hinzufügen von benutzerdefinierten Feldern zum Preis und zu Transaktionsentitäten 
 
@@ -49,7 +47,7 @@ Wenn eine benutzerdefinierte Preisdimension optionssatzbasiert ist, fügen Sie s
 > [!IMPORTANT]
 > Wenn Sie ein Feld mehr als einer Entität hinzufügen, verwenden Sie denselben Feldnamen für alle Entitäten. 
 
-> ![Hinzufügen des Arbeitsstandorts der Ressource zum Rollenpreis](media/RWL-Field.png)
+> ![Hinzufügen des Arbeitsstandorts der Ressource zum Rollenpreis.](media/RWL-Field.png)
 
 In der Vertriebs- und Schätzungsphase eines Projekts werden Schätzungen des Arbeitsaufwands verwendet, der erforderlich ist, um die Arbeiten **lokal** und **vor Ort** während der **regulären Arbeitszeit** und **Überstunden** durchzuführen, um den Wert des Angebots bzw. Projekts zu ermitteln. Die Felder **Arbeitsstandort der Ressource** und **Arbeitszeiten der Ressource** werden den Schätzungsentitäten **Detailinformationen zur Angebotsposition**, **Projektvertragsposition**, **Projektaufgabe**, **Projektteammitglied** und **Vorkalkulationsposition** hinzugefügt.
 
@@ -61,7 +59,7 @@ In der Vertriebs- und Schätzungsphase eines Projekts werden Schätzungen des Ar
 6. Wiederholen Sie die Schritte 1 - 5, um dieses Feld den Entitäten **Positionsdetail von Projektvertrag**, **Projektaufgabe**, **Projektteammitglied** und **Vorkalkulationsposition** hinzuzufügen.
 7. Wiederholen Sie die Schritte 1 - 6 für den Optionssatz **Arbeitszeiten der Ressource**. 
 
-> ![Hinzufügen des Arbeitsstandorts der Ressource zur Vorkalkulationsposition](media/RWL-Default-Value.png)
+> ![Hinzufügen des Arbeitsstandorts der Ressource zur Vorkalkulationsposition.](media/RWL-Default-Value.png)
 
 
 Für die Lieferung und Rechnungsstellung muss in den Projekt-Ist-Werten der Preis für die abgeschlossenen Arbeiten genau ausgewiesen sein, um auszuwählen, ob sie **lokal** oder **vor Ort** und während der **regulären Arbeitszeit** oder während **Überstunden** ausgeführt wurden. Die Felder **Arbeitsstandort der Ressource** und **Arbeitszeiten der Ressource** sollten den Entitäten **Zeiteintrag**, **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** hinzugefügt werden.
@@ -74,20 +72,20 @@ Für die Lieferung und Rechnungsstellung muss in den Projekt-Ist-Werten der Prei
 6. Wiederholen Sie die Schritte 1 - 5, um dieses Feld den Entitäten **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** hinzuzufügen.
 7. Wiederholen Sie die Schritte 1 - 6 für den Optionssatz **Arbeitszeiten der Ressource**. 
 
-> ![Hinzufügen des Arbeitsstandorts der Ressource zum Zeiteintrag](media/RWL-time-entry.png)
+> ![Hinzufügen des Arbeitsstandorts der Ressource zum Zeiteintrag.](media/RWL-time-entry.png)
 
 Damit sind die Schemaänderungen abgeschlossen, die für die optionssatzbasierten, benutzerdefinierten Dimensionen erforderlich sind.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Entitätsbasierte benutzerdefinierte Preisdimensionen
 
-Wenn es sich bei der benutzerdefinierten Preisdimension um eine Entität handelt, fügen Sie 1:n-Beziehungen zwischen der Dimensionsentität und den wichtigsten Project Service-Entitäten hinzu. Anhand des obigen Beispiels „Standardtitel” kann davon ausgegangen werden, dass jedem Mitarbeiter ein Standardtitel zugewiesen wird. Als Ergebnis benötigen Sie eine 1:n-Beziehung von „Standardtitel” zu „Buchbare Ressource” oder eine n:1-Beziehung, wenn sie von „Buchbare Ressource” zu „Standardtitel” erstellt wurde.
+Wenn es sich bei der benutzerdefinierten Preisdimension um eine Entität handelt, fügen Sie 1:n-Beziehungen zwischen der Dimensionsentität und den wichtigsten Project Service-Entitäten hinzu. Anhand des obigen Beispiels „Standardtitel“ kann davon ausgegangen werden, dass jedem Mitarbeiter ein Standardtitel zugewiesen wird. Als Ergebnis benötigen Sie eine 1:n-Beziehung von „Standardtitel“ zu „Buchbare Ressource“ oder eine n:1-Beziehung, wenn sie von „Buchbare Ressource“ zu „Standardtitel“ erstellt wurde.
 
 1. Wählen Sie in PSA **Einstellungen** > **Lösungen** und doppelklicken Sie dann auf **\<your organization name> Preisdimensionen**. 
 2. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Standardtitel** aus.
 3. Erweitern Sie die Entität **Standardtitel** und wählen Sie **1:n-Beziehungen** aus.
 4. Klicken Sie auf **Neu**, um eine neue 1:n-Beziehung namens **Standardtitel zu Buchbare Ressource** zu erstellen. Geben Sie die gewünschten Informationen ein und klicken Sie anschließend auf **Speichern**.
 
-> ![Hinzufügen von „Standardtitel” als Referenzfeld zu „Buchbare Ressource”](media/ST-BR.png)
+> ![Hinzufügen von „Standardtitel“ als Referenzfeld zu „Buchbare Ressource“.](media/ST-BR.png)
 
 Der Standardtitel muss auch den Project Service-Preisentitäten **Rollenpreis** und **Rollenpreisaufschlag** hinzugefügt werden. Dies erfolgt mithilfe von 1:n-Beziehungen zwischen den Entitäten **Standardtitel** und **Rollenpreis** sowie den Entitäten **Standardtitel** und **Rollenpreisaufschlag**.
 
@@ -106,23 +104,23 @@ In der Vertriebs- und Schätzungsphase des Projekts sind für jeden Standardtite
 
 5. Wiederholen Sie die Schritte 1 - 5, um 1:n-Beziehungen von **Standardtitel** zu **Detailinformationen zur Angebotsposition**, **Projektvertragsposition**, **Projektaufgabe**, **Projektteammitglied** und **Vorkalkulationsposition** zu erstellen.
 
-> ![Hinzufügen von „Standardtitel” als Referenzfeld zu „Vorkalkulationsposition”](media/ST-Estimate-Line.png)
+> ![Hinzufügen von „Standardtitel“ als Referenzfeld zu „Vorkalkulationsposition“.](media/ST-Estimate-Line.png)
 
 In der Lieferungs- und Rechnungsstellungsphase muss der Preis der von jedem Standardtitel durchgeführten Arbeit in den Projekt-Ist-Werten genau ausgewiesen sein. Dies bedeutet, dass 1:n-Beziehungen von **Standardtitel** zu den Entitäten **Zeiteintrag**, **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** vorhanden sein müssen.
 
 6. Wiederholen Sie die Schritte 1 - 6, um 1:n-Beziehungen von **Standardtitel** zu den Entitäten **Zeiteintrag**, **Tatsächlich**, **Rechnungsposition** und **Erfassungsposition** zu erstellen.
 
-> ![Hinzufügen von „Standardtitel” als Referenzfeld zu „Zeiteintrag”](media/ST-Mapping.png)
+> ![Hinzufügen von „Standardtitel“ als Referenzfeld zu „Zeiteintrag“.](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Einrichten von Standard-Dimensionswerten mithilfe der Zuordnungsfunktionen der Plattform
-Für „Zeiteintrag” wäre es hilfreich, wenn das System standardmäßig den Standardtitel für den Zeiteintrag aus „Buchbare Ressource” verwendet, die den Zeiteintrag aufzeichnet. Führen Sie die folgenden Schritte aus, um Feldzuordnungen zur 1:n-Beziehung von **Buchbare Ressource** zu **Zeiteintrag** hinzuzufügen.
+Für „Zeiteintrag“ wäre es hilfreich, wenn das System standardmäßig den Standardtitel für den Zeiteintrag aus „Buchbare Ressource“ verwendet, die den Zeiteintrag aufzeichnet. Führen Sie die folgenden Schritte aus, um Feldzuordnungen zur 1:n-Beziehung von **Buchbare Ressource** zu **Zeiteintrag** hinzuzufügen.
 
 1. Wählen Sie im Lösungs-Explorer im linken Navigationsbereich **Entitäten > Standardtitel** aus.
 2. Erweitern Sie die Entität **Standardtitel** und wählen Sie **1:n-Beziehungen** aus.
 3. Doppelklicken Sie auf **Buchbare Ressource zu Zeiteintrag**. Klicken Sie auf der Seite **Beziehung** auf **Feldzuordnungen verwenden**. 
 4. Klicken Sie auf **Neu**, um eine neue Feldzuordnung zwischen dem Feld **Standardtitel** auf der Entität **Buchbare Ressource** und dem Referenzfeld **Standardtitel** auf der Entität **Zeiteintrag** zu erstellen. 
 
-> ![Einrichten von Feldzuordnungen, um die Umstellung von „Standardtitel” von „Buchbare Ressource” auf „Zeiteintrag” zuzulassen](media/ST-Mapping2.png)
+> ![Einrichten von Feldzuordnungen, um die Umstellung von „Standardtitel“ von „Buchbare Ressource“ auf „Zeiteintrag“ zuzulassen.](media/ST-Mapping2.png)
 
 
 Damit sind die Schemaänderungen abgeschlossen, die für die entitätsbasierten, benutzerdefinierten Dimensionen erforderlich sind.

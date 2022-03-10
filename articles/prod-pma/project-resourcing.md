@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579a07e117cf00727813385da28d47f7e42f0127
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369465"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007325"
 ---
 # <a name="project-resourcing-home-page"></a>Homepage für die Projektressourcen
 
@@ -36,9 +36,9 @@ Eine Herausforderung für Projektmanager und Ressourcenmanager während der Proj
 - Die Kosten schätzen und ein anfängliches Budget festlegen, basierend auf den zugewiesenen Rollen und Ressourcen für ein Projekt
 - Rollen verwenden, um die Anzahl der Ressourcenreservierungen zu schätzen, die für jedes Engagement erforderlich sind.
 - Die Anzahl der Ressourcen schätzen, die für den gesamten Lebenszyklus eines Projekts benötigt werden
-- Erstellen Sie einen Projektstrukturplan (PSP) unter Verwendung der anfänglichen Ressourcenzuweisungen.
+- Einen Projektstrukturplan (PSP) unter Verwendung der anfänglichen Ressourcenzuweisungen erstellen
 
-[![Projektlebenszyklus](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Projektlebenszyklus.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Mit fortschreitender Projektplanung können geplante Ressourcen durch besetzte Ressourcen ersetzt werden. Der Projektmanager kann auch zurückgehen und die Ressourcenreservierungen während jeder Projektphase aktualisieren.
 

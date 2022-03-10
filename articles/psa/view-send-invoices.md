@@ -2,8 +2,6 @@
 title: Rechnungen anzeigen und senden
 description: Anzeigen und Senden von Rechnungen (Project Service)
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fef14421431f8a597d7593d857d0878a15aa4aa0ce603fb1ed8614903a8f6104
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076596"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996660"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Anzeigen und Senden von Rechnungen (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -56,3 +56,6 @@ Wenn Sie ein Projekt erstellen, können Sie die Häufigkeit zum Erstellen von Re
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

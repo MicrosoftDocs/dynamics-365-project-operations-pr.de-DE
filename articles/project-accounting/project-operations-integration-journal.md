@@ -2,33 +2,31 @@
 title: Integrationsjournal in Project Operations
 description: Dieses Thema enthält Informationen zur Arbeit mit dem Integrationsjournal in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287237"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987930"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal in Project Operations
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Zeit- und Kosteneinträge erstellen **Tatsächliche** Transaktionen, die die operative Sicht auf Arbeiten darstellen, die für ein Projekt ausgeführt wurden. Dynamics 365 Project Operations bietet Buchhaltern ein Tool, mit dem sie Transaktionen überprüfen und die Buchhaltungsattribute nach Bedarf anpassen können. Nach Abschluss der Überprüfung und Anpassungen werden die Transaktionen im untergeordneten Sachkonto und im Hauptbuch des Projekts gebucht. Ein Buchhalter kann diese Aktivitäten mit dem ausführen **Project Operations-Integrationsjournal** (**Dynamics 365 Finance** > **Projektmanagement und Buchhaltung** > **Journale** > **Project Operations-Integrationsjournal**) ausführen.
+Zeit- und Kosteneinträge erstellen **Tatsächliche** Transaktionen, die die operative Sicht auf Arbeiten darstellen, die für ein Projekt ausgeführt wurden. Dynamics 365 Project Operations bietet Buchhaltern ein Tool, mit dem sie Transaktionen überprüfen und die Buchhaltungsattribute nach Bedarf anpassen können. Nach Abschluss der Prüfung und Anpassungen werden die Transaktionen in das untergeordnete Sachkonto und die Finanzbuchhaltung des Projekts gebucht. Ein Buchhalter kann diese Aktivitäten mit dem ausführen **Project Operations-Integrationsjournal** (**Dynamics 365 Finance** > **Projektmanagement und Buchhaltung** > **Journale** > **Project Operations-Integrationsjournal**) ausführen.
 
-![Flow des Integrationsjournals](./media/IntegrationJournal.png)
+![Flow des Integrationsjournals.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Datensätze im Project Operations-Integrationsjournal erstellen
 
 Datensätze im Project Operations-Integrationsjournal werden in regelmäßigen Abständen per **Import aus Stagingtabelle** erstellt. Sie können diesen Vorgang ausführen, indem Sie auf **Dynamics 365 Finance** > **Projektmanagement und Buchhaltung** > **Periodisch** > **Project Operations-Integration** > **Import aus Stagingtabelle** gehen. Sie können den Prozess interaktiv ausführen oder den Prozess so konfigurieren, dass er nach Bedarf im Hintergrund ausgeführt wird.
 
-Wenn der periodische Prozess ausgeführt wird, werden alle Aktualisierungen gefunden, die noch nicht zum Project Operations-Integrationsjournal hinzugefügt wurden. Für jede tatsächliche Transaktion wird eine Journalzeile erstellt.
-Das System gruppiert Journalzeilen basierend auf dem im **Periodeneinheit im Project Operations Integration-Journal** ausgewählten Wert (**Finance** > **Projektmanagement und Buchhaltung** > **Einrichtung** > **Projektmanagement- und Buchhaltungsparameter**, **Project Operations in Dynamics 365 Customer Engagement**-Registerkarte) in separate Journale. Mögliche Werte für dieses Feld sind:
+Wenn der periodische Prozess ausgeführt wird, werden alle Aktualisierungen gefunden, die noch nicht zum Project Operations-Integrationsjournal hinzugefügt wurden. Für jede tatsächliche Transaktion wird eine Buchungsblattzeile erstellt.
+Das System gruppiert Journalzeilen in getrennte Erfassungen, basierend auf dem Wert, der im Feld **Periodeneinheit auf Project Operations Integrationsjournal** ausgewählt wurde (**Finance** > **Projektmanagement und -buchhaltung** > **Setup** > **Parameter für Projektmanagement und -buchhaltung**, **Projektvorgänge auf Registerkarte Dynamics 365 Customer Engagement**). Mögliche Werte für dieses Feld umfassen:
 
   - **Tage**: Istwerte werden nach Transaktionsdatum gruppiert. Für jeden Tag wird ein separates Journal erstellt.
   - **Monate**: Istwerte werden nach Kalendermonaten gruppiert. Für jeden Monat wird ein separates Journal erstellt.
@@ -38,7 +36,7 @@ Das System gruppiert Journalzeilen basierend auf dem im **Periodeneinheit im Pro
 Journalzeilen werden basierend auf Projekt-Istwerten erstellt. Die folgende Liste enthält einige der bemerkenswertesten Standard- und Transformationsregeln:
 
   - Jede tatsächliche Projekttransaktion hat eine Zeile im Project Operations-Integrationsjournal. Kosten und nicht abgerechnete Verkaufstransaktionen für Zeit und Materialabrechnungsart werden in separaten Zeilen angezeigt.
-  - Das **Datum**-Feld steht für das Datum der Transaktion. Das **Abschlussstichtag**-Feld gibt das Datum an, an dem die Transaktion im Hauptbuch erfasst wird. Wenn das Abschlussstichtag in einer [abgeschlossenen Finanzperiode](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) liegt und der Parameter **Abschlussstichtag automatisch so einstellen, dass die Hauptbuchperiode geöffnet wird** auf der **Finanzen**-Registerkarte der Seite **Projektmanagement- und Buchhaltungsparameter** eingestellt ist, passt das System den Abschlussstichtag der Transaktion an das erste Datum in der nächsten offenen Sachkontoperiode an.
+  - Das **Datum**-Feld steht für das Datum der Transaktion. Das **Abschlussstichtag**-Feld gibt das Datum an, an dem die Transaktion im Hauptbuch erfasst wird. Wenn das Abschlussstichtag in einer [abgeschlossenen Finanzperiode](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) liegt und der Parameter **Abschlussstichtag automatisch so einstellen, dass die Hauptbuchperiode geöffnet wird** auf der **Finanzen**-Registerkarte der Seite **Projektmanagement- und Buchhaltungsparameter** eingestellt ist, passt das System den Abschlussstichtag der Transaktion an das erste Datum in der nächsten offenen Sachkontoperiode an.
   - Das **Beleg**-Feld zeigt die Belegnummer für jede tatsächliche Transaktion. Die Reihenfolge der Belegnummern ist auf der **Nummernsequenzen**-Registerkarte auf der **Projektmanagement- und Buchhaltungsparameter**-Seite definiert. Jeder Zeile wird eine neue Nummer zugewiesen. Nachdem der Beleg gebucht wurde, können Sie durch Auswahl anzeigen, wie Kosten und nicht in Rechnung gestellte Verkaufstransaktionen zusammenhängen, indem Sie **Zugehörige Belege** auf der **Belegbuchung**-Seite auswählen.
   - Das **Kategorie**-Feld stellt eine Projekttransaktion dar und die Standardeinstellungen basieren auf der Transaktionskategorie für das zugehörige aktuelle Projekt.
     - Wenn **Transaktionskategorie** im Projekt-Istwert eingestellt ist und eine verwandte **Projektkategorie** in einer bestimmten juristischen Person existiert, ist die Kategorie standardmäßig diese Projektkategorie.

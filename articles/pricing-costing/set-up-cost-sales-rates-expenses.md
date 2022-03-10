@@ -2,18 +2,16 @@
 title: Kostensätze und Verkaufsraten für Ausgaben einrichten
 description: Dieses Thema enthält Informationen zum Einrichten von Kostensätzen und Verkaufsraten für Transaktions- und Ausgabenkategorien.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877219"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986220"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kostensätze und Verkaufsraten für Ausgaben einrichten
 
@@ -52,7 +50,7 @@ Wenn Sie Kategoriepreise einrichten, die nur im Zusammenhang mit der Kostenberec
 Wenn diese Preisberechnungsmethode für eine Kategoriepreiszeile ausgewählt wird, die mit einer Verkaufspreisliste verknüpft ist, wird der Preis für die Kombination aus Kategorie und Einheit sowohl in der Vorkalkulation als auch in den Istwerten verwendet. Die Vorkalkulation bezieht sich auf die Projektvorkalkulationszeilen für Ausgaben, das Angebotszeilendetail und das Vertragszeilendetail für Ausgaben.
 
 ### <a name="at-cost"></a>Zum Einstandswert
-Wenn diese Preisberechnungsmethode in der Kategoriepreiszeile ausgewählt wird, die mit einer Verkaufspreisliste verknüpft ist, wird der Preis für die Kombination aus Kategorie und Einheit nur für die Istwerte der Ausgaben verwendet. Beispielsweise nicht fakturierte Umsatz-Istwerte für die Ausgabentransaktionsklasse. Der Preis pro Einheit wird auf den nicht fakturierten tatsächlichen Umsatz aus dem Preis pro Einheit im tatsächlichen Kostenwert für diese Ausgabe festgelegt. Die Standard-Preisberechnung basierend auf Kosten wird nicht anhand von Projektvorkalkulationen für Ausgaben oder der Angebots- und Vertragszeilendetails für Ausgaben vorgenommen.
+Wenn diese Preisberechnungsmethode in der Kategoriepreiszeile ausgewählt wird, die mit einer Verkaufspreisliste verknüpft ist, wird der Preis für die Kombination aus Kategorie und Einheit nur für die Istwerte der Ausgaben verwendet. Beispielsweise nicht fakturierte Umsatz-Istwerte für die Ausgabentransaktionsklasse. Der Stückpreis wird auf den nicht abgerechneten tatsächlichen Umsatz aus dem Stückpreis auf die tatsächlichen Kosten für diese Spesen festgelegt. Die Standard-Preisberechnung basierend auf Kosten wird nicht anhand von Projektvorkalkulationen für Ausgaben oder der Angebots- und Vertragszeilendetails für Ausgaben vorgenommen.
 
 ### <a name="markup-over-cost"></a>Aufschlag auf Kosten
 Wenn diese Preisberechnungsmethode in der Kategoriepreiszeile ausgewählt wird, die mit einer Verkaufspreisliste verknüpft ist, wird der Preis für die Kombination aus Kategorie und Einheit nur für die Istwerte der Ausgaben verwendet. Beispielsweise nicht fakturierte Umsatz-Istwerte für die Ausgabentransaktionsklasse. Dieser Preis pro Einheit wird auf den nicht fakturierten tatsächlichen Umsatz auf einen berechneten Wert aus dem Preis pro Einheit in den tatsächlichen Kosten für diesen Aufwand gesetzt, nachdem der definierte Aufschlagsprozentsatz angewendet wurde. Die Standand-Preisberechnung basierend auf Kosten wird nicht anhand von Projektvorkalkulationen für Ausgaben oder der Angebots- und Vertragszeilendetails für Ausgaben vorgenommen.

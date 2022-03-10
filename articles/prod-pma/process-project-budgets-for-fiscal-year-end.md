@@ -2,11 +2,9 @@
 title: Projektbudgets am Ende von Geschäftsjahr übertragen
 description: Dieser Artikel enthält Informationen darüber, wie verbleibende Budgetbeträge auf zukünftige Jahre übertragen und Details zum Budgetregister erstellt werden können.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076657"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007370"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projektbudgets am Ende von Geschäftsjahr übertragen
 
@@ -98,3 +96,6 @@ Wenn Sie verbleibende Budgetbeträge verarbeiten, können Sie in der Finanzbuchh
 5. Wählen Sie für jedes Projekt, das Sie verarbeiten möchten, die Option am Anfang der Zeile für das Projekt aus. 
 6. Wählen Sie **Prozess** aus, um die verbleibenden Budgetbeträge für die ausgewählten Projekte an das ausgewählte Geschäftsjahr zu übertragen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

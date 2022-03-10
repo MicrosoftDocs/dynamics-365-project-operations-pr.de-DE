@@ -2,18 +2,16 @@
 title: Buchungsstatus
 description: Dieses Thema enthält einen Link zu Informationen zum Einrichten der Buchungsstatus von Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 552cf8515b6a858437d9ef0f0cbc56f1bd103878
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 635d76c55358b27ce6ff3babd9e69041d99f5005c140fca0c0bc28d7210ad168
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950083"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004085"
 ---
 # <a name="booking-statuses"></a>Buchungsstatus
 

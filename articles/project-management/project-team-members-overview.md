@@ -2,18 +2,17 @@
 title: Projektteammitglieder
 description: Dieses Thema enthält Informationen zum Arbeiten mit Informationen, Attributen und der Planung von Mitgliedern des Projektteams.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076415"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994005"
 ---
 # <a name="project-team-members"></a>Projektteammitglieder
 
@@ -60,3 +59,6 @@ Im Raster der Teammitglieder können die folgenden Aktionen ausgeführt werden:
 
 - **Neu**: Zusätzlich zum Hinzufügen von Ressourcen direkt aus dem Zeitplan können Projektmanager neue benannte oder allgemeine Teammitglieder aus dem Teammitgliedsraster hinzufügen.
 - **Löschen**: Durch Auswahl eines oder mehrerer Teammitglieder kann der Projektmanager Ressourcen löschen, die nicht mehr am Projekt teilnehmen werden. Durch das Löschen eines Teammitglieds werden auch alle zugehörigen Ressourcenzuweisungen gelöscht und alle vorhandenen Buchungen storniert.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

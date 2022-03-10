@@ -2,8 +2,6 @@
 title: Wichtige Konzepte
 description: Dieses Thema enthält Informationen zu den wichtigen Konzepten für das Ressourcenmanagement in Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 862e277d8109e810401bdecd4c45c2696275f8a8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120362"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995085"
 ---
 # <a name="key-concepts"></a>Wichtige Konzepte
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -46,3 +46,6 @@ Die folgende Tabelle definiert Schlüsselkonzepte, die in der Dynamics 365 Proje
 | Kontur                    | Aufgaben-, Anforderungs- oder Zuweisungsstunden, wie sie auf eine tägliche Verteilung aufgeteilt werden. Beispielsweise kann eine fünf Tage dauernde, 40-stündige Aufgabe auf acht Stunden pro Tag für fünf Tage konturiert werden. |
 | Abstimmungsansicht        | Eine Ansicht, die die Buchungen und Zuweisungen für jedes Projektteammitglied anzeigt. In dieser Ansicht können Projektmanager nach Diskrepanzen zwischen Buchungen und Zuweisungen suchen und bei Diskrepanzen korrektive Maßnahmen ergreifen. |
 | Arbeitszeit                 | Eine Entität, die verwendet wird, um die Ressourcenkapazität sowie die Arbeits- und die Nicht-Arbeitszeit zu identifizieren. Diese Entität wird auch als Ressourcenkalender bezeichnet. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

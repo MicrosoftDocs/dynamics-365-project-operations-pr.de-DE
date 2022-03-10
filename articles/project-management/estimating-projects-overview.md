@@ -1,68 +1,71 @@
 ---
-title: Projekte kalkulieren – Übersicht
-description: Dieses Thema enthält Informationen zu Vorkalkulationen in Dynamics 365 Project Operations.
-author: ruhercul
-manager: AnnBe
-ms.date: 10/06/2020
+title: Konzepte für finanzielle Vorkalkulationen
+description: Dieses Thema enthält Informationen zu finanzielle Vorkalkulationen für Projekte in Project Operations.
+author: rumant
+ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.custom: intro-internal
+ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286877"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989190"
 ---
-# <a name="estimate-projects-overview"></a>Projekte kalkulieren – Übersicht
+# <a name="financial-estimation-concepts"></a>Konzepte für finanzielle Vorkalkulationen
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-In einem projektbasierten Angebot können Sie die Entität **Detail zur Angebotsposition** verwenden, um die für die Lieferung eines Projekts erforderliche Arbeit abzuschätzen. Sie können diese Schätzung anschließend mit dem Kunden teilen.
+In Dynamics 365 Project Operations können Sie Ihre Projekte in zwei Schritten finanziell abschätzen: 
+1. Während der Vorverkaufsphase, bevor der Deal gewonnen wird. 
+2. Während der Ausführungsphase nach dem Erstellen des Projektvertrags. 
 
-Projektbasierte Angebotszeilen müssen Null bis viele Angebotsposition enthalten. Angebotspositionsdetails werden verwendet, um Zeit, Ausgaben oder Gebühren zu schätzen. Microsoft Dynamics 365 Project Operations lässt keine Materialschätzungen für Angebotspositionsdetails zu. Diese werden als Transaktionsklassen bezeichnet. Geschätzte Steuerbeträge können ebenfalls für eine Transaktionsklasse eingegeben werden.
+Sie können eine finanzielle Vorkalkulation für projektbasierte Arbeit auf einer der folgenden 3 Seiten erstellen:
+- Auf der Seite **Angebotszeile** unter Verwendung der Angebotszeilendetails.  
+- Auf der Seite **Projektvertragszeile** unter Verwendung der Vertragszeilendetails. 
+- Auf der Seite **Projekt** mit den Registerkartenseiten **Aufgaben** oder **Ausgabenschätzungen**.
 
-Zusätzlich zu den Transaktionsklassen enthalten Angebotspositionsdetails einen Transaktionstyp. Zwei Transaktionstypen werden für Angebotspositionsdetails unterstützt: **Kosten** und **Projektvertrag**.
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Verwenden Sie ein Projektangebot, um einen Kostenvoranschlag zu erstellen
+In einem projektbasierten Angebot können Sie die Entität **Detail zur Angebotsposition** verwenden, um die für die Lieferung eines Projekts erforderliche Arbeit abzuschätzen. Sie können dann den Kunden über diese Schätzung informieren.
 
-## <a name="estimate-by-using-a-contract"></a>Schätzung mithilfe eines Vertrags
+Projektbasierte Angebotspositionen können null bis viele Angebotspositionsdetails enthalten. Angebotspositionsdetails werden verwendet, um Zeit, Ausgaben oder Gebühren zu schätzen. Microsoft Dynamics 365 Project Operations lässt keine Materialvorkalkulationen für Angebotspositionsdetails zu. Diese werden als Transaktionsklassen bezeichnet. Geschätzte Steuerbeträge können ebenfalls für eine Transaktionsklasse eingegeben werden.
+
+Neben den Transaktionsklassen haben Angebotspositionsdetails einen Transaktionstyp. Zwei Transaktionstypen werden für Angebotspositionsdetails unterstützt: **Kosten** und **Projektvertrag**.
+
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Verwenden Sie einen Projektvertrag, um einen Kostenvoranschlag zu erstellen
 
 Wenn Sie beim Erstellen eines projektbasierten Vertrags ein Angebot verwendet haben, wird die Schätzung, die Sie im Angebot für jede Angebotsposition vorgenommen haben, in den Projektvertrag kopiert. Die Struktur eines Projektvertrags ähnelt der Struktur eines Projektangebots mit Positionen, Positionsdetails und Rechnungszeitplänen.
 
-Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragszeilen und Vertragszeilendetails vorgenommen. Vertragszeilendetails können auch aus einem Projektplan erstellt wurden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
+Schätzungen können direkt in einem Projektvertrag wie in einem Projektangebot vorgenommen werden. Bei einem Projektangebot wird die Schätzung unter Verwendung der Vertragszeilen und Vertragszeilendetails vorgenommen. Vertragspositionsdetails können auch aus einem Projektplan generiert werden, der mithilfe des Bottom-up-Schätzungsansatzes erstellt wurde.
 
-Vertragszeilendetails können zur Schätzung von Zeit, Ausgaben oder Gebühren verwendet werden. Geschätzte Steuerbeträge können ebenfalls bei den Vertragszeilendetails eingegeben werden.
+Vertragspositionsdetails können verwendet werden, um Zeit, Kosten oder Gebühren zu schätzen. Für Vertragspositionsdetails können auch geschätzte Steuerbeträge eingegeben werden.
 
-Materialschätzungen für Vertragszeilendetails sind nicht erlaubt.
+Materialvorkalkulationen für Vertragszeilendetails sind nicht erlaubt.
 
-Die Prozesse, die bei einem Projektvertrag unterstützt werden sind Rechnungserstellung und -bestätigung. Rechnungserstellung erstellt einen Entwurf einer projektbasierten Rechnung, die alle nicht fakturierten vertrieblichen Ist-Werte bis zum aktuellen Datum enthält.
+## <a name="use-a-project-to-create-an-estimate"></a>Verwenden Sie ein Projekt, um einen Kostenvoranschlag zu erstellen 
 
-Durch die Bestätigung wird der Vertrag schreibgeschützt und der Status von **Entwurf** in **Bestätigt** geändert. Nachdem Sie diese Aktion ausgeführt haben, können Sie sie nicht mehr rückgängig machen. Da es sich bei dieser Aktion um eine permanente Aktion handelt, empfiehlt es sich, den Vertrag im Status **Entwurf** zu belassen.
+Sie können Zeit und Ausgaben für Projekte schätzen. Project Operations unterstützt keine Schätzungen von Materialien oder Gebühren für Projekte.
 
-Die einzigen Unterschiede zwischen Vertragsentwürfen und bestätigten Verträgen sind ihr Status und die Tatsache, dass Vertragsentwürfe bearbeitet werden können, bestätigte Verträge hingegen nicht. Die Rechnungserstellung sowie die Nachverfolgung von Ist-Werten kann sowohl bei Vertragsentwürfen als auch bei bestätigten Verträgen erfolgen.
+Zeitvorkalkulationen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitschätzungen werden aus Zeitplanaufgaben generiert. Zeitvorkalkulationen werden nicht erstellt, wenn Sie allgemeine Teammitglieder außerhalb des Zeitplans erstellen.
 
-Projektvorgänge unterstützen keine Änderungsaufträge bei Verträgen bzw. Projekten.
+Ausgabenschätzungen werden in das Raster auf der Seite **Ausgabenschätzungen** eingegeben.
 
-## <a name="estimating-projects"></a>Einschätzen von Projekten
+Das Erstellen einer Schätzung für ein Projekt wird als bewährte Methode angesehen, da Sie für jede Aufgabe im Projektplan detaillierte Bottom-up-Schätzungen für Arbeit oder Zeit und Kosten erstellen können. Mit dieser detaillierten Schätzung können Sie dann Schätzungen für jede Angebotszeile erstellen und ein glaubwürdigeres Angebot für den Kunden erstellen. Wenn Sie mithilfe des Projektplans eine detaillierte Schätzung in die Angebotszeile importieren oder erstellen, importiert Project Operations die Verkaufswerte und die Kostenwerte dieser Schätzungen. Nach dem Import können Sie die Rentabilitäts-, Margen- und Durchführbarkeitsmetriken im Projektangebot anzeigen.
 
-Sie können Zeit und Ausgaben für Projekte schätzen. Projektvorgänge lässt keine Material- bzw. Gebührenschätzungen für Projekte zu.
-
-Zeitschätzungen werden generiert, wenn Sie eine Aufgabe erstellen und die Attribute einer allgemeinen Ressource identifizieren, die zur Ausführung der Aufgabe erforderlich ist. Zeitschätzungen werden aus Zeitplanaufgaben generiert. Zeitschätzungen werden nicht erstellt, wenn Sie allgemeine Teammitglieder außerhalb des Zeitplans erstellen.
-
-Ausgabenschätzungen werden in das Raster auf der Seite **Schätzungen** eingegeben.
-
-## <a name="understanding-estimation"></a>Grundlegendes zur Vorkalkulation
+## <a name="understanding-estimates"></a>Grundlegendes zur Vorkalkulation
 
 Verwenden Sie die folgende Tabelle als Leitfaden zum Verständnis der Geschäftslogik in der Vorkalkulationsphase.
 
 | Szenario                                                                                                                                                                                                                                                                                                                                          | Entitätsdatensatz                                                                                                                                                                                                       | Transaktionstyp | Transaktionsklasse | Weitere Informationen                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
-| Wenn Sie den Umsatzwert der Zeit für ein Angebot schätzen müssen                                                                                                                                                                                                                                                                                    | Datensatz „Detail zur Angebotsposition” (QLD, Quote Line Detail) wird erstellt                                                                                                                                                                               | Projektvertrag | Time        | Das Feld „Transaktionsursprung” in der Zeile „QLD” auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
-|                                                                                                                                                                                                                                                                                     | Ein zweiter QLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-QLD in die Kosten-QLD.                                                                                                                                                                               | Kosten | Time        | Das Feld „Transaktionsursprung” in der Zeile „Angebotspositionsdetails” (QLD) auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
-| Wenn Sie den Umsatzwert der Zeit für einen Vertrag schätzen müssen                                                                                                                                                                                                                                                                                 | Datensatz „Projektvertragsposition” (CLD, Contract Line Detail) wird erstellt                                                                                                                                                                    | Projektvertrag | Time        | Das Feld „Transaktionsursprung” in der Zeile „CLD” auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
-|                                                                                                                                                                                                                                                                                  | Ein zweiter CLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-CLD in die Kosten-CLD.                                                                                                                                                                    | Kosten | Time        | Das Feld „Transaktionsursprung” in der Zeile „CLD” auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
-| Wenn der Benutzer eine Ressource für eine Projektaufgabe beschreibt                                                                                                                                                                                                                                                                                            | Der Datensatz „Schätzungszeile” zeigt, dass der Umsatzwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Rolle und Organisationseinheiten sind die Preisdimensionen | Projektvertrag | Zeit        |                                                                                   |
-|     | Der Datensatz „Schätzungszeile” zeigt, dass der Kostenwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Das System kopiert sämtliche Nicht-Geld-Felder aus der Vertriebsvorkalkulationsposition in die Kostenvorkalkulationsposition. Rolle und Organisationseinheit sind die Preisdimensionen sowohl für Kosten als auch für Rechnungssätze.                                                                                                                                                                                                                | Kosten             | Zeit           |                                                                                   |
+| Wenn Sie den Umsatzwert der Zeit für ein Angebot schätzen müssen                                                                                                                                                                                                                                                                                    | Datensatz „Detail zur Angebotsposition“ (QLD, Quote Line Detail) wird erstellt                                                                                                                                                                               | Projektvertrag | Time        | Das Feld „Transaktionsursprung“ in der Zeile „QLD“ auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
+|                                                                                                                                                                                                                                                                                     | Ein zweiter QLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-QLD in die Kosten-QLD.                                                                                                                                                                               | Kosten | Time        | Das Feld „Transaktionsursprung“ in der Zeile „Angebotspositionsdetails“ (QLD) auf der Verkaufsseite verweist auf die QLD auf der Kostenseite |
+| Wenn Sie den Umsatzwert der Zeit für einen Vertrag schätzen müssen                                                                                                                                                                                                                                                                                 | Datensatz „Projektvertragsposition“ (CLD, Contract Line Detail) wird erstellt                                                                                                                                                                    | Projektvertrag | Time        | Das Feld „Transaktionsursprung“ in der Zeile „CLD“ auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
+|                                                                                                                                                                                                                                                                                  | Ein zweiter CLD-Datensatz wird vom System erstellt, um die entsprechenden Kostenwerte zu speichern. Das System kopiert sämtliche Nicht-Geld-Felder aus der Umsatz-CLD in die Kosten-CLD.                                                                                                                                                                    | Kosten | Time        | Das Feld „Transaktionsursprung“ in der Zeile „CLD“ auf der Verkaufsseite verweist auf die CLD auf der Kostenseite      |
+| Wenn der Benutzer eine Ressource für eine Projektaufgabe beschreibt                                                                                                                                                                                                                                                                                            | Der Datensatz „Schätzungszeile“ zeigt, dass der Umsatzwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Rolle und Organisationseinheiten sind die Preisdimensionen | Projektvertrag | Zeit        |                                                                                   |
+|     | Der Datensatz „Schätzungszeile“ zeigt, dass der Kostenwert der Aufgabe beim Erstellen einer Aufgabe mit allen erforderlichen Preisdimensionen generiert wird. Das System kopiert sämtliche Nicht-Geld-Felder aus der Vertriebsvorkalkulationsposition in die Kostenvorkalkulationsposition. Rolle und Organisationseinheit sind die Preisdimensionen sowohl für Kosten als auch für Rechnungssätze.                                                                                                                                                                                                                | Kosten             | Zeit           |                                                                                   |
 
 
 

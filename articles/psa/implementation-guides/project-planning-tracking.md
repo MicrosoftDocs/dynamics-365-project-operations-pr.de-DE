@@ -2,8 +2,6 @@
 title: Projektplanung und -nachverfolgung
 description: Dieses Thema enthält einen Link zu Informationen zur Planung und Nachverfolgung in Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2aaa1b523099e7346053245473cc6ec849245f92
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132603"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985388"
 ---
 # <a name="project-planning-and-tracking"></a>Projektplanung und -nachverfolgung
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -43,3 +43,6 @@ Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in d
 
 > [!NOTE]
 > Dieses Thema wird in einem zukünftigen Dokumentationsupdate entfernt. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

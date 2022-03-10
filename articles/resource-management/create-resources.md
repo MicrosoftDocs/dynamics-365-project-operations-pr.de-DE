@@ -2,18 +2,16 @@
 title: Ressourcen erstellen
 description: Dieses Thema enthält einen Link zu Informationen zum Erstellen buchbarer Ressourcen.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8ce1277344cadcc708cbe7f2333f55626a0e06a6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: e1f2be2f0b8ed8fc332a575b165ec23c4e8ab1fc9c50d998da3459c05dbcead1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008360"
 ---
 # <a name="create-resources"></a>Ressourcen erstellen
 

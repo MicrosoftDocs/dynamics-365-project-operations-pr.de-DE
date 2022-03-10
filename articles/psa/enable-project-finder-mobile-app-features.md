@@ -2,8 +2,7 @@
 title: Aktivieren der Project Finder Mobile-App-Funktionen
 description: So aktivieren Sie die Funktionen der Project Finder Mobile-App für Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
+ms.prod: ''
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,22 +17,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132962"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004895"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Aktivieren der Project Finder Mobile-App-Funktionen (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Ihre Ressourcen können die Project Finder Mobile-App auf ihrem Telefon mit [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] verwenden, um neue Projekte zu suchen, an denen sie arbeiten können, und um ihre Qualifikationen zu aktualisieren.  
+Ihre Ressourcen können die Project Finder Mobile-App auf ihrem Telefon mit [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] verwenden, um neue Projekte zu suchen, an denen sie arbeiten können, und um die Qualifikationen zu aktualisieren.  
   
  Die App ist für [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)]-Smartphones und [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] verfügbar.  
-  
- Sie müssen ein paar Optionen in den Parametereinstellungen für ihre Organisationseinheit festlegen, damit Benutzer den Ressourcenbedarf von Projekten anzeigen können und ihre Qualifikationen aktualisieren können.  
+    
+ Optionen in den Parametereinstellungen für ihre Organisationseinheit müssen ausgewählt sein, damit Benutzer den Ressourcenbedarf von Projekten anzeigen können und ihre Qualifikationen aktualisieren können.
   
 > [!NOTE]
 >  Die Project Finder Mobile-App funktioniert nur mit [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], nicht mit lokalen Installationen.  
@@ -46,22 +47,25 @@ Ihre Ressourcen können die Project Finder Mobile-App auf ihrem Telefon mit [!IN
   
 4. Legen Sie **Qualifikationsaktualisierung durch Ressource zulassen** auf **Ja** fest.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Dies ist eine globale Einstellung. Projektmanager können festlegen, ob ein Einzelprojekt auf der Seite **Projektteam** dieses Projekts angezeigt wird.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>E-Mail-Benachrichtigungen  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sendet E-Mails bezüglich der Ressourcenanforderungen an die folgenden Empfänger zu den folgenden Zeiten:  
   
 |Empfänger|Veranstaltung|  
 |---------------|-----------|  
-|Projektmanager|-   Wenn eine Ressource sich für ein Projekt mit der Project Finder Mobile-App anmeldet.|  
-|Ressource|-   Wenn die Projektarbeit, für die die Ressource sich angemeldet hat, bereits von einer anderen Ressource ausgeführt wurde.<br />-   Wenn die Qualifikationsgenehmigungsanforderung genehmigt oder abgelehnt wurde.<br />-   Wenn die Projektregistrierungsanforderung genehmigt oder abgelehnt wurde.|  
+|Projektmanager|- Wenn eine Ressource sich für ein Projekt mit der Project Finder Mobile-App anmeldet.|  
+|Ressource|- Die Projektarbeit, für die die Ressource sich angemeldet hat, wird bereits von einer anderen Ressource ausgeführt.<br />- Die Qualifikationsgenehmigungsanforderung wurde genehmigt oder abgelehnt.<br />- Die Projektregistrierungsanforderung wurde genehmigt oder abgelehnt.|  
   
 ## <a name="privacy-notice"></a>Datenschutzbestimmungen  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
   
 ### <a name="see-also"></a>Siehe auch  
  [Ressourcen einrichten](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

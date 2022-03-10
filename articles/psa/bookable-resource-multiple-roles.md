@@ -2,12 +2,10 @@
 title: Schätzen Sie den Umsatz und die Kosten eines Projekts, wenn eine buchbare Ressource mehrere Rollen für ein Projekt ausfüllt
 description: In diesem Thema wird erläutert, wie Informationen zu Preisdimensionen verwendet werden können, um Preis- und Kostenschätzungen für eine Ressource zu unterstützen, die mehrere Rollen in einem Projekt ausfüllt.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145042"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987480"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Schätzen Sie den Umsatz und die Kosten eines Projekts, wenn eine buchbare Ressource mehrere Rollen für ein Projekt ausfüllt 
 
@@ -74,3 +72,6 @@ Wenn Sie die Zeile dieses Teammitgliedsdatensatzes erweitern, werden im Teammitg
 Wenn Sie zum Raster **Schätzungen** navigieren, werden Sie feststellen, dass beide Zuweisungen für dieselbe Ressource unterschiedliche Preise haben.
 Die Zuordnung für die Ressource zu Aufgabe A erfolgt über den **Rolle**-Attributwert von **Beratungs-Lead**. Die Zuordnung für die gleiche Ressource zu Aufgabe B erfolgt über den **Rolle**-Attributwert von **Netzwerktechniker**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

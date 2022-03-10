@@ -2,8 +2,6 @@
 title: Zulassen, dass eine andere Person Ihre Ausgaben eingeben oder Zeiteintragung vornehmen kann
 description: Zulassen, dass eine andere Person Ihre Zeiteintragung oder Ausgaben eingibt (Project Service)
 author: revathiMuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2642e56fc3df44b5c7583d0b996765f5a22f6be1fc46738d02462d928f833048
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000710"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Zulassen, dass eine andere Person Ihre Zeiteintragung oder Ausgaben eingibt (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -91,3 +91,6 @@ Einrichten eines Stellvertreters, um einem anderen Benutzer das Erstellen von Ze
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

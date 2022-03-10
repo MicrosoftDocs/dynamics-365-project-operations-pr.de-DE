@@ -2,11 +2,9 @@
 title: Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation bis Finance
 description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Verträgen und Projekten direkt zwischen Microsoft Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950398"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001070"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Synchronisieren Sie Projektverträge und Projekte direkt von Project Service Automation bis Finance 
 
@@ -44,7 +42,7 @@ Die Integrationslösung für Project Service Automation zu Finance verwendet die
 
 Die folgende Abbildung zeigt, wie die Daten zwischen Project Service Automation und Finance synchronisiert werden.
 
-[![Datenfluss für Project Service Automation Integration mit Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Datenfluss für Project Service Automation Integration mit Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Vorlagen und Aufgaben
 
@@ -142,17 +140,17 @@ Wenn Sie Power Query verwenden müssen, folgen Sie diesen Richtlinien:
 
 Die folgende Abbildung zeigt Beispiele für die Zuordnung von Vorlagenaufgaben in der Datenintegration. Das Mapping zeigt die Feldinformationen an, die von Project Service Automation zu Finance synchronisiert werden.
 
-[![Zuordnung von Projektvertragsvorlagen](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Zuordnung von Projektvertragsvorlagen.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Zuordnung von Projektvorlagen](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Zuordnung von Projektvorlagen.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Zuordnung von Vertragszeilenvorlagen](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Zuordnung von Vertragszeilenvorlagen.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Zuordnung von Vorlagen für Meilensteine in Projektvertragszeilen](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Zuordnung von Vorlagen für Meilensteine in Projektvertragszeilen.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Meilensteinzuordnung für Projektvertragszeilen in der Vorlage Projekte und Verträge (PSA 3.x zu Dynamics) – v2 Vorlage:
 
-[![Zuordnung von Vorlagen der Version 2 für Meilensteine in Projektvertragszeilen](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Zuordnung von Vorlagen der Version 2 für Meilensteine in Projektvertragszeilen.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

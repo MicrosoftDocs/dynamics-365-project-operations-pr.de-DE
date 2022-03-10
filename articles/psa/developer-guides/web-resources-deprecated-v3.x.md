@@ -2,12 +2,10 @@
 title: Veraltete Webressourcen in Project Service Automation 3.x
 description: In diesem Thema werden die Webressourcen beschrieben, die in Dynamics 365 Project Service Automation 3.0 nicht mehr verwendet werden.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b60c5cf8d5b7cd891218faf71de6187a3b8ea85e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0ec1e01094ad4ec9deebc9bf0e9d3e197c16e2b03e6393f9dda7df97e7f1921
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284717"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988920"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Veraltete Webressourcen in Project Service Automation 3.x
 

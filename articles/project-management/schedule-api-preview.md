@@ -1,32 +1,29 @@
 ---
-title: Verwenden Sie Zeitplan-APIs, um Vorgänge mit Zeitplan-Entitäten auszuführen
-description: Dieses Thema enthält Informationen und Beispiele für die Verwendung von Zeitplan-APIs.
+title: Verwenden von Projektplanungs-APIs zur Durchführung von Vorgängen mit Entitäten der Zeitplanung
+description: Dieses Thema enthält Informationen und Beispiele für die Verwendung von Projektzeitplan-APIs.
 author: sigitac
-manager: Annbe
-ms.date: 04/27/2021
+ms.date: 09/09/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950803"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487684"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Verwenden Sie Zeitplan-APIs, um Vorgänge mit Zeitplan-Entitäten auszuführen
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Verwenden von Projektplanungs-APIs zur Durchführung von Vorgängen mit Entitäten der Zeitplanung
 
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-> [!IMPORTANT] 
-> Einige oder alle der in diesem Thema genannten Funktionen stehen im Rahmen einer Vorschauversion zur Verfügung. Inhalt und Funktionalität können sich ändern. 
+
 
 ## <a name="scheduling-entities"></a>Planungsentitäten
 
-Zeitplan-APIs bieten die Möglichkeit, Erstellungs-, Aktualisierungs- und Löschvorgänge mit **Planungsentitäten** auszuführen. Diese Entitäten werden über das Planungsmodul in Project für das Web verwaltet. Erstellen, Aktualisieren und Löschen von Vorgängen mit **Planungsentitäten** wurden in früheren Version von Dynamics 365 Project Operations eingeschränkt.
+Projektzeitplan-APIs bieten die Möglichkeit, Vorgänge zum Erstellen, Aktualisieren und Löschen mit **Terminplan-Entitäten** auszuführen. Diese Entitäten werden über das Planungsmodul in Project für das Web verwaltet. Erstellen, Aktualisieren und Löschen von Vorgängen mit **Planungsentitäten** wurden in früheren Version von Dynamics 365 Project Operations eingeschränkt.
 
-Die folgende Tabelle enthält eine vollständige Liste der **Planungsentitäten**.
+Die folgende Tabelle enthält eine vollständige Liste der Projektzeitplan-Entitäten.
 
 | Entitätsname  | Logischer Entitätsname |
 | --- | --- |
@@ -41,19 +38,19 @@ Die folgende Tabelle enthält eine vollständige Liste der **Planungsentitäten*
 
 OperationSet ist ein Arbeitseinheitsmuster, das verwendet werden kann, wenn innerhalb einer Transaktion mehrere zeitplanbezogene Anforderungen verarbeitet werden müssen.
 
-## <a name="schedule-apis"></a>Zeitplan-APIs
+## <a name="project-schedule-apis"></a>Projektzeitplan-APIs
 
-Im Folgenden finden Sie eine Liste der aktuellen Zeitplan-APIs.
+Im Folgenden finden Sie eine Liste der aktuellen Projektzeitplan-APIs.
 
 - **msdyn_CreateProjectV1**: Mit dieser API kann ein Projekt erstellt werden. Der Projekt- und Standardprojekt-Bucket wird sofort erstellt.
 - **msdyn_CreateTeamMemberV1**: Mit dieser API kann ein Projektteammitglied erstellt werden. Der Teammitgliedsdatensatz wird sofort erstellt.
 - **msdyn_CreateOperationSetV1**: Mit dieser API können mehrere Anforderungen geplant werden, die innerhalb einer Transaktion ausgeführt werden müssen.
-- **msdyn_PSSCreateV1**: Mit dieser API kann eine Entität erstellt werden. Die Entität kann eine der Planungsentitäten sein, die den Erstellungsvorgang unterstützen.
-- **msdyn_PSSUpdateV1**: Mit dieser API kann eine Entität aktualisiert werden. Die Entität kann eine der Planungsentitäten sein, die den Aktualisierungsvorgang unterstützen.
-- **msdyn_PSSDeleteV1**: Mit dieser API kann eine Entität gelöscht werden. Die Entität kann eine der Planungsentitäten sein, die den Löschvorgang unterstützen.
+- **msdyn_PSSCreateV1**: Mit dieser API kann eine Entität erstellt werden. Die Entität kann eine der Projektplanungs-Entitäten sein, die den Vorgang des Erstellens unterstützen.
+- **msdyn_PSSUpdateV1**: Mit dieser API kann eine Entität aktualisiert werden. Die Entität kann eine beliebige Projektplanungs-Entität sein, die den Vorgang „Aktualisieren“ unterstützt.
+- **msdyn_PSSDeleteV1**: Mit dieser API kann eine Entität gelöscht werden. Die Entität kann eine beliebige Projektplanungs-Entität sein, die den Vorgang „Löschen“ unterstützt.
 - **msdyn_ExecuteOperationSetV1**: Diese API wird verwendet, um alle Operationen innerhalb des angegebenen Operationssatzes auszuführen.
 
-## <a name="using-schedule-apis-with-operationset"></a>Verwenden von Zeitplan-APIs mit OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>Verwenden von Projektzeitplan-APIs mit OperationSet
 
 Weil Aufzeichnungen sowohl mit **CreateProjectV1** als auch **CreateTeamMemberV1** sofort erstellt werden, können diese APIs nicht direkt im **OperationSet** verwendet werden. Sie können jedoch die API verwenden, um die erforderlichen Datensätze zu erstellen, ein **OperationSet** zu erstellen und dann diese vorab erstellten Datensätze im **OperationSet** zu verwenden.
 
@@ -259,7 +256,7 @@ In den folgenden Tabellen werden die Felder definiert, für die **Erstellen** un
 ## <a name="limitations-and-known-issues"></a>Einschränkungen und Bekannte Probleme
 Das Folgende ist eine Liste von Einschränkungen und bekannten Problemen:
 
-- Zeitplan-APIs können nur von **Benutzern mit Microsoft Project-Lizenz** verwendet werden. Sie können nicht verwendet werden von:
+- Project Schedule APIs können nur von **Benutzern mit Microsoft Project-Lizenz verwendet werden.** Sie können nicht verwendet werden von:
     - Anwendungsbenutzer
     - Systembenutzern
     - Integrationsbenutzern
@@ -268,13 +265,12 @@ Das Folgende ist eine Liste von Einschränkungen und bekannten Problemen:
 - Jeder Benutzer kann nur maximal 10 offene **OperationSets** haben.
 - Project Operations unterstützt derzeit maximal 500 Gesamtaufgaben für ein Projekt.
 - **OperationSet**-Fehlerstatus und -Fehlerprotokolle sind derzeit nicht verfügbar.
-- Zeitplan-APIs befinden sich in der öffentlichen Vorschau. Die Verwendung dieser APIs in einer Produktionsumgebung wird von Microsoft nicht unterstützt.
 - [Grenzwerte und Beschränkungen von Projekten und Aufgaben](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Fehlerbehandlung
 
    - Um die aus den Operations-Sätzen generierten Fehler zu überprüfen, gehen Sie zu **Einstellungen** \> **Integration planen** \> **Operationssätze**.
-   - Um die vom Project Scheduling Service generierten Fehler zu überprüfen, gehen Sie **Einstellungen** \> **Planen Sie die Integration** \> **PSS-Fehlerprotokolle**.
+   - Um vom Project Schedule Service generierte Fehler zu überprüfen, gehen Sie auf **Einstellungen** \> **Planungsintegration** \> **PSS Fehlerprotokolle**.
 
 ## <a name="sample-scenario"></a>Beispielszenario
 

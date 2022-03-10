@@ -2,10 +2,9 @@
 title: Projektplanungs-Homepage
 description: Dieses Thema enthält Informationen zur Projektplanung.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 645f9f1009bb52f6584bbce7f8ef07a033e450e9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123287"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990585"
 ---
 # <a name="project-planning-home-page"></a>Projektplanungs-Homepage
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -37,8 +38,8 @@ Die Projektmanagementtools in PSA unterstützen Sie bei der problemlosen Ausfüh
 
 - Planung von Projekten mithilfe von Arbeitszeitplänen und -kulationen
 - Kalkulation und Verfolgung von Projektkosten und -erlösen
-- Verwendung von Projektvorkalkulationen während des Vertriebsprozesses
-- Prognose des Ressourcenbedarfss für Projekte, die sich in der Vorbereitung befinden
+- Projektschätzungen während des Verkaufsprozesses nutzen
+- Ressourcenbedarf für Projekte in der Pipeline prognostizieren
 - Erfolgreiche Durchführung von Projekten durch Verfolgung von Fortschritt und Kostenverbrauch
 
 Die folgende Themen enthalten Informationen, mit deren Hilfe Projektmanager den Arbeitsaufwand abschätzen, die Projektkosten kalkulieren und die Ressourcenanforderungen prognostizieren können, indem sie die in PSA unterstützten Tools verwenden:
@@ -50,3 +51,6 @@ Die folgende Themen enthalten Informationen, mit deren Hilfe Projektmanager den 
 - [Projektvorlagen](project-templates.md)
 - [Projektphasen](project-stages.md)
 - [Projekteinstellungen](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

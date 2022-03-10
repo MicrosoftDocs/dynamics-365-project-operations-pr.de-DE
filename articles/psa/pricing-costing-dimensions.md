@@ -2,12 +2,11 @@
 title: Preis- und Nachkalkulationsdimensions-Homepage
 description: Dieses Thema enthält einen Überblick über Preisdimensionen.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284132"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998460"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Preis- und Nachkalkulationsdimensions-Homepage
 
@@ -42,7 +41,7 @@ Angesichts der typischen Art dieser Arbeitsattribute und der für die Ausführun
 
 PSA wird mit einem Standardsatz an Preisdimensionen bereitgestellt. Sie können diese anzeigen, indem Sie zu **Project Service** > **Parameter** navigieren. Prüfen Sie im Parameterdatensatz auf der Registerkarte **Betragsbasierte Preisdimensionen**, dass bei der Rolle **msdyn_resourcecategory** und der Organisationseinheit der Ressource **msdyn_organizationalunit** die Felder **Gilt für Vertrieb** und **Gilt für Kosten** auf **Ja** festgelegt sind. Dadurch können Sie den Preis und die Kosten für jede Kombination aus Rolle und Organisationseinheit einrichten.
 
-![Screenshot der Project Service-Parameter mit Markierung von „Gilt für Vertrieb”](media/PS-OOB-parameters.png)
+![Screenshot der Project Service-Parameter mit Markierung von „Gilt für Vertrieb“.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Falls Sie die vorgegebenen Felder von Rolle und Organisationseinheit als Preisdimensionen vor Version 3 von PSA verwenden, gibt es keine wahrnehmbare Änderung. Sie können Project Service wie gehabt verwenden. 
@@ -67,16 +66,16 @@ Das folgende Beispiel zeigt Rechnungssätze, die basierend auf der Rolle und der
 
 | Rolle        | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ------------|-------------|----------|----------:|----------|
-| Entwickler   | Contoso US  |Hour | 200|USD     |
-| Entwickler   | Koch Indien |Hour|   112|USD     |
+| Developer   | Contoso (USA)  |Stunde | 200|US-Dollar     |
+| Developer   | Contoso Indien |Stunde|   112|US-Dollar     |
 
 
 **Beispielkostensätze**
 
 | Gehaltsspanne     | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ----------------|-------------|----------|----------:|----------|
-| Mein Unternehmen_Band1 | Contoso US  |Hour | 145|USD     |
-| Mein Unternehmen_Band2 | Koch Indien |Hour|   67|USD     |
+| Mein Unternehmen_Band1 | Contoso (USA)  |Stunde | 145|US-Dollar     |
+| Mein Unternehmen_Band2 | Contoso Indien |Stunde|   67|US-Dollar     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

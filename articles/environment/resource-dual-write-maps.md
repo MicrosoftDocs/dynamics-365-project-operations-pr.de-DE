@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025773"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547108"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations – Duales Schreiben-Zuordnungsversionen
 
@@ -32,7 +32,7 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für die Project Op
 
 1. Wählen Sie aus der Liste der Zuordnungen Finanzbuchhaltung **(msdyn\_ledgers)** mit allen Voraussetzungen aus und wählen Sie das Kontrollkästchen **Erstsynchronisation** aus. Wählen Sie im Feld **Master für die Erstsynchronisation** **Finance and Operations Apps** sowohl für die Finanzbuchhaltungszuordnung als auch für alle erforderlichen Zuordnungen. **Ausführen** auswählen.
 
-![Synchronisation der Ledger Zuordnung](media/DW6.png)
+![Synchronisation der Ledger-Zuordnung.](media/DW6.png)
 
 2. Befolgen Sie die gleichen Schritte für alle verbleibenden Tabellenzuordnungen, die in der obigen Tabelle aufgeführt sind. Wählen Sie nicht **Erstsynchronisation** Kontrollkästchen beim Ausführen dieser Zuordnungen aus.
 
@@ -49,9 +49,9 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für eine Project O
 | Project Operations-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. |
 | Projektrechnungsvorschläge V2 (Rechnungen) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. |
 | Tatsächliche Werte der Project Operations-Integration (msdyn_actuals) | 1.0.0.14 | Für die Bereitstellung nicht erforderlich. |
-| Vertragszeilenmeilensteine der Project Operations-Integration (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. |
-| Project Operations-Integrationsentität für Ausgabenschätzungen (msdyn_estimateslines) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |
-| Project Operations-Integrationsentität für Stundenschätzungen (msdyn_resourceassignments) | 1.0.0.5 | Für die Bereitstellung nicht erforderlich. |
+| Vertragszeilenmeilensteine für die Integration von Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. |
+| Project Operations-Integrationsentität für Spesenvorkalkulationen (msdyn_estimatelines) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |
+| Project Operations-Integritätsentität für Stundenvorkalkulationen (msdyn_resourceassignments) | 1.0.0.5 | Für die Bereitstellung nicht erforderlich. |
 | Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn_expensecategories) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. |
 | Exportentität für Projektkosten der Project Operations-Integration (msdyn_expenses) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |
 | Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn_projectvendorinvoices) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. |
@@ -65,7 +65,7 @@ Schließen Sie die folgenden Schritte ab, um die aufgeführten Zuordnungen auszu
 
 1. Aktivieren Sie die Projektressourcenrollen für die Tabellenzuordnung **alle Unternehmen (bookableresourcecategories)**, da diese Zuordnung die anfängliche Synchronisierung erfordert. Wählen Sie im Feld **Master für die Erstsynchronisation** **Common Data Service**. 
 
- ![Synchronisierung der Zuordnung von Ressourcenrollentabellen](media/6ResourceInitialSync.jpg)
+ ![Synchronisierung der Zuordnung von Ressourcenrollentabellen.](media/6ResourceInitialSync.jpg)
 
  Warten Sie, bis der Status der Zuordnung **Wird ausgeführt** lautet, bevor Sie mit dem nächsten Schritt fortfahren.
 

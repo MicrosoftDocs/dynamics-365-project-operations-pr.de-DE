@@ -2,18 +2,16 @@
 title: Sicherheitsmodell
 description: Dieses Thema enthält Informationen zum Sicherheitsmodell in Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951208"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991485"
 ---
 # <a name="security-model"></a>Sicherheitsmodell
 
@@ -60,7 +58,7 @@ Project Operations erstellt keine Gruppe durch implizite Aktion und nur durch di
 
 Die Suche nach Gruppenmitgliedern im Dialogfeld **Gruppenverwaltung** ist auf diejenigen beschränkt, die als Teil der Sicherheitsgruppe der Umgebung festgelegt sind. Weitere Informationen unter [Benutzerzugriff auf Umgebungen steuern: Sicherheitsgruppen und Lizenzen](/power-platform/admin/control-user-access).
 
-![Gruppenmodus](./media/groupsmode.png)
+![Gruppenmodus.](./media/groupsmode.png)
 
 1. Das Projekt wird erstellt und gehört dem erstellenden Benutzer.
 2. Der Projektbesitzer wird für das Team aktualisiert.

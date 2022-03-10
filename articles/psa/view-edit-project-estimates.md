@@ -2,8 +2,6 @@
 title: Projektschätzungen anzeigen und bearbeiten
 description: Projektschätzungen anzeigen und bearbeiten (Project Service)
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4c31f4eb6fb9ee94c6da52311439a8661d46f056bc10ae4a16dd53642e2338fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076600"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999990"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Projektschätzungen anzeigen und bearbeiten (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -43,3 +43,6 @@ Mit den [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.m
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch des Projektmanagers](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Mobiler Arbeitsbereich für die Projektzeiteingabe
 description: Dieses Thema bietet Informationen über die Projektzeiteingabe im mobilen Arbeitsbereich. In diesem Arbeitsbereich können Benutzer mithilfe ihrem mobilen Gerät ein Projekt eingeben und Zeit sparen.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950173"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989550"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobiler Arbeitsbereich für die Projektzeiteingabe
 
@@ -96,7 +94,7 @@ Die mobile App Finance and Operations herunterladen und installieren:
 3.  Wenn Sie sich zum ersten Mal anmelden, werden Sie dazu aufgefordert, Ihren Benutzernamen und Ihr Passwort einzugeben. Geben Sie Ihre Anmeldeinformationen ein.
 4.  Nachdem Sie sich angemeldet haben, werden die verfügbaren Arbeitsbereiche für Ihr Unternehmen angezeigt. Beachten Sie, dass wenn Ihr Systemadministrator zu irgendeinem Zeitpunkt einen neuen Arbeitsbereich veröffentlicht, Sie die Liste der mobilen Arbeitsbereiche aktualisieren müssen.
 
-[![Zum Aktualisieren nach unten ziehen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Zum Aktualisieren nach unten ziehen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Geben Sie die Zeit über den mobilen Arbeitsbereich für die Projektzeiterfassung ein
 1.  Wählen Sie auf Ihrem Mobilgerät den Arbeitsbereich **Projektzeiteintrag** aus.

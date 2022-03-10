@@ -1,29 +1,27 @@
 ---
-title: Projektvertragsfelder und -informationen
+title: Projektvertragseinstellungen – Lite
 description: Dieses Thema enthält Informationen zu den Feldern, die sich auf Vertragszeilen auswirken, sowie Informationen zu dem Vertrag, die in allen Zeilenpositionen zusammengefasst sind.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087918"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995940"
 ---
-# <a name="project-contract-fields-and-information"></a>Projektvertragsfelder und -informationen 
+# <a name="header-details-for-project-contracts"></a>Kopfzeilendetails für Projektverträge
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
 Dieses Thema enthält Informationen zu Feldern, die für den gesamten Projektvertrag gelten, einschließlich Einstellungen, die sich auf alle Vertragszeilen auswirken. Informationen zum Vertrag, die in allen Zeilenpositionen zusammengefasst sind, um die KPIs des Projektvertrags zu bestimmen, sind ebenfalls enthalten.
 
-In der folgenden Tabelle sind die Felder in einem Projektvertrag aufgeführt, die für Dynamics 365 Project Operations einzigartig sind, oder einige wichtige Verhaltensänderungen gegenüber Vertriebsaufträge in Dynamics 365 Sales aufweisen.
+In der folgenden Tabelle sind die Felder eines Projektvertrags aufgeführt, die nur in Dynamics 365 Project Operations vorhanden sind oder einige wichtige Änderungen im Verhalten hinsichtlich Vertriebsaufträgen in Dynamics 365 Sales aufweisen.
 
-| Feld | Position | Relevanz, Zweck und Anleitung | Nachgelagerte Auswirkungen |
+| Feld | Position | Beschreibung des Dataflows | Nachgelagerte Auswirkungen |
 | --- | --- | --- | --- |
 | Art | Registerkarte **Zusammenfassung** (ausgeblendet) | Dies ist ein Optionssatzfeld mit den folgenden Optionen:</br>- **Arbeitsbasiert** (nur bei Installation von Project Operations verfügbar)</br>- **Positionsbasiert** (nur verfügbar, wenn Project Operations und Sales installiert sind)</br>- **Servicewartungsbasiert** (verfügbar, wenn Dynamics 365 Field Service installiert ist) | In Project Operations lautet der Wert dieses Felds standardmäßig **Arbeitsbezogen** und klassifiziert den Vertrag als projektbasierten Vertrag. Ein Vertrag sollte projektbasiert sein, um alle projektspezifischen Erweiterungen und Funktionen zu aktivieren. |
 | Potenz. Kunde | Registerkarte **Zusammenfassung** | Der Verweis auf das Unternehmen des Kunden oder den Firmendatensatz Bei einem aus einem Angebot erstellten Vertrag wird dieses Feld aus dem entsprechenden Feld in dem Angebotsdatensatz kopiert. | Die Währung im Projektvertrag basiert auf der Währung des Kunden. Dies kann vor dem Speichern des Vertrags geändert werden. |
@@ -36,7 +34,7 @@ In der folgenden Tabelle sind die Felder in einem Projektvertrag aufgeführt, di
 
 Die folgenden KPIs sind auf der Registerkarte **Vertragsleistung** eines Projektvertrags verfügbar.
 
-| Feld | Position | Relevanz, Zweck und Anleitung |
+| Feld | Position | Beschreibung des Dataflows |
 | --- | --- | --- |
 | Vertragswert | Gesamtvertrag | Der Gesamtwert des Projektvertrags |
 | Fakturierter Betrag | Gesamtvertrag | Die Summe der Beträge auf allen Rechnungen für diesen Vertrag. |
@@ -57,3 +55,6 @@ Die folgenden KPIs sind auf der Registerkarte **Vertragsleistung** eines Projekt
 | Angefallene Kosten | Produktbasierte Positionen | Die Summe aller tatsächlichen Kosten, die für die produktbasierte Vertragszeile protokolliert wurden. |
 | Bruttogewinn | Projektbasierte Positionen | Rechnungsbetrag – Bis zum Datum angefallene Kosten/Rechnungsbetrag |
 | Erwartete Marge | Produktbasierte Positionen | (Vertragszeilenwert – Vorkalkulierte Kosten für die Vertragszeile)/Vertragszeilenwert |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

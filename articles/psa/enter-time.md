@@ -2,8 +2,6 @@
 title: Zeit eingeben
 description: Eingeben der Zeit (Project Service)
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3dfd16ff38e729ce183247a03b3340b8af52ea1318c799ec5fd544d7b94086be
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132872"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985725"
 ---
 # <a name="enter-time-project-service"></a>Eingeben der Zeit (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -59,3 +59,6 @@ Tragen Sie Ihre Stunden mindestens wöchentlich ein (oder mit der Häufigkeit, d
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

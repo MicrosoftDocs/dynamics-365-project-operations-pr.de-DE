@@ -2,18 +2,16 @@
 title: Fertigkeiten und Zertifizierungen
 description: Dieses Thema enthält Informationen zum Hinzufügen von Fertigkeiten und Zertifizierungsmerkmalen zu Ressourcen.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990180"
 ---
 # <a name="skills-and-certifications"></a>Fertigkeiten und Zertifizierungen
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
@@ -43,3 +41,5 @@ Durch Hinzufügen von Merkmalen zu Ressourcenanforderungen können Sie das Wisse
 3. Wählen Sie im Unterraster **Fertigkeiten** die Option **+Neues Anforderungsmerkmal hinzufügen** aus.
 4. Suchen Sie im Bereich zum schnellen Erstellen die erforderlichen Merkmale, und wählen Sie sie aus. Fügen Sie einen **Bewertungswert** hinzu.
 5. Klicken Sie auf **Speichern und Schließen**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

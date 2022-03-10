@@ -2,8 +2,6 @@
 title: Handbuch des Projektmanagers
 description: Projektmanager-Handbuch für Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47761815403992799950ca2c8a5469343bd1c9ff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d24d3966ee4f495fc4cfdf35492495fd0244b5ef08e53005d8ac4a854cd7cce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283862"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998370"
 ---
 # <a name="project-manager-guide-project-service"></a>Projektmanager-Handbuch (Project Service)
 

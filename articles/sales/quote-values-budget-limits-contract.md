@@ -2,20 +2,18 @@
 title: Projektangebotseinstellungen
 description: Dieses Thema enthält Informationen zu den Informationen und Einstellungen, die für Projektangebote gelten und sich auf diese auswirken.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3f11188a47c6f0c7de9fb591fd3be3e22f8f7d842fb6d075c1f43d9baea4d225
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277562"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993465"
 ---
-# <a name="project-quote-settings"></a>Projektangebotseinstellungen
+# <a name="header-details-for-project-based-quotes"></a>Kopfzeilendetails für projektbasierte Angebote
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 

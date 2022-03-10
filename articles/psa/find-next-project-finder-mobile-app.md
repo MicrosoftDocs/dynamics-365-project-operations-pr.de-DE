@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007500"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990772"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Suchen des nächsten Projekts mit der Project Finder Mobile-App (Project Service)
 
@@ -38,12 +38,12 @@ Mit der Project Finder Mobile App auf Ihrem [!INCLUDE[tn_iphone](../includes/tn-
   
  Tippen Sie auf den Pfeil rechtes neben dem Projekt, das Sie interessiert, um weitere Details anzuzeigen und sich für das Projekt anzumelden.  
   
- ![Liste der passenden Projektqualifikationen in der mobilen Projektsuche-App](../psa/media/project-service-project-finder-list.png "Liste der passenden Projektqualifikationen in der mobilen Projektsuche-App")  
+ ![Liste der passenden Projektqualifikationen in der Project Finder Mobile-App.](../psa/media/project-service-project-finder-list.png "Liste der passenden Projektqualifikationen in der Project Finder Mobile-App")  
   
-## <a name="update-your-skills"></a>Aktualisieren Ihrer Fähigkeiten  
+## <a name="update-your-skills"></a>Ihre Qualifikationen aktualisieren  
  Tippen Sie auf die Profilschaltfläche unten rechts im Bildschirm, um Ihre Qualifikationen und Kompetenzlevels zu aktualisieren.  
   
- ![Profilschaltfläche in der mobilen Projektsuche-App](../psa/media/project-service-project-finder-profile.png "Profilschaltfläche in der mobilen Projektsuche-App")  
+ ![Profilschaltfläche in der Project Finder Mobile-App.](../psa/media/project-service-project-finder-profile.png "Profilschaltfläche in der Project Finder Mobile-App")  
   
 ### <a name="see-also"></a>Siehe auch  
  [Handbuch Zeit, Ausgaben und Zusammenarbeit](../psa/time-expense-collaboration-guide.md)
