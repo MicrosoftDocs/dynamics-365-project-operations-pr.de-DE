@@ -4,20 +4,20 @@ description: Mit Office-Gruppen können Sie ein Projekt für andere Teammitglied
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76a5b94780c4467c5e423bb6048e91d9efcde6d6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003140"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574475"
 ---
 # <a name="collaboration-with-office-groups"></a>Mit Office-Gruppen zusammenarbeiten
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Mit Office-Gruppen können Sie ein Projekt für andere Teammitgliedern im Common Data Service freigeben. Wenn Sie der Gruppe Benutzer hinzufügen, wird der Projektbesitz auf die Gruppe übertragen. Alle Benutzer haben Bearbeitungsberechtigungen für das Projekt. Benutzer können das Projekt auch sehen, wenn die Berechtigungen vom Administrator erteilt wurden. Diese Benutzer werden nicht in der Gruppe angezeigt.
 

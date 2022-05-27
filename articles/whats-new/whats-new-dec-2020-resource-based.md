@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984870"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579857"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -21,7 +21,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
 - Project Operations in Dataverse, Umgebungsversion 4.5.0.134
-- Projektmanagement und Buchhaltung in Dynamics 365 Finance, Umgebungsversion 10.0.15
+- Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.15
 
 Informationen zum Aktualisieren auf diese Version finden Sie unter [Aktualisieren Sie Project Operations in Ihrer Finance Umgebung](ur5-nonstocked-installation.md).
 
@@ -61,7 +61,7 @@ Die folgenden Funktionen sind in dieser Version enthalten:
 | Projektplanung und -nachverfolgung | 2057197          | Schätzung der Zeilenkopie mit Aufgabenreferenz wird nicht unterstützt                                                                                                     |
 | Projektplanung und -nachverfolgung | 2060687          | Die Zeitzonenwarnung verschwindet nun nach einer bestimmten Dauer                                                                                                      |
 | Ressourcenverwaltung           | 1832887          | Die Standard-ID der Ressourcenkategorie muss statisch sein, um wiederholbare Datenladevorgänge für Dataverse und Finance-Umgebungen zu gewährleisten                                                 |
-| Zeit und Ausgaben              | 2081793          | **Name der Ausgabenkategorie** muss dem **Beschreibung der Ausgabenkategorie**-Feld in Finance and Operations-Apps zugeordnet werden                                                  |
+| Zeit und Ausgaben              | 2081793          | **Name der Ausgabenkategorie** muss dem Feld **Beschreibung der Ausgabenkategorie** in Finanz- und Betriebs-Apps zugeordnet werden                                                  |
 | Zeit und Ausgaben              | 2034882          | **Neu**-Schaltfläche wird zweimal in der Befehlsleiste für Zeiteinträge angezeigt, wenn Dynamics 365 Field Service installiert ist                                          |
 | Zeit und Ausgaben              | 2056028          | **Zeit bearbeiten**-Seite mit Zeitleiste aktualisiert                                                                                                              |
 | Zeit und Ausgaben              | 1983747          | Die Zeiterfassungstabelle zeigt zusätzliche Daten                                                                                                                   |
@@ -106,7 +106,7 @@ Die folgenden Funktionen sind in dieser Version enthalten:
 | Reisekosten und Spesen                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Der Workflow für die automatische Buchung von Spesenabrechnungen ist abgeschlossen, die Rechnung wird jedoch nicht gebucht                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu regulatorischen Aktualisierungen für Finanz- und Betriebs-Apps finden Sie unter [Regulatorische Aktualisierungen](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

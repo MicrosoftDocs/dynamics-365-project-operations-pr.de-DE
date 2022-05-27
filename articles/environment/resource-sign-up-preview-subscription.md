@@ -4,20 +4,20 @@ description: Dieses Thema enthält Informationen zum Abonnieren und Bereitstelle
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323415"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575809"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Sich für Szenarien bei Project Operations-Vorschauabonnements für vorrätige/nicht vorrätige Ressourcen anmelden
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dieses Thema erklärt, wie Sie das Test-Angebot abonnieren und die Project Operations Umgebung für ressourcenbasierte/nicht vorrätige Szenarien bereitstellen.
 
@@ -40,7 +40,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie bei einem Browser mit dem Benut
 
   Sie sehen, dass das Bestätigungsangebot erfolgreich eingelöst wurde.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance-Vorschautestversion
+### <a name="dynamics-365-finance-preview-trial"></a>Vorschau-Testversion von Dynamics 365 Finance
 
 Gehen Sie zu [Dynamics 365 for Finance Vorschau Test](https://aka.ms/trypoche) und wiederholen Sie die Schritte aus dem vorherigen Abschnitt mit dem Angebot, Melden Sie sich für die Cloud Hosted Umgebung an.  
 
@@ -49,7 +49,7 @@ Gehen Sie zu [Dynamics 365 for Finance Vorschau Test](https://aka.ms/trypoche) u
 > [!IMPORTANT]
 > Sie benötigen Administratorzugriff auf das Microsoft 365-Portal Ihrer Organisation, um die folgenden Schritte auszuführen.
 
-1. Navigieren Sie zu [Microsoft 365 Admin Center](https://portal.office.com/), um Ihren Benutzern die Lizenzen zuzuweisen.
+1. Gehen Sie zum [Microsoft 365 Admin Center](https://portal.office.com/), um die Lizenzen Ihren Benutzern zuzuweisen.
 
 2. Wählen Sie auf der Seite **Aktive Benutzer** die Benutzer aus, denen Sie eine Lizenz zuweisen möchten.
 

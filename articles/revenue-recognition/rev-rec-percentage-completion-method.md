@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zum Festpreisumsatz in Projekte
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006425"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578707"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projektvorkalkulation (Festpreis) des Umsatzes 
 
@@ -26,7 +26,7 @@ Wenn Sie eine Projektvertragszeile mit den folgenden Attributen in Dynamics 365 
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Projektvorkalkulationen (Festpreis) des Umsatzes überprüfen
 Führen Sie die folgenden Schritte aus, um Projekte zur Schätzung von Festpreiseinnahmen zu überprüfen:
 
-1. Gehen Sie in der Dynamics 365 Finance-Umgebung zu **Projektmanagement und Buchhaltung** > **Projekte** > **Projektvorkalkulation (Festpreis) des Umsatzes**.
+1. Gehen Sie in der Dynamics 365 Finance-Umgebung zu **Projektmanagement und -buchhaltung** > **Projekte** > **Projektvorkalkulation (Festpreis) des Umsatzes**.
 2. Wählen Sie das Projekt aus, das Sie anzeigen möchten, und doppelklicken Sie auf **Projekt-ID schätzen**, um den Datensatz zu öffnen und die Details des Projekts zu überprüfen.
 3. Erweitern Sie die **Projekt**-Registerkarte. Sie sehen ein Projekt im **Ausgewählte Projekte**-Raster. Das System verwendet dies als Standardprojekt, da es sich um das Projekt handelt, das der Projektvertragszeile zugeordnet ist. 
 4. Um die Zuordnung zu ändern, wählen Sie zusätzliche Projekte aus und fügen Sie sie dem **Ausgewählte Projekte**-Raster hinzu. Wenn in diesem Raster mehrere Projekte ausgewählt sind, werden die prozentualen Projektabschluss- und Umsatzschätzungen für alle ausgewählten Projekte zusammen berechnet.

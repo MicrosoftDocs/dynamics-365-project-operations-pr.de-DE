@@ -3,16 +3,15 @@ title: Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrät
 description: Dieses Thema enthält Informationen zum Bereitstellungstyp Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009710"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575120"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen – Bereitstellungsübersicht
 
@@ -32,7 +31,7 @@ Der Bereitstellungstyp Dynamics 365 Project Operations für Szenarien basierend 
 - Projektumsatzerkennung
 - Erweiterbarkeit durch Power Platform
 
-Dieser Bereitstellungstyp bietet eine Erweiterung der von Dynamics 365 Finance und Dynamics 365 Supply Chain Management-Anwendungen verwendeten Funktionen.
+Dieser Bereitstellungstyp bietet eine Erweiterung der von Dynamics 365 Finance and Dynamics 365 Supply Chain Management-Anwendungen bereitgestellten Funktionalität.
 
 Diese Bereitstellung sollte so gewählt werden, dass von Project Operations erwartet wird, dass der gesamte Projektlebenszyklus verwendet wird, der die folgenden Anforderungen umfasst:
 

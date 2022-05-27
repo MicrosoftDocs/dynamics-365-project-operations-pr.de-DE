@@ -2,16 +2,16 @@
 title: Korrigieren der Buchhaltung auf Projektrechnungsvorschlägen
 description: Dieses Thema erklärt, wie Sie buchhalterische Informationen auf einem Entwurf eines Rechnungsvorschlags korrigieren können.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999315"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575073"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Korrigieren der Buchhaltung auf Projektrechnungsvorschlägen
 
@@ -27,12 +27,21 @@ Die voreingestellten Mehrwertsteuergruppen für die Fakturierung und die Mehrwer
 
 ## <a name="adjust-financial-dimensions"></a>Finanzielle Dimensionen anpassen
 
+### <a name="header-dimensions"></a>Dimensionen in Kopfzeilen
+
+Standardmäßig werden Rechnungsfinanzdimensionen aus den nicht fakturierten Projekttransaktionsdatensätzen abgeleitet, die fakturiert werden. Aufgrund der Systemeinstellungen können Sie jedoch Finanzdimensionen in der Kopfzeile von Projektrechnungsvorschlägen verwenden, um Debitorensalden zu buchen. Um diese Funktion zu aktivieren, wählen Sie **Aktualisierungen der Projektdimensionen für Debitoren zulassen** auf der **Finanzen**-Registerkarte der **Projektmanagement und Abrechnungsparameter**-Seite.
+
+Finanzdimensionen in Rechnungskopfzeilen können bearbeitet werden, bevor eine Rechnung gebucht wird. Wechseln Sie auf der **Projektrechnungsvorschlag**-Seite zur Ansicht **Kopfzeile** und bearbeiten dann Werte auf der Registerkarte **Finanzdimensionen**.
+
+Die **Kopfzeilen** Ansicht ist erst verfügbar, nachdem der Systemadministrator die Funktion **Projektrechnungsvorschlags- und Rechnungserfassungsformulare mit der Kopfzeilen- und Positionsansicht verwenden** im Arbeitsbereich **Funktionsverwaltung**. Für diese Funktion ist das Finance-Update 10.0.25 oder höher erforderlich.
+
+### <a name="line-dimensions"></a>Positionsdimensionen
+
 Finanzielle Dimensionen können nicht direkt in einer Zeile des Projektrechnungsvorschlags bearbeitet werden. Gehen Sie stattdessen wie folgt vor, um finanzielle Dimensionen in einem Projektrechnungsvorschlag anzupassen.
 
 1. Wählen Sie auf dem Projektrechnungsvorschlag die Option **Alle löschen**, um die Zeilen des Projektrechnungsvorschlags zu entfernen.
 
-    > [!NOTE]
-    > Die Schaltfläche **Alles löschen** ist nur verfügbar, nachdem der Systemadministrator die Funktion **Rechnungsvorschlagszeilen löschen bei Verwendung von Project Operations für ressourcenbasierte/ nicht vorrätige Szenarien** im Arbeitsbereich **Funktionsverwaltung** aktiviert hat.
+    Die Schaltfläche **Alles löschen** ist nur verfügbar, nachdem der Systemadministrator die Funktion **Rechnungsvorschlagszeilen löschen bei Verwendung von Project Operations für ressourcenbasierte/ nicht vorrätige Szenarien** im Arbeitsbereich **Funktionsverwaltung** aktiviert hat.
 
 2. Passen Sie die finanziellen Dimensionen an:
 

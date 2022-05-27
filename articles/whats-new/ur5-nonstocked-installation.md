@@ -1,25 +1,25 @@
 ---
 title: Aktualisieren Sie Project Operations in Ihrer Finance Umgebung
-description: Dieses Thema enthält Informationen zum Aktualisieren von Project Operations in Ihrer Dynamics 365 Finance Umgebung.
+description: Dieses Thema enthält Informationen zum Aktualisieren von Project Operations in Ihrer Dynamics 365 Finance-Umgebung.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986760"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579933"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualisieren Sie Project Operations in Ihrer Finance Umgebung
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
 
-Dieses Thema enthält Informationen zum Aktualisieren von Dynamics 365 Project Operations in Ihrer Dynamics 365 Finance Umgebung. Es sind drei Verfahren erforderlich, um Project Operations auf Update 5 (UR5) zu aktualisieren:
+Dieses Thema enthält Informationen zum Aktualisieren von Dynamics 365 Project Operations in Ihrer Dynamics 365 Finance-Umgebung. Es sind drei Verfahren erforderlich, um Project Operations auf Update 5 (UR5) zu aktualisieren:
 
 - [Importieren Sie das Paket in Ihr Vorschauprojekt](#import)
 - [Wenden Sie das Update](#apply)
@@ -119,7 +119,7 @@ Die folgenden Aktualisierungen der Sicherheitsberechtigungen für Entitäten sin
 4. Auf der Seite **Tabellenzuordnungsversion** wenden Sie auf jede der drei Entitäten eine neue Version der Zuordnung an.
 5. Auf der Seite **Duales Schreiben** wählen Sie ausführen aus, um die Zuordnungen neu zu starten.
 6. Wählen Sie aus der Liste der Zuordnungen **Ledger (msdyn_ledgers)** mit allen Voraussetzungen aus und wählen Sie das Kontrollkästchen **Erstsynchronisation** aus. 
-7. In dem Feld **Master für die Erstsynchronisation** wählen Sie **Finance and Operations Apps** und dann **Ausführen** aus.
+7. Wählen Sie in dem **Master für Erstsynchronisierung**-Feld **Finanz- und Betriebs-Apps** und dann **Ausführen**.
  
  ![Synchronisation der Ledger-Zuordnung.](media/DW6.png)
  

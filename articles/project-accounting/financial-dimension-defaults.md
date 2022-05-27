@@ -4,22 +4,22 @@ description: Dieses Thema enthält Informationen zum Einrichten von Standardeins
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922937"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579489"
 ---
 # <a name="financial-dimension-defaults"></a>Finanzdimensions-Standardeinstellungen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations verwendet das [Finanzdimensionen](/dynamics365/finance/general-ledger/financial-dimensions)-Framework in Dynamics 365 Finance, um zusätzliche Einblicke in Projekt-Nebenbuch- und Hauptbuchtransaktionen zu erhalten.
+
+Dynamics 365 Project Operations verwendet das [Framework für Finanzdimensionen](/dynamics365/finance/general-ledger/financial-dimensions) in Dynamics 365 Finance, um zusätzliche Einblicke in Projekttransaktionen in untergeordneten Sachkonten und in der Finanzbuchhaltung bereitzustellen.
 
 Standardmäßige Finanzdimensionen können für einen Kunden, eine Projektfinanzierungsquelle, einen Meilenstein, eine Projektvertragszeile oder ein Projekt festgelegt werden.
 
@@ -60,15 +60,5 @@ Projekte werden in CDS erstellt und gepflegt. Buchhaltungsattribute für Projekt
 4. Richten Sie die Standardeinstellungen für die Finanzdimension ein. Beachten Sie, dass Finanzdimensionen standardmäßig vom Debitorenkonto ausgehen. Wenn das Projekt einer Vertragszeile mehreren Projektvertragsdebitoren zugeordnet ist, wird der primäre Debitor verwendet, um Finanzdimensionen als Standard festzulegen.
 
 Die standardmäßigen Finanzdimensionen des Projekts werden verwendet, um die Standardeinstellungen für Buch.-Blattzeilen für Zeit‑, Spesen‑ und Gebührentransaktionen in der **Project Operations-Integrationserfassung** und auf verwandten Projektrechnungszeilen festzulegen.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Anwenden von Finanzdimensionen für projektbezogene Zeiteintragungen
-Beachten Sie beim Anwenden von Finanzdimensionen auf projektbezogene Zeiteintragungen, dass der Vorgabedimensionswert auf der folgenden Reihenfolge basiert:
-
-1. Ressource
-2. Project
-3. Finanzierungsquelle
-
-Wenn beispielsweise die Vorgabedimension für eine Ressource angegeben ist, wird sie über eine Vorgabe angewendet, die im Projekt angegeben ist. In ähnlicher Weise wird eine Vorgabeprojektdimension über die Vorgabe angewendet, die in der Finanzierungsquelle angegeben ist.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

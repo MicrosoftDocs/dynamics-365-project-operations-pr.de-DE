@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zu Projektangeboten.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001520"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579581"
 ---
 # <a name="manage-project-quotes"></a>Projektangebote verwalten
 
@@ -31,6 +31,9 @@ Eine Liste aller Projektangebote finden Sie auf der **Angebote**-Listenseite.
 2. Verwenden Sie **Ansicht wechseln**, um andere gefilterte Ansichten der Angebote auszuwählen. Mithilfe benutzerdefinierter Filterkriterien können Sie Ihre eigenen Ansichten und Navigationsoptionen konfigurieren.
 
 Auf dieser Listenseite oder auf den Detailseiten können Angebote erstellt oder gelöscht werden.
+
+ > [!NOTE]
+ > Angebote, denen Projekte, Aufgaben, Schätzungen, Erfassungen und/oder Ist-Werte zugeordnet sind, können nicht gelöscht werden. Wenn ein Angebot als Gewonnen oder Verloren geschlossen wird, kann es zudem nicht mehr gelöscht oder geändert werden. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

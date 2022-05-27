@@ -2,18 +2,16 @@
 title: Genehmigungssätze
 description: In diesem Thema wird erläutert, wie Sie mit Genehmigungssätzen, Anforderungen und den Untergruppen dieser Vorgänge arbeiten.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323235"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576223"
 ---
 # <a name="approval-sets"></a>Genehmigungssätze
 
@@ -27,6 +25,18 @@ Genehmigungssätze geben den Gesamtverarbeitungsstatus ihrer zugehörigen Datens
 Genehmigungen, die zur Bearbeitung anstehen, sind in der Ansicht **Verarbeitungsgenehmigungen**. Das System verarbeitet alle Eingaben mehrmals asynchron, einschließlich des erneuten Versuchs einer Genehmigung, wenn vorherige Versuche fehlgeschlagen sind.
 
 Das Feld **Gültigkeitsdauer des Genehmigungssatzes** zeichnet die Anzahl der verbleibenden Versuche auf, den Satz zu verarbeiten, bevor er als fehlgeschlagen markiert wird.
+
+Genehmigungssätze werden durch die periodische Aktivierung basierend auf einem **Cloud-Flow** namens **Project Service –  Projektgenehmigungssätze wiederholt planen** verarbeitet. Dies findet sich in der **Lösung** namens **Project Operations**. 
+
+Stellen Sie sicher, dass der Flow aktiviert ist, indem Sie die folgenden Schritte ausführen.
+
+1. Melden Sie sich als Administrator bei [flow.microsoft.com](https://powerautomate.microsoft.com) an.
+2. Wechseln Sie in der oberen rechten Ecke zu der Umgebung, die Sie für Dynamics 365 Project Operations verwenden.
+3. Wählen Sie **Lösungen** aus, um die Lösungen aufzuführen, die in der Umgebung installiert sind.
+4. In der Lösungsliste wählen Sie **Project Operations**.
+5. Ändern Sie den Filter von **Alle** in **Cloud-Flows**.
+6. Überprüfen Sie, ob der **Project Service – Projektgenehmigungssätze regelmäßig planen**-Flow auf **Ein** eingestellt. Wenn dies nicht der Fall ist, wählen Sie den Flow aus, und wählen Sie dann **Aktivieren** aus.
+7. Überprüfen Sie, ob die Verarbeitung alle fünf Minuten erfolgt, indem Sie die **Systemaufträge**-Liste im **Einstellungen**-Bereich innerhalb Ihrer Project Operations Dataverse-Umgebung überprüfen.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Fehlgeschlagene Genehmigungen und Genehmigungseinstellungen
 Die **Fehlgeschlagene Genehmigungen**-Ansicht listet alle Genehmigungen auf, die ein Eingreifen des Benutzers erfordern. Öffnen Sie die zugehörigen Genehmigungssatzprotokolle, um die Fehlerursache zu ermitteln.

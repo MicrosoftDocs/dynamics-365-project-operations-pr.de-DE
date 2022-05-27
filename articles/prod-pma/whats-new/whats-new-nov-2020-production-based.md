@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die i
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003185"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576591"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
@@ -23,7 +23,7 @@ Informationen zu den in diesem Update enthaltenen Korrekturen erhalten Sie in de
 
 ## <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
 
-Informationen zu behördlichen Aktualisierungen für Dynamics 365 Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu regulatorischen Aktualisierungen für Finanz- und Betriebs-Apps von Dynamics 365 finden Sie unter [Regulatorische Aktualisierungen](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

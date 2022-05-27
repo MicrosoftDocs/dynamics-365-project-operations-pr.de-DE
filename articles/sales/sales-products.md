@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,22 +15,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986850"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574107"
 ---
 # <a name="products"></a>Produkte
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Produkte sind das Rückgrat Ihres Unternehmens. Der Produktkatalog in Dynamics 365 Sales Professional ist eine Sammlung von Produkten mit ihren Preisinformationen. Machen Sie es einfacher für Ihre Vertriebsmitarbeiter, ihre Verkäufe zu steigern, indem Sie schnell einen Produktkatalog erstellen.
+Produkte sind das Rückgrat Ihres Unternehmens. Bei einem Produktkatalog in Dynamics 365 Sales Professional handelt es sich um eine Sammlung von Produkten mit ihren Preisinformationen. Machen Sie es einfacher für Ihre Vertriebsmitarbeiter, ihre Verkäufe zu steigern, indem Sie schnell einen Produktkatalog erstellen.
 
 ## <a name="add-a-product"></a>Hinzufügen eines Produkts
 
-1.  Stellen Sie sicher, dass Sie über die Rolle „Vertriebsmanager – Professional“ oder „Systemadministrator“ verfügen, damit Sie Produkte in Dynamics 365 Sales Professional hinzufügen können.
+1.  Stellen Sie sicher, dass Sie über die Rolle „Sales Professional-Manager“ oder „Systemadministrator“ verfügen, damit Sie Produkte in Dynamics 365 Sales Professional hinzufügen können.
 2.  Wählen Sie in der Siteübersicht unter **Einrichten** die Option **Produkte** aus.
 3.  Wählen Sie **Produkt hinzufügen** und geben Sie die folgenden Informationen ein:
 
