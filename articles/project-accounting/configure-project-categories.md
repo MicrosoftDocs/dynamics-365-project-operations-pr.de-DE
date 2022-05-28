@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zum Einrichten von Projektkateg
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997110"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591541"
 ---
 # <a name="configure-project-categories"></a>Projektkategorien konfigurieren
 
@@ -27,7 +27,7 @@ Transaktionskategorien sind die grundlegende Gruppierung für Projekttransaktion
 
 ## <a name="transaction-categories"></a>Transaktionskategorien
 
-Transaktionskategorien stellen die grundlegende Gruppierung für Projekttransaktionen dar und sind nicht unternehmens- oder transaktionsartspezifisch. Beispielsweise verwendet Contoso Robotics die Kategorien Design, Reise, Installation und Service-Transaktion, um Projekttransaktionen zu gruppieren.
+Transaktionskategorien stellen die grundlegende Gruppierung für Projekttransaktionen dar und sind nicht unternehmens- oder transaktionsartspezifisch. Beispielsweise verwendet Contoso Robotics die Kategorien Design, Travel, Installation und Service Transaction, um Projekttransaktionen zu gruppieren.
 
 Transaktionskategorien werden im Project Operations-Modul definiert. 
 1. Wechseln Sie zu **Einstellungen** \> **Transaktionskategorien**, um das Formular zu öffnen. 
@@ -35,7 +35,7 @@ Transaktionskategorien werden im Project Operations-Modul definiert.
 
 ## <a name="shared-categories"></a>Gemeinsam genutzte Kategorien
 
-Dynamics 365 verwendet das Konzept der gemeinsam genutzten Kategorien, um Ausgaben in verschiedenen Anwendungen, wie beispielsweise Dynamics 365 Finance, Dynamics 365 Supply Chain und Dynamics 365 Project Operations, zu kategorisieren. Für jede erstellte Transaktionskategorie erstellt Project Operations automatisch vier verwandte gemeinsame Kategorien: Stunden, Kosten, Gebühren und Artikel. Sie können die gemeinsamen Kategorien überprüfen und anpassen, indem Sie zu **Projektmanagement und Buchhaltung** \> **Einrichten** \> **Kategorien** \> **Gemeinsame Kategorien** wechseln.
+Dynamics 365 verwendet das Konzept gemeinsam genutzter Kategorien, um Spesen in verschiedene Anwendungen zu kategorisieren, z. B. Dynamics 365 Finance, Dynamics 365 Supply Chain und Dynamics 365 Project Operations. Für jede erstellte Transaktionskategorie erstellt Project Operations automatisch vier verwandte gemeinsame Kategorien: Stunden, Kosten, Gebühren und Artikel. Sie können die gemeinsamen Kategorien überprüfen und anpassen, indem Sie zu **Projektmanagement und Buchhaltung** \> **Einrichten** \> **Kategorien** \> **Gemeinsame Kategorien** wechseln.
 
 ## <a name="project-categories"></a>Projektkategorien
 

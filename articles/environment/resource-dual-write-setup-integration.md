@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986535"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586895"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations-Einrichtung und Konfigurationsdatenintegration
 
@@ -22,34 +22,34 @@ Dieses Thema enthält Informationen zu den Einrichtungs- und Konfigurationsentit
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projektverträge, Vertragszeilen und Projekte
 
-Projektverträge, Vertragszeilen und Projekte werden in Dataverse erstellt und mit Finance and Operations Apps für zusätzliche Buchhaltung synchronisiert. Die Datensätze in diesen Entitäten können nur in Dataverse erstellt und gelöscht werden. Buchhaltungsattribute wie Standardwerte für Umsatzsteuergruppen und finanzielle Dimensionen können diesen Datensätzen jedoch in Finance and Operations Apps hinzugefügt werden.
+Projektverträge, Vertragspositionen und Projekte werden in Dataverse erstellt und für zusätzliche Buchhaltung mit Finanz- und Betriebs-Apps synchronisiert. Die Datensätze in diesen Entitäten können nur in Dataverse erstellt und gelöscht werden. Buchhaltungsattribute wie Mehrwertsteuergruppenvorgaben und Finanzdimensionen können diesen Datensätzen jedoch in den Finanz- und Betriebs-Apps hinzugefügt werden.
 
   ![Integrationskonzepte für Projektverträge.](./media/1ProjectContract.jpg)
 
-Leads, Verkaufschancen und Angebote für Vertriebsaktivitäten werden in Dataverse nachverfolgt und werden nicht mit Finance and Operations-Apps synchronisiert, da dieser Aktivität keine nachgelagerte Buchhaltung zugeordnet ist.
+Verkaufsaktivitäts-Leads, Verkaufschancen und Angebote werden in Dataverse nachverfolgt und nicht mit Finanz- und Betriebs-Apps synchronisiert, da dieser Aktivität keine nachgelagerte Buchhaltung zugeordnet ist.
 
-Die Projektvertragsfunktionalität in Dataverse erstellt einen Projektvertragsdatensatz in Finance and Operations-Apps mit der Tabellenzuordnung **Projektvertragskopfzeilen (salesorders)**. Speichern eines Projektvertrags in Dataverse startet auch die Erstellung eines Projektvertrags-Kundenentitätsdatensatzes. Dieser Datensatz wird mit Finance and Operations Apps mit der Tabellenzuordnung **Projektfinanzierungsquelle (msdyn\_ projectcontractssplitbillingrules)** synchronisiert. Diese Zuordnung synchronisiert auch das Hinzufügen, Aktualisieren und Löschen von Projektvertragskunden. Geteilte Abrechnungsprozentsätze zwischen Projektvertragskunden werden nur in Dataverse ausgeführt und nicht mit Finance and Operations Apps synchronisiert.
+Die Projektvertragsfunktion in Dataverse erstellt einen Projektvertragsdatensatz in Finanz- und Betriebs-Apps mithilfe der Tabellenzuordnung **Projektvertragsheader (Kundenaufträge)**. Speichern eines Projektvertrags in Dataverse startet auch die Erstellung eines Projektvertrags-Kundenentitätsdatensatzes. Dieser Datensatz wird mithilfe der Tabellenzuordnung **Projektfinanzierungsquelle (msdyn\_projectcontractssplitbillingrules)** mit Finanz- und Betriebs-Apps synchronisiert. Diese Zuordnung synchronisiert auch das Hinzufügen, Aktualisieren und Löschen von Projektvertragskunden. Aufgeteilte Abrechnungsprozentsätze zwischen Projektvertragskunden werden nur in Dataverse verwaltet und nicht mit Finanz- und Betriebs-Apps synchronisiert.
 
-Nachdem ein Projektvertrag in Dataverse erstellt wurde, kann der Projektbuchhalter die Buchhaltungsattribute für diesen Projektvertrag in Finance and Operations Apps aktualisieren, und zwar unter **Projektmanagement und Buchhaltung** > **Projektverträge** > **Einrichten** > **Standardabrechnung anzeigen**. Der Buchhalter kann die operativen Projektvertragsattribute wie den angeforderten Liefertermin und den Vertragsbetrag überprüfen, indem er die Projektvertrags-ID in Finance and Operations Apps auswählt, die den zugehörigen Projektvertragsdatensatz in Dataverse öffnet.
+Nachdem ein Projektvertrag in Dataverse erstellt wurde, kann der Projektbuchhalter die Buchhaltungsattribute für diesen Projektvertrag in Finanz- und Betriebs-Apps aktualisieren, indem er zu **Projektmanagement und Rechnungswesen** > **Projektverträge** > **Konfiguration** > **Standardbuchhaltung anzeigen** wechselt. Der Buchhalter kann operative Projektvertragsattribute wie das gewünschte Lieferdatum und den Vertragsbetrag überprüfen, indem er die Projektvertrags-ID in den Finanz- und Betriebs-Apps auswählt, wodurch der zugehörige Projektvertragsdatensatz in Dataverse geöffnet wird.
 
-Die Projektentität wird mit Finance and Operations Apps mit der Tabellenzuordnung **Projekte V2 (msdyn\_projects)** synchronisiert. Der Projektbuchhalter kann:
+Die Projektentität wird mithilfe der Tabellenzuordnung **Projekte V2 (msdyn\_projects)** mit Finanz- und Betriebs-Apps synchronisiert. Der Projektbuchhalter kann:
 
-  - Überprüfen Sie Projekte in Finance and Operations Apps, indem Sie zu **Projektmanagement und Buchhaltung** > **Alle Projekte** gehen. 
-  - Aktualisieren Sie die Abrechnungsattribute für das Projekt in Finance and Operations Apps, indem Sie zu **Projektmanagement und Buchhaltung** > **Alle Projekte** > **Einrichten** > **Standardabrechnung anzeigen** gehen.  
-  - Überprüfen Sie die operativen Projektattribute, z. B. das geschätzte Start- und Enddatum, indem Sie die Projekt-ID in Finance and Operations Apps auswählen, die den zugehörigen Projektdatensatz in Dataverse öffnet.
+  - Überprüfen Sie Projekte in Finanz- und Betriebs-Apps, indem Sie zu **Projektmanagement und Rechnungswesen** > **Alle Projekte** wechseln. 
+  - Aktualisieren Sie Buchhaltungsattribute für das Projekt in Finanz- und Betriebs-Apps, indem Sie zu **Projektmanagement und Rechnungswesen** > **Alle Projekte** > **Konfiguration** > **Standardbuchhaltung anzeigen** wechseln.  
+  - Überprüfen Sie operative Projektattribute wie geschätzte Start- und Enddaten, indem Sie die Projekt-ID in Finanz- und Betriebs-Apps auswählen, die den zugehörigen Projektdatensatz in Dataverse öffnen.
 
 Ein Projekt ist mit einem Projektvertrag über die Entität **Projektvertragszeile** verbunden.
 
-Die Projektvertragszeilen in Dataverse erstellt eine Projektvertragsabrechnungsregel in Finance and Operations-Apps mit der Tabellenzuordnung **Projektvertragszeilen (salesorderdetails)**. Die Abrechnungsmethode definiert den Abrechnungsregeltyp des Projektvertrags in Finance and Operations Apps:
+Projektvertragspositionen in Dataverse erstellen eine Projektvertragsabrechnungsregel in Finanz- und Betriebs-Apps mithilfe der Tabellenzuordnung **Projektvertragspositionen (salesorderdetails)**. Die Abrechnungsmethode definiert den Abrechnungsregeltyp des Projektvertrags in Finanz- und Betriebs-Apps:
 
   - Projektvertragszeilen mit einer Abrechnungsmethode für Zeit und Material erstellen eine Abrechnungsregel für Zeit und Materialart.
   - Festpreis-Abrechnungsmethode Vertragslinien erstellen eine Meilenstein-Abrechnungsregel.
 
-Projektvertragslinien können vom Projektbuchhalter in Finance and Operations Apps überprüft werden, indem Sie zu **Projektmanagement und Buchhaltung** > **Projektverträge** > **Einrichten** > **Standardabrechnung anzeigen** und Details auf der Registerkarte überprüfen **Vertragszeilen**. Auf dieser Registerkarte kann der Buchhalter auch finanzielle Standarddimensionen für die Vertragszeilen der Festpreisabrechnungsmethode festlegen.
+Projektvertragspositionen können vom Projektbuchhalter in Finanz- und Betriebs-Apps überprüft werden, indem Sie zu **Projektmanagement und Rechnungswesen** > **Projektverträge** > **Konfiguration** > **Standardbuchhaltung anzeigen** wechseln und die Details auf der Registerkarte **Vertragspositionen** überprüfen. Der Buchhalter kann auf dieser Registerkarte auch Standardfinanzdimensionen für die Vertragspositionen der Festpreisabrechnungsmethode festlegen.
 
 ## <a name="billing-milestones"></a>Fakturierungsmeilensteine
 
-Projektvertragszeilen nach der Festpreis-Abrechnungsmethode werden über Abrechnungsmeilensteine in Rechnung gestellt. Abrechnungsmeilensteine werden synchronisiert, um Buchungen auf dem Konto in Finance and Operations-Apps mit der Tabellenzuordnung **Vertragszeilen-Meilensteine der Project Operations-Integration (msdyn\_ contractlinescheduleofvalues)**.
+Projektvertragszeilen nach der Festpreis-Abrechnungsmethode werden über Abrechnungsmeilensteine in Rechnung gestellt. Abrechnungsmeilensteine werden mithilfe der Tabellenzuordnung **Meilensteine der Project Operations-Integrationsvertragslinie (msdyn\_contractlinescheduleofvalues)** mit Projektakontotransaktionen in Finanz- und Betriebs-Apps synchronisiert.
 
   ![Integration der Fakturierungsmeilensteine.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Wenn Sie zum ersten Mal einen Abrechnungsmeilenstein für eine bestimmte Projekt
 
 ### <a name="project-tasks"></a>Projektaufgaben
 
-Projektaufgaben werden mit Finance and Operations Apps durch die Tabellenzuordnung **Projektaufgaben (msdyn\_ Projektaufgaben)** nur zu Referenzzwecken synchronisiert. Das Erstellen, Aktualisieren und Löschen von Vorgängen durch Finance and Operations-Apps wird nicht unterstützt.
+Projektaufgaben werden über die Tabellenzuordnung **Projektaufgaben (msdyn\_projecttasks)** nur zu Referenzzwecken mit Finanz- und Betriebs-Apps synchronisiert. Das Erstellen, Aktualisieren und Löschen von Vorgängen wird von Finanz- und Betriebs-Apps nicht unterstützt.
 
   ![Projektaufgabenintegration.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projektressourcen
 
-Die Entität **Projektressourcenrollen** wird mit Finance and Operations Apps mit der Tabellenzuordnung **Projektressourcenrollen für alle Unternehmen (bookableresourcecategories)** nur zu Referenzzwecken synchronisiert. Weil Ressourcenrollen in Dataverse nicht unternehmensspezifisch sind, erstellt das System automatisch entsprechende unternehmensspezifische Ressourcenrollendatensätze in Finance and Operations Apps für alle juristischen Personen, die in den Dual-Write-Integrationsbereich aufgenommen wurden.
+Die **Projektressourcenrollen**-Entität wird mithilfe der Tabellenzuordnung **Projektressourcenrollen für alle Unternehmen (bookableresourcecategories)** nur zu Referenzzwecken mit Finanz- und Betriebs-Apps synchronisiert. Da Ressourcenrollen in Dataverse nicht unternehmensspezifisch sind, erstellt das System automatisch entsprechende unternehmensspezifische Ressourcenrollendatensätze in Finanz- und Betriebs-Apps für alle Entitäten, die in den Dual-Write-Integrationsumfang eingeschlossen sind.
 
 ![Ressourcenrollenintegration.](./media/5Resources.jpg)
 
-Projektressourcen im Project Operations werden in Dataverse verwaltet und sind nicht mit Finance and Operations Apps synchronisiert.
+Projektressourcen in Project Operations werden in Dataverse verwaltet und nicht mit Finanz- und Betriebs-Apps synchronisiert.
 
 ### <a name="transaction-categories"></a>Transaktionskategorien
 
-Transaktionskategorien werden in Dataverse gepflegt und mit Finance and Operations Apps mit der Tabellenzuordnung **Projekttransaktionskategorien (msdyn\_transactioncategories)** synchronisiert. Nachdem der Transaktionskategoriedatensatz synchronisiert wurde, erstellt das System automatisch vier gemeinsam genutzte Kategoriedatensätze. Jeder Datensatz entspricht einem Transaktionstyp in Finance and Operations Apps und verknüpft sie mit dem Transaktionskategoriedatensatz.
+Transaktionskategorien werden in Dataverse gepflegt und mithilfe der Tabellenzuordnung **Projektbuchungskategorien (msdyn\_transactioncategories)** mit Finanz- und Betriebs-Apps synchronisiert. Nachdem der Transaktionskategoriedatensatz synchronisiert wurde, erstellt das System automatisch vier gemeinsam genutzte Kategoriedatensätze. Jeder Datensatz entspricht einem Transaktionstyp in Finanz- und Betriebs-Apps und verknüpft sie mit dem Datensatz der Transaktionskategorie.
 
 ![Transaktionskategorienintegration.](./media/4TransactionCategories.jpg)
 

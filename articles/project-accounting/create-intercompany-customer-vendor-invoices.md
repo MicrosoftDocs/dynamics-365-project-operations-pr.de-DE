@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zum Erstellen von Intercompany-
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989250"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591495"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Intercompany-Debitoren- und -Kreditorenrechnungen erstellen
 
@@ -27,7 +27,7 @@ Verwenden Sie dieses Verfahren, um manuell eine Intercompany-Kundenrechnung für
 
 Die folgenden Schritte müssen in der kreditgebenden juristischen Person ausgeführt werden. 
 
-1. Gehen Sie in Dynamics 365 Finance zu **Projektmanagement und Buchhaltung** > **Projektrechnungen** > **Intercompany-Debitorenrechnungen**. Auf der **Intercompany-Debitorenrechnungen**-Listenseite wählen Sie im Aktionsbereich **Neu.**
+1. Gehen Sie in Dynamics 365 Finance zu **Projektmanagement und Buchhaltung** > **Projektrechnungen** > **Intercompany-Kundenrechnungen**. Auf der **Intercompany-Debitorenrechnungen**-Listenseite wählen Sie im Aktionsbereich **Neu.**
 2. Wählen Sie auf der **Intercompany-Debitorenrechnungen erstellen**-Seite im **Juristische Person**-Feld eine kreditnehmende juristische Person aus.
 3. Optional: Geben Sie einen bestimmten Projektvertrag und eine bestimmte Projektnummer ein.
 4. Grenzen Sie die Suche ein, indem Sie einen Datumsbereich auswählen. Geben Sie bestimmte Daten in die Felder **Anfangsdatum** und **Enddatum** ein. In den Suchergebnissen werden nur Intercompany-Transaktionen angezeigt, die innerhalb dieses Datumsbereichs gebucht wurden.

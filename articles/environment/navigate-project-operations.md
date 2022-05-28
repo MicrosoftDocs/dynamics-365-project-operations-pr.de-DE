@@ -4,25 +4,25 @@ description: Dieses Thema enthält Informationen zum Zugriff auf Project Operati
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994590"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591863"
 ---
 # <a name="navigate-project-operations"></a>Project Operations navigieren
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen besteht aus zwei Komponenten: 
 
  - **Project Operations für Common Data Service (CDS)-Umgebung**: Diese Komponente umfasst Funktionen und Prozesse von der Verkaufschance bis zur Proforma-Rechnungsstellung. 
- - **Projektmanagement und Buchhaltung in der Dynamics 365 Finance-Umgebung**: Diese Komponente umfasst Funktionen für das Kostenmanagement, die Projektbuchhaltung und die Umsatzrealisierung. 
+ - **Projektmanagement und -buchhaltung in der Dynamics 365 Finance-Umgebung**: Diese Komponente umfasst Funktionen für die Spesenverwaltung, die Projektbuchhaltung und die Umsatzrealisierung. 
 
 Nachdem Sie Project Operations wie in diesem Thema beschrieben bereitgestellt haben, bietet die Lifecycle Services (LCS)-Seite **Umgebungsdetails** einfachen Zugriff auf beide Komponenten von Project Operations.  
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008135"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589103"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten April 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -21,7 +21,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
 - Project Operations in Dataverse, Umgebungsversion 4.9.0.221
-- Projektmanagement und Buchhaltung in Dynamics 365 Finance, Umgebungsversion 10.0.17
+- Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 
@@ -42,13 +42,13 @@ Die folgende Liste zeigt die Dual-Write-Maps, die in der Version Project Operati
 | **Entitätszuordnung** | **Aktualisierte Version** | **Kommentare** |
 | --- | --- | --- |
 | Tatsächliche Werte der Project Operations-Integration (msdyn\_actuals) | 1.0.0.14 | Karte geändert, um Materialprojekt-Istwerte zu synchronisieren. |
-| Project Operations-Integrationsentität für Ausgabenschätzungen (msdyn\_estimateslines) | 1.0.0.2 | Synchronisierung der Projektvertragszeile Finance and Operations-Apps für aufgabenbasierte Abrechnungsunterstützung hinzugefügt. |
-| Project Operations-Integrationsentität für Stundenschätzungen (msdyn\_resourceassignments) | 1.0.0.5 | Synchronisierung der Projektvertragszeile Finance and Operations-Apps für aufgabenbasierte Abrechnungsunterstützung hinzugefügt. |
-| Project Operations-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Materialschätzungen aus Dataverse zu Finance and Operations-Apps. |
-| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn\_projectvendorinvoices) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Lieferantenrechnungskopfzeilen aus Finance and Operations-Apps zu Dataverse. |
-| Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Lieferantenrechnungszeilen aus Finance and Operations-Apps zu Dataverse. |
+| Project Operations-Integrationsentität für Ausgabenschätzungen (msdyn\_estimateslines) | 1.0.0.2 | Synchronisierung von Projektvertragszeilen zu Finanz- und Betriebs-Apps für aufgabenbasierte Abrechnungsunterstützung hinzugefügt. |
+| Project Operations-Integrationsentität für Stundenschätzungen (msdyn\_resourceassignments) | 1.0.0.5 | Synchronisierung von Projektvertragszeilen zu Finanz- und Betriebs-Apps für aufgabenbasierte Abrechnungsunterstützung hinzugefügt. |
+| Project Operations-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Materialschätzungen von Dataverse zur Finanz- und Betriebs-Apps |
+| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn\_projectvendorinvoices) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Kreditorenrechnungskopfzeilen von der Finanz- und Betriebs-Apps zu Dataverse. |
+| Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Neue Tabellenzuordnung zum Synchronisieren von Kreditorenrechnungspositionen von der Finanz- und Betriebs-Apps zu Dataverse. |
 
-Sie sollten immer die neueste Version der Karte in Ihrer Umgebung ausführen und alle zugehörigen Tabellenkarten aktivieren, wenn Sie Ihre Project Operations Dataverse-Lösung und Finance and Operations-Lösungsversion aktualisieren. Bestimmte Funktionen und Fähigkeiten funktionieren möglicherweise nicht richtig, wenn die neueste Version der Karte nicht aktiviert ist. Sie können die aktive Version der Karte in der Spalte **Version** auf der Seite **Dual-Write** anzeigen. Sie können eine neue Version der Zuordnung aktivieren, indem Sie **Tabellenzuordnungsversionen** auswählen und dann die aktuellste Version auswählen und speichern. Wenn Sie eine sofort einsatzbereite Tabellenzuordnung angepasst haben, wenden Sie die Änderungen erneut an. Weitere Informationen finden Sie unter [Application Lifecycle Management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Sie sollten immer die neueste Version der Map in Ihrer Umgebung ausführen und alle zugehörigen Tabellen-Zuordnungen aktivieren, wenn Sie Ihre Project Operations Dataverse-Lösung und die Finance and Operations-Lösungsversion aktualisieren. Bestimmte Funktionen und Fähigkeiten funktionieren möglicherweise nicht richtig, wenn die neueste Version der Karte nicht aktiviert ist. Sie können die aktive Version der Karte in der Spalte **Version** auf der Seite **Dual-Write** anzeigen. Sie können eine neue Version der Zuordnung aktivieren, indem Sie **Tabellenzuordnungsversionen** auswählen und dann die aktuellste Version auswählen und speichern. Wenn Sie eine sofort einsatzbereite Tabellenzuordnung angepasst haben, wenden Sie die Änderungen erneut an. Weitere Informationen finden Sie unter [Application Lifecycle Management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Wenn beim Starten der Karte ein Problem auftritt, befolgen Sie die Anweisungen unter [Fehlende Tabellenspalten auf Karten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) in der Anleitung zur Fehlerbehebung bei Dual Write.
 

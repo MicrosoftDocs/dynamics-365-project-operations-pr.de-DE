@@ -3,15 +3,15 @@ title: Fremdarbeitsmanagement in Project Operations
 description: Dieses Thema bietet einen Überblick über den End-to-End-Fremdarbeitsverwaltungsprozess wie er typischerweise in Mprojektbasierten Organisationen zu finden ist.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323595"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593013"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Untervertragsverwaltung in Project Operations
 
@@ -46,7 +46,7 @@ Eine Fremdarbeitsposition kann mengen- oder arbeitsbasiert sein.
 
 Wenn eine Fremdarbeitsposition **mengenbasiert** ist, kann die Menge, die in der Fremdarbeitsposition für Zeit, Aufwand oder Material gekauft wird, für jedes Projekt verwendet werden.
 
-Wenn eine Fremdarbeitsposition **arbeitsbasiert** ist, wird die Fremdarbeitsposition einem Arbeitskörper zugeordnet, der durch einen Knoten im Projektplan dargestellt wird. Der Wert der Fremdarbeitsposition ist die Summe aller Komponenten, die für die Erbringung dieser Arbeitsleistung erforderlich sind. Diese werden als Details zur Fremdarbeitsposition modelliert und können eine Sammlung von Zeit, Ausgaben oder Materialien sein. Bei einer arbeitsbasierten Fremdarbeitsposition ist die Fremdarbeitsposition ebenfalls einem einzelnen Projekt zugeordnet.
+Wenn eine Fremdarbeitsposition **arbeitsbasiert** ist, wird die Fremdarbeitsposition einem Arbeitskörper zugeordnet, der durch einen Knoten im Projektplan dargestellt wird. Der Wert der Fremdarbeitsposition ist die Summe aller Komponenten, die für die Erbringung dieser Arbeitsleistung erforderlich sind. Diese werden als Details zur Fremdarbeitsposition modelliert und können eine Sammlung von Zeit, Ausgaben oder Materialien sein. Bei einer arbeitsbasierten Fremdarbeitsposition ist die Fremdarbeitsposition ebenfalls einem einzelnen Projekt zugeordnet. Diese Arten von Unterverträgen werden derzeit nicht von Project Operations unterstützt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

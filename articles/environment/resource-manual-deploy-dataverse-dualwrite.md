@@ -4,14 +4,14 @@ description: In diesem Thema wird erklärt, wie Sie die App Project Operations D
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986445"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591219"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuelles Bereitstellen der App Project Operations Dataverse mit Dual-Write-Unterstützung
 
@@ -37,7 +37,7 @@ Um diesen Vorgang abzuschließen, müssen Sie sich als Administrator anmelden.
 3. Wählen Sie den Typ der Umgebung. Wenn Sie sich für das Test-Angebot angemeldet haben, wählen Sie **Test (abonnementbasiert)**.
 4. Bestätigen Sie die Bereitstellungsregion.
 5. Aktivieren Sie die Option **Erstellen Sie eine Datenbank für diese Umgebung**. 
-6. Bestätigen Sie die Sprache, und bestätigen Sie, dass die Währung mit der Währung für Ihre Finance and Operations-Apps übereinstimmt.
+6. Bestätigen Sie die Sprache und bestätigen Sie dann, dass die Währung mit der Währung Ihrer Finanz- und Betriebs-Apps übereinstimmt.
 7. Aktivieren Sie die Option **Dynamics 365 Apps** und bestätigen Sie, dass das Feld **Automatisch diese Apps bereitstellen** auf **Keine** festgelegt ist.
 8. Fügen Sie eine Sicherheitsgruppe hinzu, wenn eine Sicherheitsgruppe erforderlich ist.
 9. Wählen Sie **Speichern** aus, um die Umgebung zu erstellen.
@@ -62,4 +62,4 @@ Sie können diesen Vorgang nur abschließen, wenn Sie die vorherigen Vorgänge a
 
 ## <a name="link-your-environments"></a><a name="link"></a>Verknüpfen Sie Ihre Umgebungen
 
-Nachdem die Dataverse-Umgebung bereitgestellt ist, können Sie die Verknüpfung in Ihren Finance and Operations-Apps festlegen. Führen Sie die Schritte unter [Verwenden Sie den Assistenten zum Verknüpfen Ihrer Umgebungen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) aus.
+Nach die Dataverse-Umgebung bereitgestellt wird, können Sie die Verknüpfung in Ihren Finanz- und Betriebs-Apps einrichten. Führen Sie die Schritte unter [Verwenden Sie den Assistenten zum Verknüpfen Ihrer Umgebungen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) aus.
