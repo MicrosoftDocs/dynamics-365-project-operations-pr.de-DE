@@ -4,20 +4,20 @@ description: Dieses Thema enthält Informationen zum Definieren oder Schätzen v
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992610"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737301"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Finanzielle Vorkalkulationen für die Materialien von Projekten
 
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dynamics 365 Project Operations ermöglicht es Projektmanagern, projektbasierte Materialkosten für jedes Projekt oder jede Aufgabe zu definieren. Jede Materialschätzung kann einer bestimmten Projektaufgabe zugeordnet werden. Spesen werden in verschiedene Spesenkategorien eingeteilt, die auf organisatorischer Ebene definiert werden. Die Preisgestaltung und Schätzung für jede Spesenkategorie ist in der Preisliste definiert. 
+Dynamics 365 Project Operations ermöglicht es Projektmanagern, projektbasierte Materialkosten für jedes Projekt oder jede Aufgabe zu definieren. Jede Materialschätzung kann einer bestimmten Projektaufgabe zugeordnet werden. Materialien, die in Projekten verwendet werden, können beschreibbare Produkte oder Produkte aus dem Produktkatalog sein. Für jede Kombination aus einem Produkt und einer Einheit kann in den Projektpreislisten für den Verkauf und den Projektpreislisten für die Kosten ein Preis definiert werden.  
 
 Führen Sie die folgenden Schritte aus, um Materialschätzungen für ein Projekt anzuzeigen, hinzuzufügen oder zu löschen:
 
