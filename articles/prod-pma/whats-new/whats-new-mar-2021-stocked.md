@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991170"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723721"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Neuigkeiten oder Änderungen für März 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
@@ -20,7 +20,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf den vorrätigen 
 
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
-- Projektmanagement und Buchhaltung in Dynamics 365 Finance, Umgebungsversion 10.0.17
+- Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 Die folgenden Funktionen sind in dieser Version enthalten:
@@ -121,7 +121,7 @@ Die folgenden Funktionen sind in dieser Version enthalten:
 | Projektmanagement und -buchhaltung | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Die WBS-Klassenmethode (Legacy Work Breakdown Structure) **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** ist veraltet.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates.md). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu regulatorischen Aktualisierungen für Finanz- und Betriebs-Apps finden Sie unter [Regulatorische Aktualisierungen](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

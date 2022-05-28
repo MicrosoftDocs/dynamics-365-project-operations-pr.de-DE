@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323910"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723675"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Neu in 2021, Welle 2, Early Access 2021 – Bereitstellung von Project Operations lite
 
@@ -26,7 +26,7 @@ Die Version wird nur angewendet, wenn eine Umgebung [für Early Access angemelde
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 
-[Fremdarbeitsverwaltung](../subcontracting/subcontracting_EA_scope.md) – Diese Funktion bietet eine bessere Sichtbarkeit und Kontrolle über alle Aspekte der Arbeit an einem Projekt. Die Vorschau der Fremdarbeitsverwaltung umfasst die folgenden Funktionen:
+[Fremdarbeitsverwaltung](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Diese Funktion bietet eine bessere Sichtbarkeit und Kontrolle über alle Aspekte der Arbeit an einem Projekt. Die Vorschau der Fremdarbeitsverwaltung umfasst die folgenden Funktionen:
 
   - Ein Projektmanager kann einen Fremdarbeitsvertrag mit einem Kreditor erstellen. Standardmäßig werden die an den Kreditorendatensatz angehängten Preislisten für den Fremdarbeitsvertrag verwendet. Das Kreditorenkonten hat den Beziehungstyp **Kreditor** oder **Lieferant**.
   - Ein Projektmanager kann alle Käufe als Positionen auf dem Fremdarbeitsvertrag auflisten. Fremdarbeitspositionen können Zeit, Ausgaben oder Produkte umfassen. Die Transaktionsklasse der Fremdarbeitsposition bestimmt, wofür die Position verwendet wird.

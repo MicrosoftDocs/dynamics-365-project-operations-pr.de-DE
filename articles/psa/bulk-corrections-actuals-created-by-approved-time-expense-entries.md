@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995400"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683361"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Massenkorrekturen von Istwerten, die durch genehmigte Zeit- und Kosteneinträge erstellt wurden
 
@@ -60,10 +59,7 @@ Führen Sie die folgenden Schritte aus, um einzelne oder mehrere Zeiteinträge f
 
 10. In der Liste **Zugeordnete Ansicht: Ist-Werte** können Sie sehen, dass die ursprünglichen Zeiteinträge, die rückgängig gemacht wurden, weiterhin aufgelistet sind, ebenso wie die entsprechenden korrigierten Zeiteinträge. 
 
-In der folgenden Grafik sind beispielsweise zwei Werbebuchungen mit einer Menge von 8,00 aufgeführt, deren Belastungen in der Spalte „Betrag“ angezeigt werden. Darüber hinaus gibt es zwei Werbebuchungen mit einer Menge von -8,00, in denen gutgeschriebene Beträge in der Spalte „Betrag“ angezeigt werden. Diese Korrekturen bringen die Menge auf Null.
 
-![Zugeordnete Ansicht: Istwerte.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>Genehmigte Ausgabeneinträge korrigieren
 
 Führen Sie die folgenden Schritte aus, um einen oder mehrere Ausgabeneinträge zu korrigieren. 
@@ -86,8 +82,6 @@ Führen Sie die folgenden Schritte aus, um einen oder mehrere Ausgabeneinträge 
 7. Navigieren Sie nach Bestätigung des Korrekturjournals zurück zu dem oder den aktualisierten Projekten, um Ihre Änderungen anzuzeigen.  
 
 8. Auf der Projektseite, auf der Registerkarte **Istwerte** überprüfen Sie die **Zugeordnete Ansicht: Istwerte**. Die ursprünglichen Einträge und die korrigierten Einträge werden aufgelistet. Die folgende Grafik zeigt die ursprünglichen Ausgabeneinträge und die entsprechenden korrigierten Ausgabeneinträge. 
-
-![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

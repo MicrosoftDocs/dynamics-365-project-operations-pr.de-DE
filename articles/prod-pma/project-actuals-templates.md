@@ -1,32 +1,31 @@
 ---
-title: Synchronisieren Sie die Projektdaten direkt von Project Service Automation in das Projektintegrationsjournal, um sie in Finance and Operations zu veröffentlichen
-description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projekt-Istwerten zwischen Microsoft Dynamics 365 Project Service Automation und Finance and Operations verwendet werden.
+title: Synchronisieren von Projekt-Ist-Werten direkt aus Project Service Automation mit der Projektintegrationserfassung für die Buchung in Finance and Operations
+description: Dieses Thema beschreibt die Vorlagen und die zugrunde liegenden Aufgaben, die verwendet werden, um die Projekte und Ist-Werte direkt aus Microsoft Dynamics 365 Project Service Automation zu Finance and Operations zu synchronisieren.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988110"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683537"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronisieren Sie die Projektdaten direkt von Project Service Automation in das Projektintegrationsjournal, um sie in Finance and Operations zu veröffentlichen
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Synchronisieren von Projekt-Ist-Werten direkt aus Project Service Automation mit der Projektintegrationserfassung für die Buchung in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projekt-Istwerten zwischen Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
+Dieses Thema beschreibt die Vorlagen und die zugrunde liegenden Aufgaben, die verwendet werden, um die Projekte und Ist-Werte direkt aus Dynamics 365 Project Service Automation zu Dynamics 365 Finance zu synchronisieren.
 
 Die Vorlage synchronisiert Transaktionen von Project Service Automation in eine Staging-Tabelle in Finance. Nach Abschluss der Synchronisierung **müssen** Sie die Daten aus der Staging-Tabelle in das Integrationsjournal importieren.
 
@@ -42,7 +41,7 @@ Die Integrationslösung für Project Service Automation zu Finance verwendet die
 
 Die folgende Abbildung zeigt, wie die Daten zwischen Project Service Automation und Finance synchronisiert werden.
 
-[![Datenfluss für Project Service Automation Integration mit Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Datenfluss für Project Service Automation Integration in Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Projekt-Istwerte aus Project Service Automation
 
@@ -75,7 +74,7 @@ Bevor eine Synchronisierung der Istwerte erfolgen kann, müssen Sie die Integrat
 
 ### <a name="power-query"></a>Power Query
 
-In der Vorlage für Projekt-Istwerte müssen Sie Microsoft Power Query für Excel verwenden, um die folgenden Aufgaben auszuführen:
+In der Vorlage für Projekt-Ist-Werte müssen Sie Microsoft Power Query für Excel verwenden, um diese Aufgaben abzuschließen:
 
 - Transformieren Sie den Transaktionstyp in Project Service Automation in den richtigen Transaktionstyp in Finance. Diese Transformation ist bereits in der Vorlage für Projekt-Istwerte (PSA zu Fin und Ops) definiert.
 - Transformieren Sie den Fakturierungstyp in Project Service Automation in den richtigen Fakturierungstyp in Finance. Diese Transformation ist bereits in der Vorlage für Projekt-Istwerte (PSA zu Fin und Ops) definiert. Die Abrechnungsart wird dann basierend auf der Konfiguration auf der **Integrationsparameter für Project Service Automation**-Seite zur Positionseigenschaft zugeordnet.
@@ -84,9 +83,9 @@ In der Vorlage für Projekt-Istwerte müssen Sie Microsoft Power Query für Exce
 - Wenn die tatsächlichen oder Intercompany-Ausgaben nicht mit Finance synchronisiert werden, müssen Sie die zuletzt eingefügte bedingte Spalte aus Ihrer Vorlage löschen. Andernfalls kann entweder ein Integrationsfehler auftreten, oder es können falsche tatsächliche Transaktionen in Finance importiert werden.
 
 #### <a name="contract-organizational-unit"></a>Vertragsorganisationseinheit
-Um die eingefügte bedingte Spalte in der Vorlage zu aktualisieren, klicken Sie auf den Pfeil **Zuordnen** und öffnen die Zuordnung. Wählen Sie die Verknüpfung **Erweiterte Abfrage und Filterung**, um Power Query zu öffnen.
+Um die eingefügte bedingte Spalte in der Vorlage zu aktualisieren, klicken Sie auf den Pfeil **Zuordnen** und öffnen die Zuordnung. Wählen Sie den Link **Erweiterte Abfrage und Filterung** aus, um Power Query zu öffnen.
 
-- Wenn Sie die Standardvorlage für Projekt-Istwerte (PSA zu Fin und Ops) verwenden, wählen Sie in Power Query die letzte Option **Eingefügter Zustand** aus dem Abschnitt **Angewandte Schritte**. In dem Eintrag **Funktion** ersetzen Sie **USSI** mit dem Namen der juristischen Person, die für die Integration verwendet werden soll. Fügen Sie dem **Funktion**-Eintrag nach Bedarf Bedingungen hinzu, und aktualisieren Sie die **else**-Bedingung von **USMF** auf die richtige juristische Person.
+- Wenn Sie die Vorlage der standardmäßigen Projekt-Ist-Werte (PSA zu Fin and Ops) verwenden, wählen Sie in Power Query die letzte **Eingefügte Bedingung** aus dem Abschnitt **Angewendete Schritte** aus. In dem Eintrag **Funktion** ersetzen Sie **USSI** mit dem Namen der juristischen Person, die für die Integration verwendet werden soll. Fügen Sie dem **Funktion**-Eintrag nach Bedarf Bedingungen hinzu, und aktualisieren Sie die **else**-Bedingung von **USMF** auf die richtige juristische Person.
 - Wenn Sie eine neue Vorlage erstellen, müssen Sie die Spalte hinzufügen, um die Intercompany-Zeit und -Kosten zu unterstützen. Wählen Sie **Bedingte Spalte hinzufügen** aus, und geben Sie einen Namen für die neue Spalte ein wie **LegalEntity**. Geben Sie eine Bedingung für die Spalte ein, wobei, wenn **msdyn\_contractorganizationalunitid.msdyn\_name** \<organizational unit\> entspricht, dann \<enter the legal entity\>; sonst null
 
 ### <a name="template-mapping-in-data-integration"></a>Vorlagenzuordnung in der Datenintegration
@@ -126,7 +125,7 @@ Projekt-Istwerte werden in Project Service Automation verwaltet und mit dem Proj
 
 ### <a name="power-query"></a>Power Query
 
-In der Vorlage zur Aktualisierung von Projekt-Istwerten müssen Sie Power Query verwenden, um die folgenden Aufgaben auszuführen:
+In der Update-Vorlage für Projekt-Ist-Werte müssen Sie Power Query verwenden, um diese Aufgaben abzuschließen:
 
 - Transformieren Sie den Transaktionstyp in Finance in den richtigen Transaktionstyp in Project Service Automation. Diese Transformation ist bereits in der Vorlage zur Aktualisierung von Projekt-Istwerten (Fin Ops zu PSA) definiert.
 - Transformieren Sie den Fakturierungstyp in Finance in den richtigen Fakturierungstyp in Project Service Automation. Diese Transformation ist bereits in der Vorlage zur Aktualisierung von Projekt-Istwerten (Fin Ops zu PSA) definiert.

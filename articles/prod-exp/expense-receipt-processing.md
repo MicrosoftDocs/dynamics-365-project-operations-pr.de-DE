@@ -1,24 +1,23 @@
 ---
 title: Ausgabenbelegverarbeitung
-description: Dieses Thema enthält Informationen zur optischen Zeichenerkennung (OCR) für Quittungen. Diese Funktionalität soll die Benutzererfahrung beim Erstellen von Spesenabrechnungen verbessern, die in Microsoft Dynamics 365 Finance erstellt wurden.
+description: Dieses Thema enthält Informationen zur optischen Zeichenerkennung (OCR) für Quittungen. Diese Funktion wurde entwickelt, um die Benutzerfreundlichkeit bei der Erstellung von Spesenabrechnungen in Microsoft Dynamics 365 Finance zu verbessern.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001385"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684319"
 ---
 # <a name="expense-receipt-processing"></a>Ausgabenbelegverarbeitung
 
@@ -51,7 +50,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe zu erstellen oder eine A
 
 Diese Funktion funktioniert in Kombination mit der Funktion **Neu gestaltete Spesenabrechnungen** zur Vereinfachung der Kostenerfahrung. Diese Funktion ist nur für Umgebungen mit Tier 2+ verfügbar, bei denen es sich um Sandbox und Produktion handelt.
 
-Um diese erweiteren Ausgabenfunktionen zu nutzen, installieren Sie Ausgabenverwaltungs-Service-Add-In für Microsoft Dynamics 365 Finance und aktivieren Sie die Funktionen in Ihrer Instanz. Sie können von Ihrem Projekt aus auf das Add-In Microsoft Dynamics Lifecycle Services (LCS) zugreifen.
+Wenn Sie diese erweiterten Ausgabenfunktionen nutzen möchten, installieren Sie das Add-In für den Spesenverwaltungsdienst für Microsoft Microsoft Dynamics 365 Finance und aktivieren Sie die Funktionen in Ihrer Instance. Sie können von Ihrem Projekt aus auf das Add-In Microsoft Dynamics Lifecycle Services (LCS) zugreifen.
 
 1. Melden Sie sich bei LCS an, und öffnen Sie die gewünschte Umgebung.
 2. Gehen Sie zu **Alle Einzelheiten**.

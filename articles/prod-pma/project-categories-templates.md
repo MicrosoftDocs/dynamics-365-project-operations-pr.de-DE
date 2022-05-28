@@ -1,32 +1,31 @@
 ---
-title: Synchronisieren Sie Projektkostenkategorien zwischen Finance and Operations und Project Service Automation
-description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektkostenkategorien zwischen Microsoft Dynamics 365 Finance und Dynamics 365 Project Service Automation verwendet werden.
+title: Synchronisieren Sie Projektausgabenkategorien zwischen Finance and Operations und Project Service Automation
+description: Dieses Thema beschreibt die Vorlagen und die zugrunde liegenden Aufgaben, die verwendet werden, um die Projektausgabenkategorien zwischen Microsoft Dynamics 365 Finance und Dynamics 365 Project Service Automation zu synchronisieren.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001115"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685469"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronisieren Sie Projektkostenkategorien zwischen Finance and Operations und Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Synchronisieren Sie Projektausgabenkategorien zwischen Finance and Operations und Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Ausgaben zwischen Microsoft Dynamics 365 Finance und Dynamics 365 Project Service Automation verwendet werden.
+Dieses Thema beschreibt die Vorlagen und die zugrunde liegenden Aufgaben, die verwendet werden, um die Projektausgabenkategorien zwischen Dynamics 365 Finance und Dynamics 365 Project Service Automation zu synchronisieren.
 
 > [!NOTE]
 > - Projektaufgabenintegration, Kostentransaktionskategorien, Stundenschätzungen, Kostenschätzungen und Funktionssperren sind in Version 8.0 verfügbar.
@@ -81,10 +80,10 @@ Projektausgabenkategorien werden in Finance verwaltet und als Transaktionskatego
 
 ### <a name="power-query"></a>Power Query
 
-Wenn Sie mit Project Service Automation synchronisieren, müssen Sie Microsoft Power Query für Excel verwenden, um die Abrechnungsart für die Transaktionskategorie festzulegen. Die Vorlage Projektkosten-Transaktionskategorien (Fin und Ops zu PSA) enthält eine Standardspalte und -zuordnung. Wenn Sie eine eigene Vorlage erstellen, müssen Sie eine bedingte Spalte in Power Query hinzufügen. Führen Sie die folgenden Schritte aus.
+Wenn Sie mit Project Service Automation synchronisieren, müssen Sie Microsoft Power Query für Excel nutzen, um den Fakturierungstyps für die Transaktionskategorie festzulegen. Die Vorlage Projektkosten-Transaktionskategorien (Fin und Ops zu PSA) enthält eine Standardspalte und -zuordnung. Wenn Sie Ihre eigenen Vorlagen erstellen, müssen Sie eine bedingte Spalte in Power Query hinzufügen. Führen Sie die folgenden Schritte aus.
 
 1. Klicken Sie auf den Pfeil, um die Zuordnung der Aufgabe Projektausgabenkategorien in der Vorlage Projektausgaben-Transaktionskategorien (Fin und Ops zu PSA) zu öffnen.
-2. Klicken Sie auf die Verknüpfung **Erweiterte Abfrage und Filterung**, um Power Query zu öffnen.
+2. Klicken Sie auf den Link **Abfrage und Filterung erweitern** aus, um Power Query zu öffnen.
 2. Wählen Sie **Bedingte Spalte hinzufügen**.
 3. Geben Sie einen Namen für die neue Spalte ein, wie **Abrechnungstyp**.
 4. Geben Sie die folgende Bedingung ein: **Wenn CATEGORYID nicht gleich null ist, dann 19235001, andernfalls null**.

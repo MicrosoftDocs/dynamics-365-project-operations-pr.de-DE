@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008045"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600879"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Was ist neu Juli 2021 - Project Operations für ressourcen-/nicht vorrätig-basierte Szenarien
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008045"
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
    - Project Operations in Microsoft Dataverse-Umgebung Version 4.12.0.148 oder 4.12.0.152.
-   - Projektmanagement und -buchhaltung in der Dynamics 365 Finance-Umgebung Version 10.0.20.
+   - Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 
@@ -80,7 +80,7 @@ Wenn ein Problem beim Starten der Zuordnung auftritt, befolgen Sie die Anweisung
 | Allgemein                       | 2253682              | Die Project Operations Dual-Write-Lösung sollte nicht installiert werden, wenn Dual-Write Core in einer Umgebung ohne die Dual-Write-Orchestrierungslösung installiert ist.                                                |
 | Allgemein                       | 2316420              | Die Bereitstellung von Project Service Core schlägt fehl, wenn die Einheit des Anwendungsbenutzers geändert wird.                                                                                                                     |
 | Allgemein                       | 2376405              | Problem mit vom Herausgeber gesteuerten Updates behoben (Qualitätsupdate ist in Version 4.12.0.152 verfügbar)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung in Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung bei Dynamics 365 Finance
 
 | Funktionsbereich                      | Referenznummer | Qualitätsupdate                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

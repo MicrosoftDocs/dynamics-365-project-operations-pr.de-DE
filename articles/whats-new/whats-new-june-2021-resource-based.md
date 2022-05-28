@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679208"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600787"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Was ist neu Juni 2021 - Project Operations für ressourcenbasierte/nicht vorrätige Szenarien
 
@@ -21,7 +21,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
 - Project Operations in Dynamics 365 Dataverse-Umgebung Version 4.11.0.156 oder 4.11.0.164.
-- Projektmanagement und -buchhaltung in Finance and Operations-Apps Umgebungen Version 10.0.19.
+- Projektmanagement und Buchhaltung in Finanz- und Betriebs-Apps-Umgebungen Version 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 
@@ -38,7 +38,7 @@ Es gibt keine Updates für Project Operations Dual-Write Zuordnungen in dieser V
 
 Eine aktuelle Liste und Versionen von Project Operations dual-write Zuordnungen finden Sie unter [Versionen von Project Operations dual-write Zuordnungen](../environment/resource-dual-write-maps.md).
 
-Sie sollten immer die neueste Version der Karte in Ihrer Umgebung ausführen und alle zugehörigen Tabellenkarten aktivieren, wenn Sie Ihre Project Operations Dataverse-Lösung und Finance and Operations Apps-Lösungsversion aktualisieren. Bestimmte Funktionen und Fähigkeiten funktionieren möglicherweise nicht richtig, wenn die neueste Version der Karte nicht aktiviert ist. Die aktive Version der Zuordnung können Sie auf der Seite **Dual-write** in der Spalte **Version** sehen. Aktivieren Sie eine neue Version der Zuordnung, indem Sie **Kartenversionen zuordnen** wählen, die neueste Version auswählen und dann die ausgewählte Version speichern. Wenn Sie eine sofort einsatzbereite Tabellenzuordnung angepasst haben, wenden Sie die Änderungen erneut an. Weitere Informationen finden Sie unter [Application Lifecycle Management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Aktivieren Sie immer die neueste Version der Map in Ihrer Umgebung ausführen und alle zugehörigen Tabellen-Zuordnungen, wenn Sie Ihre Project Operations Dataverse-Lösung und die Finanz- und Betriebs-Apps-Lösungsversion aktualisieren. Bestimmte Funktionen und Fähigkeiten funktionieren möglicherweise nicht richtig, wenn die neueste Version der Karte nicht aktiviert ist. Die aktive Version der Zuordnung können Sie auf der Seite **Dual-write** in der Spalte **Version** sehen. Aktivieren Sie eine neue Version der Zuordnung, indem Sie **Kartenversionen zuordnen** wählen, die neueste Version auswählen und dann die ausgewählte Version speichern. Wenn Sie eine sofort einsatzbereite Tabellenzuordnung angepasst haben, wenden Sie die Änderungen erneut an. Weitere Informationen finden Sie unter [Application Lifecycle Management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Wenn ein Problem beim Starten der Karte auftritt, befolgen Sie die Anweisungen im Abschnitt [Fehlende Tabellenspalten bei Zuordnungen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) in der Anleitung zur Fehlerbehebung für Dual-Write.
 
@@ -62,7 +62,7 @@ Wenn ein Problem beim Starten der Karte auftritt, befolgen Sie die Anweisungen i
 | Zeit und Ausgaben | 2194431 | Das **Zeiteintrag** Raster muss den Wochenbeginn berücksichtigen, wie er in den **Systemeinstellungen** festgelegt ist. |
 | Zeit und Ausgaben | 2277311 | Nachdem Sie den Wert in einer Zelle im Raster **Zeiteintrag** gelöscht haben, bleibt der Cursor im Raster stehen. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung in Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung bei Dynamics 365 Finance
 
 | Funktionsbereich | Referenznummer | Qualitätsupdate |
 | --- | --- | --- |

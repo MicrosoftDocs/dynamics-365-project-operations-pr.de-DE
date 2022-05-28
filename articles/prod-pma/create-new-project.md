@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee576561e9d360c198a57f5885c27aa782267fd1
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985950"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685055"
 ---
 # <a name="create-a-new-project"></a>Neues Projekt erstellen
 
@@ -53,7 +52,7 @@ Ein Projektmanager kann die Projektresssourcen-Funktion verwenden, um die für d
 
 [![Beispiel einer Rolle.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Szenario:** Contoso wurde eingestellt, um ein Zeit- und Materialprojekt abzuschließen, das über eine genehmigte Projektcharta verfügt. Der Junior-Projektmanager schließt den Projektumfang noch ab. Der Ressourcenmanager identifiziert derzeit bestimmte Ressourcen, die für die Arbeit an dem neuen Projekt reserviert werden. Aufgrund der kritischen Natur des Projekts forderte der Projektsponsor den Senior-Projektmanager als eine der Rollen an. Der Ressourcenmanager muss die neue Ressource erwerben und die Rolle im System definieren, falls der Junior-Projektmanager die Ressourceninformationen während der Projektplanung benötigt.
+**Szenario:** Contoso wurde beauftragt, ein Zeit- und Materialprojekt mit einer genehmigten Projektcharta abzuschließen. Der Junior-Projektmanager schließt den Projektumfang noch ab. Der Ressourcenmanager identifiziert derzeit bestimmte Ressourcen, die für die Arbeit an dem neuen Projekt reserviert werden. Aufgrund der kritischen Natur des Projekts forderte der Projektsponsor den Senior-Projektmanager als eine der Rollen an. Der Ressourcenmanager muss die neue Ressource erwerben und die Rolle im System definieren, falls der Junior-Projektmanager die Ressourceninformationen während der Projektplanung benötigt.
 
 Die folgenden Schritte zeigen, wie der Ressourcenmanager die Rolle des Senior-Projektmanagers einrichten und ihr Ressourcenmerkmale zuordnen kann. Später kann die Rolle verwendet werden, um nach verfügbaren Ressourcen zu suchen, die den erforderlichen Ressourcenkompetenzen entsprechen.
 

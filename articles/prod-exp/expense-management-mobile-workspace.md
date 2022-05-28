@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001475"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682801"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobiler Arbeitsbereich für Ausgabenverwaltung
 
@@ -35,7 +34,7 @@ Viele Organisationen verlangen, dass eine Kopie einer Quittung einer reisebezoge
 
 Insbesondere der mobile Arbeitsbereich **Ausgabenmanagement** lässt Benutzer folgende Aufgaben ausführen:
 
-- Machen Sie ein Foto von einer Quittung, und laden Sie es in Dynamics 365 Finance hoch. Sie können dieses Foto später an eine Spesenabrechnung anhängen.
+- Machen Sie ein Foto eines Belegs und laden Sie es in Dynamics 365 Finance hoch. Sie können dieses Foto später an eine Spesenabrechnung anhängen.
 - Laden Sie eine Datei als erfasste Quittung hoch. Sie können diese Datei später an eine Ausgabenabrechnung anhängen.
 - Erstellen Sie eine neue Ausgabenzeile mithilfe einer beigefügten Quittung. Sie können die Position später zu einer Ausgabenabrechnung hinzufügen und zur Genehmigung und Erstattung einreichen.
 
@@ -53,7 +52,7 @@ Sie können diese Funktionem auch für folgende Aufgaben verwenden:
 ## <a name="prerequisites"></a>Voraussetzungen
 Die Voraussetzungen variieren je nach Version, die für Ihre Organisation bereitgestellt wurde.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Voraussetzungen, wenn Sie Dynamics 365 Finance verwenden 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Voraussetzungen bei der Verwendung von Dynamics 365 Finance 
 Wenn Finance für Ihre Organisation bereitgestellt wurde, muss der Systemadministrator den mobilen Arbeitsbereich der **Ausgabenverwaltung** veröffentlichen. Anweisungen finden Sie unter [Mobile Arbeitsbereiche veröffentlichen](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Voraussetzungen, wenn Sie Version 1611 mit Plattform Update 3 oder höher verwenden

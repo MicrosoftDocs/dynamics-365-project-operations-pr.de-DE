@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005300"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727957"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Verwenden Sie das Project Service Automation-Add-In, um Ihre Arbeit in Microsoft Project planen
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005300"
 ## <a name="download-and-install-the-add-in"></a>Laden Sie das Add-In herunter und installieren Sie es.  
  Halten Sie Ihre [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Anmeldeinformationen bereit. Sie benötigen diese Informationen, um eine Verbindung von [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] zu [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] herzustellen.  
 
-1.  Im Download Center können Sie das Add-In für Ihre unterstützte Version von Project Service herunterladen, entweder [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) oder [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Im Download Center können Sie das Add-In für Ihre unterstützte Version von Project Service herunterladen, entweder [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) oder [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Klicken Sie auf den Downloadlink.  
 
@@ -87,9 +88,8 @@ Wenn Ihre Projektplanung abgeschlossen ist, wird im nächsten Schritt das Projek
 
 Das Projekt wird in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] importiert. Der Preisberechnungs- und Teamgenerierungsprozess wird angewendet. Öffnen Sie das Projekt in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], um zu überprüfen, ob das Team, Projektvorkalkulationen und der Projektstrukturplan generiert wurden. Die folgende Tabelle gibt Aufschluss darüber, wo Sie die Ergebnisse finden:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Informationen |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-Diagramme**   | Importe im Bildschirm in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektstrukturplan**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Ressourcenblatt** |   Importe im Bildschirm [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektteammitglieder**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Verwendungs-Verwendung**    |    Import im Bildschirm [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projektschätzungen**.     |

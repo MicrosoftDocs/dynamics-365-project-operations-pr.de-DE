@@ -3,7 +3,7 @@ title: Upgrade von Project Service Automation auf Project Operations
 description: Dieses Thema bietet einen Überblick zum Upgradeprozess von Microsoft Dynamics 365 Project Service Automation auf Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952839"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626714"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade von Project Service Automation auf Project Operations
 
@@ -28,7 +29,7 @@ Wir freuen uns, die erste von drei Phasen für das Upgrade von Microsoft Dynamic
 
 Das Upgrade-Lieferprogramm wird in drei Phasen unterteilt.
 
-| Upgrade-Lieferung | Phase 1 (Januar 2022) | Phase 2 (April-Zyklus 2022) | Phase 3 (April-Zyklus 2022) |
+| Upgrade-Lieferung | Phase 1 (Januar 2022) | Phase 2 (April-Zyklus 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Keine Abhängigkeit vom Projektstrukturplan (PSP) für Projekte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Der PSP innerhalb der derzeit unterstützten Grenzen von Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ Das Upgrade-Lieferprogramm wird in drei Phasen unterteilt.
 
 Als Teil des Upgradeprozesses haben wir der Siteübersicht Upgrade-Protokolle hinzugefügt, damit Administratoren Fehler leichter diagnostizieren können. Neben der neuen Schnittstelle werden neue Validierungsregeln hinzugefügt, um die Datenintegrität nach einem Upgrade sicherzustellen. Die folgenden Validierungen werden dem Upgrade-Prozess hinzugefügt.
 
-| Prüfungen | Phase 1 (Januar 2022) | Phase 2 (April-Zyklus 2022) | Phase 3 (April-Zyklus 2022) |
+| Prüfungen | Phase 1 (Januar 2022) | Phase 2 (April-Zyklus 2022) | Phase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | Der PSP wird auf gängige Datenintegritätsverletzungen überprüft (z. B. Ressourcenzuweisungen, die derselben übergeordneten Aufgabe zugeordnet sind, aber unterschiedliche übergeordnete Projekte aufweisen). | | :heavy_check_mark: | :heavy_check_mark: |
 | Der PSP wird gegen die [bekannten Grenzen von Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries) validiert. | | :heavy_check_mark: | :heavy_check_mark: |
-| Der PSP wird gegen die bekannten Grenzen von Project Desktop Client validiert. | | :heavy_check_mark: | :heavy_check_mark: |
+| Der PSP wird gegen die bekannten Grenzen von Project Desktop Client validiert. | |  | :heavy_check_mark: |
 | Buchbare Ressourcen und Projektkalender werden anhand allgemeiner inkompatibler Kalenderregelausnahmen bewertet. | | :heavy_check_mark: | :heavy_check_mark: |
 
 In Phase 2 werden bei Kunden, die auf Project Operations aktualisieren, die bestehenden Projekte auf eine schreibgeschützte Erfahrung für die Projektplanung aktualisiert. In dieser schreibgeschützten Umgebung wird der vollständige PSP im Verfolgungsraster angezeigt. Um den PSP zu bearbeiten, können Projektmanager **Konvertieren** auf der Hauptseite **Projekte** auswählen. Ein Hintergrundprozess aktualisiert dann das Projekt, sodass es die neue Projektplanungserfahrung von Project for the Web unterstützt. Diese Phase ist für Kunden geeignet, die Projekte haben, die in die [bekannten Grenzen von Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries) passen.
@@ -56,7 +57,7 @@ Um für das Phase-1-Upgrade berechtigt zu sein, muss ein Kunde die folgenden Kri
 - Die Zielumgebung darf keine Datensätze in der **msdyn_projecttask**-Entität enthalten.
 - Allen aktiven Benutzern des Kunden müssen gültige Project Operations-Lizenzen zugewiesen werden. 
 - Der Kunde muss den Upgrade-Prozess in mindestens einer Nicht-Produktionsumgebung validieren, die einen repräsentativen Datensatz hat, der mit Produktionsdaten abgeglichen ist.
-- Die Zielumgebung muss auf Project Service Automation Update Release 38 oder höher aktualisiert werden.
+- Die Zielumgebung muss auf Project Service Automation Update Release 41 (3.10.62.162) oder höher aktualisiert werden.
 
 Die Voraussetzungen für Phase 2 und Phase 3 werden aktualisiert, wenn sich die allgemeinen Verfügbarkeitstermine nähern.
 
@@ -77,9 +78,9 @@ Hier sind einige Dinge, auf die Sie achten sollten:
 
 Nachdem Sie Ihre Anpassungen aktualisiert haben, um Project Operations sauber zu importieren, fahren Sie mit den nächsten Schritten fort.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>End-to-End-Tests in niedrigeren Umgebungen
+## <a name="end-to-end-testing-in-development-environments"></a>End-to-End-Tests in Bereitstellungsumgebungen
 
-### <a name="run-the-upgrade-in-production"></a>Führen Sie das Upgrade in der Produktion aus
+### <a name="initiate-upgrade"></a>Upgrade einleiten 
 
 1. Finden und wählen Sie im Power Platform Portal Admin Center Ihre Umgebung aus. Suchen und wählen Sie dann in den Anwendungen **Dynamics 365 Project Operations**.
 2. Wählen Sie **Installieren**, um das Upgrade zu starten. Das Power Platform Admin Center wird diese Installation als neue Installation präsentieren. Das Vorhandensein einer früheren Version von Project Service Automation wird jedoch erkannt und die vorhandene Installation wird aktualisiert.
@@ -93,6 +94,10 @@ Nachdem Sie Ihre Anpassungen aktualisiert haben, um Project Operations sauber zu
 4. Gehen Sie zu **Einstellungen** \> **Lösungen** und wählen Sie zum Deinstallieren die Lösung **Project Operations Veraltete Komponenten**.
 
     Diese Lösung ist eine temporäre Lösung, die das vorhandene Datenmodell und die Komponenten enthält, die während des Upgrades vorhanden sind. Durch das Entfernen dieser Lösung entfernen Sie alle Felder und Komponenten, die nicht mehr verwendet werden. Auf diese Weise tragen Sie dazu bei, die Schnittstelle zu vereinfachen und die Integration und Erweiterung zu erleichtern.
+    
+### <a name="validate-common-scenarios"></a>Allgemeine Szenarien validieren
+
+Wenn Sie Ihre spezifischen Anpassungen validieren, empfehlen wir Ihnen, auch die Geschäftsprozesse zu überprüfen, die von den Anwendungen unterstützt werden. Zu diesen Geschäftsprozessen gehören unter anderem die Erstellung von Verkaufsentitäten wie Angeboten und Verträgen sowie die Erstellung von Projekten, die PSPs und die Genehmigung von Ist-Werten enthalten.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Wesentliche Änderungen zwischen Project Service Automation und Project Operations
 
@@ -119,7 +124,7 @@ Als Teil der kontinuierlichen Investitionen in Project Operations stehen mehrere
 | Source                                                 | Zielsprache                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Project Operations Lite-Bereitstellung                        | Unterstützt               |
-| Dynamics 365 Finance Projektmanagement und -buchhaltung | Project Operations Lite-Bereitstellung                        | Aktuell nicht unterstützt |
+| Projektmanagement und -buchhaltung in Dynamics 365 Finance | Project Operations Lite-Bereitstellung                        | Aktuell nicht unterstützt |
 | Finance Projektmanagement und -buchhaltung              | Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen     | Aktuell nicht unterstützt |
 | Finance Projektmanagement und -buchhaltung              | Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigungsaufträgen | Aktuell nicht unterstützt |
 | Project Service Automation 3.x                         | Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen     | Aktuell nicht unterstützt |

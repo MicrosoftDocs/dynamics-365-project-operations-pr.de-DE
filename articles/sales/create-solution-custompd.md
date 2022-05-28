@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zum Erstellen von Lösungen fü
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992205"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601109"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Eine Lösung für benutzerdefinierte Preisdimensionen erstellen
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992205"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Eine Lösung für benutzerdefinierte Preisdimensionen erstellen
 
 1.  Wählen Sie **Einstellungen** > **Lösungen** und dann **Neu** aus.
-2.  Nennen Sie die Lösung *<your organization name>-Preisdimensionen*.
+2.  Nennen Sie die Lösung *\<your organization name\>-Preisdimensionen*.
 3. Geben Sie die verbleibenden erforderlichen Informationen ein und wählen Sie **Speichern**.
 
   ![Erstellen einer Lösung für benutzerdefinierte Preisdimensionen.](./media/Creation-of-custom-pricing-dimension-solution.png)

@@ -1,32 +1,31 @@
 ---
-title: Synchronisieren Sie Projektaufgaben direkt von Project Service Automation zu Finance and Operations
-description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektaufgaben zwischen Microsoft Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
+title: Synchronisieren von Projektaufgaben direkt aus Project Service Automation mit Finance and Operations
+description: Dieses Thema beschreibt die Vorlage und die zugrunde liegenden Aufgabe, die verwendet werden, um die Projekte und Aufgaben direkt aus Microsoft Dynamics 365 Project Service Automation zu Dynamics 365 Finance zu synchronisieren.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992790"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683309"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisieren Sie Projektaufgaben direkt von Project Service Automation zu Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisieren von Projektaufgaben direkt aus Project Service Automation mit Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektaufgaben zwischen Dynamics 365 Project Service Automation und Dynamics 365 Finance verwendet werden.
+Dieses Thema beschreibt die Vorlage und die zugrunde liegenden Aufgabe, die verwendet werden, um die Projekte und Aufgaben direkt aus Dynamics 365 Project Service Automation zu Dynamics 365 Finance zu synchronisieren.
 
 > [!NOTE]
 > - Projektaufgabenintegration, Kostentransaktionskategorien, Stundenschätzungen, Kostenschätzungen und Funktionssperren sind in Version 8.0 verfügbar.
@@ -72,7 +71,7 @@ Sie müssen Microsoft Power Query für Excel verwenden, um Daten zu filtern, wen
 
 - Sie haben ressourcenspezifische Datensätze in einer Projektaufgabe.
 
-Wenn Sie Power Query verwenden müssen, befolgen Sie diese Richtlinie:
+Wenn Sie Power Query verwenden möchten, folgen Sie dieser Richtlinie:
 
 - Die Vorlage Projektaufgaben (PSA zu Fin und Ops) verfügt über einen Standardfilter, der ressourcenspezifische Datensätze von einer Projektaufgabe ausschließt, indem der Filter im **IsLineTask** auf **Falsch** gesetzt wird. Wenn Sie eine eigene Vorlage erstellen, müssen Sie diesen Filter hinzufügen.
 

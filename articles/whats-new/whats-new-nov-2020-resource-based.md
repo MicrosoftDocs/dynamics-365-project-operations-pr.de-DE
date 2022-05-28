@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die i
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007955"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600373"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -20,7 +20,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
 - Project Operations in CDS, Umgebungsversion 4.4.0.70
-- Projektmanagement und Buchhaltung in Dynamics 365 Finance, Umgebungsversion 10.0.14
+- Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Updates für Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -46,7 +46,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 
 | Funktionsbereich        | Referenznummer | Qualitätsupdate                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Umsatzerkennung | [451662](https://fix.lcs.dynamics.com/Issue/Details/?bugId=451662)           | Der Prozentsatz der abgeschlossenen Projektschätzung der Prozentsatz des Arbeitsfortschritts für die vollständige Methode sind falsch, wenn der Vertrag eine Fremdwährung verwendet.                     |
+| Umsatzrealisierung | [451662](https://fix.lcs.dynamics.com/Issue/Details/?bugId=451662)           | Der Prozentsatz der abgeschlossenen Projektschätzung der Prozentsatz des Arbeitsfortschritts für die vollständige Methode sind falsch, wenn der Vertrag eine Fremdwährung verwendet.                     |
 | Umsatzerkennung | [469894](https://fix.lcs.dynamics.com/Issue/Details/?bugId=469894)           | Schätzungen mit der **Tatsächliche Kosten**-Abschlussmethode können nicht veröffentlicht werden.                                                                                                    |
 | Umsatzerkennung | [485439](https://fix.lcs.dynamics.com/Issue/Details/?bugId=485439)           | Die Eliminierung schlägt aufgrund eines Beleg-Ungleichgewichtsfehlers fehl, wenn die Unternehmenswährung und die Transaktionswährung unterschiedlich sind.                                              |
 | Ausgabenverwaltung  | [456882](https://fix.lcs.dynamics.com/Issue/Details/?bugId=456822)           | Für Benutzer ohne Administratorrechte werden die Suchwerte für Spesenzeilenspalten wie z. B. **Projekt-ID** und **Ausgabenkategorie** im Datenverbindungsrahmen nicht korrekt angezeigt. |
@@ -65,7 +65,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | Projektbuchhaltung  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Durch Aktivieren der Funktion sind mehrere Vertragszeilen ohne CDS-Integration nicht möglich.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu regulatorischen Aktualisierungen für Finanz- und Betriebs-Apps finden Sie unter [Regulatorische Aktualisierungen](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei LCS anmelden und die geplanten regulatorischen Aktualisierungen mit dem Problem-Suchwerkzeug anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

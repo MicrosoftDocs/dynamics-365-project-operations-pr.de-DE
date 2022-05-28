@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997200"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683127"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekt-Zeittabelle mobile Anwendung
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997200"
 
 ## <a name="overview"></a>Überblick
 
-Mit der mobilen App Microsoft Dynamics 365 Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen (iPhone oder Android). Diese mobile App zeigt die Arbeitszeittabellenfunktionalität an, die sich im Bereich Projektmanagement und Buchhaltung von Dynamics 365 Finance verbindet, verbessert die Produktivität und Effizienz der Benutzer und ermöglicht die rechtzeitige Eingabe und Genehmigung von Projektzeitplänen.
+Mit der mobilen App Microsoft Dynamics 365 Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen (iPhone oder Android). Die Oberflächen der Arbeitszeitnachweis-Funktion dieser App für das Mobile, die sich in der Projektverwaltung und in Buchhaltungsbereichen von Dynamics 365 Finance befindet, verbessert die Benutzerproduktivität sowie die Effizienz und ermöglicht den fristgerechten Eintrag und die Genehmigung von Projektarbeitszeitnachweisen.
 
 ## <a name="download-and-install-the-mobile-app"></a>Die mobile App herunterladen und installieren
 

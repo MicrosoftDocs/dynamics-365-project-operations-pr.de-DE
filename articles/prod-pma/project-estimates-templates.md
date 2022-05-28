@@ -1,32 +1,31 @@
 ---
-title: Synchronisieren Sie Projektschätzungen direkt von Project Service Automation zu Finance and Operations
-description: Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektstundenschätzungen und Projektausgabenschätzungen direkt von Microsoft Dynamics 365 Project Service Automation zu Dynamics 365 Finance verwendet werden.
+title: Synchronisieren von Projektvorkalkulationen direkt aus Project Service Automation mit Finance and Operations
+description: Dieses Thema beschreibt die Vorlagen und die zugrunde liegenden Aufgaben, die verwendet werden, um Projektstundenschätzungen und Projektausgabenvorkalkulationen direkt aus Microsoft Dynamics 365 Project Service Automation mit Dynamics 365 Finance zu synchronisieren.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988200"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684595"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisieren Sie Projektschätzungen direkt von Project Service Automation zu Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Synchronisieren von Projektvorkalkulationen direkt aus Project Service Automation mit Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Dieses Thema beschreibt die Vorlagen und zugrunde liegenden Aufgaben, die zum Synchronisieren von Projektstundenschätzungen und Projektausgabenschätzungen direkt von Dynamics 365 Project Service Automation zu Dynamics 365 Finance verwendet werden.
+Dieses Thema beschreibt die Vorlagen und die zugrunde liegenden Aufgaben, die verwendet werden, um Projektstundenschätzungen und Projektausgabenvorkalkulationen direkt aus Dynamics 365 Project Service Automation mit Dynamics 365 Finance zu synchronisieren.
 
 > [!NOTE]
 > - Projektaufgabenintegration, Kostentransaktionskategorien, Stundenschätzungen, Kostenschätzungen und Funktionssperre sind in Version 8.0 verfügbar.
@@ -70,7 +69,7 @@ Bevor eine Synchronisierung der Projektstundenschätzungen erfolgen kann, müsse
 
 ### <a name="power-query"></a>Power Query
 
-In der Vorlage für Projektstundenschätzungen müssen Sie Microsoft Power Query für Excel verwenden, um die folgenden Aufgaben auszuführen:
+In der Vorlage für Projektstundenvorkalkulationen müssen Sie Microsoft Power Query für Excel verwenden, um diese Aufgaben abzuschließen:
 
 - Legen Sie die Standard-ID des Prognosemodells fest, die verwendet wird, wenn die Integration neue Stundenprognosen erstellt.
 - Filtern Sie alle ressourcenspezifischen Datensätze in der Aufgabe heraus, bei denen die Integration in Stundenvorhersagen fehlschlägt.
@@ -81,7 +80,7 @@ In der Vorlage für Projektstundenschätzungen müssen Sie Microsoft Power Query
 Um die Standard-Prognosemodell-ID in der Vorlage zu aktualisieren, klicken Sie auf den Pfeil **Zuordnen** und öffnen das Mapping. Dann wählen Sie die Verknüpfung **Erweiterte Abfrage und Filterung**.
 
 - Wenn Sie die Standardvorlage für Projektstundenschätzungen (PSA zu Fin und Ops) verwenden, wählen Sie die Option **Eingefügter Zustand** aud der Liste **Angewandte Schritte** aus. In dem Eintrag **Funktion** ersetzen Sie **O\_Prognose** mit dem Namen der Prognosemodell-ID, die für die Integration verwendet werden soll. Die Standardvorlage enthält eine Prognosemodell-ID aus den Demo-Daten.
-- Wenn Sie eine neue Vorlage erstellen, müssen Sie diese Spalte hinzufügen. Wählen Sie in Power Query **Bedingte Spalte hinzufügen** aus und geben Sie einen Namen für die neue Spalte ein wie **ModelID**. Geben Sie die Bedingung für die Spalte ein, wobei, wenn Projektaufgabe nicht null ist, dann \<enter the forecast model ID\>; andernfalls null
+- Wenn Sie eine neue Vorlage erstellen, müssen Sie diese Spalte hinzufügen. Wählen Sie in Power Query die Option **Bedingte Spalte hinzufügen** aus, und geben Sie einen Namen für die neue Spalte ein, wie beispielsweise **ModelID**. Geben Sie die Bedingung für die Spalte ein, wobei, wenn Projektaufgabe nicht null ist, dann \<enter the forecast model ID\>; andernfalls null
 
 #### <a name="filter-out-resource-specific-records"></a>Filtern Sie ressourcenspezifische Datensätze heraus
 
@@ -126,7 +125,7 @@ Bevor eine Synchronisierung der Projektausgabenschätzungen erfolgen kann, müss
 
 ### <a name="power-query"></a>Power Query
 
-In der Vorlage für Projektausgabenschätzungen müssen Sie Microsoft Power Query verwenden, um die folgenden Aufgaben auszuführen:
+In der Vorlage für Projektausgabenvorkalkulationen müssen Sie Power Query verwenden, um die folgenden Aufgaben abzuschließen:
 
 - Filtern, um nur Ausgabenschätzungszeilendatensätze einzuschließen.
 - Legen Sie die Standard-ID des Prognosemodells fest, die verwendet wird, wenn die Integration neue Stundenprognosen erstellt.
@@ -141,8 +140,8 @@ Die Vorlage Projektkostenschätzungen (PSA zu Fin und Ops) verfügt über einen 
 
 Um die Standard-Prognosemodell-ID in der Vorlage zu aktualisieren, wählen Sie die Aufgabe **Ausgabenschhätzung** und klicken auf den Pfeil **Zuordnen** und öffnen das Mapping. Wählen Sie die Verknüpfung **Erweiterte Abfrage und Filterung**.
 
-- Wenn Sie die Standardvorlage für Projekt-Ausgabenschätzungen (PSA zu Fin und Ops) verwenden, wählen Sie in Power Query die erste **Eingefügte Bedingung** im Bereich **Angewandte Schritte** aus. In dem Eintrag **Funktion** ersetzen Sie **O\_Prognose** mit dem Namen der Prognosemodell-ID, die für die Integration verwendet werden soll. Die Standardvorlage enthält eine Prognosemodell-ID aus den Demo-Daten.
-- Wenn Sie eine neue Vorlage erstellen, müssen Sie diese Spalte hinzufügen. Wählen Sie in Power Query **Bedingte Spalte hinzufügen** aus und geben Sie einen Namen für die neue Spalte ein wie **ModelID**. Geben Sie die Bedingung für die Spalte ein, wobei, wenn Vorkakulationspositions-ID nicht null ist, dann \<enter the forecast model ID\>; andernfalls null.
+- Wenn Sie die Vorlage der standardmäßigen Projektausgaben-Ist-Werte (PSA zu Fin and Ops) verwenden, wählen Sie in Power Query die erste **Eingefügte Bedingung** aus dem Abschnitt **Angewendete Schritte** aus. In dem Eintrag **Funktion** ersetzen Sie **O\_Prognose** mit dem Namen der Prognosemodell-ID, die für die Integration verwendet werden soll. Die Standardvorlage enthält eine Prognosemodell-ID aus den Demo-Daten.
+- Wenn Sie eine neue Vorlage erstellen, müssen Sie diese Spalte hinzufügen. Wählen Sie in Power Query die Option **Bedingte Spalte hinzufügen** aus, und geben Sie einen Namen für die neue Spalte ein, wie beispielsweise **ModelID**. Geben Sie die Bedingung für die Spalte ein, wobei, wenn Vorkakulationspositions-ID nicht null ist, dann \<enter the forecast model ID\>; andernfalls null.
 
 #### <a name="transform-the-billing-types"></a>Transformieren Sie die Abrechnungsarten
 

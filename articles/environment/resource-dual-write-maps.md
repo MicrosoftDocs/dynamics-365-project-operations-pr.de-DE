@@ -4,14 +4,14 @@ description: Dieses Thema enthält die Liste der Dual-Write-Zuordnungen, die fü
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547108"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612749"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations – Duales Schreiben-Zuordnungsversionen
 
@@ -25,12 +25,12 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für die Project Op
 
 | Tabellenzuordnung | Erste Synchronisierung |
 | --- | --- |
-| Sachkonto (msdyn_ledgers) | Erfordert eine anfängliche Synchronisierung für die Tabellenzuordnung und alle Voraussetzungen. Master für Erstsynchronisierung ist Finance and Operations-Apps. |
+| Sachkonto (msdyn_ledgers) | Erfordert eine anfängliche Synchronisierung für die Tabellenzuordnung und alle Voraussetzungen. Master für die erste Synchronisierung ist Finanz- und Betriebs-Apps. |
 | Juristische Personen (cdm_companies) | Nicht erforderlich. Das System füllt diese Entität automatisch, wenn Umgebungen mit Dual-Write verknüpft werden. |
 | Kunden V3 (Konten) | Für die Bereitstellung nicht erforderlich. |
 | Anbieter V2 (msdyn_vendors) | Für die Bereitstellung nicht erforderlich. |
 
-1. Wählen Sie aus der Liste der Zuordnungen Finanzbuchhaltung **(msdyn\_ledgers)** mit allen Voraussetzungen aus und wählen Sie das Kontrollkästchen **Erstsynchronisation** aus. Wählen Sie im Feld **Master für die Erstsynchronisation** **Finance and Operations Apps** sowohl für die Finanzbuchhaltungszuordnung als auch für alle erforderlichen Zuordnungen. **Ausführen** auswählen.
+1. Wählen Sie aus der Liste der Zuordnungen Finanzbuchhaltung **(msdyn\_ledgers)** mit allen Voraussetzungen aus und wählen Sie das Kontrollkästchen **Erstsynchronisation** aus. Wählen Sie im Feld **Master für die erste Synchronisierung** **Finanz- und Betriebs-Apps** sowohl für die Hauptbuchzuordnung als auch für alle erforderlichen Zuordnungen aus. **Ausführen** auswählen.
 
 ![Synchronisation der Ledger-Zuordnung.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für die Project Op
 
 Die folgenden Zuordnungen sind erforderliche Voraussetzungen für eine Project Operations-Lösung. Kartenversionen mit doppeltem Schreibzugriff werden ab der Aktualisierung von Project Operations vom Mai 2021, Version 4.10.0.186, aufgelistet.
 
-| **Entitätszuordnung** | **Neueste Version** | **Erste Synchronisierung** |
-| --- | --- | --- |
-| Integrationsentität für die Projekttransaktionsbeziehungen (msdyn\_transactionconnections) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. |
-| Projektvertragskopfzeilen (Vertriebsaufträge) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. |
-| Projektvertragszeilen (salesorderdetails) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. |
-| Projektfinanzierungsquelle (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |
-| Project Operations-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. |
-| Projektrechnungsvorschläge V2 (Rechnungen) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. |
-| Tatsächliche Werte der Project Operations-Integration (msdyn_actuals) | 1.0.0.14 | Für die Bereitstellung nicht erforderlich. |
-| Vertragszeilenmeilensteine für die Integration von Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. |
-| Project Operations-Integrationsentität für Spesenvorkalkulationen (msdyn_estimatelines) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |
-| Project Operations-Integritätsentität für Stundenvorkalkulationen (msdyn_resourceassignments) | 1.0.0.5 | Für die Bereitstellung nicht erforderlich. |
-| Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn_expensecategories) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. |
-| Exportentität für Projektkosten der Project Operations-Integration (msdyn_expenses) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |
-| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn_projectvendorinvoices) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. |
-| Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. |
-| Projektressourcenrollen für alle Unternehmen (bookableresourcecategories) | 1.0.0.1 | Erfordert eine erste Synchronisierung für die Tabellenzuordnung, um die Ressourcenrollen des Projektmanagers und der Teammitglieder zu synchronisieren, die in der Dynamics 365 Dataverse Umgebung während der Bereitstellung ausgefüllt sind. Dataverse ist die Hauptquelle für die anfängliche Synchronisation. |
-| Projektaufgaben (msdyn_projecttasks) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. |
-| Projekttransaktionskategorien (msdyn_transactioncategories) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. |
-| Projekte V2 (msdyn_projects) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |
+| Entitätszuordnung | Neueste Version | Erste Synchronisierung | Erforderliche Dynamics 365 Finance-Version |
+| --- | --- | --- | --- |
+| Integrationsentität für die Projekttransaktionsbeziehungen (msdyn\_transactionconnections) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
+| Projektvertragskopfzeilen (Vertriebsaufträge) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. ||
+| Projektvertragszeilen (salesorderdetails) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
+| Projektfinanzierungsquelle (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. ||
+| Project Operations-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
+| Projektrechnungsvorschläge V2 (Rechnungen) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. ||
+| Tatsächliche Werte der Project Operations-Integration (msdyn_actuals) | 1.0.0.14 | Für die Bereitstellung nicht erforderlich. ||
+| Vertragszeilenmeilensteine für die Integration von Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. ||
+| Project Operations-Integrationsentität für Spesenvorkalkulationen (msdyn_estimatelines) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. ||
+| Project Operations-Integritätsentität für Stundenvorkalkulationen (msdyn_resourceassignments) | 1.0.0.5 | Für die Bereitstellung nicht erforderlich. ||
+| Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn_expensecategories) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. ||
+| Exportentität für Projektkosten der Project Operations-Integration (msdyn_expenses) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. ||
+| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn_projectvendorinvoices) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
+| Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. | 10.0.26 oder höher |
+| Projektressourcenrollen für alle Unternehmen (bookableresourcecategories) | 1.0.0.1 | Erfordert eine erste Synchronisierung für die Tabellenzuordnung, um die Ressourcenrollen des Projektmanagers und der Teammitglieder zu synchronisieren, die in der Dynamics 365 Dataverse Umgebung während der Bereitstellung ausgefüllt sind. Dataverse ist die Hauptquelle für die anfängliche Synchronisation. ||
+| Projektaufgaben (msdyn_projecttasks) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. ||
+| Projekttransaktionskategorien (msdyn_transactioncategories) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
+| Projekte V2 (msdyn_projects) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. ||
 
 Schließen Sie die folgenden Schritte ab, um die aufgeführten Zuordnungen auszuführen.
 

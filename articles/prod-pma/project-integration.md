@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988020"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684963"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client-Integration
 
 [!include [banner](../includes/banner.md)]
 
-Das Planen und Verwalten eines Projektplans kann komplex sein. Daher müssen Projektmanager Tools verwenden, mit denen sie diese Aufgabe verwalten können. Die Integration mit Microsoft Project Client bietet Unterstützung beim Öffnen und Verwalten einer Projektstrukturplan. Der Projektmanager kann alle Änderungen wieder im Dynamics 365 Finance Projektstrukturplan veröffentlichen.
+Das Planen und Verwalten eines Projektplans kann komplex sein. Daher müssen Projektmanager Tools verwenden, mit denen sie diese Aufgabe verwalten können. Die Integration mit Microsoft Project Client bietet Unterstützung beim Öffnen und Verwalten einer Projektstrukturplan. Der Projektmanager kann beliebige Änderungen zurück zum Dynamics 365 Finance-Projektstrukturplan veröffentlichen.
 
 > [!NOTE]
 > Wenn Sie das Juli-Update (Version 10.0.4) verwenden, müssen Sie Wissensdatenbank 4054797 und 4055884 installieren.
@@ -40,7 +39,7 @@ So aktivieren Sie die Integration mit Microsoft Project Client: Ein Microsoft Dy
 • Klicken Sie auf **Öffnen** und dann klicken Sie auf **Ausführen**, wenn Sie dazu aufgefordert werden.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Öffnen und bearbeiten Sie einen vorhandenen Entwurf einer Projektstrukturplanstruktur in Microsoft Project Client
-Wenn ein Projekt in Dynamics 365 Finance bereits einen Projektstrukturplan hat, kann der Projektstrukturplan in der Microsoft Project Client-Anwendung geöffnet werden, wenn sich der Projektstrukturplan in einem Entwurfsstatus befindet. Zum Öffnen von der Seite **Projekt** klicken Sie auf die Verknüpfung **In Microsoft Project öffnen** aus der Registerkarte **Plan**. Diese Seite kann auch in der Microsoft Project Client-Anwendung durch Klicken  von **Öffnen** in der Registerkarte **Microsoft Dynamics 365** geöffnet werden. Wählen Sie die **Juristische Entität** und **Projekt** aus der Liste aus.
+Wenn für ein Projekt in Dynamics 365 Finance bereits ein Projektstrukturplan erstellt wird, kann der Projektstrukturplan in der Microsoft Project Client-Anwendung geöffnet werden, wenn der Projektstrukturplan sich im Entwurfsstatus befindet. Zum Öffnen von der Seite **Projekt** klicken Sie auf die Verknüpfung **In Microsoft Project öffnen** aus der Registerkarte **Plan**. Diese Seite kann auch in der Microsoft Project Client-Anwendung durch Klicken  von **Öffnen** in der Registerkarte **Microsoft Dynamics 365** geöffnet werden. Wählen Sie die **Juristische Entität** und **Projekt** aus der Liste aus.
 
 > [!NOTE]
 > Wenn Sie den Internet Explorer als Ihren Browser verwenden, müssen Sie auf **speichern** klicken, um manuell von dem Speicherort zu öffnen, an den die Datei heruntergeladen wird. Oder klicken Sie auf **Speichern und öffnen**, um die Datei in Microsoft Project Client zu öffnen. Benennen Sie den Dateinamen beim Speichern nicht um.

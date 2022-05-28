@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000080"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601753"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Überlegungen zum Upgrade von PSA-Version 2.x oder 1.x auf Version 3.x
 
@@ -81,15 +82,15 @@ Bevor Sie mit dem Upgrade beginnen, wird empfohlen, das Projekt für jedes Team 
 
 Bei Aufgaben, die generischen Teammitgliedern zugeordnet sind, die mit **Team erstellen** erstellt wurden, wird beim Upgrade die allgemeine Ressource im Team und die Zuweisung beim allgemeinen Teammitglied belassen. Es wird empfohlen, dass Sie die Ressourcenanforderungen für das allgemeine Teammitglied nach der Aktualisierung erstellen, jedoch bevor Sie eine Ressourcenanforderung buchen oder senden. Dies erhält alle Organisationseinheiten-Zuweisungen der generischen Teammitglieder, die sich von der Organisationseinheit des Projektvertrags unterscheiden.
 
-Im Projekt Z-Projekt ist die Vertragsorganisation beispielsweise Contoso USA. Testaufgaben in der Implementierung wurden im Projektplan der Rolle des technischen Beraters zugewiesen und zugewiesene Organisationseinheit ist Contoso Indien.
+Im Projekt Z-Projekt ist die Vertragsorganisation beispielsweise Contoso US. Testaufgaben in der Implementierung wurden im Projektplan der Rolle des technischen Beraters zugewiesen und zugewiesene Organisationseinheit ist Contoso India.
 
 ![Zuweisung der Implementierungsphasenorganisation.](media/org-unit-assignment-09.png)
 
-Nach der Implementierungsphase wird die Integrationstestaufgabe der Rolle des technischen Beraters zugewiesen, die Organisation ist jedoch auf Contoso USA festgelegt.  
+Nach der Implementierungsphase wird die Integrationstestaufgabe der Rolle des technischen Beraters zugewiesen, die Organisation ist jedoch auf Contoso US festgelegt.  
 
 ![Zuweisung der Integrationstestaufgabenorganisation.](media/org-unit-generate-team-10.png)
 
-Wenn Sie ein Team für das Projekt erstellen, werden aufgrund der zwei unterschiedlichen Organisationseinheiten der Aufgaben zwei allgemeine Teammitglieder erstellt. Der technische Berater 1 erhält die Aufgaben von Contoso Indien und der technische Berater 2 die Aufgaben von Contoso USA.  
+Wenn Sie ein Team für das Projekt erstellen, werden aufgrund der zwei unterschiedlichen Organisationseinheiten der Aufgaben zwei allgemeine Teammitglieder erstellt. Der technische Berater 1 erhält die Aufgaben von Contoso India und der technische Berater 2 die Aufgaben von Contoso US.  
 
 ![Erstellte Generische Teammitglieder.](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -104,7 +105,7 @@ Sie sehen die Organisationseinheit in der Schätzungsansicht.
  
 Wenn das Upgrade abgeschlossen ist, wird die Organisationseinheit in der Positionsaufgabe, die dem generischen Teammitglied entspricht, dem generischen Teammitglied hinzugefügt und die Positionsaufgabe wird entfernt. Aus diesem Grund wird empfohlen, dass vor dem Upgrade die Teams in den Projekten, die allgemeine Ressourcen enthalten, zu erstellen oder erneut zu generieren.
 
-Bei Aufgaben, die einer Rolle in einer Organisationseinheit zugewiesen sind, die sich von der Organisationseinheit des Vertragsprojekts unterscheidet, und für die kein Team erstellt wurde, erstellt das Upgrade ein allgemeines Teammitglied für die Rolle, verwendet jedoch auch die Vertragseinheit des Projekts für die Organisationseinheit des Teammitglieds. Im Beispiel von Projekt Z nehmen bedeutet dies, dass die Vertragsorganisationseinheit Contoso USA ist und die Projektplantestaufgaben in der Implementierungsphase der Rolle des technischen Beraters mit der Organisationseinheit Contoso Indien zugewiesen wurden. Die Integrationstestaufgabe, die nach der Implementierungsphase abgeschlossen wird, wurde der Rolle des technischen Beraters zugewiesen. Die Organisationseinheit ist Contoso USA und es wurde kein Team erstellt. Das Upgrade erstellt ein allgemeines Teammitglied, einen technischen Berater, dem Stunden für drei Aufgaben zugewiesen sind, und eine Organisationseinheit Contoso USA, die Vertragsorganisationseinheit des Projekts.   
+Bei Aufgaben, die einer Rolle in einer Organisationseinheit zugewiesen sind, die sich von der Organisationseinheit des Vertragsprojekts unterscheidet, und für die kein Team erstellt wurde, erstellt das Upgrade ein allgemeines Teammitglied für die Rolle, verwendet jedoch auch die Vertragseinheit des Projekts für die Organisationseinheit des Teammitglieds. Im Beispiel von Projekt Z bedeutet dies, dass die Vertragsorganisationseinheit Contoso US ist und die Projektplantestaufgaben in der Implementierungsphase der Rolle des technischen Beraters mit der Organisationseinheit Contoso India zugewiesen wurden. Die Integrationstestaufgabe, die nach der Implementierungsphase abgeschlossen wird, wurde der Rolle des technischen Beraters zugewiesen. Die Organisationsheit ist Contoso US und es wurde kein Team erstellt. Das Upgrade erstellt ein allgemeines Teammitglied, einen technischen Berater, dem Stunden für drei Aufgaben zugewiesen sind, und eine Organisationseinheit Contoso US, die Vertragsorganisationseinheit des Projekts.   
  
 Das Ändern der standardmäßigen Ressourcenorganisationseinheit für nicht erneut generierte Teammitglieder ist der Grund dafür, dass wir empfehlen, dass Sie die Teams in den Projekten vor dem Upgrade erstellen oder erneut generieren, sodass die Organisationseinheitenzuweisungen nicht verloren gehen.
 
