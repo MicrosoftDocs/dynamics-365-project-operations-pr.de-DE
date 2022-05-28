@@ -4,16 +4,16 @@ description: In diesem Thema werden Vorauszahlungen erläutert.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988515"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585699"
 ---
 # <a name="cash-advance"></a>Vorauskasse
 
@@ -66,7 +66,7 @@ Bevor Sie eine Spesenabrechnung einreichen, können Sie den Vorschuss auswählen
  
  Wenn diese Funktionen aktiviert sind:
  
-  - Sie können einen oder mehrere Bargeldvorschüsse für jede Ausgabenzeile hinzufügen.
+  - Sie können für jede Ausgabenposition einen oder mehrere Barvorschüsse hinzufügen.
   - Der verfügbare Saldo eines Vorschusses wird in Echtzeit angezeigt, wenn eine Spesenabrechnung gespeichert wird. Auf diese Weise können Sie Aufwandsbuchungen bearbeiten und gleichzeitig Bargeldtransaktionen zurückgeben.
   - Sie können mehrere Bargeldvorschüsse für eine Ausgabentransaktion auswählen.
   - Daten zur Vorauszahlungsabstimmung sind mithilfe einer Abfrage verfügbar. 

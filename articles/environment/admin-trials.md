@@ -2,22 +2,22 @@
 title: Für Testversionen von Project Operations anmelden
 description: Dieses Thema enthält Informationen zum Bereitstellen einer Testversion von Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901616"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584273"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Für Testversionen von Project Operations anmelden 
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung, Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In diesem Thema wird erläutert, wie Sie das Partnerangebot für die Vorschauversion und eine Dynamics 365 Project Operations-Umgebung abonnieren können.
 
@@ -36,7 +36,6 @@ Die folgende Tabelle enthält die Details des neuen Testangebots.
 | Angebotsnutzung                    | Einmal pro M;andant                          |
 | Angebotsdauer               | 30 Kalendertage                             |
 | Einlösungen pro Mandant       | 1                                            |
-| Anzahl von Benutzern              | 25                                           |
 | Erweiterung                    | 1 Verlängerung, 30 Kalendertage               |
 | Anzahl der Testumgebungen | 3                                            |
 
@@ -87,7 +86,7 @@ Bevor Sie beginnen, melden Sie sich bei einem Browser mit dem Arbeitskonto des B
  
   Wenn die Bereitstellung abgeschlossen ist, ist der Status Ihrer Umgebung **Bereit**. Die Bereitstellung der Umgebung umfasst die Bereitstellung von Demodaten.
  
-4.  Wählen Sie die jeweilige Microsoft Dataverse-URL und die Finance and Operations-Apps-URLs, um die Bereitstellung zu überprüfen.
+4.  Wählen Sie die jeweilige Microsoft Dataverse-URL und die Finanz- und Betriebs-Apps-URLs, um die Bereitstellung zu überprüfen.
 
 ## <a name="configuring-dual-write"></a>Konfigurieren von dualem Schreiben
 - Informationen zum Konfigurieren von Sicherheitsrollen für duales Schreiben finden Sie unter [Sicherheitseinstellungen in Project Operations in Dataverse aktualisieren](resource-provision-new-environment.md).
@@ -97,7 +96,7 @@ Bevor Sie beginnen, melden Sie sich bei einem Browser mit dem Arbeitskonto des B
 
 Sie benötigen Administratorzugriff auf das Microsoft 365-Portal Ihrer Organisation, um die folgenden Schritte auszuführen.
 
-1. Wechseln Sie zum [Microsoft 365-Admin Center](https://portal.office.com/), um die Lizenzen Ihren Benutzern zuzuweisen.
+1. Gehen Sie zum [Microsoft 365 Admin Center](https://portal.office.com/), um die Lizenzen Ihren Benutzern zuzuweisen.
 
    ![Startseite des Admin Center](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Die folgenden Ressourcen bieten hilfreiche Anleitungen, wenn Sie Ihre Journey mi
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Was ist, wenn ich ALM oder ELM für meine Finance and Operations-Apps-Umgebung benötige?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Was ist, wenn ich ALM oder ELM für meine Finanz- und Betriebs-Apps-Umgebung benötige?
 
 - Partner, die umfassende Funktionen für das Lebenszyklusmanagement der Umgebung benötigen, finden Informationen unter [Anfrage zur Partner-Sandbox-Lizenz](https://experience.dynamics.com/requestlicense), um das neue Partnerangebot zu prüfen. 
 - Partner, die weitere Informationen zu internen Nutzungsrechten suchen, finden Informationen unter [Cloud für interne Nutzungsrechte und Software-Nutzen (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Die folgenden Ressourcen bieten hilfreiche Anleitungen, wenn Sie Ihre Journey mi
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Kann ich meine Testversion über 30 Tage hinaus verlängern?
 Führen Sie die folgenden Schritte aus, um Ihre Testversion zu verlängern.
 
-1. Wechseln Sie im **Microsoft 365-Admin Center** zu **Fakturierung** > **Ihre Produkte**.
+1. Im **Microsoft 365 Admin Center** wechseln Sie zu **Fakturierung** > **Ihre Produkte**.
 2. Wählen Sie **Dynamics 365 Project Operations (CE) - Vorschautestversion**.
 3. Wählen Sie unter **Ablaufdatum** **Datum verlängern** aus.
 

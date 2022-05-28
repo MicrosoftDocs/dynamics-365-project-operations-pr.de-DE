@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987570"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580363"
 ---
 # <a name="unit-groups-and-units"></a>Einheitengruppen und Einheiten
 
@@ -84,9 +85,9 @@ Im folgenden Beispiel wird veranschaulicht, wie PSA die Einheitengruppe, die Ein
     - **Standardzeiteinheit**: Tag 
     - **Währung**: GBP
 
-| Rolle      | Einheitengruppe | Einheit | Organisationseinheit | Preis   |
+| Rolle      | Einheitengruppe | Einheit | Organisationseinheit: | Preis   |
 |-----------|------------|------|---------------------|---------|
-| Developer | Zeit       | Tag  | Contoso UK          | 800 GBP |
+| Entwickler | Time       | Day  | Koch UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Zeiteintrag
 
@@ -100,13 +101,13 @@ Die folgende Tabelle enthält die resultierende verkaufsseitige Transaktion, die
 ## <a name="time-unit-faq"></a>Zeiteinheit – Häufig gestellte Fragen
 
 ### <a name="does-psa-convert-to-different-units-in-the-case-of-expenses"></a>Konvertiert PSA bei Ausgaben in verschiedene Einheiten?
-Nr. Einheitenkonvertierung funktioniert nur für die Zeit. Wenn das System für Ausgaben keinen Preis für die Kombination aus Ausgabenkategorie und -Einheit findet, wird der Preis standardmäßig auf 0,00 festgelegt.
+Nein. Einheitenkonvertierung funktioniert nur für die Zeit. Wenn das System für Ausgaben keinen Preis für die Kombination aus Ausgabenkategorie und -Einheit findet, wird der Preis standardmäßig auf 0,00 festgelegt.
 
 ### <a name="why-does-psa-convert-time-units"></a>Warum konvertiert PSA Zeiteinheiten?
 In einigen Ländern oder Regionen ist es gesetzlich vorgeschrieben, Rechnungssätze in Tagen festzulegen. Preisverhandlungen und die Gewährung von Rabatten finden während des Angebotszyklus statt, indem für jede abrechenbare Rolle Tagessätze verwendet werden. Zeitplanschätzung und Zeiteintrag erfolgen in Stunden. Zur Unterstützung dieses Unterschieds bei den Zeiteinheiten werden diese von PSA konvertiert.
 
 ### <a name="can-time-units-be-changed-on-project-estimates"></a>Können Zeiteinheiten bei Projektvorkalkulationen geändert werden?
-Nr. Die Zeitplanschätzung ist derzeit auf Stunden begrenzt und kann nicht geändert werden.
+Nein. Die Zeitplanschätzung ist derzeit auf Stunden begrenzt und kann nicht geändert werden.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Können Einheiten und Einheitengruppen bearbeitet, gelöscht hinzugefügt werden?
 Ja. Mit Ausnahme der Einheitengruppe **Zeit** und der Einheit **Stunde** können alle Einheiten gelöscht oder bearbeitet und neue Einheiten hinzugefügt werden. In PSA können die Einheitengruppe **Zeit** und die Einheit **Stunde** nicht gelöscht werden. Sie können jedoch mit einem übersetzten Text für das Feld **Name** aktualisiert werden.

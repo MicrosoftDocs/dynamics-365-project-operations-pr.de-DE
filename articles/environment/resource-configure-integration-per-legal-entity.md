@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zum Einrichten einer Integratio
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999405"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585837"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Project Operations-Integration pro juristische Person konfigurieren 
 
@@ -19,32 +19,32 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Dieses Thema führt Sie durch die erforderlichen Schritte zur Konfiguration von Dynamics 365 Project Operations pro juristischer Person.
 
-## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Wichtige Funktionen in Dynamics 365 Finance aktivieren
+## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Funktionsschlüssel in Dynamics 365 Finance aktivieren
 
 Führen Sie die folgenden Schritte aus, um die erforderlichen Funktionen zu aktivieren.
 
-1. Navigieren Sie in Dynamics 365 Finance zum Arbeitsbereich **Funktionsverwaltung**.
+1. Wechseln Sie in Dynamics 365 Finance zum Arbeitsberiech **Funktionsverwaltung**.
 2. Finden Sie in der **Funktionsliste** die folgenden Funktionen und aktivieren Sie diese:
   
     - **Mehrere Vertragszeilen für ein Projekt aktivieren**
-    - **Project Operations in Dynamics 365 Customer Engagement** aktivieren
+    - **Project Operations auf Dynamics 365 Customer Engagement aktivieren**
 
 > [!NOTE]
 > Wenn **Funktionsschlüssel** nicht aufgeführt ist, prüfen Sie, dass Ihre Finance-Version die Mindestanforderungen der Version erfüllt (Anwendungsversion 10.0.13 mit allen angewendeten Qualitätsupdates oder höher). Wählen Sie **Auf Updates prüfen** aus, um die Funktionsliste zu aktualisieren.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Das Project Operations-Bereitstellungsszenario für eine juristische Person definieren
 
-Sie können Project Operations in Dynamics 365 Customer Engagement auf Ebene einer juristischen Person aktivieren. Sie können eine juristische Person haben, die Project Operations in Dynamics 365 Customer Engagement für ressourcenbasierte/nicht ressourcenbasierte Szenarien verwendet. In derselben Umgebung können Sie eine andere juristische Person haben, die Project Operations für Lager-/Produktionsauftragsszenarien verwendet.
+Sie können Project Operations bei Dynamics 365 Customer Engagement auf Ebene der juristischen Person aktivieren. Sie können eine juristische Person haben, die Project Operations bei Dynamics 365 Customer Engagement für Szenarien auf Basis von Ressourcen/nicht vorrätig verwendet. In derselben Umgebung können Sie eine andere juristische Person haben, die Project Operations für Lager-/Produktionsauftragsszenarien verwendet.
 
-1. Navigieren Sie in Dynamics 365 Finance zu **Projektmanagement und -buchhaltung** > **Einrichtung** > **Globale Projektmanagement und -Buchhaltungsparameter**.
-2. Wählen Sie in der Liste der verfügbaren juristischen Personen Entitäten aus, für die mehrere Vertragszeilen und Projektvorgänge in Dynamics 365 Customer Engagement-Funktionen aktiviert sind. Wählen Sie juristische Personen, die Project Operations für Lager-/Fertigungsauftragsszenarien verwenden, weiterhin nicht aus.
+1. Gehen Sie in Dynamics 365 Finance zu **Projektmanagement und -buchhaltung** > **Einrichtung** > **Globales Projektmanagement und Abrechnungsparameter**.
+2. Wählen Sie in der Liste der verfügbaren juristischen Personen die Entitäten aus, bei denen mehrere Vertragspositionen und Project Operations on Dynamics 365 Customer Engagement-Funktionen aktiviert werden. Wählen Sie juristische Personen, die Project Operations für Lager-/Fertigungsauftragsszenarien verwenden, weiterhin nicht aus.
 
 > [!NOTE]
 > Eine juristische Person kann nur ausgewählt werden, wenn keine Projekte vorhanden sind.
 
 ## <a name="configure-project-management-and-accounting-parameters"></a>Projektmanagement und -buchhaltungsparameter konfigurieren
 
-Jede juristische Person, die Project Operations in Dynamics 365 Customer Engagement verwendet, benötigt eine Reihe von Standardparametern. Diese Parameter werden auf der Registerkarte **Project Operations** auf der Seite **Projektmanagement und -buchhaltungsparameter** konfiguriert. Die Parameter lauten wie folgt:
+Jede juristische Person, die Project Operations bei Dynamics 365 Customer Engagement verwendet, benötigt eine Reihe von Standardparametern. Diese Parameter werden auf der Registerkarte **Project Operations** auf der Seite **Projektmanagement und -buchhaltungsparameter** konfiguriert. Die Parameter lauten wie folgt:
 
   - **Standards Fakturierungstyp**: Project Operations verwendet einen festen Satz von Standardeinstellungen für Fakturierungstypen, die den Zeileneigenschaften in Finance zugeordnet werden müssen. Erstellen Sie für jeden Fakturierungstyp einen Datensatz: **Unbestimmt**, **Fakturierbar**, **Nicht fakturierbar**, **Kostenlos** und **Nicht verfügbar**.
   - **Standardeinstellungen für Projektkategorien** : Wählen Sie die Standardprojektkategorien aus, die für jeden Transaktionstyp verwendet werden sollen. Diese Standardeinstellungen werden in **Project Operations-Integrationsjournal** und in Vorkalkulationen, in denen keine Transaktionskategorie für die Istwerte des Projekts angegeben ist.

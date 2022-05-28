@@ -3,16 +3,15 @@ title: Intercompany-Rechnungsstellung – Übersicht
 description: Dieses Thema enthält Informationen und Beispiele zur Intercompany-Rechnungsstellung für Projekte.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005390"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586251"
 ---
 # <a name="intercompany-invoicing-overview"></a>Intercompany-Rechnungsstellung – Übersicht
 
@@ -20,7 +19,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 Ihre Organisation verfügt möglicherweise über mehrere Abteilungen, Tochterunternehmen und andere juristische Personen, die Produkte und Dienstleistungen für Projekte untereinander übertragen. Die juristische Person, die die Dienstleistung oder das Produkt erbringt, wird als *kreditgebende juristische Person* bezeichnet. Die juristische Person, die die Dienstleistung oder das Produkt erhält, wird als *kreditnehmende juristische Person* bezeichnet.
 
-Die folgende Abbildung zeigt ein typisches Szenario, in dem zwei juristische Personen Contoso Robotics USA (die kreditnehmende juristische Person) und Contoso Robotics UK (die verleihende juristische Person) Ressourcen teilen, um ein Projekt für den Kunden zu liefern, Adventure works. Für dieses Szenario wird Contoso Robotics USA beauftragt, die Arbeit an Adventure Works zu liefern.
+Die folgende Abbildung zeigt ein typisches Szenario, in dem zwei juristische Personen, Contoso Robotics USA (die kreditnehmende juristische Person) und Contoso Robotics UK (die kreditgebende juristische Person), Ressourcen gemeinsam nutzen, um ein Projekt für den Kunden Adventure Works zu liefern. Für dieses Szenario wird Contoso Robotics USA beauftragt, die Arbeiten an Adventure Works zu liefern.
 
 ![Intercompany-Rechnungsstellung.](./media/IntercompanyScenario.png) 
 

@@ -2,16 +2,16 @@
 title: Projektvertragseinstellungen – Lite
 description: Dieses Thema enthält Informationen zu den Feldern, die sich auf Vertragszeilen auswirken, sowie Informationen zu dem Vertrag, die in allen Zeilenpositionen zusammengefasst sind.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995940"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586389"
 ---
 # <a name="header-details-for-project-contracts"></a>Kopfzeilendetails für Projektverträge
 
@@ -32,12 +32,15 @@ In der folgenden Tabelle sind die Felder eines Projektvertrags aufgeführt, die 
 | Nicht zu überschreitender Grenzwert | Registerkarte **Zusammenfassung** | Dieses Feld zeigt die ausgehandelte Obergrenze für den Endwert an, dem der Kunde für dieses Geschäft zustimmt. | Die Obergrenze wird während der Ausführung bewertet und gilt für alle mit diesem Geschäft verbundenen Positionen und Projekte. |
 | Gewünschtes Lieferdatum | Registerkarte **Zusammenfassung** | Bei einem aus einem Projektangebot erstellten Vertrag wird dieses Feld aus dem entsprechenden Feld im Projektangebot kopiert. | Dieses Datum wird als Enddatum für die Erstellung von Rechnungszeitplänen verwendet. |
 
-Die folgenden KPIs sind auf der Registerkarte **Vertragsleistung** eines Projektvertrags verfügbar.
+Die folgenden KPIs sind auf der Registerkarte **Vertragsleistung** eines Projektvertrags verfügbar. 
+
+>[!NOTE]
+>Alle Beträge auf der Registerkarte **Vertragsleistung** werden in der Standardwährung der Umgebung ausgedrückt.
 
 | Feld | Position | Beschreibung des Dataflows |
 | --- | --- | --- |
-| Vertragswert | Gesamtvertrag | Der Gesamtwert des Projektvertrags |
-| Fakturierter Betrag | Gesamtvertrag | Die Summe der Beträge auf allen Rechnungen für diesen Vertrag. |
+| Vertragswert | Gesamtvertrag | Der Gesamtwert des Projektvertrags|
+| Fakturierter Betrag | Gesamtvertrag | Die Summe der Beträge auf allen Rechnungen für diesen Vertrag.|
 | Angefallene Kosten | Gesamtvertrag | Die Summe aller tatsächlichen Kosten, die in allen Projekten protokolliert wurden, die dem Vertrag zugeordnet sind. |
 | Bruttogewinn | Gesamtvertrag | Rechnungsbetrag – Bis zum Datum angefallene Kosten/Rechnungsbetrag |
 | Erwartete Marge | Gesamtvertrag | (Auftragswert – Vorkalkulierte Kosten) / Auftragswert/Vorkalkulierte Kosten = Die Summe aller vorkalkulierten Kosten in allen Projekten, die dem Vertrag zugeordnet sind.|

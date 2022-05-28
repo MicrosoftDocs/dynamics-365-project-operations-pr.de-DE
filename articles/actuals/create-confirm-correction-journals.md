@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986715"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582802"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Korrekturerfassungen erstellen und bestätigen
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Gelegentlich kommt es vor, dass ein Zeit- oder Kosteneintrag falsch eingegeben wird. Beispielsweise kann ein Berater beim Erstellen eines Zeiteintrags das falsche Datum auswählen oder die Zahlen bei der Eingabe einer Ausgabe umsetzen. Wenn ein Berater die übermittelten Einträge nicht aktualisieren kann, kann ein Administrator den Eintrag für ein Projekt direkt korrigieren.
-
-Sie benötigen Administratorberechtigungen, um die Verfahren in diesem Artikel nachvollziehen zu können.
+Gelegentlich kann es vorkommen, dass ein Zeit- oder Kosteneintrag falsch eingegeben wird. Beispielsweise kann ein Berater das falsche Datum auswählen, wenn er einen Zeiteintrag erstellt, oder er kann das falsche Projekt auswählen, wenn er eine Ausgabe eingibt. Wenn ein Berater die eingereichten Einträge nicht aktualisieren kann, kann ein Back-End-Administrator die Ist-Werte für ein Projekt direkt korrigieren.
 
 ## <a name="correct-approved-time-entries"></a>Genehmigte Zeiteinträge korrigieren     
 
@@ -46,8 +42,8 @@ Führen Sie die folgenden Schritte aus, um einzelne oder mehrere Zeiteinträge f
 
 6. Wählen Sie **Vorschau** aus. Wählen Sie im Dialogfeld **OK** aus. Auf der Registerkarte **Erfassungspositionen** können Sie eine Liste der ursprünglichen Istwerte anzeigen, die sich auf die ausgewählten Zeiteinträge beziehen, die rückgängig gemacht wurden, und die korrigierten entsprechenden Zeilen, die erstellt wurden. Wenn zusätzliche Korrekturen erforderlich sind, wiederholen Sie die Schritte 5 und 6. 
 
-> [!NOTE]
-> Alle korrigierten Istwerte haben dieselben Werte, die Sie im Abschnitt **Neue Werte für Zeiteinträge** ausgewählt haben.
+    > [!NOTE]
+    > Alle korrigierten Istwerte haben dieselben Werte, die Sie im Abschnitt **Neue Werte für Zeiteinträge** ausgewählt haben.
 
 7. Wenn die Korrekturen wie erwartet angezeigt werden, wählen Sie **Bestätigen** aus. Wählen Sie im Dialogfeld **OK** aus.
 
@@ -55,12 +51,10 @@ Führen Sie die folgenden Schritte aus, um einzelne oder mehrere Zeiteinträge f
 
 9. Zeigen Sie auf der Seite **Projekte**, auf der Registerkarte **Istwerte** die vorgenommenen Änderungen an. 
 
-> [!NOTE]
-> Wenn die Registerkarte **Istwerte** nicht sichtbar ist, wählen Sie **Verknüpft** > **Istwerte** aus.  
+    > [!NOTE]
+    > Wenn die Registerkarte **Istwerte** nicht sichtbar ist, wählen Sie **Verknüpft** > **Istwerte** aus.  
 
 10. In der Liste **Zugeordnete Ansicht: Ist-Werte** können Sie sehen, dass die ursprünglichen Zeiteinträge, die rückgängig gemacht wurden, weiterhin aufgelistet sind, ebenso wie die entsprechenden korrigierten Zeiteinträge. 
-
-In der folgenden Grafik sind beispielsweise zwei Werbebuchungen mit einer Menge von 8,00 aufgeführt, deren Belastungen in der Spalte „Betrag“ angezeigt werden. Darüber hinaus gibt es zwei Werbebuchungen mit einer Menge von -8,00, in denen gutgeschriebene Beträge in der Spalte „Betrag“ angezeigt werden. Diese Korrekturen bringen die Menge auf Null.
 
  
 ## <a name="correct-approved-expense-entries"></a>Genehmigte Ausgabeneinträge korrigieren
@@ -79,14 +73,30 @@ Führen Sie die folgenden Schritte aus, um einen oder mehrere Ausgabeneinträge 
 
 6. Wenn die Korrekturen wie erwartet angezeigt werden, wählen Sie **Bestätigen** aus. Wählen Sie im Dialogfeld **OK** aus. Wenn die Werte nicht wie erwartet angezeigt werden, wählen Sie **Stornieren** aus, um zur Liste **Genehmigte Ausgaben** zurückzukehren. Wiederholen Sie die Schritte 2 bis 5. 
 
-> [!NOTE]
-> Die korrigierten Istwerte haben dieselben Werte, die Sie im Abschnitt **Neue Werte für Ausgaben** ausgewählt haben.
+7. Nachdem Sie das Korrekturjournal bestätigt haben, kehren Sie zu dem Projekt oder den Projekten zurück, die Sie aktualisiert haben, um Ihre Änderungen anzuzeigen.
 
-7. Navigieren Sie nach Bestätigung des Korrekturjournals zurück zu dem oder den aktualisierten Projekten, um Ihre Änderungen anzuzeigen.  
-
-8. Auf der Projektseite, auf der Registerkarte **Istwerte** überprüfen Sie die **Zugeordnete Ansicht: Istwerte**. Die ursprünglichen Einträge und die korrigierten Einträge werden aufgelistet. Die folgende Grafik zeigt die ursprünglichen Ausgabeneinträge und die entsprechenden korrigierten Ausgabeneinträge. 
+8. Auf der Projektseite überprüfen Sie auf der **Ist-Werte**-Registerkarte die Liste **Zugeordnete Ansicht: Tatsächliche Transaktionen**. Die ursprünglichen Einträge und die korrigierten Einträge werden aufgelistet.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Korrigieren genehmigter Materialverwendungsprotokolle
+
+Führen Sie die folgenden Schritte aus, um einen oder mehrere Materialverbrauchsprotokolleinträge zu korrigieren.
+
+1. Wählen Sie im **Umsätze**-Bereich im linken Navigationsbereich unter **Transaktionen** **Ist-Werte** aus.
+
+2. Verwenden Sie in der Liste **Ist-Werte** Spaltenfilter, um die **Material**-Transaktionsklasse auszuwählen, sodass nur die Ist-Werte für Materialien angezeigt werden. Verwenden Sie andere Spaltenfilter, um die angezeigten Ist-Werte weiter einzuschränken. Nachdem Sie den gewünschten Satz von Ist-Werten gefunden haben, wählen Sie die Ist-Werte aus, und wählen dann **Richtige Einträge** aus. Es wird automatisch eine neue Korrekturerfassung erstellt und der **Materialkorrektur**-Typ wird zugeordnet.
+
+3. Geben Sie auf der **Neue Erfassung**-Seite im Feld **Beschreibung** eine Beschreibung für die Korrektur ein. Wähalen Sie dann auf der **Materialkorrektur**-Registerkarte im Abschnitt **Neue Werte für Materialien** die Datenfelder aus, die für die ausgewählten Materialpositionen korrigiert werden sollen. Beispielsweise können Sie das Material einem anderen Projekt zuordnen oder das Produkt, den Materialtermin oder die Lohnbearbeitung korrigieren.
+
+4. Wählen Sie das Feld **Vorschau** aus. Wählen Sie dann im Dialogfeld die Option **OK** aus.
+
+5. Überprüfen Sie auf der **Erfassungsposition**-Registerkarte die Korrekturen. Sie können eine Liste der ursprünglichen Ist-Werte anzeigen, die sich auf die ausgewählten Materialposten beziehen, die storniert wurden, und die entsprechenden korrigierten Zeilen, die erstellt wurden.
+
+6. Wenn die Korrekturen wie erwartet angezeigt werden, wählen Sie **Bestätigen** aus. Wählen Sie dann im Dialogfeld die Option **OK** aus. Wenn die Werte nicht wie erwartet sind, wählen Sie **Stornieren**, um zur Liste **Ist-Werte** zurückzukehren. Wiederholen Sie dann die Schritte 2 bis 5.
+
+7. Nachdem Sie das Korrekturjournal bestätigt haben, kehren Sie zu dem Projekt oder den Projekten zurück, die Sie aktualisiert haben, um Ihre Änderungen anzuzeigen.
+
+8. Auf der Projektseite überprüfen Sie auf der **Ist-Werte**-Registerkarte die Liste **Zugeordnete Ansicht: Tatsächliche Transaktionen**. Die ursprünglichen Einträge und die korrigierten Einträge werden aufgelistet.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

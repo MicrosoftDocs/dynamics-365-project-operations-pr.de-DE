@@ -4,14 +4,14 @@ description: Dieses Thema bietet Details zur Verarbeitung von kundenspezifischen
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989910"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585607"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projektrechnungsvorschläge verwalten
 
@@ -22,7 +22,7 @@ Projektrechnungsvorschläge können von Ihrer Rechnungsabteilung bearbeitet werd
   - Der Projektmanager bestätigt die Proforma-Rechnung in Microsoft Dataverse.
   - Alle in der Proforma-Rechnung enthaltenen nicht in Rechnung gestellten Zeit- und Materialverkaufstransaktionen werden mithilfe dem Dynamics 365 Journal **Integration von Project Operations** gebucht.
 
-Führen Sie die folgenden Schritte aus, um einen Projektrechnungsvorschlag in Dynamics 365 Finance abzuschließen.
+Verwenden Sie die folgenden Schritte, um einen Projektrechnungsvorschlag in Dynamics 365 Finance abzuschließen.
 
 1. Überprüfen Sie die Rechnungsinformationen für Zeit- und Materialtransaktionen und buchen Sie das Journal **Project Operations**.
 2. Überprüfen Sie die Rechnungsinformationen für Meilensteine für die Festpreisabrechnung.

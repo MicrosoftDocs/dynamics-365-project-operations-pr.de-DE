@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986580"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585791"
 ---
 # <a name="expense-management-integration"></a>Ausgabenverwaltungsintegration
 
@@ -22,19 +22,19 @@ Dieses Thema enthält Informationen zur Kostenberichtsintegration in Project Ope
 
 ## <a name="expense-categories"></a>Spesenkategorien
 
-Bei einer vollständigen Kostenbereitstellung werden Kostenkategorien in Finance and Operations Apps erstellt und verwaltet. Mit den folgenden Schritten können Sie eine neue Kostenkategorie erstellen:
+Bei einer vollständigen Ausgabenbereitstellung werden Ausgabenkategorien in Finanz- und Betriebs-Apps erstellt und verwaltet. Mit den folgenden Schritten können Sie eine neue Kostenkategorie erstellen:
 
-1. Erstellen Sie in Microsoft Dataverse die Kategorie **Transaktion**. Durch die Dual-Write-Integration wird diese Transaktionskategorie mit Finance and Operations Apps synchronisiert. Weitere Informationen finden Sie unter [Projektkategorien konfigurieren](/dynamics365/project-operations/project-accounting/configure-project-categories) und [Project Operations-Einrichtung und Integration der Konfigurationsdaten](resource-dual-write-setup-integration.md). Als Ergebnis dieser Integration erstellt das System vier gemeinsam genutzte Kategoriedatensätze in Finance and Operations Apps.
+1. Erstellen Sie in Microsoft Dataverse die Kategorie **Transaktion**. Die Integration für duales Schreiben synchronisiert diese Transaktionskategorie mit Finanz- und Betriebs-Apps. Weitere Informationen finden Sie unter [Projektkategorien konfigurieren](/dynamics365/project-operations/project-accounting/configure-project-categories) und [Project Operations-Einrichtung und Integration der Konfigurationsdaten](resource-dual-write-setup-integration.md). Als Ergebnis dieser Integration erstellt das System vier freigegebene Kategoriedatensätze in Finanz- und Betriebs-Apps.
 2. Gehen Sie in Finance zu **Ausgabenmanagement** > **Einrichten** > **Gemeinsame Kategorien** und wählen Sie eine gemeinsame Kategorie mit einer **Ausgaben** Transaktionsklasse. Stellen Sie den Parameter **Kann in Ausgaben verwendet werden** auf **True** und definieren Sie die zu verwendende Aufwandsart.
 3. Erstellen Sie mithilfe dieses Datensatzes für gemeinsam genutzte Kategorien eine neue Ausgabenkategorie, indem Sie zu **Ausgabenmanagement** > **Einrichten** > **Ausgabenkategorien** gehen und **Neu** auswählen. Wenn der Datensatz gespeichert wird, verwendet Dual-Write die Tabellenzuordnung **Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn\_expensecategories)**, um diesen Datensatz zu mit Dataverse synchronisieren.
 
   ![Ausgabenkategorienintegration.](./media/DW6ExpenseCategories.png)
 
-Ausgabenkategorien in Finance and Operations-Apps sind unternehmensspezifisch oder juristische Person-spezifisch. Es gibt separate, zugehörige juristische Person-spezifische Datensätze in Dataverse. Wenn ein Projektmanager Ausgaben schätzt, kann er keine Ausgabenkategorien auswählen, die für ein Projekt erstellt wurden, das einem anderen Unternehmen gehört als dem Unternehmen, dem das Projekt gehört, an dem er arbeitet. 
+Ausgabenkategorien in Finanz- und Betriebs-Apps sind spezifisch für das Unternehmen oder die juristische Person. Es gibt separate, zugehörige juristische Person-spezifische Datensätze in Dataverse. Wenn ein Projektmanager Ausgaben schätzt, kann er keine Ausgabenkategorien auswählen, die für ein Projekt erstellt wurden, das einem anderen Unternehmen gehört als dem Unternehmen, dem das Projekt gehört, an dem er arbeitet. 
 
 ## <a name="expense-reports"></a>Ausgabenberichte
 
-Ausgabenberichte werden in Finance and Operations Apps erstellt und genehmigt. Weitere Informationen finden Sie unter [Erstellen und Verarbeiten der Spesenabrechnungen in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Nachdem die Spesenabrechnung vom Projektmanager genehmigt wurde, wird sie in die Finanzbuchhaltung gebucht. In Project Operations werden projektbezogene Ausgabeberichtszeilen nach speziellen Buchungsregeln gebucht:
+Spesenabrechnungen werden in Finanz- und Betriebs-Apps erstellt und genehmigt. Weitere Informationen finden Sie unter [Erstellen und Verarbeiten der Spesenabrechnungen in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Nachdem die Spesenabrechnung vom Projektmanager genehmigt wurde, wird sie in die Finanzbuchhaltung gebucht. In Project Operations werden projektbezogene Ausgabeberichtszeilen nach speziellen Buchungsregeln gebucht:
 
   - Projektbezogene Kosten (einschließlich nicht erstattungsfähiger Steuern) werden nicht sofort in der Finanzbuchhaltung auf das Projektkostenkonto gebucht, sondern auf das Kostenintegrationskonto. Dieses Konto wird in **Projektmanagement und Buchhaltung** > **Einrichten** > **Projektmanagement- und Buchhaltungsparameter** auf der Registerkarte **Project Operations in Dynamics 365 Customer Engagement** konfiguriert.
   - Dual-Write synchronisiert mit Dataverse mithilfe der Tabellenzuordnung **Project Operations-Integration Projektkosten-Exportentität (msdyn\_expenses)**.

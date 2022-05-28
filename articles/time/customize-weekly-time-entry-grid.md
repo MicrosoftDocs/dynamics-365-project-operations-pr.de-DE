@@ -2,16 +2,16 @@
 title: Zeiteinträge verlängern
 description: Dieses Thema enthält Informationen darüber, wie Entwickler die Zeiteintragssteuerung erweitern können.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993330"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582985"
 ---
 # <a name="extending-time-entries"></a>Zeiteinträge verlängern
 
@@ -43,7 +43,7 @@ Zeiteinträge sind eine Kernentität, die in mehreren Szenarien verwendet wird. 
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Zeiteinträge und die Zeitquellenentität
-Jeder Zeiteintrag ist einem Zeitquellendatensatz zugeordnet. Dieser Datensatz legt fest, wie und welche Anwendungen der Zeiteintrag verarbeiten sollen.
+Jeder Zeiteintrag ist einem Zeitquellendatensatz zugeordnet. Dieser Datensatz legt fest, welche Anwendungen den Zeiteintrag wie verarbeiten sollen.
 
 Zeiteinträge sind immer ein zusammenhängender Zeitblock, mit dem Start, Ende und Dauer verknüpft sind.
 
@@ -72,73 +72,63 @@ Zeiteintragsdatensätze haben einen zugeordneten Typ, der das Verhalten im Über
 |Urlaub   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Wöchentliches Zeiteintragssteuerelement anpassen
 Entwickler können anderen Entitäten zusätzliche Felder und Suchvorgänge hinzufügen und benutzerdefinierte Geschäftsregeln implementieren, um ihre Geschäftsszenarien zu unterstützen.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Hinzufügen benutzerdefinierter Felder mit Suchen für andere Entitäten
 Es gibt drei Hauptschritte zum Hinzufügen eines benutzerdefinierten Felds zum Raster für den wöchentlichen Zeiteintrag.
 
-1. Fügen Sie das benutzerdefinierte Feld dem Schnellerfassungs-Dialogfeld hinzu.
+1. Fügen Sie benutzerdefinierte Feld dem **Schnellerfassung**-Dialogfeld hinzu.
 2. Konfigurieren Sie das Raster, um das benutzerdefinierte Feld anzuzeigen.
-3. Fügen Sie das benutzerdefinierte Feld dem Aufgabenfluss „Zeile bearbeiten“ oder dem Aufgabenfluss „Zelle bearbeiten“ hinzu.
+3. Fügen Sie das benutzerdefinierte Feld wie erforderlich zu der Seite **Zeile bearbeiten** oder **Zeiteintrag bearbeiten**.
 
-Stellen Sie sicher, dass das neue Feld über die erforderlichen Prüfungen im Aufgabenfluss „Zeile bearbeiten“ oder „Zelle bearbeiten“ verfügt. Sperren Sie im Rahmen dieses Schritts das Feld basierend auf dem Status des Zeiteintrags.
+Stellen Sie sicher, dass das neue Feld auf der Seite **Bearbeiten von Zeilen** oder **Bearbeiten von Zeiteinträgen** über die erforderlichen Validierungen verfügt. Im Rahmen dieser Aufgabe müssen Sie das Feld basierend auf dem Status des Zeiteintrags sperren.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Hinzufügen des benutzerdefinierten Felds zum Schnellerfassungs-Dialogfeld
-Fügen Sie das benutzerdefinierte Feld dem Dialogfeld **Schnellerfassung für Zeiteintrag** hinzu. Wenn Zeiteinträge anschließend hinzugefügt werden, kann ein Wert durch Auswahl von **Neu** eingegeben werden.
+Wenn Sie ein benutzerdefiniertes Feld zum **Zeiteintrag**-Raster hinzufügen und dann Zeiteinträge direkt im Raster erstellen, wird das benutzerdefinierte Feld für diese Einträge automatisch so festgelegt, dass es mit der Zeile übereinstimmt. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Das benutzerdefinierte Feld dem Schnellerfassungs-Dialogfeld hinzufügen
+Fügen Sie das benutzerdefinierte Feld dem Dialogfeld **Schnellerfassung: Zeiteintrag erstellen** hinzu. Benutzer können dann einen Wert eingeben, wenn sie Zeiteinträgen hinzufügen, indem sie **Neu** auswählen.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurieren des Rasters, um das benutzerdefinierte Feld anzuzeigen
-Es gibt zwei Möglichkeiten zum Hinzufügen eines benutzerdefinierten Felds zum Raster für den wöchentlichen Zeiteintrag:
+Es gibt zwei Möglichkeiten zum Hinzufügen eines benutzerdefinierten Felds zum Raster **Wöchentlicher Zeiteintrag**.
 
-  - Anpassen einer Ansicht und Hinzufügen eines benutzerdefinierten Felds
-  - Erstellen eines standardmäßigen benutzerdefinierten Zeiteintrags 
+- Passen Sie die Ansicht **Meine wöchentlichen Zeiteinträge** an, und fügen Sie ihr das benutzerdefinierte Feld hinzu. Sie können die Position und Größe des benutzerdefinierten Felds im Raster angeben, indem Sie die Eigenschaften in der Ansicht bearbeiten.
+- Erstellen Sie eine neue benutzerdefinierte Zeiteintragsansicht, und legen Sie diese als Standardansicht fest. Diese Ansicht sollte die Felder **Beschreibung** und **Externe Kommentare** enthalten, zusätzlich zu den Spalten, die im Raster enthalten sein sollen. Sie können die Position, Größe und standardmäßige Sortierreihenfolge des Rasters angeben, indem Sie die Eigenschaften in der Ansicht bearbeiten. Anschließend konfigurieren Sie das benutzerdefinierte Steuerelement für diese Ansicht, damit es zu einem Steuerelement **Zeiteintragsraster** wird. Fügen Sie das Steuerelement der Ansicht hinzu, und wählen Sie es für **Internet**, **Smartphone** und **Tablet** aus. Konfigurieren Sie dann die Parameter für das Raster **Wöchentlicher Zeiteintrag**. Legen Sie das Feld **Startdatum** auf **msdyn\_date**, das Feld **Dauer** auf **msdyn\_duration** und das Feld **Status** auf **msdyn\_entrystatus** fest. Das **Schreibgeschützte Statusliste**-Feld ist auf **192350002 (Genehmigt)**, **192350003 (Eingereicht)** oder **192350004 (Rückruf angefordert)** festgelegt.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Hinzufügen des benutzerdefinierten Felds zur entsprechenden Bearbeitungsseite
+Die Seiten, die zum Bearbeiten eines Zeiteintrags oder einer Zeile von Zeiteinträgen verwendet werden, finden Sie unter **Formulare**. Die **Eintrag bearbeiten**-Schaltfläche im Raster öffnet die **Eintrag bearbeiten**-Seite und die **Zeile bearbeiten**-Schaltfläche öffnet die **Zeile bearbeiten**-Seite. Sie können diese Seiten bearbeiten, sodass sie benutzerdefinierte Felder enthalten.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Anpassen einer Ansicht und Hinzufügen eines benutzerdefinierten Felds
+Durch beide Optionen werden einige der standardmäßigen Filterungen bei den Entitäten **Projekt** und **Projektaufgabe** entfernt, sodass alle Suchansichten für die Entitäten sichtbar werden. Standardmäßig sind nur die relevanten Suchansichten sichtbar.
 
-Passen Sie die Ansicht **Meine wöchentlichen Zeiteinträge** an, und fügen Sie ihr das benutzerdefinierte Feld hinzu. Sie können die Position und Größe des benutzerdefinierten Felds im Raster auswählen, indem Sie die Eigenschaften in der Ansicht bearbeiten.
+Sie müssen die entsprechende Seite für das benutzerdefinierte Feld festlegen. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich auf der Seite **Zeile bearbeiten** verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag in der Zeile einen eindeutigen Wert hat, (z. B. wenn es ein benutzerdefiniertes Feld für Endzeit ist) , sollte es auf die Seite **Zelle bearbeiten** verschoben werden.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Erstellen eines standardmäßigen benutzerdefinierten Zeiteintrags
-
-Diese Ansicht sollte die Felder **Beschreibung** und **Externe Kommentare** enthalten, zusätzlich zu den Spalten, die Sie im Raster haben möchten. 
-
-1. Wählen Sie die Position, Größe und standardmäßige Sortierreihenfolge des Rasters aus, indem Sie diese Eigenschaften in der Ansicht bearbeiten. 
-2. Konfigurieren Sie das benutzerdefinierte Steuerelement für diese Ansicht, damit es zu einem Steuerelement **Zeiteintragsraster** wird. 
-3. Fügen Sie dieses Steuerelement der Ansicht hinzu, und wählen Sie es für Internet, Smartphone und Tablet aus. 
-4. Konfigurieren Sie die Parameter für das Raster für den wöchentlichen Zeiteintrag. 
-5. Legen Sie das Feld **Startdatum** auf **msdyn_date**, das Feld **Dauer** auf **msdyn_duration** und das Feld **Status** auf **msdyn_entrystatus** fest. 
-6. Für die Standardansicht wird das Feld **Schreibgeschützte Statusliste** auf **192350002,192350003,192350004** festgelegt. Das Feld **Aufgabenflow zur Zeilenbearbeitung** ist auf **msdyn_timeentryrowedit** festgelegt. Das Feld **Aufgabenflow zur Zellenbearbeitung** ist auf **msdyn_timeentryedit** festgelegt. 
-7. Sie können diese Felder anpassen, um den schreibgeschützten Status hinzuzufügen oder zu entfernen, oder eine andere aufgabenbasierte Umgebung (task-based experience, TBX) für die Zeilen- oder Zellenbearbeitung zu verwenden. Diese Felder werden nun an einen statischen Wert gebunden.
-
-
-> [!NOTE] 
-> Durch beide Optionen werden einige der standardmäßigen Filterungen bei den Entitäten **Projekt** und **Projektaufgabe** entfernt, sodass alle Suchansichten für die Entitäten sichtbar werden. Standardmäßig sind nur die relevanten Suchansichten sichtbar.
-
-Legen Sie den entsprechenden Aufgabenfluss für das benutzerdefinierte Feld fest. Wenn Sie das Feld dem Raster hinzugefügt haben, sollte es höchstwahrscheinlich in den Aufgabenflow „Zeile bearbeiten“ verschoben werden, der für Felder verwendet wird, die auf die gesamte Zeile mit Zeiteinträgen angewendet werden. Wenn das benutzerdefinierte Feld jeden Tag einen eindeutigen Wert hat, wie ein benutzerdefiniertes Feld für **Endzeit**, sollte es in den Aufgabenfluss „Zelle bearbeiten“ verschoben werden.
-
-Um einem Aufgabenfluss ein benutzerdefiniertes Feld hinzuzufügen, ziehen Sie ein Element **Feld** an die geeignete Position auf der Seite, und legen Sie dann die Feldeigenschaften fest. Legen Sie die Eigenschaft **Quelle** auf **Zeiteintrag** und dann die Eigenschaft **Datenfeld** für das benutzerdefinierte Feld fest. Die Eigenschaft **Feld** gibt den Anzeigenamen auf der TBX-Seite an. Wählen Sie **Anwenden**, um Ihre Änderungen im Feld zu speichern, und wählen Sie dann **Aktualisieren**, um Ihre Änderungen an der Seite zu speichern.
-
-Um stattdessen eine neue benutzerdefinierte TBX-Seite zu verwenden, erstellen Sie einen neuen Prozess. Legen Sie die Kategorie auf **Geschäftsprozessflow**, die Entität auf **Zeiteintrag** und den Geschäftsprozesstyp auf **Prozess als Aufgabenflow ausführen** fest. Unter **Eigenschaften** sollte die Eigenschaft **Seitenname** auf den Anzeigenamen für die Seite festgelegt werden. Fügen Sie der TBX-Seite alle relevanten Felder hinzu. Speichern und aktivieren Sie den Prozess. Aktualisieren Sie dann die Eigenschaft für das benutzerdefinierte Steuerelement für den relevanten Aufgabenflow auf den Wert **Name** im Prozess.
+Um einer Seite ein benutzerdefiniertes Feld hinzuzufügen, ziehen Sie ein Element **Feld** an die geeignete Position auf der Seite, und legen Sie dann die Eigenschaften fest.
 
 ### <a name="add-new-option-set-values"></a>Hinzufügen neuer Optionssatzwerte
-Um Optionssatzwerte einem standardmäßigen Feld hinzuzufügen, öffnen Sie die Bearbeitungsseite des Felds und wählen Sie unter **Typ** die Option **Bearbeiten** neben dem Optionssatz aus. Fügen Sie eine neue Option hinzu, die eine benutzerdefinierte Beschriftung und Farbe hat. Wenn Sie einen neuen Zeiteintragsstatus hinzufügen möchten, wird das standardmäßige Feld **Eintragsstatus** und nicht **Status** genannt.
+Um die Optionssatzwerte einem Standardfeld hinzufügen, gehen Sie folgendermaßen vor.
+
+1. Öffnen Sie die Bearbeitungsseite des Felds und wählen Sie dann unter **Typ** die Option **Bearbeiten** neben dem Optionssatz aus.
+2. Fügen Sie eine neue Option hinzu, die eine benutzerdefinierte Beschriftung und Farbe hat. Wenn Sie einen neuen Zeiteintragsstatus hinzufügen möchten, wird das standardmäßige Feld **Eintragsstatus** genannt.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Festlegen eines neuen Zeiteintragsstatus als „schreibgeschützt“
-Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt“ festlegen möchten, fügen Sie den neuen Zeiteintragswert der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Der bearbeitbare Teil des Zeiteintragsrasters wird für Zeilen mit dem Status „Neu“ gesperrt.
-Fügen Sie dann Geschäftsregeln hinzu, um alle Felder auf den TBX-Seiten **Bearbeiten der Zeile mit Zeiteintrag** und **Bearbeiten von Zeiteinträgen** zu sperren. Sie können auf die Geschäftsregeln für diese Seiten zugreifen, indem Sie den Editor für den Geschäftsprozessfluss für die Seite öffnen und dann **Geschäftsregeln** auswählen. Sie können den neuen Status der Bedingung in vorhandenen Geschäftsregeln hinzufügen, oder Sie können eine neue Geschäftsregel für den neuen Status hinzufügen.
+Wenn Sie einen neuen Zeiteintragsstatus als „schreibgeschützt“ festlegen möchten, fügen Sie den neuen Zeiteintragswert der Eigenschaft **Schreibgeschützte Statusliste** hinzu. Achten Sie darauf, die Nummer hinzuzufügen, nicht die Bezeichnung. Der bearbeitbare Teil des Zeiteintragsrasters wird jetzt für Zeilen mit dem Status „Neu“ gesperrt. Wenn Sie die **Schreibgeschützte Statusliste**-Eigenschaft für verschiedene **Zeiteintrag**-Ansichten unterschiedlich einrichten möchten, fügen Sie das **Zeiteintrag**-Raster im Abschnitt **Benutzerdefinierte Steuerelemente** einer Ansicht hinzu, und konfigurieren Sie die Parameter entsprechend.
+
+Fügen Sie dann Geschäftsregeln hinzu, um alle Felder auf den TBX-Seiten **Bearbeiten der Zeile** und **Bearbeiten von Zeiteinträgen** zu sperren. Um auf die Geschäftsregeln für diese Seiten zugreifen, öffnen Sie den Formulareditor für jede Seite und wählen dann **Geschäftsregeln**. Sie können den neuen Status der Bedingung in vorhandenen Geschäftsregeln hinzufügen, oder Sie können eine neue Geschäftsregel für den neuen Status hinzufügen.
 
 ### <a name="add-custom-validation-rules"></a>Hinzufügen benutzerdefinierter Prüfungsregeln
-Es gibt zwei Arten von Validierungsregeln, die Sie für das wöchentliche Zeiteintragsraster hinzufügen können:
+Sie können zwei Arten von Validierungsregeln für die **Wöchentlicher Zeiteintrag**-Rastererfahrung hinzufügen:
 
-- Clientseitige Geschäftsregeln, die in Dialogfeldern zum schnellen Erstellen und auf TBX-Seiten funktionieren.
-- Serverseitige Plug-In-Überprüfungen, die für alle Aktualisierungen von Zeiteinträgen gelten.
+- Clientseitige Geschäftsregeln, die auf Seiten funktionieren
+- Serverseitige Plug-In-Validierungen, die für alle Aktualisierungen von Zeiteinträgen gelten
 
-#### <a name="business-rules"></a>Geschäftsregeln
-Mithilfe von Geschäftsregeln können Sie Felder sperren und entsperren, Standardwerte in Felder eingeben und Prüfungen festlegen, die Informationen nur aus dem aktuellen Zeiteintrags-Datensatz erfordern. Sie können auf die Geschäftsregeln für eine TBX-Seite zugreifen, indem Sie den Editor für den Geschäftsprozessfluss für die Seite öffnen und dann **Geschäftsregeln** auswählen. Sie können dann die vorhandenen Geschäftsregeln bearbeiten oder eine neue Geschäftsregel hinzufügen. Wenn Sie die Prüfungen noch weiter anpassen möchten, können Sie JavaScript mithilfe einer Geschäftsregel ausführen.
+#### <a name="client-side-business-rules"></a>Clientseitige Geschäftsregeln
+Mithilfe von Geschäftsregeln können Sie Felder sperren und entsperren, Standardwerte in Felder eingeben und Prüfungen festlegen, die Informationen nur aus dem aktuellen Zeiteintrags-Datensatz erfordern. Um auf die Geschäftsregeln für eine Seite zugreifen, öffnen Sie den Formulareditor und wählen dann **Geschäftsregeln**. Sie können dann die vorhandenen Geschäftsregeln bearbeiten oder eine neue Geschäftsregel hinzufügen.
 
-#### <a name="plug-in-validations"></a>Plug-In-Prüfungen
-Verwenden Sie Plug-In-Prüfungen für alle Prüfungen, bei denen mehr Kontext erforderlich ist, als in einem einzelnen Zeiteintrags-Datensatz vorhanden ist, oder für alle Prüfungen, die Sie für Inline-Aktualisierungen im Raster ausführen möchten. Um die Prüfung abzuschließen, erstellen Sie ein benutzerdefiniertes Plug-In in der Entität **Zeiteintrag**.
+#### <a name="server-side-plug-in-validations"></a>Serverseitige Plug-In-Validierungen
+Sie sollten Plug-In-Prüfungen für alle Prüfungen, bei denen mehr Kontext erforderlich ist, als in einem einzelnen Zeiteintrags-Datensatz vorhanden ist. Sie sollten sie auch für alle Validierungen verwenden, die Sie für Inline-Updates im Raster ausführen möchten. Um die Validierungen abzuschließen, erstellen Sie ein benutzerdefiniertes Plug-In in der Entität **Zeiteintrag**.
+
+### <a name="limits"></a>Grenzwerte
+Derzeit hat das **Zeiteintrag**-Raster eine Größenbeschränkung von 500 Zeilen. Wenn mehr als 500 Zeilen vorhanden sind, werden die überschüssigen Zeilen nicht angezeigt. Es gibt keine Möglichkeit, diese Größenbeschränkung zu erhöhen.
 
 ### <a name="copying-time-entries"></a>Kopieren von Zeiteinträgen
 Verwenden Sie die Ansicht **Zeiteintragsspalten kopieren**, um die Liste der Felder zu definieren, die während der Zeiteingabe kopiert werden sollen. **Datum** und **Dauer** sind Pflichtfelder und sollten nicht aus der Ansicht entfernt werden.

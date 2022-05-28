@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen, die Ihnen helfen, den korrekte
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994635"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584135"
 ---
 # <a name="determine-your-deployment-type"></a>Bereitstellungstyp festlegen
 
@@ -25,7 +25,7 @@ _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, L
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Vorhandene Kunden von Dynamics, die Dynamics 365 Project Service Automation nutzen
 Project Operations umfasst die Funktionen, die mit Project Service Automation geliefert werden. Für diese Kunden wird in der Veröffentlichungswelle 1 2021 ein Upgrade-Pfad freigegeben.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Vorhandene Kunden von Dynamics 365 Finance, die Projektmanagement und -buchhaltung verwenden 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Vorhandene Kunden von Dynamics 365 Finance, die Projektmanagement und Buchhaltung verwenden 
 
 Bestehende Finance-Kunden, die die Projektmanagement- und Buchhaltungsfunktion verwenden, können sie weiterhin unverändert verwenden. Weitere Informationen finden Sie unter [Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigungsaufträgen](#pma).
 
@@ -42,9 +42,9 @@ Unsere [Bereitstellungsfragebogen](https://aka.ms/provisionprojectoperations) hi
 - [Project Operations für Szenarien basierend auf vorrätigen/nicht vorrätigen Ressourcen](#integrated)
 - [Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigungsaufträgen](#pma)
 
-Project Operations unterstützt Lager-/Produktionsauftragsszenarien und nicht lagernde/ressourcenbasierte Szenarien in derselben Umgebung durch Konfigurationen auf der Ebene der juristischen Person. Beispielsweise kann Contoso die Lagerbestands-/Produktionsauftragsfunktionen in ihrer US-Produktionsstätte nutzen (juristische Person = Contoso Manufacturing United States). Contoso kann die nicht vorrätigen/ressourcenbasierten Funktionen in der Contoso Robotics Arms-Serviceeinrichtung im Vereinigten Königreich (juristische Person = Contoso Robotics Vereinigtes Königreich) verwenden.
+Project Operations unterstützt Lager-/Produktionsauftragsszenarien und nicht lagernde/ressourcenbasierte Szenarien in derselben Umgebung durch Konfigurationen auf der Ebene der juristischen Person. Beispielsweise kann Contoso die Lagerbestands-/Produktionsauftragsfunktionen in seiner US-Produktionsstätte nutzen (juristische Person = Contoso Manufacturing United States). Contoso kann die nicht vorrätigen/ressourcenbasierten Funktionen in seiner Contoso Robotics Arms-Serviceeinrichtung im Vereinigten Königreich (juristische Person = Contoso Robotics, Vereinigtes Königreich) verwenden.
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
 
 Die Lite-Bereitstellung umfasst die folgenden Funktionen:
 

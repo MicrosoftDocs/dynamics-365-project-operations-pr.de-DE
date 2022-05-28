@@ -4,26 +4,26 @@ description: Dieses Thema enthält Informationen zu den wichtigen Konzepten von 
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986940"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582939"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Konzepte, die nur für projektbasierte Verträge gelten
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dieses Thema enthält die wichtigsten Konzepte, die Sie kennen sollten, bevor Sie mit der Verwendung von Projektverträgen in Dynamics 365 Project Operations beginnen:
 
 ## <a name="owning-company"></a>Zuständiges Unternehmen
 
-Das zuständige Unternehmen ist die juristischen Person aus dem Modul **Projektmanagement und -buchhaltung** für Project Operations aus Dynamics 365 Finance. Das zuständige Unternehmen repräsentiert die juristische Person, die die Kosten und den Umsatz aus einem Geschäft berücksichtigt.
+Das zuständige Unternehmen ist die juristische Person aus dem Modul **Projektmanagement und -buchhaltung** für Project Operations von Dynamics 365 Finance. Das zuständige Unternehmen repräsentiert die juristische Person, die die Kosten und den Umsatz aus einem Geschäft berücksichtigt.
 
 ## <a name="contracting-unit"></a>Vertragseinheit
 
