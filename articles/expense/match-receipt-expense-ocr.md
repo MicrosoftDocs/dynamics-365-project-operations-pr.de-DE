@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798039"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596279"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Eine Quittung mit OCR erfassen
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Schritte aus, um eine Ausgabe zu erstellen oder eine A
 
 ## <a name="installation"></a>Installation
 
-Um diese erweiteren Ausgabenfunktionen zu nutzen, installieren Sie Ausgabenverwaltungs-Service-Add-In für Microsoft Dynamics 365 Finance und aktivieren Sie die Funktionen in Ihrer Instanz. Sie können von Ihrem Projekt aus auf das Add-In Microsoft Dynamics Lifecycle Services (LCS) zugreifen.
+Wenn Sie diese erweiterten Ausgabenfunktionen nutzen möchten, installieren Sie das Add-In für den Spesenverwaltungsdienst für Microsoft Microsoft Dynamics 365 Finance und aktivieren Sie die Funktionen in Ihrer Instance. Sie können von Ihrem Projekt aus auf das Add-In Microsoft Dynamics Lifecycle Services (LCS) zugreifen.
 
 1. Melden Sie sich bei LCS an, und öffnen Sie die gewünschte Umgebung.
 2. Gehen Sie zu **Alle Einzelheiten**.

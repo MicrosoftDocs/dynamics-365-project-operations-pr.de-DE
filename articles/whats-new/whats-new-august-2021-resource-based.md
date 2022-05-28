@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501370"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594163"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Was ist neu August 2021 - Project Operations für ressourcenbasierte/nicht vorrätige Szenarien
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501370"
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
    - Project Operations in der Microsoft Dataverse-Umgebung Version 4.13.0.152.
-   - Projektmanagement und -buchhaltung in der Dynamics 365 Finance-Umgebung Version 10.0.20.
+   - Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 
@@ -54,7 +54,7 @@ Wenn ein Problem beim Starten der Zuordnung auftritt, befolgen Sie die Anweisung
 | Zeit und Ausgaben | 2336884 | Die Zeiteingabeschaltfläche **Woche kopieren** muss für mehr als nur für den aktuellen Benutzer funktionieren. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung in Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung bei Dynamics 365 Finance
 
 | Funktionsbereich | Referenznummer | Qualitätsupdate |
 | --- | --- | --- |

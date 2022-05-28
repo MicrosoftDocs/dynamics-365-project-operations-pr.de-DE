@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992700"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597061"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Was ist neu oder geändert in Project Operations, Juli 2021 für lager-/produktionsbasierte Szenarien
 
@@ -20,7 +20,7 @@ _**Gilt für:** Project Operations für lager-/produktionsbasierte Szenarien_
 
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
-- Projektmanagement und Buchhaltung in Dynamics 365 Finance, Umgebungsversion 10.0.20
+- Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.20
  
 ### <a name="quality-updates"></a>Qualitätsupdates
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten
 | Reisekosten und Ausgaben                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Das Tool **Status des Spesenbelegs zurücksetzen** sollte den Status der Spesenabrechnung auf **Entwurf** zurücksetzen, wenn der Workflow nicht gefunden wurde. 
 
 ### <a name="regulatory-updates"></a>Aktualisierungen der Vorschriften
-Informationen zu behördlichen Aktualisierungen für Finance and Operations-Apps, siehe [Aktualisierungen der Vorschriften](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei Lifecycle Services (LCS) anmelden und die geplanten Aktualisierungen der Vorschriften mit dem Tool Ausgabensuche anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
+Informationen zu regulatorischen Aktualisierungen für Finanz- und Betriebs-Apps finden Sie unter [Regulatorische Aktualisierungen](/dynamics365/finance/localizations/regulatory-updates). Sie können sich auch bei Lifecycle Services (LCS) anmelden und die geplanten Aktualisierungen der Vorschriften mit dem Tool Ausgabensuche anzeigen. Mit der Problemsuche können Sie nach Land, Art der Funktion und Version suchen.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753291"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598487"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten Oktober 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753291"
 Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
 
    - Project Operations in der Microsoft Dataverse-Umgebung Version 4.25.0.91
-   - Projektmanagement und Buchhaltung in Dynamics 365 Finance, Umgebungsversion 10.0.21
+   - Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 
@@ -49,7 +49,7 @@ Wenn beim Starten der Karte ein Problem auftritt, befolgen Sie die Anweisungen i
 | Preise und Abrechnung | 2338357 | Die Währung im Materialverwendungsprotokoll muss der Projektwährung entsprechen, wenn das Projekt ausgewählt wird. |
 | Zeit und Ausgaben | 2414777 | Das Stornieren einer Genehmigung, wenn der Aufwands- oder Zeitbuchung mehr als eine Projektgenehmigung zugeordnet ist, muss möglich sein. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung in Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projektmanagement und -buchhaltung bei Dynamics 365 Finance
 
 | Funktionsbereich | Referenznummer | Qualitätsupdate |
 | --- | --- | --- |

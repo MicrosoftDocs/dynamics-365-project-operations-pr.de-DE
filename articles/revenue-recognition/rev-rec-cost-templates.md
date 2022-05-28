@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zum Erstellen und Verwenden von
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993555"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594209"
 ---
 # <a name="set-up-cost-templates"></a>Kostenvorlagen einrichten
 
@@ -56,7 +56,7 @@ Die Entscheidung, welcher Ansatz zum Erstellen einer Kostenvorlage gewählt werd
 ## <a name="create-cost-templates"></a>Kostenvorlagen erstellen
 Gehen Sie wie folgt vor, um eine Kostenvorlagen zu erstellen:
 
-1. Um auf Kostenvorlagen zuzugreifen, gehen Sie in der Dynamics 365 Finance-Umgebung zu **Projektmanagement und Buchhaltung** > **Einrichten** > **Schätzungen** > **Kostenvorlage**.
+1. Um auf Kostenvorlagen zuzugreifen, gehen Sie in der Dynamics 365 Finance-Umgebung zu **Projektmanagement und Buchhaltung** > **Einrichtungen** > **Schätzungen** > **Kostenvorlage**.
 2. Wählen Sie **Neu** aus, um eine neue Kostenvorlage zu erstellen. Geben Sie einen Namen und eine Beschreibung ein.
 3. Geben Sie die Kostenzeilen-ID für jeden Transaktionstyp an.
 4. Wählen Sie eine Standardabschlussmethode aus:

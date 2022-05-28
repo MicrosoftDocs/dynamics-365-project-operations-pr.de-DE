@@ -2,17 +2,16 @@
 title: Projektaufwandsverfolgung
 description: Dieses Thema enthält Informationen zur Nachverfolgung des Projektaufwands und des Arbeitsfortschritts.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993960"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593795"
 ---
 # <a name="project-effort-tracking"></a>Projektaufwandsverfolgung
 
@@ -46,11 +45,12 @@ Der Aufwand für Zusammenfassungsaufgaben oder Containeraufgaben kann erneut hoc
 - Die neuen BK für jede der einzelnen Aufgaben bis hinunter zu den Blattknotenaufgaben wird berechnet. 
 - Für die betroffenen untergeordneten Aufgaben bis hinunter zu den Blattknoten wird der verbleibende Aufwand und der Fortschritt in Prozent basierend auf dem Wert für die EAC neu berechnet. Hieraus ergibt sich eine neue hochgerechnete Aufwandsabweichung für die Aufgabe. 
 - Die EAC wird für alle Zusammenfassungsaufgaben bis zum Stammknoten neu berechnet.
+- Der genehmigte Aufwand für einen Sammelvorgang ist die Summe des genehmigten Aufwands für alle untergeordneten Vorgänge plus dem genehmigten Aufwand für den Sammelvorgang.
+- Der verbleibende Aufwand für den Sammelvorgang ist die Summe des verbleibenden Aufwands für alle untergeordneten Vorgänge minus dem genehmigten Aufwand für den Sammelvorgang.
 
+## <a name="project-status-summary"></a>Projektstatuszusammenfassung
 
-## <a name="project-status-summary"></a>Zusammenfassung des Projektstatus
-
-Die Nachverfolgung von Daten in den Feldern **Aufwandsnachverfolgung** und **Kostennachverfolgung** zeigt den Fortschritt und den Kostenverbrauch für den Stammknoten des Projekts, die Zusammenfassungsaufgaben und die Blattknotenaufgaben an. Der Abschnitt **Status** auf der Seite **Projektentität** zeigt eine Zusammenfassung des Status auf Projekteben an.
+Nachverfolgungsdaten in den Ansichten **Aufwandsverfolgung** und **Kostenverfolgung** zeigen den Fortschritt und den Kostenverbrauch auf der Ebene des Projektstammknotens, der Zusammenfassungsaufgaben und der Blattknotenaufgaben an. Der Abschnitt **Status** auf der Seite **Projektentität** zeigt eine Zusammenfassung des Status auf Projekteben an.
 
 ## <a name="status-summary-fields"></a>Felder der Statuszusammenfassung
 

@@ -4,14 +4,14 @@ description: Dieses Thema enthält Informationen zum Erstellen von Intercompany-
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005480"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599967"
 ---
 # <a name="create-intercompany-transactions"></a>Intercompany-Transaktionen erstellen
 
@@ -30,14 +30,14 @@ Wenn eine Intercompany-Transaktion genehmigt wird, werden die folgenden tatsäch
 
 Kosten, die Beschaffungskosten für Einheiten sowie die Preise und die Währung für Verkaufstransaktionen zwischen Organisationen werden durch die **Organisationseinheit** bestimmt. Dies ist wichtig, wenn Sie entscheiden, wie Unternehmen und Organisationseinheiten in Ihrer Implementierung strukturiert werden sollen.
 
-Wenn Sie Opportunity-, Angebots-, Projektvertrags- und Projektaufzeichnungen erstellen, überprüft das System, ob die Währung der Vertragseinheit mit der Buchhaltungswährung des Vertragsunternehmens übereinstimmt. Wenn sie nicht identisch sind, können diese Datensätze nicht erstellt werden. Die Währung der Organisationseinheit wird in Dynamics 365 Project Operations definiert, indem Sie zu **Dataverse** > **Einstellungen** > **Organisationseinheiten** gehen. Die Rechnungswährung eines Unternehmens wird in Dynamics 365 Finance definiert, indem Sie zu **Finanzbuchhaltung** > **Sachkonto-Einstellungen** > **Sachkonto** gehen. Die Währung wird mit Ihrer Dataverse-Umgebung mit der Zuordnung für duales Schreiben des Sachkontos synchronisiert.
+Wenn Sie Opportunity-, Angebots-, Projektvertrags- und Projektaufzeichnungen erstellen, überprüft das System, ob die Währung der Vertragseinheit mit der Buchhaltungswährung des Vertragsunternehmens übereinstimmt. Wenn sie nicht identisch sind, können diese Datensätze nicht erstellt werden. Die Währung der Organisationseinheit wird in Dynamics 365 Project Operations definiert, indem Sie zu **Dataverse** > **Einstellungen** > **Organisationseinheiten** gehen. Die Buchhaltungswährung eines Unternehmens wird in Dynamics 365 Finance definiert, indem Sie zu **Hauptbuch** > **Hauptbuch einrichten** > **Hauptbuch** wechseln. Die Währung wird mit Ihrer Dataverse-Umgebung mit der Zuordnung für duales Schreiben des Sachkontos synchronisiert.
 
 Das System erstellt in den folgenden Situationen Ressourcen-Stückkosten und Ist-Verkaufszahlen zwischen Organisationen:
 
   - Wenn sich die Beschaffungseinheit von der Vertragseinheit unterscheidet
   - Wenn sich das Beschaffungsunternehmen vom Vertragsunternehmen unterscheidet
 
-Es werden jedoch nur Transaktionen an die Dynamics 365 Finance-Umgebung zur zusätzlichen Buchhaltung übertragen, die ein anderes Resourcing-Unternehmen als das Vertragsunternehmen haben.
+Es werden jedoch nur Transaktionen, die ein anderes Beschaffungsunternehmen als das Vertragsunternehmen haben, zur zusätzlichen Buchhaltung in die Dynamics 365 Finance-Umgebung übertragen.
 
 Die Bilanzierung von Projekt-Istdaten wird im Project Operations-Integrationsjournal in Finance erfasst. Das System erstellt die folgenden Journalzeilen.
 
@@ -60,7 +60,7 @@ Molly Clark, Entwicklerin bei GBPM, verzeichnet 10 Stunden Arbeit für ein USPM 
     4. Legen Sie die Währung auf **USD** fest.
     5. Speichern Sie den Datensatz.
 3. Gehen Sie zu **Vertrieb** > **Projektverträge** und erstellen Sie einen neuen Projektvertrag für Adventure Works.
-    1. Setzen Sie die Eigentümerfirma auf **USPM** und die Vertragseinheit auf **Contoso Robotics US**.
+    1. Stellen Sie die Eigentümerfirma auf **USPM** ein und die Vertragseinheit auf **Contoso Robotics US**.
     2. Wählen Sie Adventure Works als Debitor aus.
     3. Wählen Sie eine Produktpreisliste und speichern Sie den Datensatz.
     4. Auf der Registerkarte **Vertragspositionen** erstellen Sie eine neue Vertragsposition. Stellen Sie einen beliebigen Namen ein und wählen Sie **Zeit und Materialien** als Abrechnungsmethode.

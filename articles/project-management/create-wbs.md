@@ -4,14 +4,14 @@ description: In diesem Thema wird erläutert, wie Sie einen Projektstrukturplan 
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928614"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597797"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Einen Projektstrukturplan (PSP) erstellen
 
@@ -124,7 +124,7 @@ Beachten Sie die folgenden Einschränkungen, wenn Sie den Projektstrukturplan in
 |----------------------------------------------------|----------------------|
 | Maximale Gesamtanzahl an Aufgaben für ein Projekt                  | 500                  |
 | Maximale Gesamtdauer für ein Projekt               | 3650 Tage (10 Jahre) |
-| Maximale Gesamtressourcen für ein Projekt              | 150                  |
+| Maximale Gesamtressourcen für ein Projekt              | 300                  |
 | Maximale Gesamtzahl der Links (nur Nachfolger) für ein Projekt | 600                  |
 | Maximale Gesamtanzahl benutzerdefinierter Felder für ein Projekt          | 10                   |
 | Maximale Checklistenpunkte pro Aufgabe                   | 20                   |

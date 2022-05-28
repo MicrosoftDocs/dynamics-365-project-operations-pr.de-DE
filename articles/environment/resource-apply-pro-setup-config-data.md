@@ -4,27 +4,27 @@ description: Dieses Thema enthält Informationen zum Einrichten und Anwenden von
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986625"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594715"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Konfigurationsdaten in Common Data Service einrichten und anwenden 
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Anforderungen
 
 Bevor Sie mit der Konfiguration von Daten im Common Data Service (CDS) beginnen, müssen folgende Voraussetzungen erfüllt sein:
 
-1.  Bereitstellung einer CDS-Umgebung und einer Dynamics 365 Finance-Umgebung für Project Operations.
-2.  Informationen zu juristischen Personen von Dynamics 365 Finance werden für die CDS-Umgebung freigegeben. Dies bedeutet, dass die **Firma**-Entität in CDS die folgenden Firmendatensätze hat:
+1.  Stellen Sie eine CDS-Umgebung und eine Dynamics 365 Finance-Umgebung für Project Operations bereit.
+2.  Informationen zur juristischen Person aus Dynamics 365 Finance werden an die CDS-Umgebung weitergegeben. Dies bedeutet, dass die **Firma**-Entität in CDS die folgenden Firmendatensätze hat:
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ Bevor Sie mit der Konfiguration von Daten im Common Data Service (CDS) beginnen,
 
 ![Konfigurationsmigration.](./media/1ConfigurationMigration.png)
 
-4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Microsoft 365** als **Bereitstellungstyp** aus.
+4. Wählen Sie auf Seite 2 des CMT-Assistenten die Option **Microsoft 365** als den **Bereitstellungstyp** aus.
 5. Aktivieren Sie die Kontrollkästchen **Eine Liste der verfügbaren Organisationen anzeigen** und **Erweitert anzeigen**.
 6. Wählen Sie die Region Ihres Mandanten aus, geben Sie Ihre Anmeldeinformationen ein, und wählen Sie **Anmelden** aus.
 
@@ -132,7 +132,7 @@ Bevor Sie mit der Konfiguration von Daten im Common Data Service (CDS) beginnen,
 12. Aktualisieren Sie die folgenden Felder:
 
  - **Standardunternehmen**: USPM
- - **Standard-Organisationseinheit**: Contoso Robotik weltweit
+ - **Standard-Organisationseinheit**: Contoso Robotics Global
  - **Rechnungshäufigkeit**: Siebter und letzter Tag
  - **Arbeitszeitvorlage**: Wechseln Sie zu der von Ihnen erstellten Vorlage.
 

@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998460"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593611"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Preis- und Nachkalkulationsdimensions-Homepage
 
@@ -66,16 +67,16 @@ Das folgende Beispiel zeigt Rechnungssätze, die basierend auf der Rolle und der
 
 | Rolle        | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ------------|-------------|----------|----------:|----------|
-| Developer   | Contoso (USA)  |Stunde | 200|US-Dollar     |
-| Developer   | Contoso Indien |Stunde|   112|US-Dollar     |
+| Entwickler   | Contoso US  |Hour | 200|USD     |
+| Entwickler   | Koch Indien |Hour|   112|USD     |
 
 
 **Beispielkostensätze**
 
 | Gehaltsspanne     | Organisationseinheit    |Einheit      |Preis      |Währung  |
 | ----------------|-------------|----------|----------:|----------|
-| Mein Unternehmen_Band1 | Contoso (USA)  |Stunde | 145|US-Dollar     |
-| Mein Unternehmen_Band2 | Contoso Indien |Stunde|   67|US-Dollar     |
+| Mein Unternehmen_Band1 | Contoso US  |Hour | 145|USD     |
+| Mein Unternehmen_Band2 | Koch Indien |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

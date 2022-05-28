@@ -2,17 +2,17 @@
 title: Problembehandlung für die Arbeit im Aufgabenraster
 description: Dieses Thema enthält Informationen zur Fehlerbehebung, die beim Arbeiten im Aufgabenraster erforderlich sind.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547198"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596417"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problembehandlung für die Arbeit im Aufgabenraster 
 
@@ -70,6 +70,9 @@ Für Project Operations muss ein Projektparameter auf PEX Endpunkt verweisen. Di
       | Project Operations                   | Typ=2             |
 
 4. Entfernen Sie das Feld aus der Seite **Projektparameter**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Risikominderung 3: Melden Sie sich bei project.microsoft.com an
+Öffnen Sie eine neue Registerkarte in Ihrem Microsoft Edge-Browser, gehen Sie zu project.microsoft.com und melden Sie sich mit der Benutzerrolle an, die Sie für den Zugriff auf Project Operations verwenden.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Das Projekt wird nicht geladen und die Benutzeroberfläche bleibt im Spinner hängen
 
