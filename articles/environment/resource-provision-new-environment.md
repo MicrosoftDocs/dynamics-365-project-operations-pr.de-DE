@@ -1,18 +1,18 @@
 ---
 title: Eine neue Umgebung bereitstellen
-description: Dieses Thema enthält Informationen zum Bereitstellen einer neuen Project Operations-Umgebung.
+description: In diesem Artikel erfahren Sie, wie Sie eine neue Umgebung für Project Operations bereitstellen.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931605"
 ---
 # <a name="provision-a-new-environment"></a>Eine neue Umgebung bereitstellen
 
@@ -20,7 +20,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 
 
-Dieses Thema enthält Informationen zur Bereitstellung einer neuen Dynamics 365 Project Operations-Umgebung für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen.
+In diesem Artikel erfahren Sie, wie Sie eine neue Dynamics 365 Project Operations-Umgebung für ressourcenbasierte/nicht vorrätige Szenarien bereitstellen.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Automatisierte Project Operations-Bereitstellung in einem LCS-Projekt aktivieren
 

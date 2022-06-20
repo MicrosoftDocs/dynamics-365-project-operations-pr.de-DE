@@ -1,17 +1,17 @@
 ---
 title: Upgrade-Überlegungen für moderne Genehmigungen
-description: Das Thema behandelt die Punkte, die Administratoren berücksichtigen sollten, wenn sie die Funktionalität für moderne Genehmigungen aktivieren.
+description: Der Artikel behandelt die Punkte, die Administratoren beachten sollten, wenn sie die Funktion Moderne Genehmigungen aktivieren.
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931743"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>Upgrade-Überlegungen für moderne Genehmigungen 
 

@@ -1,17 +1,17 @@
 ---
 title: Projektverträge – Wichtige Konzepte – Lite
-description: Dieses Thema enthält Informationen zu den wichtigen Konzepten von Projektverträgen.
+description: Dieser Artikel enthält Informationen zu den wichtigsten Konzepten von Projektverträgen.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932663"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Konzepte, die nur für Projektverträge gelten
 
@@ -19,7 +19,7 @@ _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
 
 
 
-Dieses Thema enthält die wichtigsten Konzepte, die Sie kennen sollten, bevor Sie mit der Verwendung von Projektverträgen in Dynamics 365 Project Operations beginnen:
+In diesem Artikel finden Sie die wichtigsten Konzepte, die Sie kennen sollten, bevor Sie mit der Verwendung von Project-Verträgen in Dynamics 365 Project Operations beginnen:
 
 ## <a name="contracting-unit"></a>Vertragseinheit
 

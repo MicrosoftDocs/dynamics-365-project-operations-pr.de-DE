@@ -1,6 +1,6 @@
 ---
 title: Angebote und Angebotszeilen
-description: Dieses Thema enthält Informationen zu Angeboten und Angebotszeilen.
+description: Dieser Artikel enthält Informationen über Angebote und Angebotszeilen.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933353"
 ---
 # <a name="quotes-and-quote-lines"></a>Angebote und Angebotszeilen
 
@@ -39,7 +39,7 @@ In Dynamics 365 Project Service Automation gibt es zwei Typen von Angeboten: Pro
 - Ein Vertriebsangebot enthält einige Felder und Konzepte nicht, die in einem Projektangebot enthalten sind. Die Felder enthalten **Vertragseinheit**, **Kontomanager** und **Kontaktname für Rechnungsadresse**.  
 - Vertriebsangebote und Projektangebote werden ebenfalls über ein optionssatzbasiertes Feld namens **Typ** ermittelt. Für ein Verkaufsangebot hat dieses Feld den Wert **Elementbasiert**. Für ein Projektangebot hat es den Wert **Arbeitsbasiert**.
 
-Dieses Thema konzentriert sich auf die Details von Projektangeboten.
+Dieser Artikel befasst sich mit den Details von Projektangeboten.
 
 Ein Projektangebot in PSA kann mehrere Vertragszeilen oder Angebotszeilen haben. Tatsächlich hat ein Projektangebot zwei Raster für Vertragszeilen. Ein Raster dient für projektbasierte Zeilen, die ausführliche Schätzungen ermöglichen. Das andere Raster ist für produktbasierte Zeilen, die einen einfachen Einheitenpreis und eine mengenbasierte Herangehensweise verwenden.
 

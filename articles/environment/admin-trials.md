@@ -1,17 +1,17 @@
 ---
 title: Für Testversionen von Project Operations anmelden
-description: Dieses Thema enthält Informationen zum Bereitstellen einer Testversion von Dynamics 365 Project Operations.
+description: Dieser Artikel beschreibt, wie Sie einen Test von Dynamics 365 Project Operations bereitstellen können.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584273"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959490"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Für Testversionen von Project Operations anmelden 
 
@@ -19,9 +19,9 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 
 
-In diesem Thema wird erläutert, wie Sie das Partnerangebot für die Vorschauversion und eine Dynamics 365 Project Operations-Umgebung abonnieren können.
+Dieser Artikel erklärt, wie Sie das Preview-Partnerangebot abonnieren und eine Dynamics 365 Project Operations-Umgebung bereitstellen können.
 
-Mit der neuen Project Operations-Testversion können Sie jedes der drei unterstützten Bereitstellungsszenarien automatisch bereitstellen, indem Sie einen Fragebogen ausfüllen, der den besten Bereitstellungsansatz empfiehlt. Dieses Thema enthält Informationen zu Folgendem:
+Mit der neuen Project Operations-Testversion können Sie jedes der drei unterstützten Bereitstellungsszenarien automatisch bereitstellen, indem Sie einen Fragebogen ausfüllen, der den besten Bereitstellungsansatz empfiehlt. Dieser Artikel informiert Sie darüber, wie Sie:
 
 - Lösen Sie Ihr Testangebot ein.
 - Initiieren Sie die Bereitstellung.
@@ -89,7 +89,8 @@ Bevor Sie beginnen, melden Sie sich bei einem Browser mit dem Arbeitskonto des B
 4.  Wählen Sie die jeweilige Microsoft Dataverse-URL und die Finanz- und Betriebs-Apps-URLs, um die Bereitstellung zu überprüfen.
 
 ## <a name="configuring-dual-write"></a>Konfigurieren von dualem Schreiben
-- Informationen zum Konfigurieren von Sicherheitsrollen für duales Schreiben finden Sie unter [Sicherheitseinstellungen in Project Operations in Dataverse aktualisieren](resource-provision-new-environment.md).
+- Informationen zum Konfigurieren von Sicherheitsrollen für duales Schreiben finden Sie unter [Sicherheitseinstellungen in Project Operations in Dataverse aktualisieren](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Um auf die Dual-write Konfiguration zuzugreifen, navigieren Sie zur Finance and Operations-Instanz und dann zu **Datenverwaltung** > **Duales Schreiben**.
 - Informationen zum Konfigurieren von Zuordnungen für duales Schreiben finden Sie unter [Zuordnungen für duales Schreiben in Project Operations ausführen](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Lizenzen zuweisen

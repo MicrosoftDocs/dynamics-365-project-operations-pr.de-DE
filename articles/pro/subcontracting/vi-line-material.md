@@ -1,17 +1,17 @@
 ---
 title: Kreditorenrechnungspositionen für Produkte
-description: In diesem Thema wird erläutert, wie Kreditorenrechnungspositionen für Produkte erfasst und die verschiedenen Felder verwendet werden, um Produktkäufe von Kreditoren zu erfassen.
+description: In diesem Artikel wird erklärt, wie Sie Zeilen für Einkaufsrechnungen für Produkte erfassen und die verschiedenen Felder verwenden, um den Kauf von Produkten bei den Lieferanten zu erfassen.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af078cd4392f8353b509db2dc48dc5237b8ee275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 206dd36a1a1e7141678da27d76a99561ac89044b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931375"
 ---
 # <a name="vendor-invoice-lines-for-products"></a>Kreditorenrechnungspositionen für Produkte
 

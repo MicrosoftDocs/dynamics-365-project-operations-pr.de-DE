@@ -1,24 +1,24 @@
 ---
 title: Ressourcenzuweisungen erstellen
-description: Dieses Thema enthält Informationen zum Erstellen generischer und benannter Ressourcenzuweisungen.
+description: In diesem Artikel erfahren Sie, wie Sie allgemeine und benannte Ressourcenzuweisungen erstellen.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933491"
 ---
 # <a name="create-resource-assignments"></a>Ressourcenzuweisungen erstellen
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 
-Eine Ressourcenzuweisung ist die direkte Zuordnung eines Projektteammitglieds zu einer Blattknotenaufgabe. In diesem Thema finden Sie Informationen zu den unterschiedlichen Methoden für das Zuweisen von Ressourcen.
+Eine Ressourcenzuweisung ist die direkte Zuordnung eines Projektteammitglieds zu einer Blattknotenaufgabe. Dieser Artikel informiert Sie über die verschiedenen Möglichkeiten der Ressourcenzuweisung.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Erstellen eines generischen Teammitglieds über die Aufgabenzuweisung
 

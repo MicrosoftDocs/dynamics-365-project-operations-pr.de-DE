@@ -1,6 +1,6 @@
 ---
 title: Übersicht über Ausgabenverwaltung
-description: Dieses Thema enthält allgemeine Informationen zur Ausgabenverwaltung und Links zu zusätzlichen Ressourcen. Mithilfe der Ausgabenverwaltung können Sie einen integrierten Workflow erstellen, in dem Sie Informationen zu Zahlungsmethoden speichern, Kreditkartentransaktionen importieren und das Geld verfolgen können, das Mitarbeiter ausgeben, wenn ihnen Ausgaben für Ihr Unternehmen entstehen.
+description: Dieser Artikel enthält allgemeine Informationen über die Ausgabenverwaltung und Links zu weiteren Ressourcen. Mithilfe der Ausgabenverwaltung können Sie einen integrierten Workflow erstellen, in dem Sie Informationen zu Zahlungsmethoden speichern, Kreditkartentransaktionen importieren und das Geld verfolgen können, das Mitarbeiter ausgeben, wenn ihnen Ausgaben für Ihr Unternehmen entstehen.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934043"
 ---
 # <a name="expense-management-overview"></a>Übersicht über Ausgabenverwaltung
 

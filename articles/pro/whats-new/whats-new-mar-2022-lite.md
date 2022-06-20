@@ -1,24 +1,24 @@
 ---
 title: Neuerungen im März 2022 – Bereitstellung von Project Operations Lite
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version vom März 2022 der Project Operations Lite-Bereitstellung verfügbar sind.
+description: Dieser Artikel informiert Sie über die Qualitätsupdates, die in der Lite-Bereitstellung von Project Operations im März 2022 verfügbar sind.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934227"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Neuerungen im März 2022 – Bereitstellung von Project Operations Lite
 
 _Gilt für: Lite Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Dieses Thema gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
+Dieser Artikel gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in einer Dataverse-Umgebung der Version 4.30.0.99
 
@@ -51,9 +51,9 @@ Dieses Thema gilt für die folgenden Komponenten und Versionen von Microsoft Dyn
 
 ## <a name="removed-and-deprecated-features"></a>Entfernte und veraltete Funktionen
 
-Das Thema [Entfernte oder veraltete Funktionen in Project Operations](../../whats-new/removed-depreciated-features-project.md) beschreibt Funktionen, die aus Dynamics 365 Project Operations entfernt wurden oder veraltet sind.
+Der Artikel [Entfernte oder veraltete Funktionen in Project Operations](../../whats-new/removed-depreciated-features-project.md) beschreibt Funktionen, die für Dynamics 365 Project Operations entfernt oder außer Betrieb genommen wurden.
 
 - Eine entfernte Funktion ist im Produkt nicht mehr verfügbar.
 - Eine veraltete Funktion wird nicht aktiv entwickelt und könnte bei einem zukünftigen Update entfernt werden.
 
-12 Monate vor dem Entfernen wird im Thema [Entfernte oder veraltete Funktionen in Project Operations](../../whats-new/removed-depreciated-features-project.md) ein Verfallshinweis angezeigt.
+Eine Ankündigung, dass Funktionen außer Betrieb genommen werden, wird im Artikel [Entfernte oder veraltete Funktionen in Project Operations](../../whats-new/removed-depreciated-features-project.md) erscheinen, 12 Monate bevor eine Funktion aus dem Produkt entfernt wird.

@@ -1,17 +1,17 @@
 ---
 title: Project Operations – Duales Schreiben-Zuordnungsversionen
-description: Dieses Thema enthält die Liste der Dual-Write-Zuordnungen, die für Dynamics 365 Project Operations erforderlich sind.
+description: Dieser Artikel enthält die Liste der Dual-write Zuordnungen, die für Dynamics 365 Project Operations erforderlich sind.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612749"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959454"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations – Duales Schreiben-Zuordnungsversionen
 
@@ -54,7 +54,7 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für eine Project O
 | Project Operations-Integritätsentität für Stundenvorkalkulationen (msdyn_resourceassignments) | 1.0.0.5 | Für die Bereitstellung nicht erforderlich. ||
 | Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn_expensecategories) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. ||
 | Exportentität für Projektkosten der Project Operations-Integration (msdyn_expenses) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. ||
-| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn_projectvendorinvoices) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
+| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn_projectvendorinvoices) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. |10.0.26 oder höher|
 | Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. | 10.0.26 oder höher |
 | Projektressourcenrollen für alle Unternehmen (bookableresourcecategories) | 1.0.0.1 | Erfordert eine erste Synchronisierung für die Tabellenzuordnung, um die Ressourcenrollen des Projektmanagers und der Teammitglieder zu synchronisieren, die in der Dynamics 365 Dataverse Umgebung während der Bereitstellung ausgefüllt sind. Dataverse ist die Hauptquelle für die anfängliche Synchronisation. ||
 | Projektaufgaben (msdyn_projecttasks) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. ||
