@@ -1,6 +1,6 @@
 ---
 title: Änderungen an Entitäten, Steuerelementen und der Benutzeroberfläche (Project Service Automation 3.x)
-description: In diesem Thema werden Lösungsänderungen für Microsoft Dynamics Project Service Automation 3.x beschrieben.
+description: Dieser Artikel beschreibt die Lösungsänderungen für Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926867"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Änderungen an Entitäten, Steuerelementen und der Benutzeroberfläche (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Mit der Veröffentlichung von Microsoft Dynamics Project Service Automation (PSA) 3.x wurden viele Änderungen an den Entitäten, Steuerelementen, Ansichten und der Benutzeroberfläche vorgenommen. Dieses Thema enthält Informationen zu diesen wichtigen Änderungen.
+Mit der Veröffentlichung von Microsoft Dynamics Project Service Automation (PSA) 3.x wurden viele Änderungen an den Entitäten, Steuerelementen, Ansichten und der Benutzeroberfläche vorgenommen. Dieser Artikel informiert Sie über diese wichtigen Änderungen.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Parent-Child-Beziehungen für die Entitäten „Vertriebsdokument“, „Vertriebsdokumentzeile“ und „Details der Vertriebsdokumentzeile“
 In Versionen von Dynamics 365 Project Service Automation (PSA), die vor Version 3.0 veröffentlicht wurden, wurden einige der Beziehungen zwischen den Entitäten „Vertriebsdokument“, „Vertriebsdokumentzeile“ und „Details der Vertriebsdokumentzeile“ über Zeichenfolgenfelder implementiert, die eine Zeichenfolgendarstellung der GUID der zugehörigen Entität enthielten. Dies war auf Plattformbeschränkungen zurückzuführen, die einen erheblichen benutzerdefinierten Code auf der Server- und Clientseite der Lösung erforderten, damit diese Beziehungen ähnlich wie typische Dynamics CRM-Entitätsbeziehungen funktionierten und Zeichenfolgenfelder wie Nachschlagefelder wirkten.

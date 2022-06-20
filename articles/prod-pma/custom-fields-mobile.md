@@ -1,6 +1,6 @@
 ---
 title: Implementieren Sie benutzerdefinierte Felder für die mobile Microsoft Dynamics 365 Project Timesheet-App auf iOS und Android
-description: Dieses Thema bietet allgemeine Muster für die Verwendung von Erweiterungen zum Implementieren benutzerdefinierter Felder.
+description: Dieser Artikel enthält allgemeine Muster für die Verwendung von Erweiterungen zur Implementierung angepasster Felder.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913711"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementieren Sie benutzerdefinierte Felder für die mobile Microsoft Dynamics 365 Project Timesheet-App auf iOS und Android
 
 [!include [banner](../includes/banner.md)]
 
-Dieses Thema bietet allgemeine Muster für die Verwendung von Erweiterungen zum Implementieren benutzerdefinierter Felder. Folgende Themen werden behandelt:
+Dieser Artikel enthält allgemeine Muster für die Verwendung von Erweiterungen zur Implementierung angepasster Felder. Die folgenden Artikel werden behandelt:
 
 - Die verschiedenen Datentypen, die das benutzerdefinierte Feldframework unterstützt
 - So zeigen Sie schreibgeschützte oder bearbeitbare Felder in Arbeitszeittabelleneinträgen an und speichern vom Benutzer bereitgestellte Werte wieder in der Datenbank
@@ -35,7 +35,7 @@ Dieses Thema bietet allgemeine Muster für die Verwendung von Erweiterungen zum 
 
 ## <a name="audience"></a>Publikum
 
-Dieses Thema ist für Entwickler gedacht, die ihre benutzerdefinierten Felder in die mobile Microsoft Dynamics 365 Project Timesheet-Anwendung integrieren, die für Apple iOS und Google Android verfügbar ist. Es wird davon ausgegangen, dass die Leser mit der X++-Entwicklung und den Funktionen der Projektzeittabelle vertraut sind.
+Dieser Artikel richtet sich an Entwickler, die ihre angepassten Felder in die Microsoft Dynamics 365 Project Timesheet Mobile Anwendung integrieren, die für Apple iOS und Google Android verfügbar ist. Es wird davon ausgegangen, dass die Leser mit der X++-Entwicklung und den Funktionen der Projektzeittabelle vertraut sind.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Datenvertrag – TSTimesheetCustomField X++-Klasse
 
@@ -64,7 +64,7 @@ Die **FieldBaseType**-Eigenschaft im **TsTimesheetCustom**-Objekt bestimmt den F
 
 - Wenn die **stringOptions**-Eigenschaft im **TSTimesheetCustomField**-Objekt zur Verfügung gestellt wird, sind diese Listenelemente die einzigen Werte, die Benutzer mithilfe von Optionsfeldern auswählen können.
 
-    In diesem Fall kann das Zeichenfolgenfeld als Aufzählungswert für die Benutzereingabe dienen. Um den Wert als Aufzählung in der Datenbank zu speichern, ordnen Sie den Zeichenfolgenwert manuell dem Aufzählungswert zu, bevor Sie ihn mithilfe der Befehlskette in der Datenbank speichern (siehe Beispiel im Abschnitt „Befehlskette in der TSTimesheetEntryService-Klasse verwenden, um einen Arbeitszeittabelleneintrag aus der App in der Datenbank zu speichern“ weiter unten in diesem Thema).
+    In diesem Fall kann das Zeichenfolgenfeld als Aufzählungswert für die Benutzereingabe dienen. Um den Wert in der Datenbank als Enum zu speichern, ordnen Sie den String-Wert manuell dem Enum-Wert zu, bevor Sie in der Datenbank speichern, indem Sie die Befehlskette verwenden (ein Beispiel finden Sie im Abschnitt „Verwenden Sie die Befehlskette für die Klasse TSTimesheetEntryService, um einen Arbeitszeitnachweis aus der App in der Datenbank zu speichern“ weiter unten in diesem Artikel).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Diese Eigenschaft gibt die Bezeichnung an, die neben dem Feld in der App angezei
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Liste der Zeichenfolgen)
 
-Diese Eigenschaft gilt nur, wenn der **fieldBaseType** auf **String** eingestellt ist. Wenn **stringOptions** festgelgt ist, werden die Zeichenfolgenwerte, die über Optionsfelder zur Auswahl stehen, durch die Zeichenfolgen in der Liste angegeben. Wenn keine Zeichenfolgen angegeben sind, ist die Freitexteingabe im Zeichenfolgenfeld zulässig (ein Beispiel finden Sie im Abschnitt „Befehlskette in der TSTimesheetEntryService-Klasse verwenden, um einen Arbeitszeittabelleneintrag aus der App in der Datenbank zu speichern“ weiter unten in diesem Thema).
+Diese Eigenschaft gilt nur, wenn der **fieldBaseType** auf **String** eingestellt ist. Wenn **stringOptions** festgelgt ist, werden die Zeichenfolgenwerte, die über Optionsfelder zur Auswahl stehen, durch die Zeichenfolgen in der Liste angegeben. Wenn keine Strings angegeben werden, ist die Eingabe von Freitext in das Stringfeld zugelassen (ein Beispiel finden Sie im Abschnitt „Verwenden Sie die Befehlskette der Klasse TSTimesheetEntryService, um einen Arbeitszeitnachweis aus der App zurück in die Datenbank zu speichern“ weiter unten in diesem Artikel).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

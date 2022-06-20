@@ -1,17 +1,17 @@
 ---
 title: Projektmanagement – Übersicht
-description: Dieses Thema enthält Informationen zum Projektmanagement in Dynamics 365 Project Operations.
+description: Dieser Artikel enthält Informationen über das Projektmanagement in Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2e23c6d5290a89fe599273a985962477215bf00b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e2784020cdf20e47cc8d3b14be03f93e250e5da2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925625"
 ---
 # <a name="project-management-overview"></a>Projektmanagement – Übersicht
 

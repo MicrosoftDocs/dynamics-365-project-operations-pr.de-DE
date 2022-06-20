@@ -1,23 +1,23 @@
 ---
 title: Projektvertragseinstellungen
-description: Dieses Thema enthält Informationen zu den Feldern, die sich auf Vertragszeilen auswirken, sowie Informationen zu dem Vertrag, die in allen Zeilenpositionen zusammengefasst sind.
+description: Dieser Artikel enthält Informationen zu den Feldern, die sich auf Vertragszeilen auswirken, und zu den Informationen über den Vertrag, die in allen Zeilen zusammengefasst werden.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921577"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Kopfzeilendetails für projektbasierte Verträge
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Dieses Thema enthält Informationen zu Feldern, die für den gesamten Projektvertrag gelten, einschließlich Einstellungen, die sich auf alle Vertragszeilen auswirken. Informationen zum Vertrag, die in allen Zeilenpositionen zusammengefasst sind, um die KPIs des Projektvertrags zu bestimmen, sind ebenfalls enthalten.
+Dieser Artikel enthält Informationen über Felder, die für den gesamten Projektvertrag gelten, einschließlich Einstellungen, die sich auf alle Vertragszeilen auswirken. Informationen zum Vertrag, die in allen Zeilenpositionen zusammengefasst sind, um die KPIs des Projektvertrags zu bestimmen, sind ebenfalls enthalten.
 
 In der folgenden Tabelle sind die Felder eines Projektvertrags aufgeführt, die nur in Dynamics 365 Project Operations vorhanden sind oder einige wichtige Änderungen im Verhalten hinsichtlich Vertriebsaufträgen in Dynamics 365 Sales aufweisen.
 

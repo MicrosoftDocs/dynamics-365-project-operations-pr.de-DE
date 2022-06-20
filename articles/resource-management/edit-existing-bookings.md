@@ -1,24 +1,24 @@
 ---
 title: Buchungen bearbeiten
-description: Dieses Thema enthält Informationen zum Aktualisieren und Ändern von Buchungen.
+description: Dieser Artikel informiert Sie darüber, wie Sie Buchungen aktualisieren und ändern können.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915229"
 ---
 # <a name="edit-bookings"></a>Buchungen bearbeiten
 
 _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 
-Wenn Änderungen an einem Projekt auftreten, bei denen Sie vorhandene Buchungen aktualisieren müssen, gibt es verschiedene Möglichkeiten, die Änderungen vorzunehmen. Dieses Thema erläutert, wie Buchungen aktualisiert und geändert werden.
+Wenn Änderungen an einem Projekt auftreten, bei denen Sie vorhandene Buchungen aktualisieren müssen, gibt es verschiedene Möglichkeiten, die Änderungen vorzunehmen. Dieser Artikel beschreibt, wie Sie Buchungen aktualisieren und Änderungen vornehmen können.
 
 ## <a name="resource-reconciliation"></a>Ressourcenabstimmung
 

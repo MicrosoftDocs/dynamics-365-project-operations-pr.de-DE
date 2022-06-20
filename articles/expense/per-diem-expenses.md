@@ -1,6 +1,6 @@
 ---
 title: Tagesausgaben
-description: In diesem Thema finden Sie Informationen dazu, wie Sie mit den Tagesausgaben arbeiten.
+description: Dieser Artikel informiert Sie darüber, wie Sie mit Tagesspesen arbeiten können.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923187"
 ---
 # <a name="per-diem-expenses"></a>Tagesausgaben
 
 > [!IMPORTANT] 
-> Die in diesem Abschnitt beschriebenen Funktionen stehen der Benutzerzielgruppe im Rahmen einer Vorschauversion zur Verfügung.
+> Die in diesem Artikel beschriebenen Funktionen sind für bestimmte Benutzer als Teil einer Vorschauversion verfügbar.
 
 Eine Tageszahlung ist eine feste, im Voraus festgelegte Tagespauschale, die ein Unternehmen seinen Mitarbeitern für Unterkunft (Hotels), Mahlzeiten und Nebenkosten zahlt, die diesen Mitarbeitern entstehen, wenn sie zur Arbeit reisen. Diese Zulage zahlt das Unternehmen den Mitarbeitern statt der eigentlichen Reisekosten. Mitarbeiter können ihre **Nebenkosten/Sonstiges**-Tagespauschale zur Deckung von Trinkgeldern, Zimmerservice, Wäsche- oder Reinigungsdiensten für wichtige Geschäftstreffen verwenden. Der Tagessatz kann variieren, je nachdem, ob der Arbeitgeber die kombinierten Kosten für Unterkunft und Verpflegung oder nur die Kosten für Verpflegung und Nebenkosten erstattet.
 

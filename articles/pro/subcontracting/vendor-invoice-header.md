@@ -1,17 +1,17 @@
 ---
 title: Kopfzeilendetails für Kreditorenrechnungen
-description: Dieses Thema erläutert die Funktionalität, die in der Kopfzeile der Kreditorenrechnung in Microsoft Dynamics 365 Project Operations bereitgestellt wird .
+description: Dieser Artikel erläutert die Funktionen, die in der Kopfzeile der Lieferantenrechnung in Microsoft Dynamics 365 Project Operations zur Verfügung stehen.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929857"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Kopfzeilendetails für Kreditorenrechnungen
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575579"
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Dieses Thema erläutert die Funktionalität, die in der Kopfzeile der Kreditorenrechnung in Microsoft Dynamics 365 Project Operations bereitgestellt wird .
+Dieser Artikel erläutert die Funktionen, die in der Kopfzeile der Lieferantenrechnung in Microsoft Dynamics 365 Project Operations zur Verfügung stehen.
 
 Wenn Projektmanager Projekte planen und ausführen, können sie Fremdarbeiter beschäftigen und Produkte und Dienstleistungen von Anbietern kaufen. Während der Ausführung eines Projekts entstehen Kosten für Dienstleistungen, Materialien und Ausgabenkategorien, die im Rahmen von Fremdarbeit mit Lieferanten beschafft werden. Kreditoren stellen diese Kosten Projekten in Rechnung, indem sie Kreditorenrechnungen erstellen.
 

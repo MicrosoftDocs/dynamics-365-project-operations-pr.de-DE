@@ -1,6 +1,6 @@
 ---
 title: Prognosemodelle für Projektbudgets erstellen
-description: In diesem Thema wird beschrieben, wie Sie ein Prognosemodell für verbleibende Budgets erstellen.
+description: Dieser Artikel beschreibt, wie Sie ein Planungsmodell für Restbudgets erstellen können.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916701"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Prognosemodelle für Projektbudgets erstellen 
 
 [!include [banner](../includes/banner.md)]
 
-In diesem Thema wird beschrieben, wie Sie ein Prognosemodell für verbleibende Budgets erstellen. Ein Projekt, das der Budgetkontrolle unterliegt, verwendet zwei Arten von Budgets: ursprünglich und verbleibend. Wenn Sie ein Projektbudget erstellen, müssen Sie die ursprünglichen und verbleibenden Budgetprognosemodelle angeben, die auf der Seite **Prognosemodelle** erstellt wurden. Projektbudgets, die auf den angegebenen Modellen basieren, werden erstellt, wenn Sie das Projektbudget festlegen.
+Dieser Artikel beschreibt, wie Sie ein Planungsmodell für Restbudgets erstellen können. Ein Projekt, das der Budgetkontrolle unterliegt, verwendet zwei Arten von Budgets: ursprünglich und verbleibend. Wenn Sie ein Projektbudget erstellen, müssen Sie die ursprünglichen und verbleibenden Budgetprognosemodelle angeben, die auf der Seite **Prognosemodelle** erstellt wurden. Projektbudgets, die auf den angegebenen Modellen basieren, werden erstellt, wenn Sie das Projektbudget festlegen.
 
 > [!NOTE]
 > Ein Prognosemodell, das für die Budgetkontrolle verwendet wird, kann kein Untermodell haben oder als Untermodell verwendet werden.

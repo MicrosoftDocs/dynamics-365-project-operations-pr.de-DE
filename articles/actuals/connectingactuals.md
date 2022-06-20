@@ -1,17 +1,17 @@
 ---
 title: Transaktionsverbindungen – Istdaten verschiedener Transaktionstypen verknüpfen
-description: In diesem Thema wird erläutert, wie eine Transaktionsverbindung verwendet wird, um Ist-Werte verschiedener Typen zu verknüpfen, um die Rentabilität, den Abrechnungsrückstand und die Berechnung von fakturierten und nicht fakturierten Einnahmen nachzuverfolgen.
+description: Dieser Artikel erklärt, wie eine Transaktionsverbindung verwendet wird, um verschiedene Arten von Ist-Daten miteinander zu verknüpfen, um die Rentabilität, den Rechnungsrückstand und die Berechnung von fakturierten und nicht fakturierten Umsätzen zu verfolgen.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926085"
 ---
 # <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Transaktionsverbindungen – Istdaten verschiedener Transaktionstypen verknüpfen
 

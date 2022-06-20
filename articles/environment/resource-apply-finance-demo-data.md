@@ -1,24 +1,24 @@
 ---
 title: Demodaten auf eine in der Cloud gehostete Finance-Umgebung anwenden
-description: Dieses Thema erklärt, wie Demodaten aus Project Operations auf eine von Dynamics 365 Finance-Cloud gehostete Umgebung angewendet werden.
+description: Dieser Artikel erklärt, wie Sie Demo-Daten aus Project Operations auf eine in der Dynamics 365 Finance Cloud gehostete Umgebung anwenden.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924659"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demodaten auf eine in der Cloud gehostete Finance-Umgebung anwenden
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
 > [!IMPORTANT]
-> Dieses Thema ist nur für Microsoft Dynamics 365 Finance Version 10.0.13 anwendbar und kann nur in einer cloud-gehosteten Umgebung ausgeführt werden. Führen Sie die Schritte in diesem Thema aus, **BEVOR** Sie Qualitätsaktualisierungen auf die Umgebung anwenden.
+> Dieser Artikel gilt nur für Microsoft Dynamics 365 Finance Version 10.0.13 und kann nur in einer Cloud-gehosteten Umgebung durchgeführt werden. Führen Sie die Schritte in diesem Artikel durch, **BEVOR** Sie Qualitätsupdates auf die Umgebung anwenden.
 
 1. Öffnen Sie in Ihrem LCS-Projekt die Seite **Umgebungsdetails**. Beachten Sie, dass es die Details enthält, die für die Verbindung mit der Umgebung mithilfe des RDP (Remote Desktop Protocol) erforderlich sind.
 

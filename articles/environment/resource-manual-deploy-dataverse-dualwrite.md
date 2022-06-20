@@ -1,25 +1,25 @@
 ---
 title: Manuelles Bereitstellen der App Project Operations Dataverse mit Dual-Write-Unterstützung
-description: In diesem Thema wird erklärt, wie Sie die App Project Operations Dataverse manuell bereitstellen, sodass sie Dual-Write unterstützt.
+description: Dieser Artikel erklärt, wie Sie die App Project Operations Dataverse manuell bereitstellen können, damit sie Dual-write unterstützt.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912009"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuelles Bereitstellen der App Project Operations Dataverse mit Dual-Write-Unterstützung
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-In diesem Thema wird erklärt, wie Sie Microsoft Dynamics 365 Project Operations in Microsoft Dataverse manuell bereitstellen, sodass es Dual-Write unterstützt. Project Operations erkennt die Konfiguration der Umgebung und fügt zusätzliche Unterstützung für Dual-Write hinzu, wenn die Voraussetzungen dafür erfüllt sind.
+Dieser Artikel erklärt, wie Sie Microsoft Dynamics 365 Project Operations in Microsoft Dataverse manuell bereitstellen, damit es Dual-write unterstützt. Project Operations erkennt die Konfiguration der Umgebung und fügt zusätzliche Unterstützung für Dual-Write hinzu, wenn die Voraussetzungen dafür erfüllt sind.
 
-Wenn Sie beim Bereitstellen über Microsoft Dynamics Lifecycle Services (LCS) die Anweisungen in diesem Thema befolgt haben, können Sie das Bereitstellen der Microsoft Power Platform-Integration (früher als Common Data Service-Umgebung bezeichnet) überspringen.
+Wenn Sie bei der Bereitstellung über Microsoft Dynamics Lifecycle Services (LCS) die Anweisungen in diesem Artikel befolgt haben, können Sie die Bereitstellung der Microsoft Power Platform-Integration (früher als Common Data Service-Umgebung bekannt) überspringen.
 
 Der Prozess des Bereitstellens von Project Operations in Dataverse, sodass es Dual-Write unterstützt, hat vier Hauptschritte:
 

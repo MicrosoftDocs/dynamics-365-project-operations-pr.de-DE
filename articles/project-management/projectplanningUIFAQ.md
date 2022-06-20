@@ -1,25 +1,25 @@
 ---
 title: Problembehandlung für die Arbeit im Aufgabenraster
-description: Dieses Thema enthält Informationen zur Fehlerbehebung, die beim Arbeiten im Aufgabenraster erforderlich sind.
+description: Dieser Artikel enthält Informationen zur Problembehandlung bei der Arbeit im Raster für Aufgaben.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911043"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problembehandlung für die Arbeit im Aufgabenraster 
 
 
 _**Gilt für:** Die Basisbereitstellung ist für die Szenarien Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen und Lite-Bereitstellung – Abschluss zur Pro-forma-Rechnungsstellung verfügbar, Project for the web_
 
-Das Aufgabenraster, das von Dynamics 365 Project Operations genutzt wird, ist ein gehosteter iframe innerhalb von Microsoft Dataverse. Aufgrund dieser Verwendung müssen bestimmte Anforderungen erfüllt werden, um sicherzustellen, dass Authentifizierung und Autorisierung korrekt funktionieren. In diesem Thema werden die häufigsten Probleme beschrieben, die sich auf die Fähigkeit auswirken können, das Raster zu rendern oder Aufgaben im Projektstrukturplan (PSP) zu verwalten.
+Das Aufgabenraster, das von Dynamics 365 Project Operations genutzt wird, ist ein gehosteter iframe innerhalb von Microsoft Dataverse. Aufgrund dieser Verwendung müssen bestimmte Anforderungen erfüllt werden, um sicherzustellen, dass Authentifizierung und Autorisierung korrekt funktionieren. Dieser Artikel beschreibt die allgemeinen Probleme, die das Rendern des Rasters oder die Verwaltung von Aufgaben im Projektstrukturplan (PSP) beeinträchtigen können.
 
 Häufige Probleme umfassen:
 

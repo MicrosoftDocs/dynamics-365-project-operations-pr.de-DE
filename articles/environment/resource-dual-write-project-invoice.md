@@ -1,22 +1,22 @@
 ---
 title: Projektrechnungsintegration
-description: Dieses Thema enthält Informationen zur Dual-Write-Integration von Project Operations für Debitorenfakturierung.
+description: Dieser Artikel enthält Informationen über Project Operations Dual-write Integration für die Kundenfakturierung.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912101"
 ---
 # <a name="project-invoice-integration"></a>Projektrechnungsintegration
 
-Dieses Thema enthält Informationen zur Dual-Write-Integration von Project Operations für Debitorenfakturierung.
+Dieser Artikel enthält Informationen über Project Operations Dual-write Integration für die Kundenfakturierung.
 
 Im Project Operations verwaltet der Projektmanager den Projektabrechnungsstau und erstellt eine Proforma-Rechnung für den Debitor in Microsoft Dataverse. Basierend auf dieser Proforma-Rechnung erstellt der Debitorenbuchhalter oder Projektbuchhalter eine kundenorientierte Rechnung. Die Integration des dualen Schreibens stellt sicher, dass die Proforma-Rechnungsdetails mit Finanz- und Betriebs-Apps synchronisiert werden. Nachdem die kundenorientierte Rechnung gebucht wurde, aktualisiert das System die relevanten Projektdaten in Dataverse mit dem Buchhaltungsdetail. Die folgende Grafik bietet einen allgemeinen konzeptionellen Überblick über diese Integration.
 

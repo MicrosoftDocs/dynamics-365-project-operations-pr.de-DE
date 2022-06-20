@@ -1,6 +1,6 @@
 ---
 title: Verwenden buchbarer Ressourcen als Preisdimension
-description: Dieses Thema bietet Informationen über das Verwenden von buchbaren Ressourcen als Preisdimension.
+description: Dieser Artikel enthält Informationen über die Verwendung einer buchbaren Ressource als Dimension für die Preisgestaltung.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916103"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Verwenden buchbarer Ressourcen als Preisdimension
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dieses Thema bietet Informationen über das Verwenden von buchbaren Ressourcen als Preisdimension. Bevor Sie beginnen, falls Sie noch keine Preisdimensionslösung erstellt haben, müssen Sie eine neue erstellen. Wenn Sie bereits eine Preisdimensionslösung haben, dann können Sie Ihre Änderungen in dieser Lösung vornehmen. Wenn Sie keine neue Preisdimensionslösung für Ihre Organisation erstellt haben, führen Sie die Prozeduren im Thema [Erstellen benutzerdefinierter Felder und Entitäten](create-custom-fields-entities.md) durch.
+Dieser Artikel enthält Informationen über die Verwendung einer buchbaren Ressource als Dimension für die Preisgestaltung. Bevor Sie beginnen, falls Sie noch keine Preisdimensionslösung erstellt haben, müssen Sie eine neue erstellen. Wenn Sie bereits eine Preisdimensionslösung haben, dann können Sie Ihre Änderungen in dieser Lösung vornehmen. Wenn Sie noch keine neue Lösung für Preisdimensionen in Ihrem Unternehmen erstellt haben, führen Sie die Verfahren im Artikel [Angepasste Felder und Entitäten erstellen](create-custom-fields-entities.md) aus.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Hinzufügen von buchbaren Ressourcen zu Formularen und Ansichten
 Um die Felder in der Benutzeroberfläche in der Preisdimensionslösung sichtbar zu machen, müssen Sie alle Formulare und Ansichten der wichtigsten Project Service-Entitäten durchgehen und diese Felder zu den Formularen und Ansichten dieser Entitäten hinzufügen.

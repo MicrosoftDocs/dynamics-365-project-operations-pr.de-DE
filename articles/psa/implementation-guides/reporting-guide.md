@@ -1,6 +1,6 @@
 ---
 title: Berichterstattungsleitfaden
-description: Dieses Thema enthält Links zu Informationen zur Berichterstellung.
+description: Dieser Artikel enthält Links zu Informationen über die Berichterstattung.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919185"
 ---
 # <a name="reporting-guide"></a>Berichterstattungsleitfaden
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577557"
 
 Die Berichterstellungsmethoden und -technologien in dieser App können Ihnen dabei helfen, die Integrität Ihrer Projekte zu bestimmen und zu erkennen, wann Sie korrigierend eingreifen müssen. 
 
-Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in die folgenden Themen verschoben:
+Der PDF-Link, der zuvor in diesem Artikel enthalten war, wurde entfernt und der Inhalt wurde in die folgenden Artikel verschoben:
 
 - [Homepage zur Berichterstellung](../reports-reporting-dynamics-365-project-service.md)
 - [Dashboards](../reports-dashboards.md)
 - [Arbeiten mit dem Project Service Automation-Datenmodell](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Dieses Thema wird in einem zukünftigen Dokumentationsupdate entfernt. 
+> Dieser Artikel wird in einem zukünftigen Dokumentations-Update entfernt werden. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

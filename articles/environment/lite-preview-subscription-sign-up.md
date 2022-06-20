@@ -1,21 +1,21 @@
 ---
 title: Für ein Vorschauabonnement anmelden – Lite
-description: Dieses Thema enthält Informationen zum Abonnieren und Bereitstellen der Project Operations Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung.
+description: In diesem Artikel erfahren Sie, wie Sie die Lite-Bereitstellung von Project Operations abonnieren und bereitstellen können - für die Proforma-Rechnungsstellung.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587999"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921255"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Für ein Vorschauabonnement anmelden – Lite 
 
-In diesem Thema wird erklärt, wie Sie das Test-Angebot abonnieren und Dynamics 365 Project Operations Lite-Bereitstellung - Deal zur Proforma-Rechnung bereitstellen.
+Dieser Artikel erklärt, wie Sie das Test-Angebot abonnieren und eine Lite-Bereitstellung von Dynamics 365 Project Operations bereitstellen können - Umgang mit Proforma-Rechnungen.
 
 > [!NOTE]
 > Dieser Prozess wird sich in den kommenden Versionen von Project Operations ändern.
@@ -50,7 +50,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie bei einem Browser mit dem Benut
 
 ## <a name="create-a-new-dataverse-environment"></a>Neue Dataverse-Umgebung erstellen
 
-1. Stellen Sie eine neue Project Operations Dataverse-Umgebung bereit, indem Sie den Anweisungen im Thema [Dataverse-Bereitstellungsmodell](lite-deployment.md) folgen. Stellen Sie bei der Auswahl des Umgebungstyps sicher, dass Sie **Testversion (abonnementbasiert)** auswählen.
+1. Stellen Sie eine neue Umgebung für Project Operations Dataverse bereit, indem Sie den Anweisungen im Artikel [Dataverse Bereitstellungsmodell](lite-deployment.md) folgen. Stellen Sie bei der Auswahl des Umgebungstyps sicher, dass Sie **Testversion (abonnementbasiert)** auswählen.
 
   ![Neue Umgebung.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Bevor Sie beginnen, stellen Sie sicher, dass Sie bei einem Browser mit dem Benut
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-Konfigurations- und Einrichtungsdemodaten installieren
 
-Installieren Sie die CDS-Konfiguration und richten Sie die Demo-Daten ein, indem Sie den Anweisungen im Thema [Demoeinrichtungs- und -konfigurationsdaten anwenden](lite-apply-demo-setup-config-data.md) folgen.
+Installieren Sie die CDS-Konfiguration und legen Sie die Demo-Daten fest, indem Sie den Anweisungen im Artikel [Demo-Einrichtung und Konfigurationsdaten anwenden](lite-apply-demo-setup-config-data.md) folgen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

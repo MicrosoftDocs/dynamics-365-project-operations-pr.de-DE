@@ -1,6 +1,6 @@
 ---
 title: Plug-In-Attribute aktualisieren, damit sie neue Preisdimensionen enthalten
-description: Dieses Thema enthält Informationen zum Aktualisieren von Plug-In-Attributen für Preisdimensionen.
+description: Dieser Artikel enthält Informationen über die Aktualisierung von Plug-In-Attributen für Dimensionen zur Preisgestaltung.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913205"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Plug-In-Attribute aktualisieren, damit sie neue Preisdimensionen enthalten
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Wenn Sie die Funktionen zu Angebotserstellung und Vertragsabschluss der Project Service Automation (PSA) nicht verwenden, können Sie dieses Thema überspringen.
+> Wenn Sie die Funktionen der Project Service Automation (PSA) zur Angebotserstellung und Vertragsabwicklung nicht verwenden, können Sie diesen Artikel auslassen.
 
-In diesem Thema wird davon ausgegangen, dass Sie die Prozeduren in den Themen [Benutzerdefinierte Felder und Entitäten erstellen](create-custom-fields-entities.md), [Benutzerdefinierte Felder zur Preiseinrichtung und zu Transaktionsentitäten hinzufügen](field-references.md) und [Benutzerdefinierte Felder als Preisdimensionen einrichten](set-up-pricing-dimensions.md) abgeschlossen haben. Wenn Sie diese Prozeduren nicht abgeschlossen abgeschlossen haben, kehren Sie zurück und schließen Sie diese ab. Dann kehren Sie zu diesem Thema zurück.
+Dieser Artikel setzt voraus, dass Sie die Verfahren in den Artikeln [Erstellen von angepassten Feldern und Entitäten](create-custom-fields-entities.md), [Hinzufügen von angepassten Feldern zu Preiseinstellungen und transaktionalen Entitäten](field-references.md) und [Einrichten von angepassten Feldern als Preisdimensionen](set-up-pricing-dimensions.md) abgeschlossen haben. Wenn Sie diese Prozeduren nicht abgeschlossen haben, gehen Sie zurück und schließen Sie sie ab und kehren Sie dann zu diesem Artikel zurück.
 
 Wenn ein Angebotspositionsdetail auf der Seite **Angebotsposition** für eine Projektangebotszeile erstellt wird, erstellt das System zwei Vorkalkulationspositionen im Hintergrund – eine Position für die Kostenseite der Vorkalkulation und eine für die Vertriebsseite. Selbes gilt auch für Projektvertragspositionen.
 

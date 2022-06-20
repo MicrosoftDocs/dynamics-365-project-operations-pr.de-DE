@@ -1,6 +1,6 @@
 ---
 title: Entwicklungs-Homepage (Project Service Automation 3.x)
-description: Dieses Thema enthält Links zu Themen, die Entwicklungsinformationen für Dynamics 365 Project Service Automation (PSA) Version 3.x bereitstellen.
+description: Dieser Artikel enthält Links zu Artikeln, die Informationen zur Entwicklung von Dynamics 365 Project Service Automation (PSA) Version 3.x enthalten.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928983"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Entwicklungs-Homepage (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x bietet neue Funktionen, die Implementierung von neuen Plattformfunktionen und Verbesserungen vorhandener Funktionen in verschiedenen Bereichen. Die folgenden Themen enthalten weitere Informationen über die Änderungen, die in der neuesten Version von PSA vorgenommen wurden:
+Dynamics 365 Project Service Automation 3.x bietet neue Funktionen, die Implementierung von neuen Plattformfunktionen und Verbesserungen vorhandener Funktionen in verschiedenen Bereichen. In den folgenden Artikeln finden Sie weitere Informationen zu den Änderungen, die in der neuesten Version von PSA vorgenommen wurden:
 
 - [Änderungen an Entitäten, Steuerelementen und der Benutzeroberfläche (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Änderungen bei Zeit und Ausgaben (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

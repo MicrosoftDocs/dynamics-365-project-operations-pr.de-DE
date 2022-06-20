@@ -1,17 +1,17 @@
 ---
 title: Sich für Szenarien bei Project Operations-Vorschauabonnements für vorrätige/nicht vorrätige Ressourcen anmelden
-description: Dieses Thema enthält Informationen zum Abonnieren und Bereitstellen von Project Operations für Szenarien mit vorrätigen/nicht vorrätigen Ressourcen.
+description: In diesem Artikel erfahren Sie, wie Sie Project Operations für ressourcenbasierte/nicht vorrätige Szenarien abonnieren und bereitstellen können.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920105"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Sich für Szenarien bei Project Operations-Vorschauabonnements für vorrätige/nicht vorrätige Ressourcen anmelden
 
@@ -19,7 +19,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 
 
-Dieses Thema erklärt, wie Sie das Test-Angebot abonnieren und die Project Operations Umgebung für ressourcenbasierte/nicht vorrätige Szenarien bereitstellen.
+Dieser Artikel erklärt, wie Sie das Test-Angebot abonnieren und eine Project Operations Umgebung für ressourcenbasierte/nicht vorrätige Szenarien bereitstellen können.
 
 ## <a name="prerequisites"></a>Anforderungen
 - Der Benutzer, der die Vorschau bereitstellt, muss über die globalen Administratorrechte für den Azure-Mandanten verfügen. Sie können einen Mandanten während der ersten Angebotseinlösung erstellen. 
@@ -60,19 +60,19 @@ Gehen Sie zu [Dynamics 365 for Finance Vorschau Test](https://aka.ms/trypoche) u
 
 ## <a name="start-a-new-project-in-lcs"></a>Ein neues Projekt in LCS starten
 
-Erstellen Sie ein neues LCS-Projekt wie im Thema [Ein neues Projekt in LCS starten](create-lcs-project.md) beschrieben.
+Erstellen Sie ein neues LCS Projekt wie in dem Artikel [Starten Sie ein neues Projekt in LCS](create-lcs-project.md) beschrieben.
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Einem LCS-Projekt ein Azure-Abonnement hinzufügen
 
-Befolgen Sie zum Ausführen dieser Aufgabe die Schritte im Thema [Einem LCS-Projekt ein Azure-Abonnement hinzufügen](resource-add-azure-subscription-lcs-project.md).
+Um diese Aufgabe zu erledigen, folgen Sie den Schritten im Artikel [Hinzufügen eines Azure Abonnements zum LCS Projekt](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Stellen Sie die Finance-Demoumgebung mit Project Operations für Szenarien mit vorrätigen/nicht vorrätigen Ressourcen bereit
 
-Befolgen Sie die Anweisungen im Thema [Eine neue Umgebung bereitstellen](resource-provision-new-environment.md), um die Bereitstellung abzuschließen. Verwenden Sie den Bereitstellungstyp [Demo-Umgebung](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) für die Vorschau. 
+Folgen Sie der Anleitung im Artikel [Bereitstellen einer neuen Umgebung](resource-provision-new-environment.md), um die Bereitstellung abzuschließen. Verwenden Sie den Bereitstellungstyp [Demo-Umgebung](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) für die Vorschau. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS-Einrichtungs- und Konfigurationsdaten installieren
 
-Installieren Sie CDS-Einrichtungs- und Konfigurationsdaten wie im Thema [Konfigurationsdaten in Common Data Service einrichten und anwenden](resource-apply-pro-setup-config-data.md) beschrieben.
+Installieren Sie die CDS-Einrichtungs- und Konfigurationsdaten wie im Artikel [Konfigurationsdaten in der Common Data Service](resource-apply-pro-setup-config-data.md) festgelegt und anwenden.
 Schließen Sie diesen Schritt erst ab, wenn die Finance-Demo-Umgebung bereitgestellt ist und die Demo-Daten bereitstehen.
 
 

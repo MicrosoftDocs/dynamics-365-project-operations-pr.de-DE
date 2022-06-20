@@ -1,33 +1,33 @@
 ---
 title: Aktualisieren von Plug-In-Attributen mit neuen Preisdimensionen
-description: Dieses Thema enthält Informationen zum Aktualisieren von Plug-In-Attributen für Preisdimensionen.
+description: In diesem Artikel erfahren Sie, wie Sie Plug-in-Attribute für Preisdimensionen aktualisieren.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575027"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920013"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Plug-In-Attribute mit neuen Preisdimensionen aktualisieren
 
-Dieses Thema enthält Informationen zum Aktualisieren von Plug-In-Attributen für Preisdimensionen.
+In diesem Artikel erfahren Sie, wie Sie Plug-in-Attribute für Preisdimensionen aktualisieren.
 
 > [!NOTE]
-> Dieses Thema gilt nur für die Angebots- und Vertragsfunktionen in Dynamics 365 Project Operations.
+> Dieser Artikel gilt nur für die Funktionen für Angebote und Verträge in Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Anforderungen
-Bevor Sie die Schritte in diesem Thema ausführen, müssen Sie die Verfahren in den folgenden Themen ausgeführt haben:
+Bevor Sie die Schritte in diesem Artikel ausführen, müssen Sie die Vorgänge in den folgenden Artikeln abgeschlossen haben:
 
   - [Erstellen von benutzerdefinierten Feldern und Entitäten](create-custom-fields-entities-pricing-dimensions.md) 
   - [Hinzufügen von benutzerdefinierten Feldern zur Preisgestaltung und zu Transaktionsentitäten ](add-custom-fields-price-setup-transactional-entities.md)
   - [Einrichten von benutzerdefinierten Feldern als Preisdimensionen](set-up-custom-fields-pricing-dimensions.md). 
   
-Wenn Sie diese Prozeduren nicht abgeschlossen abgeschlossen haben, schließen Sie diese ab. Dann kehren Sie zu diesem Thema zurück.
+Wenn Sie diese Prozeduren noch nicht abgeschlossen haben, schließen Sie sie ab und kehren Sie dann zu diesem Artikel zurück.
 
 ## <a name="register-a-plug-in"></a>Registrieren eines Plug-Ins
 Wenn ein Angebotszeilendetail auf der **Angebotszeile**-Seite für eine Projektangebotszeile erstellt wird, erstellt das System zwei Schätzzeilen. Eine Zeile ist für die Kostenseite der Schätzung und die andere Zeile ist für den Verkauf auf der Seite. Selbes gilt auch für Projektvertragspositionen.

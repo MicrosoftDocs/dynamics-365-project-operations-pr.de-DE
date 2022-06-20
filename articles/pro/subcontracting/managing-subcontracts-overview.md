@@ -1,17 +1,17 @@
 ---
-title: Fremdarbeitsmanagement in Project Operations
-description: Dieses Thema bietet einen Überblick über den End-to-End-Fremdarbeitsverwaltungsprozess wie er typischerweise in Mprojektbasierten Organisationen zu finden ist.
+title: Untervertragsverwaltung in Project Operations
+description: Dieser Artikel gibt einen Überblick über den gesamten Prozess der Verwaltung von Unteraufträgen in projektbasierten Unternehmen.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593013"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911503"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Untervertragsverwaltung in Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593013"
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Dieses Thema bietet einen Überblick über den End-to-End-Fremdarbeitsverwaltungsprozess in Mprojektbasierten Organisationen. Die Vergabe von Fremdarbeiten für Dienstleistungen folgt normalerweise dem Geschäftsprozessfluss, der im folgenden Diagramm gezeigt wird.
+Dieser Artikel gibt einen Überblick über den End-to-End-Prozess der Verwaltung von Unteraufträgen in projektbasierten Organisationen. Die Vergabe von Fremdarbeiten für Dienstleistungen folgt normalerweise dem Geschäftsprozessfluss, der im folgenden Diagramm gezeigt wird.
 
 ![Fremdarbeitsvergabeprozess-Flow](../media/SubcontractingProcessFlow.png)
 

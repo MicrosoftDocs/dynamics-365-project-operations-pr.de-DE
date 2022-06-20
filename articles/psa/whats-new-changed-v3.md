@@ -1,6 +1,6 @@
 ---
 title: Neuigkeiten und Änderungen in Project Service Automation, Version 3
-description: Dieses Thema enthält Informationen über Neuigkeiten und Änderungen in Project Service Automation, Version 3.
+description: Dieser Artikel enthält Informationen zu den Neuerungen und Änderungen in Project Service Automation Version 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926591"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Neuigkeiten und Änderungen in Project Service Automation, Version 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581651"
 
 
 
-Dieses Thema enthält Informationen zu den Änderungen an der Benutzeroberfläche (UI), zur Funktion und Terminologie in Project Service Automation zwischen Version 2 oder Version 1 und Version 3.
+Dieser Artikel informiert Sie über die Änderungen an der Benutzeroberfläche (UI), der Funktionalität und der Terminologie in Project Service Automation zwischen Version 2 bzw. Version 1 und Version 3.
 
 ## <a name="project-scheduling"></a>Projektzeitpläne
 Der Projektzeitplan, der als Projektstrukturplan (WBS) in früheren Versionen bekannt war, wurde in Zeitplan umbenannt und ist verfügbar, indem Sie auf die Registerkarte **Zeitplan** klicken. 
@@ -150,7 +150,7 @@ Wenn Sie Aufgabenzuordnungen für eine Ressource ohne Buchungen (ein Verlust der
 Dieser Abschnitt enthält Informationen zu den Änderungen an Zeitplanung, Ausgaben und Genehmigung in Version 3 von Project Service Automation. Als Teil der Dynamics 365 Project Service Automation-Lösung wurde die **Zeiteintrag**-Funktion aktualisiert, um das einheitliche Oberfläche-Framework zu nutzen. Dies bietet eine durchgängige, einheitliche Benutzeroberfläche (UI) und folgt den dynamischen Designgrundsätzen für eine optimale Anzeige auf jeder Bildschirmgröße oder jedem Gerät. 
 
 ### <a name="landing-page"></a>Angebotsseite
-Die nicht erweiterbare benutzerdefinierte Zeiteintragungsumgebung wurde in Version 3 eingestellt. Stattdessen gibt es jetzt eine erweiterbare und zugreifbare systemeigene Rastererfahrung. Sie können auf die Zeiteintragsfunktion zugreifen, indem Sie die Siteübersicht auf der linken Seite verwenden. Mit dieser Änderung können Sie die Zeit für eine Woche nicht gleichzeitig eingeben. Stattdessen müssen Sie eine Zeiteintragung für jeden Tag im Raster erstellen. Wenn einige Zeiteintragungen erstellt wurden, können Benutzer Zeiteintragungen per **Kopieren** in Massen erstellen, wie später in diesem Thema beschrieben wird. 
+Die nicht erweiterbare benutzerdefinierte Zeiteintragungsumgebung wurde in Version 3 eingestellt. Stattdessen gibt es jetzt eine erweiterbare und zugreifbare systemeigene Rastererfahrung. Sie können auf die Zeiteintragsfunktion zugreifen, indem Sie die Siteübersicht auf der linken Seite verwenden. Mit dieser Änderung können Sie die Zeit für eine Woche nicht gleichzeitig eingeben. Stattdessen müssen Sie eine Zeiteintragung für jeden Tag im Raster erstellen. Nachdem einige Zeiteinträge erstellt wurden, können Benutzer mit der Funktion **Kopieren**, die später in diesem Artikel erläutert wird, Zeiteinträge in großen Mengen erstellen. 
 
 ![Zeiteintragungs-Angebotsseite.](media/time-entry-landing-page-07.png)
  

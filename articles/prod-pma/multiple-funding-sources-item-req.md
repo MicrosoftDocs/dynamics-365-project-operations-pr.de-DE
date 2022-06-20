@@ -1,23 +1,23 @@
 ---
 title: Artikelanforderungen für Projektverträge mit mehreren Finanzierungsquellen
-description: Dieses Thema enthält Informationen zum Konfigurieren und Verwenden von Artikelanforderungen mit mehreren Finanzierungsquellen.
+description: In diesem Artikel erfahren Sie, wie Sie Elementanforderungen mit mehreren Finanzierungsquellen konfigurieren und verwenden können.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931191"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Artikelanforderungen für Projektverträge mit mehreren Finanzierungsquellen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf den vorrätigen Ressourcen/Fertigung_
 
-Einige vertragliche Vereinbarungen für projektbasierte Leistungen erfordern möglicherweise mehrere Finanzierungsquellen. In diesem Thema wird erläutert, wie Sie die gewünschten Finanzierungsquellen auswählen und konfigurieren, wenn mehrere Quellen für ein Projekt oder einen Projektvertrag erforderlich sind.
+Einige vertragliche Vereinbarungen für projektbasierte Leistungen erfordern möglicherweise mehrere Finanzierungsquellen. Dieser Artikel erklärt, wie Sie die gewünschten Finanzierungsquellen auswählen und konfigurieren, wenn mehrere Quellen für ein Projekt oder einen Projektvertrag erforderlich sind.
 
 ## <a name="terminology"></a>Terminologie
 

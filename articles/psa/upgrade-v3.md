@@ -1,6 +1,6 @@
 ---
 title: Überlegungen zum Upgrade – Microsoft Dynamics 365 Project Service Automation Version 2.x oder 1.x auf Version 3
-description: Dieses Thema enthält Informationen zu Überlegungen, die Sie vornehmen müssen, wenn Sie von Project Service Automation Version 2.x oder 1.x auf Version 3 aktualisieren.
+description: Dieser Artikel enthält Informationen zu den Überlegungen, die Sie anstellen müssen, wenn Sie ein Upgrade von Project Service Automation Version 2.x oder 1.x auf Version 3 durchführen.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918909"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Überlegungen zum Upgrade von PSA-Version 2.x oder 1.x auf Version 3.x
 
@@ -40,7 +40,7 @@ In Project Service Automation Version 2 und Version 1 wurden Aufgabenzuordnungen
 
 In Version 3 von Project Service Automation wurde das zugrunde liegende Schema bei der Zuweisung von buchbaren Ressourcen zu Aufgaben geändert. Die Positionsaufgabe ist veraltet und es gibt eine direkte 1:1-Beziehung zwischen der Aufgabe in der **Aufgabenentität** und dem Teammitglied in der Entität **Ressourcenzuweisung**. Aufgaben, die einem Projektteammitglied zugeordnet sind, werden jetzt direkt in der Ressourcenzuweisungsentität gespeichert.  
 
-Diese Änderungen wirken sich auf das Upgrade aller vorhandenen Projekte aus, die Ressourcenzuweisungen für benannte buchbare Ressourcen und allgemeine Ressourcen in einem Projektteam haben. Dieses Thema enthält Überlegungen, die Sie für Ihre Projekte berücksichtigen müssen, wenn Sie auf Version 3 aktualisieren. 
+Diese Änderungen wirken sich auf das Upgrade aller vorhandenen Projekte aus, die Ressourcenzuweisungen für benannte buchbare Ressourcen und allgemeine Ressourcen in einem Projektteam haben. Dieser Artikel enthält die Überlegungen, die Sie für Ihre Projekte berücksichtigen müssen, wenn Sie auf Version 3 aktualisieren. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Aufgaben, die benannten Ressourcen zugewiesen sind
 Mithilfe der zugrunde liegenden Aufgabenentität konnten Teammitglieder in und Version 2 und Version 1 eine andere Rolle als die Standardrolle darstellen. Zum Beispiel kann Helga Grämer, der standardmäßig die Rolle des Projektleiters zugewiesen ist, eine Aufgabe mit der Rolle Entwickler zugewiesen werden. In Version 3 ist die Rolle eines benannten Teammitglieds immer der Standard, sodass jede Aufgabe, die Helga Grämer zugewiesen wird, die Standardrolle der Projektleiterin Helga erhält.

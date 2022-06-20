@@ -1,26 +1,26 @@
 ---
 title: Eine buchbare Ressourcen als Preisdimension verwenden
-description: Dieses Thema bietet Informationen über das Verwenden von buchbaren Ressourcen als Preisdimension.
+description: Dieser Artikel beschreibt, wie Sie eine buchbare Ressource als Preisdimension verwenden können.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914815"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Eine buchbare Ressourcen als Preisdimension verwenden
 
- _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_ 
+ _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_ 
 
-Dieses Thema bietet Informationen über das Verwenden von buchbaren Ressourcen als Preisdimension. Wenn Ihre Preisstrategie so eingerichtet ist, dass jede buchbare Ressource einen bestimmten Preis oder Kostensatz haben muss, verwenden Sie eine buchbare Ressource als Preisdimension.
+Dieser Artikel beschreibt, wie Sie eine buchbare Ressource als Preisdimension verwenden können. Wenn Ihre Preisstrategie so eingerichtet ist, dass jede buchbare Ressource einen bestimmten Preis oder Kostensatz haben muss, verwenden Sie eine buchbare Ressource als Preisdimension.
 
 ## <a name="prerequisites"></a>Anforderungen
-Bevor Sie die in diesem Thema beschriebenen Verfahren ausführen, müssen Sie über eine neue Lösung für die Preisdimension für Ihr Unternehmen verfügen. Wenn Sie noch keine erstellt haben, lesen Sie [Benutzerdefinierte Felder und Entitäten erstellen](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Bevor Sie die Schritte in diesem Artikel ausführen, müssen Sie eine neue Lösung für Preisdimensionen in Ihrem Unternehmen haben. Wenn Sie noch keine erstellt haben, lesen Sie [Benutzerdefinierte Felder und Entitäten erstellen](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Feld „Buchbare Ressource“ zu Formularen und Ansichten hinzufügen
 Um das **Buchbare Ressource**-Feld in der Preisdimensionslösung anzuzeigen, müssen Sie das Feld allen Formularen und Ansichten als Entität hinzufügen.

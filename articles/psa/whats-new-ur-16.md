@@ -1,6 +1,6 @@
 ---
 title: Neuigkeiten und Änderungen in Project Service Automation, Update Release 16, V3
-description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 16, V3 aufgeführt.
+description: Dieser Artikel listet die Funktionen und Korrekturen auf, die in Project Service Automation Updateversion 16, V3, zur Verfügung stehen.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5651f8b3a2ddf406fcfd7a4e21901c53789fa4ed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e4429ace3d8206369b91917cf87f6968fbb12277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926499"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation Update Release 16, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Wir freuen uns, das neueste Update für die Project Service Automation-Anwendung für Dynamics 365 bekannt zu geben. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit.  Diese Version ist mit Dynamics 365 9.x kompatibel. Um auf diese Version zu aktualisieren, wechseln Sie zum Admin Center für Dynamics 365 online und rufen Sie die Lösungsseite auf, um das Update zu installieren. Weitere Informationen: [Installieren, Aktualisieren einer bevorzugten Lösung](/dynamics365/project-service/upgrade-psa-home-page).
-In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen für PSA V3, Update Release 16 aufgeführt. Diese Version hat eine Build-Nummer von V3.10.6.34 und ist im durch ein Selbst-Update im Januar 2020 verfügbar.
+Dieser Artikel listet die Funktionen und Korrekturen auf, die in PSA V3, Updateversion 16, neu sind oder geändert wurden. Diese Version hat eine Build-Nummer von V3.10.6.34 und ist im durch ein Selbst-Update im Januar 2020 verfügbar.
 
 
 ## <a name="update-release-16"></a>Update Release 16

@@ -1,6 +1,6 @@
 ---
 title: Pay-When-Paid-Kreditorenzahlungen einrichten und verwenden
-description: In diesem Thema wird erläutert, wie Sie Pay-When-Paid-Bedingungen (PWP) erstellen, damit Sie teilweise Kreditorenzahlungen basierend auf Kundenzahlungen freigeben können.
+description: Dieser Artikel erklärt, wie Sie Pay-when-paid (PWP)-Bedingungen erstellen, damit Sie Teilzahlungen von Lieferanten auf der Grundlage von Kundenzahlungen freigeben können.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 71f7b1db58c0d6aacc4f47920e5ad39dbb35ec51
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 10e8e57695caece6c4b6ba4c2ddb52395dad1218
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920749"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Pay-When-Paid-Kreditorenzahlungen einrichten und verwenden
 

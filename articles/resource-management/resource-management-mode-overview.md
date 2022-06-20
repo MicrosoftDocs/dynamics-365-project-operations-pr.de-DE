@@ -1,17 +1,17 @@
 ---
 title: Ressourcenverwaltungsmodi – Übersicht
-description: Dieses Thema enthält Informationen zur Ressourcenverwaltungsfunktionalität in Dynamics 365 Project Operations.
+description: Dieser Artikel enthält Informationen über die Funktionen zur Verwaltung von Ressourcen in Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928431"
 ---
 # <a name="resource-management-modes-overview"></a>Ressourcenverwaltungsmodi – Übersicht
 
@@ -38,7 +38,7 @@ Für Organisationen, die Flexibilität bei der Zuweisung von Ressourcen benötig
 
 ![Hybridmodus.](./media/resource-management-hybrid.png)
 
-Weitere Informationen zum Verwalten aller anderen unterstützten Buchungsabläufe im Hybridmodus finden Sie neben dem unterstützten Prozess im zentralen Modus in den folgenden Themen:
+Zusätzlich zu dem unterstützten Prozess im Zentralmodus lesen Sie die folgenden Artikel, um alle anderen unterstützten Flows im Hybridmodus zu verwalten:
 
 Eine Ressource direkt auf ein Projekt buchen:
 - [Genannte buchbare Ressourcen für ein Projektteam buchen und Aufgaben zuweisen](/dynamics365/project-service/assign-named-bookable-resource)

@@ -1,6 +1,6 @@
 ---
 title: Homepage zu Angeboten, Preisberechnung und Fakturierung
-description: Dieses Thema enthält Informationen zu Angeboten, Preisberechnung und Fakturierung.
+description: Dieser Artikel enthält Informationen über Angebote, Preise und Rechnungen.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581099"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926729"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Homepage zu Angeboten, Preisberechnung und Fakturierung
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581099"
 
 Angebotserstellung, Preisberechnung und Fakturierung sind Funktionen, die sowohl von kleinen als auch von großen Organisation verwendet werden. Wenn sie die Funktionsweise dieser Funktionen in der Anwendung verstehen, können Organisationen ihre Konfigurationen einfacher anpassen.
 
-Die folgende Themen enthalten mehr Informationen zu den Funktionen für die Angebotserstellung, die Preisberechnung und die Fakturierung in PSA:
+In den folgenden Artikeln finden Sie weitere Informationen über die Angebots-, Preisfindungs- und Abrechnungsfunktionen in PSA:
 
 - [Vertriebsprozess](basic-sales-process.md)
 - [Angebotszeilen](basic-quote-lines.md)

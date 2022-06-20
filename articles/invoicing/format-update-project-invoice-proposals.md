@@ -1,17 +1,17 @@
 ---
 title: Projektrechnungsvorschläge verwalten
-description: Dieses Thema bietet Details zur Verarbeitung von kundenspezifischen Rechnungen für Project Operations für ressourcen /nicht vorrätige Szenarien.
+description: Dieser Artikel enthält Details zur Verarbeitung von kundenorientierten Rechnungen mit Project Operations für ressourcenbasierte/ nicht vorrätige Szenarien.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef6003499f1372a51d7d1606db6f5bf9722a369d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585607"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927833"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projektrechnungsvorschläge verwalten
 

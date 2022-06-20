@@ -1,6 +1,6 @@
 ---
 title: Grundlagenhandbuch für Angebote, Preisberechnung und Fakturierung
-description: In diesem Thema finden Sie Links zu Informationen zu Grundlagen von Angeboten, Preisen und Abrechnungen in Project Service Automation.
+description: Dieser Artikel enthält Links zu Informationen über die Grundlagen der Angebotserstellung, Preisgestaltung und Rechnungsstellung in Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592231"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910797"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Grundlagenhandbuch für Angebote, Preisberechnung und Fakturierung
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592231"
 
 Die Möglichkeit, die richtigen Ressourcen zum richtigen Zeitpunkt zu finden, diese Ressourcen für Projekte zu buchen und die Ressourcen weiterhin zu nutzen, hilft Unternehmen dabei, Umsatzziele und Kundenzufriedenheitsziele zu erreichen. 
 
-Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in die folgenden Themen verschoben:
+Der PDF-Link, der zuvor in diesem Artikel enthalten war, wurde entfernt und der Inhalt wurde in die folgenden Artikel verschoben:
 
 - [Angebotserstellung, Preise und Abrechnung](../quote-bill-price.md)
 - [Vertriebsprozesse](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in d
 - [Erfassen von Ist-Werten](../advanced-actuals.md)
 
 > [!NOTE]
-> Dieses Thema wird in einem zukünftigen Dokumentationsupdate entfernt. 
+> Dieser Artikel wird in einem zukünftigen Dokumentations-Update entfernt werden. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

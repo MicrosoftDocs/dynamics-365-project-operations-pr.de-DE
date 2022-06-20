@@ -1,6 +1,6 @@
 ---
 title: Angebote - Schlüsselkonzepte
-description: Dieses Thema enthält Informationen zu den Projektangeboten und Vertriebsangeboten, die in  Project Operations verfügbar sind.
+description: Dieser Artikel enthält Informationen zu Projektangeboten und Verkaufsangeboten, die in Project Operations verfügbar sind.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912515"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Konzepte, die nur für projektbasierte Angebote gelten
 
@@ -35,7 +35,7 @@ In Dynamics 365 Project Operations gibt es zwei Typen von Angeboten: Projektange
 - **Felder und Konzepte** Ein Vertriebsangebot enthält einige Felder und Konzepte nicht, die in einem Projektangebot enthalten sind. Die Felder enthalten **Vertragseinheit**, **Kontomanager** und **Kontaktname für Rechnungsadresse**.  
 - **Typ**: Vertriebsangebote und Projektangebote werden ebenfalls über ein optionssatzbasiertes Feld namens **Typ** ermittelt. Für ein Verkaufsangebot hat dieses Feld den Wert **Elementbasiert**. Für ein Projektangebot hat es den Wert **Arbeitsbasiert**.
 
-Dieses Thema fokussiert sich auf die Details von Projektangeboten.
+Dieser Artikel befasst sich mit den Details von Projektangeboten.
 
 Ein Projektangebot in Project Operationsn kann mehrere Vertragszeilen oder Angebotszeilen haben. Tatsächlich hat ein Projektangebot zwei Raster für Vertragszeilen. Ein Raster dient für projektbasierte Zeilen, die ausführliche Schätzungen ermöglichen. Das andere Raster ist für produktbasierte Zeilen, die einen einfachen Einheitenpreis und eine mengenbasierte Herangehensweise verwenden.
 

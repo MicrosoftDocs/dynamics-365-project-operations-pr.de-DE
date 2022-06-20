@@ -1,6 +1,6 @@
 ---
 title: Wöchentlichen Zeiteintrag anpassen
-description: Dieses Thema enthält Informationen darüber, wie Sie benutzerdefinierte Geschäftsregeln implementieren, die die Verfahrensweise einer Organisation unterstützen.
+description: Dieser Artikel informiert Sie darüber, wie Sie angepasste Geschäftsregeln implementieren, die die Praktiken eines Unternehmens unterstützen.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918955"
 ---
 # <a name="customize-weekly-time-entry"></a>Wöchentlichen Zeiteintrag anpassen 
 
@@ -46,9 +46,9 @@ Der Abschnitt **Dimensionen** zeigt, wie Spaltenüberschriften, alle Dimensionen
 - Typ
 - Eintragsstatus
 
-Im Abschnitt **Dimensionen** ist keine Inlinebearbeitung zulässig. Dieser Abschnitt wird durch eine Ansicht unterstützt, in der benutzerdefinierte Felder dem Raster für den wöchentlichen Zeiteintrag hinzugefügt werden können. Informationen dazu, wie benutzerdefinierte Felder hinzugefügt werden können, finden Sie im Abschnitt "Erweiterbarkeit" weiter unten in diesem Thema.
+Im Abschnitt **Dimensionen** ist keine Inlinebearbeitung zulässig. Dieser Abschnitt wird durch eine Ansicht unterstützt, in der benutzerdefinierte Felder dem Raster für den wöchentlichen Zeiteintrag hinzugefügt werden können. Informationen über das Hinzufügen angepasster Felder finden Sie im Abschnitt „Erweiterbarkeit“ weiter unten in diesem Artikel.
 
-### <a name="duration"></a>Dauer
+### <a name="duration"></a>Duration
 Im Abschnitt „Dauer“ werden die Wochentage als Spaltenüberschriften angezeigt. In diesem Abschnitt ist die Inlinebearbeitung zulässig. Nachdem eine Zeiteintragungszeile erstellt wurde, die über entsprechende Dimensionen verfügt, können Benutzer schnell inline die Zeit eingeben, die sie für die jeweiligen Dimensionen gebraucht haben.
 
 ## <a name="create-a-new-time-entry"></a>Erstellen eines neuen Zeiteintrags

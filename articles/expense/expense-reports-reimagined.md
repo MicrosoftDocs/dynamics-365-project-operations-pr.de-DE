@@ -1,6 +1,6 @@
 ---
 title: Neu gestaltete Spesenabrechnungen (enthält Video)
-description: In diesem Thema wird die neu gestaltete Umgebung zur Erfassung von Spesenabrechnungen erläutert.
+description: Dieser Artikel erklärt die überarbeitete und neu gestaltete Eingabe von Spesenabrechnungen.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930271"
 ---
 # <a name="expense-reports-reimagined"></a>Neu gestaltete Spesenabrechnungen
 

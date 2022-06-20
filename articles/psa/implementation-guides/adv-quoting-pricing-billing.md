@@ -1,6 +1,6 @@
 ---
 title: Erweitertes Handbuch für Angebote, Preisberechnung und Fakturierung
-description: In diesem Thema finden Sie Informationen zu Angeboten, Preisen und Abrechnungen in Project Service Automation.
+description: Dieser Artikel enthält Informationen über Angebote, Rechnungen und Preise in Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579351"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921807"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Erweitertes Handbuch für Angebote, Preisberechnung und Fakturierung für Project Service
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579351"
 
 Die Möglichkeit, die richtigen Ressourcen zum richtigen Zeitpunkt zu finden, diese Ressourcen für Projekte zu buchen und die Ressourcen weiterhin zu nutzen, hilft Unternehmen dabei, Umsatzziele und Kundenzufriedenheitsziele zu erreichen. 
 
-Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in die folgenden Themen verschoben:
+Der PDF-Link, der zuvor in diesem Artikel enthalten war, wurde entfernt und der Inhalt wurde in die folgenden Artikel verschoben:
 
 - [Angebotserstellung, Preise und Abrechnung](../quote-bill-price.md)
 - [Vertriebsprozesse](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in d
 - [Erfassen von Ist-Werten](../advanced-actuals.md)
 
 > [!NOTE]
-> Dieses Thema wird in einem zukünftigen Dokumentationsupdate entfernt. 
+> Dieser Artikel wird in einem zukünftigen Dokumentations-Update entfernt werden. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

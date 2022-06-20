@@ -1,18 +1,18 @@
 ---
 title: Konfigurieren Sie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen
-description: In diesem Thema wird erläutert, wie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen aktiviert werden.
+description: Dieser Artikel erklärt, wie Sie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen aktivieren können.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913757"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurieren Sie nicht vorrätige Materialien und ausstehende Lieferantenrechnungen
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Führen Sie Dual-Write-Karten für nicht vorrätige Materialien und die Integration von Lieferantenrechnungen aus
 
-Dieser Abschnitt enthält Informationen zu den Karten, die für nicht vorrätige Materialien und Lieferantenrechnungen erforderlich sind. Stellen Sie sicher, dass die erforderlichen Karten im Thema [Bereitstellen einer neuen Umgebung](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) in Ihrer Umgebung ausgeführt werden.
+Dieser Abschnitt enthält Informationen zu den Karten, die für nicht vorrätige Materialien und Lieferantenrechnungen erforderlich sind. Vergewissern Sie sich, dass die Zuordnungen, die im Artikel [Bereitstellen einer neuen Umgebung](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) aufgeführt sind, in Ihrer Umgebung ausgeführt werden.
 
 1. Gehen Sie zu Lifecycle Services (LCS), navigieren Sie zu Ihrem LCS-Projekt und gehen Sie zur Seite **Umgebungsdetails**.
 2. Wählen Sie im Abschnitt **Common Data Service Umgebungsinformationen** die Option **Link zu CDS für Apps** aus. Nachdem Sie den Link ausgewählt haben, werden Sie zur Liste der Entitäten in den Zuordnungen weitergeleitet.

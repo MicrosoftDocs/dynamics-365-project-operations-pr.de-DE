@@ -1,6 +1,6 @@
 ---
 title: Erweiterte Verträge für die Abrechnung basierend auf dem Fortschritt erstellen
-description: In diesem Thema wird erläutert, wie Sie Projektverträge erstellen, damit Sie Rechnungen für Kunden basierend auf einem Prozentsatz der abgeschlossenen Arbeit erstellen können.
+description: In diesem Artikel wird erklärt, wie Sie Projektverträge erstellen, damit Sie Rechnungen für Kunden auf der Grundlage eines Prozentsatzes der geleisteten Arbeit erstellen können.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913665"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Erweiterte Verträge für die Abrechnung basierend auf dem Fortschritt erstellen
 [!include [banner](../includes/banner.md)]
 
-In diesem Thema wird erläutert, wie Sie Projektverträge erstellen, damit Sie Rechnungen für Kunden basierend auf einem Prozentsatz der abgeschlossenen Arbeit erstellen können. Rechnungsbeträge werden automatisch für die Budgetkategorien der Arbeit berechnet, die Sie für ein Projekt eingerichtet haben. Der Rechnungszeitpunkt wird festgelegt, wenn Sie den Projektvertrag mit dem Kunden aushandeln.
+Dieser Artikel erklärt, wie Sie Projektverträge erstellen, damit Sie Rechnungen für Kunden erstellen können, die auf einem Prozentsatz der geleisteten Arbeit basieren. Rechnungsbeträge werden automatisch für die Budgetkategorien der Arbeit berechnet, die Sie für ein Projekt eingerichtet haben. Der Rechnungszeitpunkt wird festgelegt, wenn Sie den Projektvertrag mit dem Kunden aushandeln.
 
-Verwenden Sie die Verfahren in diesem Thema, um einen Vertrag, ein zugehöriges Projekt und die Fakturierungsregeln einzurichten, mit denen Rechnungsbeträge für die Budgetkategorien der Arbeit berechnet werden, die Sie für das Projekt eingerichtet haben.
+Verwenden Sie die Verfahren in diesem Artikel, um einen Vertrag, ein zugehöriges Projekt und die Abrechnungsregeln einzurichten, die die Rechnungsbeträge für die Budgetkategorien der Arbeit berechnen, die Sie für das Projekt festgelegt haben.
 
 Nachdem Sie den Vertrag und das Projekt erstellt haben, können Sie die Details des Projekts einrichten. Sie können beispielsweise Aktivitäten definieren und dem Projekt Mitarbeiter zuweisen.
 

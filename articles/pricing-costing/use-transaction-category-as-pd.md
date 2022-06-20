@@ -1,28 +1,28 @@
 ---
 title: Transaktionskategorie als Preisdimension verwenden
-description: Dieses Thema bietet Informationen über das Verwenden des Transaktionskategoriefelds als Preisdimension.
+description: In diesem Artikel erfahren Sie, wie Sie das Feld Transaktionskategorie als Dimension für die Preisgestaltung verwenden.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911693"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Transaktionskategorie als Preisdimension verwenden
 
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 
-Dieses Thema erklärt, wie ein **Transaktionskategorie**-Feld als Preisdimension verwendet wird. 
+Dieser Artikel erklärt, wie Sie das Feld **Transaktionskategorie** als Dimension für die Preisgestaltung verwenden können. 
 
 ## <a name="prerequisites"></a>Anforderungen
-Bevor Sie die in diesem Thema beschriebenen Verfahren ausführen, müssen Sie über eine neue Lösung für die Preisdimension für Ihr Unternehmen verfügen. Wenn Sie noch keine erstellt haben, lesen Sie [Benutzerdefinierte Felder und Entitäten als Preisdimensionen erstellen](create-custom-fields-entities-pricing-dimensions.md).
+Bevor Sie die Schritte in diesem Artikel ausführen, müssen Sie eine neue Lösung für Preisdimensionen in Ihrem Unternehmen haben. Wenn Sie noch keine erstellt haben, lesen Sie [Benutzerdefinierte Felder und Entitäten als Preisdimensionen erstellen](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Transaktionskategoriefeld zu Formularen und Ansichten hinzufügen
 Um das **Transaktionskategorie**-Feld in der Preisdimensionslösung anzuzeigen, müssen Sie das Feld allen Formularen und Ansichten als Entität hinzufügen.

@@ -1,17 +1,17 @@
 ---
 title: Kopfzeilendetails für Fremdarbeiten
-description: In diesem Thema werden die Funktionen erläutert, die in der Kopfzeile für Fremdarbeiten in Project Operations bereitgestellt werden.
+description: Dieser Artikel erläutert die Funktionen, die in Project Operations in der Kopfzeile für Unteraufträge zur Verfügung stehen.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914171"
 ---
 # <a name="header-details-for-subcontracts"></a>Kopfzeilendetails für Fremdarbeiten
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598165"
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-In diesem Thema werden die Funktionen erläutert, die in der Kopfzeile für Fremdarbeiten in Dynamics 365 Project Operations bereitgestellt werden.
+Dieser Artikel erklärt die Funktionen, die in der Kopfzeile des Untervertrags in Dynamics 365 Project Operations zur Verfügung stehen.
 
 Da ein Projektmanager Projekte plant und ausführt, kann er Subunternehmer beschäftigen und Produkte und Dienstleistungen von Lieferanten kaufen. Wenn ein Projektmanager Produkte oder Dienstleistungen kaufen muss, kann er in Project Operations eine Fremdarbeit erstellen.
 

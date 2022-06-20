@@ -1,6 +1,6 @@
 ---
 title: Einheiten und Einheitengruppen
-description: Dieses Thema enthält Informationen zum Erstellen von Einheiten und Einheitengruppen in Dynamics 365 Project Operations.
+description: Dieser Artikel beschreibt, wie Sie Einheiten und Einheitengruppen in Dynamics 365 Project Operations erstellen können.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921439"
 ---
 # <a name="units-and-unit-groups"></a>Einheiten und Einheitengruppen
 
@@ -28,7 +28,7 @@ _**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lit
 
 Einheiten sind die Mengen oder Maße, in denen Produkte oder Dienstleistungen verkauft werden. Wenn Sie z. B. Gartenarbeitszubehör verkaufen, bietet sich ein Verkauf in den Einheiten Paletten, Pakete, Kisten an. Eine Einheitengruppe ist eine Sammlung dieser verschiedenen Einheiten.
 
-Stellen Sie zum Ausführen der Schritte in diesem Thema sicher, dass Sie der Systemrolle Administrator oder Sales Professional Manager zugewiesen wurden oder über entsprechende Berechtigungen verfügen.
+Um die Schritte in diesem Artikel auszuführen, stellen Sie sicher, dass Ihnen die Rolle Systemadministrator oder Vertriebsmanager zugewiesen wurde oder dass Sie über entsprechende Berechtigungen verfügen.
 
 ## <a name="create-a-unit-group"></a>Erstellen einer Einheitengruppe
 

@@ -1,6 +1,6 @@
 ---
 title: Ressourcenverwaltungs-Homepage
-description: Dieses Thema enthält Informationen zum Verwalten von Ressourcen.
+description: In diesem Artikel erfahren Sie, wie Sie Ressourcen verwalten können.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913251"
 ---
 # <a name="resource-management-home-page"></a>Ressourcenverwaltungs-Homepage
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578753"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ressourcen sind die wichtigsten Anlagen einer dienstbasierten Organisation. Die Möglichkeit, bei Bedarf die richtigen Ressourcen zu finden, zu buchen und weiterhin zu nutzen, hilft der Organisation dabei, Umsatzziele und Kundenzufriedenheitsziele zu erreichen. Die folgenden Themen konzentrieren sich auf die Funktionen für das Ressourcenmanagement von Dynamics 365 Project Service Automation:
+Ressourcen sind die wichtigsten Anlagen einer dienstbasierten Organisation. Die Möglichkeit, bei Bedarf die richtigen Ressourcen zu finden, zu buchen und weiterhin zu nutzen, hilft der Organisation dabei, Umsatzziele und Kundenzufriedenheitsziele zu erreichen. Die folgenden Artikel befassen sich mit den Funktionalitäten der Ressourcenverwaltung von Dynamics 365 Project Service Automation:
 
 - [Ressourcen verwalten](manage-resources.md)
 - [Wichtige Konzepte](reports-key-concepts.md)

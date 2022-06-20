@@ -1,24 +1,24 @@
 ---
 title: Neuigkeiten für April 2022 – Project Operations – Lite-Bereitstellung
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version vom April 2022 der Microsoft Dynamics 365 Project Operations Lite-Bereitstellung verfügbar sind.
+description: Dieser Artikel enthält Informationen über die Qualitätsupdates, die in der Lite-Bereitstellung von Microsoft Dynamics 365 Project Operations im April 2022 zur Verfügung stehen.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927465"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Neuigkeiten für April 2022 – Project Operations – Lite-Bereitstellung
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Dieses Thema gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
+Dieser Artikel gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in einer Dataverse-Umgebung der Version 4.41.0.45
 

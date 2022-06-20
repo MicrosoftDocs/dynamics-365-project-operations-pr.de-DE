@@ -1,6 +1,6 @@
 ---
 title: Projekt-Zeittabelle mobile Anwendung
-description: Diese Thema bietet Informationen über die Microsoft Dynamics 365 Project Timesheet mobile Anwendung. Mit der mobilen App Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen.
+description: Dieser Artikel enthält Informationen über die mobile Anwendung Microsoft Dynamics 365 Project Timesheet. Mit der mobilen App Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen.
 author: abruer
 ms.date: 04/08/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923969"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekt-Zeittabelle mobile Anwendung
 

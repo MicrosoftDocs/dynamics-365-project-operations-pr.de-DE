@@ -1,6 +1,6 @@
 ---
 title: Homepage upgraden
-description: In diesem Thema wird gezeigt, wo Sie wichtige Informationen über die neuen und geänderten Funktionen in Dynamics 365 Project Service Automation finden sowie den Prozess für das Upgraden auf die neueste Version.
+description: Dieser Artikel zeigt, wo Sie wichtige Informationen über die neuen und geänderten Funktionen in Dynamics 365 Project Service Automation finden und wie Sie ein Upgrade auf die neueste Version durchführen.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926637"
 ---
 # <a name="upgrade-home-page"></a>Homepage upgraden
 
@@ -48,14 +48,14 @@ Zuvor mussten Kunden, die eine Instanz von PSA Version 2.x hatten, und auf Versi
 Bevor Sie mit dem Upgradeprozess beginnen, wird empfohlen, dass Sie die folgenden Aufgaben abschließen:
 
 - Überprüfen Sie, ob sowohl Dynamics 365 Field Service als auch Project Service Automation in der identifizierten Instanz installiert sind. Wenn beide Lösungen installiert sind, sollten Sie das Upgrade für beide Planen, bevor Sie die reguläre Verwendung der Instanz fortsetzen.
-- Überprüfen Sie sorgfältig die folgenden Themen. Kenntnis und Verstehen der Änderungen zwischen Versionen hilft Ihnen beim Upgradeprozess. Diese Themen bieten Informationen zu den Hauptänderungen in PSA, neben Überlegungen und Empfehlungen für die Planung Ihres Upgrades auf Version 3.x.
+- Lesen Sie die folgenden Artikel sorgfältig durch. Kenntnis und Verstehen der Änderungen zwischen Versionen hilft Ihnen beim Upgradeprozess. Diese Artikel enthalten Informationen über die wichtigsten Änderungen in PSA sowie Überlegungen und Empfehlungen für die Planung Ihres Upgrades auf Version 3.x.
 
     - [Neuigkeiten und Änderungen in Project Service Automation, Version 3](whats-new-changed-v3.md)
     - [Überlegungen zum Upgrade – Project Service Automation Version 2.x oder 1.x auf Version 3](upgrade-v3.md)
 
 - Aktualisieren Sie Ihre Sandkasteninstanz, um Änderungen in Ihrer Implementierung auszuwerten, bevor Sie Ihre Produktionsinstanz aktualisieren.
 
-Nachdem Sie die Themen durchgesehen haben, die zuvor erwähnt wurden und bereit sind, das Upgrade auf PSA Version 3.x oder die UCI-basierte Version durchzuführen, senden Sie eine Anforderung an den Microsoft-Support, damit dieser das Upgrade vom Admin Center aus zur Verfügung stellt. Geben Sie in Ihrer Anforderung die Details Ihrer Instanz an.
+Nachdem Sie die oben genannten Artikel gelesen haben und bereit sind, auf PSA Version 3.x oder die UCI-basierte Version zu aktualisieren, senden Sie eine Anfrage an den Microsoft Support, um das Upgrade über das Admin Center bereitzustellen. Geben Sie in Ihrer Anforderung die Details Ihrer Instanz an.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Ältere Versionen von PSA (PSA Version 2.x) in einer neu erstellten Instanz
 

@@ -1,17 +1,17 @@
 ---
 title: Mehrere Kunden in einem Projektangebot verwalten
-description: Dieses Thema enthält Informationen zur Bearbeitung von Angeboten, an denen mehrere Kunden beteiligt sind, die das Projekt finanzieren.
+description: Dieser Artikel informiert Sie über die Arbeit an Angeboten, die mehrere Kunden betreffen, die das Projekt finanzieren.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 34fbe426020dbf329c02c510f6366f189f35afab
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928201"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Mehrere Kunden in einem Projektangebot verwalten
 

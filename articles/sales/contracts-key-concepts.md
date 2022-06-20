@@ -1,17 +1,17 @@
 ---
 title: Projektverträge – Wichtige Konzepte
-description: Dieses Thema enthält Informationen zu den wichtigen Konzepten von Projektverträgen in Project Operations.
+description: Dieser Artikel informiert Sie über die wichtigsten Konzepte von Projektverträgen in Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926223"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Konzepte, die nur für projektbasierte Verträge gelten
 
@@ -19,7 +19,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 
 
-Dieses Thema enthält die wichtigsten Konzepte, die Sie kennen sollten, bevor Sie mit der Verwendung von Projektverträgen in Dynamics 365 Project Operations beginnen:
+In diesem Artikel finden Sie die wichtigsten Konzepte, die Sie kennen sollten, bevor Sie mit der Verwendung von Project-Verträgen in Dynamics 365 Project Operations beginnen:
 
 ## <a name="owning-company"></a>Zuständiges Unternehmen
 

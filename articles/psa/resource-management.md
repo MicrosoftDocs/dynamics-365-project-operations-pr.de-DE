@@ -1,6 +1,6 @@
 ---
 title: Homepage für Ressourcenzuordnungsprojekte
-description: Dieses Thema enthält Informationen zu den Funktionen für das Ressourcenmanagement in Project Service Automation (PSA) für Dynamics 365.
+description: Dieser Artikel informiert Sie über die Funktionalitäten des Ressourcenmanagements in Project Service Automation (PSA) für Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925257"
 ---
 # <a name="resourcing-projects-home-page"></a>Homepage für Ressourcenzuordnungsprojekte
 
@@ -46,7 +46,7 @@ Ressourcen sind die wichtigsten Anlagen einer dienstbasierten Organisation. Die 
 - Pflegen Sie ein Repository für Fähigkeiten und Kompetenzen.
 
 
-Sie können Ihr Projekt mit einem Team aus generischen oder benannten Ressourcen in PSA besetzen. Sie können verschiedene Methoden verwenden, um Teammitglieder Hinzuzufügen und Zuzuweisen und ihre Buchungen und Zuweisungen zu verwalten. Weitere Informationen finden Sie in den folgenden Themen.
+Sie können Ihr Projekt mit einem Team aus generischen oder benannten Ressourcen in PSA besetzen. Sie können verschiedene Methoden verwenden, um Teammitglieder Hinzuzufügen und Zuzuweisen und ihre Buchungen und Zuweisungen zu verwalten. Weitere Informationen finden Sie in den folgenden Artikeln:
 
 - [Benannte buchbare Ressourcen für ein Projektteam buchen und ihnen Aufgaben zuweisen](assign-named-bookable-resource.md)
 - [Zuweisen von allgemeinen buchbaren Ressourcen zu einer Aufgaben und Erstellen von Ressourcenanforderungen](assign-generic-bookable-resource.md)

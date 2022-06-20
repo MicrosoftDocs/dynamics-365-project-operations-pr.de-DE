@@ -1,17 +1,17 @@
 ---
 title: Einen Rechnungszeitplan für eine projektbasierte Vertragszeile erstellen
-description: Dieses Thema enthält Informationen zum Erstellen von Rechnungszeitplänen und Meilensteinen in Vertragszeilen.
+description: Dieser Artikel beschreibt, wie Sie Rechnungszeitpläne und Meilensteine für Vertragszeilen erstellen können.
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7dd8e4517d5ae7401fd0f11301943157b42a6b0e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 490a61b67f54bdad95ecfce905191c381dddc85b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914999"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Einen Rechnungszeitplan für eine projektbasierte Vertragszeile erstellen 
 

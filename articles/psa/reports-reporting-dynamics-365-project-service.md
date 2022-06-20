@@ -1,6 +1,6 @@
 ---
-title: Homepage zur Berichterstellung
-description: Dieses Thema enthält Informationen zur Berichterstellung in Dynamics 365 Project Service Automation.
+title: Homepage für die Berichterstellung
+description: Dieser Artikel enthält Informationen über die Berichterstattung in Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921669"
 ---
 # <a name="reporting-home-page"></a>Homepage für die Berichterstellung
 
@@ -47,7 +47,7 @@ Microsoft Power BI und Dynamics 365 bieten Ihnen in Form von Insights-Apps eine 
 
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
-Weitere Informationen zur Berichterstellung in PSA finden Sie in folgenden Themen:
+Weitere Informationen über die Berichterstattung in PSA finden Sie in den folgenden Artikeln:
 
 - [Arbeiten mit dem Project Service-Datenmodell](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)

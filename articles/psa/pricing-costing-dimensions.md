@@ -1,6 +1,6 @@
 ---
 title: Preis- und Nachkalkulationsdimensions-Homepage
-description: Dieses Thema enthält einen Überblick über Preisdimensionen.
+description: Dieser Artikel bietet einen Überblick über die Dimensionen der Preisgestaltung.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925441"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Preis- und Nachkalkulationsdimensions-Homepage
 
@@ -47,7 +47,7 @@ PSA wird mit einem Standardsatz an Preisdimensionen bereitgestellt. Sie können 
 > [!IMPORTANT]
 > Falls Sie die vorgegebenen Felder von Rolle und Organisationseinheit als Preisdimensionen vor Version 3 von PSA verwenden, gibt es keine wahrnehmbare Änderung. Sie können Project Service wie gehabt verwenden. 
 
-Wenn Sie einen Preis oder Kosten für Ihre Ressourcen mit zusätzlichen Attributen festlegen müssen, können Sie benutzerdefinierte Felder, Entitäten und Dimensionen einrichten. Weitere Informationen finden Sie in den folgenden Themen. Beachten Sie jedoch, dass Sie die Vorgehensweisen in der unten angegebenen Reihenfolge abschließen müssen:
+Wenn Sie einen Preis oder Kosten für Ihre Ressourcen mit zusätzlichen Attributen festlegen müssen, können Sie benutzerdefinierte Felder, Entitäten und Dimensionen einrichten. Weitere Informationen finden Sie in den folgenden Artikeln. Beachten Sie jedoch, dass Sie die Verfahren in der unten aufgeführten Reihenfolge durchführen müssen:
 
 - [Erstellen benutzerdefinierter Felder und Entitäten](create-custom-fields-entities.md)
 - [Hinzufügen von benutzerdefinierten Feldern zum Preissetup und zu Transaktionsentitäten](field-references.md)

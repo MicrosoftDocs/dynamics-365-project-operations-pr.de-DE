@@ -1,6 +1,6 @@
 ---
 title: Neuigkeiten und Änderungen in Project Service Automation, Update Release 21, V3
-description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 21, V3 aufgeführt.
+description: Dieser Artikel listet die Funktionen und Korrekturen auf, die in Project Service Automation Updateversion 21, V3, zur Verfügung stehen.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 34d1540639352f635068b849500a104de2509a7f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d7c098a4572aa4f5730ffdbdab77b2897cdfeff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918817"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation Update Release 21, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577834"
 
 Wir freuen uns, das neueste Update für die Project Service Automation-Anwendung für Dynamics 365 bekannt zu geben. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit. Diese Version ist mit Dynamics 365 9.x kompatibel. Um auf diese Version zu aktualisieren, wechseln Sie zum Admin Center für Dynamics 365 online, und rufen Sie die Lösungsseite auf, um das Update zu installieren. Weitere Informationen: [Installieren, Aktualisieren oder Entfernen einer bevorzugten Lösung](/power-platform/admin/install-remove-preferred-solution).
 
-In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen für Project Service Automation V3, Update Release 21 aufgeführt. Diese Version hat die Build-Nummer V 3.10.32.50 und ist allgemein über ein Selbstupdate im Juni 2020 verfügbar.
+Dieser Artikel listet die Funktionen und Korrekturen auf, die für Project Service Automation V3, Updateversion 21, neu sind oder geändert wurden. Diese Version hat die Build-Nummer V 3.10.32.50 und ist allgemein über ein Selbstupdate im Juni 2020 verfügbar.
 
 ## <a name="update-release-21"></a>Update Release 21
 

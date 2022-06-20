@@ -1,23 +1,23 @@
 ---
 title: Projektvertragseinstellungen – Lite
-description: Dieses Thema enthält Informationen zu den Feldern, die sich auf Vertragszeilen auswirken, sowie Informationen zu dem Vertrag, die in allen Zeilenpositionen zusammengefasst sind.
+description: Dieser Artikel enthält Informationen zu Feldern, die sich auf Vertragszeilen auswirken, und zu den Informationen über den Vertrag, die in allen Zeilen zusammengefasst werden.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917069"
 ---
 # <a name="header-details-for-project-contracts"></a>Kopfzeilendetails für Projektverträge
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Dieses Thema enthält Informationen zu Feldern, die für den gesamten Projektvertrag gelten, einschließlich Einstellungen, die sich auf alle Vertragszeilen auswirken. Informationen zum Vertrag, die in allen Zeilenpositionen zusammengefasst sind, um die KPIs des Projektvertrags zu bestimmen, sind ebenfalls enthalten.
+Dieser Artikel enthält Informationen über Felder, die für den gesamten Projektvertrag gelten, einschließlich Einstellungen, die sich auf alle Vertragszeilen auswirken. Informationen zum Vertrag, die in allen Zeilenpositionen zusammengefasst sind, um die KPIs des Projektvertrags zu bestimmen, sind ebenfalls enthalten.
 
 In der folgenden Tabelle sind die Felder eines Projektvertrags aufgeführt, die nur in Dynamics 365 Project Operations vorhanden sind oder einige wichtige Änderungen im Verhalten hinsichtlich Vertriebsaufträgen in Dynamics 365 Sales aufweisen.
 

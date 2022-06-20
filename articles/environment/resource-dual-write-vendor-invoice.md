@@ -1,18 +1,18 @@
 ---
 title: Zuliefererrechnungsintegration
-description: Dieses Thema enthält Informationen zur Zuliefererrechnungsintegration in Project Operations.
+description: Dieser Artikel enthält Informationen über die Integration von Lieferantenrechnungen in Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912055"
 ---
 # <a name="vendor-invoice-integration"></a>Zuliefererrechnungsintegration
 
@@ -21,7 +21,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 Projektbezogene Beschaffung in Dynamics 365 Project Operations kann aufgezeichnet werden, indem Sie zu **Kreditoren** > **Rechnungen** > **Ausstehende Lieferantenrechnungen** gehe und einen ausstehenden Lieferantenrechnungsbeleg verwenden. Weitere Informationen finden Sie unter [Beschaffen von nicht vorrätigen Materialien mithilfe einer ausstehenden Lieferantenrechnung](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Bevor Sie die in diesem Thema beschriebenen Funktionen verwenden, überprüfen Sie die erforderlichen Konfigurationen und wenden Sie sie an. Weitere Informationen finden Sie unter [Aktivieren von nicht vorrätigen Materialien und ausstehenden Lieferantenrechnungen](../procurement/configure-materials-nonstocked.md).
+> Bevor Sie die in diesem Artikel beschriebenen Funktionen nutzen, sollten Sie die erforderlichen Konfigurationen überprüfen und anwenden. Weitere Informationen finden Sie unter [Aktivieren von nicht vorrätigen Materialien und ausstehenden Lieferantenrechnungen](../procurement/configure-materials-nonstocked.md).
 
 In Project Operations werden projektbezogene Lieferantenrechnungen nach speziellen Buchungsregeln gebucht:
 

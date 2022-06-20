@@ -1,18 +1,18 @@
 ---
 title: Nicht vorrätige Materialien oder Beschaffungskategorien mithilfe einer ausstehender Kreditorenrechnung kaufen
-description: In diesem Thema wird erläutert, wie ausstehende Lieferantenrechnungen erfasst werden.
+description: Dieser Artikel erklärt, wie Sie ausstehende Lieferantenrechnungen erfassen.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921991"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nicht vorrätige Materialien oder Beschaffungskategorien mithilfe einer ausstehender Kreditorenrechnung kaufen
 
@@ -23,7 +23,7 @@ Wenn ein Unternehmen nicht lagerhaltige Materialien oder Beschaffungskategorien 
 Contoso Robotics US führt beispielsweise ein Projekt zur Geräteerneuerung durch und benötigt Softwarelizenzen. Diese Lizenzen werden von einem Drittanbieter bezogen.  Unter Verwendung von Dynamics 365 Finance erfasst der Kreditorenbuchhalter ein ausstehendes Kreditorenrechnungsdokument und ordnet die Lizenzkosten direkt dem Arbeitsgeräteerungsprojekt zu. 
 
 > [!IMPORTANT]
-> Bevor Sie die in diesem Thema beschriebenen Funktionen verwenden, überprüfen Sie die erforderlichen Konfigurationen und wenden Sie sie an. Weitere Informationen finden Sie unter [Nicht vorrätige Materialien und ausstehende Kreditorenrechnungen aktivieren](configure-materials-nonstocked.md) und [Beschaffungskategorien mit Projektbestellungen und ausstehenden Kreditorenrechnungen verwenden](configure-procurement-categories.md)
+> Bevor Sie die in diesem Artikel beschriebenen Funktionen nutzen, sollten Sie die erforderlichen Konfigurationen überprüfen und anwenden. Weitere Informationen finden Sie unter [Nicht vorrätige Materialien und ausstehende Kreditorenrechnungen aktivieren](configure-materials-nonstocked.md) und [Beschaffungskategorien mit Projektbestellungen und ausstehenden Kreditorenrechnungen verwenden](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Buchen Sie eine projektbezogene ausstehende Lieferantenrechnung 
 

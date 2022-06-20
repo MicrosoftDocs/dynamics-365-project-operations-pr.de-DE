@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920657"
 ---
 # <a name="work-breakdown-structures-overview"></a>Projektstrukturplan Übersicht
 
@@ -35,7 +35,7 @@ Der Detaillierungsgrad in einem PSP hängt von der Genauigkeit ab, die für Sch�
 
 Im Gegensatz dazu sind Projekte in Branchen wie Medien und Werbung, Software und IT-Infrastruktur in der Regel einzigartig, und die Produktivität hängt von der Erfahrung und Kompetenz der Person ab, die die Aufgabe ausführt. Daher verwenden diese Branchen einen PSP, um eine Annäherung an die Größe eines Projekts zu erhalten, und nicht, um den Fortschritt dieses Projekts im Detail zu verfolgen. 
 
-Das Erstellen eines PSP ist ein intensiver Prozess, der normalerweise über einen langen Zeitraum durchgeführt wird und der die Zusammenarbeit und Information einer Vielzahl von Personen erfordert. In diesem Thema wird beschrieben, wie Sie PSP-Verbesserungen verwenden können, um Ihre Anforderungen an Schätzungen und Nachverfolgung zu erfüllen.
+Das Erstellen eines PSP ist ein intensiver Prozess, der normalerweise über einen langen Zeitraum durchgeführt wird und der die Zusammenarbeit und Information einer Vielzahl von Personen erfordert. Dieser Artikel beschreibt, wie Sie WBS-Erweiterungen verwenden können, um Ihre Anforderungen an Schätzungen und Nachverfolgung zu erfüllen.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Voraussetzungen zum Erstellen von PSP-Richtlinien
 Um einen PSP zu erstellen, müssen Sie in der Lage sein, einen Zeitplan zu erstellen und die Arbeitskosten zu schätzen.
@@ -166,7 +166,7 @@ Finance hat drei Ansichten für den PSP eines Projekts: die Planungsansicht, die
 
 ### <a name="planning-view"></a>Planungsansicht
 
-In der Planungsansicht wird die geplante oder Basisschätzung der Zeitplan- und Kosteninformationen angezeigt. Obwohl es keine Funktionen zum Verfolgen der Version und der Baseline für einen Projekt-PSP gibt, sollen die Werte in dieser Ansicht die Baseline-Version darstellen. In den Abschnitten Zeitplanschätzung und Kostenschätzung dieses Thema wird diese Ansicht beschrieben und es wird auch beschrieben, wie sie zum Erstellen eines PSP verwendet wird.
+In der Planungsansicht wird die geplante oder Basisschätzung der Zeitplan- und Kosteninformationen angezeigt. Obwohl es keine Funktionen zum Verfolgen der Version und der Baseline für einen Projekt-PSP gibt, sollen die Werte in dieser Ansicht die Baseline-Version darstellen. Die Abschnitte Zeitplanschätzung und Kalkulation in diesem Artikel beschreiben diese Ansicht und wie sie zum Erstellen eines Projektstrukturplans verwendet wird.
 
 ### <a name="effort-tracking-view"></a>Aufwandsnachverfolgungsansicht
 

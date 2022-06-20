@@ -1,24 +1,24 @@
 ---
 title: Neuigkeiten September 2021 – Project Operations lite-Bereitstellung
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version vom September 2021 der Project Operations Lite-Bereitstellung verfügbar sind.
+description: Dieser Artikel enthält Informationen über die Qualitätsupdates, die in der Lite-Bereitstellung von Project Operations im September 2021 verfügbar sind.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f84d19df59e9f726d6ee456ff6064ad24529b577
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 275b2630588497f867e7ba886c458fa738778187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931283"
 ---
 # <a name="whats-new-september-2021---project-operations-lite-deployment"></a>Neuigkeiten September 2021 – Project Operations lite-Bereitstellung
 
 _Gilt für: Lite Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
+Dieser Artikel bezieht sich auf die folgenden Dynamics 365 Project Operations-Komponenten und Versionen:
 
   - Project Operations in Microsoft Dataverse, Umgebungsversion 4.14.0.99
 

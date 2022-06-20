@@ -1,6 +1,6 @@
 ---
-title: Währung
-description: Dieses Thema enthält Informationen zum Hinzufügen und Entfernen von Währungstypen in Project Operations.
+title: Währungen
+description: Dieser Artikel informiert Sie darüber, wie Sie in Project Operations Währungstypen hinzufügen und entfernen können.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a20b4518954cce755555b95cc7fd9e6efb1a7322
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0fbfd1039fe0a7401376bb8c27b118297fdc87f5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921531"
 ---
 # <a name="currency"></a>Währung
 

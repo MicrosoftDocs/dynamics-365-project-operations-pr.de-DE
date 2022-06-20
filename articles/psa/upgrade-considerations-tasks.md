@@ -1,6 +1,6 @@
 ---
 title: Upgrade-Überlegungen für den Projektstrukturplan
-description: Dieses Thema enthält Informationen zum Aktualisieren des Projektstrukturplans von Project Service Automation 2.x auf 3.x.
+description: Dieser Artikel enthält Informationen über die Aktualisierung des Projektstrukturplans von Project Service Automation 2.x auf 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913113"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Upgrade-Überlegungen für den Projektstrukturplan
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dieses Thema enthält Informationen zum Aktualisieren des Projektstrukturplans von Project Service Automation 2.x auf 3.x. Dieses Thema definiert den fehlerfreien Status eines Projekts in Project Service Automation (PSA), der für ein erfolgreiches Upgrade erforderlich ist. Es gibt auch Informationen über die allgemeinen Sperrbedingungen, die zum Fehlschlag eines Upgrades führen können. Weitere Informationen über das Definieren von Projektaufgaben und deren Funktionen innerhalb eines Projektzeitplans finden Sie unter [Projektzeitpläne](project-creating.md).
+Dieser Artikel enthält Informationen über die Aktualisierung des Projektstrukturplans von Project Service Automation 2.x auf 3.x. Dieser Artikel definiert den gesunden Status eines Projekts in Project Service Automation (PSA), der für ein erfolgreiches Upgrade erforderlich ist. Es gibt auch Informationen über die allgemeinen Sperrbedingungen, die zum Fehlschlag eines Upgrades führen können. Weitere Informationen über das Definieren von Projektaufgaben und deren Funktionen innerhalb eines Projektzeitplans finden Sie unter [Projektzeitpläne](project-creating.md).
 
 ## <a name="key-entities"></a>Schlüsselentitäten
 Für einen akkuraten Projektstrukturplan, für den bereits Ressourcen geladen sind, sind die folgenden Entitäten erforderlich:

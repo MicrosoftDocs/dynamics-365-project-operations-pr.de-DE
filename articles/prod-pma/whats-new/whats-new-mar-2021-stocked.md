@@ -1,24 +1,24 @@
 ---
 title: Neuigkeiten oder Änderungen für März 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations vom März 2021 für lager-/produktionsbasierte Szenarien verfügbar sind.
+description: Dieser Artikel enthält Informationen über die Qualitätsupdates, die in der Version von Project Operations vom März 2021 für Szenarien auf Lager-/Produktionsbasis verfügbar sind.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911319"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Neuigkeiten oder Änderungen für März 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
 _**Gilt für:** Project Operations für Szenarien basierend auf den vorrätigen Ressourcen/Fertigung_
 
-Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
+Dieser Artikel bezieht sich auf die folgenden Dynamics 365 Project Operations-Komponenten und Versionen:
 
 - Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.17
 

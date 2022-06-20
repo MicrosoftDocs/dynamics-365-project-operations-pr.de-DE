@@ -1,17 +1,17 @@
 ---
 title: Erfassung von Zeit, Ausgaben und Materialverbrauch für Fremdarbeitskomponenten
-description: In diesem Thema wird erläutert, wie Zeit, Kosten und Materialverbrauch, die für Projekte aus Fremdarbeitskomponenten erfasst wurden, von Microsoft Dynamics 365 Project Operations nachverfolgt werden.
+description: Dieser Artikel erklärt, wie Zeit-, Aufwands- und Materialdatensätze, die für Projekte aus untervergebenen Komponenten erfasst wurden, von Microsoft Dynamics 365 Project Operations verfolgt werden.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927649"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Erfassung von Zeit, Ausgaben und Materialverbrauch für Projekte aus Fremdarbeitskomponenten
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599223"
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-In diesem Thema wird erläutert, wie Zeit, Kosten und Materialverbrauch, die für Projekte aus Fremdarbeitskomponenten erfasst wurden, von Microsoft Dynamics 365 Project Operations nachverfolgt werden.
+Dieser Artikel erklärt, wie Zeit-, Aufwands- und Materialdatensätze, die für Projekte aus untervergebenen Komponenten erfasst wurden, von Microsoft Dynamics 365 Project Operations verfolgt werden.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Kostenkalkulation für Fremdarbeitszeit bei Projekten
 In Project Operations können Vertragsmitarbeiter die Zeit für Projekte auf ähnliche Weise wie Mitarbeiter erfassen. Bei der Eingabe von Zeit für Projekte und/oder Projektaufgaben kann ein Vertragsarbeiter eine bestimmte Fremdarbeit und eine Fremdarbeitsposition auswählen.

@@ -1,24 +1,24 @@
 ---
 title: Was ist neu Juni 2021 - Project Operations für ressourcenbasierte/nicht vorrätige Szenarien
-description: Dieses Thema enthält Informationen zu den Qualitätsaktualisierungen, die in der Version Juni 2021 von Project Operations für ressourcen-/nicht vorratsbasierte Szenarien verfügbar sind.
+description: Dieser Artikel informiert Sie über die Qualitätsupdates, die in der Version von Project Operations vom Juni 2021 für ressourcenbasierte/nicht vorrätige Szenarien verfügbar sind.
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910583"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Was ist neu Juni 2021 - Project Operations für ressourcenbasierte/nicht vorrätige Szenarien
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
+Dieser Artikel bezieht sich auf die folgenden Dynamics 365 Project Operations-Komponenten und Versionen:
 
 - Project Operations in Dynamics 365 Dataverse-Umgebung Version 4.11.0.156 oder 4.11.0.164.
 - Projektmanagement und Buchhaltung in Finanz- und Betriebs-Apps-Umgebungen Version 10.0.19.

@@ -1,17 +1,17 @@
 ---
 title: Projektteammitglieder
-description: Dieses Thema enthält Informationen zum Arbeiten mit Informationen, Attributen und der Planung von Mitgliedern des Projektteams.
+description: In diesem Artikel erfahren Sie, wie Sie mit Informationen, Attributen und Zeitplänen von Projektmitarbeitern arbeiten können.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 75b140a4ea17dbb3093f926367f439544c32d587
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3465688fb267f3ab785fcb0d252e8616ac1aa1c8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929305"
 ---
 # <a name="project-team-members"></a>Projektteammitglieder
 

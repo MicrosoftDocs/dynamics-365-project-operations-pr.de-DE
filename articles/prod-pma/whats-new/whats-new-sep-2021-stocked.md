@@ -1,24 +1,24 @@
 ---
 title: Neuigkeiten oder Änderungen für September 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version vom September 2021 der Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung.
+description: Dieser Artikel informiert Sie über die Qualitätsupdates, die in der Version von Project Operations vom September 2021 für lager- und produktionsbasierte Szenarien zur Verfügung stehen.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916517"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Neuigkeiten oder Änderungen für September 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
 
 _**Gilt für:** Project Operations für lager-/produktionsbasierte Szenarien_
 
-Dieses Thema gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
+Dieser Artikel gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
 
 - Projektmanagement und -buchhaltung in einer Dynamics 365 Finance-Umgebungsversion 10.0.21
  

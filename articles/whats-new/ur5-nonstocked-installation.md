@@ -1,31 +1,31 @@
 ---
 title: Aktualisieren Sie Project Operations in Ihrer Finance Umgebung
-description: Dieses Thema enthält Informationen zum Aktualisieren von Project Operations in Ihrer Dynamics 365 Finance-Umgebung.
+description: Dieser Artikel beschreibt, wie Sie Project Operations in Ihrer Dynamics 365 Finance Umgebung aktualisieren können.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912469"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aktualisieren Sie Project Operations in Ihrer Finance Umgebung
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
 
-Dieses Thema enthält Informationen zum Aktualisieren von Dynamics 365 Project Operations in Ihrer Dynamics 365 Finance-Umgebung. Es sind drei Verfahren erforderlich, um Project Operations auf Update 5 (UR5) zu aktualisieren:
+Dieser Artikel beschreibt, wie Sie Dynamics 365 Project Operations in Ihrer Dynamics 365 Finance Umgebung aktualisieren können. Es sind drei Verfahren erforderlich, um Project Operations auf Update 5 (UR5) zu aktualisieren:
 
 - [Importieren Sie das Paket in Ihr Vorschauprojekt](#import)
 - [Wenden Sie das Update](#apply)
 - [Ihre Dataverse Umgebung einrichten](#update)
 
-## <a name="import-the-package-into-your-lcs-project"></a><a name="import">Importieren Sie das Paket in Ihr LCS Projekt</a>
+## <a name="import-the-package-into-your-lcs-project"></a><a name="import"></a>Importieren Sie das Paket in Ihr LCS Projekt
 
 1. Melden Sie sich bei [Lifecycle Services (LCS)](https://lcs.dynamics.com/) als Projektbesitzer oder Umgebungsmanager.
 2. Wählen Sie in der Liste Ihrer Projekte Ihre LCS Projekt aus.
@@ -58,7 +58,7 @@ Die Bereitstellung und die Aktualisierung der Anwendung werden gestartet.
 Auf der Seite **Umgebungsdetails** in der oberen rechten Ecke wird der Umgebungsstatus auf **Wartung** aktualisiert. In ungefähr zwei Stunden ist die Aktualisierung abgeschlossen. Die Informationen zur Anwendungsversion werden auf **Microsoft Dynamics 365 for Finance and Operations 10.0.15)** und der Umgebungsstatus auf **Bereitgestellt** aktualisiert.
 
 
-## <a name="update-your-dataverse-environment"></a><a name="update">Ihre Dataverse Umgebung einrichten</a>
+## <a name="update-your-dataverse-environment"></a><a name="update"></a>Ihre Dataverse Umgebung einrichten
 
 1. Melden Sie sich beim [Power Platform Admin Center](https://admin.powerplatform.com/) an.
 2. Suchen und öffnen Sie in der Liste die Umgebung, in der Sie Project Operations installiert haben.

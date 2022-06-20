@@ -1,6 +1,6 @@
 ---
 title: Neuigkeiten und Änderungen in Project Service Automation, Update Release 17.5, Hotfix, V3
-description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 17.5, V3 aufgeführt.
+description: Dieser Artikel listet die Funktionen und Korrekturen auf, die in der Project Service Automation Updateversion 17.5, V3, zur Verfügung stehen.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6d4dc77263b7ce8cb2bfa0a7e61d1b55a849b624
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f008d8da11b7fecb308a00350a78298b83991d87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926453"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Project Service Automation Update Release 17.5, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577327"
 
 Wir freuen uns, das neueste Update für die Project Service Automation-Anwendung für Dynamics 365 bekannt zu geben. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit.  Diese Version ist mit Dynamics 365 9.x kompatibel. Um auf diese Version zu aktualisieren, wechseln Sie zum Admin Center für Dynamics 365 online und rufen Sie die Lösungsseite auf, um das Update zu installieren. Weitere Informationen: [Installieren, Aktualisieren oder Entfernen einer bevorzugten Lösung](/power-platform/admin/install-remove-preferred-solution).
 
-In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen für PSA V3, Update Release 17.5 aufgeführt. Diese Version hat eine Build-Nummer von V3.10.7.32 und ist durch eine Selbstaktualisierung im März 2020 verfügbar.
+Dieser Artikel listet die Funktionen und Korrekturen auf, die für V3, Updateversion 17.5 neu sind oder geändert wurden. Diese Version hat eine Build-Nummer von V3.10.7.32 und ist durch eine Selbstaktualisierung im März 2020 verfügbar.
 
 
 ## <a name="update-release-175"></a>Update Release 17.5

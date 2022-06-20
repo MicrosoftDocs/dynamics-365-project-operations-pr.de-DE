@@ -1,6 +1,6 @@
 ---
 title: Homepage für die Projektressourcen
-description: Dieses Thema enthält Informationen zu den Projektressourcen.
+description: Dieser Artikel enthält Informationen über Projektressourcen.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924015"
 ---
 # <a name="project-resourcing-home-page"></a>Homepage für die Projektressourcen
 
 [!include [banner](../includes/banner.md)]
 
-Dieses Thema enthält Informationen zu den Projektressourcen.
+Dieser Artikel enthält Informationen über Projektressourcen.
 
 Eine Herausforderung für Projektmanager und Ressourcenmanager während der Projektplanungsphase ist die Ressourcenzuweisung, bei der sie die richtige Ressource für die Arbeit an einem Projekt ermitteln und reservieren müssen. In Dynamics 365 Finance können Sie mit Ressourcenfunktionen für Projekte Rollen definieren, die als temporäre Ressourcen behandelt werden, die für ein bestimmtes Engagement oder einen Teil eines Engagements reserviert werden können. Mit dieser Art der Beschaffung können Projektmanager und Ressourcenmanager die folgenden Aufgaben ausführen:
 
@@ -41,7 +41,7 @@ Eine Herausforderung für Projektmanager und Ressourcenmanager während der Proj
 
 Mit fortschreitender Projektplanung können geplante Ressourcen durch besetzte Ressourcen ersetzt werden. Der Projektmanager kann auch zurückgehen und die Ressourcenreservierungen während jeder Projektphase aktualisieren.
 
-Die folgenden Themen enthalten Informationen zu den Aufgaben, die ausgeführt werden müssen, wenn Sie an Ressourcenprojekten arbeiten.
+Die folgenden Artikel informieren Sie über die Aufgaben, die Sie bei der Arbeit an Ressourcenprojekten erledigen müssen.
 
 - [Projektressourcen einrichten](set-up-project-resources.md)
 - [Ressourcenanforderungskompetenzen verwalten](manage-resource-competencies.md)

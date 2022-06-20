@@ -1,6 +1,6 @@
 ---
 title: Funktionsänderungen von Project Service Automation auf Project Operations
-description: Dieses Thema bietet einen Überblick über die Funktionsänderungen von Project Service Automation zu Dynamics 365 Project Operations.
+description: Dieser Artikel gibt einen Überblick über die Änderungen der Funktionen von Project Service Automation auf Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925349"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Funktionsänderungen von Project Service Automation auf Project Operations
 
-Das Upgrade von Dynamics 365 Project Service Automation zu Dynamics 365 Project Operations Lite wird in drei Phasen ausgeliefert. Dieses Thema enthält Informationen zu den wichtigsten Änderungen, die Sie nach Abschluss des Upgrades erwarten können.
+Das Upgrade von Dynamics 365 Project Service Automation zu Dynamics 365 Project Operations Lite wird in drei Phasen ausgeliefert. Dieser Artikel informiert Sie über die wichtigsten Änderungen, die Sie erwarten können, wenn das Upgrade abgeschlossen ist.
 
 | Upgrade-Lieferung | Phase 1 <br>(Januar 2022) | Phase 2 <br>(April-Welle 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|

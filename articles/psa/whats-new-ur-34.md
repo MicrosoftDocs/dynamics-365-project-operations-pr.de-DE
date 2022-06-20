@@ -1,6 +1,6 @@
 ---
 title: Neuigkeiten und Änderungen in Project Service Automation, Update Release 34, V3
-description: In diesem Thema sind die verfügbaren Funktionen und Fehlerbehebungen für Project Service Automation Update Release 34, V3 aufgeführt.
+description: Dieser Artikel listet die Funktionen und Korrekturen auf, die in der Project Service Automation Updateversion 34, V3, verfügbar sind.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928661"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Neuigkeiten und Änderungen in Project Service Automation, Update Release 34, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588689"
 
 Wir freuen uns, die neueste Aktualisierung für die Microsoft Dynamics 365 Project Service Automation App anzukündigen. Diese Version enthält einige wichtige Verbesserungen in Bezug auf Qualität, Leistung und Benutzerfreundlichkeit. Es ist kompatibel mit Dynamics 365 9.x. Um auf diese Version zu aktualisieren, besuchen Sie die Seite Admin Center für Dynamics 365-Onlinelösungen und installieren Sie das Update. Weitere Informationen: [Installieren, Aktualisieren oder Entfernen einer bevorzugten Lösung](/power-platform/admin/install-remove-preferred-solution).
 
-In diesem Thema sind die neuen oder geänderten Funktionen und Fehlerbehebungen für Project Service Automation V3, Update Release 34 aufgeführt. Diese Version hat die Build-Nummer V3.10.55.38 und ist allgemein über ein Self-Update im Juli 2021 verfügbar.
+Dieser Artikel listet die Funktionen und Korrekturen auf, die für Project Service Automation V3, Updateversion 34, neu sind oder geändert wurden. Diese Version hat die Build-Nummer V3.10.55.38 und ist allgemein über ein Self-Update im Juli 2021 verfügbar.
 
 ## <a name="update-release-34"></a>Update Release 34
 

@@ -1,6 +1,6 @@
 ---
 title: Hinzufügen von benutzerdefinierten Feldern zu Preisgestaltung und zu Transaktionsentitäten
-description: Dieses Thema enthält Informationen zum Hinzufügen der erforderlichen benutzerdefinierten Feldreferenzen zu Entitäten sowie zu Formularen und Ansichten.
+description: Dieser Artikel beschreibt, wie Sie angepasste Feldreferenzen zu Entitäten, Formularen und Ansichten hinzufügen können.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926039"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Hinzufügen von benutzerdefinierten Feldern zu Preisgestaltung und zu Transaktionsentitäten
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-In diesem Thema wird davon ausgegangen, dass Sie die im Thema [Erstellen benutzerdefinierter Felder und Entitäten, die als Preisdimensionen verwendet werden](create-custom-fields-entities-pricing-dimensions.md) beschriebenen Schritte ausgeführt haben. Wenn Sie diese Prozeduren nicht abgeschlossen abgeschlossen haben, kehren Sie zurück und schließen Sie diese ab. Dann kehren Sie zu diesem Thema zurück. 
+Dieser Artikel setzt voraus, dass Sie die Verfahren im Artikel [Erstellen von angepassten Feldern und Entitäten zur Verwendung als Preisdimensionen](create-custom-fields-entities-pricing-dimensions.md) abgeschlossen haben. Wenn Sie diese Prozeduren nicht abgeschlossen haben, gehen Sie zurück und schließen Sie sie ab und kehren Sie dann zu diesem Artikel zurück. 
 
-In diesem Thema werden die Vorgehensweisen erläutert, wie Sie die erforderlichen Feldverweise zu benutzerdefinierten Entitäten und den Elementen der Benutzeroberfläche (UI) wie etwa Formularen und Ansichten hinzufügen.
+In diesem Artikel zeigen Ihnen die Verfahren, wie Sie die erforderlichen angepassten Feldreferenzen zu Entitäten und zu den Elementen der Benutzeroberfläche (UI) wie Formularen und Ansichten hinzufügen.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Hinzufügen benutzerdefinierter Preisdimensions-Felder 
 Nach dem Erstellen benutzerdefinierter Felder und Entitäten besteht der nächste Schritt darin, durch das Erstellen von Referenzfeldern dafür zu sorgen, dass die Preis- und Transaktionsentitäten die benutzerdefinierten Entitäten oder Optionssätze erkennen. Befolgen Sie nur die Schritte unter **Optionssatzbasierte benutzerdefinierte Preisdimensionen** bzw. **Entitätsbasierte benutzerdefinierte Preisdimensionen** oder beides – je nachdem, ob Ihre Preisdimensionsliste Optionssatzdimensionen oder Entitätsdimensionen oder beides enthält.

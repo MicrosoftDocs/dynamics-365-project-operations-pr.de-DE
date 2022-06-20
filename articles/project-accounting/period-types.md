@@ -1,23 +1,23 @@
 ---
 title: Periodentypen
-description: Dieses Thema enthält Informationen zum Einrichten von Periodentypen für Umsatzschätzungen.
+description: In diesem Artikel erfahren Sie, wie Sie die Periodenarten für die Umsatzschätzung festlegen können.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930961"
 ---
 # <a name="period-types"></a>Periodentypen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Ein Periodentyp definiert, wie häufig die Einnahmen aus einem Projekt geschätzt werden. Dieses Thema enthält Informationen zum Einrichten von Periodentypen für Umsatzschätzungen. 
+Ein Periodentyp definiert, wie häufig die Einnahmen aus einem Projekt geschätzt werden. In diesem Artikel erfahren Sie, wie Sie die Periodenarten für die Umsatzschätzung festlegen können. 
 
 ## <a name="create-and-work-with-period-types"></a>Erstellen und Arbeiten mit Periodentypen
 Führen Sie die folgenden Schritte aus, um Periodentypen zu erstellen und damit zu arbeiten:

@@ -1,24 +1,24 @@
 ---
 title: Neuigkeiten für Dezember 2020 – Project Operations-Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations-Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung vom Dezember 2020 verfügbar sind.
+description: Dieser Artikel informiert über die Qualitätsupdates, die in der Version vom Dezember 2020 von Project Operations Lite-Bereitstellung - Proforma-Fakturierung - zur Verfügung stehen.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924061"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Neuigkeiten für Dezember 2020 – Project Operations-Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
+Dieser Artikel bezieht sich auf die folgenden Dynamics 365 Project Operations-Komponenten und Versionen:
 
   - Project Operations in Dataverse, Umgebungsversion 4.5.0.134 
 

@@ -1,24 +1,24 @@
 ---
 title: Kostenvorlagen einrichten
-description: Dieses Thema enthält Informationen zum Erstellen und Verwenden von Kostenvorlagen in Project Operations.
+description: Dieser Artikel informiert Sie darüber, wie Sie in Project Operations Kalkulationsvorlagen erstellen und verwenden können.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918403"
 ---
 # <a name="set-up-cost-templates"></a>Kostenvorlagen einrichten
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
 
-Dieses Thema enthält Informationen zum Erstellen und Verwenden von Kostenvorlagen in Project Operations. Eine Kostenvorlage bestimmt:
+Dieser Artikel informiert Sie darüber, wie Sie in Project Operations Kalkulationsvorlagen erstellen und verwenden können. Eine Kostenvorlage bestimmt:
 
 - Die Projektkategorien für prognostizierte und tatsächliche Transaktionen, die in einen Prozentsatz der Projektabschlussberechnung einbezogen werden sollen. Der prozentuale Gesamtwert wird dann verwendet, um zu berechnen, wie viel Umsatz erfasst wird.
 - Gibt an, ob der Fertigstellungsgrad geändert werden kann, wenn er automatisch berechnet wird.

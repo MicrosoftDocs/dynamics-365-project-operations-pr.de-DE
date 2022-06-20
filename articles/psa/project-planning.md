@@ -1,6 +1,6 @@
 ---
 title: Projektplanungs-Homepage
-description: Dieses Thema enthält Informationen zur Projektplanung.
+description: Dieser Artikel enthält Informationen über die Projektplanung.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919093"
 ---
 # <a name="project-planning-home-page"></a>Projektplanungs-Homepage
 
@@ -43,7 +43,7 @@ Die Projektmanagementtools in PSA unterstützen Sie bei der problemlosen Ausfüh
 - Ressourcenbedarf für Projekte in der Pipeline prognostizieren
 - Erfolgreiche Durchführung von Projekten durch Verfolgung von Fortschritt und Kostenverbrauch
 
-Die folgende Themen enthalten Informationen, mit deren Hilfe Projektmanager den Arbeitsaufwand abschätzen, die Projektkosten kalkulieren und die Ressourcenanforderungen prognostizieren können, indem sie die in PSA unterstützten Tools verwenden:
+In den folgenden Artikeln finden Sie Informationen, die Projektmanagern bei der Schätzung von Arbeit, der Kalkulation von Projektkosten und der Planung des Ressourcenbedarfs mit Hilfe der in PSA unterstützten Tools helfen:
 
 - [Erstellen eines Zeitplans](project-creating.md)
 - [Kalkulation von Projektkosten und -erlösen](project-estimating.md)

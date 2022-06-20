@@ -1,17 +1,17 @@
 ---
 title: Korrigieren der Buchhaltung auf Projektrechnungsvorschlägen
-description: Dieses Thema erklärt, wie Sie buchhalterische Informationen auf einem Entwurf eines Rechnungsvorschlags korrigieren können.
+description: Dieser Artikel erklärt, wie Sie buchhaltungsbezogene Informationen auf einem Rechnungsvorschlag anpassen.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575073"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921209"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Korrigieren der Buchhaltung auf Projektrechnungsvorschlägen
 
@@ -19,7 +19,7 @@ _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nich
 
 *Vorgänge* für Projektrechnungen werden vom Projekt Manager auf einer Proforma-Rechnung gepflegt. Zu diesen Details gehören die Entscheidung über die zu berechnenden Stunden, Spesen, Materialien oder Meilensteine, die Sätze und die Anwendung von Vorauszahlungsbeträgen und Vorschussbeträgen. Nachdem Sie die ursprüngliche Proforma-Rechnung bestätigt haben, können Sie die operativen Details anpassen, indem Sie eine [korrekte Proforma-Rechnung](../proforma-invoicing/corrective-invoices.md) erstellen und bestätigen.
 
-*Buchhaltungsdetails* für Projektrechnungen werden in einem kundenorientierten Rechnungsbeleg gepflegt. Diese Details beinhalten die Mehrwertsteuer-Berechnung und die finanziellen Dimensionen, die auf die Rechnung angewendet werden. In diesem Thema wird beschrieben, wie diese Buchhaltungsdetails in einem Entwurf eines Projektrechnungsvorschlags angepasst werden können.
+*Buchhaltungsdetails* für Projektrechnungen werden in einem kundenorientierten Rechnungsbeleg gepflegt. Diese Details beinhalten die Mehrwertsteuer-Berechnung und die finanziellen Dimensionen, die auf die Rechnung angewendet werden. In diesem Artikel erfahren Sie, wie Sie die Buchhaltungsdetails im Entwurf eines Projektrechnungsvorschlags anpassen können.
 
 ## <a name="adjust-sales-tax"></a>Anpassen der Mehrwertsteuer
 

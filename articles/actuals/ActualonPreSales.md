@@ -1,6 +1,6 @@
 ---
 title: Auswirkung der Ist-Werte während der Presales-Phase eines Engagements
-description: Dieses Thema enthält Informationen über die Auswirkungen auf die Ist-Wert-Tabelle bei verschiedenen Ereignissen während eine Bindung in Microsoft Dynamics 365 Project Operations im Presales-Phase ist.
+description: Dieser Artikel enthält Informationen über die Auswirkungen auf die Ist-Tabelle bei verschiedenen Ereignissen, während sich ein Projekt in der Vorverkaufsphase in Microsoft Dynamics 365 Project Operations befindet.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad62639b345d5519b103d4bde3fbb033b9a7a519
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d03d6ac2154806189d0d9d0b232bb317f51071ba
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922359"
 ---
 # <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>Auswirkung der Ist-Werte während der Presales-Phase eines Engagements
 

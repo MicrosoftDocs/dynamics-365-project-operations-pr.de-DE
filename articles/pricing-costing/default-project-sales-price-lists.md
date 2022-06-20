@@ -1,17 +1,17 @@
 ---
 title: Standardpreislisten
-description: Dieses Thema bietet Informationen zu Standard-Verkaufs- und Einstandspreislisten in Project Operations.
+description: Dieser Artikel enthält Informationen über Standardverkaufs- und Selbstkostenpreislisten in Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 83458d6f62c8790eb967cf07c21ffe7851e14a3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917713"
 ---
 # <a name="default-price-lists"></a>Standardpreislisten
 

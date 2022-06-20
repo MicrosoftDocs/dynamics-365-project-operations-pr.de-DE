@@ -1,24 +1,24 @@
 ---
 title: Was ist neu oder geändert in Project Operations, Mai 2021 für lager-/produktionsbasierte Szenarien
-description: Dieses Thema enthält Informationen über die Qualitätsaktualisierungen, die in der Version Mai 2021 von Project Operations für lager-/produktionsbasierte Szenarien verfügbar sind.
+description: Dieser Artikel enthält Informationen über die Qualitätsupdates, die in der Version von Project Operations vom Mai 2021 für Szenarien auf Lager-/Produktionsbasis verfügbar sind.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927143"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Was ist neu oder geändert in Project Operations, Mai 2021 für lager-/produktionsbasierte Szenarien
 
 **Gilt für:** Project Operations für lager-/produktionsbasierte Szenarien
 
-Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
+Dieser Artikel bezieht sich auf die folgenden Dynamics 365 Project Operations-Komponenten und Versionen:
 
 - Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.19
  

@@ -1,6 +1,6 @@
 ---
 title: Eine vorgeschlagene Projektressource annehmen oder ablehnen
-description: Dieses Thema enthält Informationen zum Genehmigen oder Ablehnen einer vorgeschlagenen Projektressource.
+description: Dieser Artikel beschreibt, wie Sie eine vorgeschlagene Projektressource genehmigen oder ablehnen können.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916195"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Eine vorgeschlagene Projektressource annehmen oder ablehnen
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599131"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Dieses Thema enthält Informationen zum Genehmigen oder Ablehnen einer vorgeschlagenen Projektressource.
+Dieser Artikel beschreibt, wie Sie eine vorgeschlagene Projektressource genehmigen oder ablehnen können.
 
 Wenn ein Ressourcen-Manager eine benannte Ressource vorschlägt, um die allgemeine Ressourcenanforderung für ein Projekt zu erfüllen, wird das Feld **Anforderungsstatus** für das allgemeine Teammitglied auf **Prüfung erforderlich** aktualisiert. Die Anfrage wird dem Projektmanager zur Genehmigung oder Ablehnung übermittelt.
 

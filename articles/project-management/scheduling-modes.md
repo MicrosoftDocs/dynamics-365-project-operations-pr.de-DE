@@ -1,17 +1,17 @@
 ---
 title: Planungsmodi
-description: In diesem Thema werden Planungsmodi erläutert.
+description: Dieser Artikel enthält Informationen über Terminplanungsmodi.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923647"
 ---
 # <a name="scheduling-modes"></a>Planungsmodi
 
@@ -38,7 +38,7 @@ Wenn Sie den Planungsmodus eines Projekts definieren, legen Sie einen dieser Wer
 | Fester Aufwand - Aufgabe    | Die Dauer wird neu berechnet. | Einheiten werden neu berechnet.    | Die Dauer wird neu berechnet. |
 | Feste Dauer - Aufgabe  | Der Aufwand wird neu berechnet.   | Der Aufwand wird neu berechnet.    | Einheiten werden neu berechnet.   |
 
-Weitere Informationen zu den Auswirkungen eines bestimmten Modus finden Sie unter [ Ändern des Aufgabentyps für eine genauere Planung](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). In der Thema wird der Begriff **Arbeit** anstelle von **Aufwand** verwendet.
+Weitere Informationen zu den Auswirkungen eines bestimmten Modus finden Sie unter [ Ändern des Aufgabentyps für eine genauere Planung](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). In dem Artikel wird der Begriff **Arbeit** anstelle von **Aufwand** verwendet.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Ändern Sie den Planungsmodus der Organisation
 

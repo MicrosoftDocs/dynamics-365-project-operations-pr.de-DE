@@ -1,6 +1,6 @@
 ---
 title: Ressourcenmanagement-Leitfaden
-description: Dieses Thema enthält Links zu Informationen über das Ressourcenmanagement in Project Service Automation.
+description: Dieser Artikel enthält Links zu Informationen über die Ressourcenverwaltung in Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910771"
 ---
 # <a name="resource-management-guide"></a>Ressourcenmanagement-Leitfaden
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595451"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in die folgenden Themen verschoben:
+Der PDF-Link, der zuvor in diesem Artikel enthalten war, wurde entfernt und der Inhalt wurde in die folgenden Artikel verschoben:
 
 - [Ressourcenverwaltungs-Homepage](../resource-management-home-page.md)
 - [Wichtige Konzepte](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ Der zuvor in diesem Thema enthaltene PDF-Link wurde entfernt und der Inhalt in d
 - [FAQ zur Ressourcenverwaltung](../resource-management-faq.md)
 
 > [!NOTE]
-> Dieses Thema wird in einem zukünftigen Dokumentationsupdate entfernt. 
+> Dieser Artikel wird in einem zukünftigen Dokumentations-Update entfernt werden. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

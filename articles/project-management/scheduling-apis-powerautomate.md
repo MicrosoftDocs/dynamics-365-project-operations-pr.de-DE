@@ -1,25 +1,25 @@
 ---
 title: Projektzeitplan-APIs mit Power Automate verwenden
-description: Dieses Thema stellt einen Beispielablauf bereit, der die Anwendungsprogrammierschnittstellen (APIs) des Projektzeitplans verwendet.
+description: Dieser Artikel enthält einen beispielhaften Flow, der die Programmierschnittstellen (APIs) von Project Schedule verwendet.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916333"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Projektzeitplan-APIs mit Power Automate verwenden
 
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dieses Thema beschreibt einen Beispielablauf, der zeigt, wie ein vollständiger Projektplan mithilfe von Microsoft Power Automate erstellt wird, wie Sie einen Operationssatz erstellen und wie Sie eine Entität aktualisieren. Das Beispiel zeigt, wie Sie ein Projekt, ein Projektteammitglied, Vorgangssätze, Projektaufgaben und Ressourcenzuweisungen erstellen. Dieses Thema erklärt auch, wie Sie eine Entität aktualisieren und einen Operationssatz ausführen.
+Dieser Artikel beschreibt einen beispielhaften Flow, der zeigt, wie Sie einen vollständigen Projektplan mit Hilfe von Microsoft Power Automate erstellen, wie Sie ein Operation Set festlegen und wie Sie eine Entität aktualisieren. Das Beispiel zeigt, wie Sie ein Projekt, ein Projektteammitglied, Vorgangssätze, Projektaufgaben und Ressourcenzuweisungen erstellen. Dieser Artikel erklärt auch, wie Sie eine Entität aktualisieren und einen Vorgang festlegen.
 
-Im Folgenden finden Sie eine vollständige Liste der Schritte, die im Beispielablauf in diesem Thema dokumentiert sind:
+Im Folgenden finden Sie eine vollständige Liste der Schritte, die im Beispiel-Flow in diesem Artikel dokumentiert sind:
 
 1. [Erstellen eines PowerApps-Triggers](#1)
 2. [Erstellen eines Projekts](#2)
@@ -40,7 +40,7 @@ Im Folgenden finden Sie eine vollständige Liste der Schritte, die im Beispielab
 
 ## <a name="assumptions"></a>Voraussetzungen
 
-Dieses Thema setzt voraus, dass Sie über Grundkenntnisse der Dataverse-Plattform, Cloud-Flows und der Project Schedule Application Programming Interface (API) verfügen. Weitere Informationen finden Sie im Abschnitt [Verweise](#references) weiter unten in diesem Thema.
+Dieser Artikel setzt voraus, dass Sie über grundlegende Kenntnisse der Dataverse-Plattform, der Cloud-Flows und der Projektplanungs-Anwendungsprogrammierschnittstelle (API) verfügen. Weitere Informationen finden Sie im Abschnitt [Referenzen](#references) weiter unten in diesem Artikel.
 
 ## <a name="create-a-flow"></a>Workflow erstellen
 
@@ -65,7 +65,7 @@ Mithilfe der folgenden Anleitung können Sie einen [lösungsfähigen Flow](/powe
 1. Wählen Sie auf der Seite **Lösungen** die Lösung aus, die Sie erstellt haben, und wählen Sie dann **Neu**.
 2. Wählen Sie im linken Bereich **Cloud-Flows** \> **Automatisierung** \>**Cloud-Flow** \> **Sofort**.
 3. Geben Sie im **Flow-Name**-Feld **API-Demo-Flow planen** ein.
-4. In der Liste **Trigger für diesen Flow auswählen** wählen Sie **Power Apps** aus. Beim Erstellen eines Power Apps-Triggers liegt die Logik bei Ihnen als Autor. Lassen Sie in diesem Thema die Eingabeparameter zu Testzwecken leer.
+4. In der Liste **Trigger für diesen Flow auswählen** wählen Sie **Power Apps** aus. Beim Erstellen eines Power Apps-Triggers liegt die Logik bei Ihnen als Autor. In diesem Artikel lassen Sie die Eingabeparameter zu Testzwecken leer.
 5. Wählen Sie **Erstellen**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Schritt 2: Ein Projekt erstellen

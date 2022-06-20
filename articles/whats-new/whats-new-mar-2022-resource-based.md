@@ -1,24 +1,24 @@
 ---
 title: Neuerungen im März 2022 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version vom März 2022 der Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen.
+description: Dieser Artikel informiert Sie über die Qualitätsupdates, die in der Version von Project Operations vom März 2022 für ressourcenbasierte/nicht vorrätige Szenarien zur Verfügung stehen.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910905"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuerungen im März 2022 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
 *Gilt für: Project Operations für ressourcen-/nicht vorratsbasierte Szenarien*
 
-Dieses Thema gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
+Dieser Artikel gilt für die folgenden Komponenten und Versionen von Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in einer Dataverse-Umgebung der Version 4.30.0.99
 - Projektmanagement und -buchhaltung in einer Dynamics 365 Finance-Umgebungsversion 10.0.25
@@ -91,11 +91,11 @@ Wenn beim Starten der Karte ein Problem auftritt, befolgen Sie die Anweisungen i
 
 ## <a name="removed-and-deprecated-features"></a>Entfernte und veraltete Funktionen
 
-Das Thema [Entfernte oder veraltete Funktionen in Project Operations](removed-depreciated-features-project.md) beschreibt Funktionen, die aus Dynamics 365 Project Operations entfernt wurden oder veraltet sind.
+Der Artikel [Entfernte oder veraltete Funktionen in Project Operations](removed-depreciated-features-project.md) beschreibt Funktionen, die für Dynamics 365 Project Operations entfernt oder außer Betrieb genommen wurden.
 
 - Eine entfernte Funktion ist im Produkt nicht mehr verfügbar.
 - Eine veraltete Funktion wird nicht aktiv entwickelt und könnte bei einem zukünftigen Update entfernt werden.
 
-12 Monate vor dem Entfernen wird im Thema [Entfernte oder veraltete Funktionen in Project Operations](removed-depreciated-features-project.md) ein Verfallshinweis angezeigt.
+Eine Ankündigung, dass eine Funktion veraltet ist, erscheint im Artikel [Entfernte oder veraltete Funktionen in Project Operations](removed-depreciated-features-project.md) 12 Monate bevor eine Funktion aus dem Produkt entfernt wird.
 
 Bei Änderungen, die sich nur auf die Kompilierungszeit auswirken, aber binär mit Sandbox- und Produktionsumgebungen kompatibel sind, beträgt die Zeit für die Entfernung weniger als 12 Monate. In der Regel handelt es sich bei diesen Änderungen um Funktionsaktualisierungen, die am Compiler vorgenommen werden müssen.

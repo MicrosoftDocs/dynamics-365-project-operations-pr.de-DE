@@ -1,21 +1,21 @@
 ---
 title: Mehrere Kunden in Projektverträgen verwalten
-description: Dieses Thema enthält Informationen zum Verwalten von mehreren Kunden für einen Projektvertrag.
+description: Dieser Artikel informiert Sie darüber, wie Sie mehrere Kunden in einem Projektvertrag verwalten können.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928339"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Mehrere Kunden in Projektverträgen verwalten
 
-Dieses Thema enthält Informationen zum Verwalten von mehreren Kunden für einen Projektvertrag. Sie können einen Projektvertrag verwenden, wenn eine vertragliche Vereinbarung für mehrere Kunden zur Finanzierung eines Geschäfts erforderlich ist. Auf der **Projektvertrag**-Seite enthält die **Zusammenfassung**-Registerkarte Informationen zum Hauptkunden für ein Geschäft. Andere Kunden, die an dem Geschäft teilnehmen, können der **Kunden**-Registerkarte hinzugefügt werden.
+Dieser Artikel informiert Sie darüber, wie Sie mehrere Kunden in einem Projektvertrag verwalten können. Sie können einen Projektvertrag verwenden, wenn eine vertragliche Vereinbarung für mehrere Kunden zur Finanzierung eines Geschäfts erforderlich ist. Auf der **Projektvertrag**-Seite enthält die **Zusammenfassung**-Registerkarte Informationen zum Hauptkunden für ein Geschäft. Andere Kunden, die an dem Geschäft teilnehmen, können der **Kunden**-Registerkarte hinzugefügt werden.
 
 Alle Vertragskunden, die auf der **Kunden**-Registerkarte im Projektvertrag aufgeführt sind, werden standardmäßig als Vertragszeilenkunden in allen neuen projektbasierten Vertragszeilen aufgeführt, die für den Projektvertrag erstellt wurden. Alle bestehenden projektbasierten Vertragszeilen erben keine neuen Vertragskunden, die zu einem späteren Zeitpunkt erstellt wurden.
 

@@ -1,6 +1,6 @@
 ---
 title: Rechnungsstellung in Project Service Automation
-description: Dieses Thema enthält Informationen zur Rechnungsstellung.
+description: Dieser Artikel enthält Informationen über die Rechnungsstellung.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926821"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Rechnungsstellung in Project Service Automation
 
@@ -94,7 +94,7 @@ Nach dem **ProcessRunner** durchgeführt wurde, wird **ProcessRunCaller** aufger
 Der Batchverarbeitungsauftrag zum Erstellen von Rechnungen ist ein wiederkehrender Auftrag. Wenn dieser Batchauftrag mehrmals ausgeführt wird, werden mehrere Instanzen des Auftrags erstellt und verursachen Fehler. Deshalb sollten Sie die Stapelverarbeitung nur einmal starten und nur dann neu starten, wenn sie nicht mehr ausgeführt wird.
 
 > [!NOTE]
-> Die Stapelrechnungsstellung in Project Service Automation wird nur für Projektvertragspositionen ausgeführt, die über Rechnungszeitpläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden. Informationen zum Einrichten von Rechnungshäufigkeiten im Kontext eines Projekts, das auf einer Angebotszeile basiert, finden Sie im Thema, [Angebote und Angebotspositionen](basic-quote-lines.md#invoice-schedule). Gleiches gilt für eine projektbasierte Vertragslinie.      
+> Die Stapelrechnungsstellung in Project Service Automation wird nur für Projektvertragspositionen ausgeführt, die über Rechnungszeitpläne konfiguriert sind. Für eine Vertragszeile mit einer Festpreis-Abrechnungsmethode müssen Meilensteine konfiguriert sein. Für eine Projektvertragsposition mit einer Zeit- und Materialabrechnungsmethode muss ein datumsbasierter Rechnungszeitplan erstellt werden. Informationen zum Festlegen der Häufigkeit der Rechnungsstellung im Rahmen eines Projekts, das auf einer Angebotszeile basiert, finden Sie in dem Artikel [Angebote und Angebotszeilen](basic-quote-lines.md#invoice-schedule). Gleiches gilt für eine projektbasierte Vertragszeile.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Bearbeiten eines PSA-Rechnungsentwurfs
 

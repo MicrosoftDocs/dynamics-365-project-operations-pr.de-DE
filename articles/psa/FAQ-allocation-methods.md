@@ -1,6 +1,6 @@
 ---
 title: Buchungszuordnungsmethoden in Project Service Automation
-description: Dieses Thema enthält Informationen zu den verschiedenen Möglichkeiten, wie Sie Zuordnungen buchen können.
+description: Dieser Artikel informiert Sie über die verschiedenen Möglichkeiten, wie Sie Zuweisungen buchen können.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929167"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Buchungszuordnungsmethoden in Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Unabhängig davon, ob Sie ein Teammitglied direkt zu einem Projekt auf der Registerkarte **Team** hinzufügen oder eine Ressource für ein Projekt oder eine Anforderung über die Zeitplanübersicht buchen, können Sie verschiedene Buchungszuweisungsmethoden verwenden. In diesem Thema wird erläutert, wie die einzelnen Methoden funktionieren und welche Methoden zu einer Überbuchung von Ressourcen führen können.
+Unabhängig davon, ob Sie ein Teammitglied direkt zu einem Projekt auf der Registerkarte **Team** hinzufügen oder eine Ressource für ein Projekt oder eine Anforderung über die Zeitplanübersicht buchen, können Sie verschiedene Buchungszuweisungsmethoden verwenden. Dieser Artikel erklärt, wie die einzelnen Methoden funktionieren und welche Methoden zu einer Überbuchung von Ressourcen führen können.
 
 ## <a name="full-capacity"></a>Volle Kapazität 
 Die Methode „Volle Kapazität“ bucht die volle Kapazität der Ressource für das angegebene Start- und Enddatum. Wenn für eine Ressource beispielsweise ein Kalender für acht Stunden pro Tag an fünf Tagen in der Woche festgelegt ist und ein Start- und Enddatum festgelegt wird, das fünf Arbeitstage umfasst, wird die Ressource für 40 Stunden gebucht. Die Buchung erfolgt unabhängig von der verbleibenden Kapazität der Ressource. Wenn in diesem Zeitraum eine Ressource bereits für andere Projekte gebucht wurde, werden die 40 Stunden als zusätzliche Stunden gebucht, was möglicherweise zu Überbuchungen führt.

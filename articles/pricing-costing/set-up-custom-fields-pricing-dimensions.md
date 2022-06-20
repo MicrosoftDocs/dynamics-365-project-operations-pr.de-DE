@@ -1,6 +1,6 @@
 ---
 title: Benutzerdefinierte Felder als Preisdimensionen einrichten
-description: Dieses Thema enthält Informationen zum Einrichten von Preisdimensionen mit benutzerdefinierten Feldern.
+description: In diesem Artikel erfahren Sie, wie Sie Preisdimensionen mit angepassten Feldern festlegen können.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917575"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Benutzerdefinierte Felder als Preisdimensionen einrichten
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Bevor Sie beginnen, wird in diesem Thema davon ausgegangen, dass Sie die Verfahren in den Themen [Erstellen benutzerdefinierter Felder und Entitäten](create-custom-fields-entities-pricing-dimensions.md) und [Hinzufügen von benutzerdefinierten Feldern zur Preiseinrichtung und zu Transaktionsentitäten](add-custom-fields-price-setup-transactional-entities.md) abgeschlossen haben. Wenn Sie diese Prozeduren nicht abgeschlossen abgeschlossen haben, kehren Sie zurück und schließen Sie diese ab. Dann kehren Sie zu diesem Thema zurück. 
+Bevor Sie beginnen, geht dieser Artikel davon aus, dass Sie die Prozeduren in den Artikeln [Angepasste Felder und Entitäten erstellen](create-custom-fields-entities-pricing-dimensions.md) und [Erforderliche angepasste Felder zur Preiseinrichtung und zu den Entitäten der Transaktion hinzufügen](add-custom-fields-price-setup-transactional-entities.md) abgeschlossen haben. Wenn Sie diese Prozeduren nicht abgeschlossen haben, gehen Sie zurück und schließen Sie sie ab und kehren Sie dann zu diesem Artikel zurück. 
 
-Dieses Thema enthält Informationen zum Einrichten von benutzerdefinierten Preisdimensionen. Auf der Seite **Parameter** in der Registerkarte **Betragsbasierte Preisdimensionen** beachten Sie, dass das Raster in der Registerkarte die Datensätze in der Entität Preisdimensionen anzeigt. Standardmäßig befinden sich auf dieser Registerkarte zwei Zeilen im Raster:
+Dieser Artikel enthält Informationen über das Festlegen von angepassten Dimensionen für die Preisgestaltung. Auf der Seite **Parameter** in der Registerkarte **Betragsbasierte Preisdimensionen** beachten Sie, dass das Raster in der Registerkarte die Datensätze in der Entität Preisdimensionen anzeigt. Standardmäßig befinden sich auf dieser Registerkarte zwei Zeilen im Raster:
 
 - **msdyn_resourcecategory** (Rolle)
 - **msdyn_OrganizationalUnit** (Organisationseinheit)

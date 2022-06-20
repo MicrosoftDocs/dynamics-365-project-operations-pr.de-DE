@@ -1,6 +1,6 @@
 ---
 title: Erhalten Sie Artikel auf Bestellung aus Artikelanforderung
-description: In diesem Thema wird erläutert, wie Sie Artikel auf einer Bestellung aus einer Artikelanforderung erhalten.
+description: Dieser Artikel erklärt, wie Sie Elemente einer Bestellung aus einer Artikelanforderung empfangen können.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929535"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Erhalten Sie Artikel auf Bestellung aus Artikelanforderung
 
 [!include [banner](../../includes/banner.md)]
 
-In diesem Thema wird erläutert, wie Sie Artikel auf einer Bestellung aus einer Artikelanforderung erhalten.
+Dieser Artikel erklärt, wie Sie Elemente einer Bestellung aus einer Artikelanforderung empfangen können.
 
 Durch die Verwendung einer Artikelanforderung anstelle einer Artikeltransaktion können Sie die Lieferung unmittelbar vor der tatsächlichen Verwendung des Artikels planen, eine Bestellung erstellen, den Artikel in das Rahmenwerk für Handelsvereinbarungen aufnehmen und den Artikelbedarf in die Produktionsplanung einbeziehen. 
 

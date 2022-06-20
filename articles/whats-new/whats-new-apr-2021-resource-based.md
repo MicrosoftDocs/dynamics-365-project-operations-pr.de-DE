@@ -1,24 +1,24 @@
 ---
 title: Neuigkeiten April 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
-description: Dieses Thema enthält Informationen zu den Qualitätsupdates, die in der Version von Project Operations vom April 2021 für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen verfügbar sind.
+description: Dieser Artikel informiert Sie über die Qualitätsupdates, die in der Version April 2021 von Project Operations für ressourcenbasierte/nicht vorrätige Szenarien verfügbar sind.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912423"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten April 2021 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Dieses Thema gilt für die folgenden Dynamics 365 Project Operations-Komponenten und -Versionen:
+Dieser Artikel bezieht sich auf die folgenden Dynamics 365 Project Operations-Komponenten und Versionen:
 
 - Project Operations in Dataverse, Umgebungsversion 4.9.0.221
 - Projektmanagement und -buchhaltung in Dynamics 365 Finance-Umgebungsversion 10.0.17

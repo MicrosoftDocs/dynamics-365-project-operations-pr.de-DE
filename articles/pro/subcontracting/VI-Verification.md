@@ -1,17 +1,17 @@
 ---
 title: Überprüfung von Kreditorenrechnungen mit genehmigten Ist-Werten
-description: Dieses Thema erklärt, wie Microsoft Dynamics 365 Project Operations es Projektmanagern ermöglicht, Kreditorenrechnungen mit den Ist-Werten zu überprüfen, die genehmigt wurden, als die Auftragnehmer Arbeiten durchgeführt und Zeit erfasst haben, sowie die Ausgaben und Materialien, die von den Projektteammitgliedern verwendet wurden.
+description: Dieser Artikel erklärt, wie Projektmanager mit Microsoft Dynamics 365 Project Operations Rechnungen von Lieferanten mit den tatsächlichen Daten abgleichen können, die genehmigt wurden, als die Auftragnehmer die Arbeit verrichteten und die Zeit erfassten, sowie die Ausgaben und Materialien, die von den Mitgliedern des Projektteams verwendet wurden.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914217"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Überprüfung von Kreditorenrechnungen mit genehmigten Ist-Werten
 

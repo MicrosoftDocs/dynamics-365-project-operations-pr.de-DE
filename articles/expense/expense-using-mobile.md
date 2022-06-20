@@ -1,6 +1,6 @@
 ---
 title: Mobile Ausgaben-App
-description: Dieses Thema bietet Informationen über die Ausgabenverwaltung im mobilen Arbeitsbereich.
+description: Dieser Artikel enthält Informationen über den mobilen Arbeitsbereich der Ausgabenverwaltung.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930225"
 ---
 # <a name="mobile-expense-app"></a>Mobile Ausgaben-App
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Dieses Thema bietet Informationen über die **Ausgabenverwaltung** im mobilen Arbeitsbereich. Mit diesem Arbeitsbereich können Benutzer einen Beleg erfassen und hochladen, um ihn später zu einem Spesenbericht hinzuzufügen. Benutzer können mithilfe einer angehängten Quittung auch schnell eine Ausgabenzeile erstellen und ihre Spesenabrechnungen erstellen und verwalten. Darüber hinaus können Genehmigende den mobilen Arbeitsbereich **Ausgabenmanagement** nutzen zum Anzeigen der ihnen zugewiesenen Spesenabrechnungen und zum Genehmigen oder Ablehnen dieser Spesenabrechnungen.
+Dieser Artikel enthält Informationen über den mobilen Arbeitsbereich **Ausgabenverwaltung**. Mit diesem Arbeitsbereich können Benutzer einen Beleg erfassen und hochladen, um ihn später zu einem Spesenbericht hinzuzufügen. Benutzer können mithilfe einer angehängten Quittung auch schnell eine Ausgabenzeile erstellen und ihre Spesenabrechnungen erstellen und verwalten. Darüber hinaus können Genehmigende den mobilen Arbeitsbereich **Ausgabenmanagement** nutzen zum Anzeigen der ihnen zugewiesenen Spesenabrechnungen und zum Genehmigen oder Ablehnen dieser Spesenabrechnungen.
 
 Dieser mobile Arbeitsbereich soll zusammen mit der Dynamics 365 Unified Ops mobile App verwendet werden.
 

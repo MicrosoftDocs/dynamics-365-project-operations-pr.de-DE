@@ -1,6 +1,6 @@
 ---
 title: Benutzerdefinierte Felder und Entitäten erstellen
-description: In diesem Thema wird erläutert, wie Optionssätze und Entitäten in Ihrer eigenen Lösung auf der Power Apps Plattform erstellt werden.
+description: Dieser Artikel erklärt, wie Sie Optionssätze und Entitäten in Ihrer eigenen Lösung in der Power Apps-Plattform erstellen können.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926913"
 ---
 # <a name="create-custom-fields-and-entities"></a>Benutzerdefinierte Felder und Entitäten erstellen 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Führen Sie die folgenden Schritte aus, wenn Sie einen benutzerdefinierten Optionssatz oder eine Entität auf der Power Apps-Plattform erstellen möchten.  
-Die Verfahren in diesem Thema sollten über die Weboberfläche von Project Service Automation (PSA) ausgeführt werden.
+Die Vorgänge in diesem Artikel sollten über die Weboberfläche von Project Service Automation (PSA) ausgeführt werden.
 
 > [!IMPORTANT]
 > Wir empfehlen, alle benutzerdefinierten Preisdimensionsänderungen in einer separaten Lösung vorzunehmen. Diese wichtige bewährte Methode bietet in Zukunft die Flexibilität, Änderungen nach Bedarf zu aktualisieren oder zu entfernen, hilft bei der Wiederverwendung Ihrer Arbeit und erleichtert das Portieren dieser Änderungen auf eine andere Instanz. Wenn alle erforderlichen Änderungen vorgenommen wurden, können Sie diese Lösung als **Verwaltete Lösung** exportieren und in andere Instanzen importieren, um Ihre Preiskonfiguration wiederzuverwenden.

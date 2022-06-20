@@ -1,24 +1,24 @@
 ---
 title: Entfernte oder veraltete Funktionen in Dynamics 365 Project Operations
-description: In diesem Thema werden die Funktionen beschrieben, die entfernt wurden oder entfernt werden sollen von Dynamics 365 Project Operations.
+description: Dieser Artikel beschreibt Funktionen, die aus Dynamics 365 Project Operations entfernt wurden bzw. deren Entfernung geplant ist.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921485"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Entfernte oder veraltete Funktionen in Dynamics 365 Project Operations
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung und Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung_
 
-In diesem Thema werden die Funktionen beschrieben, die entfernt wurden oder entfernt werden sollen von Dynamics 365 Project Operations.
+Dieser Artikel beschreibt Funktionen, die aus Dynamics 365 Project Operations entfernt wurden bzw. deren Entfernung geplant ist.
 
 - Eine *entfernte* Funktion ist im Produkt nicht mehr verfügbar.
 - Eine *veraltete* Funktion befindet sich nicht in der aktiven Entwicklung und wird möglicherweise in einem zukünftigen Update entfernt.

@@ -1,18 +1,18 @@
 ---
 title: Beschaffungskategorien mit Projektbestellungen und ausstehenden Kreditorenrechnungen verwenden
-description: Dieses Thema beschreibt, wie Beschaffungskategorien konfiguriert werden, die mit Projektbestellungen und ausstehenden Lieferantenrechnungen verwendet werden können.
+description: Dieser Artikel beschreibt, wie Sie Beschaffungskategorien konfigurieren, die mit Projektbestellungen und ausstehenden Lieferantenrechnungen verwendet werden können.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613263"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927419"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Beschaffungskategorien mit Projektbestellungen und ausstehenden Kreditorenrechnungen verwenden
 
@@ -47,7 +47,7 @@ Befolgen Sie diese Schritte, um in der **Beschaffungskategorie**-Hierarchie Proj
 
 1. Wechseln Sie zu **Beschaffung \> Beschaffungskategorien**.
 1. Wählen Sie **Kategoriehierarchie bearbeiten** aus.
-1. Wählen Sie den gewünschten Kategoriehierarchieknoten aus, und ordnen Sie dann auf der Registerkarte **Projektkategorien zuweisen** den Knoten von der **Zeit**, Ausgaben** oder **Artikelprojekt**-Kategorie (also die **Standard-Zeit** oder **Standard-Ausgaben**-Kategorie) zu.
+1. Wählen Sie den gewünschten Knoten der Kategorienhierarchie aus und ordnen Sie dann auf der Registerkarte **Projektkategorien zuordnen** den Knoten der Projektkategorie aus der Kategorie **Zeit**, **Aufwand** oder **Element-Projekt** zu (d.h. der Kategorie **Standard-Zeit** oder **Standard-Aufwand**).
 1. Wählen Sie **Save** (Speichern).
 1. Schließen Sie die Seite.
 

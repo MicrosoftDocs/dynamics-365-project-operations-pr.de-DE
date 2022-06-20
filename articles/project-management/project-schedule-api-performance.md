@@ -1,28 +1,28 @@
 ---
 title: Projektzeitplan-API-Leistung
-description: Dieses Thema bietet Informationen zu den Leistungs-Benchmarks der Projektzeitplan-APIs und identifiziert Best Practices für eine optimale Nutzung.
+description: Dieser Artikel informiert Sie über die Performance-Benchmarks der Projektzeitplan-APIs und zeigt bewährte Verfahren für eine optimale Nutzung auf.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593841"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911181"
 ---
 # <a name="project-schedule-api-performance"></a>Projektzeitplan-API-Leistung
 
 _**Gilt für:** Die Basisbereitstellung ist für die Szenarien Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen und Lite-Bereitstellung – Abschluss zur Pro-forma-Rechnungsstellung verfügbar, Project for the web_
 
-Dieses Thema bietet Informationen zu den Leistungs-Benchmarks der Projektzeitplan-APIs (Schnittstellen zur Anwendungsprogrammierung) und identifiziert Best Practices für eine optimale Nutzung.
+Dieser Artikel enthält Informationen zu den Leistungsmerkmalen der Projektplan-APIs (Application Programming Interfaces) und nennt die bewährten Verfahren zur Optimierung der Nutzung.
 
 ## <a name="project-scheduling-service"></a>Projektplanungsservice
 Der Projektplanungsservice ist ein Service für mehrere Mandanten, der in Microsoft Azure ausgeführt wird. Er wurde entwickelt, um die Interaktion zu verbessern, indem er eine schnelle und flüssige Erfahrung bietet, wenn Benutzer an Projekten arbeiten. Diese Verbesserung wird erreicht, indem Änderungsanforderungen angenommen und bearbeitet werden und anschließend das Ergebnis sofort zurückgegeben wird. Der Service bleibt asynchron zu Dataverse und hindert Benutzer nicht daran, andere Vorgänge auszuführen.
 
-Die Projektzeitplan-APIs verlassen sich auf den Projektplanungsservice, um Anforderungen auszuführen, die in späteren Abschnitten dieses Themas ausführlicher beschrieben werden.
+Die Projektzeitplan-APIs stützen sich auf den Project Scheduling Service, um Anfragen auszuführen, die in späteren Abschnitten dieses Artikels genauer beschrieben werden.
 
 Die Projektzeitplan-APIs sind so konzipiert, dass sie mit den folgenden Projektstrukturplan-Entitäten (PSP) funktionieren:
 
