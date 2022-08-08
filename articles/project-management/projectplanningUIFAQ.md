@@ -2,24 +2,24 @@
 title: Problembehandlung für die Arbeit im Aufgabenraster
 description: Dieser Artikel enthält Informationen zur Problembehandlung bei der Arbeit im Raster für Aufgaben.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911043"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188230"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problembehandlung für die Arbeit im Aufgabenraster 
 
 
 _**Gilt für:** Die Basisbereitstellung ist für die Szenarien Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen und Lite-Bereitstellung – Abschluss zur Pro-forma-Rechnungsstellung verfügbar, Project for the web_
 
-Das Aufgabenraster, das von Dynamics 365 Project Operations genutzt wird, ist ein gehosteter iframe innerhalb von Microsoft Dataverse. Aufgrund dieser Verwendung müssen bestimmte Anforderungen erfüllt werden, um sicherzustellen, dass Authentifizierung und Autorisierung korrekt funktionieren. Dieser Artikel beschreibt die allgemeinen Probleme, die das Rendern des Rasters oder die Verwaltung von Aufgaben im Projektstrukturplan (PSP) beeinträchtigen können.
+Das Aufgabenraster, das von Dynamics 365 Project Operations genutzt wird, ist ein gehosteter iFrame innerhalb von Microsoft Dataverse. Aufgrund dieser Verwendung müssen bestimmte Anforderungen erfüllt werden, um sicherzustellen, dass Authentifizierung und Autorisierung korrekt funktionieren. Dieser Artikel beschreibt die allgemeinen Probleme, die das Rendern des Rasters oder die Verwaltung von Aufgaben im Projektstrukturplan (PSP) beeinträchtigen können.
 
 Häufige Probleme umfassen:
 
@@ -72,7 +72,10 @@ Für Project Operations muss ein Projektparameter auf PEX Endpunkt verweisen. Di
 4. Entfernen Sie das Feld aus der Seite **Projektparameter**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Risikominderung 3: Melden Sie sich bei project.microsoft.com an
-Öffnen Sie eine neue Registerkarte in Ihrem Microsoft Edge-Browser, gehen Sie zu project.microsoft.com und melden Sie sich mit der Benutzerrolle an, die Sie für den Zugriff auf Project Operations verwenden.
+
+Öffnen Sie eine neue Registerkarte in Ihrem -Browser, rufen Sie project.microsoft.com auf und melden Sie sich mit der Benutzerrolle an, die Sie für den Zugriff auf Project Operations verwenden. Es darf jeweils nur ein Benutzer bei einem Microsoft-Produkt im Browser angemeldet sein. Die Fehlermeldung „login.microsoftonline.com weigerte sich, eine Verbindung herzustellen“ tritt am häufigsten auf, wenn mehrere Benutzer angemeldet sind, wie in der folgenden Abbildung dargestellt.
+
+![Wählen Sie eine Kontoanmeldeseite aus, auf der angegeben wird, dass zwei Benutzer angemeldet sind.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Das Projekt wird nicht geladen und die Benutzeroberfläche bleibt im Spinner hängen
 
@@ -112,7 +115,7 @@ Alternativ können Sie die folgenden Schritte ausführen.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: Rechteverwaltung für Project for the Web
 
-Project Operations ist auf einen externen Planungsservice angewiesen. Der Dienst erfordert, dass einem Benutzer mehrere Rollen zugewiesen sind, die es ihm ermöglichen, Entitäten im Zusammenhang mit dem PSP zu lesen und zu schreiben. Diese Entitäten umfassen Projektaufgaben, Ressourcenzuweisungen und Aufgabenabhängigkeiten. Wenn ein Benutzer den PSP nicht rendern kann, wenn er zur Registerkarte **Aufgaben** navigiert, liegt es wahrscheinlich daran, dass **Projekt** für **Project Operations** nicht aktiviert wurde. Ein Benutzer erhält möglicherweise entweder einen Sicherheitsrollen-Fehler oder einen Fehler im Zusammenhang mit einer Zugriffsverweigerung.
+Project Operations ist auf einen externen Planungsservice angewiesen. Der Dienst erfordert, dass einem Benutzer mehrere Rollen zugewiesen sind, die es ihm ermöglichen, Entitäten in Zusammenhang mit dem PSP zu lesen und zu schreiben. Diese Entitäten umfassen Projektaufgaben, Ressourcenzuweisungen und Aufgabenabhängigkeiten. Wenn ein Benutzer den PSP nicht rendern kann, wenn er zur Registerkarte **Aufgaben** navigiert, liegt es wahrscheinlich daran, dass **Projekt** für **Project Operations** nicht aktiviert wurde. Ein Benutzer erhält möglicherweise entweder einen Sicherheitsrollen-Fehler oder einen Fehler im Zusammenhang mit einer Zugriffsverweigerung.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Risikominderung1: Überprüfen Sie die Sicherheitsrollen des Anwendungsbenutzers und des Endbenutzers
 

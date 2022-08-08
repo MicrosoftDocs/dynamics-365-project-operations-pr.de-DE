@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930133"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064277"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Kilometerleistung mithilfe von Kilometertarifstufen einrichten
 
@@ -50,5 +50,15 @@ Die Funktion **Kilometerberechnung für mehrere Kilometerstufen mit derselben Ta
 
 Nachdem Sie die Funktion aktiviert haben, setzen Sie die Meilenstufen zurück, um den Wert des Felds **Menge** zu reflektieren. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Aktivieren Sie das Feature für die Berechnung der Gesamtkilometer nach Geschäftsjahr
+
+Das Feature **Berechnung der Gesamtkilometer nach Geschäftsjahr** aktiviert eine neue Einstellung in den Ausgabenverwaltungsparametern, die Kilometersummenberechnungen nach Geschäftsjahr anstelle des Kalenderjahres durchführt. Gehen Sie wie folgt vor, um diese Funktion zu aktivieren.
+
+1. Gehen Sie zu **Arbeitsbereiche** > **Funktionenverwaltung**.
+1. Suchen und wählen Sie in der Liste **Berechnung der Gesamtkilometer nach Geschäftsjahr** und dann **Jetzt aktivieren** aus.
+1. Rufen Sie **Ausgabenverwaltung** > **Einrichtung** > **Allgemein** > **Ausgabenverwaltungsparameter**.
+1. Suchen und aktivieren Sie auf der Seite **Spesenverwaltungsparameter** die Option **Geschäftsjahr für Gesamtkilometer verwenden**.
+
+Wenn Sie **Geschäftsjahr für Gesamtkilometer verwenden** aktivieren, werden die Gesamtkilometer nach Geschäftsjahr berechnet.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

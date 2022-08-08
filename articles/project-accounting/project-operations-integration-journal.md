@@ -2,22 +2,22 @@
 title: Integrationsjournal in Project Operations
 description: Dieser Artikel informiert Sie über die Arbeit mit dem Erfassungsjournal Integration in Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923877"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106274"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal in Project Operations
 
 _**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Zeit- und Kosteneinträge erstellen **Tatsächliche** Transaktionen, die die operative Sicht auf Arbeiten darstellen, die für ein Projekt ausgeführt wurden. Dynamics 365 Project Operations bietet Buchhaltern ein Tool, mit dem sie Transaktionen überprüfen und die Buchhaltungsattribute nach Bedarf anpassen können. Nach Abschluss der Prüfung und Anpassungen werden die Transaktionen in das untergeordnete Sachkonto und die Finanzbuchhaltung des Projekts gebucht. Ein Buchhalter kann diese Aktivitäten mit folgender Erfassung durchführen **Project Operations-Integration** (**Dynamics 365 Finance** > **Projektmanagement und -buchhaltung** > **Erfassungen** > **Project Operations-Integrationserfassung**
+Zeit-, Kosten- und Materialeinträge erstellen **Tatsächliche** Transaktionen, die die operative Sicht auf Arbeiten darstellen, die für ein Projekt ausgeführt wurden. Dynamics 365 Project Operations bietet Buchhaltern ein Tool, mit dem sie Transaktionen überprüfen und die Buchhaltungsattribute nach Bedarf anpassen können. Nach Abschluss der Prüfung und Anpassungen werden die Transaktionen in das untergeordnete Sachkonto und die Finanzbuchhaltung des Projekts gebucht. Ein Buchhalter kann diese Aktivitäten mit folgender Erfassung durchführen **Project Operations-Integration** (**Dynamics 365 Finance** > **Projektmanagement und -buchhaltung** > **Erfassungen** > **Project Operations-Integrationserfassung**
 
 ![Flow des Integrationsjournals.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ In den Project Operations-Integrationsjournalzeilen können nur die folgenden Ab
 - **Fakturierungs-Mehrwertsteuergruppe** und **Fakturierungs-Artikel-Mehrwertsteuergruppe**.
 - **Finanzielle Dimensionen** (mit der Aktion **Beträge verteilen**)
 
-Integrationsjournalzeilen können gelöscht werden. Nicht gebuchte Zeilen werden jedoch erneut in das Journal eingefügt, nachdem Sie den periodischen Prozess **Import aus Staging** erneut ausgeführt haben.
+Integrationsjournalpositionen können gelöscht werden. Nicht gebuchte Positionen werden jedoch erneut in das Journal eingefügt, nachdem Sie den periodischen Prozess **Import aus Staging** erneut ausgeführt haben.
+
+### <a name="post-the-project-operations-integration-journal"></a>Project Operations-Integrationsjournal buchen
 
 Wenn Sie das Integrationsjournal buchen, werden ein untergeordnetes Sachkonto und Finanzbuchhaltungsvorgänge erstellt. Diese werden in der nachgelagerten Kundenabrechnung, Umsatzrealisierung und Finanzberichterstattung verwendet.
 
+Das ausgewählte Project Operations-Integrationsjournal kann mit **Buchen** auf der Integrationsjournalseite für Project Operations gebucht werden. Alle Journale können automatisch gebucht werden, indem ein Prozess unter **Periodizität** > **Project Operations-Integration** > **Integrationsjournal für Project Operations buchen** ausgeführt wird.
+
+Die Buchung kann interaktiv oder im Batch erfolgen. Beachten Sie, dass alle Journale mit mehr als 100 Positionen automatisch in einem Batch gebucht werden. Sie können bessere Ergebnisse erzielen, wenn Sie für Journale, in denen viele Positionen in einem Batch gebucht wurden, aktivieren Sie die Funktion **Integrationsjournal für Project Operations mit mehreren Batch-Aufgaben buchen** im Arbeitsbereich **Feature-Verwaltung**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Übertragen Sie alle Positionen mit Buchungsfehlern in ein neues Journal
+
+> [!NOTE]
+> Um diese Funktion zu nutzen, aktivieren Sie das Feature **Alle Zeilen mit Buchungsfehlern in ein neues Project Operations-Integrationsjournal übertragen** im Arbeitsbereich **Feature-Verwaltung**.
+
+Während der Buchung in das Integrationsjournals für Project Operations validiert das System jede Position im Journal. Das System bucht alle fehlerfreien Positionen und erstellt ein neues Journal für alle Positionen mit Buchungsfehlern. Um die Journale mit Buchungsfehlerpositionen zu überprüfen, rufen Sie **Projektmanagement und -buchhaltung** > **Journal** > **Project Operations-Integrationsjournal** auf und filtern Sie die Journale mithilfe des Felds **Ursprüngliches Journal**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

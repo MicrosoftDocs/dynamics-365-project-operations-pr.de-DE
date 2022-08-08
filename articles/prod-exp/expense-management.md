@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934043"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029345"
 ---
 # <a name="expense-management-overview"></a>Übersicht über Ausgabenverwaltung
 
@@ -43,7 +43,7 @@ Weitere Informationen finden Sie unter [Neu gestaltete Spesenabrechnungen](Expen
 
 ### <a name="blogs"></a>Blogs
 
-Meinungen, Neuigkeiten und weitere Informationen zu finden Sie im [Microsoft Dynamics 365-Blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) und dem [Microsoft Dynamics 365 Finance and Operations – Finanzblog](https://community.dynamics.com/365/financeandoperations/b/financials).
+Sie finden Meinungen, Neuigkeiten und andere Informationen im [Microsoft Dynamics 365-Blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) und im [Microsoft Dynamics 365 Finance – Finanzblog](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Der [Microsoft Dynamics Operations Partner Community-Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) bietet Microsoft Dynamics-Partnern eine einzige Ressource, in der sie erfahren können, was in MBS Operations neu und aktuell ist.
 

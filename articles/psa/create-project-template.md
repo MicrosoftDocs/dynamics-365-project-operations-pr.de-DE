@@ -4,7 +4,7 @@ description: Erstellen einer Projektvorlage (Project Service)
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598993"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177424"
 ---
 # <a name="create-a-project-template-project-service"></a>Erstellen einer Projektvorlage (Project Service)
 
@@ -40,7 +40,14 @@ Projektvorlagen sparen Zeit, wenn Ihr Unternehmen regelmäßig Gebote für ähnl
 - **Projektschätzungen**: Projektschätzungen in Vorlagen funktionieren wie in Projekten, abgesehen davon, dass Preislisten für die Standardkosten und die Verkaufspreise immer die Standardkosten und Verkaufspreislisten sind, die in den [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-Parametern definiert werden. Die restlichen Funktionalitäten sind identisch mit einem Projekt.  
   
 - **Projektteambildung**: Wenn Sie ein Projektteam für eine Projektvorlage zusammenstellen, können Sie keine benannte Ressource in einer Vorlage buchen. Sie können im Projektstrukturplan **Projektteam generieren** verwenden, um einen Satz allgemeiner Ressourcen zu generieren. Sie könne auch erforderliche Kompetenzen und Fähigkeiten für allgemeine Ressourcen angeben. Sie können keine allgemeine Ressource durch eine buchbare Ressource in den Projektvorlagen ersetzen.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Erstellen einer Projektvorlage aus einem vorhandenen Projekt
+Sie können eine Projektvorlage aus einem Projekt folgendermaßen erstellen:
+
+- **Projektstrukturplan**: Ein Projektstrukturplan in einer Vorlage, die von einem Projekt abgeleitet wird, kopiert alle Aufgaben und Abhängigkeiten. Die erstellten Zuweisungen basieren auf den allgemeinen Teammitgliedern, die dem Projektteam hinzugefügt werden, wenn die Projektvorlage erstellt wird.
+- **Projektschätzungen** : Wenn eine Projektvorlage aus einem vorhandenen Projekt erstellt wird, werden die Schätzungen aus dem Quellprojekt in die Projektvorlage kopiert.
+- **Mitglieder des Projektteams** : Wenn eine Vorlage aus einem vorhandenen Projekt erstellt wird, werden alle benannten Teammitglieder durch die generische Ressource der Organisation ersetzt. Alle Positionsnamen und Rollen bleiben erhalten.
+
 ## <a name="create-a-project-from-a-template"></a>Erstellen eines Projekts aus einer Vorlage  
  Sie können ein Projekt aus einer Vorlage auf die folgenden Arten erstellen:  
   

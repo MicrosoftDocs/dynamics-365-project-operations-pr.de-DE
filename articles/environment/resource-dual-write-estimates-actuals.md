@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: dc8f65aec6f2328ccef5f9591a0f4d9c792b0d8f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914585"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029079"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integration der Projektvorkalkulationen und Istwerte
 
@@ -44,7 +44,7 @@ Kostenvoranschläge werden vom Projektmanager auf der Registerkarte **Kostenvora
 
 Dual-Write synchronisiert Kostenvoranschlagsdatensätze mit der Staging-Tabelle (**ProjCDSEstimateExpenseImport**) und verwendet dann Geschäftslogik, um Ausgabenprognosedatensätze zu erstellen und zu aktualisieren (**ProjForecastCost**). In den Schätzzeilen werden Umsatzschätzungs- und Kostenvoranschlagsdatensätze getrennt gespeichert. Die Geschäftslogik in Finanz- und Betriebs-Apps füllt einen einzelnen Ausgabenprognosedatensatz mit diesem Detail in der Staging-Tabelle.
 
-Der Projektbuchhalter ksnn die in Finanz- und Betriebs-Apps erstellten prognostizierten Ausgabenaufzeichnungen überprüfgen, indem er zu **Projektmanagement und Buchhaltung** > **Alle Projekte** > **Planen** > **Asugabenprognosen** wechselt.
+Der Projektbuchhalter ksnn die in Finanz- und Betriebs-Apps erstellten prognostizierten Ausgabenaufzeichnungen überprüfen, indem er zu **Projektmanagement und Buchhaltung** > **Alle Projekte** > **Planen** > **Ausgabenprognosen** wechselt.
 
 ## <a name="material-estimates"></a>Materialvorkalkulationen
 
@@ -54,7 +54,7 @@ Materialvorkalkulationen werden vom Projektmanager auf der Registerkarte **Mater
 
 Dual-Write synchronisiert Materialvorkalkulationsdatensätze mit der Staging-Tabelle (**ProjForecastSalesImpor**) und verwendet dann Geschäftslogik, um Artikelprognosedatensätze zu erstellen und zu aktualisieren (**ForecastSales**). In den Schätzzeilen werden Umsatzschätzungs- und Kostenvoranschlagsdatensätze getrennt gespeichert. Die Geschäftslogik in Finanz- und Betriebs-Apps füllt einen einzelnen Artikelprognosedatensatz mit diesem Detail in der Staging-Tabelle.
 
-Der Projektbuchhalter ksnn die in Finanz- und Betriebs-Apps erstellten prognostizierten Artikelaufzeichnungen überprüfgen, indem er zu **Projektmanagement und Buchhaltung** > **Alle Projekte** > **Planen** > **Artikelprognosen** wechselt.
+Der Projektbuchhalter ksnn die in Finanz- und Betriebs-Apps erstellten prognostizierten Artikelaufzeichnungen überprüfen, indem er zu **Projektmanagement und Buchhaltung** > **Alle Projekte** > **Planen** > **Artikelprognosen** wechselt.
 
 ## <a name="project-actuals"></a>Projekt-Istwerte
 

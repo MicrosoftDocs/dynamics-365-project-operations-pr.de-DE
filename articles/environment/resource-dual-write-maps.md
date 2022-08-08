@@ -2,16 +2,16 @@
 title: Project Operations – Duales Schreiben-Zuordnungsversionen
 description: Dieser Artikel enthält die Liste der Dual-write Zuordnungen, die für Dynamics 365 Project Operations erforderlich sind.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959454"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112428"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations – Duales Schreiben-Zuordnungsversionen
 
@@ -46,7 +46,7 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für eine Project O
 | Projektvertragskopfzeilen (Vertriebsaufträge) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. ||
 | Projektvertragszeilen (salesorderdetails) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
 | Projektfinanzierungsquelle (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. ||
-| Project Operations-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
+| Project-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
 | Projektrechnungsvorschläge V2 (Rechnungen) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. ||
 | Tatsächliche Werte der Project Operations-Integration (msdyn_actuals) | 1.0.0.14 | Für die Bereitstellung nicht erforderlich. ||
 | Vertragszeilenmeilensteine für die Integration von Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. ||

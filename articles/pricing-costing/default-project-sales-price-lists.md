@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917713"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036410"
 ---
 # <a name="default-price-lists"></a>Standardpreislisten
 
@@ -25,7 +25,7 @@ Jedes Projektangebot und jeder Vertrag in Dynamics 365 Project Operations enthä
 Das System führt den folgenden Vorgang aus, um zu bestimmen, welche Preisliste für ein Projektangebot standardmäßig verwendet werden soll:
 
 1. Das System überprüft die Preislisten, die den Projektpreislisten des Kontos beigefügt sind. 
-2. Wenn dem Firmendatensatz Projektpreislisten beigefügt sind, überprüft das System die Verkaufspreislisten, die den Projektparametern zugeordnet sind und mit der Währung des Projektangebots übereinstimmen.
+2. Wenn dem Firmendatensatz keine Projektpreislisten beigefügt sind, überprüft das System die Verkaufspreislisten, die den Projektparametern zugeordnet sind und mit der Währung des Projektangebots übereinstimmen.
 3. Als Nächstes überprüft das System die Datumseffektivität der Preislisten, die dem Datumsbereich des Projektangebots entsprechen. Speziell das Datum, an dem das Angebot erstellt wurde.
 4. Wenn es mehrere Preislisten gibt, die für das Datum des Projektangebots gültig sind, werden alle Preislisten standardmäßig im Projektangebot verwendet.
 5. Wenn für das Datum des Projektangebots keine Preislisten gültig sind, enthält das Projektangebot keine Standardprojektpreisliste. Im Projektangebot wird eine Warnmeldung angezeigt. In der Meldung heißt es, dass Istwerte und Vorkalkulationen im Projekt nicht bewertet werden, da keine Projektpreislisten angefügt sind.

@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
+ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959455"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "9190665"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Update-Releasezeitplan für Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "8959455"
 
 | Solution  | Neueste Version |
 |-------|----|
-| Project Service Automation    | 3.10.75.142 |
+| Project Service Automation    | 3.10.76.168 |
 | Project Service Automation-Desktop-Add-In                | 3.60          |
 
 Informationen zu Updates für Project Service finden Sie unter [Dynamics 365-Veröffentlichungspläne](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Informationen zu Updates für Project Service finden Sie unter [Dynamics 365-Ve
 | Station  | Region | Aktuelle Version | Nächste Version |  Geplantes Datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Erste Veröffentlichung</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 01. Juli 2022
+| | <i>Erste Veröffentlichung</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26. August 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Südamerika</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Kanada</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Indien</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Frankreich</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Südafrika</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Deutschland</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Schweiz</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Republik Korea</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
-| | <i>Norwegen</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 08. Juli 2022
+| | <i>Südamerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Indien</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Frankreich</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Südafrika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Deutschland</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Schweiz</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Republik Korea</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
+| | <i>Norwegen</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. September 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15. Juli 2022
-| | <i>Asien Pazifik</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15. Juli 2022
-| | <i>Großbritannien</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15. Juli 2022
-| | <i>Ozeanien</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15. Juli 2022
-| | <i>Vereinigte Arabische Emirate</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | 15. Juli 2022
+| | <i>Japan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. September 2022
+| | <i>Asien Pazifik</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. September 2022
+| | <i>Großbritannien</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. September 2022
+| | <i>Ozeanien</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. September 2022
+| | <i>Vereinigte Arabische Emirate</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. September 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 17. Juni 2022
+| | <i>Europa</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29. Juli 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Nordamerika</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24. Juni 2022
+| | <i>Nordamerika</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05. August 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24. Juni 2022
-| | <i>Dedizierte Skalierungsgruppen</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 01. Juli 2022
+| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03. August 2022
+| | <i>Dedizierte Skalierungsgruppen</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05. August 2022
 
 
 

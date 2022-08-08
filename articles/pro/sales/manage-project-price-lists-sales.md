@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929949"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023612"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Projektpreislisten in Projektangeboten verwalten 
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung Project Operations für Ressourcen/nicht vorrätige Szenarien_
 
 Projektangebote unterstützen effektive Verkaufspreislisten mit mehreren Daten. Mit Dynamics 365 Project Operations wird eine neue zugeordnete Entität namens **Projektpreislisten** ergänzt. Diese Entität hat eine 1:n-Beziehung zu einem Projektangebot.
 

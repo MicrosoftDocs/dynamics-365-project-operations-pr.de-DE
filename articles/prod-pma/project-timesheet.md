@@ -2,7 +2,7 @@
 title: Projekt-Zeittabelle mobile Anwendung
 description: Dieser Artikel enthält Informationen über die mobile Anwendung Microsoft Dynamics 365 Project Timesheet. Mit der mobilen App Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923969"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110974"
 ---
 # <a name="project-timesheet-mobile-application"></a>Projekt-Zeittabelle mobile Anwendung
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923969"
 
 ## <a name="overview"></a>Überblick
 
-Mit der mobilen App Microsoft Dynamics 365 Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen (iPhone oder Android). Die Oberflächen der Arbeitszeitnachweis-Funktion dieser App für das Mobile, die sich in der Projektverwaltung und in Buchhaltungsbereichen von Dynamics 365 Finance befindet, verbessert die Benutzerproduktivität sowie die Effizienz und ermöglicht den fristgerechten Eintrag und die Genehmigung von Projektarbeitszeitnachweisen.
+Mit der mobilen App Microsoft Dynamics 365 Project Timesheet können Benutzer Arbeitszeittabellen für Projekte auf ihrem Mobilgerät einreichen und genehmigen (iPhone oder Android). Diese mobile App wird in der Arbeitszeitnachweis-Funktion in der Projektverwaltung und im Buchungskreis von Dynamics 365 Finance angezeigt Es hilft bei der Verbesserung der Benutzerproduktivität und -Effizienz und ermöglicht rechtzeitige Eingabe und Genehmigung von Projektzeittabellen.
 
 ## <a name="download-and-install-the-mobile-app"></a>Die mobile App herunterladen und installieren
 
@@ -38,6 +38,19 @@ Laden Sie Microsoft Dynamics 365 Project Timesheet mobile App für Android oder 
 
 In Finance muss die mobile App Project Timesheet aktiviert sein. Um die Funktionalität zu aktivieren, gehen Sie zu **Projektmanagement- und Buchhaltungsparameter \> Arbeitszeittabelle** und wählen Sie die Parameter **Aktivieren von Microsoft Dynamics 365 Project Timesheet** .
 
+### <a name="resolve-sign-in-issues"></a>Beheben von Anmeldeproblemen
+
+**Ausgabe:** Während der Anmeldung bei der Project Timesheet Mobile-App erhalten Benutzer eine Fehlermeldung, die besagt, dass sie „nicht auf die Anwendung '2bc50526-cdc3-4e36-a970-c284c34cbd6e' in diesem Mandanten zugreifen können.
+
+**Problem:** Während der Anmeldung bei der mobilen App Project Timesheet erhalten Benutzer eine Fehlermeldung, die einem der folgenden Beispiele ähnelt:
+
+- "AADSTS50020: Benutzerkonto '[Benutzername]' vom Identitätsanbieter 'https://sts.windows.net/ [App-ID]“ existiert nicht im Mandanten „[Mandanten-ID]“ und kann nicht auf die Anwendung „[App-ID]“ in diesem Mandanten zugreifen.“
+- „Das ausgewählte Benutzerkonto ist im Mandanten '[tenant id]' nicht vorhanden“ und kann nicht auf die Anwendung '[app id]' in diesem Mandanten zugreifen“
+
+**Erläuterung:** Diese Probleme werden durch eine Änderung verursacht, die im May 2022 an Azure Active Directory (Azure AD) vorgenommen und bezieht sich auf externe Nutzer. Da diese Änderung nicht an Finanz- und Betriebs-Apps vorgenommen wurde, kann sie Kunden auf jeder Version der Plattform oder Anwendung betreffen.
+
+**Fix:** Alle externen Benutzer müssen über Azure AD für den Mandanten eingeladen worden sein. Weitere Informationen finden Sie unter [Einladen von Benutzern mit Azure Active Directory B2B Collaboration ](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Bei der App anmelden
 
 1.  Starten Sie die App auf Ihrem mobilen Gerät.
@@ -46,11 +59,11 @@ In Finance muss die mobile App Project Timesheet aktiviert sein. Um die Funktion
 
 3.  Wenn Sie sich zum ersten Mal anmelden, werden Sie dazu aufgefordert, Ihren Benutzernamen und Ihr Passwort einzugeben. Geben Sie Ihre Anmeldeinformationen ein.
 
-4.  Sie werden bei Ihrer Standardfirma angemeldet.
+4. Sie werden bei Ihrer Standardfirma angemeldet.
 
 ## <a name="submit-a-project-timesheet"></a>Senden Sie eine Projektzeittabelle
 
-Sie können eine Projektzeittabelle in der App erstellen und senden. Sie können eine neue Arbeitszeittabelle auf Informationen aus einer früheren Arbeitszeittabelle, gespeicherten Zeilen oder Projektzuweisungen basieren. Wenn Sie als Delegierter festgelegt sind, können Sie auch eine Arbeitszeittabelle für einen anderen Mitarbeiter eingeben. Um eine Arbeitszeittabelle als Stellvertretung zu erstellen, wählen Sie die Schaltfläche **Menü** und wählen Sie einen Ressourcennamen aus.
+Sie können eine Projektzeittabelle in der App erstellen und senden. Sie können eine neue Arbeitszeittabelle auf Informationen aus einer früheren Arbeitszeittabelle, gespeicherten Zeilen oder Projektzuweisungen basieren. Wenn Sie als Stellvertretung festgelegt sind, können Sie auch eine Arbeitszeittabelle für einen anderen Mitarbeiter eingeben. Um eine Arbeitszeittabelle als Stellvertretung zu erstellen, wählen Sie die Schaltfläche **Menü** aus und bestimmen einen Ressourcennamen.
 
 Auf der Seite mit der Arbeitszeittabelle wird basierend auf dem aktuellen Datum eine neue Arbeitszeittabelle für den Arbeitszeittabellenzeitraum erstellt. Die Arbeitswoche wird angezeigt. Wenn der Arbeitszeittabellenzeitraum mehrere Wochen umfasst, können Sie auf den Registerkarten Arbeitswoche eine andere Arbeitswoche auswählen.
 Wenn für das aktuelle Datum eine Arbeitszeittabelle vorhanden ist, wird diese angezeigt. Wenn Sie eine neue Arbeitszeittabelle in einem anderen Arbeitszeittabellenzeitraum erstellen müssen, wählen Sie die Schaltfläche **Menü** und wählen Sie dann **Neue Arbeitszeittabelle**.
@@ -79,7 +92,7 @@ Das Feld **Zeilen-Eigenschaft** wird basierend auf den Projektmanagement- und Bu
 
 Wählen Sie einen Tag aus, um die Zeit hinzuzufügen. Geben Sie die Anzahl der Stunden ein, die Sie jeden Tag gearbeitet haben.
 
-Um Kommentare zu den von Ihnen eingegebenen Stunden hinzuzufügen, klicken Sie auf **Fügen Sie Kommentare hinzu** und geben Sie dann Kommentare für ein internes Publikum, ein Kunden-Publikum oder beides ein.
+Um Kommentare zu den von Ihnen eingegebenen Stunden hinzuzufügen, klicken Sie auf **Kommentare hinzufügen** und geben Sie dann Kommentare für ein internes Publikum, ein Kunden-Publikum oder beides ein.
 Interne Kommentare können von Projektmanagern eingesehen werden. Kundenkommentare sind auf Rechnungen enthalten.
 
 Um die Zeile als Favorit zu speichern, aktivieren Sie das Kontrollkästchen und klicken Sie dann auf **Als Favorit speichern**.

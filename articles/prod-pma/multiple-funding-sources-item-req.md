@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931191"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028472"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Artikelanforderungen für Projektverträge mit mehreren Finanzierungsquellen
 
@@ -33,7 +33,7 @@ Contoso hat mit zwei seiner Kunden einen Vertrag zur Geräteerneuerung abgeschlo
 
 ### <a name="prerequisites"></a>Anforderungen
 
-- Microsoft Dynamics 365 Finance and Operations **Version 10.0.27 oder höher** ist erforderlich, um Artikelanforderungen zu verwenden, die mehrere Rechnungskonten haben.
+- Microsoft Dynamics 365 Finance **-Version 10.0.27 oder höher** ist erforderlich, um Artikelanforderungen zu verwenden, die mehrere Rechnungskonten haben.
 - Ihr Systemadministrator muss die Funktion **Artikelanforderungen mit mehreren Finanzierungsquellen für vorrats-/produktionsbasierte Project Operations-Szenarien zulassen** im Arbeitsbereich **Funktionsverwaltung** aktivieren.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Die Standardregeln für das Rechnungskonto einrichten

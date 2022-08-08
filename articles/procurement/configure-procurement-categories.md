@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927419"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028609"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Beschaffungskategorien mit Projektbestellungen und ausstehenden Kreditorenrechnungen verwenden
 
@@ -25,7 +25,7 @@ Professionelle Einkäufer können Kataloge von Artikeln und Dienstleistungen ers
 Die folgenden Versionen sind erforderlich, um Beschaffungskategorien mit Projektbestellungen für Microsoft Dynamics 365 Project Operations nicht lagerhaltige/ressourcenbasierte Szenarien zu verwenden:
 
 - Project Operations Dataverse-Lösungsversion 4.41.0.45 oder höher
-- Finance and Operations-Umgebungsversion 10.0.26 oder höher
+- Version der Finanz- und Betriebs-App-Umgebung 10.0.26 oder höher
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>Zuordnungen für duales Schreiben zur Unterstützung von Beschaffungskategorien ausführen
 

@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922865"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028885"
 ---
 # <a name="project-mobile-applications-overview"></a>Übersicht über mobile Projektanwendungen
 
@@ -33,11 +33,11 @@ Mit der mobilen App Dynamics 365 Project Timesheet können Benutzer Arbeitszeitt
 
 ## <a name="project-time-entry-workspace"></a>Arbeitsbereich für die Projektzeiterfassung
 
-Über den Arbeitsbereich Projektzeiterfassung können Benutzer Zeit für ein Projekt eingeben und sparen. Benutzer können jedoch keine Arbeitszeittabellen für Projekte einreichen oder genehmigen. Es kann nur zur Zeiterfassung verwendet werden. Dieser mobile Arbeitsbereich soll zusammen mit der mobilen Finance and Operations-Anwendung verwendet werden.
+Über den Arbeitsbereich Projektzeiterfassung können Benutzer Zeit für ein Projekt eingeben und sparen. Benutzer können jedoch keine Arbeitszeittabellen für Projekte einreichen oder genehmigen. Es kann nur zur Zeiterfassung verwendet werden. Dieser mobile Arbeitsbereich soll zusammen mit der Finanz- und Betriebs-App verwendet werden.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Meine Arbeitszeittabellen/Arbeitszeittabellen für meine Überprüfung
 
-Meine Arbeitszeittabellen (für Mobilgeräte optimiert) und Arbeitszeittabellen für meine Überprüfung (Optimiert für Mobilgeräte) bilden eine Lösung, mit der Mitarbeiter Projektzeittabellen auf einem Mobilgerät erstellen, einreichen und genehmigen können. Mitarbeiter können über die URL für die Anwendung auf die Finanzfunktionalität zugreifen. Diese Lösung erfordert keine mobile Finance and Operations-Anwendung.
+Meine Arbeitszeittabellen (für Mobilgeräte optimiert) und Arbeitszeittabellen für meine Überprüfung (Optimiert für Mobilgeräte) bilden eine Lösung, mit der Mitarbeiter Projektzeittabellen auf einem Mobilgerät erstellen, einreichen und genehmigen können. Mitarbeiter können über die URL für die Anwendung auf die Finanzfunktionalität zugreifen. Diese Lösung erfordert keine Finanz- und Betriebs-App.
 
 ## <a name="for-more-information"></a>Weitere Informationen
 

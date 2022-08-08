@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912009"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028563"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Manuelles Bereitstellen der App Project Operations Dataverse mit Dual-Write-Unterstützung
 
@@ -62,4 +62,4 @@ Sie können diesen Vorgang nur abschließen, wenn Sie die vorherigen Vorgänge a
 
 ## <a name="link-your-environments"></a><a name="link"></a>Verknüpfen Sie Ihre Umgebungen
 
-Nach die Dataverse-Umgebung bereitgestellt wird, können Sie die Verknüpfung in Ihren Finanz- und Betriebs-Apps einrichten. Führen Sie die Schritte unter [Verwenden Sie den Assistenten zum Verknüpfen Ihrer Umgebungen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) aus.
+Wenn die Dataverse-Umgebung bereitgestellt wird, können Sie die Verknüpfung in Ihren Finanz- und Betriebs-Apps einrichten. Führen Sie die Schritte unter [Verwenden Sie den Assistenten zum Verknüpfen Ihrer Umgebungen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) aus.
