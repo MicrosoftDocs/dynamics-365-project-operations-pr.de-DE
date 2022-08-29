@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Neuigkeiten
       items:
-        - name: "Juli\_2022\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: "August\_2022\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archiv
           items:
+            - name: "Juli\_2022\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: "Juni\_2022\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: "Mai\_2022\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
@@ -384,6 +386,42 @@
           items:
             - name: Ressourcennutzung – Übersicht
               href: resource-management/resource-utilization-overview.md
+    - name: Fremdarbeitsverwaltung
+      items:
+        - name: Untervertragsverwaltung in Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Schlüsselkonzepte bei der Fremdarbeit
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Kreditoren und Projektpreislisten verwalten
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Zulieferer als buchbare Ressourcen
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Kopfzeilendetails für Fremdarbeiten
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Fremdarbeitspositionen für Zeit
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Fremdarbeitspositionen für Ausgabenkategorien
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Fremdarbeitspositionen für Produkte
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ressourcen für Fremdarbeitsposition
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Fremdarbeitspositionsmeilensteine
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Fremdarbeitsprojektteammitglieder
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Fremdarbeitsoptionen für Projektteammitglieder
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostenschätzung von Fremdarbeitsressourcenzuweisungen
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Zeitplanübersicht konfigurieren für die Anzeige von Vertragsmitarbeitern und Fremdarbeitskapazität
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Besetzung eines Projekts mit Vertragsmitarbeitern und Fremdarbeitskapazität
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Erfassung von Zeit, Ausgaben und Materialverbrauch für Fremdarbeitskomponenten'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Statusübergänge bei Fremdarbeit
+          href: pro/subcontracting/subcon-states.md
     - name: Zeit
       items:
         - name: Zeitübersicht
@@ -580,6 +618,8 @@
       items:
         - name: Vollständig fakturierte Abrechnungsmeilensteine bei der Übernahme migrieren
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 'Projektstatus synchronisieren, um den Eintrag für geschlossene Projekte zu verhindern'
+          href: advanced-configuration/sync-project-status.md
     - name: Upgrade ausführen
       items:
         - name: Upgradeüberlegungen für moderne Genehmigungen
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Neuigkeiten
       items:
-        - name: "Neuigkeiten für Juli\_2022 – Lite-Bereitstellung"
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: "Neuigkeiten für August\_2022 – Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archiv
           items:
+            - name: "Neuigkeiten für Juli\_2022 – Lite-Bereitstellung"
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "Neuigkeiten für Juni\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: "Neuigkeiten zum Vorabzugang für den 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
