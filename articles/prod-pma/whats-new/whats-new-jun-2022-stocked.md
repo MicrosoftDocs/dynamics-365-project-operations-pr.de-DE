@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959473"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316940"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Neue oder geänderte Funktionen in Project Operations, Juni 2022 für bestands-/produktionsbasierte Szenarien
 
@@ -24,7 +24,7 @@ Dieser Artikel gilt für die folgenden Komponenten und Versionen von Microsoft D
 
 ## <a name="features-included-in-this-release"></a>Funktionen in dieser Version
 
-Elementanforderungen können für Projektverträge verwendet werden, die mehrere Finanzierungsquellen haben. Weitere Informationen finden Sie unter [Elementanforderungen für Projektverträge mit mehreren Finanzierungsquellen](/multiple-funding-sources-item-req.md).
+Elementanforderungen können für Projektverträge verwendet werden, die mehrere Finanzierungsquellen haben. Weitere Informationen finden Sie unter [Elementanforderungen für Projektverträge mit mehreren Finanzierungsquellen](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Qualitätsupdates
 
