@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektangebote kopieren
               href: sales/lose-quote.md
+            - name: Projektangebot aktivieren und überarbeiten
+              href: sales/activation-and-revision.md
             - name: Projektangebote schließen
               href: sales/win-quote.md
         - name: Projektverträge verwalten
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Rechnungszeitpläne für projektbasierte Vertragszeilen erstellen
                   href: sales/invoice-schedules-contract-line.md
+            - name: Projektbasierte Verträge kopieren
+              href: sales/copy-project-based-contracts-sales.md
             - name: Einen Projektvertrag bestätigen
               href: pro/sales/confirm-contract-sales.md
             - name: Vorauszahlungen und Vorschüsse
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Standardeinstellungen für Projektvertriebs-Preislisten außer Kraft setzen
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Einstandspreise für Schätzungen und tatsächliche Transaktionen auflösen
+            - name: Einstandspreise für Vorkalkulationen und tatsächliche Transaktionen bestimmen
               href: pricing-costing/cost-price-resolution.md
-            - name: Verkaufspreise für Schätzungen und Istwerte auflösen
+            - name: Vertriebspreise für Vorkalkulationen und tatsächliche Transaktionen bestimmen
               href: pricing-costing/sales-price-resolution.md
             - name: Preislisten kopieren
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektbasierte Angebote kopieren
               href: sales/lose-quote.md
+            - name: Projektangebot aktivieren und überarbeiten
+              href: sales/activation-and-revision.md
             - name: Projektbasierte Angebote schließen
               href: pro/sales/win-quote-sales.md
         - name: Projektbasierte Verträge verwalten
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Standardeinstellungen für Projektvertriebs-Preislisten außer Kraft setzen
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Einstandspreise in Projektschätzungen und tatsächlichen Transaktionen auflösen
+            - name: Einstandspreise für Projektschätzungen und tatsächliche Transaktionen bestimmen
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Vertriebspreise für Projektschätzungen und tatsächliche Transaktionen auflösen
+            - name: Vertriebspreise für Projektschätzungen und tatsächliche Transaktionen bestimmen
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Preislisten kopieren
               href: pricing-costing/copy-price-lists.md
