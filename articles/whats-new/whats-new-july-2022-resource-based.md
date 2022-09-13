@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183896"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403950"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Was ist neu Juli 2022 - Project Operations für ressourcen-/nicht vorrätig-basierte Szenarien
 
@@ -45,6 +45,12 @@ Wenn beim Starten der Karte ein Problem auftritt, befolgen Sie die Anweisungen i
 | Preise und Abrechnung | 2675880 | Verhindern, dass ein Projekt mit einer Vertragsposition verknüpft wird, die nicht arbeitsbasiert ist. |
 | Preise und Abrechnung | 2664396 | Wenn eine Angebotspreisliste ohne Angebot gespeichert wird, muss ein Fehler auftreten, der besagt, dass das Angebot nicht leer sein darf. |
 | Preise und Abrechnung | 2184019 | Die Registerkarte **Aufgabenbasierte Abrechnung** sollte nicht für Projekte angezeigt werden, die keinen Rahmenvertrag oder kein Angebot haben. |
+| Zeit und Ausgaben | 2754459 | Wenn der Cloud-Flow für die wiederkehrende Planung inaktiv ist, wird das Banner angezeigt und die asynchrone Verarbeitung umgangen. |
+| Preise und Abrechnung | 2724391 | Eine falsche Ausnahme wird ausgelöst, wenn in der Abrechnungsregel für die Teilung des Projektvertrags ein Kundenwert fehlt. |
+| Preise und Abrechnung | 2708638 | Der Datensatz wurde bei der Suche mit der Rastersuche in Materialverwendungen und Genehmigungen für Materialverwendungen nicht gefunden.|
+| Preise und Abrechnung | 2686977 | Validierung für Rechnungsposten während der Rechnungserstellung verhindern. |
+| Preise und Abrechnung | 2683032 | Das Kopieren kostenpflichtiger Rollen und Kategorien skaliert nicht über 5000 Datensätze hinaus.|
+| Preise und Abrechnung | 2673363 | Cost Consumption % on Project ist beschädigt, wenn sowohl Aufwands- als auch Kostenschätzungen und Ist-Werte für ein Projekt vorhanden sind. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektmanagement und -buchhaltung in Finance
 

@@ -1,45 +1,85 @@
 ---
-title: Einstandspreise in Projektschätzungen und tatsächlichen Transaktionen auflösen
-description: Dieser Artikel informiert Sie darüber, wie Kalkulationen für Projektschätzungen und -Istwerte aufgelöst werden.
+title: Kostenraten für Projektschätzungen und tatsächliche Transaktionen bestimmen
+description: Dieser Artikel informiert Sie darüber, wie Kalkulationen für Projektschätzungen und Istwerte bestimmt werden.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917529"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410148"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Einstandspreise in Projektschätzungen und tatsächlichen Transaktionen auflösen 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Kostenraten für Projektschätzungen und tatsächliche Transaktionen bestimmen
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Um die Einstandspreise und die Einstandspreisliste für Vorkalkulationen und Istwerte zu beschließen, verwendet das System die Informationen in den Feldern **Datum**, **Währung** und **Vertragseinheit** des zugehörigen Projekts. Nachdem die Einstandspreisliste beschlossen wurden, schließt die Anwendung den Kostensatz ab.
+Um die Einstandspreise und die Einstandspreisliste für Vorkalkulationen und Istwerte zu bestimmen, verwendet das System die Informationen in den Feldern **Datum**, **Währung** und **Vertragseinheit** des zugehörigen Projekts.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Beschließen von Kostensätzen in Istwert- und Vorkalkulationszeilen für Zeit
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Bestimmen von Kostensätzen in Istwert- und Vorkalkulationszeilen für Zeit
 
-Vorkalkulationszeilen für Zeit beziehen sich auf die Angebots- und Vertragszeilendetails für Zeit- und Ressourcenzuweisungen in einem Projekt.
+Geschätzer Kontext für **Zeit** bezieht sich auf:
 
-Nachdem eine Selbstkostenpreisliste aufgelöst wurde, werden die Felder **Rolle** und **Ressourceneinheit** in der Schätzzeile für Zeit mit den Rollenpreislinien in der Preisliste abgeglichen. Bei dieser Übereinstimmung wird davon ausgegangen, dass Sie die Standardpreisdimensionen für die Arbeitskosten verwenden. Wenn Sie das System so konfiguriert haben, dass es mit Feldern anstelle von **Rolle** und **Ressourcenzuordnungseinheit** übereinstimmt, wird eine andere Kombination verwendet, um eine übereinstimmende Rollenpreiszeile abzurufen. Wenn die Anwendung eine Rollenpreiszeile findet, die einen Kostensatz für die Kombination **Rolle** und **Ressourceneinheit** findet, dann ist dies der Standardkostensatz. Wenn die Anwendung die Werte **Rolle** und **Ressourceneinheit** nicht zuordnen kann, erhält sie die Rollenpreiszeilen mit einer übereinstimmenden Rolle, aber Nullwerte der **Ressourcenzuordnungseinheit**. Nachdem ein übereinstimmender Rollenpreisdatensatz vorhanden ist, wird der Kostensatz standardmäßig aus diesem Datensatz verwendet. 
+- Angebotszeilendetails für **Zeit**.
+- Vertragsszeilendetails für **Zeit**.
+- Ressourcenzuweisung für ein Projekt.
+
+Tatsächlicher Kontext für **Zeit** bezieht sich auf:
+
+- Erfassungs- und Korrekturjournalzeilen für **Zeit**.
+- Journalzeilen, die erstellt werden, wenn ein Zeiteintrag übermittelt wird.
+
+Nachdem eine Preisliste für Verkäufe bestimmt wurde, führt das System die folgenden Schritte aus, um den Kostenssatz als Standard festzulegen.
+
+1. Das System stimmt die Felder **Rolle**, **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** in der Vorkalkulationszeile für Zeit ab, um diese mit den Rollenpreisen in der aufgelösten Preisliste abzugleichen. Bei dieser Übereinstimmung wird davon ausgegangen, dass Sie die Standardpreisdimensionen für die Arbeitskosten verwenden. Wenn Sie das System so konfiguriert haben, dass es mit Feldern anstelle von **Rolle** und **Ressourcenzuordnungseinheit** übereinstimmt, wird eine andere Kombination verwendet, um eine übereinstimmende Rollenpreiszeile abzurufen.
+1. Wenn das System eine Rollenpreiszeile findet, die einen Kostensatz für die Kombination **Rolle** und **Ressourcenzuordnungseinheit** und Ressourcenzuordnungseinheit besitzt, dann ist dies der Standardkostensatz.
+1. Wenn das System die Feldwerte **Rolle** und **Ressourcenzuordnungseinheit** nicht zuordnen kann, ruft es die Rollenpreiszeilen mit übereinstimmenden Werten für das Feld **Rolle** aber Nullwerte für das Feld **Ressourceneinheit** ab. Nachdem das System einen passenden Rollenpreisdatensatz gefunden hat, wird der Kostensatz aus diesem Datensatz standardmäßig als Fakturierungssatz festgelegt.
 
 > [!NOTE]
-> Wenn Sie eine andere Priorisierung von **Rolle** und **Ressourcenzuordnungseinheit** konfigurieren oder Sie andere Dimensionen mit einer höheren Priorität haben, ändert sich dieses Verhalten entsprechend. Das System ruft Rollenpreisdatensätze mit Werten ab, die mit jedem der Preisdimensionswerte in der Reihenfolge ihrer Priorität übereinstimmen, wobei Zeilen Nullwerte für die zuletzt kommenden Dimensionen enthalten.
+> Wenn Sie eine andere Priorisierung der Felder **Rolle** und **Ressourcenzuordnungseinheit** konfigurieren oder Sie andere Dimensionen mit einer höheren Priorität haben, ändert sich dieses Verhalten entsprechend. Das System ruft Rollenpreisdatensätze mit Werten ab, die jedem Preisdimensionswert in der Reihenfolge ihrer Priorität entsprechen. Zeilen mit Nullwerten für diese Dimensionen kommen zuletzt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Beschließen von Kostensätzen in Istwert- und Vorkalkulationszeilen für Ausgaben
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Bestimmen von Kostensätzen in Istwert- und Vorkalkulationszeilen für Ausgaben
 
-Vorkalkulationszeilen für Ausgaben beziehen sich auf die Angebots- und Vertragszeilendetails für Ausgaben- und Ausgabenvorkalkulationszeilen in einem Projekt.
+Geschätzer Kontext für **Ausgaben** bezieht sich auf:
 
-Nachdem eine Kostenpreisliste aufgelöst wurde, verwendet das System eine Kombination aus **Kategorie** und **Einheit** Felder in der Kostenvorkalkulationszeile, die mit den Feldern **Kategorie Preis** Zeilen auf der aufgelösten Preisliste übereinstimmen. Wenn das System eine Kategoriepreiszeile findet, die einen Kostensatz für die Kombination **Kategorie** und **Einheit** hat, ist der Kostensatz standardmäßig festgelegt. Wenn das System nicht mit den Werten **Kategorie** und **Einheit** übereinstimmen kann oder wenn es in der Lage ist, eine passende Kategorie Preislinie zu finden, die Preismethode jedoch nicht **Preis pro Einheit** ist, ist der Kostensatz standardmäßig Null (0).
+- Angebotszeilendetails für **Ausgaben**.
+- Vertragszeilendetails für **Ausgaben**.
+- Ausgabenschätzungen für ein Projekt.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Auflösen von Verkaufsraten für tatsächliche und geschätzte Zeilen für Material
+Tatächlicher für **Ausgaben** bezieht sich auf:
 
-Schätzlinien für Material beziehen sich auf die Angebots- und Vertragszeilendetails für Materialien und die Materialschätzungslinien für ein Projekt.
+- Erfassungs- und Korrekturjournalzeilen für **Ausgabe**.
+- Journalzeilen, die erstellt werden, wenn ein Ausgabeneintrag übermittelt wird.
 
-Nachdem eine Kostenpreisliste aufgelöst wurde, verwendet das System eine Kombination aus **Produkt**- und **Einheit**-Feldern in der Schätzzeile für eine Materialschätzung, die mit **Preislistenelement**-Zeilen auf der aufgelösten Preisliste übereinstimmt. Wenn das System eine Produktpreiszeile findet, die einen Kostensatz für die **Produkt**- und **Einheit**-Feldkombination hat, wird der Standard-Kostensatz voreingestellt. Wenn das System keine Übereinstimmung für **Produkt**- und **Einheit**-Werte finden kann oder wenn es möglich ist, eine passende Preislisten-Artikelzeile zu finden, die Preismethode jedoch auf Standardkosten oder aktuellen Kosten basiert und keine für das Produkt definiert ist, werden die Stückkosten standardmäßig auf null gesetzt.
+Nachdem eine Preisliste für Verkäufe bestimmt wurde, führt das System die folgenden Schritte aus, um den Kostenssatz als Standard festzulegen.
 
+1. Das System stimmt die Felder **Rolle**, **Ressourcenzuordnungsunternehmen** und **Ressourcenzuordnungseinheit** in der Vorkalkulationszeile für Zeit ab, um diese mit den Kategorienpreisen in der aufgelösten Preisliste abzugleichen.
+1. Wenn das System eine Kategoriepreiszeile findet, die einen Kostensatz für die Kombination **Kategorie** und **Einheit** hat, ist der Kostensatz standardmäßig festgelegt.
+1. Wenn das System die Feldwerte **Kategorie** und **Einheit** nicht abgleichen kann, ist der Preis standardmäßig **0** (Null).
+1. Im Schätzungskontext, wenn das System keine übereinstimmende Kategoriepreiszeile finden kann, aber die Preisberechnungsmethode nicht **Preis pro Einheit** ist wird der Kostensatz auf **0** standardmäßig auf Null festgelegt.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Bestimmen von Kostensätzen für tatsächliche und geschätzte Zeilen für Material
+
+Geschätzer Kontext für **Material** bezieht sich auf:
+
+- Angebotszeilendetails für **Material**.
+- Vertragszeilendetails für **Material**.
+- Materialschätzungen für ein Projekt.
+
+Tatächlicherkontext für **Material** bezieht sich auf:
+
+- Erfassungs- und Korrekturjournalzeilen für **Material**.
+- Journalzeilen, die erstellt werden, wenn ein Materialnutzungsprotokoll übermittelt wird.
+
+Nachdem eine Preisliste für Verkäufe bestimmt wurde, führt das System die folgenden Schritte aus, um den Kostenssatz als Standard festzulegen.
+
+1. Das System verwendet die Kombination von Feldern **Produkt** und **Einheit** im Schätzungs- oder Istkontekxt **Material** in Preislistenelementzeilen auf der Preisliste.
+1. Wenn das System eine Preislistenelementzeile hat, die einen Kostensatz für die Kombination **Produkt** und **Einheit** hat, ist der Kostensatz standardmäßig festgelegt.
+1. Wenn das System keine Übereinstimmung für die Werte **Produkt** und **Einheit** hat, ist die Kosteneinheit standardmäßig auf **0** (Null) festgelegt.
+1. Im Schätzungs- oder Istkontext, wenn das System kein übereinstimmendes Preislistenelement finden kann, aber die Preisberechnungsmethode nicht **Währungsbetrag** ist, werden die Einheitskosten standardmäßig auf **0** Null festgelegt. Dieses Verhalten tritt auf, weil Project Operations nur die **Währungsbetrag** Preisfindungsmethode für Materialien untestützt, die in einem Projekt verwendet werden.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348009"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403855"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Was ist neu August 2022 - Project Operations für ressourcenbasierte/nicht vorrätige Szenarien
 
@@ -38,6 +38,11 @@ Wenn beim Starten der Karte ein Problem auftritt, befolgen Sie die Anweisungen i
 | Funktionsbereich | Referenznummer | Qualitätsupdate |
 | --- | --- | --- |
 | Verkaufschancenmanagement | 2762089 | Fehlerbehandlung beim Schließen des Vertrags als verloren, wenn die automatische Speicherung in der Organisation deaktiviert ist.|
+|Projektplanung und -nachverfolgung | 2767841 | Telemetrieaktualisierungsprojekt Entitäts- oder Aktualisierungsszenarien erstellen|
+|Preise und Abrechnung | 2771072 | Nullreferenz-Ausnahmebehandlung beim Gewinnen des Angebots.|
+|Preise und Abrechnung | 2844181 |Fehler beim Abrufen einer Korrelations-ID und Blockieren einer Rechnungserstellung.|
+|Preise und Abrechnung | 2852836 | Intercompany-Ist-Werte fehlen für Intercompany-Ausgaben, die in CE erstellt und genehmigt wurden.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projektmanagement und -buchhaltung in Finance
 
