@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Standardeinstellungen für Projektvertriebs-Preislisten außer Kraft setzen
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Außerkraftsetzungen nach Datum für bestimmte Preise in einer Preisliste einrichten
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Einstandspreise für Vorkalkulationen und tatsächliche Transaktionen bestimmen
               href: pricing-costing/cost-price-resolution.md
             - name: Vertriebspreise für Vorkalkulationen und tatsächliche Transaktionen bestimmen
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Waren und Dienstleistungen für Projekte über Projektbestellungen bestellen
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Kreditorenrechnungen für Unterverträgen in Dataverse
+          items:
+            - name: Kreditorenrechnungen erstellen
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Überprüfung von Zuliefererrechnungen mit genehmigten tatsächlichen Transaktionen
+              href: pro/subcontracting/VI-Verification.md
+            - name: Kreditorenrechnungen des Projekts bestätigen
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Zuliefererbindung
           items:
             - name: Übersicht zur Zuliefererbindung
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Standardeinstellungen für Projektvertriebs-Preislisten außer Kraft setzen
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Außerkraftsetzungen nach Datum für bestimmte Preise in einer Preisliste einrichten
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Einstandspreise für Projektschätzungen und tatsächliche Transaktionen bestimmen
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Vertriebspreise für Projektschätzungen und tatsächliche Transaktionen bestimmen
