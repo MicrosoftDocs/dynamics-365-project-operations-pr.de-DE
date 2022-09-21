@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410148"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475230"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Kostenraten für Projektschätzungen und tatsächliche Transaktionen bestimmen
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Um die Einstandspreise und die Einstandspreisliste für Vorkalkulationen und Istwerte zu bestimmen, verwendet das System die Informationen in den Feldern **Datum**, **Währung** und **Vertragseinheit** des zugehörigen Projekts.
+Um den Kostensatz für Schätzungen und Istwerte in Microsoft Dynamics 365 Project Operations zu bestimmen, verwendet das System zunächst das Datum und die Währung des verknüpften Projektangebots oder -vertrags, um die Einstandspreisliste aufzulösen. Im eigentlichen Kontext verwendet das System das Feld **Transaktionsdatum**, um zu bestimmen, welche Preisliste anwendbar ist. Der Wert **Transaktionsdatum** der eingehenden oder tatsächlichen Schätzung wird mit dem Wert **Effektiver Start (zeitzonenunabhängig)** und dem Wert **Effektives Ende (zeitzonenunabhängig)** auf der Preisliste verglichen. Nachdem die Einstandspreisliste besstimmt wurde, bestimmt das System  den Kostensatz. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Bestimmen von Kostensätzen in Istwert- und Vorkalkulationszeilen für Zeit
 

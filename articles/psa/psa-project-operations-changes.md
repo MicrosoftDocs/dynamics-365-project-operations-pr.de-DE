@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925349"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459925"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Funktionsänderungen von Project Service Automation auf Project Operations
 
 Das Upgrade von Dynamics 365 Project Service Automation zu Dynamics 365 Project Operations Lite wird in drei Phasen ausgeliefert. Dieser Artikel informiert Sie über die wichtigsten Änderungen, die Sie erwarten können, wenn das Upgrade abgeschlossen ist.
 
-| Upgrade-Lieferung | Phase 1 <br>(Januar 2022) | Phase 2 <br>(April-Welle 2022) | Phase 3  |
+| Upgrade-Lieferung | Phase 1 <br>(Januar 2022) | Phase 2 <br>(November 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Keine Abhängigkeit vom Projektstrukturplan (PSP) für Projekte. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Der PSP ist in der derzeit unterstützten Grenzen von Project Operations enthalten. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
