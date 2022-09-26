@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Rückruf zuvor genehmigter Einträge
           href: approvals/recall-cancel.md
+        - name: Sicherheit und Genehmigungen
+          href: approvals/approvals-security.md
         - name: Anmerkungen des Entwicklers
           items:
             - name: Entwickleranmerkungen für Genehmigungen
@@ -558,11 +560,13 @@
           items:
             - name: Übersicht zur Zuliefererbindung
               href: procurement/vendor-retention-overview.md
-            - name: Zuliefereraufbewahrung einrichten
+            - name: Zuliefererbindung einrichten
               href: procurement/set-up-vendor-retention.md
+            - name: Zahlung bei Zahlungsempfang
+              href: procurement/Pay-when-paid.md
     - name: Rechnungsstellung
       items:
-        - name: Rechnungsverarbeitung – Übersicht
+        - name: Übersicht zur Rechnungsverarbeitung
           href: invoicing/post-project-invoices.md
         - name: Proforma-Rechnung
           items:
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Rückruf zuvor genehmigter Einträge
           href: approvals/recall-cancel.md
+        - name: Sicherheit und Genehmigungen
+          href: approvals/approvals-security.md
         - name: Anmerkungen des Entwicklers
           items:
             - name: Entwickleranmerkungen für Genehmigungen
