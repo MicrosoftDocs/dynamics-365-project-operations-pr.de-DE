@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230314"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541123"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Verwenden von Projektplanungs-APIs zur Durchführung von Vorgängen mit Entitäten der Zeitplanung
 
 _**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 
-
-## <a name="scheduling-entities"></a>Planungsentitäten
+**Planungsentitäten**
 
 Projektzeitplan-APIs bieten die Möglichkeit, Vorgänge zum Erstellen, Aktualisieren und Löschen mit **Terminplan-Entitäten** auszuführen. Diese Entitäten werden über das Planungsmodul in Project für das Web verwaltet. Erstellen, Aktualisieren und Löschen von Vorgängen mit **Planungsentitäten** wurden in früheren Version von Dynamics 365 Project Operations eingeschränkt.
 
 Die folgende Tabelle enthält eine vollständige Liste der Projektzeitplan-Entitäten.
 
-| Entitätsname  | Logischer Entitätsname |
-| --- | --- |
-| Project | msdyn_project |
-| Projektaufgabe  | msdyn_projecttask  |
-| Abhängigkeit der Projektaufgaben  | msdyn_projecttaskdependency  |
-| Ressourcenzuweisung | msdyn_resourceassignment |
-| Projekt-Bucket  | msdyn_projectbucket |
-| Projektteammitglied | msdyn_projectteam |
+| **Entitätsname**         | **Logischer Entitätsname**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projektaufgabe            | msdyn_projecttask           |
+| Abhängigkeit der Projektaufgaben | msdyn_projecttaskdependency |
+| Ressourcenzuweisung     | msdyn_resourceassignment    |
+| Projekt-Bucket          | msdyn_projectbucket         |
+| Projektteammitglied     | msdyn_projectteam           |
+| Projektprüflisten      | msdyn_projectchecklist      |
+| Projektbeschriftung           | msdyn_projectlabel          |
+| Zu beschriftende Projektaufgabe   | msdyn_projecttasktolabel    |
+| Projektsprint          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet ist ein Arbeitseinheitsmuster, das verwendet werden kann, wenn innerhalb einer Transaktion mehrere zeitplanbezogene Anforderungen verarbeitet werden müssen.
 
-## <a name="project-schedule-apis"></a>Projektzeitplan-APIs
+**Projektzeitplan-APIs**
 
 Im Folgenden finden Sie eine Liste der aktuellen Projektzeitplan-APIs.
 
-- **msdyn_CreateProjectV1**: Mit dieser API kann ein Projekt erstellt werden. Das Projekt und der Standardprojekt-Bucket werden sofort erstellt.
-- **msdyn_CreateTeamMemberV1**: Mit dieser API kann ein Projektteammitglied erstellt werden. Der Teammitgliedsdatensatz wird sofort erstellt.
-- **msdyn_CreateOperationSetV1**: Mit dieser API können mehrere Anforderungen geplant werden, die innerhalb einer Transaktion ausgeführt werden müssen.
-- **msdyn_PssCreateV1**: Mit dieser API kann eine Entität erstellt werden. Die Entität kann eine der Projektplanungs-Entitäten sein, die den Vorgang des Erstellens unterstützen.
-- **msdyn_PssUpdateV1**: Mit dieser API kann eine Entität aktualisiert werden. Die Entität kann eine beliebige Projektplanungs-Entität sein, die den Vorgang „Aktualisieren“ unterstützt.
-- **msdyn_PssDeleteV1**: Mit dieser API kann eine Entität gelöscht werden. Die Entität kann eine beliebige Projektplanungs-Entität sein, die den Vorgang „Löschen“ unterstützt.
-- **msdyn_ExecuteOperationSetV1**: Diese API wird verwendet, um alle Operationen innerhalb des angegebenen Operationssatzes auszuführen.
+| **API**                                 | Beschreibung des Dataflows                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Diese API wird verwendet, um ein Projekt zu erstellen. Das Projekt und der Standardprojekt-Bucket werden sofort erstellt.                         |
+| **msdyn_CreateTeamMemberV1**            | Diese API wird verwendet, um ein Teammitglied zu erstellen. Der Teammitgliedsdatensatz wird sofort erstellt.                                  |
+| **msdyn_CreateOperationSetV1**          | Mit dieser API können mehrere Anforderungen geplant werden, die innerhalb einer Transaktion ausgeführt werden müssen.                                        |
+| **msdyn_PssCreateV1**                   | Diese API wird verwendet, um eine Entität zu erstellen. Die Entität kann eine der Projektplanungs-Entitäten sein, die den Vorgang des Erstellens unterstützen. |
+| **msdyn_PssUpdateV1**                   | Diese API wird verwendet, um eine Entität zu aktualisieren. Die Entität kann eine von den Projektplanungsentitäten sein, die den Aktualisierungsvorgang unterstützen  |
+| **msdyn_PssDeleteV1**                   | Diese API wird verwendet, um eine Entität zu löschen. Die Entität kann eine beliebige Projektplanungs-Entität sein, die den Vorgang „Löschen“ unterstützt. |
+| **msdyn_ExecuteOperationSetV1**         | Diese API wird verwendet, um alle Operationen innerhalb des angegebenen Operationssatzes auszuführen.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Diese API wird verwendet, um eine geplante Arbeitskontur der Ressourcenzuweisung zu aktualisieren.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Verwenden von Projektzeitplan-APIs mit OperationSet
+
+
+**Verwenden von Projektzeitplan-APIs mit OperationSet**
 
 Weil Aufzeichnungen sowohl mit **CreateProjectV1** als auch **CreateTeamMemberV1** sofort erstellt werden, können diese APIs nicht direkt im **OperationSet** verwendet werden. Sie können jedoch die API verwenden, um die erforderlichen Datensätze zu erstellen, ein **OperationSet** zu erstellen und dann diese vorab erstellten Datensätze im **OperationSet** zu verwenden.
 
-## <a name="supported-operations"></a>Unterstützte Vorgänge
+**Unterstützte Vorgänge**
 
-| Planungsentität | Erstellen | Aktualisieren | Delete | Wichtige Überlegungen |
-| --- | --- | --- | --- | --- |
-Projektaufgabe | Ja | Ja | Ja | Die Felder **Fortschritt**, **EffortCompleted** und **EffortRemaining** können in Project for the Web bearbeitet werden, aber sie können nicht in Project Operations bearbeitet werden.  |
-| Abhängigkeit der Projektaufgaben | Ja |  | Ja | Abhängigkeitsdatensätze für Projektaufgaben werden nicht aktualisiert. Stattdessen kann ein alter Datensatz gelöscht und ein neuer Datensatz erstellt werden. |
-| Ressourcenzuweisung | Ja | Ja | | Vorgänge mit den folgenden Feldern werden nicht unterstützt: **BookableResourceID**, **Aufwand**, **EffortCompleted**, **EffortRemaining** und **PlannedWork**. Ressourcenzuweisungsdatensätze werden nicht aktualisiert. Stattdessen kann der alte Datensatz gelöscht und ein neuer Datensatz erstellt werden. |
-| Projekt-Bucket | Ja | Ja | Ja | Der Standard-Bucket wird mithilfe der **CreateProjectV1**-API erstellt. Unterstützung für das Erstellen und Löschen von Projekt-Buckets wurde in Update Release 16 hinzugefügt. |
-| Projektteammitglied | Ja | Ja | Ja | Verwenden Sie für den Erstellungsvorgang die **CreateTeamMemberV1**-API. |
-| Project | Ja | Ja |  | Vorgänge mit den folgenden Feldern werden nicht unterstützt: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Aufwand**, **EffortCompleted**, **EffortRemaining**, **Fortschritt**, **Fertigstellen**, **TaskEarliestStart** und **Dauer**. |
+| **Planungsentität**   | **Erstellen** | **Update** | **Delete** | **Wichtige Überlegungen**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projektaufgabe            | Ja        | Ja        | Ja        | Die Felder **Fortschritt**, **EffortCompleted** und **EffortRemaining** können in Project for the Web bearbeitet werden, aber sie können nicht in Project Operations bearbeitet werden.                                                                                                                                                                                             |
+| Abhängigkeit der Projektaufgaben | Ja        | Nr.         | Ja        | Abhängigkeitsdatensätze für Projektaufgaben werden nicht aktualisiert. Stattdessen kann ein alter Datensatz gelöscht und ein neuer Datensatz erstellt werden.                                                                                                                                                                                                                                 |
+| Ressourcenzuweisung     | Ja        | Ja\*      | Ja        | Vorgänge mit den folgenden Feldern werden nicht unterstützt: **BookableResourceID**, **Aufwand**, **EffortCompleted**, **EffortRemaining** und **PlannedWork**. Ressourcenzuweisungsdatensätze werden nicht aktualisiert. Stattdessen kann der alte Datensatz gelöscht und ein neuer Datensatz erstellt werden. Eine separate API wurde bereitgestellt, um die Konturen der Ressourcenzuweisung zu aktualisieren. |
+| Projekt-Bucket          | Ja        | Ja        | Ja        | Der Standard-Bucket wird mithilfe der **CreateProjectV1**-API erstellt. Unterstützung für das Erstellen und Löschen von Projekt-Buckets wurde in Update Release 16 hinzugefügt.                                                                                                                                                                                                   |
+| Projektteammitglied     | Ja        | Ja        | Ja        | Verwenden Sie für den Erstellungsvorgang die **CreateTeamMemberV1**-API.                                                                                                                                                                                                                                                                                           |
+| Project                 | Ja        | Ja        |            | Vorgänge mit den folgenden Feldern werden nicht unterstützt: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Aufwand**, **EffortCompleted**, **EffortRemaining**, **Fortschritt**, **Fertigstellen**, **TaskEarliestStart** und **Dauer**.                                                                                       |
+| Projektprüflisten      | Ja        | Ja        | Ja        |                                                                                                                                                                                                                                                                                                                                                         |
+| Projektbeschriftung           | Nr.         | Ja        | Nr.         | Etikettennamen können geändert werden. Diese Funktion ist nur für Project for the Web verfügbar.                                                                                                                                                                                                                                                                      |
+| Zu beschriftende Projektaufgabe   | Ja        | Nr.         | Ja        | Diese Funktion ist nur für Project for the Web verfügbar.                                                                                                                                                                                                                                                                                                  |
+| Projektsprint          | Ja        | Ja        | Ja        | Das **Start**-Feld muss ein Datum vor dem **Fertig**-Feld haben. Sprints für dasselbe Projekt dürfen sich nicht überschneiden. Diese Funktion ist nur für Project for the Web verfügbar.                                                                                                                                                                    |
 
-Diese APIs können mit Entitätsobjekten aufgerufen werden, die benutzerdefinierte Felder enthalten.
+
+
 
 Diese ID-Eigenschaft ist optional. Wenn sie bereitgestellt wird, versucht das System, sie zu verwenden, und löst eine Ausnahme aus, wenn sie nicht verwendet werden kann. Wenn sie nicht bereitgestellt wird, generiert das System sie.
 
-## <a name="restricted-fields"></a>Eingeschränkte Felder
+**Einschränkungen und bekannte Probleme**
 
-In den folgenden Tabellen werden die Felder definiert, für die **Erstellen** und **Bearbeiten** eingeschränkt ist.
-
-### <a name="project-task"></a>Projektaufgabe
-
-| Logischer Name                           | Kan erstellen     | Kann bearbeiten:         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | Nr.             | Nr.               |
-| msdyn_actualcost_base                  | Nr.             | Nr.               |
-| msdyn_actualend                        | Nr.             | Nr.               |
-| msdyn_actualsales                      | Nr.             | Nr.               |
-| msdyn_actualsales_base                 | Nr.             | Nr.               |
-| msdyn_actualstart                      | Nr.             | Nr.               |
-| msdyn_costatcompleteestimate           | Nr.             | Nr.               |
-| msdyn_costatcompleteestimate_base      | Nr.             | Nr.               |
-| msdyn_costconsumptionpercentage        | Nr.             | Nr.               |
-| msdyn_effortcompleted                  | Nein (Ja für Projekt)             | Nein (Ja für Projekt)               |
-| msdyn_effortremaining                  | Nein (Ja für Projekt)              | Nein (Ja für Projekt)                |
-| msdyn_effortestimateatcomplete         | Nr.             | Nr.               |
-| msdyn_iscritical                       | Nr.             | Nr.               |
-| msdyn_iscriticalname                   | Nr.             | Nr.               |
-| msdyn_ismanual                         | Nr.             | Nr.               |
-| msdyn_ismanualname                     | Nr.             | Nr.               |
-| msdyn_ismilestone                      | Nr.             | Nr.               |
-| msdyn_ismilestonename                  | Nr.             | Nr.               |
-| msdyn_LinkStatus                       | Nr.             | Nr.               |
-| msdyn_linkstatusname                   | Nr.             | Nr.               |
-| msdyn_msprojectclientid                | Nr.             | Nr.               |
-| msdyn_plannedcost                      | Nr.             | Nr.               |
-| msdyn_plannedcost_base                 | Nr.             | Nr.               |
-| msdyn_plannedsales                     | Nr.             | Nr.               |
-| msdyn_plannedsales_base                | Nr.             | Nr.               |
-| msdyn_pluginprocessingdata             | Nr.             | Nr.               |
-| msdyn_progress                         | Nein (Ja für Projekt)             | Nein (Ja für Projekt) |
-| msdyn_remainingcost                    | Nr.             | Nr.               |
-| msdyn_remainingcost_base               | Nr.             | Nr.               |
-| msdyn_remainingsales                   | Nr.             | Nr.               |
-| msdyn_remainingsales_base              | Nr.             | Nr.               |
-| msdyn_requestedhours                   | Nr.             | Nr.               |
-| msdyn_resourcecategory                 | Nr.             | Nr.               |
-| msdyn_resourcecategoryname             | Nr.             | Nr.               |
-| msdyn_resourceorganizationalunitid     | Nr.             | Nr.               |
-| msdyn_resourceorganizationalunitidname | Nr.             | Nr.               |
-| msdyn_salesconsumptionpercentage       | Nr.             | Nr.               |
-| msdyn_salesestimateatcomplete          | Nr.             | Nr.               |
-| msdyn_salesestimateatcomplete_base     | Nr.             | Nr.               |
-| msdyn_salesvariance                    | Nr.             | Nr.               |
-| msdyn_salesvariance_base               | Nr.             | Nr.               |
-| msdyn_scheduleddurationminutes         | Nr.             | Nr.               |
-| msdyn_scheduledend                     | Nr.             | Nr.               |
-| msdyn_scheduledstart                   | Nr.             | Nr.               |
-| msdyn_schedulevariance                 | Nr.             | Nr.               |
-| msdyn_skipupdateestimateline           | Nr.             | Nr.               |
-| msdyn_skipupdateestimatelinename       | Nr.             | Nr.               |
-| msdyn_summary                          | Nr.             | Nr.               |
-| msdyn_varianceofcost                   | Nr.             | Nr.               |
-| msdyn_varianceofcost_base              | Nr.             | Nr.               |
-
-### <a name="project-task-dependency"></a>Abhängigkeit der Projektaufgaben
-
-| Logischer Name                  | Kan erstellen     | Kann bearbeiten:     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | Nr.             | Nr.           |
-| msdyn_linktypename            | Nr.             | Nr.           |
-| msdyn_predecessortask         | Ja            | Nr.           |
-| msdyn_predecessortaskname     | Ja            | Nr.           |
-| msdyn_project                 | Ja            | Nr.           |
-| msdyn_projectname             | Ja            | Nr.           |
-| msdyn_projecttaskdependencyid | Ja            | Nr.           |
-| msdyn_successortask           | Ja            | Nr.           |
-| msdyn_successortaskname       | Ja            | Nr.           |
-
-### <a name="resource-assignment"></a>Ressourcenzuweisung
-
-| Logischer Name                 | Kan erstellen     | Kann bearbeiten:     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Ja            | Nr.           |
-| msdyn_bookableresourceidname | Ja            | Nr.           |
-| msdyn_bookingstatusid        | Nr.             | Nr.           |
-| msdyn_bookingstatusidname    | Nr.             | Nr.           |
-| msdyn_committype             | Nr.             | Nr.           |
-| msdyn_committypename         | Nr.             | Nr.           |
-| msdyn_effort                 | Nr.             | Nr.           |
-| msdyn_effortcompleted        | Nr.             | Nr.           |
-| msdyn_effortremaining        | Nr.             | Nr.           |
-| msdyn_finish                 | Nr.             | Nr.           |
-| msdyn_plannedcost            | Nr.             | Nr.           |
-| msdyn_plannedcost_base       | Nr.             | Nr.           |
-| msdyn_plannedcostcontour     | Nr.             | Nr.           |
-| msdyn_plannedsales           | Nr.             | Nr.           |
-| msdyn_plannedsales_base      | Nr.             | Nr.           |
-| msdyn_plannedsalescontour    | Nr.             | Nr.           |
-| msdyn_plannedwork            | Nr.             | Nr.           |
-| msdyn_projectid              | Ja            | Nr.           |
-| msdyn_projectidname          | Nr.             | Nr.           |
-| msdyn_projectteamid          | Nr.             | Nr.           |
-| msdyn_projectteamidname      | Nr.             | Nr.           |
-| msdyn_start                  | Nr.             | Nr.           |
-| msdyn_taskid                 | Nr.             | Nr.           |
-| msdyn_taskidname             | Nr.             | Nr.           |
-| msdyn_userresourceid         | Nr.             | Nr.           |
-
-### <a name="project-team-member"></a>Projektteammitglied
-
-| Logischer Name                                     | Kan erstellen     | Kann bearbeiten:     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | Nr.             | Nr.           |
-| msdyn_creategenericteammemberwithrequirementname | Nr.             | Nr.           |
-| msdyn_deletestatus                               | Nr.             | Nr.           |
-| msdyn_deletestatusname                           | Nr.             | Nr.           |
-| msdyn_effort                                     | Nr.             | Nr.           |
-| msdyn_effortcompleted                            | Nr.             | Nr.           |
-| msdyn_effortremaining                            | Nr.             | Nr.           |
-| msdyn_finish                                     | Nr.             | Nr.           |
-| msdyn_hardbookedhours                            | Nr.             | Nr.           |
-| msdyn_hours                                      | Nr.             | Nr.           |
-| msdyn_markedfordeletiontimer                     | Nr.             | Nr.           |
-| msdyn_markedfordeletiontimestamp                 | Nr.             | Nr.           |
-| msdyn_msprojectclientid                          | Nr.             | Nr.           |
-| msdyn_percentage                                 | Nr.             | Nr.           |
-| msdyn_requiredhours                              | Nr.             | Nr.           |
-| msdyn_softbookedhours                            | Nr.             | Nr.           |
-| msdyn_start                                      | Nr.             | Nr.           |
-
-### <a name="project"></a>Project
-
-| Logischer Name                           | Kan erstellen     | Kann bearbeiten:     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | Nr.             | Nr.           |
-| msdyn_actualexpensecost_base           | Nr.             | Nr.           |
-| msdyn_actuallaborcost                  | Nr.             | Nr.           |
-| msdyn_actuallaborcost_base             | Nr.             | Nr.           |
-| msdyn_actualsales                      | Nr.             | Nr.           |
-| msdyn_actualsales_base                 | Nr.             | Nr.           |
-| msdyn_contractlineproject              | Ja            | Nr.           |
-| msdyn_contractorganizationalunitid     | Ja            | Nr.           |
-| msdyn_contractorganizationalunitidname | Ja            | Nr.           |
-| msdyn_costconsumption                  | Nr.             | Nr.           |
-| msdyn_costestimateatcomplete           | Nr.             | Nr.           |
-| msdyn_costestimateatcomplete_base      | Nr.             | Nr.           |
-| msdyn_costvariance                     | Nr.             | Nr.           |
-| msdyn_costvariance_base                | Nr.             | Nr.           |
-| msdyn_duration                         | Nr.             | Nr.           |
-| msdyn_effort                           | Nr.             | Nr.           |
-| msdyn_effortcompleted                  | Nr.             | Nr.           |
-| msdyn_effortestimateatcompleteeac      | Nr.             | Nr.           |
-| msdyn_effortremaining                  | Nr.             | Nr.           |
-| msdyn_finish                           | Ja            | Ja          |
-| msdyn_globalrevisiontoken              | Nr.             | Nr.           |
-| msdyn_islinkedtomsprojectclient        | Nr.             | Nr.           |
-| msdyn_islinkedtomsprojectclientname    | Nr.             | Nr.           |
-| msdyn_linkeddocumenturl                | Nr.             | Nr.           |
-| msdyn_msprojectdocument                | Nr.             | Nr.           |
-| msdyn_msprojectdocumentname            | Nr.             | Nr.           |
-| msdyn_plannedexpensecost               | Nr.             | Nr.           |
-| msdyn_plannedexpensecost_base          | Nr.             | Nr.           |
-| msdyn_plannedlaborcost                 | Nr.             | Nr.           |
-| msdyn_plannedlaborcost_base            | Nr.             | Nr.           |
-| msdyn_plannedsales                     | Nr.             | Nr.           |
-| msdyn_plannedsales_base                | Nr.             | Nr.           |
-| msdyn_progress                         | Nr.             | Nr.           |
-| msdyn_remainingcost                    | Nr.             | Nr.           |
-| msdyn_remainingcost_base               | Nr.             | Nr.           |
-| msdyn_remainingsales                   | Nr.             | Nr.           |
-| msdyn_remainingsales_base              | Nr.             | Nr.           |
-| msdyn_replaylogheader                  | Nr.             | Nr.           |
-| msdyn_salesconsumption                 | Nr.             | Nr.           |
-| msdyn_salesestimateatcompleteeac       | Nr.             | Nr.           |
-| msdyn_salesestimateatcompleteeac_base  | Nr.             | Nr.           |
-| msdyn_salesvariance                    | Nr.             | Nr.           |
-| msdyn_salesvariance_base               | Nr.             | Nr.           |
-| msdyn_scheduleperformance              | Nr.             | Nr.           |
-| msdyn_scheduleperformancename          | Nr.             | Nr.           |
-| msdyn_schedulevariance                 | Nr.             | Nr.           |
-| msdyn_taskearlieststart                | Nr.             | Nr.           |
-| msdyn_teamsize                         | Nr.             | Nr.           |
-| msdyn_teamsize_date                    | Nr.             | Nr.           |
-| msdyn_teamsize_state                   | Nr.             | Nr.           |
-| msdyn_totalactualcost                  | Nr.             | Nr.           |
-| msdyn_totalactualcost_base             | Nr.             | Nr.           |
-| msdyn_totalplannedcost                 | Nr.             | Nr.           |
-| msdyn_totalplannedcost_base            | Nr.             | Nr.           |
-
-### <a name="project-bucket"></a>Projekt-Bucket
-
-| Logischer Name          | Kan erstellen      | Kann bearbeiten:     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Ja             | Nr.           |
-| msdyn_name            | Ja             | Ja          |
-| msdyn_project         | Ja             | Nr.           |
-| msdyn_projectbucketid | Ja             | Nr.           |
-
-## <a name="limitations-and-known-issues"></a>Einschränkungen und bekannte Probleme
 Das Folgende ist eine Liste von Einschränkungen und bekannten Problemen:
 
-- Project Schedule APIs können nur von **Benutzern mit Microsoft Project-Lizenz verwendet werden**. Sie können nicht verwendet werden von:
+-   Project Schedule APIs können nur von **Benutzern mit Microsoft Project-Lizenz verwendet werden**. Sie können nicht verwendet werden von:
+    -   Anwendungsbenutzer
+    -   Systembenutzern
+    -   Integrationsbenutzern
+    -   Andere Benutzer, die nicht über die erforderliche Lizenz verfügen
+-   Jeder **OperationSet** kann nur maximal 100 Operationen haben.
+-   Jeder Benutzer kann nur maximal 10 offene **OperationSets** haben.
+-   Project Operations unterstützt derzeit maximal 500 Gesamtaufgaben für ein Projekt.
+-   Jeder Vorgang zum Aktualisieren der Ressourcenzuweisungskontur zählt als ein einzelner Vorgang.
+-   Jede Liste aktualisierter Konturen kann maximal 100 Zeitscheiben enthalten.
+-   **OperationSet**-Fehlerstatus und -Fehlerprotokolle sind derzeit nicht verfügbar.
+-   Es gibt maximal 400 Sprints pro Projekt.
+-   [Grenzwerte und Beschränkungen von Projekten und Aufgaben](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Beschriftungen sind derzeit nur für Project for the Web verfügbar.
 
-    - Anwendungsbenutzer
-    - Systembenutzern
-    - Integrationsbenutzern
-    - Andere Benutzer, die nicht über die erforderliche Lizenz verfügen
+**Fehlerbehandlung**
 
-- Jeder **OperationSet** kann nur maximal 100 Operationen haben.
-- Jeder Benutzer kann nur maximal 10 offene **OperationSets** haben.
-- Project Operations unterstützt derzeit maximal 500 Gesamtaufgaben für ein Projekt.
-- **OperationSet**-Fehlerstatus und -Fehlerprotokolle sind derzeit nicht verfügbar.
-- [Grenzwerte und Beschränkungen von Projekten und Aufgaben](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Um die aus den Operations-Sätzen generierten Fehler zu überprüfen, gehen Sie zu **Einstellungen** \> **Integration planen** \> **Operationssätze**.
+-   Um vom Project Schedule Service generierte Fehler zu überprüfen, gehen Sie auf **Einstellungen** \> **Planungsintegration** \> **PSS Fehlerprotokolle**.
 
-## <a name="error-handling"></a>Fehlerbehandlung
+**Bearbeiten der Konturen der Ressourcenzuweisung**
 
-- Um die aus den Operations-Sätzen generierten Fehler zu überprüfen, gehen Sie zu **Einstellungen** \> **Integration planen** \> **Operationssätze**.
-- Um vom Project Schedule Service generierte Fehler zu überprüfen, gehen Sie auf **Einstellungen** \> **Planungsintegration** \> **PSS Fehlerprotokolle**.
+Im Gegensatz zu allen anderen Projektplanungs-APIs, die eine Entität aktualisieren, ist die Ressourcenzuweisungskontur-API ausschließlich für Aktualisierungen eines einzelnen Felds, msdyn_plannedwork, auf einer einzelnen Entität, msydn_resourceassignment, verantwortlich.
 
-## <a name="sample-scenario"></a>Beispielszenario
+Der gegebene Zeitplanmodus ist:
+
+-   **Feste Einheiten**
+-   Projektkalender: 9-17 Uhr, Mo, Di, Do, Freitag (MITTWOCH KEINE ARBEIT)
+-   Und Ressourcenkalender ist 9-13:00 Uhr PST Mo bis Fr
+
+Diese Aufgabe dauert eine Woche, vier Stunden pro Tag. Dies liegt daran, dass der Ressourcenkalender von 9-13:00 Uhr PST oder vier Stunden pro Tag ist.
+
+| &nbsp;     | Task | Startdatum | Enddatum  | Menge | 13.6.2022 | 14.6.2022 | 15.6.2022 | 16.6.2022 | 17.6.2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 Arbeitskraft |  T1  | 13.6.2022  | 17.6.2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Wenn Sie beispielsweise möchten, dass die Arbeitskraft diese Woche nur drei Stunden pro Tag arbeitet und eine Stunde für andere Aufgaben einplanen soll.
+
+#### <a name="updatedcontours-sample-payload"></a>Wählen Sie die UpdatedContours-Beispiel-Nutzlast aus.
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Dies ist die Zuweisung, nachdem die Update Contour Schedule API ausgeführt wurde.
+
+| &nbsp;     | Task | Startdatum | Enddatum  | Menge | 13.6.2022 | 14.6.2022 | 15.6.2022 | 16.6.2022 | 17.6.2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 Arbeitskraft | T1   | 13.6.2022  | 17.6.2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Beispielszenario**
 
 In diesem Szenario erstellen Sie ein Projekt, ein Teammitglied, vier Aufgaben und zwei Ressourcenzuweisungen. Als Nächstes aktualisieren Sie eine Aufgabe, aktualisieren das Projekt, löschen eine Aufgabe, löschen eine Ressourcenzuweisung und erstellen eine Aufgabenabhängigkeit.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Zusätzliche Beispiele
+** Zusätzliche Beispiele
 
 ```csharp
 #region Call actions --- Sample code ----

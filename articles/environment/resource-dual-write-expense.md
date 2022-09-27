@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029208"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527986"
 ---
 # <a name="expense-management-integration"></a>Ausgabenverwaltungsintegration
 
@@ -34,7 +34,7 @@ Ausgabenkategorien in Finanz- und Betriebs-Apps sind spezifisch für das Unterne
 
 ## <a name="expense-reports"></a>Ausgabenberichte
 
-Spesenabrechnungen werden in Finanz- und Betriebs-Apps erstellt und genehmigt. Weitere Informationen finden Sie unter [Erstellen und Verarbeiten der Spesenabrechnungen in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Nachdem die Spesenabrechnung vom Projektmanager genehmigt wurde, wird sie in die Finanzbuchhaltung gebucht. In Project Operations werden projektbezogene Ausgabeberichtszeilen nach speziellen Buchungsregeln gebucht:
+Spesenabrechnungen werden in Finanz- und Betriebs-Apps erstellt und genehmigt. Weitere Informationen finden Sie unter [Erstellen und Verarbeiten der Spesenabrechnungen in Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Nachdem die Spesenabrechnung vom Projektmanager genehmigt wurde, wird sie in die Finanzbuchhaltung gebucht. In Project Operations werden projektbezogene Ausgabeberichtszeilen nach speziellen Buchungsregeln gebucht:
 
   - Projektbezogene Kosten (einschließlich nicht erstattungsfähiger Steuern) werden nicht sofort in der Finanzbuchhaltung auf das Projektkostenkonto gebucht, sondern auf das Kostenintegrationskonto. Dieses Konto wird in **Projektmanagement und Buchhaltung** > **Einrichten** > **Projektmanagement- und Buchhaltungsparameter** auf der Registerkarte **Project Operations in Dynamics 365 Customer Engagement** konfiguriert.
   - Dual-Write synchronisiert mit Dataverse mithilfe der Tabellenzuordnung **Project Operations-Integration Projektkosten-Exportentität (msdyn\_expenses)**.

@@ -2,20 +2,20 @@
 title: Besetzung eines Projekts mit Vertragsmitarbeitern und Fremdarbeitskapazität
 description: Dieser Artikel erklärt, wie Sie in Microsoft Dynamics 365 Project Operations Projektanforderungen mit Hilfe von Vertragskräften oder Subunternehmern erfüllen können.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261253"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522434"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Besetzung eines Projekts mit Vertragsmitarbeitern und Fremdarbeitskapazität
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Generische Projektteammitglieder können mit Angestellten oder Vertragsmitarbeitern besetzt werden. Wenn Sie ein Projekt mit Vertragsarbeitern besetzen, können Sie Ihre Besetzungsoptionen auf bestimmte Vertragsarbeiter beschränken, die einer Fremdarbeitsposition zugeordnet sind. 
 

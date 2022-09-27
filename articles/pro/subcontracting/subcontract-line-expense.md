@@ -2,20 +2,20 @@
 title: Fremdarbeitspositionen für Ausgabenkategorien
 description: Dieser Artikel erklärt, wie Sie Zeilen für Unteraufträge als Aufwand erfassen und die Felder verwenden, um den Kauf von Zeit von Lieferanten zu erfassen.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261839"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522606"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Fremdarbeitspositionen für Ausgabenkategorien
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Eine Fremdarbeit in Dynamics 365 Project Operations kann eine Position für Ausgabenkategorien haben. Fremdarbeitspositionen für Ausgabenkategorien ermöglichen es einem Projektmanager, Kategorien von Dienstleistungen oder Produkten von Lieferanten zu kaufen, die er einem Projekt in Rechnung stellen kann.
 

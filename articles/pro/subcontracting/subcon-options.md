@@ -2,20 +2,20 @@
 title: Fremdarbeitsoptionen für Projektteammitglieder
 description: Dieser Artikel erklärt die Optionen für die Vergabe von Unteraufträgen an Projektmitarbeiter in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261605"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522277"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Fremdarbeitsoptionen für Projektteammitglieder
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Bei Microsoft Dynamics 365 Project Operations können Sie die verfügbaren Fremdarbeitsoptionen für ein oder mehrere Projektteammitglieder bewerten. Die verfügbaren Fremdarbeitsoptionen bieten die folgenden Möglichkeiten:
 

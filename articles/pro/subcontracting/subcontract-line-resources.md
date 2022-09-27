@@ -2,20 +2,20 @@
 title: Ressourcen für Fremdarbeitsposition
 description: Dieser Artikel erklärt, wie Sie die dedizierten Ressourcen festlegen, die der Lieferant für eine bestimmte Zeile eines Unterauftrags auf Zeit bereitstellt.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261463"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522371"
 ---
 # <a name="subcontract-line-resources"></a>Ressourcen für Fremdarbeitsposition
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 In Dynamics 365 Project Operations kann ein Lieferant Ressourcen angeben, die verwendet werden, um die Ressourcenkapazität zu liefern, die auf der Fremdarbeitsposition auf Zeit gekauft wird.
 

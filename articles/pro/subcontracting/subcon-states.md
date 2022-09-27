@@ -2,20 +2,20 @@
 title: Statusübergänge bei Fremdarbeit
 description: Dieser Artikel erklärt die Statusübergänge eines Untervertrags in Microsoft Dynamics 365 Project Operations, wenn der Untervertrag erstellt, ausgeführt und geschlossen wird.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261195"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522888"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Statusübergänge bei Fremdarbeit 
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Dieser Artikel erklärt die Statusübergänge eines Untervertrags in Microsoft Dynamics 365 Project Operations. Jeder Status wird entweder als Entwurf, bestätigt, geschlossen oder storniert dargestellt. Das folgende Bild stellt die Statusübergänge dar.
 

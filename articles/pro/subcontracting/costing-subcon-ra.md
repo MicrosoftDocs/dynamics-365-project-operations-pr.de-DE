@@ -2,20 +2,20 @@
 title: Kostenschätzung von Fremdarbeitsressourcenzuweisungen
 description: Dieser Artikel erklärt, wie Microsoft Dynamics 365 Project Operations die Kalkulation der Kosten für die Zuweisung von Ressourcen an Subunternehmer berechnet.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262058"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522653"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Kostenschätzung von Fremdarbeitsressourcenzuweisungen
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 Aufgabenzuweisungen von Fremdarbeit-Projektteammitgliedern werden anhand der Preisliste **Kauf** kalkuliert, die der Fremdarbeit im entsprechenden Teammitgliedsdatensatz beigefügt ist. Dies unterscheidet sich von der Kalkulation von Mitarbeiterressourcenzuweisungen, bei denen Aufgabenzuweisungen von Mitarbeiterressourcen mithilfe der Preisliste **Kosten** kalkuliert werden, die der Vertragseinheit des Projekts beigefügt ist. 
 

@@ -2,16 +2,16 @@
 title: Integrationsjournal in Project Operations
 description: Dieser Artikel informiert Sie über die Arbeit mit dem Erfassungsjournal Integration in Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106274"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541076"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integrationsjournal in Project Operations
 
@@ -65,6 +65,12 @@ Die Buchung kann interaktiv oder im Batch erfolgen. Beachten Sie, dass alle Jour
 > [!NOTE]
 > Um diese Funktion zu nutzen, aktivieren Sie das Feature **Alle Zeilen mit Buchungsfehlern in ein neues Project Operations-Integrationsjournal übertragen** im Arbeitsbereich **Feature-Verwaltung**.
 
-Während der Buchung in das Integrationsjournals für Project Operations validiert das System jede Position im Journal. Das System bucht alle fehlerfreien Positionen und erstellt ein neues Journal für alle Positionen mit Buchungsfehlern. Um die Journale mit Buchungsfehlerpositionen zu überprüfen, rufen Sie **Projektmanagement und -buchhaltung** > **Journal** > **Project Operations-Integrationsjournal** auf und filtern Sie die Journale mithilfe des Felds **Ursprüngliches Journal**.
+Diese Funktion trägt dazu bei, die Erfahrung mit dem Project Operations-Integrationsjournal zu verbessern. Wenn es aktiviert ist, verhindern Zeitprobleme beim doppelten Schreiben und Einrichtungsprobleme nicht mehr, dass gültige Journale gebucht werden. Während der Buchung in das Integrationsjournals für Project Operations validiert das System jede Position im Journal. Es bucht alle fehlerfreien Zeilen und erstellt ein neues Journal für alle Zeilen mit Buchungsfehlern.
+
+Um die Erfassungen mit Buchungsfehlerzeilen zu überprüfen, gehen Sie zu **Projektmanagement und Buchhaltung** \> **Erfassungen** \> **Project Operations-Integrationsjournal**, und filtern Sie die Liste der Zeitschriften mithilfe des Feld **Ursprüngliche Erfassung**. Die folgende Abbildung zeigt ein Beispiel, bei dem die Zeitschriften auf der **Project Operations-Integrationsjournal**-Seite auf diese Weise gefiltert wurden.
+
+![Ursprüngliche Erfassung, die auf der Seite des Integrationsjournals von Project Operations angezeigt wird.](./media/transferLines-originalJournal.png)
+
+Wenn ein regelmäßiger Batch-Job zum Buchen des Integrationsjournals konfiguriert ist, wird das Buchen erneut versucht, und die Journale werden gebucht, wenn das Zeitproblem behoben wurde. Alle verbleibenden Journale sollten manuell untersucht werden, indem die Protokolle überprüft und alle erforderlichen Maßnahmen ergriffen werden.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Spesenabrechnungen buchen
 description: Dieser Artikel erklärt, wie Sie Spesenabrechnungen buchen können.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934503"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524868"
 ---
 # <a name="post-expense-reports"></a>Spesenabrechnungen buchen
 
@@ -30,5 +30,15 @@ Um eine Spesenabrechnung zu erstellen, wählen Sie auf der Seite **Genehmigte Sp
 
 Sie können auch alle Spesenabrechnungen gleichzeitig in der Liste buchen. Wählen Sie alle Spesenabrechnungen und dann **Buchen** aus.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Aktivieren Sie die Funktion Möglichkeit, Spesenverbindlichkeiten in Kreditorenwährung für Barzahlungsmethoden zu buchen
+
+Die Funktion **Möglichkeit, Spesenverbindlichkeiten in Kreditorenwährung für Barzahlungsmethoden zu buchen** ermöglicht die Buchung von Spesenabrechnungen in einer Kreditorenwährung für die Barzahlungsmethode.
+
+Wenn Sie Barauslagen einreichen, werden Spesenabrechnungen derzeit in der Buchhaltungswährung gebucht. Aufgrund der Betragsumrechnung zwischen Transaktionswährung, Buchhaltungswährung und Kreditorenwährung wird ein falscher Betrag an Kreditoren gezahlt, wenn das Transaktionsdatum der Ausgabe und das tatsächliche Zahlungsdatum unterschiedliche Wechselkurse haben.
+
+Diese Funktion stellt sicher, dass der Kreditorensaldo in der Kreditorenwährung erfasst wird, wenn die Spesenabrechnung gebucht wird.
+
+1. Gehen Sie zu **Arbeitsbereiche** \> **Funktionenverwaltung**.
+2. In der Liste suchen und wählen Sie **Möglichkeit, Spesenverbindlichkeiten in Kreditorenwährung für Barzahlungsmethoden zu buchen**, und wählen Sie dann **Jetzt aktivieren**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
