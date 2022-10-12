@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112428"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621080"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations – Duales Schreiben-Zuordnungsversionen
 
@@ -48,14 +48,14 @@ Die folgenden Zuordnungen sind erforderliche Voraussetzungen für eine Project O
 | Projektfinanzierungsquelle (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. ||
 | Project-Integrationstabelle für Materialschätzungen (msdyn\_estimatelines) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
 | Projektrechnungsvorschläge V2 (Rechnungen) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. ||
-| Tatsächliche Werte der Project Operations-Integration (msdyn_actuals) | 1.0.0.14 | Für die Bereitstellung nicht erforderlich. ||
+| Tatsächliche Werte der Project Operations-Integration (msdyn_actuals) | 1.0.0.15 | Für die Bereitstellung nicht erforderlich. |10.0.29 oder höher|
 | Vertragszeilenmeilensteine für die Integration von Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. ||
 | Project Operations-Integrationsentität für Spesenvorkalkulationen (msdyn_estimatelines) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. ||
 | Project Operations-Integritätsentität für Stundenvorkalkulationen (msdyn_resourceassignments) | 1.0.0.5 | Für die Bereitstellung nicht erforderlich. ||
 | Exportentität für Projektkostenkategorien der Project Operations-Integration (msdyn_expensecategories) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. ||
 | Exportentität für Projektkosten der Project Operations-Integration (msdyn_expenses) | 1.0.0.3 | Für die Bereitstellung nicht erforderlich. ||
-| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn_projectvendorinvoices) | 1.0.0.1 | Für die Bereitstellung nicht erforderlich. |10.0.26 oder höher|
-| Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. | 10.0.26 oder höher |
+| Project Operations-Integrationsprojektanbieter-Rechnungsexportentität (msdyn_projectvendorinvoices) | 1.0.0.2 | Für die Bereitstellung nicht erforderlich. |10.0.29 oder höher|
+| Project Operations-Integrationsprojektanbieter-Rechnungszeilenexportentität (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Für die Bereitstellung nicht erforderlich. | 10.0.29 oder höher |
 | Projektressourcenrollen für alle Unternehmen (bookableresourcecategories) | 1.0.0.1 | Erfordert eine erste Synchronisierung für die Tabellenzuordnung, um die Ressourcenrollen des Projektmanagers und der Teammitglieder zu synchronisieren, die in der Dynamics 365 Dataverse Umgebung während der Bereitstellung ausgefüllt sind. Dataverse ist die Hauptquelle für die anfängliche Synchronisation. ||
 | Projektaufgaben (msdyn_projecttasks) | 1.0.0.4 | Für die Bereitstellung nicht erforderlich. ||
 | Projekttransaktionskategorien (msdyn_transactioncategories) | 1.0.0.0 | Für die Bereitstellung nicht erforderlich. ||
