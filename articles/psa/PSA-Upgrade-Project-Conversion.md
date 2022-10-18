@@ -1,9 +1,9 @@
 ---
-title: Funktionsänderungen für Project Service Automation auf Project Operations
+title: Konvertierungsprozess für die Projektplanung von Project Service Automation zu Project Operations
 description: Dieser Artikel gibt einen Überblick über die Änderungen der Funktionen für Microsoft Dynamics 365 Project Service Automation auf Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621241"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642567"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Funktionsänderungen für Project Service Automation auf Project Operations
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Konvertierungsprozess für die Projektplanung von Project Service Automation zu Project Operations
 
 Nachdem ein Projekt erfolgreich von Microsoft Dynamics 365 Project Service Automation 3.X auf Dynamics 365 Project Operations Lite aktualisiert wurde, ist die Bearbeitung von Projektaufgaben im Projektstrukturplan (PSP) des Aufgabenrasters nicht möglich. Kunden können die PSPs im Verfolgungsraster überprüfen, wo neue Felder hinzugefügt wurden, um alle Details bereitzustellen, die sich auf die Aufgabe beziehen. Für Projekte, bei denen Änderungen am PSP erforderlich sind, können Sie berechtigte Projekte selektiv in das neue „Project for the Web“-Planungsumgebung konvertieren.
 

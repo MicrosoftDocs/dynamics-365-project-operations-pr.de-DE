@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621244"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634804"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Neuigkeiten September 2022 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
 
@@ -35,6 +35,7 @@ Dieser Artikel gilt für die folgenden Komponenten und Versionen von Microsoft D
 | Ausgabenverwaltung | **Möglichkeit, Ausgabenverbindlichkeit in Kreditorenwährung zu buchen**<br>Mit dieser Funktion können Sie Ausgabenberichte in Kreditorenwährung für die Barzahlungsmethode buchen. | [Möglichkeit, Ausgabenverbindlichkeit in Kreditorenwährung zu buchen](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Projektbeschaffung | **Pay-When-Paid-Kreditorenzahlungen**<br>Diese Funktion ermöglicht die Verwendung der Funktion „Zahlung bei Zahlungsempfang“ (PWP) mit nicht vorrätigen Umgebungen in Project Operations. Es ermöglicht das Sperren/Einbehaltung der Kreditorenzahlungen auf der Grundlage von Bedingungen für die Einbehaltung, bis die Zahlung vom Kunden eingegangen ist. | [Pay-When-Paid-Kreditorenzahlungen](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Projektbeschaffung | **Projektbestellanforderungen**<br>Diese Funktion ermöglicht es Benutzern, projektbezogene Bestellungen in juristischen Personen zu erstellen, bei denen die Integration von Project Operations auf Dynamics 365 Customer Engagement aktiviert ist. Projektbestellungen können verwendet werden, um die Beschaffung von nicht vorrätigem Material für das Projekt durch Persona der Beschaffungsabteilung zu erfassen. Projektbestellungen werden nicht mit Dataverse synchronisiert. Sie können jedoch eine virtuelle Entität verwenden, um Projektbestellpositionen in Dataverse zur Information des Projektmanagers anzuzeigen. Projektbezogene Kreditorenrechnungskosten sind in die Entität „Projekt-Ist-Werte“ in Dataverse integriert. Projektkosten werden mithilfe der Project Operations-Integrationserfassung im untergeordneten Sachkonto des Projekts erfasst. | |
+|Projektplanung und -nachverfolgung|**Verwenden von Projektplanungs-APIs zur Durchführung von Vorgängen mit Entitäten der Zeitplanung** </br> </br>Die Bearbeitungs-API für Ressourcenzuweisungskonturen ermöglicht es Entwicklern, den Aufwand eines Aufgabenempfängers über jeden unterstützten Datumsbereich hinweg programmgesteuert anzugeben, um eine granularere Zeitphasen-Aufwandsplanung zu ermöglichen.|[Verwenden von Projektplanungs-APIs zur Durchführung von Vorgängen mit Entitäten der Zeitplanung](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations – Duales Schreiben-Kartenupdates
 

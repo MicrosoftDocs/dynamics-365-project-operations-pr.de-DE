@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932065"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655187"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Einen Projektstrukturplan (PSP) erstellen
 
@@ -112,6 +112,18 @@ Das Feld **Kategorie** enthält die Werte, die eine breitere Art der Arbeit ange
 Sie können den Zeitplan in Project Operations verwenden, um Vorgängerbeziehungen zwischen Aufgaben zu erstellen. Das Feld **Vorgänger** verwendet einen oder mehrere Werte, um die Aufgaben anzugeben, von denen eine Aufgabe abhängt. Wenn Vorgängerwerte einer Aufgabe zugewiesen werden, kann die Aufgabe erst beginnen, nachdem alle vorherigen Aufgaben abgeschlossen wurden. Aufgrund der Abhängigkeit wird das geplante Startdatum der Aufgabe auf das Datum zurückgesetzt, an dem die Vorgängeraufgaben abgeschlossen wurden.
 
 Der Aufgabenmodus hat keine Auswirkungen auf die Updates, die für das Start- und Enddatum vonVorgängern/abhängigen Aufgaben gemacht werden.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Verstehen der Auswirkungen von Dauer, Ressourcenkalendern und Projektkalendern auf Aufgaben
+Die Dauer einer Aufgabe ist definiert als die Anzahl der Arbeitsstunden zwischen der Startzeit des Startdatums und der Endzeit des Enddatums der Aufgabe.   Project for the Web definiert die Dauereinheiten für die Messung wie folgt:
+
+| **Maß der Dauer** | **Menge**|
+|----------------------------------------------------|----------------------|
+| Stunden pro Tag | 8 |
+| Stunden pro Woche |  40 |
+| Tage pro Monat |  20 |
+
+Nicht zugewiesene Aufgaben werden mithilfe des Projektkalenders geplant. Bei der anfänglichen Ressourcenzuweisung wird die Planung einer Aufgabe jedoch aktualisiert, sodass sie den Kalender der Ressource berücksichtigt. Nachträgliche Änderungen an einer Aufgabe, die eine Zuordnung hat, werden durch den [Planungsmodus](scheduling-modes.md) von dem Projekt. Weitere Informationen zum Einfluss von Kalendern auf Aufgaben finden Sie unter [Ressourcenkalender in Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) und [Aufgabenstartzeiten und Ihre Projekte!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Barrierefreiheit und Tastenkombinationen
 
