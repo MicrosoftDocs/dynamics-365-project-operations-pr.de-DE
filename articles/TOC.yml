@@ -1750,10 +1750,8 @@
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
             - name: Wie buche ich Ressourcen unverbindlich (App-Version 2.x)?
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: Wie passe ich den Projektphasen-Geschäftsprozessfluss an?
+            - name: Wie passe ich den Geschäftsprozessflow der Projektphasen an?
               href: psa/FAQ-customize-bpf.md
-            - name: Upgrade-Überlegungen für den Projektstrukturplan
-              href: psa/upgrade-considerations-tasks.md
         - name: Whitepapers
           href: psa/white-papers.md
         - name: Administratorhandbuch
