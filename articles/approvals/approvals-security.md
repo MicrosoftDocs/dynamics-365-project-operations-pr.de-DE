@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525360"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709396"
 ---
 # <a name="security-and-approvals"></a>Sicherheit und Genehmigungen
 
@@ -33,6 +33,6 @@ Um Nicht-Projektbeiträge zu genehmigen, müssen Sie der Vorgesetzte des Einreic
 > [!NOTE]
 > Die [Genehmigungssets](approval-sets.md)-Funktion muss aktiviert werden, bevor Sie die Projektgenehmiger-Admin-Funktion verwenden können.
 
-Die **Projektgenehmiger-Admin**-Sicherheitsrolle ermöglicht Benutzern das Umgehen von Richtlinien und die Genehmigung von Einträgen für alle Projekte. Durch die Zuweisung dieser Rolle wird die Validierungslogik umgangen, die eine Teammitgliedschaft und die Kennzeichnung als Genehmiger erfordert. Sie müssen Zugang zu den relevanten verbundenen Unternehmen haben, wie z. B. **Projekt**. Dieser Zugriff kann von jemandem zugewiesen werden, der die **Projektmanager**-Rolle hat.
+Die **Projektgenehmiger-Admin**-Sicherheitsrolle ermöglicht Benutzern das Umgehen von Richtlinien und die Genehmigung von Einträgen für alle Projekte. Durch die Zuweisung dieser Rolle wird die Validierungslogik umgangen, die eine Teammitgliedschaft und die Kennzeichnung als Genehmiger erfordert. Sie müssen über die Ihnen zugewiesenen Sicherheitsrollen Zugriff auf die entsprechenden Bezugstabellen haben, wie z.B. **Projekt**.
 
 Der SYSTEM-Benutzerkontext umgeht Validierungen auf die gleiche Weise wie der Project Approver Admin Sicherheitsrolle.
