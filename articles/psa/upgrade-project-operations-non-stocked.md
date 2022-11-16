@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709443"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736665"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgrade von Project Service Automation auf Project Operations
 
@@ -97,7 +97,7 @@ Nachdem Sie Ihre Anpassungen aktualisiert haben, um Project Operations sauber zu
     Je nach Datenmenge in der Umgebung kann das Upgrade mehrere Stunden dauern. Das Kernteam, das das Upgrade verwaltet, sollte entsprechend planen und das Upgrade außerhalb der Geschäftszeiten durchführen. In manchen Fällen sollte das Upgrade bei großem Datenvolumen am Wochenende durchgeführt werden. Die Entscheidung über die Planung sollte auf den Testergebnissen in niedrigeren Umgebungen basieren.
 
 3. Aktualisieren Sie benutzerdefinierte Lösungen nach Bedarf. Stellen Sie zu diesem Zeitpunkt alle Änderungen bereit, die Sie an Ihren Anpassungen im Abschnitt [Testen und Überarbeiten von Anpassungen](#testing-and-refactoring-customizations) in diesem Artikel vorgenommen haben.
-4. Gehen Sie zu **Einstellungen** \> **Lösungen** und wählen Sie zum Deinstallieren die Lösung **Project Operations Veraltete Komponenten**.
+4. Gehen Sie zu **make.powerapps.com**, wählen Sie Ihre Umgebung aus der Dropdown-Liste oben rechts im Portal aus, wählen Sie **Lösungen** und wählen Sie im linken Menü die **Project Operations weraltete Komponenten** Lösung und dann **Deinstallieren** aus.
 
     Diese Lösung ist eine temporäre Lösung, die das vorhandene Datenmodell und die Komponenten enthält, die während des Upgrades vorhanden sind. Durch das Entfernen dieser Lösung entfernen Sie alle Felder und Komponenten, die nicht mehr verwendet werden. Auf diese Weise tragen Sie dazu bei, die Schnittstelle zu vereinfachen und die Integration und Erweiterung zu erleichtern.
     
