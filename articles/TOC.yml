@@ -56,17 +56,21 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Ausgabenverwaltungsintegration
               href: environment/resource-dual-write-expense.md
-            - name: Zuliefererrechnungsintegration
+            - name: Einbindung von Zuliefererrechnungen
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Dynamics 365 Project Operations deinstallieren
           href: environment/uninstall-project-operations.md
-    - name: Neuigkeiten
+    - name: Neuerungen
       items:
-        - name: September 2022 – Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: "November\_2022\_– Project Operations in Anwendungsfällen mit Ressourcen/ohne Bestand"
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Archiv
           items:
-            - name: "August\_2022\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
+            - name: "Oktober\_2022\_– Project Operations in Anwendungsfällen mit Ressourcen/ohne Bestand"
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: "September 2022\_– Project Operations in Anwendungsfällen mit Ressourcen/ohne Bestand"
+              href: whats-new/whats-new-sept-2022-resource-based.md
+            - name: "August\_2022\_– Project Operations in Anwendungsfällen mit Ressourcen/ohne Bestand"
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: "Juli\_2022\_– Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen"
               href: whats-new/whats-new-july-2022-resource-based.md
@@ -122,97 +126,95 @@
               href: sales/sales-currency.md
             - name: Organisationseinheiten
               href: sales/OrgUnits.md
-        - name: Projektleads verwalten
+        - name: Projektbasierte Leads verwalten
           href: sales/manage-leads.md
-        - name: Projektverkaufschancen verwalten
+        - name: Projektbasierte Verkaufschancen verwalten
           items:
-            - name: Projektverkaufschancen verwalten – Übersicht
+            - name: Übersicht über die Verwaltung von Projektverkaufschancen
               href: sales/manage-project-based-opportunities.md
-            - name: Kopfzeilendetails für projektbasierte Verkaufschancen
+            - name: Kopfzeileninformationen bei projektbasierten Verkaufschancen
               href: sales/opportunity-header.md
             - name: Projektbasierte Verkaufschancenpositionen
               href: sales/project-based-lines.md
-            - name: Projektangebote aus Verkaufschancen erstellen
+            - name: Angebote aus Projektverkaufschancen erstellen
               href: sales/link-quotes-opportunities.md
-            - name: Projektbasierte Verkaufschancen kopieren
+            - name: Projektverkaufschancen kopieren
               href: sales/copy-project-based-opportunity.md
-            - name: Eine Projektverkaufschance schließen
+            - name: Projektverkaufschance schließen
               href: sales/close-opportunity.md
-        - name: Projektangebote verwalten
+        - name: Projektbasierte Angebote verwalten
           items:
-            - name: Projektangebote verwalten – Übersicht
+            - name: Übersicht über die Verwaltung von Projektangeboten
               href: pro/sales/manage-quotes-sales.md
             - name: 'Konzepte, die nur für projektbasierte Angebote gelten'
               href: sales/quotes-key-concepts.md
-            - name: Kopfzeilendetails für projektbasierte Angebote
+            - name: Kopfzeileninformationen bei projektbasierten Angeboten
               href: sales/quote-values-budget-limits-contract.md
-            - name: Mehrere Kunden in einem Projektangebot verwalten
+            - name: Mehrere Kunden bei einem projektbasierten Angebot verwalten
               href: sales/manage-multiple-customers-quote.md
-            - name: Projektpreislisten in einem Angebot verwalten
+            - name: Projektpreislisten in Projektangeboten
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Projektbasierte Angebotspositionen
               items:
-                - name: Projektbasierte Angebotspositionen – Übersicht
+                - name: Übersicht über Projektangebotspositionen
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Mehrere Kunden in projektbasierten Angebotspositionen verwalten
+                - name: Mehrere Kunden bei projektbasierten Angebotspositionen verwalten
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Projekte und Aufgaben projektbasierten Angebotspositionen zuordnen
+                - name: Projektangebotspositionen Projekte und Aufgaben zuordnen
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Kostenpflichtige Komponenten für projektbasierte Angebotspositionen konfigurieren
+                - name: Kostenpflichtige Komponenten in Projektangebotspositionen konfigurieren
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Die kostenpflichtigen Komponenten einer Projektangebotsposition konfigurieren
-                  href: sales/configure-chargeable-quoteline.md
-                - name: Eine Projektangebotsposition kalkulieren
-                  href: sales/create-estimate-quote-line.md
-                - name: Schätzungen aus einem Projekt in eine projektbasierte Angebotsposition importieren
-                  href: sales/import-estimate-quote-line.md
-                - name: Rechnungszeitpläne für projektbasierte Angebotspositionen
+                - name: Projektangebotsposition kalkulieren
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Schätzungen aus einem Projekt in eine Projektangebotsposition importieren
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Rechnungszeitpläne zu Projektangebotspositionen
                   href: sales/invoice-schedule-quote-line.md
             - name: Projektangebote kopieren
               href: sales/lose-quote.md
             - name: Projektangebot aktivieren und überarbeiten
               href: sales/activation-and-revision.md
-            - name: Projektangebote schließen
+            - name: Projektbasierte Angebote schließen
               href: sales/win-quote.md
-        - name: Projektverträge verwalten
+        - name: Projektbasierte Verträge verwalten
           items:
-            - name: Projektverträge verwalten – Übersicht
+            - name: Projektverträge verwalten
               href: pro/sales/manage-contracts-sales.md
             - name: 'Konzepte, die nur für projektbasierte Verträge gelten'
               href: sales/contracts-key-concepts.md
-            - name: Kopfzeilendetails für projektbasierte Verträge
+            - name: Kopfzeileninformationen bei projektbasierten Verträgen
               href: sales/project-contract-settings.md
-            - name: Projektpreislisten in Projektverträgen verwalten
+            - name: Projektpreislisten in projektbasierten Verträgen verwalten
               href: sales/contracts-manage-project-price-lists.md
-            - name: Mehrere Kunden in Projektverträgen verwalten
+            - name: Mehrere Kunden in projektbasierten Verträgen verwalten
               href: sales/manage-multiple-customers-contract.md
             - name: Projektbasierte Vertragszeilen
               items:
-                - name: Projektbasierte Vertragszeilen – Übersicht
+                - name: Übersicht über Projektvertragszeilen
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Mehrere Kunden in projektbasierten Vertragszeilen verwalten
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Projekte und Aufgaben in einer Projektvertragsposition zuordnen
+                - name: Projekte und Aufgaben einer Projektvertragszeile zuordnen
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Kostenpflichtige Komponenten für eine Projektvertragsposition konfigurieren
+                - name: Kostenpflichtige Komponenten einer Projektvertragszeile konfigurieren
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Eine Projektvertragszeile schätzen
+                - name: Projektbasierte Vertragszeile kalkulieren
                   href: sales/create-estimate-contract-line.md
-                - name: Schätzungen aus einem Projekt in eine projektbasierte Vertragszeile importieren
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Rechnungszeitpläne für projektbasierte Vertragszeilen erstellen
+                - name: Schätzungen aus einem Projekt in eine Projektvertragszeile importieren
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Rechnungszeitpläne zu einer projektbasierten Vertragszeile erstellen
                   href: sales/invoice-schedules-contract-line.md
             - name: Projektbasierte Verträge kopieren
               href: sales/copy-project-based-contracts-sales.md
-            - name: Einen Projektvertrag bestätigen
+            - name: Projektvertrag bestätigen
               href: pro/sales/confirm-contract-sales.md
             - name: Vorauszahlungen und Vorschüsse
               items:
-                - name: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge
+                - name: Vorauszahlungen und Projektverträge auf Vorschussbasis
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Einen Vorschusszeitplan einrichten
+                - name: Vorschusszeitplan einrichten
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Eine Ad-hoc-Vorauszahlung für einen Vertrag erstellen
+                - name: Ad-hoc-Vorauszahlung zu einem Projektvertrag erstellen
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preisgestaltung und Kalkulation
       items:
@@ -642,9 +644,11 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: 'Projektstatus synchronisieren, um den Eintrag für geschlossene Projekte zu verhindern'
           href: advanced-configuration/sync-project-status.md
-    - name: Upgrade ausführen
+        - name: Einrichtung der Währungsumrechnung zur Berechnung von Verkaufspreisen aus Kostensätzen
+          href: advanced-configuration/currencyconversion.md
+    - name: Upgrade durchführen
       items:
-        - name: Upgradeüberlegungen für moderne Genehmigungen
+        - name: Überlegungen zum Upgrade bei modernen Genehmigungen
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Project Operations-Apps
       items:
@@ -662,63 +666,67 @@
       items:
         - name: Lite-Bereitstellung – Übersicht
           href: pro/project-operations-overview-lite.md
-        - name: Für ein Vorschauabonnement anmelden – Lite
+        - name: "Zu einem Vorschauabonnement anmelden\_– Lite"
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations bereitstellen – Lite
+        - name: Project Operations Lite bereitstellen
           href: environment/lite-deployment.md
-        - name: "Demoeinrichtungs- und -konfigurationsdaten anwenden\_– Lite"
+        - name: "Demo-Einrichtungs- und -konfigurationsdaten anwenden\_– Lite"
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Sicherheitsmodell
           href: environment/security-model.md
-    - name: Neuigkeiten
+    - name: Neuerungen
       items:
-        - name: Neuigkeiten für September 2022 – Lite-Bereitstellung
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: "Neuerungen im November\_2022\_– Lite-Bereitstellung"
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Archiv
           items:
-            - name: "Neuigkeiten für August\_2022 – Lite-Bereitstellung"
+            - name: "Neuerungen im Oktober\_2022\_– Lite-Bereitstellung"
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: "Neuerungen im September 2022\_– Lite-Bereitstellung"
+              href: pro/whats-new/whats-new-sept-2022-lite.md
+            - name: "Neuerungen im August\_2022\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-aug-2022-lite.md
-            - name: "Neuigkeiten für Juli\_2022 – Lite-Bereitstellung"
+            - name: "Neuerungen im Juli\_2022\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-july-2022-lite.md
-            - name: "Neuigkeiten für Juni\_2022 – Lite-Bereitstellung"
+            - name: "Neuerungen im Juni\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: "Neuigkeiten zum Vorabzugang für den 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
+            - name: "Neuerungen zum Vorabzugang im 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-2021-early-access-lite.md
-            - name: "Neuigkeiten für Mai\_2022 – Lite-Bereitstellung"
+            - name: "Neuerungen im Mai\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-may-2022-lite.md
-            - name: "Neuigkeiten für April\_2022 – Lite-Bereitstellung"
+            - name: "Neuerungen im April\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-apr-2022-lite.md
-            - name: "Neuigkeiten für März\_2022 – Lite-Bereitstellung"
+            - name: "Neuerungen im März\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-mar-2022-lite.md
-            - name: Neuigkeiten für Februar 2022 – Lite-Bereitstellung
+            - name: Neuerungen im Februar 2022 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-feb-2022-lite.md
-            - name: Neuigkeiten für Dezember 2021 – Lite-Bereitstellung
+            - name: Neuerungen im Dezember 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-dec-2021-lite.md
-            - name: "Neuigkeiten für November\_2021\_– Lite-Bereitstellung"
+            - name: "Neuerungen im November\_2021\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-nov-2021-lite.md
-            - name: "Neuigkeiten für Oktober\_2021\_– Lite-Bereitstellung"
+            - name: "Neuerungen im Oktober\_2021\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-oct-2021-lite.md
-            - name: Neuigkeiten für September 2021 – Lite-Bereitstellung
+            - name: Neuerungen im September 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-sept-2021-lite.md
-            - name: "Neuigkeiten für August\_2021 – Lite-Bereitstellung"
+            - name: "Neuerungen im August\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-august-2021-lite.md
-            - name: "Neuigkeiten für Juli\_2021 – Lite-Bereitstellung"
+            - name: "Neuerungen im Juli\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-july-2021-lite.md
-            - name: "Neuigkeiten für Juni\_2021 – Lite-Bereitstellung"
+            - name: "Neuerungen im Juni\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-june-2021-lite.md
-            - name: "Neuigkeiten für Mai\_2021 – Lite-Bereitstellung"
+            - name: "Neuerungen im Mai\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-may-2021-lite.md
-            - name: "Neuigkeiten für April\_2021 – Lite-Bereitstellung"
+            - name: "Neuerungen im April\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-apr-2021-lite.md
-            - name: "Neuigkeiten für März\_2021 – Lite-Bereitstellung"
+            - name: "Neuerungen im März\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-mar-2021-lite.md
-            - name: Neuigkeiten für Februar 2021 – Lite-Bereitstellung
+            - name: Neuerungen im Februar 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-feb-2021-lite.md
-            - name: Neuigkeiten für Januar 2021 – Lite-Bereitstellung
+            - name: Neuerungen im Januar 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-jan-2021-lite.md
-            - name: Neuigkeiten für Dezember 2020 – Lite-Bereitstellung
+            - name: Neuerungen im Dezember 2020 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-dec-2020-lite.md
-            - name: Neuigkeiten für November 2020 – Lite-Bereitstellung
+            - name: Neuerungen im November 2020 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektvertriebsprozess
       items:
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Angebote aus Projektverkaufschancen erstellen
               href: sales/link-quotes-opportunities.md
-            - name: Projektbasierte Verkaufschancen kopieren
+            - name: Projektverkaufschancen kopieren
               href: sales/copy-project-based-opportunity.md
-            - name: Eine Projektverkaufschance schließen
+            - name: Projektverkaufschance schließen
               href: sales/close-opportunity.md
-        - name: Projektbasierte Angebote verwalten
+        - name: Projektangebote verwalten
           items:
-            - name: Projektbasierte Angebote – Übersicht
+            - name: Übersicht über Projektangebote
               href: pro/sales/manage-quotes-sales.md
             - name: 'Konzepte, die nur für Projektangebote gelten'
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Kopfzeilendetails für Projektangebote
+            - name: Kopfzeileninformationen bei Projektangeboten
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Mehrere Kunden in Projektangeboten
+            - name: Mehrere Kunden in Projektangeboten verwalten
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Projektpreislisten in Projektangeboten
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Komplexe Einheiten für produktbasierte Angebotspositionen verwalten
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Projektbasierte Angebotspositionen
+            - name: Projektangebotspositionen
               items:
-                - name: Projektbasierte Angebotspositionen – Übersicht
+                - name: Übersicht über Projektangebotspositionen
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Mehrere Kunden verwalten
+                - name: Mehrere Kunden in Projektangebotspositionen verwalten
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projekte und Aufgaben zuordnen
+                - name: Projektangebotspositionen Projekte und Aufgaben zuordnen
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Kostenpflichtige Komponenten konfigurieren
+                - name: Kostenpflichtige Komponenten in Projektangebotspositionen konfigurieren
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Eine projektbasierte Angebotsposition kalkulieren
+                - name: Projektangebotsposition kalkulieren
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Schätzung aus Projekt importieren
+                - name: Schätzungen aus einem Projekt in eine Projektangebotsposition importieren
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Rechnungszeitpläne verwalten
+                - name: Rechnungszeitpläne zu Projektangebotspositionen
                   href: sales/invoice-schedule-quote-line.md
-            - name: Projektbasierte Angebote kopieren
+            - name: Projektangebote kopieren
               href: sales/lose-quote.md
             - name: Projektangebot aktivieren und überarbeiten
               href: sales/activation-and-revision.md
-            - name: Projektbasierte Angebote schließen
+            - name: Projektangebote schließen
               href: pro/sales/win-quote-sales.md
-        - name: Projektbasierte Verträge verwalten
+        - name: Projektverträge verwalten
           items:
-            - name: Projektbasierte Verträge – Übersicht
+            - name: Übersicht über Projektverträge
               href: pro/sales/manage-contracts-sales.md
             - name: 'Konzepte, die nur für Projektverträge gelten'
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Kopfzeilendetails für Projektverträge
+            - name: Kopfzeileninformationen bei Projektverträgen
               href: pro/sales/project-contract-settings-sales.md
-            - name: Mehrere Kunden in Projektverträgen
+            - name: Mehrere Kunden in Projektverträgen verwalten
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Projektpreislisten in Projektverträgen
               href: sales/contracts-manage-project-price-lists.md
@@ -814,33 +822,33 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Komplexe Einheiten für produktbasierte Vertragszeilen verwalten
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Projektbasierte Vertragszeilen
+            - name: Projektvertragszeilen
               items:
-                - name: Projektbasierte Vertragszeilen – Übersicht
+                - name: Übersicht über Projektvertragszeilen
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Mehrere Vertragskunden verwalten
+                - name: Mehrere Kunden in Projektverträgen verwalten
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
-                - name: Projekte und Aufgaben einer Projektvertragsposition zuordnen
+                - name: Projekte und Aufgaben einer Projektvertragszeile zuordnen
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Kostenpflichtige Komponenten einer Projektvertragsposition konfigurieren
+                - name: Kostenpflichtige Komponenten einer Projektvertragszeile konfigurieren
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Eine projektbasierte Vertragszeile kalkulieren
+                - name: Projektvertragszeile schätzen
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: Schätzungen aus einem Projekt in eine Projektvertragsposition importieren
+                - name: Schätzungen aus einem Projekt in eine Projektvertragszeile importieren
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Rechnungszeitpläne für eine Projektvertragsposition verwalten
+                - name: Rechnungszeitpläne für eine Projektvertragszeile erstellen
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Projektverträge kopieren
               href: pro/sales/copy-project-contracts-sales.md
-            - name: Einen Projektvertrag bestätigen
+            - name: Projektvertrag bestätigen
               href: pro/sales/confirm-contract-sales.md
             - name: Vorauszahlungen und Vorschüsse
               items:
-                - name: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge – Lite
+                - name: Vorauszahlungen und Verträge auf Vorschussbasis
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Einen Vorschusszeitplan einrichten – Lite
+                - name: Zeitplan für Vorschüsse einrichten Zeitplan für Vorschüsse einrichten
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Eine Ad-hoc-Vorauszahlung für einen Vertrag erstellen – Lite
+                - name: Ad-hoc-Vorauszahlung zu einem Projektvertrag erstellen
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preisgestaltung und Kalkulation
       items:
@@ -1154,9 +1162,9 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projektrechnungsautomation konfigurieren
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Upgrade ausführen
+    - name: Upgrade durchführen
       items:
-        - name: Upgradeüberlegungen für moderne Genehmigungen
+        - name: Überlegungen zum Upgrade bei modernen Genehmigungen
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Project Operations-Apps
       items:
@@ -1184,45 +1192,51 @@
               href: prod-pma/project-tasks-template.md
         - name: Umgebungen bereitstellen
           items:
-            - name: Project Operations in Ihrer Finance-Umgebung aktualisieren
+            - name: Project Operations in Finance-Umgebung aktualisieren
               href: whats-new/ur5-nonstocked-installation.md
-    - name: Neuigkeiten
+    - name: Neuerungen
       items:
-        - name: "Neuigkeiten für September\_2022\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: "Neuerungen im Oktober 2022\_– Project Operations in Anwendungsfällen mit Bestand/Produktionsbezug"
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Archiv
           items:
-            - name: "Neuigkeiten für Juli\_2022\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im September\_2022\_– Project Operations in Anwendungsfällen mit Bestand/Produktionsbezug"
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+            - name: "Neuerungen im Juli\_2022\_– Project Operations in Anwendungsfällen mit Bestand/Produktionsbezug"
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-            - name: "Neuigkeiten für Juni\_2022\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im Juni\_2022\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
-            - name: "Neuigkeiten für Oktober 2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im Oktober 2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-            - name: "Neuigkeiten für September\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im September\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-            - name: "Neuigkeiten für Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-            - name: "Neuigkeiten für Mai\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im Mai\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-            - name: "Neuigkeiten für April\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im April\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-            - name: "Neuigkeiten für März\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuerungen im März\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-            - name: Neuigkeiten für Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+            - name: Neuerungen im Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
               href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-            - name: Neuigkeiten für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+            - name: Neuerungen im Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
               href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-            - name: Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+            - name: Neuerungen im November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
-    - name: Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung – Bereitstellungsübersicht
+    - name: Übersicht über die Bereitstellung von Project Operations in Anwendungsfällen mit Bestand/Produktionsbezug
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Übersicht über Projektmanagement und -buchhaltung
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projektbuchhaltung
+      items:
+        - name: Übersicht über Projektmanagement und -buchhaltung
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projektanpassungen
+          href: project-accounting/project-adjustments.md
     - name: Projektvertriebsprozess
       items:
         - name: Projektangebote
           href: prod-pma/project-quotations.md
-        - name: 'Ein Projektangebot bestätigen, aktualisieren und senden'
+        - name: 'Projektangebot bestätigen, aktualisieren und senden'
           href: prod-pma/confirm-update-send-project-quotation.md
         - name: Ein Angebot an ein Projekt übertragen
           href: prod-pma/transfer-quote-new-existing-project.md
@@ -1442,7 +1456,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Neuigkeiten
+    - name: Neuerungen
       items:
         - name: "Aktualisierter Veröffentlichungszeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
@@ -1532,11 +1546,11 @@
           href: psa/whats-new-ur-13.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 12, V3?'
           href: psa/whats-new-ur-12.md
-        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2021'
+        - name: 'Neuerungen oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2021'
           href: psa/whats-new-2021-wave1.md
-        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2020'
+        - name: 'Neuerungen oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2020'
           href: psa/whats-new-v3-2020-wave1.md
-        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, V3'
+        - name: 'Neuerungen oder Änderungen in Project Service Automation, V3'
           href: psa/whats-new-changed-v3.md
     - name: 'Upgrade von Project Service Automation (Appversion: Project Operations Lite 4.x)'
       items:
