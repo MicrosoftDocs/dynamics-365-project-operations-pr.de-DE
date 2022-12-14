@@ -1,27 +1,27 @@
 ---
-title: Rechnungszeitpläne für projektbasierte Angebotspositionen
+title: Rechnungszeitpläne für Projektangebotspositionen
 description: Dieser Artikel enthält Informationen über das Erstellen von Rechnungszeitplänen und Meilensteinen für Angebotszeilen.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918311"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825752"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Rechnungszeitpläne für projektbasierte Angebotspositionen
+# <a name="invoice-schedules-on-project-quote-lines"></a>Rechnungszeitpläne für Projektangebotspositionen
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-Eine projektbasierte Angebotsposition bietet die Möglichkeit, einen Rechnungszeitplan auszudrücken. Dies ist während der Angebotsphase optional, da die Anwendung die Rechnungsstellung eines Projekts nicht unterstützt, wenn es an eine Angebotsposition gebunden ist. Die Rechnungsstellung ist erst zulässig, nachdem das Angebot gewonnen wurde. Die einzige nachgelagerte Auswirkung der Erstellung eines Rechnungszeitplans während der Angebotsphase besteht darin, dass dieser Rechnungszeitplan an die projektbasierte Vertragszeile kopiert wird. Wenn Sie während der Angebotsphase keinen Rechnungszeitplan erstellen, können Sie dies in der projektbasierten Vertragszeile tun.
+Eine Projektangebotsposition bietet die Möglichkeit, einen Rechnungszeitplan auszudrücken. Dies ist während der Angebotsphase optional, da die Anwendung die Rechnungsstellung eines Projekts nicht unterstützt, wenn es an eine Angebotsposition gebunden ist. Die Rechnungsstellung ist erst zulässig, nachdem das Angebot gewonnen wurde. Die einzige nachgelagerte Auswirkung der Erstellung eines Rechnungszeitplans während der Angebotsphase besteht darin, dass dieser Rechnungszeitplan an die projektbasierte Vertragszeile kopiert wird. Wenn Sie während der Angebotsphase keinen Rechnungszeitplan erstellen, können Sie dies in der projektbasierten Vertragszeile tun.
 
 Insgesamt besteht der Zweck von Rechnungszeitplänen darin, die automatische Erstellung von Rechnungsentwürfen für eine projektbasierte Vertragszeile zu ermöglichen. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Erstellen eines Zeitplans für Zeit- und Materialrechnungen für eine projektbasierte Angebotsposition
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Erstellen eines Zeitplans für Zeit- und Materialrechnungen für eine Projektangebotsposition
 
 Wenn die Abrechnungsmethode für eine projektbasierte Angebotsposition Zeit und Material ist, generiert das System einen datumsbasierten Rechnungszeitplan. Führen Sie die folgenden Schritte aus, um automatisch einen datumsbasierten Rechnungszeitplan zu erstellen.
 
@@ -36,7 +36,7 @@ Wenn die Abrechnungsmethode für eine projektbasierte Angebotsposition Zeit und 
     - **Transaktionsabschnittsdatum** wird auf den Tag vor dem **Rechnungsdurchlaufdatum** eingestellt.
     - **Ausführungsstatus** wird automatisch auf **Nichtausführen** festgelegt. Wenn der automatische Rechnungserstellungsauftrag für ein bestimmtes Rechnungsdurchlaufdatum ausgeführt wird, wird dieses Feld entweder auf **Ausführen erfolgreich** oder **Ausführen fehlgeschlagen** aktualisiert.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Erstellen eines Zeitplans für Festpreisrechnungen für eine projektbasierte Angebotsposition
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Erstellen eines Zeitplans für Festpreisrechnungen für eine Projektsangebotsposition
 
 Wenn die projektbasierte Angebotsposition eine **Feste** Abrechnungsmethode hat, erstellt das System einen auf Meilensteinen basierenden Rechnungszeitplan. Führen Sie die folgenden Schritte aus, um diesen Zeitplan automatisch für einen festen Satz von Meilensteinen zu generieren, die für den Kalenderzeitraum gleichmäßig verteilt sind.
 

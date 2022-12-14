@@ -1,21 +1,21 @@
 ---
-title: Eine projektbasierte Angebotsposition kalkulieren
-description: Dieser Artikel beschreibt, wie Sie einen Kostenvoranschlag für eine projektbezogene Zeile erstellen können.
+title: Eine Projektangebotsposition kalkulieren
+description: Dieser Artikel beschreibt, wie Sie einen Kostenvoranschlag in einer Zeile erstellen können.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914355"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825986"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Eine projektbasierte Angebotsposition kalkulieren
+# <a name="estimate-a-project-quote-line"></a>Eine Projektangebotsposition kalkulieren
 
-_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
+_**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung Project Operations für Ressourcen/nicht vorrätige Szenarien_
 
 Eine projektbasierte Angebotsposition enthält Details, die bei der Schätzung der Kosten und potenziellen Einnahmen der mit der Lieferung der Angebotsposition verbundenen Arbeiten hilfreich sind.
 
@@ -24,7 +24,7 @@ Um eine projektbasierte Angebotsposition zu schätzen, wählen Sie in der projek
 - Erstellen Sie die Schätzung manuell direkt in der Angebotsposition mithilfe von Angebotspositionsdetails. 
 - Erstellen Sie ein Projekt und einen Projektplan und ordnen Sie das Projekt und die Aufgaben im Projekt der Angebotsposition zu. Der Prozess zum Importieren der Schätzungen im Projektplan in die Angebotsposition basierend auf den von Ihnen angegebenen Informationen wird aktiviert.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Schätzungen direkt aus einer projektbasierten Angebotsposition erstellen
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Schätzungen direkt aus einer Projektangebotsposition erstellen
 
 Um eine Schätzung für eine projektbasierte Angebotsposition zu erstellen, wählen Sie die Option **Angebotspositionsdetail**-Registerkarte. Die Position, die Sie auf dieser Registerkarte erstellen, fasst den angegebenen Wert für diese Angebotsposition zusammen. 
 
@@ -68,8 +68,7 @@ Für die Währung bei Angebotspositionsdetails für Kosten wird standardmäßig 
 
 Bei Rentabilitätsberechnungen wird der Betrag in den Angebotspositionsdetails für Kosten und Verkauf in die Basiswährung der Umgebung umgerechnet, um die geschätzte Gesamtspanne im Angebot anzugeben.
 
-> [!HINWEIS
-> > Währungsrundungsfehler und geänderte Margen können aufgrund fehlender datumswirksamer Wechselkurse auftreten. Verwenden Sie diese Berechnungen nur für Projektverträge, da es sich um Näherungswerte handelt und nicht für tatsächliche gesetzliche oder andere Berichte, die eine höhere Rundungsgenauigkeit und Kenntnis der Datumseffektivität für Wechselkurse erfordern.
+> [!Hinweis Währungsrundungsfehler und geänderte Margen können aufgrund fehlender datumswirksamer Wechselkurse auftreten. Verwenden Sie diese Berechnungen nur für Projektverträge, da es sich um Näherungswerte handelt und nicht für tatsächliche gesetzliche oder andere Berichte, die eine höhere Rundungsgenauigkeit und Kenntnis der Datumseffektivität für Wechselkurse erfordern.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Projektbasierte Verkaufschancen kopieren
+title: Projektverkaufschancen kopieren
 description: Dieser Artikel enthält Informationen über das Kopieren von projektbasierten Verkaufschancen in Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 0fe29918e14a944de7277639f752ad53513a7589
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8926131"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826127"
 ---
-# <a name="copy-project-based-opportunities"></a>Projektbasierte Verkaufschancen kopieren
+# <a name="copy-project-opportunities"></a>Projektverkaufschancen kopieren
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
 
 Projektverkaufschancen können ganz einfach kopiert werden, um neue Projektverkaufschancen zu erstellen. 

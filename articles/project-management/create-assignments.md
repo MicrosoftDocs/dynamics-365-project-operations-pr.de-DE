@@ -2,16 +2,16 @@
 title: Ressourcenzuweisungen erstellen
 description: In diesem Artikel erfahren Sie, wie Sie allgemeine und benannte Ressourcenzuweisungen erstellen.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 11/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 42dd2906ce8db8844bf4dea232f24aca58a5d951
+ms.sourcegitcommit: 9b1136d95f19cc039d675a4a1b0962ca3ec61646
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933491"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9811992"
 ---
 # <a name="create-resource-assignments"></a>Ressourcenzuweisungen erstellen
 
@@ -31,7 +31,7 @@ Wenn Sie ein generisches Teammitglied durch Aufgabenzuweisung erstellen, erstell
 4. Sie der Platzhalterressource bei Bedarf Aufgaben zuweisen, indem Sie die Ressource in der **Ressourcenauswahl** für die Aufgabe auswählen. Die unter **Teammitglieder** aufgelisteten Ressourcen.
 5. Wenn Sie die allgemeine Ressource zugewiesen haben, wählen Sie die allgemeine Ressource auf der Registerkarte **Team** aus und wählen Sie dann **Anforderung erstellen**, um eine Ressourcenanforderung für die generische Ressource zu erstellen.
 6. Wählen Sie **Buchen** für die allgemeine Ressource und verwenden Sie die Zeitplanübersicht, um eine echte Ressource zu suchen und zu buchen. Sie können die Anfrage für die Erfüllung von einem Ressourcen-Manager auch senden.
-7. Wenn die generische Ressource mit einer benannten Ressource vollständig erfüllt ist (die teilweise Erfüllung der Ressourcenanforderungen führt nicht zu einer Ressourcenzuweisung), wird die generische Ressource aus dem Team entfernt. Die Aufgabenzuweisungen für die allgemeine Ressource werden der benannten Ressource zugewiesen, die die Ressourcenanforderungen der allgemeinen Ressource erfüllt.
+7. Wenn die generische Ressource mit einer benannten Ressource vollständig ausgeführt wurde, wird die generische Ressource aus dem Team entfernt. (Die teilweise Erfüllung der Ressourcenanforderungen führt nicht zu einer Ressourcenzuweisung). Die Aufgabenzuweisungen für die generische Ressource werden den benannten Ressource zugewiesen, die die Ressourcenanforderung der generischen Ressource erfüllt hat.
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Zuweisen einer benannten Ressource aus der Liste aller buchbaren Ressourcen
 
@@ -41,5 +41,32 @@ Sie können das Suchfeld in der **Ressourcenauswahl** verwenden, um alle aktiven
 2. Geben Sie im Suchfeld einen Namen ein. Die Suchergebnisse für den Namen werden in die **Ressourcenauswahl** unter **Weitere Ressourcen** angezeigt.
 3. Wählen Sie die Ressource aus, die Sie der Aufgabe zuweisen möchten, oder wählen Sie den Ressourcennamen unter **Andere Teamressourcen**.
 
+## <a name="editing-resource-assignment-contours"></a>Bearbeiten der Konturen der Ressourcenzuweisung
+
+Wenn Ressourcen einem Vorgang im Zeitplan zugewiesen werden, wird ihr Aufwand standardmäßig linear auf jede Ressource verteilt, basierend auf den Arbeitszeiten dieser Ressource und dem Zeitplanmodus des Projekts. Ein Projektmanager kann das Ressourcenzuweisungsraster verwenden, um die Aufwandsschätzungen jeder Ressource zu verfeinern, die einem oder mehreren Vorgängen über die verschiedenen Zeitskalen hinweg zugewiesen ist. Diese Funktion hilft Projektmanagern, genauere Kosten- und Umsatzschätzungen zu erstellen, die von den Ressourcenzuweisungskonturen gesteuert werden, die generiert werden, wenn eine Ressource einem Vorgang zugewiesen wird. Darüber hinaus können Projektmanager den Ressourcenbedarf, der zum Erstellen des Bedarfs erforderlich ist, leichter in einem Ressourcenbedarf widerspiegeln.
+
+### <a name="navigation"></a>Navigation
+
+Um auf das Konturbearbeitungsraster zuzugreifen, wählt der Projektmanager zuerst die Registerkarte **Aufgaben** auf der Projekthauptseite und dann die **Zuweisungen** Tab.
+
+![Registerkarte „Zuweisungen“ auf der Registerkarte „Aufgaben“ der Projekt-Hauptseite.](media/AssignmentGrid.png)
+
+Das Raster unterstützt zwei Gruppierungsmethoden: **Gruppieren nach Ressource** und **Gruppieren nach Aufgabe**. Anders als in der Rasteransicht sind Spalten nicht konfigurierbar. Die einzigen sichtbaren Spalten sind **Zugewiesen zu**, **Aufgabenname**, **Zuweisungsbeginn**, **Zuweisungsende**, und **Zuweisungsaufwand**.
+
+Wenn das Gitter anfänglich gerendert wird, beginnt es bei der frühesten Zuweisungskontur. Wenn Ihr Zeitplan keine Aufgaben enthält, die Aufwand erfordern, ist das Raster leer und es wird nichts gerendert.
+
+![Leeres Zuordnungsraster.](media/emptyassignmentgrid.png)
+
+Wenn Sie Ihre Konturen und verschiedene Zeitskalen anzeigen möchten, stehen auch das schreibgeschützte Ressourcenzuweisungsraster und das Ressourcenabgleichsraster zur Verfügung.
+
+### <a name="resource-calendars"></a>Ressourcenkalender
+
+Die Fähigkeit, eine Kontur für einen bestimmten Tag zu bearbeiten, wird durch die Arbeitstage der Ressource geregelt, wie sie in ihrem Kalender widergespiegelt sind. Wenn eine Zelle für eine bestimmte Ressource deaktiviert ist, hat diese Ressource in diesem Zeitraum keine Arbeitstage.
+
+Die Konturen einer Ressource können sich über die aktuellen Start- und Enddaten der zugewiesenen Aufgabe hinaus erstrecken. Wenn eine Kontur so aktualisiert wird, dass sie nach dem spätesten Enddatum einer Aufgabe oder dem frühesten Startdatum einer Aufgabe liegt, wird das End- oder Startdatum der Aufgabe entsprechend geändert. Wenn jedoch eine Kontur so aktualisiert wird, dass sie vor dem Startdatum einer Aufgabe liegt, die mit einem Vorgänger verknüpft ist, schlägt die Aktualisierung fehl, da die Zuweisung dazu führt, dass die Aufgabe gestartet wird, bevor ihr Vorgänger abgeschlossen ist, und dieses Verhalten ist derzeit nicht der Fall unterstützt.
+
+### <a name="co-authoring"></a>Gemeinsame Dokumenterstellung
+
+Änderungen am Ressourcenzuweisungsraster werden automatisch in allen zugehörigen Ansichten widergespiegelt, einschließlich der Diagramm-, Zeitachsen-, Tafel- und Rasteransichten. Wenn mehrere Benutzer das Projekt gleichzeitig überprüfen, werden alle Änderungen, die ein Benutzer vornimmt, im Raster widergespiegelt. Umgekehrt werden alle Änderungen, die im Ressourcenzuweisungsraster vorgenommen werden, allen anderen Benutzern angezeigt, die das Projekt in derselben Sitzung anzeigen.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

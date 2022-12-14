@@ -1,17 +1,17 @@
 ---
-title: Angebote – Wichtige Konzepte – Lite
+title: Konzepte, die nur für Projektangebote gelten
 description: Dieser Artikel enthält Informationen über die Verwendung von Projektangeboten in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916977"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825892"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Konzepte, die nur für Projektangebote gelten
 
@@ -82,9 +82,13 @@ Rechnungszeitpläne sind für jede Angebotsposition spezifisch und optional. Rec
 
 Project Operations-Angebote basieren auf den Dynamics 365 Sales-Angeboten. Es gibt jedoch einige wichtige Unterschiede in der Funktionalität, die Sie beachten sollten:
 
-- Die Aktionen **Überarbeiten** und **Aktivieren** werden nicht unterstützt.
+
 - Project Operations-Angebote haben zwei verschiedene Arten von Positionen. Eine ist für Projekte und die andere für Produkte.
 - Project Operations-Angebote haben ihre eigenen Formular- und Benutzeroberflächenelemente, Geschäftsregeln, eine Geschäftslogik in Plug-Ins und clientseitige Skripte, die sie bei Verkaufsangeboten einzigartig machen.
+- In Verkaufsangeboten können Sie mehrere Aufträge einem Vertriebsangebot anfügen. In Project Operations können Sie nur einen Projektvertrag einem Projektangebot anfügen.
+- Wenn Sie ein Angebot gewinnen, kann die zugehörige Verkaufschance offen bleiben. Wenn ein Projektangebot gewonnen wird, wird die verknüpfte Verkaufschance geschlossen.
+- Ein Vertriebsangebot enthält einige Felder und Konzepte nicht, die in einem Projektangebot enthalten sind. Die Felder enthalten **Vertragseinheit**, **Kontomanager** und **Kontaktname für Rechnungsadresse**.  
+- **Typ**: Vertriebsangebote und Projektangebote werden ebenfalls über ein optionssatzbasiertes Feld namens **Typ** ermittelt. Für ein Verkaufsangebot hat dieses Feld den Wert **Elementbasiert**. Für ein Projektangebot hat es den Wert **Arbeitsbasiert**.
 
 Aus diesen Gründen wird nicht empfohlen, ein Verkaufsangebot und ein Project Operations-Angebot variabel zu verwenden.
 

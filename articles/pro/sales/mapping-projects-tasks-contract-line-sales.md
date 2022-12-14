@@ -1,23 +1,23 @@
 ---
-title: Projekte und Aufgaben einer projektbasierten Vertragszeile zuordnen – Lite
+title: Projekte und Aufgaben einer Projektvertragsposition zuordnen
 description: Dieser Artikel enthält Informationen über das Hinzufügen und Entfernen von Projekten und Aufgaben zu einer Vertragszeile.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932525"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825057"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projekte und Aufgaben einer projektbasierten Vertragsposition zuordnen 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Projekte und Aufgaben einer Projektvertragsposition zuordnen 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung Project Operations für Ressourcen/nicht vorrätige Szenarien_
 
-In projektbasierten Vertragszeilen können Sie der Vertragszeile bestimmte Aufgaben in einem Projekt zuordnen.
+In Projektsvertragszeilen können Sie der Vertragszeile bestimmte Aufgaben in einem Projekt zuordnen.
 
 Wenn Sie einer Vertragszeile bestimmte Aufgaben zuordnen, gelten die Abrechnungsmethode, die Gebührenoptionen, die nicht zu überschreitenden Grenzwerte und die in der Vertragszeile definierten Kunden nur für diese bestimmten Aufgaben.
 
@@ -25,7 +25,7 @@ Wenn Sie ein Szenario haben, in dem eine Phase eines Projekts, z. B. die Prototy
 
 Alle anderen Phasen Ihres Projektstrukturplans (PSP) können der zeit- und materialbasierten Vertragszeile zugeordnet werden.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Aufgaben projektbasierten Vertragszeilen zuweisen
+## <a name="associate-tasks-to-project-contract-lines"></a>Aufgaben Projektvertragszeilen zuweisen
 
 Aufgaben können Vertragszeilen aus der **Fakturierbare Aufgaben**-Registerkarte auf der **Vertragszeile**-Seite oder der **Aufgabenabrechnung**-Registerkarte auf der **Projekt**-Seite zugeordnet werden.
 

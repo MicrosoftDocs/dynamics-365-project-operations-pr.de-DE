@@ -1,32 +1,32 @@
 ---
-title: Eine projektbasierte Vertragszeile kalkulieren – Lite
+title: Eine Projektvertragszeile schätzen
 description: Dieser Artikel enthält Informationen zur Schätzung einer projektbezogenen Vertragszeile.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914401"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824766"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Eine projektbasierte Vertragszeile kalkulieren – Lite
+# <a name="estimate-a-project-contract-line"></a>Eine Projektvertragszeile schätzen
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-In Dynamics 365 Project Operations enthält eine projektbasierte Vertragszeile Details, mit deren Hilfe die Kosten und potenziellen Einnahmen der für die Lieferung der Vertragszeile erforderlichen Arbeiten geschätzt werden können.
+In Dynamics 365 Project Operations enthält eine Projektvertragszeile Details, mit deren Hilfe die Kosten und potenziellen Einnahmen der für die Lieferung der Vertragszeile erforderlichen Arbeiten geschätzt werden können.
 
-Um eine projektbasierte Vertragszeile zu schätzen, gehen Sie zur **Vertragszeilendetail**-Registerkarte auf der projektbasierten **Vertragszeile**.  Es gibt zwei Möglichkeiten, eine Schätzung für eine projektbasierte Vertragszeile zu erstellen:
+Um eine Projektvertragszeile zu schätzen, gehen Sie zur **Vertragszeilendetail**-Registerkarte auf der projektbasierten **Vertragszeile**.  Es gibt zwei Möglichkeiten, eine Schätzung für eine projektbasierte Vertragszeile zu erstellen:
 
    - Erstellen Sie einen Kostenvoranschlag direkt in der Vertragszeile, indem Sie die Vertragszeilendetails manuell hinzufügen.
    - Erstellen Sie ein Projekt und einen Projektplan und ordnen Sie das Projekt und die Aufgaben der Vertragszeile des Projekts zu. Dies ermöglicht den Prozess, mit dem Sie die Projektplanvorkalkulation basierend auf den in der Vertragszeile enthaltenen Komponenten in die Vertragszeile importieren können.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Eine Schätzung direkt für eine projektbasierte Vertragszeile erstellen
 
-Um eine Schätzung direkt aus einer projektbasierten Vertragszeile zu erstellen, gehen Sie folgendermaßen vor:
+Um eine Schätzung direkt aus einer Projektvertragsposition zu erstellen, gehen Sie folgendermaßen vor:
 
 1. Gehen Sie zur Vertragszeile und wählen Sie die **Vertragszeilendetail**-Registerkarte aus. Die Zeilen, die Sie auf dieser Registerkarte erstellen, werden zusammengefasst und als **Vertragswert** für die **Vertragszeile** angezeigt. 
 2. Im **Vertragszeilendetails**-Unterraster wählen Sie **Neues Vertragszeilendetail**. Ein Schnellschieberegler wird geöffnet. Die folgenden Felder sind auf der Seite **Vertragszeilendetails** verfügbar:

@@ -1,23 +1,23 @@
 ---
-title: Projekte und Aufgaben einer projektbasierten Angebotsposition zuordnen
-description: Dieser Artikel informiert Sie darüber, wie Sie Projekte und Aufgaben einer projektbasierten Zeile zuordnen können.
+title: Projekte und Aufgaben Projektangebotspositionen zuordnen
+description: Dieser Artikel informiert Sie darüber, wie Sie Projekte und Aufgaben einer Projektangebotszeilen zuordnen können.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917161"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824269"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projekte und Aufgaben einer projektbasierten Angebotsposition zuordnen
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projekte und Aufgaben Projektangebotspositionen zuordnen
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
 
-In projektbasierten Angebotspositionen können Sie die spezifischen Aufgaben eines Projekts zuordnen, die bereits einer Angebotsposition zugeordnet sind.
+In Projektangebotspositionen können Sie die spezifischen Aufgaben eines Projekts zuordnen, die bereits einer Angebotsposition zugeordnet sind.
 
 Wenn Sie Aufgaben einer Angebotsposition zuordnen, gelten die folgenden Elemente, die Sie in der Angebotsposition definiert haben, nur für diese Aufgaben:
 

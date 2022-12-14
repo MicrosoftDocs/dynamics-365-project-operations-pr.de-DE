@@ -1,23 +1,23 @@
 ---
-title: Mehrere Kunden in einem Projektangebot verwalten
+title: Verwalten mehrerer Kunden in einem projektbasierten Angebot
 description: Dieser Artikel informiert Sie über die Arbeit an Angeboten, die mehrere Kunden betreffen, die das Projekt finanzieren.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928201"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825147"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Mehrere Kunden in einem Projektangebot verwalten
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Verwalten mehrerer Kunden in einem projektbasierten Angebot
 
-_**Gilt für:** Projektvorgänge für Ressourcen/nicht vorrätige Szenarien, Lite-Bereitstellung – Abwicklung der Proforma-Rechnungsstellung_
+_**Gilt für:** Project Operations für Szenarien basierend auf vorrätigen/nicht-vorrätigen Ressourcen_
 
-Projektangebote unterstützen das Szenario, in dem mehrere Kunden an dem Angebot beteiligt sind, die das Geschäft finanzieren. Die Registerkarte **Zusammenfassung** des Angebots enthält das **Potenzieller Kunde**-Feld, das den Hauptkunden des Geschäfts identifiziert. Andere Kunden für das Geschäft können auf der **Kunden**-Registerkarte des Projektangebots eingerichtet werden.
+Projektbasierte Angebote unterstützen das Szenario, in dem mehrere Kunden an dem Angebot beteiligt sind, die das Geschäft finanzieren. Die Registerkarte **Zusammenfassung** des Angebots enthält das **Potenzieller Kunde**-Feld, das den Hauptkunden des Geschäfts identifiziert. Andere Kunden für das Geschäft können auf der **Kunden**-Registerkarte des Projektangebots eingerichtet werden.
 
 Alle Angebotskunden auf der **Kunden**-Registerkarte des Projektangebots werden auf beliebigen **neuen** projektbasierten Angebotspositionen, die für das Angebot erstellt wurden, standardmäßig als Angebotspositionskunden angegeben. Vorhandene projektbasierte Angebotspositionen erben keine neuen Angebotskundendatensätze, die nach ihnen erstellt wurden.
 

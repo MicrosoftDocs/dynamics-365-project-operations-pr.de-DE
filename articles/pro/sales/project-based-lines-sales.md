@@ -1,29 +1,29 @@
 ---
-title: Projektbasierte Verkaufschancenpositionen – Lite
+title: Projektverkaufschancenzeilen
 description: Dieser Artikel enthält Informationen zu projektbasierten Verkaufschancen. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914263"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824954"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Projektbasierte Verkaufschancenpositionen – Lite
+# <a name="project-opportunity-lines"></a>Projektverkaufschancenzeilen 
 
 _**Gilt für:** Lite-Bereitstellung – Abschluss zur Proforma-Rechnungsstellung_
 
-Projektbasierte Verkaufschancenpositionen sind nur in projektbasierten Verkaufschancen verfügbar. Bei projektbasierten Verkaufschancendatensätze wird der Feldwert **Typ** auf **Arbeitsbasiert** festgelegt.
+Projektverkaufschancenpositionen sind nur in projektbasierten Verkaufschancen verfügbar. Bei projektbasierten Verkaufschancendatensätze wird der Feldwert **Typ** auf **Arbeitsbasiert** festgelegt.
 
-Projektbasierte Verkaufschancenpositionen sind die Positionen, die dem Kunden über ein Projekt bereitgestellt werden. Ein Projekt kann jedoch nicht an eine projektbasierte Verkaufschancenposition gebunden werden. Projekte können mit Positionen ab der Phase des **Angebots** verknüpft werden, da die Verkaufschance in der Regel in einer frühen Phase im Lebenszyklus eines Geschäfts auftritt. Die Festlegung, wie viele Projekte verwendet werden, um die Arbeit für den Kunden bereitzustellen, ist eine Entscheidung, die später in der Verkaufsphase getroffen wird. Sie können die Phase der Verkaufschance nutzen, um die einzelnen Bereitstellungskomponenten für den Kunden zu identifizieren. Die Entscheidungen bezüglich der tatsächlichen Anzahl der Projekte, die zur Bereitstellung dieser Komponenten verwendet werden, können verschoben werden, bis weitere Informationen über die Arbeit selbst bekannt sind.
+Projekverkaufschancenpositionen sind die Positionen, die dem Kunden über ein Projekt bereitgestellt werden. Ein Projekt kann jedoch nicht an eine projektbasierte Verkaufschancenposition gebunden werden. Projekte können mit Positionen ab der Phase des **Angebots** verknüpft werden, da die Verkaufschance in der Regel in einer frühen Phase im Lebenszyklus eines Geschäfts auftritt. Die Festlegung, wie viele Projekte verwendet werden, um die Arbeit für den Kunden bereitzustellen, ist eine Entscheidung, die später in der Verkaufsphase getroffen wird. Sie können die Phase der Verkaufschance nutzen, um die einzelnen Bereitstellungskomponenten für den Kunden zu identifizieren. Die Entscheidungen bezüglich der tatsächlichen Anzahl der Projekte, die zur Bereitstellung dieser Komponenten verwendet werden, können verschoben werden, bis weitere Informationen über die Arbeit selbst bekannt sind.
 
-Nachfolgend sind die Felder in einer projektbasierten Verkaufschancenposition aufgeführt:
+Nachfolgend sind die Felder in einer Projektverkaufschancenposition aufgeführt:
 
-| **Feld** | **Ort** | **Beschreibung** | **Downstream-Auswirkungen** |
+| **Feld** | **Position** | **Beschreibung des Dataflows** | **Downstream-Auswirkungen** |
 | --- | --- | --- | --- |
 | Produkttyp | Registerkarte „Allgemein“ (ausgeblendet) | Sie können eine der folgenden Optionen auswählen:</br>- Projektbasierter Service (nur vorhanden, wenn Dynamics 365 Project Operations installiert ist)</br>- Produkt (nur verfügbar, wenn Dynamics 365 Project Operations und Dynamics 365 Sales installiert sind) | Der Wert dieses Feldes wird auf **Projektbasierter Service** festgelegt, wenn Sie eine projektbasierte Verkaufschancenposition aus dem projektbasierten Positionsraster in der Verkaufschance erstellen. <br> Wenn Sie diesen Wert ändern oder überschreiben, wird die Projektfunktionalität für Ihre projektbasierten Positionen nicht aktiviert. |
 | Verkaufschance | Registerkarte „Allgemein“ | Dieses Feld ist schreibgeschützt und verweist auf den übergeordneten Verkaufschancendatensatz, zu dem diese Position gehört. | Es gibt keine nachgelagerten Auswirkungen über dieses Feld. |
