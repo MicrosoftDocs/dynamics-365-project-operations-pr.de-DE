@@ -688,45 +688,45 @@
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: "Neuerungen im Juli\_2022\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-july-2022-lite.md
-            - name: "Neuerungen im Juni\_2022 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für Juni\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: "Neuerungen zum Vorabzugang im 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
+            - name: "Neuigkeiten zum Vorabzugang für den 2.\_Veröffentlichungszyklus\_2021\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-2021-early-access-lite.md
-            - name: "Neuerungen im Mai\_2022 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für Mai\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-may-2022-lite.md
-            - name: "Neuerungen im April\_2022 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für April\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-apr-2022-lite.md
-            - name: "Neuerungen im März\_2022 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für März\_2022 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-mar-2022-lite.md
-            - name: Neuerungen im Februar 2022 – Lite-Bereitstellung
+            - name: Neuigkeiten für Februar 2022 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-feb-2022-lite.md
-            - name: Neuerungen im Dezember 2021 – Lite-Bereitstellung
+            - name: Neuigkeiten für Dezember 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-dec-2021-lite.md
-            - name: "Neuerungen im November\_2021\_– Lite-Bereitstellung"
+            - name: "Neuigkeiten für November\_2021\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-nov-2021-lite.md
-            - name: "Neuerungen im Oktober\_2021\_– Lite-Bereitstellung"
+            - name: "Neuigkeiten für Oktober\_2021\_– Lite-Bereitstellung"
               href: pro/whats-new/whats-new-oct-2021-lite.md
-            - name: Neuerungen im September 2021 – Lite-Bereitstellung
+            - name: Neuigkeiten für September 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-sept-2021-lite.md
-            - name: "Neuerungen im August\_2021 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für August\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-august-2021-lite.md
-            - name: "Neuerungen im Juli\_2021 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für Juli\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-july-2021-lite.md
-            - name: "Neuerungen im Juni\_2021 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für Juni\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-june-2021-lite.md
-            - name: "Neuerungen im Mai\_2021 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für Mai\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-may-2021-lite.md
-            - name: "Neuerungen im April\_2021 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für April\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-apr-2021-lite.md
-            - name: "Neuerungen im März\_2021 – Lite-Bereitstellung"
+            - name: "Neuigkeiten für März\_2021 – Lite-Bereitstellung"
               href: pro/whats-new/whats-new-mar-2021-lite.md
-            - name: Neuerungen im Februar 2021 – Lite-Bereitstellung
+            - name: Neuigkeiten für Februar 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-feb-2021-lite.md
-            - name: Neuerungen im Januar 2021 – Lite-Bereitstellung
+            - name: Neuigkeiten für Januar 2021 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-jan-2021-lite.md
-            - name: Neuerungen im Dezember 2020 – Lite-Bereitstellung
+            - name: Neuigkeiten für Dezember 2020 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-dec-2020-lite.md
-            - name: Neuerungen im November 2020 – Lite-Bereitstellung
+            - name: Neuigkeiten für November 2020 – Lite-Bereitstellung
               href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Projektvertriebsprozess
       items:
@@ -840,13 +840,13 @@
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Projektverträge kopieren
               href: pro/sales/copy-project-contracts-sales.md
-            - name: Projektvertrag bestätigen
+            - name: Einen Projektvertrag bestätigen
               href: pro/sales/confirm-contract-sales.md
             - name: Vorauszahlungen und Vorschüsse
               items:
-                - name: Vorauszahlungen und Verträge auf Vorschussbasis
+                - name: Vorauszahlungen oder auf dem Vorbehalt basierende Verträge
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Zeitplan für Vorschüsse einrichten Zeitplan für Vorschüsse einrichten
+                - name: Vorschusszeitplan einrichten
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Ad-hoc-Vorauszahlung zu einem Projektvertrag erstellen
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,9 +1162,9 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Projektrechnungsautomation konfigurieren
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Upgrade durchführen
+    - name: Upgrade ausführen
       items:
-        - name: Überlegungen zum Upgrade bei modernen Genehmigungen
+        - name: Upgradeüberlegungen für moderne Genehmigungen
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Project Operations-Apps
       items:
@@ -1204,25 +1204,25 @@
               href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: "Neuerungen im Juli\_2022\_– Project Operations in Anwendungsfällen mit Bestand/Produktionsbezug"
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-            - name: "Neuerungen im Juni\_2022\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuigkeiten für Juni\_2022\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
-            - name: "Neuerungen im Oktober 2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuigkeiten für Oktober 2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-            - name: "Neuerungen im September\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuigkeiten für September\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-            - name: "Neuerungen im Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuigkeiten für Juli\_2021\_– Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-            - name: "Neuerungen im Mai\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuigkeiten für Mai\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-            - name: "Neuerungen im April\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuigkeiten für April\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-            - name: "Neuerungen im März\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
+            - name: "Neuigkeiten für März\_2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung"
               href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-            - name: Neuerungen im Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+            - name: Neuigkeiten für Januar 2021 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
               href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-            - name: Neuerungen im Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+            - name: Neuigkeiten für Dezember 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
               href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-            - name: Neuerungen im November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
+            - name: Neuigkeiten für November 2020 – Project Operations für Szenarien basierend auf vorrätigen Ressourcen/Fertigung
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Übersicht über die Bereitstellung von Project Operations in Anwendungsfällen mit Bestand/Produktionsbezug
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -1456,7 +1456,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Neuerungen
+    - name: Neuigkeiten
       items:
         - name: "Aktualisierter Veröffentlichungszeitplan für Project Service\_3.x"
           href: psa/version-history-ps.md
@@ -1546,11 +1546,11 @@
           href: psa/whats-new-ur-13.md
         - name: 'Welche Neuerungen oder Änderungen bietet die Updateversion 12, V3?'
           href: psa/whats-new-ur-12.md
-        - name: 'Neuerungen oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2021'
+        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2021'
           href: psa/whats-new-2021-wave1.md
-        - name: 'Neuerungen oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2020'
+        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, Version V3.x Zyklus 1 2020'
           href: psa/whats-new-v3-2020-wave1.md
-        - name: 'Neuerungen oder Änderungen in Project Service Automation, V3'
+        - name: 'Neuigkeiten oder Änderungen in Project Service Automation, V3'
           href: psa/whats-new-changed-v3.md
     - name: 'Upgrade von Project Service Automation (Appversion: Project Operations Lite 4.x)'
       items:
